@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Latinx — Equity Language Commons</title>
+<style>
+  :root {
+    --bg: #faf6ef;
+    --bg-card: #fffdf8;
+    --bg-accent: #f3ece0;
+    --ink: #22201c;
+    --ink-soft: #5a564e;
+    --ink-muted: #8a857a;
+    --rule: #e5ddce;
+    --rule-soft: #efe8d9;
+    --accent: #a84c2a;       /* terracotta */
+    --accent-soft: #c87155;
+
+    /* recommendation badge colors */
+    --use-bg: #e4ede0;        --use-ink: #3a5a2e;
+    --care-bg: #f5ead1;       --care-ink: #7a5b15;
+    --nonpref-bg: #e4e6ea;    --nonpref-ink: #414956;
+    --avoid-bg: #f0d9d3;      --avoid-ink: #7a2a1a;
+    --contested-bg: #e7dff0;  --contested-ink: #4f3a6b;
+    --evolving-bg: #dfe7ef;   --evolving-ink: #2d4c6b;
+    --reclaimed-bg: #efe0d9;  --reclaimed-ink: #6b3a2d;
+  }
+
+  * { box-sizing: border-box; }
+  html { font-size: 17px; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    line-height: 1.6;
+    font-feature-settings: "kern", "liga", "ss01";
+  }
+
+  .site-header {
+    border-bottom: 1px solid var(--rule);
+    background: var(--bg);
+    padding: 1.2rem 0;
+  }
+  .site-header .wrap { max-width: 1000px; margin: 0 auto; padding: 0 1.5rem; display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; flex-wrap: wrap; }
+  .site-title {
+    font-family: "Charter", "Source Serif Pro", Georgia, serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    margin: 0;
+    color: var(--ink);
+  }
+  .site-title em { color: var(--accent); font-style: normal; font-weight: 500; }
+  .site-nav { display: flex; gap: 1.4rem; font-size: 0.9rem; color: var(--ink-soft); }
+  .site-nav a { color: inherit; text-decoration: none; border-bottom: 1px solid transparent; padding-bottom: 2px; }
+  .site-nav a:hover { border-bottom-color: var(--accent); color: var(--accent); }
+
+  main { max-width: 760px; margin: 0 auto; padding: 2.5rem 1.5rem 5rem; }
+
+  .breadcrumb {
+    font-size: 0.85rem;
+    color: var(--ink-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 1.2rem;
+  }
+  .breadcrumb a { color: var(--ink-soft); text-decoration: none; border-bottom: 1px solid var(--rule); padding-bottom: 1px; }
+  .breadcrumb a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+  h1.term {
+    font-family: "Charter", "Source Serif Pro", Georgia, serif;
+    font-size: 3.2rem;
+    font-weight: 500;
+    line-height: 1.05;
+    margin: 0 0 0.4rem;
+    letter-spacing: -0.01em;
+  }
+  .pronunciation {
+    font-family: "Charter", Georgia, serif;
+    font-style: italic;
+    color: var(--ink-soft);
+    font-size: 1.05rem;
+    margin-bottom: 1.2rem;
+  }
+  .aliases {
+    font-size: 0.95rem;
+    color: var(--ink-soft);
+    margin-bottom: 0.4rem;
+  }
+  .aliases strong { color: var(--ink); font-weight: 500; }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+  }
+  .tag {
+    font-size: 0.78rem;
+    padding: 0.2rem 0.65rem;
+    background: var(--bg-accent);
+    color: var(--ink-soft);
+    border-radius: 999px;
+    letter-spacing: 0.02em;
+  }
+
+  h2 {
+    font-family: "Charter", "Source Serif Pro", Georgia, serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 3rem 0 1rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid var(--accent);
+    display: inline-block;
+  }
+  h3 {
+    font-family: "Charter", Georgia, serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 1.5rem 0 0.5rem;
+  }
+
+  p { margin: 0 0 1rem; }
+  p strong { font-weight: 600; color: var(--ink); }
+
+  /* AT A GLANCE table */
+  .glance {
+    background: var(--bg-card);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    padding: 1.2rem 1.4rem;
+    margin-bottom: 0;
+  }
+  .glance-title {
+    font-family: "Charter", Georgia, serif;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--ink-muted);
+    margin: 0 0 0.9rem;
+    font-weight: 500;
+  }
+  .glance-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.93rem;
+  }
+  .glance-table th, .glance-table td {
+    text-align: left;
+    padding: 0.55rem 0;
+    border-bottom: 1px solid var(--rule-soft);
+    vertical-align: middle;
+  }
+  .glance-table tr:last-child td { border-bottom: none; }
+  .glance-table th {
+    font-family: "Charter", Georgia, serif;
+    font-weight: 500;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--ink-muted);
+    padding-bottom: 0.5rem;
+  }
+  .glance-table td.year { color: var(--ink-muted); font-variant-numeric: tabular-nums; width: 70px; }
+  .glance-table td.org  { font-weight: 500; }
+  .glance-table td.pos  { text-align: right; }
+
+  /* recommendation badges */
+  .badge {
+    display: inline-block;
+    font-size: 0.78rem;
+    padding: 0.22rem 0.65rem;
+    border-radius: 3px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+  }
+  .badge-use           { background: var(--use-bg);       color: var(--use-ink); }
+  .badge-use-with-care { background: var(--care-bg);      color: var(--care-ink); }
+  .badge-non-preferred { background: var(--nonpref-bg);   color: var(--nonpref-ink); }
+  .badge-avoid         { background: var(--avoid-bg);     color: var(--avoid-ink); }
+  .badge-contested     { background: var(--contested-bg); color: var(--contested-ink); }
+  .badge-evolving      { background: var(--evolving-bg);  color: var(--evolving-ink); }
+  .badge-reclaimed     { background: var(--reclaimed-bg); color: var(--reclaimed-ink); }
+
+  /* SOURCE CARDS */
+  .source-card {
+    background: var(--bg-card);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    padding: 1.4rem 1.6rem;
+    margin-bottom: 1.2rem;
+  }
+  .source-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.9rem;
+  }
+  .source-org {
+    font-family: "Charter", Georgia, serif;
+    font-size: 1.15rem;
+    font-weight: 500;
+    margin: 0;
+  }
+  .source-meta {
+    font-size: 0.85rem;
+    color: var(--ink-muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .source-meta .dot { color: var(--rule); margin: 0 0.4rem; }
+  .source-quote {
+    font-family: "Charter", "Source Serif Pro", Georgia, serif;
+    font-style: italic;
+    font-size: 1.05rem;
+    line-height: 1.55;
+    color: var(--ink);
+    border-left: 3px solid var(--accent);
+    padding-left: 1rem;
+    margin: 0.8rem 0 1rem;
+  }
+  .source-para {
+    font-size: 0.95rem;
+    color: var(--ink-soft);
+    margin: 0 0 0.6rem;
+  }
+  .source-loc {
+    font-size: 0.82rem;
+    color: var(--ink-muted);
+    font-style: italic;
+  }
+  .source-link {
+    font-size: 0.82rem;
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+  .source-link:hover { border-bottom-color: var(--accent); }
+  .confidence-flag {
+    display: inline-block;
+    font-size: 0.7rem;
+    padding: 0.1rem 0.5rem;
+    background: var(--bg-accent);
+    color: var(--ink-muted);
+    border-radius: 2px;
+    margin-left: 0.5rem;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+  }
+
+  /* SYNTHESIS */
+  .synthesis {
+    font-size: 1.05rem;
+    line-height: 1.7;
+  }
+  .synthesis ol { padding-left: 1.5rem; margin: 0.5rem 0 1rem; }
+  .synthesis ol li { margin-bottom: 0.6rem; }
+
+  /* AUDIENCE */
+  .audience {
+    background: var(--bg-accent);
+    border-radius: 4px;
+    padding: 1.4rem 1.6rem;
+  }
+  .audience dl { margin: 0; }
+  .audience dt {
+    font-weight: 600;
+    color: var(--ink);
+    margin-top: 1rem;
+    font-size: 0.93rem;
+  }
+  .audience dt:first-child { margin-top: 0; }
+  .audience dd {
+    margin: 0.3rem 0 0;
+    font-size: 0.95rem;
+    color: var(--ink-soft);
+    line-height: 1.55;
+  }
+
+  /* CONTEXT DATA */
+  .context {
+    background: var(--bg-card);
+    border-left: 4px solid var(--accent);
+    padding: 1.2rem 1.4rem;
+    font-size: 0.95rem;
+  }
+  .context-label {
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--ink-muted);
+    margin-bottom: 0.4rem;
+  }
+  .context-claim { font-weight: 500; font-size: 1.02rem; color: var(--ink); margin-bottom: 0.5rem; }
+  .context-relevance { color: var(--ink-soft); font-size: 0.9rem; margin-bottom: 0.5rem; line-height: 1.55; }
+  .context a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--accent-soft); font-size: 0.85rem; }
+
+  /* CROSS REFS */
+  .xref-list { list-style: none; padding: 0; margin: 0; }
+  .xref-list li {
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--rule-soft);
+  }
+  .xref-list li:last-child { border-bottom: none; }
+  .xref-term {
+    font-family: "Charter", Georgia, serif;
+    font-weight: 500;
+    font-size: 1.05rem;
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--accent-soft);
+  }
+  .xref-term:hover { border-bottom-style: solid; }
+  .xref-relation {
+    font-size: 0.78rem;
+    color: var(--ink-muted);
+    margin-left: 0.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .xref-note { margin: 0.3rem 0 0; font-size: 0.93rem; color: var(--ink-soft); }
+
+  /* HISTORY */
+  .history {
+    font-size: 0.95rem;
+    color: var(--ink-soft);
+    line-height: 1.65;
+  }
+
+  /* footer meta */
+  .term-meta {
+    margin-top: 4rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--rule);
+    font-size: 0.82rem;
+    color: var(--ink-muted);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
+  /* links in body prose */
+  a { color: var(--accent); }
+
+  /* source-org name links: subtle border, hover underline */
+  .glance-table td.org a,
+  .source-org a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 1px;
+    transition: border-bottom-color 120ms ease, color 120ms ease;
+  }
+  .glance-table td.org a:hover,
+  .source-org a:hover {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+  }
+
+  @media (max-width: 600px) {
+    html { font-size: 16px; }
+    h1.term { font-size: 2.4rem; }
+    main { padding: 1.5rem 1rem 3rem; }
+    .source-card { padding: 1.1rem 1.2rem; }
+    .audience, .glance { padding: 1.1rem 1.2rem; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <p class="site-title">Equity Language <em>Commons</em></p>
+    <nav class="site-nav">
+      <a href="#">Browse chapters</a>
+      <a href="#">A–Z index</a>
+      <a href="#">Sources</a>
+      <a href="#">About</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <div class="breadcrumb">
+    <a href="#">Race &amp; Ethnicity</a>  /  Latinx
+  </div>
+
+  <h1 class="term">Latinx</h1>
+  <p class="pronunciation">La-teen-ex · adjective / noun · capitalized</p>
+
+  <p class="aliases"><strong>Spelling variants:</strong> LatinX, latinx</p>
+  <p class="aliases"><strong>Related terms:</strong>
+    <a href="#">Latine</a>,
+    <a href="#">Latino</a>,
+    <a href="#">Latina</a>,
+    <a href="#">Hispanic</a>,
+    <a href="#">Chicanx</a>
+  </p>
+
+  <div class="tags">
+    <span class="tag">contested term</span>
+    <span class="tag">evolving usage</span>
+    <span class="tag">self-ID required</span>
+    <span class="tag">gender-inclusive</span>
+    <span class="tag">capitalization rule</span>
+  </div>
+
+  <!-- AT A GLANCE -->
+  <div class="glance">
+    <p class="glance-title">At a glance — 8 source positions, 2013–2026</p>
+    <table class="glance-table">
+      <thead>
+        <tr><th>Source</th><th>Year</th><th style="text-align:right">Position on <em>Latinx</em></th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="org"><a href="/sources/casey/">Annie E. Casey Foundation</a></td>
+          <td class="year">2013</td>
+          <td class="pos"><span class="badge badge-non-preferred">not yet in use</span></td>
+        </tr>
+        <tr>
+          <td class="org"><a href="/sources/seiu/">SEIU</a></td>
+          <td class="year">2020</td>
+          <td class="pos"><span class="badge badge-non-preferred">not yet in use</span></td>
+        </tr>
+        <tr>
+          <td class="org"><a href="/sources/sierra-club/">Sierra Club</a></td>
+          <td class="year">2021</td>
+          <td class="pos"><span class="badge badge-use-with-care">use with care</span></td>
+        </tr>
+        <tr>
+          <td class="org"><a href="/sources/ngc/">Native Governance Center</a></td>
+          <td class="year">2021</td>
+          <td class="pos"><span class="badge badge-use">use</span></td>
+        </tr>
+        <tr>
+          <td class="org"><a href="/sources/diversity-style-guide/">Diversity Style Guide</a></td>
+          <td class="year">2023</td>
+          <td class="pos"><span class="badge badge-evolving">evolving</span></td>
+        </tr>
+        <tr>
+          <td class="org"><a href="/sources/racial-equity-tools/">Racial Equity Tools</a></td>
+          <td class="year">2023</td>
+          <td class="pos"><span class="badge badge-evolving">evolving</span></td>
+        </tr>
+        <tr>
+          <td class="org"><a href="/sources/tja/">Trans Journalists Association</a></td>
+          <td class="year">2026 <span style="color:var(--ink-muted)">(updated 2023)</span></td>
+          <td class="pos"><span class="badge badge-use-with-care">use with care</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- SYNTHESIS -->
+  <h2>Synthesis</h2>
+  <div class="synthesis">
+    <p>"Latinx" is one of the most actively contested terms in progressive style guidance, but the contest is narrower than it looks. Every source that engages the term agrees on the floor: <strong>self-identification is primary.</strong> Where guides diverge is on the <strong>default</strong> — the term to use when individual preference is unknown or when writing about a group in the aggregate.</p>
+
+    <p>Three positions appear in the corpus:</p>
+    <ol>
+      <li><strong>Latino-default with Latinx on request</strong> — Sierra Club (2021), SEIU (2020). Treat Latinx as conditional on self-ID or partner-org usage.</li>
+      <li><strong>Latinx-default without qualification</strong> — Native Governance Center (2021) uses Latinx as its example term; Casey (2013) predates the debate.</li>
+      <li><strong>Defer only</strong> — TJA, DSG, Racial Equity Tools. No house default; the term is audience- and self-ID-dependent.</li>
+    </ol>
+
+    <p>The strongest signal in the data is a time trend: <strong>Latine is ascending, Latinx is stabilizing as "use with care."</strong> The 2021 guides (Sierra Club, NGC) show no awareness of Latine. The 2023–2024 guides (DSG, TJA) explicitly elevate Latine as an alternative that works better in Spanish. Latine's advantage is structural, not just preferential: it's pronounceable in Spanish, it follows the "e" gender-neutral pattern that Spanish speakers actually use, and it originated in Spanish-speaking LGBTQIA+ communities rather than as an English-internet coinage. Practitioners writing for Spanish-speaking or bilingual audiences after ~2023 should weight Latine over Latinx.</p>
+
+    <p>A separate call: <strong>Hispanic and Latino are not interchangeable, and later guides make that distinction explicit where earlier ones didn't.</strong> "Hispanic" foregrounds Spanish-language heritage (includes Spain, excludes Brazil). "Latino/a/x" foregrounds Latin American geographic origin (excludes Spain, includes Brazil). Sierra Club (2021) and DSG (2023) both spell out this distinction; the 2013 Casey guide, written before this distinction had settled into style-guide practice, treats the terms as equivalent approved nouns. Use one or the other with intent, not as synonyms.</p>
+
+    <p>The Pew 3%/23% data (2019) is the load-bearing empirical claim across the synthesis space: only 3% of U.S. Hispanic/Latino adults used Latinx for themselves. That gap — between progressive institutional uptake and community self-ID — is why Sierra Club, TJA, and DSG all converge on variations of "use with care" rather than unqualified endorsement.</p>
+  </div>
+
+  <!-- CONTEXT DATA -->
+  <h2>Context data</h2>
+  <div class="context">
+    <div class="context-label">Pew Research Center · December 2019</div>
+    <p class="context-claim">Only 3% of U.S. Hispanic/Latino adults use "Latinx" to describe themselves; 23% have heard of the term.</p>
+    <p class="context-relevance">Most-cited adoption data point in this space. Grounds the "use with care" posture that Sierra Club, TJA, and DSG all adopt — the gap between institutional usage and community self-identification is load-bearing for contextual guidance.</p>
+    <a href="https://www.pewresearch.org/hispanic/2020/08/11/about-one-in-four-u-s-hispanics-have-heard-of-latinx-but-just-3-use-it/" target="_blank">Read the Pew study →</a>
+  </div>
+
+  <!-- SOURCE BY SOURCE -->
+  <h2>Source by source</h2>
+  <p style="font-size:0.93rem; color:var(--ink-soft); margin-bottom:1.5rem;">Sorted earliest to latest so you can see how positions have moved over time.</p>
+
+  <!-- Casey 2013 -->
+  <div class="source-card">
+    <div class="source-head">
+      <h3 class="source-org"><a href="/sources/casey/">Annie E. Casey Foundation</a></h3>
+      <div class="source-meta">
+        2013
+        <span class="dot">•</span>
+        Race and Ethnicity
+        <span class="dot">•</span>
+        archived <span class="confidence-flag">source offline</span>
+      </div>
+    </div>
+    <p class="source-para"><span class="badge badge-non-preferred">Latinx not yet in use</span> &nbsp; Lists Hispanic and Latino as acceptable approved nouns. Pre-dates Latinx's mainstream emergence and the Hispanic/Latino distinction that later guides make explicit.</p>
+    <blockquote class="source-quote">"For nouns: African American, Asian American, black, Hispanic, Latino, Native American, non-Hispanic white, white (do not use Caucasian)."</blockquote>
+    <p class="source-loc">— p. 14, Race and Ethnicity</p>
+  </div>
+
+  <!-- SEIU 2020 -->
+  <div class="source-card">
+    <div class="source-head">
+      <h3 class="source-org"><a href="/sources/seiu/">SEIU</a></h3>
+      <div class="source-meta">
+        2020
+        <span class="dot">•</span>
+        A-to-Z word style
+        <span class="dot">•</span>
+        archived <span class="confidence-flag">source offline</span>
+      </div>
+    </div>
+    <p class="source-para"><span class="badge badge-non-preferred">Latinx not yet in use</span> &nbsp; Accepts Hispanic and Latino/Latina as house terms (both capitalized, Latina used when gender is known). No engagement with Latinx or Latine — stylebook predates peak Latinx debate.</p>
+    <blockquote class="source-quote">"Latino [always capitalized], Latina [if we know the person is female]. Hispanic [always capitalized]."</blockquote>
+    <p class="source-loc">— pp. 17, 19, A-to-Z word style</p>
+  </div>
+
+  <!-- Sierra Club 2021 (double card: two quotes from same source) -->
+  <div class="source-card">
+    <div class="source-head">
+      <h3 class="source-org"><a href="/sources/sierra-club/">Sierra Club</a></h3>
+      <div class="source-meta">
+        2021
+        <span class="dot">•</span>
+        Equity Language Guide
+        <span class="dot">•</span>
+        <a class="source-link" href="https://www.sierraclub.org/equity-language-guide" target="_blank">sierraclub.org ↗</a>
+        <span class="confidence-flag">archived · source page offline</span>
+      </div>
+    </div>
+    <p class="source-para"><span class="badge badge-use-with-care">use with care — on Latinx</span> &nbsp; Accepts Latinx as gender-neutral but treats it as non-default. Triggers for using Latinx over Latino/Latina: individual self-identification, partner-org usage, or explicit project-level conversation.</p>
+    <blockquote class="source-quote">"Some people use the term 'Latinx' as a gender-neutral alternative to Latino and Latina, but there is no consensus on its use. While the Sierra Club defaults to using 'Latino' or 'Latina,' you should use 'Latinx' if someone self-identifies as Latinx."</blockquote>
+    <p class="source-loc">— p. 13, Racial and Ethnic Identity → Preferred Terms for Racial Identity</p>
+
+    <div style="height:1px; background:var(--rule-soft); margin:1.2rem 0;"></div>
+
+    <p class="source-para"><span class="badge badge-non-preferred">non-preferred — on Hispanic</span> &nbsp; Draws the Hispanic/Latino distinction explicitly: Hispanic = Spanish-language descent, Latino/a/x = Latin American origin. House default is Latino over Hispanic.</p>
+    <blockquote class="source-quote">"The Sierra Club defaults to 'Latino,' not 'Hispanic,' to describe people of Latin American heritage or descent. As when discussing anyone's racial identity, however, you should use the language people use to describe themselves."</blockquote>
+    <p class="source-loc">— p. 13, Racial and Ethnic Identity → Hispanic discussion</p>
+  </div>
+
+  <!-- NGC 2021 -->
+  <div class="source-card">
+    <div class="source-head">
+      <h3 class="source-org"><a href="/sources/ngc/">Native Governance Center</a></h3>
+      <div class="source-meta">
+        2021
+        <span class="dot">•</span>
+        References to Racial, Ethnic, Cultural Groups
+        <span class="dot">•</span>
+        <a class="source-link" href="https://nativegov.org/resources/style-guide/" target="_blank">nativegov.org ↗</a>
+      </div>
+    </div>
+    <p class="source-para"><span class="badge badge-use">use</span> &nbsp; Uses Latinx as its example of a capitalized ethnic identifier; recommends individual identifiers over BIPOC aggregation. The guide's focus is Indigenous terminology, so Latinx appears in passing.</p>
+    <blockquote class="source-quote">"Capitalize other racial and ethnic identifiers, such as Asian and Latinx. Refer to individuals by their individual racial/ethnic/cultural/political identifier, rather than using BIPOC, whenever possible."</blockquote>
+    <p class="source-loc">— p. 4, References to Racial, Ethnic, Cultural (and Political) Groups</p>
+  </div>
+
+  <!-- Diversity Style Guide 2023 -->
+  <div class="source-card">
+    <div class="source-head">
+      <h3 class="source-org"><a href="/sources/diversity-style-guide/">Diversity Style Guide</a></h3>
+      <div class="source-meta">
+        2023 <span style="color:var(--ink-muted)">(entry updated Feb 2021)</span>
+        <span class="dot">•</span>
+        Latinx entry
+        <span class="dot">•</span>
+        <a class="source-link" href="https://www.diversitystyleguide.com/" target="_blank">diversitystyleguide.com ↗</a>
+      </div>
+    </div>
+    <p class="source-para"><span class="badge badge-evolving">evolving</span> &nbsp; Treats Latinx as a distinct entry alongside separately-maintained entries for Latine, Latina/Latino, and Hispanic. Describes etymology and phonetics; flags the 2019 Pew adoption data.</p>
+    <blockquote class="source-quote">"Pronounced 'La-teen-ex.' A gender-neutral word, increasingly used instead of Latino and/or Latina, to refer to people of Latin American cultural or ethnic identity. The -x suffix replaces the standard o/-a ending of nouns and adjectives, used to signify grammatical gender in Spanish."</blockquote>
+    <p class="source-loc">— Latinx entry</p>
+  </div>
+
+  <!-- Racial Equity Tools 2023 -->
+  <div class="source-card">
+    <div class="source-head">
+      <h3 class="source-org"><a href="/sources/racial-equity-tools/">Racial Equity Tools</a></h3>
+      <div class="source-meta">
+        2023
+        <span class="dot">•</span>
+        Glossary framing
+        <span class="dot">•</span>
+        <a class="source-link" href="https://www.racialequitytools.org/glossary" target="_blank">racialequitytools.org ↗</a>
+      </div>
+    </div>
+    <p class="source-para"><span class="badge badge-evolving">evolving</span> &nbsp; Doesn't define Latinx individually. Names the whole cluster (Latinx/Latino, Hispanic, African American/Black, etc.) as audience-dependent — geography, generation, political orientation all affect which term fits.</p>
+    <blockquote class="source-quote">"Whether to use the terms African American or Black, Hispanic American, Latinx or Latino, Native American or American Indian, and Pacific Islander or Asian American depends on a variety of conditions, including your intended audiences' geographic location, age, generation, and, sometimes, political orientation."</blockquote>
+    <p class="source-loc">— Introductory framing note</p>
+  </div>
+
+  <!-- TJA 2026 -->
+  <div class="source-card">
+    <div class="source-head">
+      <h3 class="source-org"><a href="/sources/tja/">Trans Journalists Association</a></h3>
+      <div class="source-meta">
+        2026 <span style="color:var(--ink-muted)">(entry updated Aug 2023)</span>
+        <span class="dot">•</span>
+        Glossary: Latinx, Latine (adj.)
+        <span class="dot">•</span>
+        <a class="source-link" href="https://transjournalists.org/style-guide/" target="_blank">transjournalists.org ↗</a>
+      </div>
+    </div>
+    <p class="source-para"><span class="badge badge-use-with-care">use with care</span> &nbsp; Groups Latinx and Latine under one entry, notes the rising preference for Latine among some communities, and applies strict self-identification deferral.</p>
+    <blockquote class="source-quote">"Terms used by some as gender-neutral alternatives to Latino or Latina. Some prefer <em>Latine</em> — or less commonly, <em>Latin@</em> — to <em>Latinx</em>. Defer to an individual's use and do not apply it to those who do not self-describe with it."</blockquote>
+    <p class="source-loc">— Glossary: Latinx, Latine (adj.)</p>
+  </div>
+
+  <!-- AUDIENCE NOTES -->
+  <h2>Audience notes</h2>
+  <div class="audience">
+    <dl>
+      <dt>Spanish-speaking / bilingual audiences</dt>
+      <dd><strong>Latine</strong> often preferred — pronounceable in Spanish, follows a grammatical gender-neutral pattern ("e" suffix), originated in Spanish-speaking LGBTQIA+ communities. "Latinx" is harder to pronounce in Spanish and is sometimes perceived as an English-internet construction imposed on Spanish-speaking communities.</dd>
+
+      <dt>Eastern US / Caribbean / South American heritage</dt>
+      <dd><strong>Hispanic</strong> more common in self-identification (per DSG, RET). Hispanic foregrounds Spanish-language heritage — includes Spain, excludes Brazil.</dd>
+
+      <dt>Western US / Mexican-American heritage</dt>
+      <dd><strong>Latino</strong> / <strong>Chicano</strong> more common. Latino foregrounds Latin American geographic origin — excludes Spain, includes Brazil.</dd>
+
+      <dt>Generational</dt>
+      <dd>Younger cohorts more likely to use <strong>Latinx</strong> or <strong>Latine</strong>. Older cohorts more likely to use <strong>Latino</strong> or <strong>Hispanic</strong>. Age strongly correlates with adoption (per Pew 2019).</dd>
+
+      <dt>Partner organizations / coalition work</dt>
+      <dd>Defer to the partner org's own style — don't impose Latinx on an org that uses Latino, or vice versa (per Sierra Club 2021).</dd>
+    </dl>
+  </div>
+
+  <!-- HISTORY -->
+  <h2>History</h2>
+  <p class="history">"Latinx" entered mainstream English-language progressive discourse in the mid-2010s as an online coinage, gender-inclusive by design. Peak adoption by US progressive institutions was 2018–2022. In the same window, "Latine" emerged from Spanish-speaking LGBTQIA+ communities as a structurally better fit for Spanish — pronounceable, grammatically consistent with Spanish's existing patterns. Pew's December 2019 finding that only 3% of U.S. Hispanic/Latino adults used "Latinx" for themselves crystallized the gap between institutional usage and community self-identification, and shaped how post-2020 style guides frame the term.</p>
+
+  <!-- CROSS REFS -->
+  <h2>Related terms</h2>
+  <ul class="xref-list">
+    <li>
+      <a class="xref-term" href="#">Latine</a>
+      <span class="xref-relation">alternative form</span>
+      <p class="xref-note">The ascending alternative. Pronounceable in Spanish, originated in Spanish-speaking LGBTQIA+ communities, gaining ground in 2023+ style guides. For post-2023 audiences and Spanish-language contexts, may be the stronger default than Latinx.</p>
+    </li>
+    <li>
+      <a class="xref-term" href="#">Latino / Latina</a>
+      <span class="xref-relation">gendered form</span>
+      <p class="xref-note">Standard pre-2015; still the default for Sierra Club, SEIU, and audiences where Latinx/Latine aren't in use.</p>
+    </li>
+    <li>
+      <a class="xref-term" href="#">Hispanic</a>
+      <span class="xref-relation">overlapping but distinct</span>
+      <p class="xref-note">Not interchangeable with Latino/Latinx. Foregrounds Spanish-language heritage (includes Spain, excludes Brazil); different definitional basis.</p>
+    </li>
+    <li>
+      <a class="xref-term" href="#">Chicanx / Chicano / Chicana</a>
+      <span class="xref-relation">subset identity</span>
+      <p class="xref-note">Subset identity specific to Mexican-American experience, politicized in ways Latinx is not.</p>
+    </li>
+    <li>
+      <a class="xref-term" href="#">BIPOC</a>
+      <span class="xref-relation">umbrella term</span>
+      <p class="xref-note">Both Sierra Club and NGC recommend using the specific identifier (Latinx) over BIPOC aggregation where possible.</p>
+    </li>
+  </ul>
+
+  <!-- META -->
+  <div class="term-meta">
+    <div><strong>Last reviewed:</strong> 24 April 2026</div>
+    <div><strong>Contributors:</strong> Jordan Krueger</div>
+    <div><a href="#" style="color:var(--ink-muted); text-decoration:none; border-bottom:1px dotted var(--ink-muted);">Suggest an edit</a></div>
+  </div>
+
+</main>
+
+</body>
+</html>

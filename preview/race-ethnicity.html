@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Race &amp; Ethnicity — Equity Language Commons</title>
+<style>
+  :root {
+    --bg: #faf6ef;
+    --bg-card: #fffdf8;
+    --bg-accent: #f3ece0;
+    --ink: #22201c;
+    --ink-soft: #5a564e;
+    --ink-muted: #8a857a;
+    --rule: #e5ddce;
+    --rule-soft: #efe8d9;
+    --accent: #a84c2a;
+    --accent-soft: #c87155;
+
+    --use-bg: #e4ede0;        --use-ink: #3a5a2e;
+    --care-bg: #f5ead1;       --care-ink: #7a5b15;
+    --nonpref-bg: #e4e6ea;    --nonpref-ink: #414956;
+    --avoid-bg: #f0d9d3;      --avoid-ink: #7a2a1a;
+    --contested-bg: #e7dff0;  --contested-ink: #4f3a6b;
+    --evolving-bg: #dfe7ef;   --evolving-ink: #2d4c6b;
+  }
+  * { box-sizing: border-box; }
+  html { font-size: 17px; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    line-height: 1.65;
+  }
+
+  .site-header { border-bottom: 1px solid var(--rule); padding: 1.2rem 0; }
+  .site-header .wrap { max-width: 1000px; margin: 0 auto; padding: 0 1.5rem; display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; flex-wrap: wrap; }
+  .site-title { font-family: "Charter", Georgia, serif; font-size: 1.1rem; font-weight: 500; margin: 0; }
+  .site-title em { color: var(--accent); font-style: normal; font-weight: 500; }
+  .site-nav { display: flex; gap: 1.4rem; font-size: 0.9rem; color: var(--ink-soft); }
+  .site-nav a { color: inherit; text-decoration: none; border-bottom: 1px solid transparent; padding-bottom: 2px; }
+  .site-nav a.current { color: var(--accent); border-bottom-color: var(--accent); }
+  .site-nav a:hover { border-bottom-color: var(--accent); color: var(--accent); }
+
+  /* Two-column layout for chapter */
+  .chapter-wrap { max-width: 1100px; margin: 0 auto; padding: 2.5rem 1.5rem 5rem; display: grid; grid-template-columns: 240px 1fr; gap: 3rem; }
+
+  .breadcrumb {
+    font-size: 0.85rem; color: var(--ink-muted);
+    text-transform: uppercase; letter-spacing: 0.08em;
+    margin-bottom: 1.2rem;
+    grid-column: 1 / -1;
+  }
+
+  /* SIDEBAR TOC */
+  aside.toc {
+    position: sticky;
+    top: 2rem;
+    align-self: start;
+    max-height: calc(100vh - 4rem);
+    overflow-y: auto;
+  }
+  .toc-title {
+    font-family: "Charter", Georgia, serif;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--ink-muted);
+    margin: 0 0 0.8rem;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  .toc-list { list-style: none; padding: 0; margin: 0; }
+  .toc-list li { margin-bottom: 0.4rem; }
+  .toc-list a {
+    color: var(--ink-soft);
+    text-decoration: none;
+    font-size: 0.92rem;
+    border-left: 2px solid transparent;
+    padding-left: 0.6rem;
+    margin-left: -0.6rem;
+    display: block;
+    transition: color 120ms ease, border-color 120ms ease;
+  }
+  .toc-list a:hover, .toc-list a.active {
+    color: var(--accent);
+    border-left-color: var(--accent);
+  }
+  .toc-list a.placeholder { color: var(--ink-muted); }
+
+  /* MAIN CONTENT */
+  article { min-width: 0; }
+
+  h1.chapter {
+    font-family: "Charter", Georgia, serif;
+    font-size: 3rem; font-weight: 500; line-height: 1.05;
+    margin: 0 0 0.4rem; letter-spacing: -0.01em;
+  }
+  .chapter-meta {
+    color: var(--ink-muted);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-bottom: 2rem;
+  }
+
+  .chapter-lede {
+    font-family: "Charter", Georgia, serif;
+    font-size: 1.25rem;
+    line-height: 1.55;
+    color: var(--ink);
+    margin: 0 0 2rem;
+    font-weight: 400;
+  }
+
+  h2 {
+    font-family: "Charter", Georgia, serif;
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin: 3rem 0 0.8rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 2px solid var(--accent);
+    display: inline-block;
+    scroll-margin-top: 2rem;
+  }
+
+  h3.term-heading {
+    font-family: "Charter", Georgia, serif;
+    font-size: 1.35rem;
+    font-weight: 500;
+    margin: 2rem 0 0.4rem;
+    scroll-margin-top: 2rem;
+  }
+  h3.term-heading a {
+    color: var(--ink);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 120ms ease, color 120ms ease;
+  }
+  h3.term-heading a:hover {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+  }
+  h3.term-heading.placeholder a { color: var(--ink-muted); pointer-events: none; }
+  h3.term-heading .status {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--ink-muted);
+    padding: 0.1rem 0.5rem;
+    background: var(--bg-accent);
+    border-radius: 3px;
+    font-weight: 500;
+    margin-left: 0.6rem;
+    vertical-align: middle;
+    font-family: inherit;
+  }
+
+  .term-summary {
+    font-size: 0.98rem;
+    color: var(--ink-soft);
+    margin: 0.3rem 0 0.8rem;
+    font-style: italic;
+  }
+
+  .term-body { font-size: 1.02rem; }
+  .term-body p { margin: 0 0 0.8rem; }
+
+  .positions-strip {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin: 0.6rem 0 0.9rem;
+    font-size: 0.85rem;
+    color: var(--ink-soft);
+    align-items: center;
+  }
+  .positions-strip strong { color: var(--ink); font-weight: 500; }
+
+  .badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    padding: 0.18rem 0.55rem;
+    border-radius: 3px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+  }
+  .badge-use { background: var(--use-bg); color: var(--use-ink); }
+  .badge-use-with-care { background: var(--care-bg); color: var(--care-ink); }
+  .badge-non-preferred { background: var(--nonpref-bg); color: var(--nonpref-ink); }
+  .badge-avoid { background: var(--avoid-bg); color: var(--avoid-ink); }
+  .badge-evolving { background: var(--evolving-bg); color: var(--evolving-ink); }
+  .badge-contested { background: var(--contested-bg); color: var(--contested-ink); }
+
+  .read-full {
+    font-size: 0.88rem;
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--accent-soft);
+    margin-top: 0.4rem;
+    display: inline-block;
+  }
+  .read-full:hover { border-bottom-style: solid; }
+
+  /* CHAPTER INTRO PANEL */
+  .chapter-intro {
+    background: var(--bg-card);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    padding: 1.4rem 1.6rem;
+    margin-bottom: 2rem;
+  }
+  .chapter-intro h3 {
+    font-family: "Charter", Georgia, serif;
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--ink-muted);
+    margin: 0 0 0.8rem;
+    font-weight: 600;
+  }
+  .chapter-intro p { margin: 0 0 0.8rem; font-size: 0.97rem; line-height: 1.6; }
+  .chapter-intro p:last-child { margin-bottom: 0; }
+
+  .placeholder-term {
+    padding: 1rem 1.2rem;
+    background: var(--bg-card);
+    border: 1px dashed var(--rule);
+    border-radius: 4px;
+    margin: 1rem 0;
+  }
+  .placeholder-term h3 { margin: 0 0 0.3rem; }
+  .placeholder-term p { margin: 0; font-size: 0.9rem; color: var(--ink-muted); font-style: italic; }
+
+  @media (max-width: 900px) {
+    .chapter-wrap { grid-template-columns: 1fr; gap: 1.5rem; }
+    aside.toc { position: static; max-height: none; border-bottom: 1px solid var(--rule); padding-bottom: 1.5rem; }
+  }
+  @media (max-width: 600px) {
+    html { font-size: 16px; }
+    h1.chapter { font-size: 2.3rem; }
+    .chapter-wrap { padding: 1.5rem 1rem 3rem; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <p class="site-title"><a href="/" style="color:inherit;text-decoration:none;">Equity Language <em>Commons</em></a></p>
+    <nav class="site-nav">
+      <a href="race-ethnicity.html" class="current">Browse chapters</a>
+      <a href="index.html">A–Z index</a>
+      <a href="sierra-club.html">Sources</a>
+      <a href="#">About</a>
+    </nav>
+  </div>
+</header>
+
+<div class="chapter-wrap">
+
+  <div class="breadcrumb"><a href="#" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--rule);padding-bottom:1px;">Chapters</a>  /  Race &amp; Ethnicity</div>
+
+  <aside class="toc">
+    <p class="toc-title">In this chapter</p>
+    <ul class="toc-list">
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#cross-cutting">Cross-cutting principles</a></li>
+      <li><a href="#african-american" class="placeholder">African American</a></li>
+      <li><a href="#aapi" class="placeholder">AAPI</a></li>
+      <li><a href="#asian" class="placeholder">Asian</a></li>
+      <li><a href="#bipoc" class="placeholder">BIPOC</a></li>
+      <li><a href="#black" class="placeholder">Black</a></li>
+      <li><a href="#chicanx" class="placeholder">Chicanx</a></li>
+      <li><a href="#hispanic" class="placeholder">Hispanic</a></li>
+      <li><a href="#latina" class="placeholder">Latina</a></li>
+      <li><a href="#latine" class="placeholder">Latine</a></li>
+      <li><a href="#latino" class="placeholder">Latino</a></li>
+      <li><a href="#latinx" class="active">Latinx</a></li>
+      <li><a href="#minority" class="placeholder">Minority</a></li>
+      <li><a href="#people-of-color" class="placeholder">People of color</a></li>
+      <li><a href="#white" class="placeholder">white</a></li>
+    </ul>
+  </aside>
+
+  <article>
+
+    <h1 class="chapter">Race &amp; Ethnicity</h1>
+    <p class="chapter-meta">15 terms · 1 published · 14 planned</p>
+
+    <p class="chapter-lede">Terminology across racial and ethnic identity. How source guides frame race, where they agree, where community self-identification changes what the "default" term should be, and how the ground has shifted since the mid-2010s.</p>
+
+    <!-- OVERVIEW -->
+    <h2 id="overview">Overview</h2>
+    <div class="chapter-intro">
+      <h3>What this chapter covers</h3>
+      <p>This chapter gathers the terms most progressive style guides treat as racial or ethnic identifiers, including umbrella terms (BIPOC, people of color), specific-identity terms (Black, Asian, Latinx/Latine, Indigenous), and the capitalization conventions that run through them. <strong>Indigenous &amp; Tribal Sovereignty</strong> is a separate chapter — most sources that treat Indigenous identity frame it through sovereignty, not race, and the commons follows that framing.</p>
+      <p>Sources differ more on <em>defaults</em> than on <em>acceptability</em>. Most terms in this chapter have multiple acceptable forms; the real question is which form a writer should use when the individual's preference isn't known. Source-by-source guidance lets readers see the range of positions and choose based on audience.</p>
+    </div>
+
+    <!-- CROSS-CUTTING -->
+    <h2 id="cross-cutting">Cross-cutting principles</h2>
+    <p>Three principles appear in nearly every source guide covering race and ethnicity:</p>
+    <ol>
+      <li><strong>Self-identification is primary.</strong> When an individual's preferred term is known, use it — regardless of what a house style would default to.</li>
+      <li><strong>Prefer specific identifiers over umbrella terms</strong> (Latinx over BIPOC; Japanese American over Asian) when the specific identifier is known and relevant.</li>
+      <li><strong>Capitalization is political.</strong> Most sources capitalize <em>Black</em>, <em>Indigenous</em>, <em>Native</em>, <em>Latinx</em>, <em>Asian</em>, etc., and leave <em>white</em> lowercase. The few exceptions are noted per-term.</li>
+    </ol>
+
+    <!-- placeholder for early A-M entries -->
+    <h3 class="term-heading placeholder" id="african-american"><a href="#">African American</a> <span class="status">planned</span></h3>
+    <div class="placeholder-term"><p>Entry in progress. Will cover the Black/African American distinction, capitalization, and the Casey 2013 vs. post-2020 shift in style-guide practice.</p></div>
+
+    <h3 class="term-heading placeholder" id="aapi"><a href="#">AAPI</a> <span class="status">planned</span></h3>
+    <div class="placeholder-term"><p>Entry in progress. Will cover AAPI vs. Asian American vs. specific national identifiers, with AAJA guidance as an anchor.</p></div>
+
+    <h3 class="term-heading placeholder" id="asian"><a href="#">Asian</a> <span class="status">planned</span></h3>
+    <div class="placeholder-term"><p>Entry in progress.</p></div>
+
+    <h3 class="term-heading placeholder" id="bipoc"><a href="#">BIPOC</a> <span class="status">planned</span></h3>
+    <div class="placeholder-term"><p>Entry in progress. Will cover the "use specific identifier over umbrella" guidance from Sierra Club and NGC, and the tension around whether "BIPOC" centers Black + Indigenous or flattens difference.</p></div>
+
+    <h3 class="term-heading placeholder" id="black"><a href="#">Black</a> <span class="status">planned</span></h3>
+    <div class="placeholder-term"><p>Entry in progress. Will cover the post-2020 shift to capitalized Black, with Casey (2013) as a pre-shift baseline.</p></div>
+
+    <h3 class="term-heading placeholder" id="chicanx"><a href="#">Chicanx / Chicano / Chicana</a> <span class="status">planned</span></h3>
+    <div class="placeholder-term"><p>Entry in progress.</p></div>
+
+    <h3 class="term-heading placeholder" id="hispanic"><a href="#">Hispanic</a> <span class="status">planned</span></h3>
+    <div class="placeholder-term"><p>Entry in progress. Will cover Hispanic's Spanish-language-descent framing vs. Latino's Latin-American-origin framing — Sierra Club and DSG both make this distinction explicit.</p></div>
+
+    <h3 class="term-heading placeholder" id="latina"><a href="#">Latina</a> <span class="status">planned</span></h3>
+    <div class="placeholder-term"><p>Entry in progress.</p></div>
+
+    <h3 class="term-heading placeholder" id="latine"><a href="#">Latine</a> <span class="status">planned</span></h3>
+    <div class="placeholder-term"><p>Entry in progress. Will cover the ascending Spanish-pronounceable alternative to Latinx, with TJA and DSG as the key 2023+ anchor sources.</p></div>
+
+    <h3 class="term-heading placeholder" id="latino"><a href="#">Latino</a> <span class="status">planned</span></h3>
+    <div class="placeholder-term"><p>Entry in progress.</p></div>
+
+    <!-- THE ONE REAL ENTRY: LATINX -->
+    <h3 class="term-heading" id="latinx"><a href="latinx.html">Latinx</a></h3>
+    <p class="term-summary">Gender-inclusive term of Latin American identity. Contested on its default usage; stabilizing as "use with care" while Latine ascends for Spanish-speaking audiences.</p>
+
+    <div class="positions-strip">
+      <strong>Positions across 8 sources:</strong>
+      <span class="badge badge-use">use</span>
+      <span class="badge badge-use-with-care">use with care</span>
+      <span class="badge badge-non-preferred">non-preferred</span>
+      <span class="badge badge-evolving">evolving</span>
+    </div>
+
+    <div class="term-body">
+      <p>Every source that engages Latinx agrees that <strong>self-identification is primary</strong>. Where sources diverge is on the default — what to use when the person's preference is unknown. Three positions appear: Latino-default with Latinx on request (Sierra Club, SEIU), Latinx-default without qualification (NGC), and defer-only (TJA, DSG, Racial Equity Tools).</p>
+
+      <p>The strongest signal in the data is a time trend: <strong>Latine is ascending, Latinx is stabilizing as "use with care."</strong> The 2021 guides show no awareness of Latine. The 2023–2024 guides explicitly elevate Latine as the alternative that works better in Spanish. Practitioners writing for Spanish-speaking or bilingual audiences after ~2023 should weight Latine over Latinx.</p>
+
+      <p><strong>Hispanic and Latino are not interchangeable, and later guides make that distinction explicit where earlier ones didn't.</strong> Hispanic foregrounds Spanish-language heritage (includes Spain, excludes Brazil); Latino foregrounds Latin American geographic origin (excludes Spain, includes Brazil).</p>
+
+      <a class="read-full" href="latinx.html">Read the full Latinx entry →</a>
+    </div>
+
+    <h3 class="term-heading placeholder" id="minority"><a href="#">Minority</a> <span class="status">planned · avoid</span></h3>
+    <div class="placeholder-term"><p>Entry in progress. Most sources recommend specific identifiers or BIPOC over "minority."</p></div>
+
+    <h3 class="term-heading placeholder" id="people-of-color"><a href="#">People of color</a> <span class="status">planned</span></h3>
+    <div class="placeholder-term"><p>Entry in progress. Covers the umbrella term, its limits, and when specific identifiers serve better.</p></div>
+
+    <h3 class="term-heading placeholder" id="white"><a href="#">white (capitalization)</a> <span class="status">planned</span></h3>
+    <div class="placeholder-term"><p>Entry in progress. Will cover the contested capitalization rule — most guides leave <em>white</em> lowercase; the rationales and the minority position.</p></div>
+
+  </article>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sierra Club — Equity Language Commons</title>
+<style>
+  :root {
+    --bg: #faf6ef;
+    --bg-card: #fffdf8;
+    --bg-accent: #f3ece0;
+    --bg-warn: #f6ecd9;
+    --ink: #22201c;
+    --ink-soft: #5a564e;
+    --ink-muted: #8a857a;
+    --rule: #e5ddce;
+    --rule-soft: #efe8d9;
+    --accent: #a84c2a;
+    --accent-soft: #c87155;
+    --warn: #a8791a;
+
+    /* recommendation badge colors — same as term page */
+    --use-bg: #e4ede0;        --use-ink: #3a5a2e;
+    --care-bg: #f5ead1;       --care-ink: #7a5b15;
+    --nonpref-bg: #e4e6ea;    --nonpref-ink: #414956;
+    --avoid-bg: #f0d9d3;      --avoid-ink: #7a2a1a;
+    --contested-bg: #e7dff0;  --contested-ink: #4f3a6b;
+    --evolving-bg: #dfe7ef;   --evolving-ink: #2d4c6b;
+  }
+
+  * { box-sizing: border-box; }
+  html { font-size: 17px; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    line-height: 1.6;
+    font-feature-settings: "kern", "liga", "ss01";
+  }
+
+  .site-header {
+    border-bottom: 1px solid var(--rule);
+    background: var(--bg);
+    padding: 1.2rem 0;
+  }
+  .site-header .wrap { max-width: 1000px; margin: 0 auto; padding: 0 1.5rem; display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; flex-wrap: wrap; }
+  .site-title {
+    font-family: "Charter", Georgia, serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    margin: 0;
+    color: var(--ink);
+  }
+  .site-title em { color: var(--accent); font-style: normal; font-weight: 500; }
+  .site-nav { display: flex; gap: 1.4rem; font-size: 0.9rem; color: var(--ink-soft); }
+  .site-nav a { color: inherit; text-decoration: none; border-bottom: 1px solid transparent; padding-bottom: 2px; }
+  .site-nav a:hover { border-bottom-color: var(--accent); color: var(--accent); }
+
+  main { max-width: 760px; margin: 0 auto; padding: 2.5rem 1.5rem 5rem; }
+
+  .breadcrumb {
+    font-size: 0.85rem;
+    color: var(--ink-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 1.2rem;
+  }
+  .breadcrumb a { color: var(--ink-soft); text-decoration: none; border-bottom: 1px solid var(--rule); padding-bottom: 1px; }
+  .breadcrumb a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+  .kicker {
+    font-family: "Charter", Georgia, serif;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--ink-muted);
+    margin: 0 0 0.6rem;
+    font-weight: 500;
+  }
+  h1.source {
+    font-family: "Charter", Georgia, serif;
+    font-size: 3.2rem;
+    font-weight: 500;
+    line-height: 1.05;
+    margin: 0 0 0.3rem;
+    letter-spacing: -0.01em;
+  }
+  .work-title {
+    font-family: "Charter", Georgia, serif;
+    font-size: 1.3rem;
+    font-style: italic;
+    color: var(--ink-soft);
+    margin: 0 0 1.5rem;
+  }
+
+  /* ACCESS PANEL — the middle-road posture note */
+  .access-panel {
+    background: var(--bg-warn);
+    border-left: 4px solid var(--warn);
+    border-radius: 4px;
+    padding: 1.3rem 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+  .access-panel-title {
+    font-family: "Charter", Georgia, serif;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--warn);
+    margin: 0 0 0.7rem;
+    font-weight: 600;
+  }
+  .access-panel p {
+    margin: 0 0 0.8rem;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--ink);
+  }
+  .access-panel p:last-child { margin-bottom: 0; }
+  .access-panel strong { font-weight: 600; }
+  .access-panel a { color: var(--accent); border-bottom: 1px solid var(--accent-soft); text-decoration: none; }
+  .access-panel a:hover { border-bottom-color: var(--accent); }
+
+  h2 {
+    font-family: "Charter", Georgia, serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 3rem 0 1rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid var(--accent);
+    display: inline-block;
+  }
+  p { margin: 0 0 1rem; }
+
+  /* PUBLICATION DETAILS — key/value grid */
+  .meta-grid {
+    background: var(--bg-card);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    padding: 1.3rem 1.5rem;
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    column-gap: 2rem;
+    row-gap: 0.6rem;
+    font-size: 0.93rem;
+  }
+  .meta-grid dt {
+    font-family: "Charter", Georgia, serif;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--ink-muted);
+    font-weight: 500;
+    align-self: center;
+  }
+  .meta-grid dd {
+    margin: 0;
+    color: var(--ink);
+    align-self: center;
+  }
+  .meta-grid dd a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--accent-soft);
+  }
+  .meta-grid dd a:hover { border-bottom-style: solid; }
+  .meta-grid .status-404 {
+    display: inline-block;
+    font-size: 0.78rem;
+    padding: 0.15rem 0.55rem;
+    background: #f0d9d3;
+    color: #7a2a1a;
+    border-radius: 3px;
+    font-weight: 600;
+    margin-left: 0.5rem;
+    letter-spacing: 0.02em;
+  }
+
+  /* VERSION HISTORY */
+  .version-history {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .version-item {
+    position: relative;
+    padding: 1.2rem 1.4rem 1.2rem 2.8rem;
+    background: var(--bg-card);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    margin-bottom: 0.8rem;
+  }
+  .version-item::before {
+    content: "";
+    position: absolute;
+    left: 1.2rem;
+    top: 1.5rem;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+  .version-item.current { border-left: 3px solid var(--accent); }
+  .version-item.older::before { background: var(--ink-muted); }
+  .version-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+  }
+  .version-year {
+    font-family: "Charter", Georgia, serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--ink);
+  }
+  .version-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 0.15rem 0.55rem;
+    border-radius: 3px;
+    font-weight: 600;
+  }
+  .version-label.current { background: var(--use-bg); color: var(--use-ink); }
+  .version-label.older { background: var(--bg-accent); color: var(--ink-muted); }
+  .version-note {
+    font-size: 0.92rem;
+    color: var(--ink-soft);
+    margin: 0.4rem 0 0;
+  }
+  .version-empty {
+    font-size: 0.9rem;
+    color: var(--ink-muted);
+    font-style: italic;
+    padding: 1rem 1.4rem;
+    background: var(--bg-card);
+    border: 1px dashed var(--rule);
+    border-radius: 4px;
+  }
+
+  /* CITING TERMS */
+  .citing-intro {
+    font-size: 0.93rem;
+    color: var(--ink-soft);
+    margin-bottom: 1.2rem;
+  }
+  .citing-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .citing-term {
+    background: var(--bg-card);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    padding: 1.2rem 1.4rem;
+    margin-bottom: 0.8rem;
+  }
+  .citing-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.6rem;
+  }
+  .citing-term-name {
+    font-family: "Charter", Georgia, serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--accent-soft);
+  }
+  .citing-term-name:hover { border-bottom-style: solid; }
+  .citing-quote {
+    font-family: "Charter", Georgia, serif;
+    font-style: italic;
+    font-size: 0.98rem;
+    color: var(--ink);
+    border-left: 3px solid var(--accent);
+    padding-left: 0.9rem;
+    margin: 0.6rem 0 0.6rem;
+    line-height: 1.5;
+  }
+  .citing-loc {
+    font-size: 0.82rem;
+    color: var(--ink-muted);
+    font-style: italic;
+  }
+
+  /* badges (shared) */
+  .badge {
+    display: inline-block;
+    font-size: 0.78rem;
+    padding: 0.22rem 0.65rem;
+    border-radius: 3px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+  }
+  .badge-use           { background: var(--use-bg);       color: var(--use-ink); }
+  .badge-use-with-care { background: var(--care-bg);      color: var(--care-ink); }
+  .badge-non-preferred { background: var(--nonpref-bg);   color: var(--nonpref-ink); }
+  .badge-avoid         { background: var(--avoid-bg);     color: var(--avoid-ink); }
+  .badge-contested     { background: var(--contested-bg); color: var(--contested-ink); }
+  .badge-evolving      { background: var(--evolving-bg);  color: var(--evolving-ink); }
+
+  /* ABOUT section */
+  .about {
+    font-size: 1.02rem;
+    line-height: 1.65;
+  }
+
+  /* footer meta */
+  .page-meta {
+    margin-top: 4rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--rule);
+    font-size: 0.82rem;
+    color: var(--ink-muted);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
+  a { color: var(--accent); }
+
+  @media (max-width: 600px) {
+    html { font-size: 16px; }
+    h1.source { font-size: 2.4rem; }
+    main { padding: 1.5rem 1rem 3rem; }
+    .meta-grid { grid-template-columns: 1fr; row-gap: 0.3rem; }
+    .meta-grid dt { margin-top: 0.5rem; }
+    .version-item { padding: 1rem 1.2rem 1rem 2.4rem; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <p class="site-title"><a href="/" style="color:inherit;text-decoration:none;">Equity Language <em>Commons</em></a></p>
+    <nav class="site-nav">
+      <a href="#">Browse chapters</a>
+      <a href="#">A–Z index</a>
+      <a href="#">Sources</a>
+      <a href="#">About</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <div class="breadcrumb">
+    <a href="#">Sources</a>  /  Sierra Club
+  </div>
+
+  <h1 class="source">Sierra Club</h1>
+  <p class="work-title">Equity Language Guide</p>
+
+  <!-- ACCESS PANEL — the middle-road posture -->
+  <div class="access-panel">
+    <p class="access-panel-title">⚑ Archived — original source offline</p>
+    <p>The Sierra Club's Equity Language Guide was publicly available at <strong>sierraclub.org/equity-language-guide</strong> in 2021. That page now returns a 404 and the guide does not appear to be available elsewhere on the Sierra Club site.</p>
+    <p>The commons holds a <strong>private preservation copy</strong> for citation verification — so that quotes cited here remain verifiable even when the original source goes offline. The full PDF is not publicly redistributed from this site. The Sierra Club holds copyright and has not granted reuse permission.</p>
+    <p>For reuse of this guide beyond fair-use citation, contact the Sierra Club directly: <a href="https://www.sierraclub.org/contact-us" target="_blank">sierraclub.org/contact-us</a></p>
+  </div>
+
+  <!-- ABOUT -->
+  <h2>About</h2>
+  <div class="about">
+    <p>The <strong>Sierra Club</strong> is the oldest and one of the largest grassroots environmental organizations in the United States, founded in 1892. In recent decades it has engaged publicly with the relationship between environmentalism and equity — including acknowledgment of its own founder John Muir's documented racist views — and the 2021 Equity Language Guide was part of that broader internal reckoning.</p>
+
+    <p>The <em>Equity Language Guide</em> (2021) is an internal-facing communications resource that covers terminology across 17 topic areas, including ableism, ageism, race and ethnicity, gender and sexuality, immigrants and refugees, tribal sovereignty and public lands, and the organization's own history on issues like immigration and conservation. It includes an explicit "On Our Opposition" section and a "Visual Imagery" chapter covering photo selection and tokenization.</p>
+
+    <p>The guide's scope extends beyond environmental communications — much of its guidance on race, gender, disability, and immigration is general-purpose and usable across progressive communications work.</p>
+  </div>
+
+  <!-- PUBLICATION DETAILS -->
+  <h2>Publication details</h2>
+  <dl class="meta-grid">
+    <dt>Work</dt>
+    <dd>Sierra Club Equity Language Guide</dd>
+
+    <dt>Published</dt>
+    <dd>2021</dd>
+
+    <dt>Format</dt>
+    <dd>PDF</dd>
+
+    <dt>Length</dt>
+    <dd>~40 pages, 17 topical sections</dd>
+
+    <dt>Copyright</dt>
+    <dd>© Sierra Club. No reuse license stated.</dd>
+
+    <dt>Original URL</dt>
+    <dd><a href="https://www.sierraclub.org/equity-language-guide" target="_blank">sierraclub.org/equity-language-guide</a> <span class="status-404">404 — page offline</span></dd>
+
+    <dt>Commons access</dt>
+    <dd>Private preservation copy (citation verification only)</dd>
+
+    <dt>Added to commons</dt>
+    <dd>April 2026</dd>
+  </dl>
+
+  <!-- VERSION HISTORY -->
+  <h2>Version history</h2>
+  <ul class="version-history">
+    <li class="version-item current">
+      <div class="version-head">
+        <span class="version-year">2021 edition</span>
+        <span class="version-label current">Current canonical</span>
+      </div>
+      <p class="version-note">The only version the commons holds. No predecessor editions located in research. This is the version all term entries cite until Sierra Club publishes an update.</p>
+    </li>
+  </ul>
+  <p style="font-size:0.88rem; color:var(--ink-muted); margin-top:1rem; font-style:italic;">When Sierra Club publishes a new edition, it will be added here as the new canonical version, with the 2021 edition preserved as history.</p>
+
+  <!-- CITING TERMS -->
+  <h2>Terms citing this source</h2>
+  <p class="citing-intro">Every term in the commons that draws on Sierra Club's Equity Language Guide. The commons is in its earliest days, so this list is short — it will grow as terms are added.</p>
+
+  <ul class="citing-list">
+    <li class="citing-term">
+      <div class="citing-head">
+        <a class="citing-term-name" href="latinx.html">Latinx</a>
+        <span class="badge badge-use-with-care">use with care</span>
+      </div>
+      <blockquote class="citing-quote">"Some people use the term 'Latinx' as a gender-neutral alternative to Latino and Latina, but there is no consensus on its use. While the Sierra Club defaults to using 'Latino' or 'Latina,' you should use 'Latinx' if someone self-identifies as Latinx."</blockquote>
+      <p class="citing-loc">— p. 13, Racial and Ethnic Identity → Preferred Terms for Racial Identity</p>
+    </li>
+
+    <li class="citing-term">
+      <div class="citing-head">
+        <a class="citing-term-name" href="latinx.html">Hispanic <span style="color:var(--ink-muted); font-size:0.85rem; font-style:italic;">(within Latinx entry)</span></a>
+        <span class="badge badge-non-preferred">non-preferred</span>
+      </div>
+      <blockquote class="citing-quote">"The Sierra Club defaults to 'Latino,' not 'Hispanic,' to describe people of Latin American heritage or descent. As when discussing anyone's racial identity, however, you should use the language people use to describe themselves."</blockquote>
+      <p class="citing-loc">— p. 13, Racial and Ethnic Identity → Hispanic discussion</p>
+    </li>
+  </ul>
+
+  <!-- META -->
+  <div class="page-meta">
+    <div><strong>Last reviewed:</strong> 24 April 2026</div>
+    <div><strong>Contributors:</strong> Jordan Krueger</div>
+    <div><a href="#" style="color:var(--ink-muted); text-decoration:none; border-bottom:1px dotted var(--ink-muted);">Suggest a correction</a></div>
+  </div>
+
+</main>
+
+</body>
+</html>
