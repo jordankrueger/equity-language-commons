@@ -1,0 +1,33 @@
+---
+import SiteHeader from "../components/SiteHeader.astro";
+import SiteFooter from "../components/SiteFooter.astro";
+import "../styles/global.css";
+
+interface Props {
+  title: string;
+  description?: string;
+  mainClass?: string;
+}
+
+const { title, description, mainClass } = Astro.props;
+const fullTitle =
+  title === "Equity Language Commons" ? title : `${title} — Equity Language Commons`;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{fullTitle}</title>
+    {description && <meta name="description" content={description} />}
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body>
+    <SiteHeader />
+    <main class={mainClass}>
+      <slot />
+    </main>
+    <SiteFooter />
+  </body>
+</html>

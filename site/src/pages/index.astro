@@ -1,0 +1,134 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const terms = await getCollection("terms");
+const sources = await getCollection("sources");
+const chapters = await getCollection("chapters");
+
+const liveTerms = terms.filter((t) => !t.data.stub);
+const liveSources = sources.filter((s) => !s.data.stub);
+const liveChapters = chapters.filter((c) => !c.data.stub);
+---
+
+<BaseLayout
+  title="Equity Language Commons"
+  description="Cross-referenced omnibus of progressive equity-language guidance. Per term, every source organization's rule side-by-side."
+>
+  <p class="kicker">Cross-reference</p>
+  <h1>Equity Language <em class="brand">Commons</em></h1>
+  <p class="lede">
+    Every progressive equity-language style guide says something a little different. This commons puts them next to each other — per term, by year, with the source's own words — so you can see where they agree, where they disagree, and what's shifted since 2013.
+  </p>
+
+  <div class="actions">
+    <a class="btn primary" href="/terms/">Browse the A–Z index &rarr;</a>
+    <a class="btn" href="/chapters/race-ethnicity/">Open the Race &amp; Ethnicity chapter</a>
+  </div>
+
+  <section class="stats">
+    <div>
+      <strong>{liveTerms.length}</strong>
+      <span>term{liveTerms.length === 1 ? "" : "s"} published</span>
+    </div>
+    <div>
+      <strong>{liveSources.length}</strong>
+      <span>source{liveSources.length === 1 ? "" : "s"} fully documented</span>
+    </div>
+    <div>
+      <strong>{sources.length - liveSources.length}</strong>
+      <span>source stubs</span>
+    </div>
+    <div>
+      <strong>{liveChapters.length}</strong>
+      <span>chapter{liveChapters.length === 1 ? "" : "s"} drafted</span>
+    </div>
+  </section>
+
+  <h2>How to read an entry</h2>
+  <ol>
+    <li>Each term page shows every source organization's ruling — quote, year, page reference, and a position badge (use / use-with-care / non-preferred / avoid / contested / evolving).</li>
+    <li>Sources are sorted chronologically so you can see how the term has moved over time.</li>
+    <li>Jordan Krueger's synthesis paragraphs identify the cross-source pattern — where guides agree, where they diverge, and what's shifting.</li>
+    <li>Every quote is under 50 words (fair-use safety margin). Every quote cites org, year, and source URL or archive reference.</li>
+  </ol>
+
+  <h2>Status</h2>
+  <p>This is a build-in-progress. Phases 0 and 1 are complete — research, schema design, and three pressure-tested test terms (Latinx, unhoused/homeless, Indigenous). Phase 2 is the public site you're reading now. Phase 3 is bulk term indexing.</p>
+  <p>Terms, sources, and chapters that don't yet have content are shown as visually-dimmed "planned" stubs. They signal scope and invite contributors.</p>
+
+  <p class="meta">
+    <a href="/about/">About this project</a>
+    &nbsp;&middot;&nbsp;
+    <a href="/sources/">Source organizations</a>
+  </p>
+</BaseLayout>
+
+<style>
+  .brand { color: var(--accent); font-style: normal; font-weight: 500; }
+  .lede {
+    font-family: "Charter", Georgia, serif;
+    font-size: 1.25rem;
+    line-height: 1.55;
+    color: var(--ink);
+    margin: 0 0 2rem;
+    max-width: 56ch;
+  }
+  .actions {
+    display: flex;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+    margin: 2rem 0 3rem;
+  }
+  .btn {
+    display: inline-block;
+    padding: 0.6rem 1.1rem;
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    background: var(--bg-card);
+    color: var(--ink);
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: border-color 120ms ease, color 120ms ease;
+  }
+  .btn:hover { border-color: var(--accent); color: var(--accent); }
+  .btn.primary {
+    background: var(--accent);
+    color: #fffdf8;
+    border-color: var(--accent);
+  }
+  .btn.primary:hover {
+    background: var(--accent-soft);
+    border-color: var(--accent-soft);
+    color: #fffdf8;
+  }
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1rem;
+    margin: 2rem 0 3rem;
+    padding: 1.2rem 1.4rem;
+    background: var(--bg-card);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+  }
+  .stats div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+  .stats strong {
+    font-family: "Charter", Georgia, serif;
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--accent);
+    line-height: 1;
+  }
+  .stats span {
+    font-size: 0.85rem;
+    color: var(--ink-soft);
+  }
+  ol li { margin-bottom: 0.6rem; }
+  .meta { margin-top: 3rem; font-size: 0.9rem; color: var(--ink-soft); }
+  .meta a { color: var(--ink-soft); }
+</style>

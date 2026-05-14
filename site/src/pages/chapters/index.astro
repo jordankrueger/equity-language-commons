@@ -1,0 +1,53 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Breadcrumb from "../../components/Breadcrumb.astro";
+
+const all = await getCollection("chapters");
+const chapters = all
+  .map((c) => ({
+    slug: c.data.slug,
+    title: c.data.title,
+    lede: c.data.lede,
+    stub: c.data.stub ?? false,
+    order: c.data.order ?? 999,
+  }))
+  .sort((a, b) => a.order - b.order || a.title.localeCompare(b.title));
+---
+
+<BaseLayout title="Chapters" description="Browse the commons by chapter.">
+  <Breadcrumb trail={[{ href: "/", label: "Home" }, { label: "Chapters" }]} />
+  <h1>Chapters</h1>
+  <p class="subtitle">{chapters.filter(c => !c.stub).length} chapter{chapters.filter(c => !c.stub).length === 1 ? "" : "s"} drafted; {chapters.filter(c => c.stub).length} more planned.</p>
+
+  <ul class="chapter-list">
+    {chapters.map((c) => (
+      <li>
+        <a class="chapter-link" href={`/chapters/${c.slug}/`}>{c.title}</a>
+        {c.stub && <span class="stub-chip">planned</span>}
+        <p class="chapter-lede">{c.lede}</p>
+      </li>
+    ))}
+  </ul>
+</BaseLayout>
+
+<style>
+  .subtitle { color: var(--ink-soft); margin: 0 0 2rem; }
+  .chapter-list { list-style: none; padding: 0; margin: 0; }
+  .chapter-list li {
+    padding: 1.2rem 0;
+    border-bottom: 1px solid var(--rule-soft);
+  }
+  .chapter-list li:last-child { border-bottom: none; }
+  .chapter-link {
+    font-family: "Charter", Georgia, serif;
+    font-weight: 500; font-size: 1.4rem; color: var(--accent);
+    text-decoration: none; border-bottom: 1px dotted var(--accent-soft);
+  }
+  .chapter-link:hover { border-bottom-style: solid; }
+  .chapter-lede {
+    margin: 0.5rem 0 0;
+    font-size: 0.95rem; color: var(--ink-soft);
+    line-height: 1.55;
+  }
+</style>

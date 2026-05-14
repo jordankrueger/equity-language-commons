@@ -1,0 +1,161 @@
+---
+import { getCollection, render } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Breadcrumb from "../../components/Breadcrumb.astro";
+import RecBadge from "../../components/RecBadge.astro";
+
+export async function getStaticPaths() {
+  const chapters = await getCollection("chapters");
+  const terms = await getCollection("terms");
+  return chapters.map((c) => {
+    const chapterTerms = (c.data.term_slugs ?? []).map((slug) => {
+      const t = terms.find((tt) => tt.data.slug === slug);
+      return t
+        ? {
+            slug,
+            term: t.data.term,
+            published: !t.data.stub,
+            guidance: t.data.guidance ?? [],
+          }
+        : { slug, term: slug, published: false, guidance: [] };
+    });
+    return {
+      params: { slug: c.data.slug },
+      props: { chapter: c, chapterTerms },
+    };
+  });
+}
+
+const { chapter, chapterTerms } = Astro.props;
+const data = chapter.data;
+const { Content } = await render(chapter);
+
+const publishedCount = chapterTerms.filter((t) => t.published).length;
+const plannedCount = chapterTerms.length - publishedCount;
+---
+
+<BaseLayout title={data.title} description={data.lede} mainClass="wide">
+  <Breadcrumb
+    trail={[
+      { href: "/", label: "Home" },
+      { href: "/chapters/", label: "Chapters" },
+      { label: data.title },
+    ]}
+  />
+
+  <h1 class="chapter">{data.title}</h1>
+  {chapterTerms.length > 0 && (
+    <p class="chapter-meta">
+      {chapterTerms.length} term{chapterTerms.length === 1 ? "" : "s"} &middot;
+      {" "}{publishedCount} published &middot; {plannedCount} planned
+    </p>
+  )}
+
+  <p class="chapter-lede">{data.lede}</p>
+
+  <Content />
+
+  {data.cross_cutting_principles.length > 0 && (
+    <>
+      <h2 id="cross-cutting">Cross-cutting principles</h2>
+      <ol class="principles">
+        {data.cross_cutting_principles.map((p) => (
+          <li>
+            <strong>{p.title}.</strong> {p.body}
+          </li>
+        ))}
+      </ol>
+    </>
+  )}
+
+  {chapterTerms.length > 0 && (
+    <>
+      <h2>Terms in this chapter</h2>
+      {chapterTerms.map((t) => {
+        if (!t.published) {
+          return (
+            <div class="placeholder-term">
+              <h3 class="term-heading placeholder">
+                {t.term} <span class="status">planned</span>
+              </h3>
+            </div>
+          );
+        }
+        const recs = Array.from(new Set(t.guidance.map((g: any) => g.recommendation)));
+        return (
+          <div class="real-term">
+            <h3 class="term-heading"><a href={`/terms/${t.slug}/`}>{t.term}</a></h3>
+            <div class="positions-strip">
+              <strong>Positions across {t.guidance.length} sources:</strong>
+              {recs.map((r: any) => <RecBadge value={r} />)}
+            </div>
+            <a class="read-full" href={`/terms/${t.slug}/`}>Read the full {t.term} entry &rarr;</a>
+          </div>
+        );
+      })}
+    </>
+  )}
+</BaseLayout>
+
+<style>
+  h1.chapter {
+    font-family: "Charter", Georgia, serif;
+    font-size: 3rem; font-weight: 500; line-height: 1.05;
+    margin: 0 0 0.4rem; letter-spacing: -0.01em;
+  }
+  .chapter-meta {
+    color: var(--ink-muted); font-size: 0.9rem;
+    text-transform: uppercase; letter-spacing: 0.06em;
+    margin-bottom: 1.5rem;
+  }
+  .chapter-lede {
+    font-family: "Charter", Georgia, serif;
+    font-size: 1.25rem;
+    line-height: 1.55;
+    color: var(--ink);
+    margin: 0 0 2rem;
+    font-weight: 400;
+  }
+  .principles { padding-left: 1.5rem; }
+  .principles li { margin-bottom: 0.6rem; }
+
+  h3.term-heading {
+    font-family: "Charter", Georgia, serif;
+    font-size: 1.35rem; font-weight: 500;
+    margin: 2rem 0 0.4rem; scroll-margin-top: 2rem;
+  }
+  h3.term-heading a {
+    color: var(--ink); text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 120ms ease, color 120ms ease;
+  }
+  h3.term-heading a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+  h3.term-heading.placeholder { color: var(--ink-muted); }
+  h3.term-heading .status {
+    font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em;
+    color: var(--ink-muted); padding: 0.1rem 0.5rem;
+    background: var(--bg-accent); border-radius: 3px;
+    font-weight: 500; margin-left: 0.6rem;
+  }
+  .positions-strip {
+    display: flex; gap: 0.4rem; align-items: center;
+    flex-wrap: wrap;
+    margin: 0.5rem 0 0.8rem;
+    font-size: 0.85rem;
+    color: var(--ink-soft);
+  }
+  .read-full {
+    display: inline-block;
+    font-size: 0.92rem;
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--accent-soft);
+    margin-top: 0.5rem;
+  }
+  .read-full:hover { border-bottom-style: solid; }
+  .placeholder-term { opacity: 0.6; }
+  .real-term {
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--rule-soft);
+  }
+</style>

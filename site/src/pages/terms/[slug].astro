@@ -1,0 +1,264 @@
+---
+import { getCollection, render } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Breadcrumb from "../../components/Breadcrumb.astro";
+import GuidanceCard from "../../components/GuidanceCard.astro";
+import RecBadge from "../../components/RecBadge.astro";
+
+export async function getStaticPaths() {
+  const terms = await getCollection("terms");
+  return terms.map((t) => ({
+    params: { slug: t.data.slug },
+    props: { term: t },
+  }));
+}
+
+const { term } = Astro.props;
+const data = term.data;
+const { Content } = await render(term);
+
+// sort guidance chronologically (oldest first; readers see how the term has moved)
+const guidance = [...(data.guidance ?? [])].sort((a, b) => a.year - b.year);
+---
+
+<BaseLayout title={data.term} description={`${data.term} — equity-language guidance across ${guidance.length} sources.`}>
+  <Breadcrumb
+    trail={[
+      { href: "/", label: "Home" },
+      { href: "/terms/", label: "A–Z" },
+      { label: data.term },
+    ]}
+  />
+
+  <h1 class="term">{data.term}</h1>
+
+  {data.pronunciation && (
+    <p class="pronunciation">{data.pronunciation}</p>
+  )}
+
+  {data.aliases?.length > 0 && (
+    <p class="aliases"><strong>Also written:</strong> {data.aliases.join(", ")}</p>
+  )}
+
+  {data.tags?.length > 0 && (
+    <div class="tags">
+      {data.tags.map((tag) => <span class="tag">{tag}</span>)}
+    </div>
+  )}
+
+  {guidance.length > 0 && (
+    <>
+      <h2>At a glance</h2>
+      <div class="glance">
+        <table class="glance-table">
+          <thead>
+            <tr><th>Source</th><th>Year</th><th>Position</th></tr>
+          </thead>
+          <tbody>
+            {guidance.map((g) => (
+              <tr>
+                <td class="org"><a href={`/sources/${g.org_slug}/`}>{g.org}</a></td>
+                <td class="year">{g.year}</td>
+                <td class="pos"><RecBadge value={g.recommendation} /></td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Source-by-source</h2>
+      {guidance.map((g) => <GuidanceCard entry={g} />)}
+    </>
+  )}
+
+  {data.context_data?.length > 0 && (
+    <>
+      <h2>Context data</h2>
+      {data.context_data.map((c) => (
+        <div class="context">
+          <p class="context-label">{c.label}</p>
+          <p class="context-claim">{c.claim}</p>
+          <p class="context-relevance">{c.relevance}</p>
+          {c.url && <a href={c.url} rel="noopener">View source &rarr;</a>}
+        </div>
+      ))}
+    </>
+  )}
+
+  {data.external_references?.length > 0 && (
+    <>
+      <h2>External references</h2>
+      <p class="section-note">Sources that name this term by pointing at another guide, without issuing their own ruling.</p>
+      <ul class="xref-list">
+        {data.external_references.map((r) => (
+          <li>
+            <a href={`/sources/${r.org_slug}/`} class="xref-term">{r.org}</a>
+            <span class="xref-relation">{r.year} &middot; points to {r.references}</span>
+            <p class="xref-note">{r.note}</p>
+          </li>
+        ))}
+      </ul>
+    </>
+  )}
+
+  {data.methodological_context?.length > 0 && (
+    <>
+      <h2>Methodological context</h2>
+      <p class="section-note">Sources that supply a framework relevant to this term without defining the term themselves.</p>
+      <ul class="xref-list">
+        {data.methodological_context.map((m) => (
+          <li>
+            <a href={`/sources/${m.org_slug}/`} class="xref-term">{m.org}</a>
+            <span class="xref-relation">{m.year} &middot; {m.framework}</span>
+            <p class="xref-note">{m.note}</p>
+          </li>
+        ))}
+      </ul>
+    </>
+  )}
+
+  {data.audience_notes?.length > 0 && (
+    <>
+      <h2>Audience notes</h2>
+      <div class="audience">
+        <dl>
+          {data.audience_notes.map((a) => (
+            <>
+              <dt>{a.audience}</dt>
+              <dd>{a.note}</dd>
+            </>
+          ))}
+        </dl>
+      </div>
+    </>
+  )}
+
+  <Content />
+
+  {data.related_terms?.length > 0 && (
+    <>
+      <h2>Related terms</h2>
+      <ul class="xref-list">
+        {data.related_terms.map((r) => (
+          <li>
+            <a href={`/terms/${r.slug}/`} class="xref-term">{r.slug}</a>
+            <span class="xref-relation">{r.relation}</span>
+          </li>
+        ))}
+      </ul>
+    </>
+  )}
+
+  <div class="term-meta">
+    <div><strong>Last reviewed:</strong> {new Date(data.last_reviewed).toISOString().slice(0, 10)}</div>
+    {data.contributors?.length > 0 && (
+      <div><strong>Contributors:</strong> {data.contributors.join(", ")}</div>
+    )}
+  </div>
+</BaseLayout>
+
+<style>
+  h1.term {
+    font-family: "Charter", "Source Serif Pro", Georgia, serif;
+    font-size: 3.2rem; font-weight: 500;
+    line-height: 1.05; margin: 0 0 0.4rem;
+    letter-spacing: -0.01em;
+  }
+  .pronunciation {
+    font-family: "Charter", Georgia, serif;
+    font-style: italic; color: var(--ink-soft);
+    font-size: 1.05rem; margin-bottom: 1.2rem;
+  }
+  .aliases {
+    font-size: 0.95rem; color: var(--ink-soft);
+    margin-bottom: 0.4rem;
+  }
+  .glance {
+    background: var(--bg-card); border: 1px solid var(--rule);
+    border-radius: 4px; padding: 1.2rem 1.4rem;
+  }
+  .glance-table {
+    width: 100%; border-collapse: collapse; font-size: 0.93rem;
+  }
+  .glance-table th, .glance-table td {
+    text-align: left; padding: 0.55rem 0;
+    border-bottom: 1px solid var(--rule-soft);
+    vertical-align: middle;
+  }
+  .glance-table tr:last-child td { border-bottom: none; }
+  .glance-table th {
+    font-family: "Charter", Georgia, serif;
+    font-weight: 500; font-size: 0.78rem;
+    text-transform: uppercase; letter-spacing: 0.08em;
+    color: var(--ink-muted); padding-bottom: 0.5rem;
+  }
+  .glance-table td.year { color: var(--ink-muted); font-variant-numeric: tabular-nums; width: 70px; }
+  .glance-table td.org a { color: var(--ink); text-decoration: none; border-bottom: 1px dotted var(--rule); }
+  .glance-table td.org a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+  .glance-table td.pos { text-align: right; }
+
+  .section-note {
+    font-size: 0.92rem; color: var(--ink-soft);
+    margin-bottom: 1rem;
+  }
+
+  .context {
+    background: var(--bg-card);
+    border-left: 4px solid var(--accent);
+    padding: 1.2rem 1.4rem;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+  }
+  .context-label {
+    font-size: 0.78rem; text-transform: uppercase;
+    letter-spacing: 0.08em; color: var(--ink-muted);
+    margin-bottom: 0.4rem;
+  }
+  .context-claim { font-weight: 500; font-size: 1.02rem; color: var(--ink); margin-bottom: 0.5rem; }
+  .context-relevance { color: var(--ink-soft); font-size: 0.9rem; margin-bottom: 0.5rem; }
+
+  .xref-list { list-style: none; padding: 0; margin: 0; }
+  .xref-list li {
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--rule-soft);
+  }
+  .xref-list li:last-child { border-bottom: none; }
+  .xref-term {
+    font-family: "Charter", Georgia, serif;
+    font-weight: 500; font-size: 1.05rem;
+    color: var(--accent); text-decoration: none;
+    border-bottom: 1px dotted var(--accent-soft);
+  }
+  .xref-term:hover { border-bottom-style: solid; }
+  .xref-relation {
+    font-size: 0.78rem; color: var(--ink-muted);
+    margin-left: 0.6rem;
+    text-transform: uppercase; letter-spacing: 0.05em;
+  }
+  .xref-note { margin: 0.3rem 0 0; font-size: 0.93rem; color: var(--ink-soft); }
+
+  .audience {
+    background: var(--bg-accent);
+    border-radius: 4px;
+    padding: 1.4rem 1.6rem;
+  }
+  .audience dl { margin: 0; }
+  .audience dt {
+    font-weight: 600; color: var(--ink);
+    margin-top: 1rem; font-size: 0.93rem;
+  }
+  .audience dt:first-child { margin-top: 0; }
+  .audience dd {
+    margin: 0.3rem 0 0;
+    font-size: 0.95rem;
+    color: var(--ink-soft);
+    line-height: 1.55;
+  }
+
+  .term-meta {
+    margin-top: 4rem; padding-top: 1.5rem;
+    border-top: 1px solid var(--rule);
+    font-size: 0.82rem; color: var(--ink-muted);
+    display: flex; flex-wrap: wrap; gap: 1.5rem;
+  }
+</style>

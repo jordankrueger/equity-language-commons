@@ -1,0 +1,32 @@
+---
+type NavItem = {
+  href: string;
+  label: string;
+  match?: RegExp;
+};
+
+const NAV: NavItem[] = [
+  { href: "/chapters/", label: "Browse chapters", match: /^\/chapters/ },
+  { href: "/terms/", label: "A–Z index", match: /^\/terms/ },
+  { href: "/sources/", label: "Sources", match: /^\/sources/ },
+  { href: "/about/", label: "About", match: /^\/about/ },
+];
+
+const path = Astro.url.pathname;
+---
+
+<header class="site-header">
+  <div class="wrap">
+    <p class="site-title"><a href="/">Equity Language <em>Commons</em></a></p>
+    <nav class="site-nav" aria-label="Primary">
+      {NAV.map((item) => {
+        const current = item.match?.test(path);
+        return (
+          <a href={item.href} class={current ? "current" : undefined} aria-current={current ? "page" : undefined}>
+            {item.label}
+          </a>
+        );
+      })}
+    </nav>
+  </div>
+</header>

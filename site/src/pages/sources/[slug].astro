@@ -1,0 +1,224 @@
+---
+import { getCollection, render } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Breadcrumb from "../../components/Breadcrumb.astro";
+import RecBadge from "../../components/RecBadge.astro";
+
+export async function getStaticPaths() {
+  const sources = await getCollection("sources");
+  const terms = await getCollection("terms");
+  return sources.map((s) => {
+    const citing = terms
+      .filter((t) =>
+        (t.data.guidance ?? []).some((g) => g.org_slug === s.data.org_slug)
+      )
+      .map((t) => {
+        const matches = (t.data.guidance ?? []).filter(
+          (g) => g.org_slug === s.data.org_slug
+        );
+        return matches.map((m) => ({
+          slug: t.data.slug,
+          term: t.data.term,
+          recommendation: m.recommendation,
+          quote: m.quote,
+          quote_loc: m.quote_loc,
+        }));
+      })
+      .flat();
+    return {
+      params: { slug: s.data.org_slug },
+      props: { source: s, citing },
+    };
+  });
+}
+
+const { source, citing } = Astro.props;
+const data = source.data;
+const { Content } = await render(source);
+
+const addedDate = data.added
+  ? new Date(data.added).toLocaleDateString("en-US", { month: "long", year: "numeric" })
+  : null;
+---
+
+<BaseLayout
+  title={data.org}
+  description={`${data.org} — ${data.work_title} (${data.year})`}
+>
+  <Breadcrumb
+    trail={[
+      { href: "/", label: "Home" },
+      { href: "/sources/", label: "Sources" },
+      { label: data.org },
+    ]}
+  />
+
+  <p class="kicker">Source</p>
+  <h1 class="source">{data.org}</h1>
+  <p class="work-title">{data.work_title}</p>
+
+  {data.stub && (
+    <div class="stub-banner">This source page is a stub. Full publication details and citing-terms list are pending.</div>
+  )}
+
+  {!data.stub && (
+    <div class="access-panel">
+      <p class="access-panel-title">Access posture: {data.host_posture.replaceAll("-", " ")} &middot; {data.live_status}</p>
+      <Content />
+    </div>
+  )}
+
+  <h2>Publication details</h2>
+  <dl class="meta-grid">
+    <dt>Work</dt>
+    <dd>{data.work_title}</dd>
+    <dt>Published</dt>
+    <dd>{data.year}</dd>
+    {data.format && (<><dt>Format</dt><dd>{data.format}</dd></>)}
+    {data.length_pages && (<><dt>Length</dt><dd>{data.length_pages} pages{data.length_sections ? `, ${data.length_sections} sections` : ""}</dd></>)}
+    {data.copyright_holder && (<><dt>Copyright</dt><dd>&copy; {data.copyright_holder}{data.license ? ` — ${data.license}` : ". No reuse license stated."}</dd></>)}
+    {data.source_url && (
+      <>
+        <dt>Original URL</dt>
+        <dd>
+          <a href={data.source_url} rel="noopener">{data.source_url}</a>
+          {data.live_status !== "live" && <span class={`live-tag live-${data.live_status}`}> &nbsp;&middot;&nbsp; {data.live_status}</span>}
+        </dd>
+      </>
+    )}
+    <dt>Commons access</dt>
+    <dd>{data.host_posture.replaceAll("-", " ")}</dd>
+    {addedDate && (<><dt>Added</dt><dd>{addedDate}</dd></>)}
+  </dl>
+
+  {data.version_history?.length > 0 && (
+    <>
+      <h2>Version history</h2>
+      <ul class="version-history">
+        {data.version_history.map((v, i) => (
+          <li class="version-item">
+            <div class="version-head">
+              <span class="version-year">{v.year} edition</span>
+              {i === 0 && <span class="version-label current">Current canonical</span>}
+            </div>
+            <p class="version-note">{v.note}</p>
+          </li>
+        ))}
+      </ul>
+    </>
+  )}
+
+  <h2>Terms citing this source</h2>
+  {citing.length === 0 ? (
+    <p class="empty">No terms in the commons cite this source yet. Once Phase 3 indexing begins, citing terms will appear here automatically.</p>
+  ) : (
+    <ul class="citing-list">
+      {citing.map((c) => (
+        <li class="citing-term">
+          <div class="citing-head">
+            <a class="citing-term-name" href={`/terms/${c.slug}/`}>{c.term}</a>
+            <RecBadge value={c.recommendation} />
+          </div>
+          {c.quote && <blockquote class="citing-quote">&ldquo;{c.quote}&rdquo;</blockquote>}
+          <p class="citing-loc">— {c.quote_loc}</p>
+        </li>
+      ))}
+    </ul>
+  )}
+</BaseLayout>
+
+<style>
+  h1.source {
+    font-family: "Charter", Georgia, serif;
+    font-size: 3.2rem; font-weight: 500;
+    line-height: 1.05; margin: 0 0 0.3rem;
+    letter-spacing: -0.01em;
+  }
+  .work-title {
+    font-family: "Charter", Georgia, serif;
+    font-size: 1.3rem; font-style: italic;
+    color: var(--ink-soft); margin: 0 0 1.5rem;
+  }
+  .stub-banner {
+    background: var(--bg-warn);
+    border-left: 4px solid var(--warn);
+    padding: 1rem 1.3rem;
+    font-size: 0.93rem;
+    color: var(--ink);
+    margin-bottom: 2rem;
+    border-radius: 4px;
+  }
+  .access-panel {
+    background: var(--bg-warn);
+    border-left: 4px solid var(--warn);
+    border-radius: 4px;
+    padding: 1.3rem 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+  .access-panel-title {
+    font-family: "Charter", Georgia, serif;
+    font-size: 0.78rem; text-transform: uppercase;
+    letter-spacing: 0.1em; color: var(--warn);
+    margin: 0 0 0.7rem; font-weight: 600;
+  }
+
+  .meta-grid {
+    background: var(--bg-card);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    padding: 1.3rem 1.5rem;
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    column-gap: 2rem;
+    row-gap: 0.6rem;
+    font-size: 0.93rem;
+  }
+  .meta-grid dt {
+    font-family: "Charter", Georgia, serif;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--ink-muted);
+    font-weight: 500;
+    align-self: center;
+  }
+  .meta-grid dd { margin: 0; color: var(--ink); }
+  .meta-grid a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--accent-soft); }
+  .live-tag { font-size: 0.85rem; }
+  .live-404, .live-offline { color: var(--avoid-ink); }
+
+  .version-history { list-style: none; padding: 0; margin: 0; }
+  .version-item { padding: 1rem 0; border-bottom: 1px solid var(--rule-soft); }
+  .version-item:last-child { border-bottom: none; }
+  .version-head { display: flex; gap: 0.8rem; align-items: baseline; margin-bottom: 0.4rem; }
+  .version-year { font-family: "Charter", Georgia, serif; font-weight: 500; font-size: 1.05rem; }
+  .version-label.current {
+    font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em;
+    color: var(--use-ink); background: var(--use-bg);
+    padding: 0.1rem 0.5rem; border-radius: 3px; font-weight: 500;
+  }
+  .version-note { margin: 0; color: var(--ink-soft); font-size: 0.95rem; }
+
+  .citing-list { list-style: none; padding: 0; margin: 0; }
+  .citing-term {
+    padding: 1.2rem 0;
+    border-bottom: 1px solid var(--rule-soft);
+  }
+  .citing-term:last-child { border-bottom: none; }
+  .citing-head { display: flex; gap: 0.8rem; align-items: baseline; margin-bottom: 0.6rem; flex-wrap: wrap; }
+  .citing-term-name {
+    font-family: "Charter", Georgia, serif;
+    font-weight: 500; font-size: 1.1rem;
+    color: var(--accent); text-decoration: none;
+    border-bottom: 1px dotted var(--accent-soft);
+  }
+  .citing-quote {
+    font-family: "Charter", Georgia, serif;
+    font-style: italic; font-size: 1rem; line-height: 1.55;
+    border-left: 3px solid var(--accent);
+    padding-left: 1rem; margin: 0.6rem 0;
+    color: var(--ink);
+  }
+  .citing-loc { font-size: 0.85rem; color: var(--ink-muted); font-style: italic; margin: 0; }
+  .empty { color: var(--ink-muted); font-style: italic; }
+</style>

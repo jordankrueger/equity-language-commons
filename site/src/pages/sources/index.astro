@@ -1,0 +1,71 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Breadcrumb from "../../components/Breadcrumb.astro";
+
+const all = await getCollection("sources");
+const sources = all
+  .map((s) => ({
+    slug: s.data.org_slug,
+    org: s.data.org,
+    title: s.data.work_title,
+    year: s.data.year,
+    posture: s.data.host_posture,
+    live: s.data.live_status,
+    stub: s.data.stub ?? false,
+  }))
+  .sort((a, b) => a.org.localeCompare(b.org, "en", { sensitivity: "base" }));
+---
+
+<BaseLayout
+  title="Sources"
+  description="Every source organization cited in the Equity Language Commons."
+>
+  <Breadcrumb trail={[{ href: "/", label: "Home" }, { label: "Sources" }]} />
+  <h1>Sources</h1>
+  <p class="subtitle">{sources.length} source organization{sources.length === 1 ? "" : "s"} in the commons. Each one is the newest edition's canonical page; prior editions live in that page's version history.</p>
+
+  <ul class="source-list">
+    {sources.map((s) => (
+      <li class="source-row">
+        <div>
+          <a class="org-name" href={`/sources/${s.slug}/`}>{s.org}</a>
+          {s.stub && <span class="stub-chip">stub</span>}
+          <p class="work">{s.title} <span class="year">({s.year})</span></p>
+        </div>
+        <div class="posture">
+          <span class={`posture-${s.posture}`}>{s.posture.replaceAll("-", " ")}</span>
+          <span class={`live live-${s.live}`}>{s.live}</span>
+        </div>
+      </li>
+    ))}
+  </ul>
+</BaseLayout>
+
+<style>
+  .subtitle { color: var(--ink-soft); font-size: 1rem; margin: 0 0 2rem; }
+  .source-list { list-style: none; padding: 0; margin: 0; }
+  .source-row {
+    padding: 1rem 0; border-bottom: 1px solid var(--rule-soft);
+    display: grid; grid-template-columns: 1fr auto;
+    gap: 1rem; align-items: baseline;
+  }
+  .source-row:last-child { border-bottom: none; }
+  .org-name {
+    font-family: "Charter", Georgia, serif;
+    font-weight: 500; font-size: 1.15rem; color: var(--accent);
+    text-decoration: none; border-bottom: 1px dotted var(--accent-soft);
+  }
+  .org-name:hover { border-bottom-style: solid; }
+  .work { margin: 0.2rem 0 0; font-size: 0.95rem; color: var(--ink-soft); }
+  .work .year { color: var(--ink-muted); font-variant-numeric: tabular-nums; }
+  .posture {
+    display: flex; flex-direction: column; gap: 0.3rem;
+    font-size: 0.8rem; color: var(--ink-muted);
+    text-transform: uppercase; letter-spacing: 0.05em;
+    text-align: right;
+  }
+  .live-404, .live-offline { color: var(--avoid-ink); }
+  .live-paywalled, .live-login-gated { color: var(--care-ink); }
+  .live-live { color: var(--use-ink); }
+</style>

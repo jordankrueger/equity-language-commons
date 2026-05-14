@@ -1,0 +1,144 @@
+---
+import RecBadge from "./RecBadge.astro";
+
+interface GuidanceEntry {
+  org: string;
+  org_slug: string;
+  year: number;
+  entry_updated?: Date | null;
+  source_url?: string | null;
+  local_archive?: string | null;
+  recommendation:
+    | "use"
+    | "non-preferred"
+    | "avoid"
+    | "use-with-care"
+    | "contested"
+    | "evolving"
+    | "reclaimed-in-community";
+  derived_from?: string[];
+  quote: string | null;
+  quote_loc: string;
+  paraphrase: string;
+  confidence: "VERIFIED" | "VERIFIED-ARCHIVED" | "SUMMARY-ONLY" | "PARTIAL" | "UNVERIFIED";
+}
+
+interface Props {
+  entry: GuidanceEntry;
+}
+
+const { entry } = Astro.props;
+
+const entryUpdated = entry.entry_updated
+  ? new Date(entry.entry_updated).toISOString().slice(0, 10)
+  : null;
+---
+
+<article class="source-card">
+  <div class="source-head">
+    <h3 class="source-org">
+      <a href={`/sources/${entry.org_slug}/`}>{entry.org}</a>
+      <RecBadge value={entry.recommendation} />
+    </h3>
+    <div class="source-meta">
+      <span>{entry.year}</span>
+      {entryUpdated && (
+        <>
+          <span class="dot">&middot;</span>
+          <span>entry updated {entryUpdated}</span>
+        </>
+      )}
+      <span class="confidence-flag">{entry.confidence}</span>
+    </div>
+  </div>
+
+  {entry.quote && (
+    <blockquote class="source-quote">&ldquo;{entry.quote}&rdquo;</blockquote>
+  )}
+
+  <p class="source-para">{entry.paraphrase}</p>
+
+  <div class="source-foot">
+    <span class="source-loc">{entry.quote_loc}</span>
+    {entry.source_url && (
+      <>
+        {" "}
+        &middot;{" "}
+        <a class="source-link" href={entry.source_url} rel="noopener">
+          source &rarr;
+        </a>
+      </>
+    )}
+  </div>
+</article>
+
+<style>
+  .source-card {
+    background: var(--bg-card);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    padding: 1.4rem 1.6rem;
+    margin-bottom: 1.2rem;
+  }
+  .source-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.6rem;
+  }
+  .source-org {
+    font-family: "Charter", Georgia, serif;
+    font-size: 1.15rem;
+    font-weight: 500;
+    margin: 0;
+    display: flex;
+    align-items: baseline;
+    gap: 0.7rem;
+    flex-wrap: wrap;
+  }
+  .source-org a {
+    color: var(--ink);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+  .source-org a:hover {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+  }
+  .source-meta {
+    font-size: 0.85rem;
+    color: var(--ink-muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .source-meta .dot { color: var(--rule); margin: 0 0.4rem; }
+  .source-quote {
+    font-family: "Charter", "Source Serif Pro", Georgia, serif;
+    font-style: italic;
+    font-size: 1.05rem;
+    line-height: 1.55;
+    color: var(--ink);
+    border-left: 3px solid var(--accent);
+    padding-left: 1rem;
+    margin: 0.8rem 0 1rem;
+  }
+  .source-para {
+    font-size: 0.95rem;
+    color: var(--ink-soft);
+    margin: 0 0 0.6rem;
+  }
+  .source-foot {
+    font-size: 0.82rem;
+    color: var(--ink-muted);
+  }
+  .source-loc {
+    font-style: italic;
+  }
+  .source-link {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+  .source-link:hover { border-bottom-color: var(--accent); }
+</style>
