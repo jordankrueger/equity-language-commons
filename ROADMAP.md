@@ -1,6 +1,6 @@
 # Equity Language Commons — Roadmap
 
-**Status as of 2026-04-24:** Research complete, schema v0.2 drafted, first test term (`Latinx`) populated end-to-end, HTML design previews built for term + source pages.
+**Status as of 2026-05-14:** Phases 0 and 1 complete. Phase 2 is well underway — Astro site scaffolded under `site/`, content collections defined for terms / sources / chapters with Zod schemas mirroring schema v0.3, 3 test terms migrated into the collection, 16 source entries (1 fleshed out, 15 stubs), 5 chapter entries (1 fleshed out, 4 stubs), all 8 page templates built, build clean, dev server verified. Domain `equitylanguagecommons.org` secured. Project renamed from "Progressive Language Commons" to "Equity Language Commons" today.
 
 ## Direction (locked 2026-04-23)
 
@@ -106,24 +106,34 @@ Housekeeping surfaced during Phase 1:
 - **NAJA file naming mismatch:** `source-guides/discovered/naja-indigenous-terminology-2023-06.pdf` has PDF metadata creation date 2017-04-08. Actual poster is 2017. Update MANIFEST.md dating (and consider renaming file to `naja-indigenous-terminology-2017.pdf`).
 - **Phase 2 acquisitions queued:** Homelessness Beat Reporters Collective reporting guide; Radical Copyeditor's "Thirty Everyday Phrases that Perpetuate the Oppression of Indigenous Peoples" (2020-10); full APA Inclusive Language Guide (archive currently a WebFetch summary); NAJA Tribal Nations Media Guide 2020. Queue in `research/research-notes.md`.
 
-### 🔄 Phase 2 — Design previews + site scaffold (partially in progress)
+### 🔄 Phase 2 — Design previews + site scaffold (in progress)
 
 **Design previews built early to pressure-test the schema + routing against real display.** Standalone HTML, single-file, inline CSS, no build step — quick-iterate format.
 
 Done:
 - [x] `preview/latinx.html` — term page with all display elements (At-a-glance table, synthesis, source cards sorted chronologically, context data, audience notes, history, related terms)
 - [x] `preview/sierra-club.html` — source landing page (access posture panel, publication details, version history scaffold, terms citing this source)
+- [x] `preview/index.html` — A–Z term index
+- [x] `preview/race-ethnicity.html` — chapter browse page
 - [x] Visual language locked: cream ground, Charter serif headings, system sans body, terracotta accent, color-coded recommendation badges, mobile-responsive
+- [x] **Scaffold Astro project under `site/`** (Astro 5 + TypeScript strict)
+- [x] **Content collections for `terms`, `sources`, `chapters`** (Zod schemas in `site/src/content.config.ts`, mirror `notes/schema.md` v0.3)
+- [x] **Migrate 3 test terms into `site/src/content/terms/`** (via `git mv` from `notes/test-terms/`)
+- [x] **16 source entries created** — Sierra Club fleshed out; 15 stubs auto-generated from term frontmatter so URLs/years/archive paths are pre-populated
+- [x] **5 chapter entries created** — Race & Ethnicity fleshed out; 4 stubs for categories referenced by test terms
+- [x] **Port preview HTML/CSS into Astro layouts + components** — `BaseLayout`, `SiteHeader`, `SiteFooter`, `Breadcrumb`, `RecBadge`, `GuidanceCard`; global stylesheet extracted from previews
+- [x] **All 8 page templates built** — `/`, `/about/`, `/terms/`, `/terms/[slug]/`, `/sources/`, `/sources/[slug]/`, `/chapters/`, `/chapters/[slug]/`
+- [x] **Source page auto-builds a reverse "Terms citing this source" index** — adding a new term that cites Sierra Club shows up on the Sierra Club page automatically; no manual cross-linking
+- [x] **Build verified clean** — 29 static pages, no schema errors, dev server runs at `http://jordans-mac-mini:4321/`
+- [x] **Git initialized** with two commits: baseline + scaffold
 
 Remaining:
-- [ ] `preview/index.html` — A–Z term index
-- [ ] `preview/race-ethnicity.html` — chapter browse page
 - [ ] Verify Sierra Club guide page count / section count against actual PDF (placeholder values currently)
-- [ ] Scaffold Astro project under `site/`
-- [ ] Content collections for `terms`, `sources`, `chapters`
-- [ ] Port preview HTML/CSS into Astro layouts + components
+- [ ] Acquire 4 queued source guides (Homelessness Beat Reporters, Radical Copyeditor 30-phrases, full APA Inclusive Language Guide, NAJA Tribal Nations Media Guide 2020)
+- [ ] Set up remote GitHub repo at `jordankrueger/equity-language-commons` (private to start)
 - [ ] Wire Pagefind client-side search
-- [ ] Deploy preview to Cloudflare Pages (private URL)
+- [ ] Deploy to Cloudflare Pages on the `pages.dev` URL (not yet pointed at custom domain)
+- [ ] Fill out the 15 source stubs over time as more terms get added
 
 ### Phase 3 — Bulk term indexing (iterative, one category at a time)
 
@@ -147,20 +157,32 @@ Likely categories (subject to what emerges):
 - [ ] Religion & Culture
 - [ ] Reproductive Rights
 
-### Phase 4 — Soft launch (private)
+### Phase 4 — Quiet build → public launch
 
-- [ ] Pick a domain (e.g., `progressivelanguagecommons.org`). Confirm availability.
-- [ ] Final legal review: attribution block per source, CC-BY notice on the curation layer, clear fair-use posture
-- [ ] Share preview URL with 3–5 friendly reviewers (progressive comms pros) for feedback
-- [ ] Iterate on feedback
+**No "soft launch." No private reviewer round.** Build until the site is launch-ready, then flip it public in one motion. Friends-and-family preview rounds make launches feel like failure-by-default — the work is either published or it isn't.
 
-### Phase 5 — Outreach + public launch
+Launch readiness criteria:
+- [x] Domain secured — `equitylanguagecommons.org` (2026-05-14)
+- [ ] ~50 terms published across 3–4 chapters, enough breadth that the cross-reference value is immediately visible to a first-time reader
+- [ ] All 16+ source pages filled out (not stubs); access-posture panels accurate
+- [ ] At least 2 chapters with real cross-cutting-principle intros and term lists
+- [ ] Final legal pass: per-source attribution, CC-BY notice on curation layer, fair-use posture clear on every quoted passage
+- [ ] Pagefind search wired and indexing the live content
+- [ ] Deployed to Cloudflare Pages on `equitylanguagecommons.org` — DNS flip is the launch
+- [ ] Homepage doesn't read like a stub — about page, contributing posture, and source list are all complete
 
-- [ ] Email Hanna Thomas (SumOfUs) — courtesy + crediting spiritual-successor framing
-- [ ] Email active orgs whose guides are cross-referenced — Sierra Club, GLAAD, TJA, APA, NCDJ, NGC, NABJ, NAJA, AAJA, IDP, Dart Center, Race Forward, interACT, Define American, Color of Change, HRC, Radical Copyeditor, Words about War Matter. Notify + ask blessing. Incorporate feedback.
+During build, deploy to the `equity-language-commons.pages.dev` URL but don't publicize it. That URL is for build-validation, not feedback collection.
+
+### Phase 5 — Post-launch outreach + community
+
+Outreach happens **after** the public site is live, not before. Source orgs and peers see the actual finished work, not a preview link with notes attached.
+
+- [ ] Email Hanna Thomas (SumOfUs) — courtesy + spiritual-successor framing, point to the live site
+- [ ] Email active source orgs whose guides are cross-referenced — Sierra Club, GLAAD, TJA, APA, NCDJ, NGC, NABJ, NAJA, AAJA, IDP, Dart Center, Race Forward, interACT, Define American, Color of Change, HRC, Radical Copyeditor, Words about War Matter. Frame as notification + acknowledgment of their work, not permission-seeking.
 - [ ] Email Conscious Style Guide + Diversity Style Guide maintainers as professional courtesy (peer projects, not competitors)
-- [ ] Public announcement. RadComms + GameChanger Salon are natural venues.
-- [ ] LinkedIn post from Jordan's personal account (not CampaignHelp).
+- [ ] Public announcement in RadComms + GameChanger Salon listservs
+- [ ] LinkedIn post from Jordan's personal account (not CampaignHelp)
+- [ ] Decide on contribution workflow — opens to community submissions once enough breadth exists to be a recognizable peer project
 
 ### Phase 6 — Maintenance rhythm
 
@@ -173,7 +195,7 @@ Ongoing, not a phase in the usual sense.
 
 ## Open questions / parked decisions
 
-- **Domain name** — pick before Phase 5 outreach
+- **Domain name** — ~~pick before Phase 5 outreach~~ resolved 2026-05-14: `equitylanguagecommons.org`
 - **User submissions at v1 or v2** — Google Form → GitHub issue workflow is the lightest-weight option for non-technical contributors
 - **Downloadable "everything" PDF** — useful offline but more copyright-sensitive; later decision
 - **Relationship with Conscious Style Guide / Diversity Style Guide** — sibling resources; decide outreach framing (complementary, not competitive)
@@ -187,4 +209,4 @@ Ongoing, not a phase in the usual sense.
 - Every direct quote under 50 words (fair-use safety margin) unless permissioned
 - Every quote cites: org, year, source URL or canonical reference
 - `research/research-notes.md` is the audit trail — every claim must be traceable
-- Do not reach out to source orgs or Hanna Thomas until Phase 1 is complete and we have something concrete (term page + source page previews) to show
+- Do not reach out to source orgs or Hanna Thomas until **Phase 4 is complete and the public site is live** — outreach is post-launch, not pre-launch (see Phase 5)
