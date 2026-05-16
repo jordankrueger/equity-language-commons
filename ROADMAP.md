@@ -137,6 +137,54 @@ Remaining:
 - [x] Deploy to Cloudflare Pages on the `pages.dev` URL (not yet pointed at custom domain) — done 2026-05-16 via Wrangler direct upload (`./scripts/deploy.sh`); GitHub auto-deploy via CF dashboard pending Jordan
 - [ ] Fill out the 15 source stubs over time as more terms get added (8 new sources cited in R&E batches need verification of stub auto-generation)
 
+### Phase 2.5 — Tooling to reduce LLM tax before Phase 3 scales (added 2026-05-16)
+
+The 2026-05-16 R&E batch session surfaced where LLM time is being spent vs. where it's actually adding value. Three pieces of tooling, built once, would make every subsequent Phase 3 batch 2–3x more efficient. Build before the next term batch.
+
+#### 2.5a — PDF→markdown extractor for archived source guides
+
+**Problem:** The 6 archived PDFs in `source-guides/*.pdf` (Sierra Club, NGC, AECF, SEIU, yli, Stand.earth) are read page-by-page during term research, burning significant context per term. The 27 already-converted markdown files in `source-guides/discovered/` are grep-able instantly.
+
+**Build:** A script (`scripts/extract-pdfs.py` or `extract-pdfs.sh`) that runs `pdftotext` (or `pymupdf`/`pdfplumber` for better layout preservation) over every PDF in `source-guides/` and writes a sibling `.md` file. Header normalization is nice-to-have but not required — basic searchable text is enough.
+
+**Rule:** Re-run when a new PDF is dropped in. Output goes alongside the PDF (e.g., `source-guides/sierra-club-2021.md` next to `source-guides/Equity Language Guide Sierra Club 2021.pdf`). Convert filenames to slugified form on output so they match the `org_slug` used in term frontmatter.
+
+**Time saved:** Estimated ~30–40% context per term in active Phase 3 work. Cost: 1–2 hours one-time.
+
+#### 2.5b — Term coverage matrix
+
+**Problem:** Today I ran `grep` independently for each term across each source markdown to figure out cross-source coverage. The same work has to happen for every new term. A static matrix built once eliminates the per-term rediscovery.
+
+**Build:** A script (`scripts/build-coverage-matrix.py`) that walks every source markdown in `source-guides/` and `source-guides/discovered/`, identifies term entries by their structure (DSG: `^- \[TERM\]`; TJA: `^### \[TERM`; NABJ/AAJA/etc.: harder, but each has detectable patterns), and produces a CSV:
+
+```
+term_normalized, source_slug, page_or_line, quote_excerpt_first_100chars, has_avoid_marker, has_capitalization_rule
+```
+
+Output: `notes/term-coverage-matrix.csv`. Also a derived `notes/term-coverage-matrix.md` ranking terms by source-coverage-count (the natural Phase 3 priority order: more sources = better cross-reference value).
+
+**Rule:** Re-generate after each batch when new sources are processed or when source guides update. Use the matrix to pick the next batch — sort by coverage descending, exclude already-indexed terms, take the top 5.
+
+**Time saved:** Replaces the survey step (~20% of a session) with a CSV lookup. Cost: 4–6 hours one-time for a working v1 (PDF extractors are messy; expect iteration). Most leveraged piece of tooling.
+
+#### 2.5c — Source page enrichment (one-time research session)
+
+**Problem:** 15 of 16 source pages are stubs auto-generated from term frontmatter. Each needs: publication year, page/section count, license findings, host posture rationale, access posture panel content, version history (if any), live status check. None of this needs LLM cross-corpus synthesis; it's per-source metadata research.
+
+**Build:** A focused 60–90 minute session per source (not LLM-driven), OR a script (`scripts/enrich-source-pages.py`) that reads PDF metadata + filename + MANIFEST.md to pre-populate the metadata fields, leaving only the qualitative parts for human input. Most leveraged if combined with the live-status check via a simple HEAD request to each `source_url`.
+
+**Rule:** Run after every Phase 3 batch to update any newly-cited source stubs. Trigger: build report showing N terms cite source X but source X is still `stub: true`.
+
+**Time saved:** Eliminates the "LLM writing source page from scratch" pattern, which is wrong-tool work. Cost: maybe 2 hours for the enricher script + 60–90 min per source for the qualitative pieces (15–20 hours total across all current source stubs, but spread across batches).
+
+#### 2.5d — Recommended order
+
+1. **First**: 2.5a (PDF extractor) — fastest, unblocks 2.5b
+2. **Second**: 2.5b (coverage matrix) — highest leverage on remaining Phase 3 work
+3. **Third**: 2.5c (source page enricher) — can be in-progress in parallel with Phase 3 batches; not blocking
+
+After 2.5a + 2.5b land, **Phase 3 term batches should drop from ~3 hours / 5 terms to ~60–90 min / 5 terms**, with the LLM time concentrated on synthesis, paraphrase, and audience notes — the work that actually requires cross-corpus judgment.
+
 ### Phase 3 — Bulk term indexing (iterative, one category at a time)
 
 Chunk by the taxonomy that emerges from the first ~10 terms. Aim ~20–40 terms per category. Each category is a focused session.

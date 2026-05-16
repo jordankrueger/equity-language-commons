@@ -75,6 +75,18 @@ to frame issues*. Not brand identity (logos/fonts) or general editorial
 - **TODO (Jordan, one-time):** wire GitHub auto-deploy via the CF dashboard so pushes to `main` deploy automatically. Path: CF Dashboard → Workers & Pages → equity-language-commons → Settings → Build & deployments → Connect to Git. Until that's done, run `./scripts/deploy.sh` after each meaningful change.
 - **Custom domain (equitylanguagecommons.org) is NOT pointed at the project yet.** DNS flip = public launch per ROADMAP Phase 4.
 
+## Tooling — build before next Phase 3 batch
+
+Phase 3 term-indexing is currently LLM-heavy in places where it shouldn't be. Three scripts in `scripts/` should be built before the next term batch (see ROADMAP Phase 2.5 for the detailed plan):
+
+1. **`scripts/extract-pdfs.py`** — Convert all `source-guides/*.pdf` to sibling markdown files using `pymupdf` or `pdfplumber`. The 27 already-converted markdowns in `source-guides/discovered/` are grep-able instantly; the 6 archived PDFs are not, and reading them page-by-page during term research wastes context.
+
+2. **`scripts/build-coverage-matrix.py`** — Walk every source markdown, extract every term entry, produce `notes/term-coverage-matrix.csv` with `term, source_slug, page_or_line, quote_excerpt, has_capitalization_rule, has_avoidance_marker`. Use the matrix to pick the next batch (sort by cross-source coverage descending; exclude already-indexed terms; take top 5). Highest-leverage tooling piece.
+
+3. **`scripts/enrich-source-pages.py`** — Pre-populate source page metadata (year, length, PDF properties, live status via HEAD request) so the qualitative pieces (access posture, version history, license findings) are the only human input needed.
+
+**Trigger for build:** Next time someone (Claude or Jordan) starts a Phase 3 term batch, build 2.5a + 2.5b first. Expect term batches to drop from ~3 hrs / 5 terms (the 2026-05-16 pattern) to ~60–90 min / 5 terms once the tooling is in place, with LLM time concentrated on synthesis and audience notes — the work that genuinely needs cross-corpus judgment.
+
 ## Locked decisions (2026-04-23)
 
 - **Shape:** Option C — cross-referenced omnibus with sourced excerpts
