@@ -62,8 +62,18 @@ to frame issues*. Not brand identity (logos/fonts) or general editorial
 - `source-guides/MANIFEST.md` — file catalog with host posture per guide
 - `research/research-notes.md` — full research audit trail (follow `.claude/rules/client-research.md` — VERIFIED sources)
 - `notes/` — taxonomy drafts, schema, test terms, working notes
-- `site/` — Astro project (not yet scaffolded)
+- `site/` — Astro project (scaffolded; Phase 2 in progress)
+- `scripts/` — utility scripts (deploy.sh, etc.)
 - `ROADMAP.md` — phased plan
+
+## Deploy
+
+- **Production URL (preview-tier, not announced):** https://equity-language-commons.pages.dev/
+- **Deploy command:** `./scripts/deploy.sh` — runs `npm run build` in `site/` and pushes `dist/` to CF Pages via Wrangler using `PERSONAL_CLOUDFLARE_API_TOKEN`.
+- **GitHub repo:** https://github.com/jordankrueger/equity-language-commons (private)
+- **Wrangler CF Pages project:** `equity-language-commons` on Jordan's personal CF account, currently direct-upload.
+- **TODO (Jordan, one-time):** wire GitHub auto-deploy via the CF dashboard so pushes to `main` deploy automatically. Path: CF Dashboard → Workers & Pages → equity-language-commons → Settings → Build & deployments → Connect to Git. Until that's done, run `./scripts/deploy.sh` after each meaningful change.
+- **Custom domain (equitylanguagecommons.org) is NOT pointed at the project yet.** DNS flip = public launch per ROADMAP Phase 4.
 
 ## Locked decisions (2026-04-23)
 
