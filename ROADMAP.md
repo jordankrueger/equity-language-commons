@@ -1,5 +1,7 @@
 # Equity Language Commons — Roadmap
 
+**Status as of 2026-05-16:** Phases 0, 1, and most of Phase 2 complete. GitHub remote live at `jordankrueger/equity-language-commons` (private). CF Pages preview build live at `https://equity-language-commons.pages.dev/` (Wrangler direct-upload via `./scripts/deploy.sh`; one-time GitHub auto-deploy wire-up still pending Jordan's CF dashboard click). Phase 3 underway — **Race & Ethnicity chapter at 16 indexed terms** (up from 1) covering the highest cross-source-coverage R&E vocabulary in the in-scope corpus. R&E chapter intro rewritten with 6 cross-cutting principles drawn from the actual term patterns. Build clean, 44 static pages.
+
 **Status as of 2026-05-14:** Phases 0 and 1 complete. Phase 2 is well underway — Astro site scaffolded under `site/`, content collections defined for terms / sources / chapters with Zod schemas mirroring schema v0.3, 3 test terms migrated into the collection, 16 source entries (1 fleshed out, 15 stubs), 5 chapter entries (1 fleshed out, 4 stubs), all 8 page templates built, build clean, dev server verified. Domain `equitylanguagecommons.org` secured. Project renamed from "Progressive Language Commons" to "Equity Language Commons" today.
 
 ## Direction (locked 2026-04-23)
@@ -130,24 +132,24 @@ Done:
 Remaining:
 - [ ] Verify Sierra Club guide page count / section count against actual PDF (placeholder values currently)
 - [ ] Acquire 4 queued source guides (Homelessness Beat Reporters, Radical Copyeditor 30-phrases, full APA Inclusive Language Guide, NAJA Tribal Nations Media Guide 2020)
-- [ ] Set up remote GitHub repo at `jordankrueger/equity-language-commons` (private to start)
+- [x] Set up remote GitHub repo at `jordankrueger/equity-language-commons` (private to start) — done 2026-05-16
 - [ ] Wire Pagefind client-side search
-- [ ] Deploy to Cloudflare Pages on the `pages.dev` URL (not yet pointed at custom domain)
-- [ ] Fill out the 15 source stubs over time as more terms get added
+- [x] Deploy to Cloudflare Pages on the `pages.dev` URL (not yet pointed at custom domain) — done 2026-05-16 via Wrangler direct upload (`./scripts/deploy.sh`); GitHub auto-deploy via CF dashboard pending Jordan
+- [ ] Fill out the 15 source stubs over time as more terms get added (8 new sources cited in R&E batches need verification of stub auto-generation)
 
 ### Phase 3 — Bulk term indexing (iterative, one category at a time)
 
 Chunk by the taxonomy that emerges from the first ~10 terms. Aim ~20–40 terms per category. Each category is a focused session.
 
 Likely categories (subject to what emerges):
-- [ ] Race & Ethnicity
+- [~] Race & Ethnicity — **16 terms indexed as of 2026-05-16** (african-american, asian-american, bipoc, black, brown, caucasian, chicanx, hispanic, latine, latino, latinx, minority, multiracial, people-of-color, urban, white). Chapter intro rewritten with 6 cross-cutting principles. Need ~8–15 more terms to round out the chapter for launch: probably mestizo, afro-latino, mena, native-hawaiian, biracial-as-its-own-page (currently aliased), south-asian, mixed-race subset entries, model-minority, anti-Black, racism vs. prejudice, white supremacy, white nationalism, white privilege, microaggression, gentrification, racial-coding entries like "thug" and "articulate".
 - [ ] Indigenous & Tribal Sovereignty
 - [ ] Gender & Sexuality (with trans subcategory)
 - [ ] Disability
 - [ ] Age
 - [ ] Class & Wealth
 - [ ] Labor & Workers
-- [ ] Housing
+- [ ] Housing — 1 term (unhoused-homeless); needs ~15 more
 - [ ] Immigration & Refugees
 - [ ] Incarceration & Policing
 - [ ] Sexual & Domestic Violence
