@@ -8,6 +8,9 @@ local_archive: "source-guides/discovered/sumofus-progressive-styleguide-2016.pdf
 host_posture: "host-publicly"
 live_status: "offline"
 stub: true
+length_pages: 41
+format: "PDF"
+added: 2026-05-17
 ---
 
 ## About

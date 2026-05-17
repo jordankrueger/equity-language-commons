@@ -87,9 +87,11 @@ Phase 3 term-indexing was LLM-heavy in places where it shouldn't be. Three scrip
    - **Known limit:** compound indexed slugs like `unhoused-homeless` show coverage 0 because they're comparison pages, not single phrases. Check the component terms (`unhoused`, `homeless`) separately.
    - **Re-run trigger:** after each Phase 3 batch (refreshes "what's left to do") and after dropping new sources into `source-guides/`.
 
-3. **`scripts/enrich-source-pages.py`** — Pre-populate source page metadata (year, length, PDF properties, live status via HEAD request) so the qualitative pieces (access posture, version history, license findings) are the only human input needed.
+3. **✅ `scripts/enrich-source-pages.py`** (shipped 2026-05-17) — walks every source page in `site/src/content/sources/`, fills `length_pages` from `pdfinfo`, sets `format` based on archive type (PDF vs PDF-extracted markdown vs web-scraped markdown), checks `source_url` via HEAD→GET fallback chain, updates `last_checked`/`added` to today. Frontmatter parsed line-by-line so bodies and untouched fields are preserved exactly. Flags: `--check-only`, `--force`, `--no-net`. Won't demote a human-set live_status without `--force`.
+   - **Known finding:** NAJA's `source_url` (`naja.com`) is dead — NAJA rebranded to Indigenous Journalists Association in 2023. Needs URL update before NAJA can go live as a primary Indigenous-chapter source.
+   - **Re-run trigger:** after each Phase 3 batch (refreshes `last_checked` on newly-cited stubs) and after any source page URL/archive edits.
 
-**Trigger for next term batch:** With 2.5a + 2.5b in place, term batches should drop from ~3 hrs / 5 terms to ~60–90 min / 5 terms — LLM time concentrated on synthesis and audience notes. Indigenous & Tribal Sovereignty is the natural next chapter; matrix shows `tribe`, `native american`, `tribal` all well-covered.
+**Phase 2.5 fully shipped.** With 2.5a + 2.5b + 2.5c in place, term batches should drop from ~3 hrs / 5 terms to ~60–90 min / 5 terms — LLM time concentrated on synthesis and audience notes. Indigenous & Tribal Sovereignty is the natural next chapter; matrix shows `tribe`, `native american`, `tribal` all well-covered.
 
 ## Locked decisions (2026-04-23)
 

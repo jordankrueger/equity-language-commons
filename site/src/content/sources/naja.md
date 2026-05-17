@@ -6,8 +6,12 @@ year: 2017
 source_url: "https://naja.com/"
 local_archive: "source-guides/discovered/naja-indigenous-terminology-2023-06.pdf"
 host_posture: "private-mirror-link-out"
-live_status: "live"
+live_status: "offline"
 stub: true
+length_pages: 2
+format: "PDF"
+last_checked: 2026-05-17
+added: 2026-05-17
 ---
 
 ## About

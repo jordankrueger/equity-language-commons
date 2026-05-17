@@ -1,6 +1,6 @@
 # Equity Language Commons — Roadmap
 
-**Status as of 2026-05-17 (afternoon):** Phases 0, 1, and most of Phase 2 complete. Phase 2.5a (`scripts/extract-pdfs.sh`) shipped — all 17 PDFs in `source-guides/` now have grep-able markdown siblings, including OCR for NAJA. Phase 2.5b (`scripts/build-coverage-matrix.py`) shipped — 26 sources scanned, 1,273 unique terms across the universe, 2,672-row CSV at `notes/term-coverage-matrix.csv`, ranked MD at `notes/term-coverage-matrix.md`. Top non-indexed candidates by cross-source coverage: `asian` (15), `community` (15), `diversity` (13), `families` (13), `discrimination` (12), `illegal` (12), `immigrant` (12), `victim` (12), `transgender` (10), `tribe` (8).
+**Status as of 2026-05-17 (afternoon):** Phases 0, 1, 2, and 2.5 all complete. Phase 2.5a `scripts/extract-pdfs.sh` — 17 PDFs converted to grep-able markdown siblings (incl. OCR for NAJA). Phase 2.5b `scripts/build-coverage-matrix.py` — 26 sources scanned, 1,273 unique terms in universe, 2,672-row CSV + ranked MD in `notes/`. Phase 2.5c `scripts/enrich-source-pages.py` — 48 mechanical field updates across all 16 source pages (length_pages from pdfinfo, format auto-set, live_status via HEAD/GET fallback, added/last_checked seeded to today). Build still clean at 44 pages. Top non-indexed term candidates by cross-source coverage: `asian` (15), `community` (15), `diversity` (13), `discrimination` (12), `illegal` (12), `immigrant` (12), `victim` (12), `transgender` (10), `tribe` (8). NAJA's source_url (`naja.com`) flagged as stale — NAJA rebranded to Indigenous Journalists Association in 2023.
 
 **Status as of 2026-05-16:** Phases 0, 1, and most of Phase 2 complete. GitHub remote live at `jordankrueger/equity-language-commons` (private). CF Pages preview build live at `https://equity-language-commons.pages.dev/` (Wrangler direct-upload via `./scripts/deploy.sh`; one-time GitHub auto-deploy wire-up still pending Jordan's CF dashboard click). Phase 3 underway — **Race & Ethnicity chapter at 16 indexed terms** (up from 1) covering the highest cross-source-coverage R&E vocabulary in the in-scope corpus. R&E chapter intro rewritten with 6 cross-cutting principles drawn from the actual term patterns. Build clean, 44 static pages.
 
@@ -176,15 +176,22 @@ The 2026-05-16 R&E batch session surfaced where LLM time is being spent vs. wher
 
 **Rule:** Re-run after each Phase 3 batch (new terms indexed → fresh "what's left" ranking) and after new sources are dropped into `source-guides/`.
 
-#### 2.5c — Source page enrichment (one-time research session)
+#### ✅ 2.5c — Source page enrichment (shipped 2026-05-17)
 
-**Problem:** 15 of 16 source pages are stubs auto-generated from term frontmatter. Each needs: publication year, page/section count, license findings, host posture rationale, access posture panel content, version history (if any), live status check. None of this needs LLM cross-corpus synthesis; it's per-source metadata research.
+**Problem:** 15 of 16 source pages were stubs auto-generated from term frontmatter. Each needs mechanical metadata (year, page count, format, live status, dates) and qualitative content (About section, Access-posture rationale, version history, license findings). Doing this by hand or LLM was wrong-tool work.
 
-**Build:** A focused 60–90 minute session per source (not LLM-driven), OR a script (`scripts/enrich-source-pages.py`) that reads PDF metadata + filename + MANIFEST.md to pre-populate the metadata fields, leaving only the qualitative parts for human input. Most leveraged if combined with the live-status check via a simple HEAD request to each `source_url`.
+**Built:** `scripts/enrich-source-pages.py` — walks every `site/src/content/sources/*.md`, parses its frontmatter line-by-line (no YAML library — stdlib only), and:
+- For PDF `local_archive` → runs `pdfinfo`, fills `length_pages`, `format: "PDF"`. PDF Author/Creator metadata is reported as a note (often "Adobe InDesign CC 2017" — not actually the copyright holder) but never auto-applied.
+- For markdown `local_archive` → distinguishes our own PDF-extracted markdown (has `extracted_from:` header → set format to PDF, pull pages from sibling PDF) from web-scraped markdown (no header → set format to `"markdown"` or `"web"`).
+- For `source_url` → HEAD with fallback chain (HEAD → ranged GET → plain GET, so anti-bot 405/501 still gets a real answer). Status mapping: 401/403 → `login-gated`, 404/410 → `404`, other 4xx → `live` with "manual check recommended" note, 5xx/connection error → `offline`. Won't demote a human-set value without `--force`.
+- Seeds `added` and `last_checked` to today if missing.
+- Preserves body, comments, and untouched frontmatter fields.
 
-**Rule:** Run after every Phase 3 batch to update any newly-cited source stubs. Trigger: build report showing N terms cite source X but source X is still `stub: true`.
+Flags: `--check-only`, `--force`, `--no-net`.
 
-**Time saved:** Eliminates the "LLM writing source page from scratch" pattern, which is wrong-tool work. Cost: maybe 2 hours for the enricher script + 60–90 min per source for the qualitative pieces (15–20 hours total across all current source stubs, but spread across batches).
+**Outcome:** 48 field updates across 16 pages on first run. Astro build clean (44 pages). Findings: NAJA `source_url` (`naja.com`) returns connection-refused — NAJA rebranded to Indigenous Journalists Association in 2023 and the old domain went dead. URL needs update before NAJA goes live as a primary Indigenous-chapter source.
+
+**Rule:** Re-run after each Phase 3 batch (to refresh `last_checked` on newly-cited stubs) and after editing any source page's `source_url` or `local_archive`.
 
 #### 2.5d — Recommended order
 

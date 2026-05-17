@@ -8,6 +8,9 @@ local_archive: "source-guides/discovered/radicalcopyeditor-index-2026-04.md"
 host_posture: "private-mirror-link-out"
 live_status: "live"
 stub: true
+format: "markdown"
+last_checked: 2026-05-17
+added: 2026-05-17
 ---
 
 ## About

@@ -6,8 +6,10 @@ year: 2018
 source_url: "https://brusheducation.ca/books/elements-of-indigenous-style"
 local_archive: null
 host_posture: "link-out-only"
-live_status: "live"
+live_status: "404"
 stub: true
+last_checked: 2026-05-17
+added: 2026-05-17
 ---
 
 ## About

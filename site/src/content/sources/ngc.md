@@ -8,6 +8,10 @@ local_archive: "source-guides/Native-Governance-Center-Style-Guide-published-202
 host_posture: "private-mirror-link-out"
 live_status: "live"
 stub: true
+length_pages: 10
+format: "PDF"
+last_checked: 2026-05-17
+added: 2026-05-17
 ---
 
 ## About

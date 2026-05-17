@@ -8,6 +8,9 @@ local_archive: "source-guides/CaseyStyleManualComplete.pdf"
 host_posture: "private-mirror-link-out"
 live_status: "offline"
 stub: true
+length_pages: 34
+format: "PDF"
+added: 2026-05-17
 ---
 
 ## About
