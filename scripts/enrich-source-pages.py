@@ -208,7 +208,7 @@ def head_live_status(url: str) -> tuple[str, str]:
 
 # ---------- per-page enricher ----------
 
-def enrich(path: Path, force: bool, no_net: bool) -> PageChange:
+def enrich(path: Path, force: bool, no_net: bool, check_only: bool = False) -> PageChange:
     slug = path.stem
     text = path.read_text(encoding="utf-8")
     parsed = split_frontmatter(text)
@@ -289,7 +289,7 @@ def enrich(path: Path, force: bool, no_net: bool) -> PageChange:
 
     if change.updates:
         new_fm = apply_updates(fm_lines, change.updates)
-        if not args.check_only:
+        if not check_only:
             write_page(path, new_fm, body)
 
     return change
@@ -309,7 +309,7 @@ def main() -> int:
 
     total_updates = 0
     for path in pages:
-        change = enrich(path, force=args.force, no_net=args.no_net)
+        change = enrich(path, force=args.force, no_net=args.no_net, check_only=args.check_only)
         total_updates += len(change.updates)
         marker = "    " if not change.updates else " →  "
         bits = [f"{k}={v}" for k, v in change.updates.items()] or ["(no changes)"]
