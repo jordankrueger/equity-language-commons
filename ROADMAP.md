@@ -1,6 +1,6 @@
 # Equity Language Commons — Roadmap
 
-**Status as of 2026-05-17:** Phases 0, 1, and most of Phase 2 complete. Phase 2.5a (`scripts/extract-pdfs.sh`) shipped — all 17 PDFs in `source-guides/` now have grep-able markdown siblings, dropping the per-term PDF-reading tax to ~0 for 16 of 17 sources. NAJA Indigenous Terminology Guide (June 2023) flagged as image-only PDF requiring OCR before it can be used as a primary source for the Indigenous chapter.
+**Status as of 2026-05-17 (afternoon):** Phases 0, 1, and most of Phase 2 complete. Phase 2.5a (`scripts/extract-pdfs.sh`) shipped — all 17 PDFs in `source-guides/` now have grep-able markdown siblings, including OCR for NAJA. Phase 2.5b (`scripts/build-coverage-matrix.py`) shipped — 26 sources scanned, 1,273 unique terms across the universe, 2,672-row CSV at `notes/term-coverage-matrix.csv`, ranked MD at `notes/term-coverage-matrix.md`. Top non-indexed candidates by cross-source coverage: `asian` (15), `community` (15), `diversity` (13), `families` (13), `discrimination` (12), `illegal` (12), `immigrant` (12), `victim` (12), `transgender` (10), `tribe` (8).
 
 **Status as of 2026-05-16:** Phases 0, 1, and most of Phase 2 complete. GitHub remote live at `jordankrueger/equity-language-commons` (private). CF Pages preview build live at `https://equity-language-commons.pages.dev/` (Wrangler direct-upload via `./scripts/deploy.sh`; one-time GitHub auto-deploy wire-up still pending Jordan's CF dashboard click). Phase 3 underway — **Race & Ethnicity chapter at 16 indexed terms** (up from 1) covering the highest cross-source-coverage R&E vocabulary in the in-scope corpus. R&E chapter intro rewritten with 6 cross-cutting principles drawn from the actual term patterns. Build clean, 44 static pages.
 
@@ -155,21 +155,26 @@ The 2026-05-16 R&E batch session surfaced where LLM time is being spent vs. wher
 
 **Rule:** Re-run when a new PDF is dropped in. Output is gitignored-eligible (machine-extractable) but currently committed for grep-ability across worktrees.
 
-#### 2.5b — Term coverage matrix
+#### ✅ 2.5b — Term coverage matrix (shipped 2026-05-17)
 
-**Problem:** Today I ran `grep` independently for each term across each source markdown to figure out cross-source coverage. The same work has to happen for every new term. A static matrix built once eliminates the per-term rediscovery.
+**Problem:** Survey step at the start of every Phase 3 batch — "which terms are well-covered across sources?" — was being done by ad-hoc `grep` each time. The same per-term rediscovery, repeated forever.
 
-**Build:** A script (`scripts/build-coverage-matrix.py`) that walks every source markdown in `source-guides/` and `source-guides/discovered/`, identifies term entries by their structure (DSG: `^- \[TERM\]`; TJA: `^### \[TERM`; NABJ/AAJA/etc.: harder, but each has detectable patterns), and produces a CSV:
+**Built:** `scripts/build-coverage-matrix.py` — two-pass extractor.
+- **Pass 1 — structured glossary extractors** for the 6 sources with clean term-entry markup: TJA, DSG, NCDJ, HRC, NLGJA, Radical Copyeditor (trans guide). Together these yield ~1,490 candidate terms.
+- **Pass 2 — keyword scan** over the 20 narrative/non-glossary sources (Sierra Club, NGC, Casey, SEIU, SumOfUs, NABJ, NAJA, Color of Change, etc.), looking for occurrences of any glossary term in the universe.
+- **Filters:** universe stopwords dropped (`the`, `a`, `or`, ...); inverted-glossary fragments dropped (DSG's "Great Migration, the" no longer leaks "the"); Radical Copyeditor metadata keys (`source`, `author`, `published`) blocklisted; common single-word noise (`american`, `family`, `mass`, `red`, ...) blocklisted from keyword scan only — glossary entries for those terms still count.
+- **Normalization:** hyphens collapse to spaces, so the indexed slug `african-american` matches DSG's `african american` and the narrative `African American` in Sierra Club.
 
-```
-term_normalized, source_slug, page_or_line, quote_excerpt_first_100chars, has_avoid_marker, has_capitalization_rule
-```
+**Outputs:**
+- `notes/term-coverage-matrix.csv` — one row per (term × source) hit, ~2,670 rows. Columns: `term_normalized`, `source_slug`, `line`, `excerpt`, `extraction_method` (glossary/keyword), `has_avoid_marker`, `has_capitalization_rule`.
+- `notes/term-coverage-matrix.md` — ranking. Top 50 candidates excluding indexed terms; indexed terms with current coverage; full ranking. Use the top-50 section to pick the next Phase 3 batch.
 
-Output: `notes/term-coverage-matrix.csv`. Also a derived `notes/term-coverage-matrix.md` ranking terms by source-coverage-count (the natural Phase 3 priority order: more sources = better cross-reference value).
+**Findings worth flagging:**
+- `chicanx` — 0 hits across all 26 sources. Indexed Chicanx page is the thinnest-sourced in the R&E chapter.
+- `unhoused-homeless` — 0 hits because the indexed slug is a comparison compound, not a single phrase. Caveat noted in the MD output.
+- Top non-indexed candidates by coverage: `asian` (15), `community` (15), `diversity` (13), `discrimination` (12), `illegal` (12), `immigrant` (12), `victim` (12), `transgender` (10), `tribe` (8). The Indigenous chapter's natural starting terms (`tribe`, `indigenous`, `native american`, `tribal`) all show up well-covered.
 
-**Rule:** Re-generate after each batch when new sources are processed or when source guides update. Use the matrix to pick the next batch — sort by coverage descending, exclude already-indexed terms, take the top 5.
-
-**Time saved:** Replaces the survey step (~20% of a session) with a CSV lookup. Cost: 4–6 hours one-time for a working v1 (PDF extractors are messy; expect iteration). Most leveraged piece of tooling.
+**Rule:** Re-run after each Phase 3 batch (new terms indexed → fresh "what's left" ranking) and after new sources are dropped into `source-guides/`.
 
 #### 2.5c — Source page enrichment (one-time research session)
 

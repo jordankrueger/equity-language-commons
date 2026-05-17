@@ -82,11 +82,14 @@ Phase 3 term-indexing was LLM-heavy in places where it shouldn't be. Three scrip
 1. **✅ `scripts/extract-pdfs.sh`** (shipped 2026-05-17) — `pdftotext` over every PDF in `source-guides/` + `source-guides/discovered/`, writes sibling `.md` with slug matching the org_slug-YYYY-MM convention. 17 PDFs converted. Flags: `--dry-run`, `--force`, `--layout`. Warns when output density < 200 bytes/page (image-only PDF).
    - **Known gap:** NAJA Indigenous Terminology Guide (`naja-indigenous-terminology-2023-06.pdf`) is image-only — extracts to 201 bytes. Needs OCR (`tesseract` or `ocrmypdf`) before the Indigenous chapter starts. NGC PDF has smart-quote rendering issues; text grep-able but quotes need PDF verification before publication.
 
-2. **`scripts/build-coverage-matrix.py`** — Walk every source markdown, extract every term entry, produce `notes/term-coverage-matrix.csv`. Use the matrix to pick the next batch (sort by cross-source coverage descending; exclude already-indexed terms; take top 5). Highest-leverage tooling piece. **Build next.**
+2. **✅ `scripts/build-coverage-matrix.py`** (shipped 2026-05-17) — two-pass extractor: structured glossary extractors for TJA / DSG / NCDJ / HRC / NLGJA / Radical Copyeditor build the candidate term universe (~1,490 terms), then keyword scan over the 20 narrative sources (Sierra Club, NGC, Casey, SEIU, SumOfUs, NABJ, NAJA, Color of Change, etc.) records first-hit-per-source. Outputs `notes/term-coverage-matrix.csv` (~2,670 rows) and ranked `notes/term-coverage-matrix.md`. **Use the top-50-candidates section of the MD to pick the next batch.**
+   - **Filters baked in:** stopwords + inverted-glossary fragments dropped from the universe; common single-word noise (`family`, `american`, `mass`, ...) blocklisted from keyword scan but kept if they have a real glossary entry; hyphens collapse to spaces in the universe and search.
+   - **Known limit:** compound indexed slugs like `unhoused-homeless` show coverage 0 because they're comparison pages, not single phrases. Check the component terms (`unhoused`, `homeless`) separately.
+   - **Re-run trigger:** after each Phase 3 batch (refreshes "what's left to do") and after dropping new sources into `source-guides/`.
 
 3. **`scripts/enrich-source-pages.py`** — Pre-populate source page metadata (year, length, PDF properties, live status via HEAD request) so the qualitative pieces (access posture, version history, license findings) are the only human input needed.
 
-**Trigger for next term batch:** Build 2.5b (coverage matrix) before starting the Indigenous chapter or rounding out R&E. Expect term batches to drop from ~3 hrs / 5 terms to ~60–90 min / 5 terms once 2.5b lands, with LLM time concentrated on synthesis and audience notes.
+**Trigger for next term batch:** With 2.5a + 2.5b in place, term batches should drop from ~3 hrs / 5 terms to ~60–90 min / 5 terms — LLM time concentrated on synthesis and audience notes. Indigenous & Tribal Sovereignty is the natural next chapter; matrix shows `tribe`, `native american`, `tribal` all well-covered.
 
 ## Locked decisions (2026-04-23)
 
