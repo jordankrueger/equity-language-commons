@@ -26,10 +26,10 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Callable, Iterable
 
+from lib import PROJECT_ROOT, SOURCE_ROOTS, normalize_term
+
 # ---------- paths ----------
 
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
-SOURCE_ROOTS = [PROJECT_ROOT / "source-guides", PROJECT_ROOT / "source-guides" / "discovered"]
 INDEXED_TERMS_DIR = PROJECT_ROOT / "site" / "src" / "content" / "terms"
 NOTES_DIR = PROJECT_ROOT / "notes"
 CSV_OUT = NOTES_DIR / "term-coverage-matrix.csv"
@@ -53,13 +53,10 @@ NON_TERM_SOURCES = {
 
 # ---------- term normalization ----------
 
-_LEADING_ARTICLES = re.compile(r"^(?:the|a|an)\s+", re.IGNORECASE)
-_SURROUNDING_QUOTES = re.compile(r'^["“”\'‘’\\]+|["“”\'‘’\\]+$')
-_MULTISPACE = re.compile(r"\s+")
-_NON_WORD_TRAIL = re.compile(r"[\s,;:.!?]+$")
+_MULTISPACE = re.compile(r'\s+')
 
 # Bare-article fragments that an alias-splitter on commas can produce — e.g.
-# DSG's inverted glossary form "Great Migration, the" splits to ["Great
+# DSG’s inverted glossary form "Great Migration, the" splits to ["Great
 # Migration", "the"], and the "the" is junk. Same for "X, a" / "X, an".
 _ARTICLE_FRAGMENTS = {"the", "a", "an"}
 
@@ -89,20 +86,6 @@ KEYWORD_SCAN_BLOCKLIST = {
     "asia",    # matches "Asian-American" already covered by "asian"
     "blind",   # often used metaphorically (color-blind, blind spot) not as a term
 }
-
-
-def normalize_term(raw: str) -> str:
-    """Lowercase, strip quotes/articles/punctuation, collapse whitespace.
-    Hyphens collapse to spaces so 'african-american' and 'african american'
-    are the same term in the universe."""
-    t = raw.strip()
-    t = _SURROUNDING_QUOTES.sub("", t)
-    t = t.lower()
-    t = t.replace("-", " ")  # african-american → african american
-    t = _LEADING_ARTICLES.sub("", t)
-    t = _NON_WORD_TRAIL.sub("", t)
-    t = _MULTISPACE.sub(" ", t)
-    return t.strip()
 
 
 def split_term_aliases(raw: str) -> list[str]:
