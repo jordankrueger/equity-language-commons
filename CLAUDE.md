@@ -93,6 +93,12 @@ Phase 3 term-indexing was LLM-heavy in places where it shouldn't be. Three scrip
 
 **Phase 2.5 fully shipped.** With 2.5a + 2.5b + 2.5c in place, term batches should drop from ~3 hrs / 5 terms to ~60–90 min / 5 terms — LLM time concentrated on synthesis and audience notes. Indigenous & Tribal Sovereignty is the natural next chapter; matrix shows `tribe`, `native american`, `tribal` all well-covered.
 
+## Tooling — Phase 2.6 (programmatic-first term production)
+
+The Phase 3 floor — even with the matrix — is still ~30-40 min/term of LLM grinding through sources. Phase 2.6 pushes that floor toward 8-12 min/term by scaffolding the term file mechanically. See ROADMAP.md Phase 2.6 for the locked plan.
+
+Build order: scaffolder first → evaluate → only then build more extractors / generators. Don't re-litigate.
+
 ## Locked decisions (2026-04-23)
 
 - **Shape:** Option C — cross-referenced omnibus with sourced excerpts

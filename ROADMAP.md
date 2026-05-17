@@ -201,6 +201,63 @@ Flags: `--check-only`, `--force`, `--no-net`.
 
 After 2.5a + 2.5b land, **Phase 3 term batches should drop from ~3 hours / 5 terms to ~60–90 min / 5 terms**, with the LLM time concentrated on synthesis, paraphrase, and audience notes — the work that actually requires cross-corpus judgment.
 
+### Phase 2.6 — Programmatic-first term production (locked 2026-05-17)
+
+**Locked direction:** Push as much of the per-term work as possible into
+scripts, so Phase 3 batches become "review and tighten" rather than
+"research and write from scratch." Each script reduces the per-term LLM-
+time floor; the goal is ≤10 min/term of human/LLM judgment instead of the
+~30-40 min/term Phase 3 batches were running at without tooling.
+
+Built in priority order; reassess after each script lands before
+committing to the next.
+
+#### 1. Term scaffolder (highest leverage — build first)
+
+`scripts/scaffold-term.py <slug>` — given a term, walks
+`notes/term-coverage-matrix.csv`, looks up each hit source's metadata,
+reads the source markdown for context around the hit line, classifies
+the recommendation enum from context patterns, and emits a near-complete
+`site/src/content/terms/<slug>.md` with:
+
+- Filled frontmatter (term, slug, dates, indexed-term standards)
+- `guidance[]` with one entry per source-hit: org, year, source_url,
+  local_archive, line ref, quote excerpt, candidate recommendation,
+  `confidence: PARTIAL`
+- TODO placeholders for the synthesis paragraph, audience_notes, and
+  related_terms (the genuinely-judgment parts)
+
+After this script, per-term LLM work is: tighten the quotes against the
+PDF, fix any mis-classified recommendations, write the synthesis,
+write 1-2 audience notes, cross-link related terms. Target: 8-12 min/term.
+
+#### 2. Expanded glossary extractors (build only if scaffolder leaves obvious gaps)
+
+NABJ (2,150 lines), SumOfUs (3,539 lines), and the 3 Color of Change PDFs
+(1,180-2,605 lines each) are currently keyword-scanned only. If the
+scaffolder's quote-extraction on these sources is weak — pulling random
+line context instead of real term entries — add per-source structured
+extractors. Each adds 100-300 terms to the universe and gives the
+scaffolder better-bounded excerpts for those sources.
+
+Decision point: review scaffold output for `tribe` after the scaffolder
+ships. If the SumOfUs/NABJ excerpts look like garbage, build the
+extractors. If they look fine, skip and move on.
+
+#### 3. Source-page About generator (smaller win, defer)
+
+For each stub source page, fetch the org's About page or Wikipedia entry
+and generate a 2-3 paragraph About summary. Compresses source-page
+write-up from ~30 min to ~5 min of LLM tightening. Worth doing in
+batch before Phase 4 (launch gate requires non-stub source pages).
+
+#### 4. GLAAD reference fetcher (defer to Gender & Sexuality chapter)
+
+Fetch the ~6 GLAAD `/reference/X` URLs (transgender, bisexual, intersex,
+nonbinary, etc.) into `source-guides/discovered/`. ~30 min programmatic.
+Only matters for the Gender & Sexuality chapter — defer until that
+chapter is next up.
+
 ### Phase 3 — Bulk term indexing (iterative, one category at a time)
 
 Chunk by the taxonomy that emerges from the first ~10 terms. Aim ~20–40 terms per category. Each category is a focused session.
