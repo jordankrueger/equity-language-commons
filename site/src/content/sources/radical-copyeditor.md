@@ -1,10 +1,10 @@
 ---
-org: "Radical Copyeditor"
+org: "Radical Copyeditor (Alex Kapitan)"
 org_slug: "radical-copyeditor"
-work_title: "Radical Copyeditor"
-year: 2026
-source_url: "https://radicalcopyeditor.com/"
-local_archive: "source-guides/discovered/radicalcopyeditor-index-2026-04.md"
+work_title: "Transgender Style Guide"
+year: 2017
+source_url: "https://radicalcopyeditor.com/2017/08/31/transgender-style-guide/"
+local_archive: "source-guides/discovered/radicalcopyeditor-trans-style-guide-2017.md"
 host_posture: "private-mirror-link-out"
 live_status: "live"
 stub: true

@@ -99,6 +99,19 @@ The Phase 3 floor — even with the matrix — is still ~30-40 min/term of LLM g
 
 Build order: scaffolder first → evaluate → only then build more extractors / generators. Don't re-litigate.
 
+### ✅ `scripts/scaffold-term.py <slug>` (shipped 2026-05-17)
+
+Generates a near-complete `site/src/content/terms/<slug>.md` from the coverage matrix. For each source that mentions the term: reads ±10 lines of context, classifies recommendation (avoid / use / use-with-care / etc.) from context patterns, looks up org/year/url from the matching source page, strips markdown noise from the quote, emits a `guidance[]` entry with `confidence: PARTIAL`. Per-term LLM work after scaffold: tighten quotes, fix mis-classifications, write synthesis + audience_notes.
+
+**Standard Phase 3 batch flow:**
+1. Look at top of `notes/term-coverage-matrix.md` "Top 50 candidates" — pick 5 terms
+2. `./scripts/scaffold-term.py <slug>` for each (~30 sec total)
+3. For each scaffolded file: review notes block, verify quotes against source PDFs, fix any wrong recommendations, write synthesis + audience_notes, cross-link related_terms, remove `stub: true`
+4. `cd site && npm run build` to verify schema
+5. Commit batch, regenerate `notes/term-coverage-matrix.md` (rerun `build-coverage-matrix.py`) so subsequent batches see updated indexed-terms set
+
+**Known limitation — source-page gap:** 9 sources currently lack source pages (HRC, Color of Change × 3, Define American, IDP, Comm-Unity, InterACT, NABJ, WordsAboutWar × 2, WFP USA). Scaffolder will skip them with clear notes. Indigenous chapter is not affected (all 8 relevant sources have pages). For other chapters, either create the missing source pages manually or extend `enrich-source-pages.py` to scaffold them — see ROADMAP Phase 2.6 §1b.
+
 ## Locked decisions (2026-04-23)
 
 - **Shape:** Option C — cross-referenced omnibus with sourced excerpts

@@ -212,24 +212,50 @@ time floor; the goal is ≤10 min/term of human/LLM judgment instead of the
 Built in priority order; reassess after each script lands before
 committing to the next.
 
-#### 1. Term scaffolder (highest leverage — build first)
+#### ✅ 1. Term scaffolder (shipped 2026-05-17)
 
 `scripts/scaffold-term.py <slug>` — given a term, walks
-`notes/term-coverage-matrix.csv`, looks up each hit source's metadata,
-reads the source markdown for context around the hit line, classifies
-the recommendation enum from context patterns, and emits a near-complete
-`site/src/content/terms/<slug>.md` with:
+`notes/term-coverage-matrix.csv`, looks up each hit source's metadata via
+the source-page archive index (PDF→md mapping built from
+`extracted_from:` headers), reads the source markdown for context around
+the hit line, classifies the recommendation enum from context patterns,
+strips known markdown noise (pandoc fenced divs, span IDs, bullet
+glyphs), and emits a near-complete `site/src/content/terms/<slug>.md`.
 
-- Filled frontmatter (term, slug, dates, indexed-term standards)
-- `guidance[]` with one entry per source-hit: org, year, source_url,
-  local_archive, line ref, quote excerpt, candidate recommendation,
-  `confidence: PARTIAL`
-- TODO placeholders for the synthesis paragraph, audience_notes, and
-  related_terms (the genuinely-judgment parts)
+Validation on `tribe` (8 source hits): 8/8 recommendations correctly
+classified (APA/DSG → avoid; SumOfUs/NAJA/GCJT → use;
+NGC/Sierra Club/RET → use-with-care). DSG quote came out as the
+clean canonical "Avoid. Eurocentric term for ethnic conflict among
+people of color" — ready to cite without editing.
 
-After this script, per-term LLM work is: tighten the quotes against the
-PDF, fix any mis-classified recommendations, write the synthesis,
-write 1-2 audience notes, cross-link related terms. Target: 8-12 min/term.
+Per-term LLM work after scaffold: tighten quotes against PDFs, fix any
+mis-classified recommendations, write synthesis paragraph + audience
+notes, cross-link related terms. Target: 8-12 min/term.
+
+#### 1b. Source-page gap (discovered 2026-05-17 — needs decision)
+
+The scaffolder skips sources that have no entry in
+`site/src/content/sources/`. **9 narrative sources currently lack
+source pages**: HRC, Color of Change (× 3 PDFs), Define American,
+IDP, Comm-Unity, InterACT, NABJ, WordsAboutWar (full + short),
+WFP USA. For terms whose primary sources are in this set
+(Immigration & Refugees, Gender & Sexuality), the scaffolder will
+produce reduced-coverage output with explicit "create source page"
+notes.
+
+Two paths to fill the gap:
+- **Manual**: ~5 min per source × 9 = ~45 min of mechanical work
+- **Scripted**: extend `enrich-source-pages.py` with a
+  `--create-missing-stubs` mode that walks the matrix for source
+  slugs without source pages and emits stub source pages with
+  org/year/url derived from `source-guides/MANIFEST.md` + the .md
+  filename. ~1-2 hours of script work, saves ~30 min of manual
+  work, and stays clean if new sources are added later.
+
+Recommend the scripted path if we'll be processing 3+ chapters
+beyond Indigenous. The Indigenous chapter itself doesn't need any
+of these 9 sources — all 8 sources that cite `tribe` already have
+source pages.
 
 #### 2. Expanded glossary extractors (build only if scaffolder leaves obvious gaps)
 
