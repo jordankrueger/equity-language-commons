@@ -21,12 +21,14 @@ handled in tiers — see `ROADMAP.md` and `source-guides/MANIFEST.md`.
 
 ## Phase
 
-Phases 0 and 1 **complete** (2026-04-24). Schema v0.3 locked after three
-structurally-different test terms (Latinx, unhoused/homeless, Indigenous).
-Phase 2 next: Astro site scaffold + four queued source acquisitions
-(Homelessness Beat Reporters guide; Radical Copyeditor's 30-phrases essay;
-full APA Inclusive Language Guide; NAJA Tribal Nations Media Guide).
-See `ROADMAP.md` for phased plan.
+Phases 0, 1, 2, 2.5, and 2.6 **complete** (2026-05-17). Schema v0.3 locked.
+Astro site live at the preview URL. Full programmatic pipeline shipped —
+extract → matrix → source-page scaffold → enrich → term scaffold.
+
+**Phase 3 (bulk term indexing) is the next phase**, paced by the matrix
+ranking and the scaffolder. 18 terms indexed (16 in R&E + 2 stubs from
+Phase 1). Launch gate is ~50 terms across 3–4 chapters. Indigenous & Tribal
+Sovereignty is the natural next chapter — see ROADMAP §Phase 3.
 
 ## Scope (locked 2026-04-23)
 
@@ -57,14 +59,15 @@ to frame issues*. Not brand identity (logos/fonts) or general editorial
 
 ## Folder structure
 
-- `source-guides/` — archived guides Jordan dropped in (6 originals)
-- `source-guides/discovered/` — guides pulled during research phase (27 files)
-- `source-guides/MANIFEST.md` — file catalog with host posture per guide
+- `source-guides/` — 6 originally-archived PDFs + their extracted `.md` siblings
+- `source-guides/discovered/` — guides pulled during research phase (PDFs + scraped/extracted markdown)
+- `source-guides/MANIFEST.md` — canonical catalog: file, org, title, year, scope, host posture per guide. **Update first when adding a new source** — `scaffold-source-pages.py` reads this to derive metadata.
 - `research/research-notes.md` — full research audit trail (follow `.claude/rules/client-research.md` — VERIFIED sources)
-- `notes/` — taxonomy drafts, schema, test terms, working notes
-- `site/` — Astro project (scaffolded; Phase 2 in progress)
-- `scripts/` — utility scripts (deploy.sh, etc.)
+- `notes/` — schema, test terms, working notes, **coverage matrix outputs** (`term-coverage-matrix.csv` + `.md`)
+- `site/` — Astro project. Content collections in `site/src/content/` for `terms/`, `sources/`, `chapters/`
+- `scripts/` — full pipeline (extract-pdfs.sh, build-coverage-matrix.py, scaffold-source-pages.py, enrich-source-pages.py, scaffold-term.py, deploy.sh)
 - `ROADMAP.md` — phased plan
+- `preview/` — early HTML/CSS design previews (pre-Astro)
 
 ## Deploy
 
@@ -133,10 +136,10 @@ Walks the coverage matrix for source slugs not represented in `site/src/content/
 
 ## Still open
 
-- Domain name
-- Whether to accept user submissions at v1 or v2
-- Relationship with Conscious Style Guide + Diversity Style Guide (sibling or competitor framing)
-- Downloadable "everything" PDF — later decision
+- Whether to accept user submissions at v1 or v2 (lightweight: Google Form → GitHub issue)
+- Relationship with Conscious Style Guide + Diversity Style Guide (sibling or competitor framing — defer to Phase 5 outreach)
+- Downloadable "everything" PDF — later decision (more copyright-sensitive than the per-term pages)
+- Whether to build Phase 2.6 #3 (source-page About generator) before Phase 4, or write Abouts manually as part of Phase 3 batches
 
 ## Guardrails
 

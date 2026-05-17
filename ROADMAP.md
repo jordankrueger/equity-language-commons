@@ -1,6 +1,25 @@
 # Equity Language Commons — Roadmap
 
-**Status as of 2026-05-17 (afternoon):** Phases 0, 1, 2, and 2.5 all complete. Phase 2.5a `scripts/extract-pdfs.sh` — 17 PDFs converted to grep-able markdown siblings (incl. OCR for NAJA). Phase 2.5b `scripts/build-coverage-matrix.py` — 26 sources scanned, 1,273 unique terms in universe, 2,672-row CSV + ranked MD in `notes/`. Phase 2.5c `scripts/enrich-source-pages.py` — 48 mechanical field updates across all 16 source pages (length_pages from pdfinfo, format auto-set, live_status via HEAD/GET fallback, added/last_checked seeded to today). Build still clean at 44 pages. Top non-indexed term candidates by cross-source coverage: `asian` (15), `community` (15), `diversity` (13), `discrimination` (12), `illegal` (12), `immigrant` (12), `victim` (12), `transgender` (10), `tribe` (8). NAJA's source_url (`naja.com`) flagged as stale — NAJA rebranded to Indigenous Journalists Association in 2023.
+**Status as of 2026-05-17 (end-of-session):** Phases 0, 1, 2, 2.5, and 2.6 all complete. The full programmatic pipeline ships:
+
+| Stage | Script | Purpose |
+|---|---|---|
+| 1 | `scripts/extract-pdfs.sh` | PDF → grep-able markdown sibling (with `--ocr` fallback for image-only PDFs) |
+| 2 | `scripts/build-coverage-matrix.py` | Walk corpus, output term universe + ranked candidate list |
+| 3 | `scripts/scaffold-source-pages.py` | Create source pages for any matrix source missing one (reads MANIFEST.md) |
+| 4 | `scripts/enrich-source-pages.py` | Fill mechanical metadata on all source pages (pdfinfo + HEAD checks) |
+| 5 | `scripts/scaffold-term.py <slug>` | Pre-populate a term .md from the matrix — ready for LLM refinement |
+| 6 | `scripts/deploy.sh` | Build + Wrangler upload to CF Pages |
+
+Corpus state: 27 source pages (15 fleshed-out + 12 new stubs), 26 of 33 sources scanned by matrix (7 excluded as non-glossary/out-of-scope), 1,273 unique terms in universe, build clean at **56 pages**.
+
+**Phase 3 is unblocked.** Workflow: pick term from `notes/term-coverage-matrix.md` top-50 → `./scripts/scaffold-term.py <slug>` → review + tighten quotes + write synthesis + audience_notes → remove `stub: true` → commit. Target: 8–12 min/term.
+
+Known stragglers carried into Phase 3:
+- NAJA `source_url` (`naja.com`) is dead — needs update to `indigenousjournalists.org`
+- `KNOWN_URLS` in `scaffold-source-pages.py` had stale NABJ + Define American URLs (returned 404 on live-check)
+- Recommendation classifier doesn't catch semantic negation (e.g., SumOfUs's "a person is never illegal" classifies as `use-with-care` not `avoid` — easy LLM-time fix during scaffold review)
+- Source-page About sections (all 27) still need to be written for Phase 4 launch — Phase 2.6 #3 (About generator) is the deferred "do this before launch" item
 
 **Status as of 2026-05-16:** Phases 0, 1, and most of Phase 2 complete. GitHub remote live at `jordankrueger/equity-language-commons` (private). CF Pages preview build live at `https://equity-language-commons.pages.dev/` (Wrangler direct-upload via `./scripts/deploy.sh`; one-time GitHub auto-deploy wire-up still pending Jordan's CF dashboard click). Phase 3 underway — **Race & Ethnicity chapter at 16 indexed terms** (up from 1) covering the highest cross-source-coverage R&E vocabulary in the in-scope corpus. R&E chapter intro rewritten with 6 cross-cutting principles drawn from the actual term patterns. Build clean, 44 static pages.
 
@@ -132,12 +151,15 @@ Done:
 - [x] **Git initialized** with two commits: baseline + scaffold
 
 Remaining:
-- [ ] Verify Sierra Club guide page count / section count against actual PDF (placeholder values currently)
-- [ ] Acquire 4 queued source guides (Homelessness Beat Reporters, Radical Copyeditor 30-phrases, full APA Inclusive Language Guide, NAJA Tribal Nations Media Guide 2020)
 - [x] Set up remote GitHub repo at `jordankrueger/equity-language-commons` (private to start) — done 2026-05-16
-- [ ] Wire Pagefind client-side search
-- [x] Deploy to Cloudflare Pages on the `pages.dev` URL (not yet pointed at custom domain) — done 2026-05-16 via Wrangler direct upload (`./scripts/deploy.sh`); GitHub auto-deploy via CF dashboard pending Jordan
-- [ ] Fill out the 15 source stubs over time as more terms get added (8 new sources cited in R&E batches need verification of stub auto-generation)
+- [x] Deploy to Cloudflare Pages on the `pages.dev` URL — done 2026-05-16 via Wrangler direct upload (`./scripts/deploy.sh`); GitHub auto-deploy via CF dashboard pending Jordan
+- [x] Source-page mechanical metadata filled out — done 2026-05-17 via `enrich-source-pages.py` (length_pages, format, live_status, dates)
+- [ ] **Wire Pagefind client-side search** — needed for Phase 4 launch
+- [ ] **Write About sections for all 27 source pages** — Phase 4 launch gate. Either manually as part of Phase 3 batches, or build Phase 2.6 #3 (source-page About generator) to batch-process.
+- [ ] Verify Sierra Club guide page count / section count against actual PDF (placeholder values currently — note: enrich script pulled `length_pages: 40` from pdfinfo)
+- [ ] Acquire 4 queued source guides (Homelessness Beat Reporters, Radical Copyeditor 30-phrases, full APA Inclusive Language Guide, NAJA Tribal Nations Media Guide 2020) — if/when discovered
+- [ ] Update NAJA `source_url` from `naja.com` to `indigenousjournalists.org` (rebrand happened 2023, old domain dead)
+- [ ] Confirm canonical URLs in `scaffold-source-pages.py` `KNOWN_URLS` map — NABJ + Define American returned 404 on live-check
 
 ### Phase 2.5 — Tooling to reduce LLM tax before Phase 3 scales (added 2026-05-16)
 
@@ -291,6 +313,18 @@ chapter is next up.
 
 ### Phase 3 — Bulk term indexing (iterative, one category at a time)
 
+**Now scaffolder-driven.** With Phase 2.5 + 2.6 complete, each Phase 3 batch is:
+
+1. Open `notes/term-coverage-matrix.md` → "Top 50 candidates" section
+2. Pick 5 terms (filter by chapter focus, e.g., Indigenous-related terms for the next chapter)
+3. For each: `./scripts/scaffold-term.py <slug>` (~30 sec total)
+4. Review each scaffolded file — read the `<!-- scaffolder notes -->` block, tighten quotes against PDFs, fix any mis-classified recommendations, write synthesis paragraph + audience_notes, cross-link related_terms, fill categories + tags, remove `stub: true`
+5. `cd site && npm run build` to verify schema
+6. `./scripts/build-coverage-matrix.py` to regenerate the ranking (so the new terms are excluded from the next batch)
+7. Commit batch
+
+Target per term: 8–12 min of LLM/human judgment work.
+
 Chunk by the taxonomy that emerges from the first ~10 terms. Aim ~20–40 terms per category. Each category is a focused session.
 
 Likely categories (subject to what emerges):
@@ -349,13 +383,14 @@ Ongoing, not a phase in the usual sense.
 
 ## Open questions / parked decisions
 
-- **Domain name** — ~~pick before Phase 5 outreach~~ resolved 2026-05-14: `equitylanguagecommons.org`
-- **User submissions at v1 or v2** — Google Form → GitHub issue workflow is the lightest-weight option for non-technical contributors
-- **Downloadable "everything" PDF** — useful offline but more copyright-sensitive; later decision
-- **Relationship with Conscious Style Guide / Diversity Style Guide** — sibling resources; decide outreach framing (complementary, not competitive)
-- **Controlled vs. free-form taxonomy** — let it stay free-form until ~10 terms exist and the natural shape is visible
+- **User submissions at v1 or v2** — Google Form → GitHub issue is the lightest-weight workflow; decide before Phase 4 launch
+- **Downloadable "everything" PDF** — useful offline but more copyright-sensitive than per-term pages; later decision
+- **Relationship with Conscious Style Guide / Diversity Style Guide** — sibling resources; decide outreach framing (complementary, not competitive) — defer to Phase 5 outreach
+- **Controlled vs. free-form taxonomy** — currently free-form (`categories: []` strings). Now that R&E has 16 indexed terms, may be time to lock the chapter taxonomy. Indigenous chapter's first batch will pressure-test whether the current categories cover that domain or need additions.
 - **Whether `related_terms.relation` enum is exhaustive** — add values as new relationship types appear
 - **Whether `context_data` becomes its own content type** (cited from many terms) instead of embedded per-term — decide after 2–3 more terms are populated
+- **Whether to build Phase 2.6 #3 (source-page About generator) before Phase 4** — would batch-process all 27 About sections instead of writing each by hand. Decide once 3–5 terms are finalized through the new scaffolder flow and we see how often the source pages need touching.
+- **Stub-flag handling in build** — `tribe.md` and `transgender.md` were deleted as test scaffolds. Real Phase 3 batches will produce term files with `stub: true` until finalized. Decide whether matrix should count stubs as indexed (currently does) and whether `/terms/index` should hide stubs (currently shows everything).
 
 ## Guardrails
 
