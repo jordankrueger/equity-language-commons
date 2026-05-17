@@ -7,12 +7,15 @@
 # Phase 2.5a tooling. See ROADMAP.md "Phase 2.5" for context.
 #
 # Usage:
-#   ./scripts/extract-pdfs.sh           # convert missing siblings
+#   ./scripts/extract-pdfs.sh           # convert missing siblings (text-only)
 #   ./scripts/extract-pdfs.sh --force   # re-extract even if sibling exists
 #   ./scripts/extract-pdfs.sh --dry-run # show what would be done
 #   ./scripts/extract-pdfs.sh --layout  # preserve column layout (default: reading order)
+#   ./scripts/extract-pdfs.sh --ocr     # OCR image-only PDFs (auto-detected by low text density)
 #
 # Requires: pdftotext (poppler). `brew install poppler` if missing.
+# Optional (for --ocr): pdftoppm (poppler, already there) + tesseract.
+#   `brew install tesseract` if missing.
 
 set -euo pipefail
 
@@ -22,13 +25,15 @@ SOURCE_DIR="${PROJECT_ROOT}/source-guides"
 FORCE=0
 DRY_RUN=0
 LAYOUT_FLAG=""
+OCR=0
 
 for arg in "$@"; do
   case "$arg" in
     --force)    FORCE=1 ;;
     --dry-run)  DRY_RUN=1 ;;
     --layout)   LAYOUT_FLAG="-layout" ;;
-    -h|--help)  sed -n '2,17p' "$0"; exit 0 ;;
+    --ocr)      OCR=1 ;;
+    -h|--help)  sed -n '2,20p' "$0"; exit 0 ;;
     *)          echo "unknown flag: $arg" >&2; exit 2 ;;
   esac
 done
@@ -36,6 +41,28 @@ done
 command -v pdftotext >/dev/null || {
   echo "pdftotext not found. Install with: brew install poppler" >&2
   exit 1
+}
+
+if [[ $OCR -eq 1 ]]; then
+  command -v pdftoppm >/dev/null || { echo "pdftoppm missing (brew install poppler)" >&2; exit 1; }
+  command -v tesseract >/dev/null || { echo "tesseract missing (brew install tesseract)" >&2; exit 1; }
+fi
+
+# OCR an image-only PDF: rasterize each page with pdftoppm @ 300dpi,
+# OCR each page image with tesseract, concatenate.
+# Writes UTF-8 text to stdout. Returns non-zero on any failure.
+ocr_pdf() {
+  local pdf="$1"
+  local workdir
+  workdir="$(mktemp -d -t extract-ocr.XXXXXX)"
+  pdftoppm -r 300 -png "$pdf" "${workdir}/page" 2>/dev/null || { rm -rf "$workdir"; return 1; }
+  local img
+  for img in "${workdir}"/page-*.png; do
+    [[ -f "$img" ]] || continue
+    tesseract "$img" - -l eng 2>/dev/null
+    printf "\n"
+  done
+  rm -rf "$workdir"
 }
 
 # Explicit slug overrides for the 6 archived PDFs in source-guides/ root,
@@ -98,10 +125,33 @@ extract_one() {
     return 0
   fi
 
+  local pages
+  pages="$(pdfinfo "$pdf" 2>/dev/null | awk -F: '/^Pages/ {gsub(/ /,"",$2); print $2}')"
+
+  # Density check: if text per page is suspiciously low, the PDF is probably
+  # image-only. With --ocr set, transparently fall back to tesseract.
+  local tool_used="pdftotext"
+  local raw_chars
+  raw_chars="$(wc -c < "$tmp" | tr -d ' ')"
+  if [[ -n "${pages:-}" && "$pages" -gt 0 ]]; then
+    local raw_density=$(( raw_chars / pages ))
+    if (( raw_density < 200 )) && [[ $OCR -eq 1 ]]; then
+      printf "  ocr    %s (low density: %d bytes/page — running tesseract…)\n" "$base" "$raw_density"
+      if ocr_pdf "$pdf" > "$tmp" 2>/dev/null && [[ -s "$tmp" ]]; then
+        tool_used="tesseract (OCR)"
+      else
+        printf "  FAIL   %s (tesseract OCR error)\n" "$base" >&2
+        rm -f "$tmp"
+        ((failed++)) || true
+        return 0
+      fi
+    fi
+  fi
+
   {
     printf -- "<!--\n"
     printf "extracted_from: %s\n" "$base"
-    printf "tool: pdftotext (poppler) %s\n" "${LAYOUT_FLAG:+layout-preserving }default"
+    printf "tool: %s%s\n" "$tool_used" "${LAYOUT_FLAG:+ (layout-preserving)}"
     printf "extracted_on: %s\n" "$(date -u +%Y-%m-%d)"
     printf "note: machine-extracted text; verify against the source PDF before quoting.\n"
     printf -- "-->\n\n"
@@ -109,16 +159,17 @@ extract_one() {
   } > "$out"
   rm -f "$tmp"
 
-  local pages chars density
-  pages="$(pdfinfo "$pdf" 2>/dev/null | awk -F: '/^Pages/ {gsub(/ /,"",$2); print $2}')"
+  local chars density
   chars="$(wc -c < "$out" | tr -d ' ')"
-  printf "  ok     %s → %s (%s pages, %s bytes)" "$base" "${slug}.md" "${pages:-?}" "$chars"
+  printf "  ok     %s → %s (%s pages, %s bytes, %s)" "$base" "${slug}.md" "${pages:-?}" "$chars" "$tool_used"
   if [[ -n "${pages:-}" && "$pages" -gt 0 ]]; then
     density=$(( chars / pages ))
-    # Header is ~250 bytes; real text usually >500 bytes/page. Below ~200 is almost
-    # always an image-only PDF that needs OCR (tesseract) rather than pdftotext.
     if (( density < 200 )); then
-      printf "  ⚠ low text density — likely image-only PDF, needs OCR"
+      if [[ $OCR -eq 0 ]]; then
+        printf "  ⚠ low text density — image-only PDF, rerun with --ocr"
+      else
+        printf "  ⚠ low text density even after OCR — manual transcription may be needed"
+      fi
     fi
   fi
   printf "\n"
