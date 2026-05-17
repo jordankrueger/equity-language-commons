@@ -110,7 +110,17 @@ Generates a near-complete `site/src/content/terms/<slug>.md` from the coverage m
 4. `cd site && npm run build` to verify schema
 5. Commit batch, regenerate `notes/term-coverage-matrix.md` (rerun `build-coverage-matrix.py`) so subsequent batches see updated indexed-terms set
 
-**Known limitation — source-page gap:** 9 sources currently lack source pages (HRC, Color of Change × 3, Define American, IDP, Comm-Unity, InterACT, NABJ, WordsAboutWar × 2, WFP USA). Scaffolder will skip them with clear notes. Indigenous chapter is not affected (all 8 relevant sources have pages). For other chapters, either create the missing source pages manually or extend `enrich-source-pages.py` to scaffold them — see ROADMAP Phase 2.6 §1b.
+### ✅ `scripts/scaffold-source-pages.py` (shipped 2026-05-17)
+
+Walks the coverage matrix for source slugs not represented in `site/src/content/sources/`, parses `source-guides/MANIFEST.md` to look up org/title/year/host posture, writes stub source pages. Run before `enrich-source-pages.py` to bring new sources fully online. Idempotent — only creates missing pages, never touches existing. Stays clean for future source additions.
+
+**Standard pipeline when adding new source guides:**
+1. Drop new PDF/markdown into `source-guides/` or `source-guides/discovered/`
+2. Add an entry row to `source-guides/MANIFEST.md` (file, org, title, year, scope, host)
+3. `./scripts/extract-pdfs.sh` (if PDF)
+4. `./scripts/build-coverage-matrix.py` (rebuilds matrix with new source)
+5. `./scripts/scaffold-source-pages.py` (creates stub source pages for any orphans)
+6. `./scripts/enrich-source-pages.py` (fills mechanical fields on new stubs)
 
 ## Locked decisions (2026-04-23)
 

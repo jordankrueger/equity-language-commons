@@ -232,30 +232,35 @@ Per-term LLM work after scaffold: tighten quotes against PDFs, fix any
 mis-classified recommendations, write synthesis paragraph + audience
 notes, cross-link related terms. Target: 8-12 min/term.
 
-#### 1b. Source-page gap (discovered 2026-05-17 — needs decision)
+#### ✅ 1b. Source-page scaffolder (shipped 2026-05-17)
 
-The scaffolder skips sources that have no entry in
-`site/src/content/sources/`. **9 narrative sources currently lack
-source pages**: HRC, Color of Change (× 3 PDFs), Define American,
-IDP, Comm-Unity, InterACT, NABJ, WordsAboutWar (full + short),
-WFP USA. For terms whose primary sources are in this set
-(Immigration & Refugees, Gender & Sexuality), the scaffolder will
-produce reduced-coverage output with explicit "create source page"
-notes.
+`scripts/scaffold-source-pages.py` — walks the matrix CSV for source
+slugs not represented in `site/src/content/sources/`, parses
+`source-guides/MANIFEST.md` tables to look up org/title/year/host
+posture for each orphan, and writes a stub source page with proper
+frontmatter + boilerplate About/Access body. Then `enrich-source-
+pages.py` fills `length_pages` / `format` / `live_status` mechanically.
 
-Two paths to fill the gap:
-- **Manual**: ~5 min per source × 9 = ~45 min of mechanical work
-- **Scripted**: extend `enrich-source-pages.py` with a
-  `--create-missing-stubs` mode that walks the matrix for source
-  slugs without source pages and emits stub source pages with
-  org/year/url derived from `source-guides/MANIFEST.md` + the .md
-  filename. ~1-2 hours of script work, saves ~30 min of manual
-  work, and stays clean if new sources are added later.
+First-run outcome: 12 stub pages created (HRC, Color of Change × 3,
+Define American, IDP × 2, Comm-Unity, InterACT, NABJ, WordsAboutWar
+× 2, WFP USA). Site grew from 44 → 56 built pages, schema clean.
 
-Recommend the scripted path if we'll be processing 3+ chapters
-beyond Indigenous. The Indigenous chapter itself doesn't need any
-of these 9 sources — all 8 sources that cite `tribe` already have
-source pages.
+**Validation by re-scaffolding `illegal immigrant`:** went from 3/7
+to 7/7 source coverage. DSG quote came out canonical-ready ("Avoid.
+Alternative terms are undocumented worker or undocumented
+immigrant... criminalizes the person rather than the actual act").
+Define American + IDP × 2 + Color of Change all contributed real
+"avoid the term" framing.
+
+**Idempotent + future-proof:** if a new PDF gets dropped into
+`source-guides/` and the pipeline re-runs (extract → matrix →
+scaffold-source-pages → enrich → scaffold-term), the new source
+flows through automatically.
+
+**Known limit:** a few hardcoded canonical URLs in
+`scaffold-source-pages.py`'s `KNOWN_URLS` map may be stale (NABJ
+and Define American returned 404 on first live-check). Update the
+map and re-run when canonical URLs are confirmed.
 
 #### 2. Expanded glossary extractors (build only if scaffolder leaves obvious gaps)
 
