@@ -1,5 +1,7 @@
 # Equity Language Commons — Roadmap
 
+**Status as of 2026-05-17:** Phases 0, 1, and most of Phase 2 complete. Phase 2.5a (`scripts/extract-pdfs.sh`) shipped — all 17 PDFs in `source-guides/` now have grep-able markdown siblings, dropping the per-term PDF-reading tax to ~0 for 16 of 17 sources. NAJA Indigenous Terminology Guide (June 2023) flagged as image-only PDF requiring OCR before it can be used as a primary source for the Indigenous chapter.
+
 **Status as of 2026-05-16:** Phases 0, 1, and most of Phase 2 complete. GitHub remote live at `jordankrueger/equity-language-commons` (private). CF Pages preview build live at `https://equity-language-commons.pages.dev/` (Wrangler direct-upload via `./scripts/deploy.sh`; one-time GitHub auto-deploy wire-up still pending Jordan's CF dashboard click). Phase 3 underway — **Race & Ethnicity chapter at 16 indexed terms** (up from 1) covering the highest cross-source-coverage R&E vocabulary in the in-scope corpus. R&E chapter intro rewritten with 6 cross-cutting principles drawn from the actual term patterns. Build clean, 44 static pages.
 
 **Status as of 2026-05-14:** Phases 0 and 1 complete. Phase 2 is well underway — Astro site scaffolded under `site/`, content collections defined for terms / sources / chapters with Zod schemas mirroring schema v0.3, 3 test terms migrated into the collection, 16 source entries (1 fleshed out, 15 stubs), 5 chapter entries (1 fleshed out, 4 stubs), all 8 page templates built, build clean, dev server verified. Domain `equitylanguagecommons.org` secured. Project renamed from "Progressive Language Commons" to "Equity Language Commons" today.
@@ -141,15 +143,17 @@ Remaining:
 
 The 2026-05-16 R&E batch session surfaced where LLM time is being spent vs. where it's actually adding value. Three pieces of tooling, built once, would make every subsequent Phase 3 batch 2–3x more efficient. Build before the next term batch.
 
-#### 2.5a — PDF→markdown extractor for archived source guides
+#### ✅ 2.5a — PDF→markdown extractor for archived source guides (shipped 2026-05-17)
 
 **Problem:** The 6 archived PDFs in `source-guides/*.pdf` (Sierra Club, NGC, AECF, SEIU, yli, Stand.earth) are read page-by-page during term research, burning significant context per term. The 27 already-converted markdown files in `source-guides/discovered/` are grep-able instantly.
 
-**Build:** A script (`scripts/extract-pdfs.py` or `extract-pdfs.sh`) that runs `pdftotext` (or `pymupdf`/`pdfplumber` for better layout preservation) over every PDF in `source-guides/` and writes a sibling `.md` file. Header normalization is nice-to-have but not required — basic searchable text is enough.
+**Built:** `scripts/extract-pdfs.sh` — runs `pdftotext` (poppler) over every PDF in `source-guides/` and `source-guides/discovered/`, writes a sibling `.md` with a slug matching the org_slug-YYYY-MM convention. Flags: `--dry-run`, `--force`, `--layout`. Hardcoded slug overrides for the 6 archived PDFs (whose original filenames don't slugify cleanly). Emits a `⚠ low text density` warning when output density is < 200 bytes/page (image-only PDF that needs OCR).
 
-**Rule:** Re-run when a new PDF is dropped in. Output goes alongside the PDF (e.g., `source-guides/sierra-club-2021.md` next to `source-guides/Equity Language Guide Sierra Club 2021.pdf`). Convert filenames to slugified form on output so they match the `org_slug` used in term frontmatter.
+**Outcome:** 17 PDFs converted (6 archived + 11 from discovered/). Total grep-able corpus: 27 pre-existing `.md` + 17 new = 44 source markdowns. Per-term PDF-reading context tax should drop to ~0 for 16 of 17.
 
-**Time saved:** Estimated ~30–40% context per term in active Phase 3 work. Cost: 1–2 hours one-time.
+**Known gap:** `naja-indigenous-terminology-2023-06.pdf` extracted to only 201 bytes (2 pages) — it's an image-only PDF. NAJA is a primary source for the Indigenous & Tribal Sovereignty chapter (next chapter up). Needs OCR (`tesseract` or `ocrmypdf`) before the Indigenous chapter starts, or manual transcription. Also: NGC PDF has smart-quote rendering glitches (`"` → `<...=`) — text is still grep-able but quotes need PDF verification before publication.
+
+**Rule:** Re-run when a new PDF is dropped in. Output is gitignored-eligible (machine-extractable) but currently committed for grep-ability across worktrees.
 
 #### 2.5b — Term coverage matrix
 
