@@ -85,27 +85,68 @@ def _parse_frontmatter(path: Path) -> dict[str, str]:
     return result
 
 
-def _build_org_lookup() -> dict[str, dict[str, str]]:
-    """Map source_slug → {org, year, source_url}."""
-    lookup: dict[str, dict[str, str]] = {}
+def _build_org_lookup() -> tuple[dict[str, dict[str, str]], list[tuple[str, dict[str, str]]]]:
+    """Build two lookups mapping matrix source_slug → source-page metadata.
+
+    Matrix source slugs use long-form filenames (e.g.
+    `ncdj-disability-style-guide-2021`). Site source-page slugs sometimes
+    use a shorter org-only form (`ncdj.md`) because they predate the
+    expanded matrix corpus. The two need to be bridged on both org
+    display name AND the `/sources/<slug>/` link target.
+
+    Returns:
+        (exact_lookup, prefix_lookup)
+        - exact_lookup: matrix_slug → metadata for direct filename match
+        - prefix_lookup: sorted list of (org_slug, metadata) for
+          longest-prefix matching against matrix slugs
+    """
+    exact: dict[str, dict[str, str]] = {}
+    prefix: list[tuple[str, dict[str, str]]] = []
+
     for path in sorted(SOURCES_DIR.glob("*.md")):
         fm = _parse_frontmatter(path)
-        slug = path.stem
-        # Many source pages use a per-edition slug; the matrix uses the
-        # same slug, so we key on filename stem directly. Fall back to
-        # the frontmatter org_slug when the filename has been renamed.
-        org = fm.get("org", slug.replace("-", " ").title())
+        page_slug = path.stem
+        org = fm.get("org", page_slug.replace("-", " ").title())
         year = fm.get("year", "")
         url = fm.get("source_url", "")
         if url == "null":
             url = ""
-        lookup[slug] = {"org": org, "year": year, "source_url": url}
-        # Also register the org_slug from frontmatter in case some matrix
-        # rows use the short slug.
+        meta = {
+            "org": org,
+            "year": year,
+            "source_url": url,
+            "page_slug": page_slug,
+        }
+        exact[page_slug] = meta
         org_slug_fm = fm.get("org_slug")
-        if org_slug_fm and org_slug_fm not in lookup:
-            lookup[org_slug_fm] = lookup[slug]
-    return lookup
+        if org_slug_fm:
+            prefix.append((org_slug_fm, meta))
+
+    # Sort longest-first so "racial-equity-tools" matches before "racial".
+    prefix.sort(key=lambda x: -len(x[0]))
+    return exact, prefix
+
+
+def _resolve_source(
+    matrix_slug: str,
+    exact: dict[str, dict[str, str]],
+    prefix: list[tuple[str, dict[str, str]]],
+) -> dict[str, str]:
+    """Resolve a matrix source slug to source-page metadata, falling
+    back to org_slug prefix matching when no exact filename match
+    exists."""
+    if matrix_slug in exact:
+        return exact[matrix_slug]
+    for org_slug, meta in prefix:
+        if matrix_slug == org_slug or matrix_slug.startswith(org_slug + "-"):
+            return meta
+    # No match — return a synthetic entry so the row still renders.
+    return {
+        "org": matrix_slug,
+        "year": "",
+        "source_url": "",
+        "page_slug": matrix_slug,
+    }
 
 
 def _build_commons_lookup() -> dict[str, str]:
@@ -152,6 +193,83 @@ def _letter_bucket(term: str) -> str:
     return "#"
 
 
+def _clean_excerpt(text: str) -> str:
+    """Strip Pandoc attribute fences, markdown link syntax, Wix-rich-text
+    spans, and other formatting noise that leaks out of source markdown
+    extracts. Returns the human-readable text content only.
+
+    Run iteratively because the source markdown sometimes has nested
+    span/attribute syntax (DSG and RET both produce these).
+    """
+    if not text:
+        return ""
+
+    cleaned = text
+    for _ in range(5):  # iterate to handle nested attribute spans
+        before = cleaned
+        # Drop Pandoc-style attribute fences: {.class}, {key="value"},
+        # {.foo .bar key="value"}. Non-greedy, no inner braces.
+        cleaned = re.sub(r"\{[^{}]*\}", "", cleaned)
+        # Collapse markdown links: [text](url) → text. Handle URL-encoded
+        # leading/trailing spaces in the URL.
+        cleaned = re.sub(r"\[([^\[\]]+?)\]\(\s*[^)]+?\s*\)", r"\1", cleaned)
+        # Strip remaining bracket spans (Wix nested form, Pandoc inline
+        # markup without explicit attributes): [text] → text. Only when
+        # there are no further bracketed inner segments.
+        cleaned = re.sub(r"\[([^\[\]]+?)\]", r"\1", cleaned)
+        if cleaned == before:
+            break
+
+    # Strip Pandoc heading markers, list bullets, and Markdown emphasis.
+    cleaned = re.sub(r"^[\s>]*#{1,6}\s*", "", cleaned)
+    cleaned = re.sub(r"^[\s]*[-*+]\s+", "", cleaned)
+    cleaned = re.sub(r"\*\*([^*]+?)\*\*", r"\1", cleaned)
+    cleaned = re.sub(r"(?<!\*)\*([^*]+?)\*(?!\*)", r"\1", cleaned)
+    # Strip stray Pandoc/HTML attribute residue (rare but possible
+    # after partial brace stripping mid-attribute).
+    cleaned = re.sub(r"\.[a-zA-Z][a-zA-Z0-9_\-]*", "", cleaned)
+    # Collapse whitespace.
+    cleaned = re.sub(r"\s+", " ", cleaned).strip()
+    return cleaned
+
+
+def _is_index_only_excerpt(raw: str) -> bool:
+    """True if the raw matrix excerpt looks like a pure DSG-style
+    alphabetical glossary index entry — a bare link with attribute
+    fence and nothing else. These have no definition content and are
+    pure navigation; they shouldn't appear as sources in the glossary
+    index page.
+    """
+    if not raw:
+        return False
+    stripped = raw.strip()
+    # Pattern: optional leading list bullet, then [TERM](url){attrs} at
+    # end-of-excerpt with at most trailing whitespace.
+    pattern = r"^[-*+\s]*\[[^\[\]]+\]\(\s*[^)]+\s*\)\s*\{[^{}]+\}\s*$"
+    return bool(re.match(pattern, stripped))
+
+
+def _is_low_content_excerpt(cleaned: str) -> bool:
+    """True if the cleaned excerpt has too little real content to be
+    worth displaying inline. Sources still get listed, but the excerpt
+    field is blanked out so the reader isn't shown noise.
+
+    Targets:
+    - PDF-extract garbage like 'yy able-bodied' or single-token noise
+    - Section-heading-only matches like '### Abnormal/abnormality' that
+      cleanup leaves as just the term name
+    - Anything that doesn't have at least a verb-or-modifier-worth of
+      context around the term
+    """
+    if len(cleaned) < 30:
+        return True
+    # Heading-only or label-only patterns: a term name + optional colon
+    # or short trailing punctuation, no actual sentence content.
+    if re.match(r"^[A-Za-z][\w/\-\s]{0,60}[:.]?$", cleaned):
+        return True
+    return False
+
+
 def _truncate(text: str, max_chars: int = EXCERPT_MAX_CHARS) -> str:
     text = text.strip().replace("\n", " ").replace("\r", " ")
     text = re.sub(r"\s+", " ", text)
@@ -166,7 +284,7 @@ def build_index() -> dict:
             f"matrix CSV not found at {MATRIX_CSV} — run build-coverage-matrix.py first"
         )
 
-    org_lookup = _build_org_lookup()
+    exact_lookup, prefix_lookup = _build_org_lookup()
     commons_lookup = _build_commons_lookup()
 
     entries: dict[str, dict] = {}
@@ -183,8 +301,18 @@ def build_index() -> dict:
             if not term.startswith("#") and len(term) < SHORT_TERM_THRESHOLD:
                 continue
             source_slug = (row.get("source_slug") or "").strip()
-            excerpt = _truncate(row.get("excerpt") or "")
-            org_meta = org_lookup.get(source_slug, {})
+            raw_excerpt = row.get("excerpt") or ""
+            # Drop pure-navigation-index hits — DSG/RET glossary index
+            # entries with no actual definition content. They produce
+            # the "[ABC](url){.glossaryLink}" style noise.
+            if _is_index_only_excerpt(raw_excerpt):
+                continue
+            cleaned = _clean_excerpt(raw_excerpt)
+            # Blank out low-content excerpts (section headings, PDF
+            # garbage like 'yy able-bodied') — the source still gets
+            # listed but the inline excerpt is suppressed.
+            excerpt = "" if _is_low_content_excerpt(cleaned) else _truncate(cleaned)
+            org_meta = _resolve_source(source_slug, exact_lookup, prefix_lookup)
             entry = entries.setdefault(
                 term,
                 {
@@ -197,7 +325,10 @@ def build_index() -> dict:
             )
             entry["sources"].append(
                 {
-                    "source_slug": source_slug,
+                    # Use the resolved site-source-page slug for the
+                    # link target — matrix slug may be a long-form
+                    # filename that doesn't match the site's URL.
+                    "source_slug": org_meta.get("page_slug", source_slug),
                     "org": org_meta.get("org", source_slug),
                     "year": org_meta.get("year", ""),
                     "source_url": org_meta.get("source_url", ""),
@@ -223,11 +354,19 @@ def build_index() -> dict:
             deduped.append(src)
         entry["sources"] = deduped
         entry["source_count"] = len(deduped)
-        # Heuristic: a single-character term should always be dropped.
-        # An ultra-short term (≤2 chars) is only kept when it has ≥3
-        # sources — those are real glossary entries (e.g., 'b.c' for
-        # 'before Christ'/'before common era').
+        # Ultra-short terms are noise-prone — TV networks, file
+        # extensions, country codes, etc. all match 2-4 char keyword
+        # scans. Require more coverage to keep them:
+        #   ≤2 chars → need ≥3 sources
+        #   3-4 chars → need ≥2 sources
+        #   5+ chars → any count (including 1) is acceptable
         if len(term) <= 2 and entry["source_count"] < 3:
+            continue
+        if 3 <= len(term) <= 4 and entry["source_count"] < 2:
+            continue
+        # Also drop if the term has zero remaining sources (the only
+        # hits were filtered as index-only).
+        if entry["source_count"] == 0:
             continue
         # Resolve commons-page link.
         slug_dashed = term.replace(" ", "-")

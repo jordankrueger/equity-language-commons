@@ -142,8 +142,10 @@ const navLetters = [...A_TO_Z, "#"];
                           {src.org}
                         </a>
                         {src.year && <span class="source-year"> ({src.year})</span>}
-                        {src.excerpt && (
+                        {src.excerpt ? (
                           <span class="source-excerpt"> — “{src.excerpt}”</span>
+                        ) : (
+                          <span class="source-excerpt-missing"> — see source page for the full entry</span>
                         )}
                       </li>
                     ))}
@@ -372,4 +374,5 @@ const navLetters = [...A_TO_Z, "#"];
   .source-org:hover { text-decoration: underline; }
   .source-year { color: var(--ink-muted); font-variant-numeric: tabular-nums; }
   .source-excerpt { color: var(--ink-soft); font-style: italic; }
+  .source-excerpt-missing { color: var(--ink-muted); font-style: italic; font-size: 0.9em; }
 </style>
