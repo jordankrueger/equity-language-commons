@@ -8,12 +8,8 @@ aliases:
 related_terms:
   - slug: "queer"
     relation: "overlapping-but-distinct"
-  - slug: "transgender"
-    relation: "overlapping-but-distinct"
   - slug: "homophobia"
-    relation: "overlapping-but-distinct"
-  - slug: "pronouns"
-    relation: "overlapping-but-distinct"
+    relation: "related-concept"
 
 categories:
   - "sexuality-and-gender-identity"

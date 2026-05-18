@@ -7,13 +7,13 @@ aliases:
   - "Indian reservation"
 related_terms:
   - slug: "tribe"
-    relation: "overlapping-but-distinct"
+    relation: "related-concept"
   - slug: "native-american"
-    relation: "overlapping-but-distinct"
+    relation: "related-concept"
   - slug: "american-indian"
-    relation: "overlapping-but-distinct"
+    relation: "related-concept"
   - slug: "indigenous"
-    relation: "overlapping-but-distinct"
+    relation: "related-concept"
 
 categories:
   - "indigenous-identity-and-sovereignty"

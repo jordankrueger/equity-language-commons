@@ -6,14 +6,12 @@ aliases:
   - "Trans"
   - "Transgender people"
 related_terms:
-  - slug: "gay"
-    relation: "overlapping-but-distinct"
   - slug: "queer"
     relation: "overlapping-but-distinct"
   - slug: "pronouns"
-    relation: "overlapping-but-distinct"
+    relation: "related-concept"
   - slug: "homophobia"
-    relation: "overlapping-but-distinct"
+    relation: "related-concept"
 
 categories:
   - "sexuality-and-gender-identity"

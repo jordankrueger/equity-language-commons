@@ -6,13 +6,11 @@ aliases:
   - "Homophobic"
 related_terms:
   - slug: "gay"
-    relation: "overlapping-but-distinct"
+    relation: "related-concept"
   - slug: "queer"
-    relation: "overlapping-but-distinct"
+    relation: "related-concept"
   - slug: "transgender"
-    relation: "overlapping-but-distinct"
-  - slug: "pronouns"
-    relation: "overlapping-but-distinct"
+    relation: "related-concept"
 
 categories:
   - "sexuality-and-gender-identity"

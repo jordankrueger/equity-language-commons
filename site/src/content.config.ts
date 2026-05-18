@@ -27,6 +27,12 @@ const RELATION = z.enum([
   "overlapping-but-distinct",
   "subset-identity",
   "umbrella-for",
+  // Catch-all for non-identity-overlap relationships: prejudice
+  // against an identity (homophobia → gay), co-occurring concepts
+  // (pronouns ↔ transgender), methodological adjacencies. Use when
+  // the relationship is real and worth surfacing but doesn't fit
+  // any of the identity-overlap categories above.
+  "related-concept",
 ]);
 
 const HOST_POSTURE = z.enum([

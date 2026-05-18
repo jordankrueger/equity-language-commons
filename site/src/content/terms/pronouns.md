@@ -7,13 +7,7 @@ aliases:
   - "Gender pronouns"
 related_terms:
   - slug: "transgender"
-    relation: "overlapping-but-distinct"
-  - slug: "queer"
-    relation: "overlapping-but-distinct"
-  - slug: "gay"
-    relation: "overlapping-but-distinct"
-  - slug: "homophobia"
-    relation: "overlapping-but-distinct"
+    relation: "related-concept"
 
 categories:
   - "sexuality-and-gender-identity"

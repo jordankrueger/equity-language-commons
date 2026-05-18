@@ -10,9 +10,7 @@ related_terms:
   - slug: "transgender"
     relation: "overlapping-but-distinct"
   - slug: "homophobia"
-    relation: "overlapping-but-distinct"
-  - slug: "pronouns"
-    relation: "overlapping-but-distinct"
+    relation: "related-concept"
 
 categories:
   - "sexuality-and-gender-identity"

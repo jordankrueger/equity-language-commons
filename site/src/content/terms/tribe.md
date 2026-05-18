@@ -15,7 +15,7 @@ related_terms:
   - slug: "indigenous"
     relation: "umbrella-for"
   - slug: "reservation"
-    relation: "overlapping-but-distinct"
+    relation: "related-concept"
 
 categories:
   - "indigenous-identity-and-sovereignty"
