@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-18T14:35:15+00:00",
+  "generated_at": "2026-05-18T14:43:53+00:00",
   "stats": {
-    "total_terms": 1038,
+    "total_terms": 1021,
     "commons_terms": 28,
-    "long_tail_terms": 1010,
+    "long_tail_terms": 993,
     "by_coverage": {
-      "1": 583,
-      "2": 227,
+      "1": 575,
+      "2": 223,
       "3": 73,
-      "4": 49,
+      "4": 47,
       "5": 37,
-      "6": 14,
-      "7": 19,
+      "6": 12,
+      "7": 18,
       "8": 14,
       "9": 3,
       "10": 4,
@@ -32,7 +32,6 @@
       "abnormality",
       "abolition",
       "abortion",
-      "accents and direct quotation of",
       "accessibility",
       "accessible",
       "acting",
@@ -44,7 +43,6 @@
       "advocate",
       "affirm identities",
       "affirmative action",
-      "afflicted with",
       "africa",
       "african american",
       "african american language",
@@ -104,7 +102,6 @@
       "asian american",
       "asian exclusion acts",
       "asian names",
-      "asian ness of",
       "asian religions",
       "asiatic",
       "asperger's",
@@ -195,7 +192,6 @@
       "central america",
       "cerebral palsy",
       "charlie chan",
-      "chemical and",
       "chicana",
       "chicano",
       "chicanx",
@@ -338,7 +334,6 @@
       "dragon lady",
       "dreadlocks",
       "dream act",
-      "dressed as",
       "driving while black",
       "drug abuse",
       "dwarf",
@@ -436,7 +431,6 @@
       "good friday",
       "gospel",
       "grandfather clause",
-      "grandfather in",
       "gray",
       "great migration",
       "green card",
@@ -497,9 +491,7 @@
       "hyperactivity disorder"
     ],
     "i": [
-      "identifies a",
       "identifies as\" just means \"is",
-      "identify as",
       "identifying trans sources in prisons",
       "identifying transgender people during breaking news",
       "identity first language",
@@ -634,7 +626,6 @@
       "mentally deranged",
       "mentally disabled",
       "mentally retarded",
-      "mention of",
       "messiah",
       "methodist episcopal church",
       "mexican",
@@ -829,7 +820,6 @@
       "redneck",
       "redskin",
       "redskins",
-      "reference to",
       "refugees",
       "rehab center",
       "reject deceptive framing",
@@ -936,11 +926,8 @@
       "sterilization",
       "stonewall",
       "straight",
-      "stricken with",
       "stuttering",
       "substance abuse",
-      "suffering from",
-      "suffers from",
       "suicide",
       "suicide bombing",
       "suicide contagion",
@@ -1026,8 +1013,6 @@
       "two spirit"
     ],
     "u": [
-      "u.s. census definition of",
-      "u.s. census definitions of",
       "ultra orthodox",
       "uncle",
       "uncle tom",
@@ -1052,7 +1037,6 @@
       "urban",
       "urban contemporary",
       "urban music",
-      "use and abuse of images from",
       "use file photos with care"
     ],
     "v": [
@@ -1060,7 +1044,6 @@
       "vatican city",
       "vegetative state",
       "victim",
-      "victim of",
       "vietnamese names",
       "visibility and authenticity",
       "visually impaired",
@@ -1247,7 +1230,7 @@
           "org": "Sierra Club",
           "year": "2021",
           "source_url": "https://www.sierraclub.org/equity-language-guide",
-          "excerpt": "ABLEISM. ...............................................................................................................",
+          "excerpt": "",
           "extraction_method": "keyword"
         },
         {
@@ -1311,7 +1294,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | sickle cell anemia: Inherited chronic anemia found chiefly among blacks, characteriz",
+          "excerpt": "sickle cell anemia: Inherited chronic anemia found chiefly among blacks, characteriz",
           "extraction_method": "keyword"
         },
         {
@@ -1393,22 +1376,6 @@
           "source_url": "",
           "excerpt": "abortion. “Women’s health issues,” Conway averred, “are",
           "extraction_method": "keyword"
-        }
-      ]
-    },
-    "accents and direct quotation of": {
-      "term": "accents and direct quotation of",
-      "display": "Accents And Direct Quotation Of",
-      "source_count": 1,
-      "commons_slug": null,
-      "sources": [
-        {
-          "source_slug": "diversity-style-guide",
-          "org": "Diversity Style Guide",
-          "year": "2023",
-          "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
-          "excerpt": "accents and direct quotation of{",
-          "extraction_method": "glossary"
         }
       ]
     },
@@ -1551,7 +1518,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Kwanzaa: Swahili for first fruits of the harvest; an African-American cultural holid",
+          "excerpt": "Kwanzaa: Swahili for first fruits of the harvest; an African-American cultural holid",
           "extraction_method": "keyword"
         },
         {
@@ -1767,7 +1734,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | National Association of Black Journalists (NABJ) - based in College Park, Md., an",
+          "excerpt": "National Association of Black Journalists (NABJ) - based in College Park, Md., an",
           "extraction_method": "keyword"
         },
         {
@@ -1839,7 +1806,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | diversity: Catchall term to describe a condition or environment that is multiracial",
+          "excerpt": "diversity: Catchall term to describe a condition or environment that is multiracial",
           "extraction_method": "keyword"
         },
         {
@@ -1849,30 +1816,6 @@
           "source_url": "https://www.racialequitytools.org/glossary",
           "excerpt": "[[Affirmative Action{ style=\"font-size:",
           "extraction_method": "keyword"
-        }
-      ]
-    },
-    "afflicted with": {
-      "term": "afflicted with",
-      "display": "Afflicted With",
-      "source_count": 2,
-      "commons_slug": null,
-      "sources": [
-        {
-          "source_slug": "diversity-style-guide",
-          "org": "Diversity Style Guide",
-          "year": "2023",
-          "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
-          "excerpt": "afflicted with/stricken with/suffers from/victim of(https://www/glossary/afflicted-withstric",
-          "extraction_method": "glossary"
-        },
-        {
-          "source_slug": "ncdj",
-          "org": "National Center on Disability and Journalism",
-          "year": "2021",
-          "source_url": "https://ncdj.org/style-guide/",
-          "excerpt": "",
-          "extraction_method": "glossary"
         }
       ]
     },
@@ -1903,7 +1846,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | dark continent: Avoid using as a description for Africa. Considered offensive. | | F",
+          "excerpt": "dark continent: Avoid using as a description for Africa. Considered offensive. | F",
           "extraction_method": "keyword"
         },
         {
@@ -1991,7 +1934,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Black: See African, African American. (New Guidance) | | | |",
+          "excerpt": "Black: See African, African American. (New Guidance) | |",
           "extraction_method": "keyword"
         },
         {
@@ -2111,7 +2054,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | The Capital Press Club - based in Washington, established in 1944 to expose black",
+          "excerpt": "The Capital Press Club - based in Washington, established in 1944 to expose black",
           "extraction_method": "keyword"
         }
       ]
@@ -2183,7 +2126,7 @@
           "org": "Sierra Club",
           "year": "2021",
           "source_url": "https://www.sierraclub.org/equity-language-guide",
-          "excerpt": "AGEISM..................................................................................................................",
+          "excerpt": "",
           "extraction_method": "keyword"
         },
         {
@@ -2535,7 +2478,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | Islam: Youngest of the world\\'s three major monotheistic religions. Like Judaism a",
+          "excerpt": "Islam: Youngest of the world\\'s three major monotheistic religions. Like Judaism a",
           "extraction_method": "keyword"
         }
       ]
@@ -2647,7 +2590,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Baptist church: Black people were allowed to join the Baptist fold starting in the 1",
+          "excerpt": "Baptist church: Black people were allowed to join the Baptist fold starting in the 1",
           "extraction_method": "keyword"
         },
         {
@@ -3143,7 +3086,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | Islam: Youngest of the world\\'s three major monotheistic religions. Like Judaism a",
+          "excerpt": "Islam: Youngest of the world\\'s three major monotheistic religions. Like Judaism a",
           "extraction_method": "keyword"
         },
         {
@@ -3199,7 +3142,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | Islam: Youngest of the world\\'s three major monotheistic religions. Like Judaism a",
+          "excerpt": "Islam: Youngest of the world\\'s three major monotheistic religions. Like Judaism a",
           "extraction_method": "keyword"
         }
       ]
@@ -3407,7 +3350,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Sources consulted in developing NABJ Style include other media stylebooks; those from NABJ\\'s alliance partners ([",
+          "excerpt": "Sources consulted in developing NABJ Style include other media stylebooks; those from NABJ\\'s alliance partners ([",
           "extraction_method": "keyword"
         },
         {
@@ -3503,7 +3446,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Sources consulted in developing NABJ Style include other media stylebooks; those from NABJ\\'s alliance partners ([",
+          "excerpt": "Sources consulted in developing NABJ Style include other media stylebooks; those from NABJ\\'s alliance partners ([",
           "extraction_method": "keyword"
         },
         {
@@ -3551,22 +3494,6 @@
     "asian names": {
       "term": "asian names",
       "display": "Asian Names",
-      "source_count": 1,
-      "commons_slug": null,
-      "sources": [
-        {
-          "source_slug": "diversity-style-guide",
-          "org": "Diversity Style Guide",
-          "year": "2023",
-          "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
-          "excerpt": "",
-          "extraction_method": "glossary"
-        }
-      ]
-    },
-    "asian ness of": {
-      "term": "asian ness of",
-      "display": "Asian Ness Of",
       "source_count": 1,
       "commons_slug": null,
       "sources": [
@@ -4055,7 +3982,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | Swann vs. Charlotte-Mecklenburg Board of Education (1971) - Supreme Court upholds",
+          "excerpt": "Swann vs. Charlotte-Mecklenburg Board of Education (1971) - Supreme Court upholds",
           "extraction_method": "keyword"
         },
         {
@@ -4095,7 +4022,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Baptist church: Black people were allowed to join the Baptist fold starting in the 1",
+          "excerpt": "Baptist church: Black people were allowed to join the Baptist fold starting in the 1",
           "extraction_method": "keyword"
         }
       ]
@@ -4231,7 +4158,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Southern Cross: Confederate battle flag used during the Civil War, which remains off",
+          "excerpt": "Southern Cross: Confederate battle flag used during the Civil War, which remains off",
           "extraction_method": "keyword"
         },
         {
@@ -4711,7 +4638,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | biracial: Combination of two races. May be used to describe people or things. Not al",
+          "excerpt": "biracial: Combination of two races. May be used to describe people or things. Not al",
           "extraction_method": "keyword"
         }
       ]
@@ -4791,7 +4718,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | down low, DL: Slang for men who have sex with other men but do not classify themselv",
+          "excerpt": "down low, DL: Slang for men who have sex with other men but do not classify themselv",
           "extraction_method": "keyword"
         },
         {
@@ -4919,7 +4846,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | NABJ Statement on Capitalizing Black and Other Racial Identifiers | | [Haven\\'t regi",
+          "excerpt": "NABJ Statement on Capitalizing Black and Other Racial Identifiers | [Haven\\'t regi",
           "extraction_method": "keyword"
         },
         {
@@ -5007,7 +4934,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Black Church: Collective noun that refers to the more than 65,000 Christian churches",
+          "excerpt": "Black Church: Collective noun that refers to the more than 65,000 Christian churches",
           "extraction_method": "keyword"
         }
       ]
@@ -5031,7 +4958,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Black Codes: Statutes curtailing rights of African Americans during early years of R",
+          "excerpt": "Black Codes: Statutes curtailing rights of African Americans during early years of R",
           "extraction_method": "keyword"
         }
       ]
@@ -5055,7 +4982,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | We are updating the organization\\'s style guidance to reflect this determination. The organization believes it is",
+          "excerpt": "We are updating the organization\\'s style guidance to reflect this determination. The organization believes it is",
           "extraction_method": "keyword"
         }
       ]
@@ -5079,7 +5006,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | Black leader: Avoid using the term. It implies that one person is the spokesperson",
+          "excerpt": "Black leader: Avoid using the term. It implies that one person is the spokesperson",
           "extraction_method": "keyword"
         }
       ]
@@ -5159,7 +5086,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | Black Muslim: Archaic term to describe members of the American Muslim Mission. Mus",
+          "excerpt": "Black Muslim: Archaic term to describe members of the American Muslim Mission. Mus",
           "extraction_method": "keyword"
         }
       ]
@@ -5391,7 +5318,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | NABJ also recommends that whenever a color is used to appropriately describe race then it should be capitalized, i",
+          "excerpt": "NABJ also recommends that whenever a color is used to appropriately describe race then it should be capitalized, i",
           "extraction_method": "keyword"
         },
         {
@@ -5479,7 +5406,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Cajun, Creole: Cajun is a native of Louisiana originally descended from the Acadian",
+          "excerpt": "Cajun, Creole: Cajun is a native of Louisiana originally descended from the Acadian",
           "extraction_method": "keyword"
         }
       ]
@@ -5671,7 +5598,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Black Church: Collective noun that refers to the more than 65,000 Christian churches",
+          "excerpt": "Black Church: Collective noun that refers to the more than 65,000 Christian churches",
           "extraction_method": "keyword"
         }
       ]
@@ -5727,7 +5654,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Cajun, Creole: Cajun is a native of Louisiana originally descended from the Acadian",
+          "excerpt": "Cajun, Creole: Cajun is a native of Louisiana originally descended from the Acadian",
           "extraction_method": "keyword"
         },
         {
@@ -5775,22 +5702,6 @@
           "org": "Diversity Style Guide",
           "year": "2023",
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
-          "excerpt": "",
-          "extraction_method": "glossary"
-        }
-      ]
-    },
-    "chemical and": {
-      "term": "chemical and",
-      "display": "Chemical And",
-      "source_count": 1,
-      "commons_slug": null,
-      "sources": [
-        {
-          "source_slug": "ncdj",
-          "org": "National Center on Disability and Journalism",
-          "year": "2021",
-          "source_url": "https://ncdj.org/style-guide/",
           "excerpt": "",
           "extraction_method": "glossary"
         }
@@ -5926,7 +5837,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | Islam: Youngest of the world\\'s three major monotheistic religions. Like Judaism a",
+          "excerpt": "Islam: Youngest of the world\\'s three major monotheistic religions. Like Judaism a",
           "extraction_method": "keyword"
         },
         {
@@ -5950,7 +5861,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | lupus: Chronic disease that affects immunity. Normally, the body\\'s immune system",
+          "excerpt": "lupus: Chronic disease that affects immunity. Normally, the body\\'s immune system",
           "extraction_method": "keyword"
         },
         {
@@ -6030,7 +5941,7 @@
           "org": "Immigrant Defense Project",
           "year": "2021",
           "source_url": "https://www.immigrantdefenseproject.org/",
-          "excerpt": "• Center for Immigration Studies (CIS) “... has a decades-long history of circulating racist writers, while also",
+          "excerpt": "• Center for Immigration Studies (CIS) “ has a decades-long history of circulating racist writers, while also",
           "extraction_method": "keyword"
         },
         {
@@ -6038,7 +5949,7 @@
           "org": "Immigrant Defense Project",
           "year": "2020",
           "source_url": "https://www.immigrantdefenseproject.org/",
-          "excerpt": "Center for Immigration Studies (CIS) “... has a decades-long history of circulating racist",
+          "excerpt": "Center for Immigration Studies (CIS) “ has a decades-long history of circulating racist",
           "extraction_method": "keyword"
         },
         {
@@ -6126,7 +6037,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | civil-rights movement, Civil Rights Act: Often used to describe the struggles of bla",
+          "excerpt": "civil-rights movement, Civil Rights Act: Often used to describe the struggles of bla",
           "extraction_method": "keyword"
         }
       ]
@@ -6190,7 +6101,7 @@
           "org": "Sierra Club",
           "year": "2021",
           "source_url": "https://www.sierraclub.org/equity-language-guide",
-          "excerpt": "CLASSISM AND WEALTH. ...................................................................................................",
+          "excerpt": "",
           "extraction_method": "keyword"
         },
         {
@@ -6382,7 +6293,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | colored: An archaic term for black. In some African countries, colored denotes those",
+          "excerpt": "colored: An archaic term for black. In some African countries, colored denotes those",
           "extraction_method": "keyword"
         },
         {
@@ -6566,7 +6477,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | ::::: | Community Search | |",
+          "excerpt": "",
           "extraction_method": "keyword"
         },
         {
@@ -6982,7 +6893,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Cajun, Creole: Cajun is a native of Louisiana originally descended from the Acadian",
+          "excerpt": "Cajun, Creole: Cajun is a native of Louisiana originally descended from the Acadian",
           "extraction_method": "keyword"
         }
       ]
@@ -7654,7 +7565,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Nation of Islam: Religious movement established during the Great Depression in Detro",
+          "excerpt": "Nation of Islam: Religious movement established during the Great Depression in Detro",
           "extraction_method": "keyword"
         },
         {
@@ -7878,7 +7789,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Third World: Commonly used to describe underdeveloped countries of Africa, Asia and",
+          "excerpt": "Third World: Commonly used to describe underdeveloped countries of Africa, Asia and",
           "extraction_method": "keyword"
         },
         {
@@ -7982,7 +7893,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | dialect: Language forms, particularly oddities of pronunciation and syntax, that are",
+          "excerpt": "dialect: Language forms, particularly oddities of pronunciation and syntax, that are",
           "extraction_method": "keyword"
         }
       ]
@@ -7998,7 +7909,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | We are updating the organization\\'s style guidance to reflect this determination. The organization believes it is",
+          "excerpt": "We are updating the organization\\'s style guidance to reflect this determination. The organization believes it is",
           "extraction_method": "keyword"
         },
         {
@@ -8270,7 +8181,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | bias, discrimination: Bias is a state of mind, a prepossession or prejudice toward a",
+          "excerpt": "bias, discrimination: Bias is a state of mind, a prepossession or prejudice toward a",
           "extraction_method": "keyword"
         },
         {
@@ -8502,7 +8413,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | diversity: Catchall term to describe a condition or environment that is multiracial",
+          "excerpt": "diversity: Catchall term to describe a condition or environment that is multiracial",
           "extraction_method": "keyword"
         },
         {
@@ -8766,7 +8677,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | down low, DL: Slang for men who have sex with other men but do not classify themselv",
+          "excerpt": "down low, DL: Slang for men who have sex with other men but do not classify themselv",
           "extraction_method": "keyword"
         },
         {
@@ -8926,7 +8837,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | dreadlocks, dreds or locks - Long uncombed twisted, or matted, locks of hair, a st",
+          "excerpt": "dreadlocks, dreds or locks - Long uncombed twisted, or matted, locks of hair, a st",
           "extraction_method": "keyword"
         }
       ]
@@ -8955,22 +8866,6 @@
         }
       ]
     },
-    "dressed as": {
-      "term": "dressed as",
-      "display": "Dressed As",
-      "source_count": 1,
-      "commons_slug": null,
-      "sources": [
-        {
-          "source_slug": "nlgja",
-          "org": "NLGJA: The Association of LGBTQ+ Journalists",
-          "year": "2025",
-          "source_url": "https://www.nlgja.org/stylebook/",
-          "excerpt": "",
-          "extraction_method": "glossary"
-        }
-      ]
-    },
     "driving while black": {
       "term": "driving while black",
       "display": "Driving While Black",
@@ -8990,7 +8885,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | driving while black, DWB: Phrase or acronym describing racial profiling of black mot",
+          "excerpt": "driving while black, DWB: Phrase or acronym describing racial profiling of black mot",
           "extraction_method": "keyword"
         }
       ]
@@ -9070,7 +8965,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | driving while black, DWB: Phrase or acronym describing racial profiling of black mot",
+          "excerpt": "driving while black, DWB: Phrase or acronym describing racial profiling of black mot",
           "extraction_method": "keyword"
         }
       ]
@@ -9142,7 +9037,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Ebonics: Slang or nonstandard form of the English language that is used by some in t",
+          "excerpt": "Ebonics: Slang or nonstandard form of the English language that is used by some in t",
           "extraction_method": "keyword"
         }
       ]
@@ -9174,7 +9069,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Uncle Tom: A term of contempt. Based on the main character, an elderly black man, in",
+          "excerpt": "Uncle Tom: A term of contempt. Based on the main character, an elderly black man, in",
           "extraction_method": "keyword"
         },
         {
@@ -9214,7 +9109,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | slavery: The first black African slaves in the American colonies arrived in the earl",
+          "excerpt": "slavery: The first black African slaves in the American colonies arrived in the earl",
           "extraction_method": "keyword"
         }
       ]
@@ -9326,7 +9221,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Congress of Racial Equality (CORE): Civil-rights organization founded in 1942 as the",
+          "excerpt": "Congress of Racial Equality (CORE): Civil-rights organization founded in 1942 as the",
           "extraction_method": "keyword"
         },
         {
@@ -9398,7 +9293,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | ethnicity, race: The mention of a persons race should not be used unless relevant. T",
+          "excerpt": "ethnicity, race: The mention of a persons race should not be used unless relevant. T",
           "extraction_method": "keyword"
         },
         {
@@ -9486,7 +9381,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | ethnicity, race: The mention of a persons race should not be used unless relevant. T",
+          "excerpt": "ethnicity, race: The mention of a persons race should not be used unless relevant. T",
           "extraction_method": "keyword"
         },
         {
@@ -9606,7 +9501,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | fag, faggot: Originally offensive word for homosexual male, although some gay men",
+          "excerpt": "fag, faggot: Originally offensive word for homosexual male, although some gay men",
           "extraction_method": "keyword"
         },
         {
@@ -9630,7 +9525,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | fag, faggot: Originally offensive word for homosexual male, although some gay men",
+          "excerpt": "fag, faggot: Originally offensive word for homosexual male, although some gay men",
           "extraction_method": "keyword"
         },
         {
@@ -9742,7 +9637,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | Jack and Jill of America Inc.: Service-oriented organization founded in 1938 in Ph",
+          "excerpt": "Jack and Jill of America Inc.: Service-oriented organization founded in 1938 in Ph",
           "extraction_method": "keyword"
         },
         {
@@ -9886,7 +9781,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | buck: Archaic derogatory term for a healthy, strong black male during slavery time",
+          "excerpt": "buck: Archaic derogatory term for a healthy, strong black male during slavery time",
           "extraction_method": "keyword"
         },
         {
@@ -10142,7 +10037,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | Freaknic, Freaknik: Annual spring break gathering of thousands of black college st",
+          "excerpt": "Freaknic, Freaknik: Annual spring break gathering of thousands of black college st",
           "extraction_method": "keyword"
         },
         {
@@ -10254,7 +10149,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | down low, DL: Slang for men who have sex with other men but do not classify themselv",
+          "excerpt": "down low, DL: Slang for men who have sex with other men but do not classify themselv",
           "extraction_method": "keyword"
         },
         {
@@ -11246,7 +11141,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | ghetto, inner city: Terms used as synonyms for sections of cities inhabited by poo",
+          "excerpt": "ghetto, inner city: Terms used as synonyms for sections of cities inhabited by poo",
           "extraction_method": "keyword"
         },
         {
@@ -11342,7 +11237,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | Islam: Youngest of the world\\'s three major monotheistic religions. Like Judaism a",
+          "excerpt": "Islam: Youngest of the world\\'s three major monotheistic religions. Like Judaism a",
           "extraction_method": "keyword"
         }
       ]
@@ -11398,7 +11293,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | Guinn vs. United States (1915) - Supreme Court rules that the grandfather clause t",
+          "excerpt": "Guinn vs. United States (1915) - Supreme Court rules that the grandfather clause t",
           "extraction_method": "keyword"
         },
         {
@@ -11408,22 +11303,6 @@
           "source_url": "",
           "excerpt": "228 http://www/sections/codeswitch/2013/10/21/239081586/the-racial-history-ofthe-grandfather-clause",
           "extraction_method": "keyword"
-        }
-      ]
-    },
-    "grandfather in": {
-      "term": "grandfather in",
-      "display": "Grandfather In",
-      "source_count": 1,
-      "commons_slug": null,
-      "sources": [
-        {
-          "source_slug": "diversity-style-guide",
-          "org": "Diversity Style Guide",
-          "year": "2023",
-          "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
-          "excerpt": "grandfather in, grandfather clause{",
-          "extraction_method": "glossary"
         }
       ]
     },
@@ -11494,7 +11373,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | Great Migration, The: Mass movement by Southern blacks relocating to the North and",
+          "excerpt": "Great Migration, The: Mass movement by Southern blacks relocating to the North and",
           "extraction_method": "keyword"
         }
       ]
@@ -11646,7 +11525,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | Gullah: Creole blend of Elizabethan English and African languages, born of necessi",
+          "excerpt": "Gullah: Creole blend of Elizabethan English and African languages, born of necessi",
           "extraction_method": "keyword"
         }
       ]
@@ -11694,7 +11573,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Hair: When describing a persons hair in news stories, ask what style the hair is, do",
+          "excerpt": "Hair: When describing a persons hair in news stories, ask what style the hair is, do",
           "extraction_method": "keyword"
         },
         {
@@ -11934,7 +11813,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | HBCUs: Acronym for historically black colleges and universities. There are 105 ins",
+          "excerpt": "HBCUs: Acronym for historically black colleges and universities. There are 105 ins",
           "extraction_method": "keyword"
         }
       ]
@@ -12246,7 +12125,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | bling-bling: Slang for wealth, big jewels and success associated with hip-hop cult",
+          "excerpt": "bling-bling: Slang for wealth, big jewels and success associated with hip-hop cult",
           "extraction_method": "keyword"
         }
       ]
@@ -12294,7 +12173,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Sources consulted in developing NABJ Style include other media stylebooks; those from NABJ\\'s alliance partners ([",
+          "excerpt": "Sources consulted in developing NABJ Style include other media stylebooks; those from NABJ\\'s alliance partners ([",
           "extraction_method": "keyword"
         },
         {
@@ -12462,7 +12341,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | reparations: Government-issued funding and social programs intended to compensate bl",
+          "excerpt": "reparations: Government-issued funding and social programs intended to compensate bl",
           "extraction_method": "keyword"
         }
       ]
@@ -12614,7 +12493,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | fag, faggot: Originally offensive word for homosexual male, although some gay men",
+          "excerpt": "fag, faggot: Originally offensive word for homosexual male, although some gay men",
           "extraction_method": "keyword"
         },
         {
@@ -12763,30 +12642,6 @@
         }
       ]
     },
-    "identifies a": {
-      "term": "identifies a",
-      "display": "Identifies A",
-      "source_count": 2,
-      "commons_slug": null,
-      "sources": [
-        {
-          "source_slug": "color-of-change-black-survivors-styleguide-2022",
-          "org": "Color of Change",
-          "year": "2022",
-          "source_url": "https://colorofchange.org/resources/",
-          "excerpt": "",
-          "extraction_method": "keyword"
-        },
-        {
-          "source_slug": "diversity-style-guide",
-          "org": "Diversity Style Guide",
-          "year": "2023",
-          "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
-          "excerpt": "",
-          "extraction_method": "glossary"
-        }
-      ]
-    },
     "identifies as\" just means \"is": {
       "term": "identifies as\" just means \"is",
       "display": "Identifies As\" Just Means \"Is",
@@ -12800,62 +12655,6 @@
           "source_url": "https://transjournalists.org/style-guide/",
           "excerpt": "\"identifies as\" just means \"is\" {#identifies-as updated=\"2023-08-25\" tabindex=\"-1\"",
           "extraction_method": "glossary"
-        }
-      ]
-    },
-    "identify as": {
-      "term": "identify as",
-      "display": "Identify As",
-      "source_count": 6,
-      "commons_slug": null,
-      "sources": [
-        {
-          "source_slug": "define-american-media-reference-2024-01",
-          "org": "Define American",
-          "year": "2024",
-          "source_url": "https://defineamerican.com/resources-for-journalists/",
-          "excerpt": "More than 33 million Americans—about one in 10—identify as being of two or",
-          "extraction_method": "keyword"
-        },
-        {
-          "source_slug": "diversity-style-guide",
-          "org": "Diversity Style Guide",
-          "year": "2023",
-          "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
-          "excerpt": "",
-          "extraction_method": "glossary"
-        },
-        {
-          "source_slug": "interact-intersex-media-guide-2017",
-          "org": "interACT Advocates for Intersex Youth",
-          "year": "2017",
-          "source_url": "https://interactadvocates.org/",
-          "excerpt": "While some people can be born with intersex traits and also identify as transgender, the two are separate and should not",
-          "extraction_method": "keyword"
-        },
-        {
-          "source_slug": "racial-equity-tools",
-          "org": "Racial Equity Tools",
-          "year": "2023",
-          "source_url": "https://www.racialequitytools.org/glossary",
-          "excerpt": "Often shortened to trans, from the Latin prefix for \"on a different side as.\" A term describing a person's gender identi",
-          "extraction_method": "keyword"
-        },
-        {
-          "source_slug": "sierra-club",
-          "org": "Sierra Club",
-          "year": "2021",
-          "source_url": "https://www.sierraclub.org/equity-language-guide",
-          "excerpt": "For example, some people prefer to identify as “an",
-          "extraction_method": "keyword"
-        },
-        {
-          "source_slug": "sumofus",
-          "org": "SumOfUs",
-          "year": "2016",
-          "source_url": "",
-          "excerpt": "",
-          "extraction_method": "keyword"
         }
       ]
     },
@@ -12966,7 +12765,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | Great Migration, The: Mass movement by Southern blacks relocating to the North and",
+          "excerpt": "Great Migration, The: Mass movement by Southern blacks relocating to the North and",
           "extraction_method": "keyword"
         },
         {
@@ -13182,7 +12981,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Cajun, Creole: Cajun is a native of Louisiana originally descended from the Acadian",
+          "excerpt": "Cajun, Creole: Cajun is a native of Louisiana originally descended from the Acadian",
           "extraction_method": "keyword"
         },
         {
@@ -13206,7 +13005,7 @@
           "org": "Sierra Club",
           "year": "2021",
           "source_url": "https://www.sierraclub.org/equity-language-guide",
-          "excerpt": "IMMIGRANTS AND REFUGEES.................................................................................................",
+          "excerpt": "",
           "extraction_method": "keyword"
         },
         {
@@ -13550,7 +13349,7 @@
           "org": "Indigenous Journalists Association (formerly NAJA)",
           "year": "2017",
           "source_url": "https://indigenousjournalists.org/ap-style-insert/",
-          "excerpt": "REPORTING AND INDIGENOUS | -RMVINOLUGY",
+          "excerpt": "",
           "extraction_method": "keyword"
         },
         {
@@ -13702,7 +13501,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | keloid: A raised scar that can develop after skin injury. During healing process, th",
+          "excerpt": "keloid: A raised scar that can develop after skin injury. During healing process, th",
           "extraction_method": "keyword"
         },
         {
@@ -13798,7 +13597,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | ghetto, inner city: Terms used as synonyms for sections of cities inhabited by poo",
+          "excerpt": "ghetto, inner city: Terms used as synonyms for sections of cities inhabited by poo",
           "extraction_method": "keyword"
         }
       ]
@@ -14054,7 +13853,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | reparations: Government-issued funding and social programs intended to compensate bl",
+          "excerpt": "reparations: Government-issued funding and social programs intended to compensate bl",
           "extraction_method": "keyword"
         }
       ]
@@ -14230,7 +14029,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | Islam: Youngest of the world\\'s three major monotheistic religions. Like Judaism a",
+          "excerpt": "Islam: Youngest of the world\\'s three major monotheistic religions. Like Judaism a",
           "extraction_method": "keyword"
         }
       ]
@@ -14246,7 +14045,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | Islam: Youngest of the world\\'s three major monotheistic religions. Like Judaism a",
+          "excerpt": "Islam: Youngest of the world\\'s three major monotheistic religions. Like Judaism a",
           "extraction_method": "keyword"
         },
         {
@@ -14382,7 +14181,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | reparations: Government-issued funding and social programs intended to compensate bl",
+          "excerpt": "reparations: Government-issued funding and social programs intended to compensate bl",
           "extraction_method": "keyword"
         },
         {
@@ -14446,7 +14245,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Ku Klux Klan: Official name, Knights of the Ku Klux Klan; founded in 1915, a secret",
+          "excerpt": "Ku Klux Klan: Official name, Knights of the Ku Klux Klan; founded in 1915, a secret",
           "extraction_method": "keyword"
         },
         {
@@ -14510,7 +14309,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | Great Migration, The: Mass movement by Southern blacks relocating to the North and",
+          "excerpt": "Great Migration, The: Mass movement by Southern blacks relocating to the North and",
           "extraction_method": "keyword"
         },
         {
@@ -14542,7 +14341,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | Islam: Youngest of the world\\'s three major monotheistic religions. Like Judaism a",
+          "excerpt": "Islam: Youngest of the world\\'s three major monotheistic religions. Like Judaism a",
           "extraction_method": "keyword"
         },
         {
@@ -14590,7 +14389,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | Islam: Youngest of the world\\'s three major monotheistic religions. Like Judaism a",
+          "excerpt": "Islam: Youngest of the world\\'s three major monotheistic religions. Like Judaism a",
           "extraction_method": "keyword"
         }
       ]
@@ -14630,7 +14429,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | keloid: A raised scar that can develop after skin injury. During healing process, th",
+          "excerpt": "keloid: A raised scar that can develop after skin injury. During healing process, th",
           "extraction_method": "keyword"
         }
       ]
@@ -14694,7 +14493,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | Islam: Youngest of the world\\'s three major monotheistic religions. Like Judaism a",
+          "excerpt": "Islam: Youngest of the world\\'s three major monotheistic religions. Like Judaism a",
           "extraction_method": "keyword"
         }
       ]
@@ -14734,7 +14533,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Ku Klux Klan: Official name, Knights of the Ku Klux Klan; founded in 1915, a secret",
+          "excerpt": "Ku Klux Klan: Official name, Knights of the Ku Klux Klan; founded in 1915, a secret",
           "extraction_method": "keyword"
         },
         {
@@ -14766,7 +14565,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Kwanzaa: Swahili for first fruits of the harvest; an African-American cultural holid",
+          "excerpt": "Kwanzaa: Swahili for first fruits of the harvest; an African-American cultural holid",
           "extraction_method": "keyword"
         }
       ]
@@ -15454,7 +15253,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | dreadlocks, dreds or locks - Long uncombed twisted, or matted, locks of hair, a st",
+          "excerpt": "dreadlocks, dreds or locks - Long uncombed twisted, or matted, locks of hair, a st",
           "extraction_method": "keyword"
         }
       ]
@@ -15622,7 +15421,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | lupus: Chronic disease that affects immunity. Normally, the body\\'s immune system",
+          "excerpt": "lupus: Chronic disease that affects immunity. Normally, the body\\'s immune system",
           "extraction_method": "keyword"
         }
       ]
@@ -15662,7 +15461,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Congress of Racial Equality (CORE): Civil-rights organization founded in 1942 as the",
+          "excerpt": "Congress of Racial Equality (CORE): Civil-rights organization founded in 1942 as the",
           "extraction_method": "keyword"
         }
       ]
@@ -15990,7 +15789,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | Great Migration, The: Mass movement by Southern blacks relocating to the North and",
+          "excerpt": "Great Migration, The: Mass movement by Southern blacks relocating to the North and",
           "extraction_method": "keyword"
         },
         {
@@ -16379,30 +16178,6 @@
         }
       ]
     },
-    "mention of": {
-      "term": "mention of",
-      "display": "Mention Of",
-      "source_count": 2,
-      "commons_slug": null,
-      "sources": [
-        {
-          "source_slug": "nabj-style-guide-2022-10",
-          "org": "NABJ",
-          "year": "2022",
-          "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | ethnicity, race: The mention of a persons race should not be used unless relevant. T",
-          "extraction_method": "keyword"
-        },
-        {
-          "source_slug": "sierra-club",
-          "org": "Sierra Club",
-          "year": "2021",
-          "source_url": "https://www.sierraclub.org/equity-language-guide",
-          "excerpt": "press hook, be sure to avoid any mention of Pilgrims, the",
-          "extraction_method": "keyword"
-        }
-      ]
-    },
     "messiah": {
       "term": "messiah",
       "display": "Messiah",
@@ -16422,7 +16197,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Rastafarians: Members of a political and religious movement among blacks in Jamaica",
+          "excerpt": "Rastafarians: Members of a political and religious movement among blacks in Jamaica",
           "extraction_method": "keyword"
         }
       ]
@@ -16606,7 +16381,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | slavery: The first black African slaves in the American colonies arrived in the earl",
+          "excerpt": "slavery: The first black African slaves in the American colonies arrived in the earl",
           "extraction_method": "keyword"
         }
       ]
@@ -16710,7 +16485,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Baptist church: Black people were allowed to join the Baptist fold starting in the 1",
+          "excerpt": "Baptist church: Black people were allowed to join the Baptist fold starting in the 1",
           "extraction_method": "keyword"
         }
       ]
@@ -16750,7 +16525,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | The Maynard Institute - based in Oakland, Calif., a nonprofit corporation dedicate",
+          "excerpt": "The Maynard Institute - based in Oakland, Calif., a nonprofit corporation dedicate",
           "extraction_method": "keyword"
         },
         {
@@ -16902,7 +16677,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | biracial: Combination of two races. May be used to describe people or things. Not al",
+          "excerpt": "biracial: Combination of two races. May be used to describe people or things. Not al",
           "extraction_method": "keyword"
         },
         {
@@ -17070,7 +16845,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | civil-rights movement, Civil Rights Act: Often used to describe the struggles of bla",
+          "excerpt": "civil-rights movement, Civil Rights Act: Often used to describe the struggles of bla",
           "extraction_method": "keyword"
         }
       ]
@@ -17262,7 +17037,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | diversity: Catchall term to describe a condition or environment that is multiracial",
+          "excerpt": "diversity: Catchall term to describe a condition or environment that is multiracial",
           "extraction_method": "keyword"
         },
         {
@@ -17342,7 +17117,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Black Church: Collective noun that refers to the more than 65,000 Christian churches",
+          "excerpt": "Black Church: Collective noun that refers to the more than 65,000 Christian churches",
           "extraction_method": "keyword"
         },
         {
@@ -17406,7 +17181,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Black Church: Collective noun that refers to the more than 65,000 Christian churches",
+          "excerpt": "Black Church: Collective noun that refers to the more than 65,000 Christian churches",
           "extraction_method": "keyword"
         },
         {
@@ -17470,7 +17245,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | NAACP: National Association for the Advancement of Colored People was founded Feb. 1",
+          "excerpt": "NAACP: National Association for the Advancement of Colored People was founded Feb. 1",
           "extraction_method": "keyword"
         }
       ]
@@ -17526,7 +17301,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Nation of Islam: Religious movement established during the Great Depression in Detro",
+          "excerpt": "Nation of Islam: Religious movement established during the Great Depression in Detro",
           "extraction_method": "keyword"
         }
       ]
@@ -17550,7 +17325,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | National Negro League: Professional baseball league for blacks founded in 1920 by pi",
+          "excerpt": "National Negro League: Professional baseball league for blacks founded in 1920 by pi",
           "extraction_method": "keyword"
         }
       ]
@@ -17606,7 +17381,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Sources consulted in developing NABJ Style include other media stylebooks; those from NABJ\\'s alliance partners ([",
+          "excerpt": "Sources consulted in developing NABJ Style include other media stylebooks; those from NABJ\\'s alliance partners ([",
           "extraction_method": "keyword"
         },
         {
@@ -17694,7 +17469,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Sources consulted in developing NABJ Style include other media stylebooks; those from NABJ\\'s alliance partners ([",
+          "excerpt": "Sources consulted in developing NABJ Style include other media stylebooks; those from NABJ\\'s alliance partners ([",
           "extraction_method": "keyword"
         },
         {
@@ -17766,7 +17541,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Black Codes: Statutes curtailing rights of African Americans during early years of R",
+          "excerpt": "Black Codes: Statutes curtailing rights of African Americans during early years of R",
           "extraction_method": "keyword"
         },
         {
@@ -17814,7 +17589,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Black Codes: Statutes curtailing rights of African Americans during early years of R",
+          "excerpt": "Black Codes: Statutes curtailing rights of African Americans during early years of R",
           "extraction_method": "keyword"
         }
       ]
@@ -17838,7 +17613,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | Black national anthem: Lift Evry Voice and Sing,(https://web/web/202",
+          "excerpt": "Black national anthem: Lift Evry Voice and Sing,(https://web/web/202",
           "extraction_method": "keyword"
         }
       ]
@@ -18030,7 +17805,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | niggardly: Means stingy or miserly. It is sometimes perceived as insulting because i",
+          "excerpt": "niggardly: Means stingy or miserly. It is sometimes perceived as insulting because i",
           "extraction_method": "keyword"
         }
       ]
@@ -18054,7 +17829,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | nigger: Racial slur; a contemptuous term for a black person. The word nigger was fir",
+          "excerpt": "nigger: Racial slur; a contemptuous term for a black person. The word nigger was fir",
           "extraction_method": "keyword"
         }
       ]
@@ -18734,7 +18509,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Negro: Use African American or black. Do not use to describe a person of African des",
+          "excerpt": "Negro: Use African American or black. Do not use to describe a person of African des",
           "extraction_method": "keyword"
         },
         {
@@ -18782,7 +18557,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Nation of Islam: Religious movement established during the Great Depression in Detro",
+          "excerpt": "Nation of Islam: Religious movement established during the Great Depression in Detro",
           "extraction_method": "keyword"
         }
       ]
@@ -19454,7 +19229,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | people of color: Acceptable use as a synonym for minorities. May also use to describ",
+          "excerpt": "people of color: Acceptable use as a synonym for minorities. May also use to describ",
           "extraction_method": "keyword"
         },
         {
@@ -19950,7 +19725,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | kente: Colorful woven fabric used as blankets or cut and sewn into garments dating b",
+          "excerpt": "kente: Colorful woven fabric used as blankets or cut and sewn into garments dating b",
           "extraction_method": "keyword"
         },
         {
@@ -19998,7 +19773,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | primitive: Avoid using potentially insulting term to describe a person or people. |",
+          "excerpt": "primitive: Avoid using potentially insulting term to describe a person or people.",
           "extraction_method": "keyword"
         }
       ]
@@ -20054,7 +19829,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Baptist church: Black people were allowed to join the Baptist fold starting in the 1",
+          "excerpt": "Baptist church: Black people were allowed to join the Baptist fold starting in the 1",
           "extraction_method": "keyword"
         },
         {
@@ -20102,7 +19877,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | projects, the: Abbreviated slang for housing projects. Do not use either term to des",
+          "excerpt": "projects, the: Abbreviated slang for housing projects. Do not use either term to des",
           "extraction_method": "keyword"
         },
         {
@@ -20550,7 +20325,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | quotas: A specific or presubscribed number than must be met to reach a certain goal.",
+          "excerpt": "quotas: A specific or presubscribed number than must be met to reach a certain goal.",
           "extraction_method": "keyword"
         }
       ]
@@ -20654,7 +20429,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | dreadlocks, dreds or locks - Long uncombed twisted, or matted, locks of hair, a st",
+          "excerpt": "dreadlocks, dreds or locks - Long uncombed twisted, or matted, locks of hair, a st",
           "extraction_method": "keyword"
         }
       ]
@@ -20694,7 +20469,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Black Codes: Statutes curtailing rights of African Americans during early years of R",
+          "excerpt": "Black Codes: Statutes curtailing rights of African Americans during early years of R",
           "extraction_method": "keyword"
         }
       ]
@@ -20774,7 +20549,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | sickle cell anemia: Inherited chronic anemia found chiefly among blacks, characteriz",
+          "excerpt": "sickle cell anemia: Inherited chronic anemia found chiefly among blacks, characteriz",
           "extraction_method": "keyword"
         },
         {
@@ -20846,7 +20621,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | redneck: A derogatory term for whites. Do not use. | | ::: | |",
+          "excerpt": "redneck: A derogatory term for whites. Do not use. | ::: |",
           "extraction_method": "keyword"
         }
       ]
@@ -20880,70 +20655,6 @@
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "",
           "extraction_method": "glossary"
-        }
-      ]
-    },
-    "reference to": {
-      "term": "reference to",
-      "display": "Reference To",
-      "source_count": 7,
-      "commons_slug": null,
-      "sources": [
-        {
-          "source_slug": "casey-editorial-guide-2013-04",
-          "org": "casey-editorial-guide-2013-04",
-          "year": "",
-          "source_url": "",
-          "excerpt": "",
-          "extraction_method": "keyword"
-        },
-        {
-          "source_slug": "color-of-change-black-families-narrative-2020",
-          "org": "Color of Change",
-          "year": "2020",
-          "source_url": "https://colorofchange.org/resources/",
-          "excerpt": "• It should not be used, and the reference to whether",
-          "extraction_method": "keyword"
-        },
-        {
-          "source_slug": "color-of-change-black-survivors-styleguide-2022",
-          "org": "Color of Change",
-          "year": "2022",
-          "source_url": "https://colorofchange.org/resources/",
-          "excerpt": "",
-          "extraction_method": "keyword"
-        },
-        {
-          "source_slug": "diversity-style-guide",
-          "org": "Diversity Style Guide",
-          "year": "2023",
-          "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
-          "excerpt": "",
-          "extraction_method": "glossary"
-        },
-        {
-          "source_slug": "seiu",
-          "org": "SEIU",
-          "year": "2020",
-          "source_url": "",
-          "excerpt": "“Gay community” should only be used when a similar reference to",
-          "extraction_method": "keyword"
-        },
-        {
-          "source_slug": "sierra-club",
-          "org": "Sierra Club",
-          "year": "2021",
-          "source_url": "https://www.sierraclub.org/equity-language-guide",
-          "excerpt": "",
-          "extraction_method": "keyword"
-        },
-        {
-          "source_slug": "sumofus",
-          "org": "SumOfUs",
-          "year": "2016",
-          "source_url": "",
-          "excerpt": "term “women’s health” in reference to contraception or",
-          "extraction_method": "keyword"
         }
       ]
     },
@@ -20990,7 +20701,7 @@
           "org": "Sierra Club",
           "year": "2021",
           "source_url": "https://www.sierraclub.org/equity-language-guide",
-          "excerpt": "IMMIGRANTS AND REFUGEES.................................................................................................",
+          "excerpt": "",
           "extraction_method": "keyword"
         },
         {
@@ -21102,7 +20813,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | down low, DL: Slang for men who have sex with other men but do not classify themselv",
+          "excerpt": "down low, DL: Slang for men who have sex with other men but do not classify themselv",
           "extraction_method": "keyword"
         },
         {
@@ -21222,7 +20933,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | reparations: Government-issued funding and social programs intended to compensate bl",
+          "excerpt": "reparations: Government-issued funding and social programs intended to compensate bl",
           "extraction_method": "keyword"
         },
         {
@@ -21558,7 +21269,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | University of California Regents vs. Bakke (1978) - Supreme Court rules that the U",
+          "excerpt": "University of California Regents vs. Bakke (1978) - Supreme Court rules that the U",
           "extraction_method": "keyword"
         },
         {
@@ -21590,7 +21301,7 @@
           "org": "Sierra Club",
           "year": "2021",
           "source_url": "https://www.sierraclub.org/equity-language-guide",
-          "excerpt": "Reverse Racism. ........................................................................................................",
+          "excerpt": "",
           "extraction_method": "keyword"
         }
       ]
@@ -21686,7 +21397,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | Islam: Youngest of the world\\'s three major monotheistic religions. Like Judaism a",
+          "excerpt": "Islam: Youngest of the world\\'s three major monotheistic religions. Like Judaism a",
           "extraction_method": "keyword"
         }
       ]
@@ -21750,7 +21461,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Sambo: Historically, term was used to describe a happy black slave. Today, it is an",
+          "excerpt": "Sambo: Historically, term was used to describe a happy black slave. Today, it is an",
           "extraction_method": "keyword"
         }
       ]
@@ -21974,7 +21685,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Scottsboro case: In 1931, two white women stepped from a train box car in Paint Rock",
+          "excerpt": "Scottsboro case: In 1931, two white women stepped from a train box car in Paint Rock",
           "extraction_method": "keyword"
         }
       ]
@@ -22310,7 +22021,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | diversity: Catchall term to describe a condition or environment that is multiracial",
+          "excerpt": "diversity: Catchall term to describe a condition or environment that is multiracial",
           "extraction_method": "keyword"
         },
         {
@@ -22446,7 +22157,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | Islam: Youngest of the world\\'s three major monotheistic religions. Like Judaism a",
+          "excerpt": "Islam: Youngest of the world\\'s three major monotheistic religions. Like Judaism a",
           "extraction_method": "keyword"
         }
       ]
@@ -22510,7 +22221,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | sickle cell anemia: Inherited chronic anemia found chiefly among blacks, characteriz",
+          "excerpt": "sickle cell anemia: Inherited chronic anemia found chiefly among blacks, characteriz",
           "extraction_method": "keyword"
         }
       ]
@@ -22574,7 +22285,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Sister, sista: Terms used to refer to a family member or an affectionate, respectful",
+          "excerpt": "Sister, sista: Terms used to refer to a family member or an affectionate, respectful",
           "extraction_method": "keyword"
         }
       ]
@@ -22606,7 +22317,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Sister, sista: Terms used to refer to a family member or an affectionate, respectful",
+          "excerpt": "Sister, sista: Terms used to refer to a family member or an affectionate, respectful",
           "extraction_method": "keyword"
         },
         {
@@ -22654,7 +22365,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | babys mama, babys daddy: Slang to imply parenthood out of wedlock. Avoid usage. | |",
+          "excerpt": "babys mama, babys daddy: Slang to imply parenthood out of wedlock. Avoid usage. |",
           "extraction_method": "keyword"
         },
         {
@@ -22734,7 +22445,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Black Codes: Statutes curtailing rights of African Americans during early years of R",
+          "excerpt": "Black Codes: Statutes curtailing rights of African Americans during early years of R",
           "extraction_method": "keyword"
         },
         {
@@ -22774,7 +22485,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | ethnicity, race: The mention of a persons race should not be used unless relevant. T",
+          "excerpt": "ethnicity, race: The mention of a persons race should not be used unless relevant. T",
           "extraction_method": "keyword"
         },
         {
@@ -22886,7 +22597,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | soul food: Items popular originally in the South and traditionally eaten by black pe",
+          "excerpt": "soul food: Items popular originally in the South and traditionally eaten by black pe",
           "extraction_method": "keyword"
         }
       ]
@@ -23022,7 +22733,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Southern Cross: Confederate battle flag used during the Civil War, which remains off",
+          "excerpt": "Southern Cross: Confederate battle flag used during the Civil War, which remains off",
           "extraction_method": "keyword"
         }
       ]
@@ -23182,7 +22893,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | sports stereotypes: Avoid characterizations of black athletes as naturally being bet",
+          "excerpt": "sports stereotypes: Avoid characterizations of black athletes as naturally being bet",
           "extraction_method": "keyword"
         }
       ]
@@ -23334,7 +23045,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Black collectibles: Objects and memorabilia created by or about African-American cul",
+          "excerpt": "Black collectibles: Objects and memorabilia created by or about African-American cul",
           "extraction_method": "keyword"
         },
         {
@@ -23427,30 +23138,6 @@
         }
       ]
     },
-    "stricken with": {
-      "term": "stricken with",
-      "display": "Stricken With",
-      "source_count": 2,
-      "commons_slug": null,
-      "sources": [
-        {
-          "source_slug": "diversity-style-guide",
-          "org": "Diversity Style Guide",
-          "year": "2023",
-          "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
-          "excerpt": "afflicted with/stricken with/suffers from/victim of(https://www/glossary/afflicted-withstric",
-          "extraction_method": "glossary"
-        },
-        {
-          "source_slug": "ncdj",
-          "org": "National Center on Disability and Journalism",
-          "year": "2021",
-          "source_url": "https://ncdj.org/style-guide/",
-          "excerpt": "",
-          "extraction_method": "glossary"
-        }
-      ]
-    },
     "stuttering": {
       "term": "stuttering",
       "display": "Stuttering",
@@ -23496,86 +23183,6 @@
           "source_url": "https://dartcenter.org/resources/style-guide-trauma-informed-journalism",
           "excerpt": "dysfunction include substance abuse, mental illness or suicidal attempts",
           "extraction_method": "keyword"
-        }
-      ]
-    },
-    "suffering from": {
-      "term": "suffering from",
-      "display": "Suffering From",
-      "source_count": 4,
-      "commons_slug": null,
-      "sources": [
-        {
-          "source_slug": "comm-unity-style-guide-2021",
-          "org": "Immigrant Defense Project",
-          "year": "2021",
-          "source_url": "https://www.immigrantdefenseproject.org/",
-          "excerpt": "shootings, with shooters who are white men often portrayed as “lone wolves” suffering from mental health issues,",
-          "extraction_method": "keyword"
-        },
-        {
-          "source_slug": "diversity-style-guide",
-          "org": "Diversity Style Guide",
-          "year": "2023",
-          "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
-          "excerpt": "victim, suffering from, afflicted with, stricken with(https://www/glossary/victim-suffering-",
-          "extraction_method": "glossary"
-        },
-        {
-          "source_slug": "gcjt",
-          "org": "Global Consortium for Journalism & Trauma",
-          "year": "2021",
-          "source_url": "https://dartcenter.org/resources/style-guide-trauma-informed-journalism",
-          "excerpt": "individual as \"suffering from\" a condition, and avoid terms like",
-          "extraction_method": "keyword"
-        },
-        {
-          "source_slug": "sumofus",
-          "org": "SumOfUs",
-          "year": "2016",
-          "source_url": "",
-          "excerpt": "",
-          "extraction_method": "keyword"
-        }
-      ]
-    },
-    "suffers from": {
-      "term": "suffers from",
-      "display": "Suffers From",
-      "source_count": 4,
-      "commons_slug": null,
-      "sources": [
-        {
-          "source_slug": "comm-unity-style-guide-2021",
-          "org": "Immigrant Defense Project",
-          "year": "2021",
-          "source_url": "https://www.immigrantdefenseproject.org/",
-          "excerpt": "A growing body of research has demonstrated the criminal legal system suffers from severe obstacles to",
-          "extraction_method": "keyword"
-        },
-        {
-          "source_slug": "diversity-style-guide",
-          "org": "Diversity Style Guide",
-          "year": "2023",
-          "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
-          "excerpt": "afflicted with/stricken with/suffers from/victim of(https://www/glossary/afflicted-withstric",
-          "extraction_method": "glossary"
-        },
-        {
-          "source_slug": "idp-journalist-style-guide-2020",
-          "org": "Immigrant Defense Project",
-          "year": "2020",
-          "source_url": "https://www.immigrantdefenseproject.org/",
-          "excerpt": "or convictions. A growing body of research has demonstrated the criminal legal system suffers from",
-          "extraction_method": "keyword"
-        },
-        {
-          "source_slug": "ncdj",
-          "org": "National Center on Disability and Journalism",
-          "year": "2021",
-          "source_url": "https://ncdj.org/style-guide/",
-          "excerpt": "",
-          "extraction_method": "glossary"
         }
       ]
     },
@@ -23654,7 +23261,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | Islam: Youngest of the world\\'s three major monotheistic religions. Like Judaism a",
+          "excerpt": "Islam: Youngest of the world\\'s three major monotheistic religions. Like Judaism a",
           "extraction_method": "keyword"
         }
       ]
@@ -23790,7 +23397,7 @@
           "org": "Sierra Club",
           "year": "2021",
           "source_url": "https://www.sierraclub.org/equity-language-guide",
-          "excerpt": "Systemic Racism and White Supremacy Culture....................................................................... 14",
+          "excerpt": "",
           "extraction_method": "keyword"
         }
       ]
@@ -24006,7 +23613,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Third World: Commonly used to describe underdeveloped countries of Africa, Asia and",
+          "excerpt": "Third World: Commonly used to describe underdeveloped countries of Africa, Asia and",
           "extraction_method": "keyword"
         },
         {
@@ -24078,7 +23685,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | Great Migration, The: Mass movement by Southern blacks relocating to the North and",
+          "excerpt": "Great Migration, The: Mass movement by Southern blacks relocating to the North and",
           "extraction_method": "keyword"
         },
         {
@@ -24086,7 +23693,7 @@
           "org": "Sierra Club",
           "year": "2021",
           "source_url": "https://www.sierraclub.org/equity-language-guide",
-          "excerpt": "Tolerance. .............................................................................................................",
+          "excerpt": "",
           "extraction_method": "keyword"
         },
         {
@@ -25475,38 +25082,6 @@
         }
       ]
     },
-    "u.s. census definition of": {
-      "term": "u.s. census definition of",
-      "display": "U.S. Census Definition Of",
-      "source_count": 1,
-      "commons_slug": null,
-      "sources": [
-        {
-          "source_slug": "diversity-style-guide",
-          "org": "Diversity Style Guide",
-          "year": "2023",
-          "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
-          "excerpt": "American Indian or Alaska Native, U. Census definition of(https://www/glossary/american-in",
-          "extraction_method": "glossary"
-        }
-      ]
-    },
-    "u.s. census definitions of": {
-      "term": "u.s. census definitions of",
-      "display": "U.S. Census Definitions Of",
-      "source_count": 1,
-      "commons_slug": null,
-      "sources": [
-        {
-          "source_slug": "diversity-style-guide",
-          "org": "Diversity Style Guide",
-          "year": "2023",
-          "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
-          "excerpt": "race, U. Census definitions of{",
-          "extraction_method": "glossary"
-        }
-      ]
-    },
     "ultra orthodox": {
       "term": "ultra orthodox",
       "display": "Ultra Orthodox",
@@ -25566,7 +25141,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Oreo: Disparaging term for someone deemed to have shunned his or her black culture a",
+          "excerpt": "Oreo: Disparaging term for someone deemed to have shunned his or her black culture a",
           "extraction_method": "keyword"
         }
       ]
@@ -25590,7 +25165,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Oreo: Disparaging term for someone deemed to have shunned his or her black culture a",
+          "excerpt": "Oreo: Disparaging term for someone deemed to have shunned his or her black culture a",
           "extraction_method": "keyword"
         }
       ]
@@ -25654,7 +25229,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | slavery: The first black African slaves in the American colonies arrived in the earl",
+          "excerpt": "slavery: The first black African slaves in the American colonies arrived in the earl",
           "extraction_method": "keyword"
         }
       ]
@@ -25893,7 +25468,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | United Negro College Fund, The (UNCF): Nations largest, oldest and most comprehensiv",
+          "excerpt": "United Negro College Fund, The (UNCF): Nations largest, oldest and most comprehensiv",
           "extraction_method": "keyword"
         }
       ]
@@ -26014,22 +25589,6 @@
           "year": "2023",
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "urban music, urban contemporary{",
-          "extraction_method": "glossary"
-        }
-      ]
-    },
-    "use and abuse of images from": {
-      "term": "use and abuse of images from",
-      "display": "Use And Abuse Of Images From",
-      "source_count": 1,
-      "commons_slug": null,
-      "sources": [
-        {
-          "source_slug": "diversity-style-guide",
-          "org": "Diversity Style Guide",
-          "year": "2023",
-          "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
-          "excerpt": "Asia, use and abuse of images from{",
           "extraction_method": "glossary"
         }
       ]
@@ -26157,7 +25716,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | (New) Criminal Record Use: To ensure accurate reporting and to avoid the villainization of victims, the existe",
+          "excerpt": "(New) Criminal Record Use: To ensure accurate reporting and to avoid the villainization of victims, the existe",
           "extraction_method": "keyword"
         },
         {
@@ -26198,62 +25757,6 @@
           "year": "2022",
           "source_url": "https://www.wfpusa.org/",
           "excerpt": "Rarely use words like \"desperate,\" \"scared,\" or \"victim\" without direct attribution from the person themselves.",
-          "extraction_method": "keyword"
-        }
-      ]
-    },
-    "victim of": {
-      "term": "victim of",
-      "display": "Victim Of",
-      "source_count": 6,
-      "commons_slug": null,
-      "sources": [
-        {
-          "source_slug": "color-of-change-antiracist-protest-reporting-2020",
-          "org": "Color of Change",
-          "year": "2020",
-          "source_url": "https://colorofchange.org/resources/",
-          "excerpt": "blame. This type of language is rarely used when a police officer is the victim of the shooting",
-          "extraction_method": "keyword"
-        },
-        {
-          "source_slug": "color-of-change-black-survivors-styleguide-2022",
-          "org": "Color of Change",
-          "year": "2022",
-          "source_url": "https://colorofchange.org/resources/",
-          "excerpt": "know has been a victim of sexual violence, contact",
-          "extraction_method": "keyword"
-        },
-        {
-          "source_slug": "diversity-style-guide",
-          "org": "Diversity Style Guide",
-          "year": "2023",
-          "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
-          "excerpt": "afflicted with/stricken with/suffers from/victim of(https://www/glossary/afflicted-withstric",
-          "extraction_method": "glossary"
-        },
-        {
-          "source_slug": "nabj-style-guide-2022-10",
-          "org": "NABJ",
-          "year": "2022",
-          "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | University of California Regents vs. Bakke (1978) - Supreme Court rules that the U",
-          "extraction_method": "keyword"
-        },
-        {
-          "source_slug": "ncdj",
-          "org": "National Center on Disability and Journalism",
-          "year": "2021",
-          "source_url": "https://ncdj.org/style-guide/",
-          "excerpt": "",
-          "extraction_method": "glossary"
-        },
-        {
-          "source_slug": "sumofus",
-          "org": "SumOfUs",
-          "year": "2016",
-          "source_url": "",
-          "excerpt": "",
           "extraction_method": "keyword"
         }
       ]
@@ -26349,7 +25852,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | civil-rights movement, Civil Rights Act: Often used to describe the struggles of bla",
+          "excerpt": "civil-rights movement, Civil Rights Act: Often used to describe the struggles of bla",
           "extraction_method": "keyword"
         },
         {
@@ -26461,7 +25964,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | Cajun, Creole: Cajun is a native of Louisiana originally descended from the Acadian",
+          "excerpt": "Cajun, Creole: Cajun is a native of Louisiana originally descended from the Acadian",
           "extraction_method": "keyword"
         }
       ]
@@ -26693,7 +26196,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | NABJ also recommends that whenever a color is used to appropriately describe race then it should be capitalized, i",
+          "excerpt": "NABJ also recommends that whenever a color is used to appropriately describe race then it should be capitalized, i",
           "extraction_method": "keyword"
         },
         {
@@ -26725,7 +26228,7 @@
           "org": "Sierra Club",
           "year": "2021",
           "source_url": "https://www.sierraclub.org/equity-language-guide",
-          "excerpt": "Racism and White Supremacy. ............................................................................................",
+          "excerpt": "",
           "extraction_method": "keyword"
         },
         {
@@ -26805,7 +26308,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | wigger: A derogatory term used for a white person who mimics language, dress and man",
+          "excerpt": "wigger: A derogatory term used for a white person who mimics language, dress and man",
           "extraction_method": "keyword"
         }
       ]
@@ -26901,7 +26404,7 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
-          "excerpt": "| | | | Islam: Youngest of the world\\'s three major monotheistic religions. Like Judaism a",
+          "excerpt": "Islam: Youngest of the world\\'s three major monotheistic religions. Like Judaism a",
           "extraction_method": "keyword"
         }
       ]

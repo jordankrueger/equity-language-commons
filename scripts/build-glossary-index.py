@@ -61,6 +61,18 @@ EXCERPT_MAX_CHARS = 220
 # acronyms tend to be noise unless they have ≥3 source coverage.
 SHORT_TERM_THRESHOLD = 3
 
+# Stop-word endings that indicate a term is a truncated multi-word
+# phrase (the matrix's term-universe builder sometimes captures only
+# the first few words of a longer DSG glossary entry). A term ending
+# in one of these whose word count is ≥ 2 gets dropped as noise.
+TRUNCATED_PHRASE_ENDINGS = frozenset(
+    {
+        "of", "and", "the", "to", "or", "for", "in", "with", "on",
+        "at", "by", "as", "from", "into", "onto", "via", "but",
+        "an", "a",
+    }
+)
+
 
 def _parse_frontmatter(path: Path) -> dict[str, str]:
     """Parse YAML-ish frontmatter, line by line. No PyYAML dependency."""
@@ -205,6 +217,14 @@ def _clean_excerpt(text: str) -> str:
         return ""
 
     cleaned = text
+
+    # Strip markdown table-row separator pipes at the start of the
+    # excerpt (NABJ's PDF extraction comes through as `| | | content`).
+    cleaned = re.sub(r"^[\s>]*(\|\s*)+", "", cleaned)
+    # Collapse internal cell separators to a single space for
+    # readability — they're meaningful only in actual table layouts.
+    cleaned = re.sub(r"\s+\|\s+", " ", cleaned)
+
     for _ in range(5):  # iterate to handle nested attribute spans
         before = cleaned
         # Drop Pandoc-style attribute fences: {.class}, {key="value"},
@@ -228,8 +248,15 @@ def _clean_excerpt(text: str) -> str:
     # Strip stray Pandoc/HTML attribute residue (rare but possible
     # after partial brace stripping mid-attribute).
     cleaned = re.sub(r"\.[a-zA-Z][a-zA-Z0-9_\-]*", "", cleaned)
+    # Collapse Sierra Club TOC dot-leaders (`ABLEISM. .........`) to
+    # a single period. Three or more dots in sequence — with or without
+    # spaces between them — collapse to nothing.
+    cleaned = re.sub(r"\.(\s*\.){2,}", "", cleaned)
+    cleaned = re.sub(r"\.{3,}", "", cleaned)
     # Collapse whitespace.
     cleaned = re.sub(r"\s+", " ", cleaned).strip()
+    # Trim a trailing standalone period left after dot-leader strip.
+    cleaned = re.sub(r"\s+\.\s*$", "", cleaned).strip()
     return cleaned
 
 
@@ -367,6 +394,14 @@ def build_index() -> dict:
         # Also drop if the term has zero remaining sources (the only
         # hits were filtered as index-only).
         if entry["source_count"] == 0:
+            continue
+        # Drop truncated multi-word phrases — the matrix's term-universe
+        # builder sometimes captures only the first few words of a
+        # longer DSG glossary entry (e.g. "accents and direct quotation
+        # of [dialect]" → indexed as "accents and direct quotation of").
+        # Terms with multiple words ending in a stop word are dropped.
+        words = term.split()
+        if len(words) >= 2 and words[-1].lower() in TRUNCATED_PHRASE_ENDINGS:
             continue
         # Resolve commons-page link.
         slug_dashed = term.replace(" ", "-")
