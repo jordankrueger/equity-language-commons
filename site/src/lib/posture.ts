@@ -14,6 +14,6 @@ export function posturePills(posture: string): string[] {
     case "link-out-only":
       return ["Links out only"];
     default:
-      return [posture.replaceAll("-", " ")];
+      return [posture.replace(/-/g, " ")];
   }
 }
