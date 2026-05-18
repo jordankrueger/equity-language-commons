@@ -85,10 +85,10 @@ guidance:
     entry_updated: null
     source_url: null
     local_archive: "source-guides/SEIU Stylebook Jan 2020.pdf"
-    recommendation: "avoid"
+    recommendation: "use"
     quote: "Oriental [Do not use.] Correct: Asian"
     quote_loc: "p. 22 — A-to-Z word style"
-    paraphrase: "SEIU's only explicit entry in this cluster is the 'Oriental' avoidance: redirect to 'Asian.' Compact but matches every other guide in the corpus that addresses Oriental — DSG, AECF, AAJA, and the 1976 Department of Education prohibition all agree."
+    paraphrase: "SEIU prescribes 'Asian' as the correct term and explicitly rejects 'Oriental.' Compact but matches every other guide in the corpus that addresses the pair — DSG, AECF, AAJA, and the 1976 Department of Education prohibition all converge on Asian as the prescribed form. SEIU does not separately address 'Asian American' as distinct from 'Asian'; the 2020 entry assumes the umbrella default."
     confidence: "VERIFIED-ARCHIVED"
 
 context_data:
