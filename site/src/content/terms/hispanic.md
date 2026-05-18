@@ -137,12 +137,6 @@ Sierra Club's house default of Latino over Hispanic is coherent for a Western-US
 
 **Capitalization is settled** — every guide that addresses it (SEIU 2020 most explicitly, AECF 2013 by usage, Sierra Club 2021, DSG 2023) treats Hispanic as always capitalized.
 
-## Cross-references
-
-- **[Latinx](latinx.md)** — Gender-neutral variant of Latino. Distinct from Hispanic in the same way Latino is. The Hispanic-vs-Latino debate and the Latino-vs-Latinx debate are independent — both decisions need to be made when writing for Spanish-speaking audiences.
-- **[Latine](latine.md)** — The ascending in-Spanish gender-neutral form. Same definitional gap with Hispanic.
-- **[Latino / Latina](latino.md)** — Gendered forms. The dominant alternative to Hispanic in most current US progressive style guides.
-- **[Chicanx / Chicano / Chicana](chicanx.md)** — A subset identity foregrounding Mexican-American experience and political tradition. Distinct from both Hispanic and Latino.
 
 ## History note
 

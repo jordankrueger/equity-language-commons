@@ -121,12 +121,6 @@ The Gallup data anchors the practical conclusion: ask if possible (Sierra Club, 
 
 For comprehensive coverage of capitalization debates, the 2020 AP shift, and the NABJ/AP split on whether to capitalize White, see the companion [[black]] entry — the guidance is captured jointly across both pages because every source addresses the two terms together.
 
-## Cross-references
-
-- **[Black](black.md)** — The companion term. Guidance is captured jointly; key debates (capitalization, AP-vs-NABJ on White) live on the Black entry.
-- **[Afro-Latino / Afro-Latinx](afro-latino.md)** — Where the African American framing typically does not fit.
-- **[BIPOC](bipoc.md)** — Umbrella that includes both Black and African American identifications.
-- **[Caucasian](caucasian.md)** — Non-preferred for the parallel European-descent category.
 
 ## History note
 

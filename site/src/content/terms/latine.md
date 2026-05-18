@@ -91,12 +91,6 @@ The corpus on Latine is currently thin (only DSG 2023 and TJA 2023/2026 have ded
 
 **For Jordan's-voice / advocacy writing**: Latine over Latinx is increasingly defensible as a default for Spanish-language or bilingual audiences post-2023. For English-language US writing where Spanish-pronunciation isn't a primary concern, Latinx remains the more common form and reads as the standard institutional choice. Both work; the choice is audience-and-context-driven.
 
-## Cross-references
-
-- **[Latinx](latinx.md)** — The English-rooted gender-neutral form Latine partly replaces in Spanish-language contexts.
-- **[Latino / Latina](latino.md)** — The gendered forms both Latinx and Latine offer alternatives to.
-- **[Hispanic](hispanic.md)** — Distinct umbrella; the Latine-vs-Latinx choice is separate from the Hispanic-vs-Latino choice.
-- **[Chicanx / Chicano / Chicana / Chicane](chicanx.md)** — The Mexican-American subset where the same gender-neutral logic plays out (Chicane is the analogous '-e' form).
 
 ## History note
 

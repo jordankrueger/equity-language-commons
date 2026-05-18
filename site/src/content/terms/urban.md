@@ -72,10 +72,6 @@ The 2020 music industry shift (Republic Records and several major labels retirin
 
 For Jordan's-voice / advocacy writing: when 'urban' is the literal geographic point, use it freely. When it's standing in for 'Black,' 'Latinx,' 'POC,' or any specific demographic, replace it with what you actually mean. The 'vibrant' and 'hardworking' euphemisms Sierra Club groups with 'urban' carry the same coded-positive-stereotype problem and deserve the same scrutiny.
 
-## Cross-references
-
-- **[Black](black.md)**, **[Latinx](latinx.md)**, **[people of color](people-of-color.md)** — The terms 'urban' often codes for. Use the direct term when that's the meaning.
-- **[BIPOC](bipoc.md)** — Same specificity-preferred logic; the umbrella shouldn't substitute for a specific identifier.
 
 ## History note
 

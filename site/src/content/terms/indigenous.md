@@ -277,21 +277,10 @@ Indigenous is the corpus's most structurally divergent term. Every engaged sourc
 
 **Specificity over aggregation is the other near-universal rule.** NAJA, NGC, DSG, GCJT, SumOfUs, and Sierra Club all state some version of: whenever possible, use the specific tribal/national/linguistic name rather than the umbrella term. "Lummi Nation" over "Tribe"; "Cherokee" over "Native American"; "Dine" over "Indigenous." The aggregation terms exist for when specifics aren't known or when writing at scale.
 
+**Geographic and subset variants carry their own operational rules.** In Australia, "Aboriginal" remains standard, with "Torres Strait Islander" named as a distinct identity and "Aboriginal Peoples" as the preferred plural — capitalize per the same plants-and-animals rule the US corpus applies to Indigenous. In Alaska, "Alaska Native" is the in-region umbrella, encompassing Inupiat, Yupik, Athabascan, Haida, Tlingit, Tsimshian, and Aleut peoples; many Alaska Native people prefer "Alaska Native" to being grouped under "American Indian" (DSG). "Inuit" has replaced "Eskimo" in most current usage across SumOfUs, DSG, and Sierra Club; "Eskimo" is retained only where communities self-identify that way (still common in some Alaska contexts). "Indian" is the dated/legal-retained form: use only per self-identification or when quoting, and flag as "self-identified" in outside-group writing (Sierra Club). "Two-Spirit" is an Indigenous-specific gender/identity term — NLGJA and TJA both capture it, with the same rule: do not apply it outside Indigenous contexts; treat as self-identification only.
+
 **Sovereignty is not a terminology question — it's an editorial stance.** Sierra Club dedicates a full chapter (pp. 16–18) to Tribal Sovereignty and Public Lands. NGC roots its style guide in Younging's Indigenous-style framework. RET gives Indigenous Sovereignty its own entry and distinguishes it from Tribal Sovereignty. Writers engaging Indigenous topics who don't engage sovereignty will drift toward terminology-only hygiene — which every engaged source in the corpus rejects. The practical implication: treat Tribal Sovereignty as its own topic area (likely its own chapter on the commons site), not as an annotation on the Indigenous term page.
 
-## Cross-references
-
-- **[Native American](native-american.md)** — Geographic-variant term for U.S. context. Noun-form accepted by Casey (2013), NAJA, DSG, NGC, GCJT, SumOfUs. Since HR 4238 (2016), the federal-statutory term replacing "American Indian" in federal law.
-- **[American Indian](american-indian.md)** — Geographic-variant term. Legal/census framing in the U.S. (via OMB and Title 18). Per DSG, still generally acceptable; per Sierra Club and NGC, reserved for self-ID and quotations in out-group house style.
-- **[First Nations](first-nations.md)** — Canadian-context variant. Replaces "Indian" in most Canadian usage since the 1970s–80s (per DSG, SumOfUs). Not commonly used in U.S.
-- **[Aboriginal](aboriginal.md)** — Pan-national and Australian-context variant. Still standard in Australia (with Torres Strait Islander as a distinct identity); "Aboriginal Peoples" preferred plural. Per NAJA/DSG rule, capitalize.
-- **[Alaska Native](alaska-native.md)** — Subset umbrella. Alaska-specific; includes Inupiat, Yupik, Athabascan, Haida, Tlingit, Tsimshian, Aleut. Many members prefer Alaska Native to being grouped under American Indian (DSG).
-- **[Inuit](inuit.md)** — Subset identity. Replaces "Eskimo" in most contexts per SumOfUs, DSG, Sierra Club; "Eskimo" retained only where a community self-IDs that way (common in some Alaskan contexts).
-- **[Indian](indian.md)** — Dated/legal-retained form. Use per self-ID or when quoting; flag as "self-identified" in out-group writing (Sierra Club).
-- **[Tribal / Tribe / Tribal Nations](tribal.md)** — Political-entity framing. Overlapping-but-distinct from Indigenous: Tribal is an institutional/governmental category within U.S. federal law, Indigenous is the identity/community term. Capitalize (NGC, Sierra Club).
-- **[Tribal Sovereignty](tribal-sovereignty.md)** *(likely its own chapter, not term)* — Legal recognition of inherent pre-colonial sovereignty within U.S. law. Distinguished from Indigenous Sovereignty (RET).
-- **[Two-Spirit](two-spirit.md)** — Indigenous-specific gender/identity term. NLGJA and TJA capture this; do not apply outside Indigenous contexts (self-ID only).
-- **[BIPOC](bipoc.md)** — Umbrella aggregation. NGC and Sierra Club both recommend using the specific identifier (Indigenous, Black) over BIPOC whenever possible.
 
 ## History note
 

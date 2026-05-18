@@ -141,14 +141,6 @@ The Asian American cluster is the umbrella term where the **specificity rule** d
 
 **Casey 2013's listing of 'Asian American' as an approved noun is the stable baseline.** The Casey entry pre-dates the post-2010s emergence of more sharply-contested debates (AAPI vs. AANHPI, AAVE-style debates over 'Asian American' as identity vs. demographic category, post-2020 Stop AAPI Hate-era reframing) — but Casey's basic call has held across every later guide. The cluster has gained sub-categorization since 2013; the core term has not moved.
 
-## Cross-references
-
-- **[Pacific Islander](pacific-islander.md)** — Federally a distinct racial category from Asian; institutionally often folded into AAPI but increasingly carved out as AANHPI.
-- **[Native Hawaiian](native-hawaiian.md)** — Indigenous people of the Hawaiian Islands with sovereignty claims; not interchangeable with Pacific Islander or AAPI.
-- **[Oriental](oriental.md)** — Non-preferred; federally retired in 2016. Acceptable only in historical or formal-name contexts.
-- **[BIPOC](bipoc.md)** — Umbrella term that includes Asian Americans by some interpretations and excludes them by others (the 'BI' fronting Black and Indigenous specifically); see the BIPOC entry for the divergence.
-- **[Caucasian](caucasian.md)** — The 'Asian' counterpart in pseudo-scientific 18th-century racial typology (Blumenbach), now retired in identity contexts for the same reasons.
-- **[South Asian](south-asian.md)**, **[East Asian](east-asian.md)**, **[Southeast Asian](southeast-asian.md)** — The internal sub-umbrellas; commonly used and preferred over 'Asian American' when geographic specificity is the right frame.
 
 ## History note
 

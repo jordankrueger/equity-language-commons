@@ -70,9 +70,6 @@ Caucasian is one of the cleanest 'do not use' calls in the R&E corpus — the tw
 
 There's nothing more to say. This is a settled call.
 
-## Cross-references
-
-- **[white](white.md)** — The preferred term. Capitalization (white vs. White) is the live editorial question; the choice between Caucasian and white/White is not.
 
 ## History note
 

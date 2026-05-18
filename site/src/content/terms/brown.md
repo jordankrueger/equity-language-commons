@@ -87,12 +87,6 @@ When a more specific identifier fits — Latinx, South Asian, MENA, Indigenous, 
 
 **For Jordan's-voice / advocacy writing**: capitalize Brown if you're capitalizing White; lowercase brown if you're lowercasing white. Match house style consistently across the three color descriptors.
 
-## Cross-references
-
-- **[Black](black.md)** — The companion settled-capitalization color descriptor.
-- **[white](white.md)** — Where the parallel capitalization debate lives.
-- **[Latinx](latinx.md)**, **[South Asian](south-asian.md)**, **[MENA](mena.md)** — Specific identifiers that often fit better than Brown when communicating individual or community identification.
-- **[BIPOC](bipoc.md)** and **[people of color](people-of-color.md)** — Alternative umbrellas that don't carry Brown's referent-instability problem.
 
 ## History note
 

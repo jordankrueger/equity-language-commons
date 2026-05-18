@@ -142,9 +142,6 @@ The homeless/unhoused cluster is smaller and tighter than race/ethnicity cluster
 
 **Sparse-corpus caveat.** This term has only two direct-guidance sources in our current archive. The Homelessness Beat Reporters Collective's reporting guide (referenced by TJA) is the obvious next acquisition; national homelessness advocacy orgs (National Alliance to End Homelessness, National Coalition for the Homeless) may also publish style guidance. Update this entry in Phase 2 once those are in hand.
 
-## Cross-references
-
-No semantically-distinct related terms in scope. "Unhoused," "houseless," "homeless person," and "people experiencing homelessness" are all handled inside this entry as aliases or construction variants, not as separate files. Avoided terms (bum, indigent, vagrant, beggar, transient, "the homeless") are documented within this entry's guidance blocks rather than as standalone entries — they're terms to reject, not terms to recommend.
 
 ## History note
 

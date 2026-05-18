@@ -90,12 +90,6 @@ The gender-neutral forms — Chicanx (English-rooted, parallel to Latinx), Chica
 
 **Geographic concentration matters** — Chicano/Chicana/Chicanx self-identification is largely a US Southwest and Pacific Northwest phenomenon with multi-generational community history. Recent Mexican immigrants and non-Southwest Mexican-American communities are less likely to use the term.
 
-## Cross-references
-
-- **[Latino / Latina](latino.md)** — The umbrella default. Chicano is the politicized Mexican-American subset.
-- **[Latinx](latinx.md)** — The parallel gender-neutral construction at the umbrella level.
-- **[Latine](latine.md)** — The Spanish-rooted gender-neutral construction; Chicane is the parallel form at the Chicano level.
-- **[Hispanic](hispanic.md)** — The competing umbrella term that the Chicano Movement deliberately rejected as a federal-bureaucratic label.
 
 ## History note
 

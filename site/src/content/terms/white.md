@@ -148,13 +148,6 @@ There is no third synthesis position in the corpus, and the split has remained s
 
 **Non-Hispanic white** appears in Casey 2013's approved-noun list. This is federal-data terminology — the standard Census/HHS construction for separating racial and ethnic identification. Use it when citing federal data; in narrative writing, 'white' (or 'White') generally communicates the same thing more cleanly.
 
-## Cross-references
-
-- **[Black](black.md)** — The companion term whose capitalization is settled. The asymmetric vs. symmetric split is entirely about how 'white' should be treated relative to 'Black.'
-- **[Caucasian](caucasian.md)** — Non-preferred synonym for white. Allowed in formal demographic-data citations; otherwise avoided.
-- **[white supremacy](white-supremacy.md)** — A distinct phrase (see Sierra Club's coverage). The 'capital-W White' that white-supremacist movements use is the orthography Sierra Club explicitly declines to share by adopting lowercase white.
-- **[non-Hispanic white](non-hispanic-white.md)** — Federal-data construction. Used by Casey 2013 and standard in Census reporting.
-- **[BIPOC](bipoc.md)** — Umbrella term that frames whiteness implicitly (the 'people of color' construction defines itself against whiteness as the unmarked category).
 
 ## History note
 

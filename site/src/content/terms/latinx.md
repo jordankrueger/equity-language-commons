@@ -164,13 +164,6 @@ A separate call: **Hispanic and Latino are not interchangeable, and later guides
 
 The Pew 3%/23% data (2019) is the load-bearing empirical claim across the synthesis space: only 3% of U.S. Hispanic/Latino adults used Latinx for themselves. That gap — between progressive institutional uptake and community self-ID — is why Sierra Club, TJA, and DSG all converge on variations of "use with care" rather than unqualified endorsement.
 
-## Cross-references
-
-- **[Latine](latine.md)** — The ascending alternative. Pronounceable in Spanish, originated in Spanish-speaking LGBTQIA+ communities, gaining ground in 2023+ style guides. For post-2023 audiences and Spanish-language contexts, may be the stronger default than Latinx.
-- **[Latino / Latina](latino.md)** — Gendered forms. Standard pre-2015; still the default for Sierra Club, SEIU, and audiences where Latinx/Latine aren't in use.
-- **[Hispanic](hispanic.md)** — Overlapping but *not* interchangeable. Foregrounds Spanish-language heritage; different definitional basis.
-- **[Chicanx / Chicano / Chicana](chicanx.md)** — Subset identity specific to Mexican-American experience, politicized in ways Latinx is not.
-- **[BIPOC](bipoc.md)** — Umbrella term. Both Sierra Club and NGC recommend using the specific identifier (Latinx) over BIPOC aggregation where possible.
 
 ## History note
 

@@ -140,13 +140,6 @@ The Black/African American cluster is one of the clearest cases in the corpus wh
 
 **Hyphenation:** every guide that addresses it (SEIU explicitly, AP/NABJ/DSG by usage) writes 'African American' without a hyphen. The hyphenated form ('African-American') is a stylistic legacy that AP retired in 2019.
 
-## Cross-references
-
-- **[African American](african-american.md)** — Overlapping but not synonymous. Guidance is captured jointly on this page; see also the dedicated entry for the AAVE / vernacular and national-origin nuances.
-- **[white](white.md)** — The companion capitalization question. The asymmetric (Sierra Club / NGC / AP) and symmetric (NABJ / Washington Post) rules diverge here, not on Black.
-- **[BIPOC](bipoc.md)** — Umbrella term. Sierra Club, NGC, and Race Forward all caution against using BIPOC where a more specific descriptor would work (Black, Indigenous, etc.).
-- **[people of color](people-of-color.md)** — The older umbrella term that BIPOC partly replaced.
-- **[Afro-Latino / Afro-Latinx](afro-latino.md)** — A distinct identity that the Black/African American framing alone can't capture.
 
 ## History note
 

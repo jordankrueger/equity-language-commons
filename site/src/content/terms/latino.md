@@ -143,13 +143,6 @@ Latino is the **Western US default** that the major progressive guides treat as 
 
 For the broader cross-cluster picture (Latinx, Latine, Hispanic, Chicanx), see the individual entries — each carries the parts of the debate that are specific to it.
 
-## Cross-references
-
-- **[Latinx](latinx.md)** — The English-rooted gender-neutral alternative. Gaining ground in US institutional contexts since 2015.
-- **[Latine](latine.md)** — The Spanish-rooted gender-neutral alternative. Ascending in 2023+ guides as the better-fit form for Spanish-language audiences.
-- **[Hispanic](hispanic.md)** — Overlapping umbrella with different definitional basis (Spanish-language descent vs. Latin American geographic origin). Audience-dependent preference between the two.
-- **[Chicanx / Chicano / Chicana](chicanx.md)** — Subset identity for Mexican-American experience. Politicized in ways Latino is not.
-- **[Afro-Latino / Afro-Latinx](afro-latino.md)** — Subset identity foregrounding Black Latin American heritage. Distinct from both Latino-as-umbrella and African American.
 
 ## History note
 

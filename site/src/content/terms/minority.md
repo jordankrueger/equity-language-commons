@@ -100,12 +100,6 @@ The connotative case: 'minority' carries the implication of subordination — be
 
 There is no guide in the corpus that defends 'minority' as a preferred term outside the data-category exception. This is the closest thing in the R&E section to a stable cross-guide consensus.
 
-## Cross-references
-
-- **[people of color (POC)](people-of-color.md)** — The most common replacement term in current usage.
-- **[BIPOC](bipoc.md)** — The post-2020 umbrella that further refines the people-of-color framing.
-- **[emerging majority](emerging-majority.md)** — RET's named alternative; less common but worth knowing.
-- **[majority-minority](majority-minority.md)** — A construction that uses 'minority' descriptively in formal demographic contexts. Acceptable when citing the data; avoid as casual shorthand.
 
 ## History note
 

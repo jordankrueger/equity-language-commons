@@ -121,12 +121,6 @@ The Sierra Club position — "either term, PoC or BIPOC, is acceptable" — is t
 
 The cleanest one-line rule: **be more specific whenever you can; reach for BIPOC when you specifically mean the cross-cutting solidarity frame, not as shorthand for 'non-white.'**
 
-## Cross-references
-
-- **[people of color (POC)](people-of-color.md)** — The umbrella BIPOC partly displaced. Still acceptable; differs in whether it fronts the Black-and-Indigenous structural distinction.
-- **[Black](black.md)** — The specific identifier to use when 'Black' is what you mean.
-- **[Indigenous](indigenous.md)** — Same logic — use the specific identifier where it fits.
-- **[minority](minority.md)** — Older catch-all that Sierra Club and Race Forward both flag as moving toward inaccuracy and as reinforcing marginalization.
 
 ## History note
 

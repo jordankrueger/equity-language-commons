@@ -135,11 +135,6 @@ Where the guides genuinely diverge is on **whether POC is a positive frame or a 
 
 POC predates BIPOC by roughly four decades — late-1970s racial-justice organizing — and remains the older, more-established frame. BIPOC layers an explicit Black-Indigenous front onto the same umbrella; both terms coexist in current usage and both are accepted across the corpus.
 
-## Cross-references
-
-- **[BIPOC](bipoc.md)** — The post-2020 alternative umbrella. Fronts the Black-and-Indigenous structural distinction; otherwise functionally similar to POC.
-- **[minority](minority.md)** — The older umbrella POC partly displaced. Sierra Club, DSG, and RET all flag minority as moving toward inaccuracy.
-- **[Black](black.md)**, **[Indigenous](indigenous.md)**, **[Latinx](latinx.md)**, **[Asian American](asian-american.md)** — The specific identifiers to prefer when one fits.
 
 ## History note
 

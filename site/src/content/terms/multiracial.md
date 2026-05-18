@@ -91,11 +91,6 @@ DSG's ranking is the cleanest operational guidance: **multiracial, biracial, mul
 
 The hyphenation is settled (biracial, multiracial, multiethnic = no hyphen; mixed-race = hyphenated when used as adjective).
 
-## Cross-references
-
-- **[Afro-Latino / Afro-Latinx](afro-latino.md)** — Specific intersectional identity that the multiracial umbrella alone doesn't capture.
-- **[Black](black.md)** and **[Asian American](asian-american.md)** — Where many multiracial people also self-identify.
-- **[BIPOC](bipoc.md)** and **[people of color](people-of-color.md)** — Broader umbrellas that include multiracial people.
 
 ## History note
 
