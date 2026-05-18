@@ -2,7 +2,7 @@
 title: "Sexuality & Gender Identity"
 slug: "sexuality-and-gender-identity"
 order: 3
-lede: "Transgender, gay, queer, pronouns, homophobia — how source guides handle LGBTQ+ identity, language, and journalistic practice. The strongest convergences in this chapter are grammatical (adjective-not-noun, drop 'preferred pronouns') and the central rule is universal: defer to how the subject identifies, then write accordingly."
+lede: "Transgender, gay, queer, bisexual, lesbian, cisgender, intersex, sexual orientation, pronouns, homophobia — how source guides handle LGBTQ+ identity, language, and journalistic practice. The strongest convergences in this chapter are grammatical (adjective-not-noun, drop 'preferred pronouns') and the central rule is universal: defer to how the subject identifies, then write accordingly."
 cross_cutting_principles:
   - title: "Self-identification is paramount"
     body: "Every source in this chapter that addresses identifying an individual lands on the same rule: defer to how the subject identifies, then write accordingly. The rule is sharpest in TJA and NLGJA (use the pronouns the source gives you; identify someone as transgender only when they have publicly identified that way) and runs through SumOfUs's queer guidance and Sierra Club's 'self-identified queer activist' construction. The defaults the guides offer are answers to the question of what to do when preference isn't known; they never override stated preference."
@@ -19,16 +19,21 @@ cross_cutting_principles:
   - title: "Don't disclose history without consent"
     body: "TJA, NLGJA, GCJT, and SumOfUs all treat deadnaming (publishing a transgender person's prior name) and disclosing gender history as ethical violations requiring explicit consent. The corresponding rule for sexual orientation: outing — publicly disclosing someone's LGBTQ+ identity without consent — is a parallel violation in both GCJT and SumOfUs. Even when the source is comfortable being identified, specific historical details (prior names, prior identities, transition timelines) require separate consent."
 term_slugs:
+  - "bisexual"
+  - "cisgender"
   - "gay"
   - "homophobia"
+  - "intersex"
+  - "lesbian"
   - "pronouns"
   - "queer"
+  - "sexual-orientation"
   - "transgender"
 ---
 
 ## What this chapter covers
 
-This chapter gathers terms that source guides treat as identifiers, descriptors, and operational rules for LGBTQ+ identity and journalism: identity terms (transgender, gay, lesbian, queer, bisexual), grammatical conventions (singular they, pronouns, adjective-not-noun rules), and the family of related terms describing prejudice against LGBTQ+ people (homophobia, biphobia, transphobia, heterosexism). Future batches will extend the chapter to bisexual, lesbian, sexual orientation, nonbinary, and the cross-cutting "deadnaming" and "outing" entries.
+This chapter gathers terms that source guides treat as identifiers, descriptors, and operational rules for LGBTQ+ identity and journalism: identity terms (transgender, gay, lesbian, queer, bisexual, cisgender, intersex), the foundational two-axis concept (sexual orientation as distinct from gender identity), grammatical conventions (singular they, pronouns, adjective-not-noun rules), and the family of related terms describing prejudice against LGBTQ+ people (homophobia, biphobia, transphobia, heterosexism). Future batches may extend the chapter to nonbinary and the cross-cutting "deadnaming" and "outing" entries.
 
 **Sexuality & Gender Identity is treated as one chapter, but gender identity and sexual orientation are separate axes.** Sources in this chapter agree on this almost universally — being transgender doesn't predict sexual orientation, and being gay doesn't predict gender identity. The chapter is organized this way because the source guides themselves treat the two together (HRC's glossary covers both; NLGJA's stylebook is structured by sexual orientation + gender identity sections; TJA is the same on the trans side); but the practical work of identifying any individual asks the two questions separately.
 
