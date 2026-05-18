@@ -1,0 +1,4 @@
+# Phase 2.7: A-Z index merged into Glossary (2026-05-18).
+# Individual term pages at /terms/<slug>/ remain unchanged.
+/terms /glossary/ 301
+/terms/ /glossary/ 301

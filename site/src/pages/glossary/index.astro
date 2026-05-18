@@ -42,18 +42,16 @@ const navLetters = [...A_TO_Z, "#"];
   description="Every term found in any source guide, A-Z. Cross-references the full corpus including the long-tail of single-source entries."
   mainClass="wide"
 >
-  <Breadcrumb trail={[{ href: "/", label: "Home" }, { label: "Glossary index" }]} />
-  <h1>Glossary index</h1>
+  <Breadcrumb trail={[{ href: "/", label: "Home" }, { label: "Glossary" }]} />
+  <h1>Glossary</h1>
   <p class="subtitle">
-    Every term that appears in any source guide in the commons, A–Z.
-    Commons-style cross-source treatment lives at <a href="/terms/">/terms</a> —
-    this page exists so single-source and dual-source entries are also discoverable.
+    Every term that appears in any source guide in the commons, A–Z. Terms with cross-source treatment in <strong>three or more</strong> guides have full commons entries — click to open. Single- and dual-source entries are listed inline so the corpus's long tail stays discoverable.
   </p>
 
   <div class="stats-row" role="presentation">
     <div class="stat">
-      <span class="stat-num">{stats.total_terms.toLocaleString()}</span>
-      <span class="stat-label">terms across the corpus</span>
+      <span class="stat-num" id="visible-count">{stats.total_terms.toLocaleString()}</span>
+      <span class="stat-label" id="visible-label">terms shown</span>
     </div>
     <div class="stat">
       <span class="stat-num">{stats.commons_terms}</span>
@@ -63,6 +61,36 @@ const navLetters = [...A_TO_Z, "#"];
       <span class="stat-num">{stats.long_tail_terms.toLocaleString()}</span>
       <span class="stat-label">in the long tail (1–2 sources)</span>
     </div>
+  </div>
+
+  <div class="filters" role="group" aria-label="Filter terms by coverage">
+    <button
+      type="button"
+      class="filter-chip active"
+      data-filter="all"
+      data-count={stats.total_terms}
+      aria-pressed="true"
+    >
+      All terms <span class="filter-num">{stats.total_terms.toLocaleString()}</span>
+    </button>
+    <button
+      type="button"
+      class="filter-chip"
+      data-filter="commons"
+      data-count={stats.commons_terms}
+      aria-pressed="false"
+    >
+      Commons entries only <span class="filter-num">{stats.commons_terms}</span>
+    </button>
+    <button
+      type="button"
+      class="filter-chip"
+      data-filter="long-tail"
+      data-count={stats.long_tail_terms}
+      aria-pressed="false"
+    >
+      Long tail only <span class="filter-num">{stats.long_tail_terms.toLocaleString()}</span>
+    </button>
   </div>
 
   <div class="letters" role="navigation" aria-label="Jump to letter">
@@ -86,7 +114,11 @@ const navLetters = [...A_TO_Z, "#"];
           const hasCommons = !!entry.commons_slug;
           const showInline = !hasCommons && entry.sources.length > 0;
           return (
-            <li class="term-row" data-coverage={entry.source_count}>
+            <li
+              class="term-row"
+              data-coverage={entry.source_count}
+              data-is-commons={hasCommons ? "true" : "false"}
+            >
               <div class="term-main">
                 {hasCommons ? (
                   <a class="term-name commons" href={`/terms/${entry.commons_slug}/`}>
@@ -126,6 +158,62 @@ const navLetters = [...A_TO_Z, "#"];
   ))}
 </BaseLayout>
 
+<script is:inline>
+  (function () {
+    const chips = document.querySelectorAll(".filter-chip");
+    const visibleCount = document.getElementById("visible-count");
+    const visibleLabel = document.getElementById("visible-label");
+    const sections = document.querySelectorAll(".alpha-section");
+    const root = document.documentElement;
+
+    function applyFilter(filter) {
+      root.dataset.glossaryFilter = filter;
+
+      let total = 0;
+      sections.forEach((section) => {
+        const rows = section.querySelectorAll(".term-row");
+        let visibleInSection = 0;
+        rows.forEach((row) => {
+          const isCommons = row.dataset.isCommons === "true";
+          const show =
+            filter === "all" ||
+            (filter === "commons" && isCommons) ||
+            (filter === "long-tail" && !isCommons);
+          row.toggleAttribute("hidden", !show);
+          if (show) visibleInSection++;
+        });
+        section.toggleAttribute("hidden", visibleInSection === 0);
+        total += visibleInSection;
+      });
+
+      if (visibleCount) {
+        visibleCount.textContent = total.toLocaleString();
+      }
+      if (visibleLabel) {
+        const noun = total === 1 ? "term" : "terms";
+        visibleLabel.textContent =
+          filter === "all"
+            ? `${noun} shown`
+            : filter === "commons"
+              ? `${noun} shown (commons only)`
+              : `${noun} shown (long tail only)`;
+      }
+    }
+
+    chips.forEach((chip) => {
+      chip.addEventListener("click", () => {
+        chips.forEach((c) => {
+          c.classList.remove("active");
+          c.setAttribute("aria-pressed", "false");
+        });
+        chip.classList.add("active");
+        chip.setAttribute("aria-pressed", "true");
+        applyFilter(chip.dataset.filter || "all");
+      });
+    });
+  })();
+</script>
+
 <style>
   .subtitle {
     color: var(--ink-soft);
@@ -151,6 +239,43 @@ const navLetters = [...A_TO_Z, "#"];
     font-variant-numeric: tabular-nums;
   }
   .stat-label { font-size: 0.85rem; color: var(--ink-muted); }
+
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  .filter-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.45rem 0.9rem;
+    border: 1px solid var(--rule);
+    background: var(--bg-card, var(--bg));
+    color: var(--ink);
+    border-radius: 999px;
+    font-family: inherit;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 120ms ease, border-color 120ms ease, color 120ms ease;
+  }
+  .filter-chip:hover { border-color: var(--accent); color: var(--accent); }
+  .filter-chip.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--bg);
+  }
+  .filter-num {
+    font-variant-numeric: tabular-nums;
+    font-weight: 400;
+    font-size: 0.85rem;
+    opacity: 0.85;
+  }
+  .filter-chip.active .filter-num { color: var(--bg); }
 
   .letters {
     display: flex; flex-wrap: wrap; gap: 0.35rem;
