@@ -276,6 +276,46 @@ def _is_index_only_excerpt(raw: str) -> bool:
     return bool(re.match(pattern, stripped))
 
 
+def _looks_definitional(cleaned: str, term: str) -> bool:
+    """For keyword-scan hits, decide whether the excerpt shows the
+    source defining or prescribing usage on the term — vs the term
+    appearing incidentally inside a discussion of something else.
+
+    Three structural signals count as real entries:
+    1. Excerpt opens with the term (cleanup already stripped bullets,
+       headings, and Pandoc/Wix emphasis spans, so a real entry's
+       first word will be the term itself).
+    2. Term is followed by a colon, em-dash, or en-dash anywhere in
+       the excerpt (`activist:`, `ableism —`). This is the most
+       universal definition pattern across style guides.
+    3. Term is preceded by `avoid`, `use`, `prefer`, `instead of`,
+       or `say` (with or without quote marks). This is the standard
+       style-guide prescription pattern.
+
+    Without any of these, a keyword-scan hit is treated as incidental
+    and dropped.
+    """
+    if not cleaned or not term:
+        return False
+    cleaned_lower = cleaned.lower()
+    term_lower = term.lower()
+    # Build a regex-safe term pattern allowing optional trailing `s`
+    # (so the scan catches both "activist" and "activists").
+    term_re = re.escape(term_lower)
+
+    # 1. Term at start of excerpt.
+    if re.match(rf"^{term_re}s?\b", cleaned_lower):
+        return True
+    # 2. Term followed by definition punctuation.
+    if re.search(rf"\b{term_re}s?\s*[:—–-]\s", cleaned_lower):
+        return True
+    # 3. Prescription pattern: avoid/use/prefer/instead of/say + term.
+    prescription_words = r"(?:avoid|use|prefer|instead of|say|never use|do not use|don't use)"
+    if re.search(rf"\b{prescription_words}\b[^.]{{0,40}}\b{term_re}", cleaned_lower):
+        return True
+    return False
+
+
 def _is_low_content_excerpt(cleaned: str) -> bool:
     """True if the cleaned excerpt has too little real content to be
     worth displaying inline. Sources still get listed, but the excerpt
@@ -335,6 +375,14 @@ def build_index() -> dict:
             if _is_index_only_excerpt(raw_excerpt):
                 continue
             cleaned = _clean_excerpt(raw_excerpt)
+            extraction_method = (row.get("extraction_method") or "").strip()
+            # For keyword-scan hits (narrative sources without a
+            # structured glossary extractor), require structural
+            # evidence that the source actually defines or prescribes
+            # usage on this term — otherwise the hit is an incidental
+            # mention inside a discussion of something else.
+            if extraction_method == "keyword" and not _looks_definitional(cleaned, term):
+                continue
             # Blank out low-content excerpts (section headings, PDF
             # garbage like 'yy able-bodied') — the source still gets
             # listed but the inline excerpt is suppressed.
