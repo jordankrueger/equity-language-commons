@@ -15,6 +15,23 @@ const sources = all
     stub: s.data.stub ?? false,
   }))
   .sort((a, b) => a.org.localeCompare(b.org, "en", { sensitivity: "base" }));
+
+// Split a posture value into one or more discrete chip labels.
+// `private-mirror-link-out` is two distinct facts (we have a private mirror,
+// AND we link out to the original) and should render as two chips, not one
+// run-on phrase.
+function posturePills(posture: string): string[] {
+  switch (posture) {
+    case "private-mirror-link-out":
+      return ["Private mirror", "Links out"];
+    case "host-publicly":
+      return ["Hosts publicly"];
+    case "link-out-only":
+      return ["Links out only"];
+    default:
+      return [posture.replaceAll("-", " ")];
+  }
+}
 ---
 
 <BaseLayout
@@ -34,8 +51,10 @@ const sources = all
           <p class="work">{s.title} <span class="year">({s.year})</span></p>
         </div>
         <div class="posture">
-          <span class={`posture-${s.posture}`}>{s.posture.replaceAll("-", " ")}</span>
-          <span class={`live live-${s.live}`}>{s.live}</span>
+          {posturePills(s.posture).map((label) => (
+            <span class="chip chip-posture">{label}</span>
+          ))}
+          <span class={`chip chip-live live-${s.live}`}>{s.live}</span>
         </div>
       </li>
     ))}
@@ -60,10 +79,28 @@ const sources = all
   .work { margin: 0.2rem 0 0; font-size: 0.95rem; color: var(--ink-soft); }
   .work .year { color: var(--ink-muted); font-variant-numeric: tabular-nums; }
   .posture {
-    display: flex; flex-direction: column; gap: 0.3rem;
-    font-size: 0.8rem; color: var(--ink-muted);
-    text-transform: uppercase; letter-spacing: 0.05em;
+    display: flex; flex-direction: column; gap: 0.35rem;
+    align-items: flex-end;
+    font-size: 0.72rem;
+    text-transform: uppercase; letter-spacing: 0.06em;
     text-align: right;
+  }
+  .chip {
+    display: inline-block;
+    padding: 0.18rem 0.55rem;
+    border-radius: 3px;
+    line-height: 1.4;
+    white-space: nowrap;
+    font-weight: 500;
+  }
+  .chip-posture {
+    background: var(--bg-card, #f5f1ea);
+    border: 1px solid var(--rule, #d8d2c4);
+    color: var(--ink-soft, #4a463c);
+  }
+  .chip-live {
+    background: transparent;
+    border: 1px solid currentColor;
   }
   .live-404, .live-offline { color: var(--avoid-ink); }
   .live-paywalled, .live-login-gated { color: var(--care-ink); }

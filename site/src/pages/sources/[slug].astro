@@ -39,6 +39,23 @@ const { Content } = await render(source);
 const addedDate = data.added
   ? new Date(data.added).toLocaleDateString("en-US", { month: "long", year: "numeric" })
   : null;
+
+// Split posture into one or more discrete labels.
+// `private-mirror-link-out` is two facts (private archived copy AND link to
+// the original) and should render as two chips, not a run-on phrase.
+function posturePills(posture: string): string[] {
+  switch (posture) {
+    case "private-mirror-link-out":
+      return ["Private mirror", "Links out"];
+    case "host-publicly":
+      return ["Hosts publicly"];
+    case "link-out-only":
+      return ["Links out only"];
+    default:
+      return [posture.replaceAll("-", " ")];
+  }
+}
+const postureChips = posturePills(data.host_posture);
 ---
 
 <BaseLayout
@@ -63,7 +80,13 @@ const addedDate = data.added
 
   {!data.stub && (
     <div class="access-panel">
-      <p class="access-panel-title">Access posture: {data.host_posture.replaceAll("-", " ")} &middot; {data.live_status}</p>
+      <p class="access-panel-title">Access posture</p>
+      <div class="access-chips">
+        {postureChips.map((label) => (
+          <span class="chip chip-posture">{label}</span>
+        ))}
+        <span class={`chip chip-live live-${data.live_status}`}>Original: {data.live_status}</span>
+      </div>
       <Content />
     </div>
   )}
@@ -87,7 +110,11 @@ const addedDate = data.added
       </>
     )}
     <dt>Commons access</dt>
-    <dd>{data.host_posture.replaceAll("-", " ")}</dd>
+    <dd class="commons-access-cell">
+      {postureChips.map((label) => (
+        <span class="chip chip-posture">{label}</span>
+      ))}
+    </dd>
     {addedDate && (<><dt>Added</dt><dd>{addedDate}</dd></>)}
   </dl>
 
@@ -161,6 +188,35 @@ const addedDate = data.added
     letter-spacing: 0.1em; color: var(--warn);
     margin: 0 0 0.7rem; font-weight: 600;
   }
+  .access-chips {
+    display: flex; flex-wrap: wrap; gap: 0.5rem;
+  }
+  .commons-access-cell {
+    display: flex; flex-wrap: wrap; gap: 0.4rem;
+  }
+  .chip {
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    border-radius: 3px;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    line-height: 1.4;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+  .chip-posture {
+    background: var(--bg-card, #f5f1ea);
+    border: 1px solid var(--rule, #d8d2c4);
+    color: var(--ink-soft, #4a463c);
+  }
+  .chip-live {
+    background: transparent;
+    border: 1px solid currentColor;
+  }
+  .chip-live.live-live { color: var(--use-ink); }
+  .chip-live.live-404, .chip-live.live-offline { color: var(--avoid-ink); }
+  .chip-live.live-paywalled, .chip-live.live-login-gated { color: var(--care-ink); }
 
   .meta-grid {
     background: var(--bg-card);
