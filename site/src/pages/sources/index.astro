@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import Breadcrumb from "../../components/Breadcrumb.astro";
+import { posturePills } from "../../lib/posture";
 
 const all = await getCollection("sources");
 const sources = all
@@ -15,23 +16,6 @@ const sources = all
     stub: s.data.stub ?? false,
   }))
   .sort((a, b) => a.org.localeCompare(b.org, "en", { sensitivity: "base" }));
-
-// Split a posture value into one or more discrete chip labels.
-// `private-mirror-link-out` is two distinct facts (we have a private mirror,
-// AND we link out to the original) and should render as two chips, not one
-// run-on phrase.
-function posturePills(posture: string): string[] {
-  switch (posture) {
-    case "private-mirror-link-out":
-      return ["Private mirror", "Links out"];
-    case "host-publicly":
-      return ["Hosts publicly"];
-    case "link-out-only":
-      return ["Links out only"];
-    default:
-      return [posture.replaceAll("-", " ")];
-  }
-}
 ---
 
 <BaseLayout

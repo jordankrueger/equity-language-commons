@@ -3,6 +3,7 @@ import { getCollection, render } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import Breadcrumb from "../../components/Breadcrumb.astro";
 import RecBadge from "../../components/RecBadge.astro";
+import { posturePills } from "../../lib/posture";
 
 export async function getStaticPaths() {
   const sources = await getCollection("sources");
@@ -40,21 +41,6 @@ const addedDate = data.added
   ? new Date(data.added).toLocaleDateString("en-US", { month: "long", year: "numeric" })
   : null;
 
-// Split posture into one or more discrete labels.
-// `private-mirror-link-out` is two facts (private archived copy AND link to
-// the original) and should render as two chips, not a run-on phrase.
-function posturePills(posture: string): string[] {
-  switch (posture) {
-    case "private-mirror-link-out":
-      return ["Private mirror", "Links out"];
-    case "host-publicly":
-      return ["Hosts publicly"];
-    case "link-out-only":
-      return ["Links out only"];
-    default:
-      return [posture.replaceAll("-", " ")];
-  }
-}
 const postureChips = posturePills(data.host_posture);
 ---
 
