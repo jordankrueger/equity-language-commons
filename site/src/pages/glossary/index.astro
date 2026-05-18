@@ -67,20 +67,20 @@ const navLetters = [...A_TO_Z, "#"];
     <button
       type="button"
       class="filter-chip active"
-      data-filter="all"
-      data-count={stats.total_terms}
+      data-filter="commons"
+      data-count={stats.commons_terms}
       aria-pressed="true"
     >
-      All terms <span class="filter-num">{stats.total_terms.toLocaleString()}</span>
+      Commons entries <span class="filter-num">{stats.commons_terms}</span>
     </button>
     <button
       type="button"
       class="filter-chip"
-      data-filter="commons"
-      data-count={stats.commons_terms}
+      data-filter="all"
+      data-count={stats.total_terms}
       aria-pressed="false"
     >
-      Commons entries only <span class="filter-num">{stats.commons_terms}</span>
+      All terms <span class="filter-num">{stats.total_terms.toLocaleString()}</span>
     </button>
     <button
       type="button"
@@ -213,6 +213,13 @@ const navLetters = [...A_TO_Z, "#"];
         applyFilter(chip.dataset.filter || "all");
       });
     });
+
+    // Apply the initially-active chip's filter on page load so the
+    // default view matches the chip state.
+    const initial = document.querySelector(".filter-chip.active");
+    if (initial) {
+      applyFilter(initial.dataset.filter || "all");
+    }
   })();
 </script>
 
@@ -246,9 +253,7 @@ const navLetters = [...A_TO_Z, "#"];
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
-    margin-bottom: 2rem;
-    padding-bottom: 1.5rem;
-    border-bottom: 1px solid var(--rule);
+    margin-bottom: 1.5rem;
   }
   .filter-chip {
     display: inline-flex;
