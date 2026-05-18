@@ -1,12 +1,31 @@
 # Equity Language Commons — Roadmap
 
-**Status as of 2026-05-18 (end-of-session):** Phases 0–2.6 complete. Phase 3 underway across **3 chapters** — Race & Ethnicity (16 terms), Indigenous & Tribal Sovereignty (6 terms), Sexuality & Gender Identity (5 terms). Indigenous chapter intro shipped today (6 cross-cutting principles + chronology). Sexuality & Gender Identity chapter intro shipped today (7 cross-cutting principles + chronology). **28 indexed terms total.**
+**Status as of 2026-05-18 (end-of-session 2):** Phases 0–2.7 all complete. Phase 3 in progress across **3 active chapters** — Race & Ethnicity (18 terms), Indigenous & Tribal Sovereignty (5 terms), Sexuality & Gender Identity (10 terms). **33 indexed terms total.** Build clean, 73 static pages.
 
-**Launch scope expanded today.** Original "~50 terms / 3-4 chapters" target was a minimum-viable-launch threshold. After looking at actual matrix data — 268 terms have ≥3 sources, ~180 have ≥4 — Jordan locked the full-launch threshold at **≥3 sources, ~250 commons-style term pages across 8-10 chapters, plus a Glossary Index for the ~1,000-term long tail.** No soft launch — full public launch when ready, per `feedback_no_soft_launches`. Phase 4 criteria revised accordingly.
+**Today's shipped work (session 2):**
+- LGBTQ+ chapter rounded out from 5 → 10 terms: bisexual, lesbian, cisgender, intersex, sexual-orientation added with cleanup-pass-verified guidance + written synthesis + audience notes. Two SEIU/TJA inversions caught and corrected.
+- Phase 2.7 tooling all landed: Glossary Index page + scaffolder (`scripts/build-glossary-index.py`), SQLite build-time index (`scripts/build-sqlite-index.py`), Contribute page (`/contribute/`). Glossary Index merged with A-Z browse (one page, filter chips) per Jordan's Option 1 call.
+- Repo scaffolding for community contributions: LICENSE (3-layer CC-BY/MIT/fair-use), README, CONTRIBUTING, CODE_OF_CONDUCT (Contributor Covenant 2.1), 4 issue templates, Discussions enabled. Repo remains private until launch per Jordan's call.
+- `notes/cleanup-pass-prompt.md` written as the standing subagent instruction set for cleanup passes after `scaffold-term.py` batches. Captures editorial voice, fair-use rules, source removal rules, and three common error patterns (SEIU "Correct: X / Not: Y" inversion, related_terms classification, quote attribution direction).
+- Sources page UX fix: `private-mirror-link-out` posture now renders as two discrete chips ("Private mirror" / "Links out") instead of run-on phrase.
+- Legacy `## Cross-references` prose block stripped from 18 R&E term files — was duplicating the auto-generated "Related terms" section. Substantive operational detail (Aboriginal/Australia, Alaska Native subsets, Inuit/Eskimo, Two-Spirit) folded into indigenous.md synthesis before stripping.
+- `related-concept` added to RELATION enum (catch-all for non-identity-overlap connections; prejudices, concepts, legal/geographic adjacencies). Five term files reclassified.
+- Editorial fix: asian-american SEIU recommendation flipped `avoid` → `use` (SEIU inversion pattern).
 
-**Stale URLs fixed today** via pipeline re-run: NAJA → `indigenousjournalists.org/ap-style-insert/` (post-IJA rebrand), NABJ → `nabj.org/page/styleguide`, Define American → `defineamerican.com/resources-for-journalists/`. `KNOWN_URLS` map in `scaffold-source-pages.py` updated. Sierra Club URL now returns 404 — flagged for separate followup (matches the known "Sierra Club went behind login" pattern).
+**Open notes for pick-up next session** (in priority order):
 
-**Phase 2.7 added** — three new tooling pieces to support the expanded scope: Glossary Index scaffolder + page, SQLite build-time index, and Contribute page. See §Phase 2.7.
+1. **Sierra Club URL refresh.** `source-url` on sierra-club.md returns 404. Affects ~30 term-page citations. Search for current canonical URL.
+2. **Next chapter: Disability & Mental Health** (strongest unstarted; NCDJ dedicated source). Or **Immigration & Citizenship** (next-strongest, politically high-impact, Define American dedicated source).
+3. **Round out LGBTQ+** with nonbinary, deadnaming, outing if reaching for completeness (not strictly needed for launch).
+4. **Manual items Jordan owes** (tracked in Drift): Cloudflare Email Routing setup, GitHub Discussion categories, GitHub auto-deploy in CF dashboard.
+
+**Earlier session status block (2026-05-18, session 1):** Phases 0–2.6 complete. Phase 3 underway across **3 chapters** — Race & Ethnicity (16 terms), Indigenous & Tribal Sovereignty (5 terms), Sexuality & Gender Identity (5 terms). Indigenous chapter intro shipped (6 cross-cutting principles + chronology). Sexuality & Gender Identity chapter intro shipped (7 cross-cutting principles + chronology). 28 indexed terms total.
+
+**Launch scope expanded 2026-05-18.** Original "~50 terms / 3-4 chapters" target was a minimum-viable-launch threshold. After looking at actual matrix data — 268 terms have ≥3 sources, ~180 have ≥4 — Jordan locked the full-launch threshold at **≥3 sources, ~250 commons-style term pages across 8-10 chapters, plus a Glossary Index for the ~1,000-term long tail.** No soft launch — full public launch when ready, per `feedback_no_soft_launches`. Phase 4 criteria revised accordingly.
+
+**Stale URLs fixed 2026-05-18** via pipeline re-run: NAJA → `indigenousjournalists.org/ap-style-insert/` (post-IJA rebrand), NABJ → `nabj.org/page/styleguide`, Define American → `defineamerican.com/resources-for-journalists/`. `KNOWN_URLS` map in `scaffold-source-pages.py` updated. Sierra Club URL now returns 404 — flagged for pick-up.
+
+**Phase 2.7 added 2026-05-18** — three new tooling pieces to support the expanded scope: Glossary Index scaffolder + page, SQLite build-time index, and Contribute page. All shipped end-of-day. See §Phase 2.7.
 
 **Status as of 2026-05-17 (end-of-session):** Phases 0, 1, 2, 2.5, and 2.6 all complete. The full programmatic pipeline ships:
 
@@ -319,11 +338,11 @@ nonbinary, etc.) into `source-guides/discovered/`. ~30 min programmatic.
 Only matters for the Gender & Sexuality chapter — defer until that
 chapter is next up.
 
-### Phase 2.7 — Full-launch scope tooling (locked 2026-05-18)
+### Phase 2.7 — Full-launch scope tooling (✅ complete 2026-05-18)
 
-Three new pieces of tooling needed to support the expanded launch scope (≥3 sources, ~250 commons + Glossary Index for the long tail, 8-10 chapters). All small-to-medium effort, all should land before the final Phase 3 push completes.
+Three new pieces of tooling needed to support the expanded launch scope (≥3 sources, ~250 commons + Glossary Index for the long tail, 8-10 chapters). All three shipped end-of-day 2026-05-18.
 
-#### 1. Glossary Index page + scaffolder
+#### ✅ 1. Glossary Index page + scaffolder (shipped 2026-05-18)
 
 **Problem:** The matrix has 1,273 unique candidate terms. 268 will become commons pages (≥3 sources). The remaining ~1,000 single- and dual-source terms are real reference material from real source guides — readers looking up "ABCD" or "Two Spirit" or specific phrases shouldn't hit nothing. But they aren't commons material; there's no cross-reference work to do on a 1-source term.
 
@@ -338,7 +357,9 @@ Three new pieces of tooling needed to support the expanded launch scope (≥3 so
 
 **Rule:** Re-run after each Phase 3 batch (refreshes the long tail with the new indexed-term links) and after new sources are dropped in.
 
-#### 2. SQLite build-time index
+**Outcome:** `scripts/build-glossary-index.py` ships, emitting `site/src/data/glossary-index.json`. Glossary page at `/glossary/` renders A-Z with filter chips ("Commons entries" / "All" / "Long tail only"), default-selected to Commons entries. Three cleanup passes during the session tightened the noise filter: definitional pattern detection for keyword-scan hits, Pandoc fence stripping, slug resolution (matrix long-form vs short-form). Final count: 939 entries (down from 1,271 noisy initial). A-Z browse merged into Glossary per Jordan's Option 1 call; `/terms` → `/glossary` redirect via Cloudflare Pages `_redirects`.
+
+#### ✅ 2. SQLite build-time index (shipped 2026-05-18)
 
 **Problem:** As the commons grows past 250 entries, faceted-query patterns (filter by recommendation × year × source × chapter) will be useful for future API layers, third-party tools, or community-built explorers. Markdown remains source of truth; SQLite is derived.
 
@@ -358,7 +379,9 @@ Schema:
 
 **Rule:** Build at deploy time, ship in `dist/` alongside the static HTML.
 
-#### 3. Contribute page + GitHub onboarding section
+**Outcome:** `scripts/build-sqlite-index.py` ships (stdlib-only Python YAML parser, no PyYAML dependency). Emits `site/public/data/elc-index.sqlite`. Schema includes terms, sources, guidance, chapters, mappings tables with appropriate indexes. Build pipeline regenerates on every deploy.
+
+#### ✅ 3. Contribute page + GitHub onboarding section (shipped 2026-05-18)
 
 **Problem:** Phase 5 outreach plans community contributions, but no `/contribute` page exists. The launch site needs a clear "how to participate" surface that respects both technical and non-technical readers.
 
@@ -374,10 +397,13 @@ The non-technical onboarding section walks readers through creating a free GitHu
 **Prerequisite:** Repo must be public before launch. Currently private. Phase 4 launch criterion: flip repo to public alongside DNS flip.
 
 **GitHub configuration changes needed:**
-- Enable Discussions in repo settings
-- Create Discussion categories: Ideas, Q&A, Show-and-Tell, Announcements
-- Create issue templates: "Suggest a new term," "Suggest a new source," "Report an error / broken link," "General feedback"
-- Add CODE_OF_CONDUCT.md and CONTRIBUTING.md to the repo root
+- ✅ Enable Discussions in repo settings (done 2026-05-18)
+- ⏸ Create Discussion categories: Ideas, Q&A, Show-and-Tell, Announcements (Jordan manual; tracked in Drift)
+- ✅ Create issue templates: "Suggest a new term," "Suggest a new source," "Report an error," "General feedback" (done 2026-05-18)
+- ✅ Add CODE_OF_CONDUCT.md and CONTRIBUTING.md to the repo root (done 2026-05-18)
+- ⏸ Flip repo to public (Phase 4 launch criterion)
+
+**Outcome:** `/contribute/` page live with four paths (Issues, Discussions, PRs, email). Non-technical onboarding section walks through creating a GitHub account, finding the project, opening an issue. Links to GitHub's official Hello World, About Issues, and Discussions Quickstart guides. Issue templates live as YAML forms in `.github/ISSUE_TEMPLATE/`. Three-layer license added at repo root (CC-BY 4.0 for cross-reference layer, MIT for code, fair-use attribution for source publisher quotes).
 
 ### Phase 3 — Bulk term indexing (iterative, one category at a time)
 
@@ -396,15 +422,15 @@ Target per term: 8–12 min of LLM/human judgment work.
 Chunk by the taxonomy that emerges from the first ~10 terms. Aim ~20–40 terms per category. Each category is a focused session.
 
 Likely categories (subject to what emerges):
-- [~] Race & Ethnicity — **16 terms indexed as of 2026-05-16** (african-american, asian-american, bipoc, black, brown, caucasian, chicanx, hispanic, latine, latino, latinx, minority, multiracial, people-of-color, urban, white). Chapter intro rewritten with 6 cross-cutting principles. Need ~8–15 more terms to round out the chapter for launch: probably mestizo, afro-latino, mena, native-hawaiian, biracial-as-its-own-page (currently aliased), south-asian, mixed-race subset entries, model-minority, anti-Black, racism vs. prejudice, white supremacy, white nationalism, white privilege, microaggression, gentrification, racial-coding entries like "thug" and "articulate".
-- [ ] Indigenous & Tribal Sovereignty
-- [ ] Gender & Sexuality (with trans subcategory)
-- [ ] Disability
+- [~] **Race & Ethnicity** — **18 terms indexed** (african-american, asian-american, bipoc, black, brown, caucasian, chicanx, hispanic, indigenous, latine, latino, latinx, minority, multiracial, people-of-color, unhoused-homeless, urban, white). Chapter intro with 6 cross-cutting principles. Need ~8–15 more terms to round out for launch: mestizo, afro-latino, mena, native-hawaiian, south-asian, mixed-race, model-minority, anti-Black, white supremacy, white nationalism, white privilege, microaggression, gentrification, "thug", "articulate".
+- [~] **Indigenous & Tribal Sovereignty** — **5 terms indexed** (native-american, american-indian, first-nations, reservation, tribe). Chapter intro with 6 cross-cutting principles. Matrix-strong candidates next: tribal (separate from tribe), two-spirit, sovereignty, treaty, indigenous (currently dual-categorized into R&E + this chapter).
+- [~] **Sexuality & Gender Identity** — **10 terms indexed** (transgender, gay, queer, pronouns, homophobia, bisexual, lesbian, cisgender, intersex, sexual-orientation). Chapter intro with 7 cross-cutting principles. Matrix-strong candidates next: nonbinary, deadnaming, outing, transition, gender-identity, sexual-minority, pansexual, biphobia, transphobia.
+- [ ] **Disability & Mental Health** *(strongest unstarted)* — matrix: disability (7), ableism (6), accessible (7), survivor (9), mental health (8), injury (8), addiction, recovery. NCDJ dedicated source.
+- [ ] **Immigration & Citizenship** *(next-strongest unstarted)* — matrix: immigrant (12), illegal (12), illegal immigrant (7), refugees (7), alien (7), undocumented. Define American dedicated source.
 - [ ] Age
-- [ ] Class & Wealth
+- [ ] Class & Economic Status
 - [ ] Labor & Workers
 - [ ] Housing — 1 term (unhoused-homeless); needs ~15 more
-- [ ] Immigration & Refugees
 - [ ] Incarceration & Policing
 - [ ] Sexual & Domestic Violence
 - [ ] Health

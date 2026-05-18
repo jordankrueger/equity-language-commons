@@ -21,14 +21,39 @@ handled in tiers — see `ROADMAP.md` and `source-guides/MANIFEST.md`.
 
 ## Phase
 
-Phases 0, 1, 2, 2.5, and 2.6 **complete** (2026-05-17). Schema v0.3 locked.
-Astro site live at the preview URL. Full programmatic pipeline shipped —
-extract → matrix → source-page scaffold → enrich → term scaffold.
+Phases 0, 1, 2, 2.5, 2.6, and 2.7 **complete** (2026-05-18). Schema v0.3
+locked. Astro site live at the preview URL. Full programmatic pipeline
+shipped — extract → matrix → source-page scaffold → enrich → term scaffold,
+plus glossary index + SQLite build-time index + Contribute page.
 
-**Phase 3 (bulk term indexing) is the next phase**, paced by the matrix
-ranking and the scaffolder. 18 terms indexed (16 in R&E + 2 stubs from
-Phase 1). Launch gate is ~50 terms across 3–4 chapters. Indigenous & Tribal
-Sovereignty is the natural next chapter — see ROADMAP §Phase 3.
+**Phase 3 (bulk term indexing) is underway** across **3 chapters**:
+- **Race & Ethnicity** — 18 indexed terms, chapter intro shipped with 6 cross-cutting principles
+- **Indigenous & Tribal Sovereignty** — 5 indexed terms (native-american, american-indian, first-nations, reservation, tribe), chapter intro with 6 cross-cutting principles
+- **Sexuality & Gender Identity** — 10 indexed terms (transgender, gay, queer, pronouns, homophobia, bisexual, lesbian, cisgender, intersex, sexual-orientation), chapter intro with 7 cross-cutting principles
+
+**33 indexed terms total.** Build clean, 73 static pages.
+
+**Launch scope expanded 2026-05-18.** Original "~50 terms / 3-4 chapters" target was a minimum-viable-launch threshold. After looking at actual matrix data (268 terms have ≥3 sources), Jordan locked the full-launch threshold at **≥3 sources, ~250 commons-style term pages across 8-10 chapters, plus a Glossary Index for the ~1,000-term long tail.** No soft launch — full public launch when ready, per `feedback_no_soft_launches`.
+
+**Standing reference — `notes/cleanup-pass-prompt.md`** captures the subagent cleanup-pass workflow + every editorial rule + error pattern caught during Phase 3. Read it before dispatching a cleanup subagent. Update when new error patterns appear.
+
+## Pick-up notes for next ELC session
+
+In priority order:
+
+1. **Sierra Club source URL refresh.** `site/src/content/sources/sierra-club.md` `source_url` returns 404 (live-status check confirms). Sierra Club Equity Language Guide (2021) still appears to be hosted somewhere — find the current canonical URL and update. Affects every term page citing Sierra Club (~30 references).
+
+2. **Next chapter: Disability & Mental Health.** Strongest unstarted chapter per matrix coverage: `disability` (7 srcs), `ableism` (6), `accessible` (7), `survivor` (9), `mental health` (8), `injury` (8), `addiction`, `recovery`. Has dedicated NCDJ source (ncdj-disability-style-guide-2021). Suggested first batch of 5: disability, ableism, accessible, mental-health, survivor. Use `notes/cleanup-pass-prompt.md` for subagent dispatch.
+
+3. **Or: Immigration & Citizenship.** Next-strongest unstarted chapter. `immigrant` (12 srcs), `illegal` (12), `illegal immigrant` (7), `refugees` (7), `alien` (7), `undocumented`. Politically high-impact. Define American is the dedicated source. Suggested first batch of 5: immigrant, refugees, undocumented, illegal-immigrant, alien.
+
+4. **Round out LGBTQ+ further.** `nonbinary` (4 srcs), `deadnaming` (likely 2-3), `outing` (2), `transition` (5), `sexual minority`, `pansexual`. Not strictly needed for launch — chapter at 10 is already strong — but nonbinary, deadnaming, and outing are the most-conspicuous gaps.
+
+5. **Round out Indigenous chapter further.** Matrix-strong candidates not yet indexed: `tribal` (separate from `tribe`), `two-spirit`, `sovereignty`, `treaty`. Lower priority than starting Disability or Immigration.
+
+6. **Manual setup items Jordan owes (tracked in Drift):** Cloudflare Email Routing for hello@equitylanguagecommons.org; GitHub Discussion categories; GitHub auto-deploy in CF dashboard. None block Phase 3 term work.
+
+7. **At launch (Phase 4):** flip repo to public, DNS flip equitylanguagecommons.org, verify all source pages have About sections written, run final legal pass.
 
 ## Scope (locked 2026-04-23)
 
