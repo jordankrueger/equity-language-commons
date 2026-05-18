@@ -8,8 +8,10 @@ type NavItem = {
 const NAV: NavItem[] = [
   { href: "/chapters/", label: "Browse chapters", match: /^\/chapters/ },
   { href: "/terms/", label: "A–Z index", match: /^\/terms/ },
+  { href: "/glossary/", label: "Glossary", match: /^\/glossary/ },
   { href: "/sources/", label: "Sources", match: /^\/sources/ },
   { href: "/about/", label: "About", match: /^\/about/ },
+  { href: "/contribute/", label: "Contribute", match: /^\/contribute/ },
 ];
 
 const path = Astro.url.pathname;

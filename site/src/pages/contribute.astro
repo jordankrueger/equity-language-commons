@@ -1,0 +1,194 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Breadcrumb from "../components/Breadcrumb.astro";
+
+const REPO = "https://github.com/jordankrueger/equity-language-commons";
+const ISSUES = `${REPO}/issues`;
+const DISCUSSIONS = `${REPO}/discussions`;
+const NEW_ISSUE = `${REPO}/issues/new/choose`;
+---
+
+<BaseLayout
+  title="Contribute"
+  description="How to contribute to the Equity Language Commons — suggest a term, propose a source, flag an error, or join a discussion."
+>
+  <Breadcrumb trail={[{ href: "/", label: "Home" }, { label: "Contribute" }]} />
+  <h1>How to contribute</h1>
+
+  <p class="lede">
+    The commons gets better when more eyes are on it. If you've spotted a term we're missing, a source we should be reading, a quote that's mis-attributed, or a framing that needs work — there's a way to flag it. You don't need to be a developer to contribute.
+  </p>
+
+  <div class="paths">
+    <article class="path">
+      <h2>Suggest a term, source, or correction</h2>
+      <p class="path-meta">→ <strong>Open an issue on GitHub</strong> · easiest path · requires a free GitHub account</p>
+      <p>Best for concrete suggestions you want tracked:</p>
+      <ul>
+        <li>A term we should add (e.g., "you cover ‘unhoused’ but not ‘houseless’")</li>
+        <li>A source we should be reading (e.g., "the [Org Name] Equity Language Guide isn't in your corpus")</li>
+        <li>An error — a misquoted passage, a broken link, a wrong year</li>
+        <li>An attribution we got wrong (e.g., "you cite NABJ for X but the wording is actually from GLAAD")</li>
+      </ul>
+      <p><a class="btn primary" href={NEW_ISSUE}>Open a new issue ↗</a> &nbsp; <a class="btn" href={ISSUES}>See existing issues ↗</a></p>
+    </article>
+
+    <article class="path">
+      <h2>Discuss interpretation, framing, or methodology</h2>
+      <p class="path-meta">→ <strong>Open a Discussion on GitHub</strong> · for open-ended questions · requires a free GitHub account</p>
+      <p>Best for conversations that don't have a single right answer:</p>
+      <ul>
+        <li>How a chapter's cross-cutting principles should be framed</li>
+        <li>Whether two terms should be split into separate entries or combined</li>
+        <li>Ideas for new chapters or a different way to organize an existing chapter</li>
+        <li>Methodology questions about source selection, host posture, or attribution</li>
+      </ul>
+      <p><a class="btn" href={DISCUSSIONS}>Open or join a discussion ↗</a></p>
+    </article>
+
+    <article class="path">
+      <h2>Submit a change directly</h2>
+      <p class="path-meta">→ <strong>Open a pull request</strong> · for git-fluent contributors · requires a free GitHub account</p>
+      <p>If you're comfortable editing markdown and using git, you can submit a change directly via a pull request. The commons is built with Astro from markdown files in <code>site/src/content/terms/</code>, <code>site/src/content/sources/</code>, and <code>site/src/content/chapters/</code>. Each term page is a single <code>.md</code> file.</p>
+      <p>For changes that touch editorial voice, please open an issue or discussion first so we can align on framing before you invest time.</p>
+      <p><a class="btn" href={`${REPO}/blob/main/CONTRIBUTING.md`}>Read CONTRIBUTING.md ↗</a></p>
+    </article>
+
+    <article class="path">
+      <h2>Email instead</h2>
+      <p class="path-meta">→ <strong>Email the project directly</strong> · for when GitHub isn't the right fit</p>
+      <p>If your contribution doesn't fit any of the paths above, or you'd rather not use GitHub — you can send context by email. We read everything, and we'll move appropriate items into GitHub Issues ourselves so they're tracked publicly.</p>
+      <p>Particularly welcome by email:</p>
+      <ul>
+        <li>Sensitive notes about source attribution, copyright, or legal questions</li>
+        <li>Long-form feedback that would feel awkward as a public issue</li>
+        <li>Outreach from source organizations about their own guides</li>
+      </ul>
+      <p><a class="btn" href="mailto:hello@equitylanguagecommons.org">Email hello@equitylanguagecommons.org ↗</a></p>
+    </article>
+  </div>
+
+  <hr class="section-rule" />
+
+  <h2 id="new-to-github">New to GitHub?</h2>
+  <p>If you've never used GitHub before, the suggestions and discussions above might sound like a steeper hill than it is. The short version: GitHub is free, you can use it from a browser without installing anything, and opening an issue takes about thirty seconds once you have an account.</p>
+
+  <h3>Step 1 — Create a free GitHub account</h3>
+  <p>Go to <a href="https://github.com/signup" rel="noopener">github.com/signup</a>. Personal accounts are free. You need a working email address and a username (which becomes a public name attached to anything you post).</p>
+  <p>GitHub's own walkthrough is here: <a href="https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github" rel="noopener">Creating an account on GitHub</a>.</p>
+
+  <h3>Step 2 — Find the project</h3>
+  <p>The commons lives at <a href={REPO} rel="noopener">github.com/jordankrueger/equity-language-commons</a>. Bookmark that URL — that's the project's home on GitHub. You'll see a list of files, a navigation tab for Issues, a tab for Discussions, and a tab for Pull Requests.</p>
+
+  <h3>Step 3 — Open an issue</h3>
+  <p>Click the <strong>Issues</strong> tab on the project page, then click the green <strong>New issue</strong> button. Pick the template that matches what you want to say (Suggest a term, Suggest a source, Report an error, General feedback), fill in the fields, and submit.</p>
+  <p>You don't need to know any technical terminology. The title can be plain language ("You should add the term ‘houseless’"), and the description can be a few sentences. Other people can see it and respond.</p>
+  <p>GitHub's own walkthrough is here: <a href="https://docs.github.com/en/issues/tracking-your-work-with-issues/learning-about-issues/about-issues" rel="noopener">About issues</a>.</p>
+
+  <h3>Want more orientation first?</h3>
+  <p>GitHub's <a href="https://docs.github.com/en/get-started/start-your-journey/hello-world" rel="noopener">Hello World tutorial</a> walks you through the basics of how the platform works. It's written for people who aren't developers and doesn't require you to know any code. It takes about 15 minutes.</p>
+  <p>GitHub's <a href="https://docs.github.com/en/discussions/quickstart" rel="noopener">Discussions quickstart</a> covers the discussion side of the platform — useful if your contribution is a conversation, not a concrete suggestion.</p>
+
+  <hr class="section-rule" />
+
+  <h2>What we can't accept</h2>
+  <ul>
+    <li><strong>Full reproductions of copyrighted source guides.</strong> The commons cites under fair use — short quotes (under 50 words), with attribution. Don't paste an entire guide's text into an issue or PR. If you've co-written or hold rights to a guide you'd like included, get in touch by email.</li>
+    <li><strong>Synthesis or recommendations that aren't traceable to source guides in the corpus.</strong> Every claim in a term page must be attributable to a source we've archived. "Most people think X" without a source isn't usable.</li>
+    <li><strong>Editorial judgment of source-guide authors.</strong> The commons describes what each guide does and lets chronology speak. We don't characterize earlier guides as "outdated" or "behind" — see the <a href="/about/">About page</a> for the full editorial voice rules.</li>
+  </ul>
+
+  <h2>Maintenance posture</h2>
+  <p>The commons is maintained by Jordan Krueger as a side project. Response times to issues and discussions vary. Contributions are appreciated; please don't take a delayed reply as disinterest.</p>
+
+  <p>For broader context on what the commons is and isn't, see <a href="/about/">About the commons</a>.</p>
+</BaseLayout>
+
+<style>
+  .lede {
+    font-family: "Charter", Georgia, serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: var(--ink-soft);
+    margin: 0 0 2.5rem;
+    max-width: 50rem;
+  }
+
+  .paths {
+    display: grid;
+    gap: 1.8rem;
+    margin: 0 0 2.5rem;
+  }
+
+  .path {
+    border: 1px solid var(--rule);
+    border-radius: 8px;
+    padding: 1.4rem 1.6rem;
+    background: var(--bg-soft);
+  }
+
+  .path h2 {
+    font-family: "Charter", Georgia, serif;
+    font-size: 1.45rem;
+    font-weight: 500;
+    margin: 0 0 0.4rem;
+    color: var(--ink);
+  }
+
+  .path-meta {
+    color: var(--ink-muted);
+    font-size: 0.92rem;
+    margin: 0 0 1rem;
+    font-style: italic;
+  }
+
+  .path-meta strong { font-style: normal; color: var(--ink); font-weight: 500; }
+
+  .path ul { margin: 0.6rem 0 1.2rem; padding-left: 1.4rem; }
+  .path li { margin-bottom: 0.3rem; line-height: 1.55; }
+
+  .btn {
+    display: inline-block;
+    padding: 0.55rem 1.1rem;
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 0.95rem;
+    margin: 0.2rem 0.2rem 0.2rem 0;
+    transition: background 120ms ease, color 120ms ease;
+  }
+  .btn:hover { background: var(--accent); color: var(--bg); }
+  .btn.primary { background: var(--accent); color: var(--bg); }
+  .btn.primary:hover { background: var(--accent-strong, var(--accent)); }
+
+  .section-rule {
+    border: none;
+    border-top: 1px solid var(--rule);
+    margin: 3rem 0 2.5rem;
+  }
+
+  h2 {
+    font-family: "Charter", Georgia, serif;
+    font-weight: 500;
+    margin-top: 2rem;
+  }
+
+  h3 {
+    font-family: "Charter", Georgia, serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-top: 1.6rem;
+    margin-bottom: 0.5rem;
+  }
+
+  ul li { line-height: 1.55; }
+  code {
+    font-family: "SF Mono", Menlo, Consolas, monospace;
+    font-size: 0.88em;
+    background: var(--bg-accent);
+    padding: 0.1rem 0.35rem;
+    border-radius: 3px;
+  }
+</style>

@@ -1,0 +1,250 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Breadcrumb from "../../components/Breadcrumb.astro";
+import glossaryData from "../../data/glossary-index.json";
+
+const { stats, by_letter, entries } = glossaryData as {
+  generated_at: string;
+  stats: {
+    total_terms: number;
+    commons_terms: number;
+    long_tail_terms: number;
+    by_coverage: Record<string, number>;
+  };
+  by_letter: Record<string, string[]>;
+  entries: Record<
+    string,
+    {
+      term: string;
+      display: string;
+      source_count: number;
+      commons_slug: string | null;
+      sources: Array<{
+        source_slug: string;
+        org: string;
+        year: string;
+        source_url: string;
+        excerpt: string;
+        extraction_method: string;
+      }>;
+    }
+  >;
+};
+
+const letters = Object.keys(by_letter);
+const populatedLetters = new Set(letters);
+const A_TO_Z = "abcdefghijklmnopqrstuvwxyz".split("");
+const navLetters = [...A_TO_Z, "#"];
+---
+
+<BaseLayout
+  title="Glossary index"
+  description="Every term found in any source guide, A-Z. Cross-references the full corpus including the long-tail of single-source entries."
+  mainClass="wide"
+>
+  <Breadcrumb trail={[{ href: "/", label: "Home" }, { label: "Glossary index" }]} />
+  <h1>Glossary index</h1>
+  <p class="subtitle">
+    Every term that appears in any source guide in the commons, A–Z.
+    Commons-style cross-source treatment lives at <a href="/terms/">/terms</a> —
+    this page exists so single-source and dual-source entries are also discoverable.
+  </p>
+
+  <div class="stats-row" role="presentation">
+    <div class="stat">
+      <span class="stat-num">{stats.total_terms.toLocaleString()}</span>
+      <span class="stat-label">terms across the corpus</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">{stats.commons_terms}</span>
+      <span class="stat-label">with full commons entries (≥3 sources)</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">{stats.long_tail_terms.toLocaleString()}</span>
+      <span class="stat-label">in the long tail (1–2 sources)</span>
+    </div>
+  </div>
+
+  <div class="letters" role="navigation" aria-label="Jump to letter">
+    {navLetters.map((letter) => (
+      <a
+        href={populatedLetters.has(letter) ? `#letter-${letter}` : undefined}
+        class={`letter-link${populatedLetters.has(letter) ? "" : " empty"}`}
+        aria-disabled={!populatedLetters.has(letter)}
+      >
+        {letter === "#" ? "#" : letter.toUpperCase()}
+      </a>
+    ))}
+  </div>
+
+  {letters.map((letter) => (
+    <section class="alpha-section" id={`letter-${letter}`}>
+      <h2 class="alpha-letter">{letter === "#" ? "#" : letter.toUpperCase()}</h2>
+      <ul class="term-list">
+        {by_letter[letter].map((termKey) => {
+          const entry = entries[termKey];
+          const hasCommons = !!entry.commons_slug;
+          const showInline = !hasCommons && entry.sources.length > 0;
+          return (
+            <li class="term-row" data-coverage={entry.source_count}>
+              <div class="term-main">
+                {hasCommons ? (
+                  <a class="term-name commons" href={`/terms/${entry.commons_slug}/`}>
+                    {entry.display}
+                    <span class="commons-marker" aria-label="commons entry">↗</span>
+                  </a>
+                ) : (
+                  <span class="term-name">{entry.display}</span>
+                )}
+                <span class={`coverage-badge cov-${Math.min(entry.source_count, 5)}`}>
+                  {entry.source_count} {entry.source_count === 1 ? "source" : "sources"}
+                </span>
+              </div>
+              {showInline && (
+                <details class="sources-detail">
+                  <summary>Show sources</summary>
+                  <ul class="sources-list">
+                    {entry.sources.map((src) => (
+                      <li class="source-row">
+                        <a class="source-org" href={`/sources/${src.source_slug}/`}>
+                          {src.org}
+                        </a>
+                        {src.year && <span class="source-year"> ({src.year})</span>}
+                        {src.excerpt && (
+                          <span class="source-excerpt"> — “{src.excerpt}”</span>
+                        )}
+                      </li>
+                    ))}
+                  </ul>
+                </details>
+              )}
+            </li>
+          );
+        })}
+      </ul>
+    </section>
+  ))}
+</BaseLayout>
+
+<style>
+  .subtitle {
+    color: var(--ink-soft);
+    font-size: 1rem;
+    margin: 0 0 1.5rem;
+    max-width: 50rem;
+  }
+
+  .stats-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 1rem 0 1.5rem;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 1.5rem;
+  }
+  .stat { display: flex; flex-direction: column; gap: 0.1rem; }
+  .stat-num {
+    font-family: "Charter", Georgia, serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+  }
+  .stat-label { font-size: 0.85rem; color: var(--ink-muted); }
+
+  .letters {
+    display: flex; flex-wrap: wrap; gap: 0.35rem;
+    margin-bottom: 3rem; padding: 0.8rem 0;
+    border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+    position: sticky; top: 0; background: var(--bg); z-index: 10;
+  }
+  .letter-link {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 28px; height: 28px;
+    font-family: "Charter", Georgia, serif;
+    font-weight: 500; font-size: 0.95rem; color: var(--ink);
+    text-decoration: none; border-radius: 4px;
+    transition: background 120ms ease, color 120ms ease;
+  }
+  .letter-link:hover { background: var(--bg-accent); color: var(--accent); }
+  .letter-link.empty { color: var(--ink-muted); opacity: 0.4; pointer-events: none; }
+
+  .alpha-section { margin-bottom: 2.5rem; }
+  .alpha-letter {
+    font-family: "Charter", Georgia, serif;
+    font-size: 2.2rem; font-weight: 500; color: var(--accent);
+    margin: 0 0 0.8rem;
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 0.2rem; display: inline-block;
+    min-width: 2.5rem; scroll-margin-top: 70px;
+  }
+
+  .term-list { list-style: none; padding: 0; margin: 0; }
+  .term-row {
+    padding: 0.7rem 0;
+    border-bottom: 1px solid var(--rule-soft);
+  }
+  .term-row:last-child { border-bottom: none; }
+
+  .term-main {
+    display: flex; gap: 0.8rem; align-items: baseline; flex-wrap: wrap;
+  }
+  .term-name {
+    font-family: "Charter", Georgia, serif;
+    font-size: 1.1rem; font-weight: 500; color: var(--ink);
+  }
+  .term-name.commons {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--accent-soft);
+  }
+  .term-name.commons:hover { border-bottom-style: solid; }
+  .commons-marker {
+    font-size: 0.75em; vertical-align: super; margin-left: 0.15rem;
+    color: var(--accent-soft);
+  }
+
+  .coverage-badge {
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding: 0.12rem 0.45rem;
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-variant-numeric: tabular-nums;
+    background: var(--bg-accent);
+    color: var(--ink-muted);
+    white-space: nowrap;
+  }
+  .coverage-badge.cov-1 { background: #f0eae3; color: #8a7560; }
+  .coverage-badge.cov-2 { background: #ece1d3; color: #74553a; }
+  .coverage-badge.cov-3,
+  .coverage-badge.cov-4,
+  .coverage-badge.cov-5 {
+    background: var(--accent);
+    color: var(--bg);
+  }
+
+  .sources-detail { margin-top: 0.45rem; margin-left: 0.5rem; }
+  .sources-detail summary {
+    font-size: 0.82rem; color: var(--ink-muted); cursor: pointer;
+    list-style: none; display: inline-block;
+  }
+  .sources-detail summary::before {
+    content: "▸ "; display: inline-block; transition: transform 120ms ease;
+  }
+  .sources-detail[open] summary::before { content: "▾ "; }
+  .sources-detail summary:hover { color: var(--accent); }
+
+  .sources-list {
+    list-style: none; padding: 0.5rem 0 0.2rem 0; margin: 0;
+    font-size: 0.88rem; color: var(--ink-soft);
+    border-left: 2px solid var(--rule-soft);
+    padding-left: 0.8rem;
+  }
+  .source-row { padding: 0.25rem 0; line-height: 1.45; }
+  .source-org { color: var(--accent); text-decoration: none; font-weight: 500; }
+  .source-org:hover { text-decoration: underline; }
+  .source-year { color: var(--ink-muted); font-variant-numeric: tabular-nums; }
+  .source-excerpt { color: var(--ink-soft); font-style: italic; }
+</style>

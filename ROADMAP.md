@@ -1,5 +1,13 @@
 # Equity Language Commons — Roadmap
 
+**Status as of 2026-05-18 (end-of-session):** Phases 0–2.6 complete. Phase 3 underway across **3 chapters** — Race & Ethnicity (16 terms), Indigenous & Tribal Sovereignty (6 terms), Sexuality & Gender Identity (5 terms). Indigenous chapter intro shipped today (6 cross-cutting principles + chronology). Sexuality & Gender Identity chapter intro shipped today (7 cross-cutting principles + chronology). **28 indexed terms total.**
+
+**Launch scope expanded today.** Original "~50 terms / 3-4 chapters" target was a minimum-viable-launch threshold. After looking at actual matrix data — 268 terms have ≥3 sources, ~180 have ≥4 — Jordan locked the full-launch threshold at **≥3 sources, ~250 commons-style term pages across 8-10 chapters, plus a Glossary Index for the ~1,000-term long tail.** No soft launch — full public launch when ready, per `feedback_no_soft_launches`. Phase 4 criteria revised accordingly.
+
+**Stale URLs fixed today** via pipeline re-run: NAJA → `indigenousjournalists.org/ap-style-insert/` (post-IJA rebrand), NABJ → `nabj.org/page/styleguide`, Define American → `defineamerican.com/resources-for-journalists/`. `KNOWN_URLS` map in `scaffold-source-pages.py` updated. Sierra Club URL now returns 404 — flagged for separate followup (matches the known "Sierra Club went behind login" pattern).
+
+**Phase 2.7 added** — three new tooling pieces to support the expanded scope: Glossary Index scaffolder + page, SQLite build-time index, and Contribute page. See §Phase 2.7.
+
 **Status as of 2026-05-17 (end-of-session):** Phases 0, 1, 2, 2.5, and 2.6 all complete. The full programmatic pipeline ships:
 
 | Stage | Script | Purpose |
@@ -311,6 +319,66 @@ nonbinary, etc.) into `source-guides/discovered/`. ~30 min programmatic.
 Only matters for the Gender & Sexuality chapter — defer until that
 chapter is next up.
 
+### Phase 2.7 — Full-launch scope tooling (locked 2026-05-18)
+
+Three new pieces of tooling needed to support the expanded launch scope (≥3 sources, ~250 commons + Glossary Index for the long tail, 8-10 chapters). All small-to-medium effort, all should land before the final Phase 3 push completes.
+
+#### 1. Glossary Index page + scaffolder
+
+**Problem:** The matrix has 1,273 unique candidate terms. 268 will become commons pages (≥3 sources). The remaining ~1,000 single- and dual-source terms are real reference material from real source guides — readers looking up "ABCD" or "Two Spirit" or specific phrases shouldn't hit nothing. But they aren't commons material; there's no cross-reference work to do on a 1-source term.
+
+**Solution:** A single Glossary Index page (or 26 per-letter pages at scale) listing every term found in any source guide. Each entry shows: term name + source-count indicator + one-line excerpt from the strongest source + link. The link target depends on coverage:
+- ≥3 sources → full commons page (cross-source synthesis)
+- 1-2 sources → source page(s) with the brief excerpt as the bridge
+
+**Build approach:**
+- `scripts/build-glossary-index.py` — walks `notes/term-coverage-matrix.csv` + Astro content collections, emits structured glossary-index entries (markdown or JSON for content collection)
+- Astro page at `/glossary/` (or `/index/`) renders A-Z with filterable display
+- Idempotent — re-run after each term batch to refresh
+
+**Rule:** Re-run after each Phase 3 batch (refreshes the long tail with the new indexed-term links) and after new sources are dropped in.
+
+#### 2. SQLite build-time index
+
+**Problem:** As the commons grows past 250 entries, faceted-query patterns (filter by recommendation × year × source × chapter) will be useful for future API layers, third-party tools, or community-built explorers. Markdown remains source of truth; SQLite is derived.
+
+**Solution:** `scripts/build-sqlite-index.py` — reads term + source data at build time, emits `dist/elc-index.sqlite` (also written to `site/public/` so it's served from CF Pages).
+
+Schema:
+- `terms(slug, term, last_reviewed, stub)`
+- `sources(org_slug, org, year, source_url, host_posture, live_status, last_checked)`
+- `guidance(term_slug, org_slug, recommendation, year, quote_loc)`
+- `chapters(slug, title, order)`
+- `term_chapters(term_slug, chapter_slug)`
+
+**Use cases (none required for launch):**
+- Future API endpoints for third-party tools
+- Community-built faceted browsers
+- Bulk export for academic/research use
+
+**Rule:** Build at deploy time, ship in `dist/` alongside the static HTML.
+
+#### 3. Contribute page + GitHub onboarding section
+
+**Problem:** Phase 5 outreach plans community contributions, but no `/contribute` page exists. The launch site needs a clear "how to participate" surface that respects both technical and non-technical readers.
+
+**Solution:** New page at `/contribute/`. Three contribution paths plus a non-technical onboarding section:
+
+1. **Suggest a term, source, or correction** — GitHub Issues (templated)
+2. **Discuss interpretation, framing, or methodology** — GitHub Discussions (Q&A + Ideas categories)
+3. **Submit a direct change** — Pull Requests (for git-fluent contributors)
+4. **Email Jordan** — fallback for everyone
+
+The non-technical onboarding section walks readers through creating a free GitHub account, finding the project, and opening an issue. Links to an authoritative external "GitHub for beginners" guide rather than reinventing the wheel.
+
+**Prerequisite:** Repo must be public before launch. Currently private. Phase 4 launch criterion: flip repo to public alongside DNS flip.
+
+**GitHub configuration changes needed:**
+- Enable Discussions in repo settings
+- Create Discussion categories: Ideas, Q&A, Show-and-Tell, Announcements
+- Create issue templates: "Suggest a new term," "Suggest a new source," "Report an error / broken link," "General feedback"
+- Add CODE_OF_CONDUCT.md and CONTRIBUTING.md to the repo root
+
 ### Phase 3 — Bulk term indexing (iterative, one category at a time)
 
 **Now scaffolder-driven.** With Phase 2.5 + 2.6 complete, each Phase 3 batch is:
@@ -349,17 +417,38 @@ Likely categories (subject to what emerges):
 
 **No "soft launch." No private reviewer round.** Build until the site is launch-ready, then flip it public in one motion. Friends-and-family preview rounds make launches feel like failure-by-default — the work is either published or it isn't.
 
+**Launch scope (revised 2026-05-18):**
+- **~250 commons-style term pages** covering every term with ≥3 source citations across the in-scope corpus. After light noise filtering, expect 230-250 substantive commons entries.
+- **8-10 chapters**, each with lede + cross-cutting principles + chronology + term list (matching the R&E and Indigenous patterns).
+- **Glossary Index** — alphabetical page covering all ~1,300 candidate terms, with links to commons pages (≥3 sources) or source pages (1-2 sources). The "everything else" surface.
+
 Launch readiness criteria:
 - [x] Domain secured — `equitylanguagecommons.org` (2026-05-14)
-- [ ] ~50 terms published across 3–4 chapters, enough breadth that the cross-reference value is immediately visible to a first-time reader
-- [ ] All 16+ source pages filled out (not stubs); access-posture panels accurate
-- [ ] At least 2 chapters with real cross-cutting-principle intros and term lists
+- [ ] ~250 commons term pages published across 8-10 chapters
+- [ ] All chapters with lede + cross-cutting principles + chronology + term list
+- [ ] Glossary Index page populated and linked from primary nav
+- [ ] All source pages filled out (not stubs); access-posture panels accurate; About sections written
 - [ ] Final legal pass: per-source attribution, CC-BY notice on curation layer, fair-use posture clear on every quoted passage
 - [ ] Pagefind search wired and indexing the live content
+- [ ] SQLite index built and shipped in `dist/` for future API / faceted-query consumers
+- [ ] **Contribute page live** — three contribution paths (Issues, Discussions, PRs) plus GitHub-for-beginners onboarding section, plus email fallback
+- [ ] **Repo flipped to public** before DNS flip — Discussions enabled, issue templates configured, CONTRIBUTING.md + CODE_OF_CONDUCT.md in repo root
 - [ ] Deployed to Cloudflare Pages on `equitylanguagecommons.org` — DNS flip is the launch
 - [ ] Homepage doesn't read like a stub — about page, contributing posture, and source list are all complete
 
 During build, deploy to the `equity-language-commons.pages.dev` URL but don't publicize it. That URL is for build-validation, not feedback collection.
+
+**Chapter targets** (rough — exact counts refine as Phase 3 progresses):
+- Race & Ethnicity — ~25 terms
+- Indigenous Identity & Sovereignty — ~10 terms
+- Sexuality & Gender Identity — ~25 terms
+- Disability & Accessibility — ~25 terms
+- Immigration — ~20 terms
+- Class & Economic Status — ~15 terms
+- Trauma, Violence & Survivors — ~15 terms
+- Religion — ~15 terms
+- War & Conflict — ~10 terms
+- Housing, Age, Body & Appearance — smaller chapters, ~15 combined
 
 ### Phase 5 — Post-launch outreach + community
 
