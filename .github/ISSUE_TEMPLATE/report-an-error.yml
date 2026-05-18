@@ -1,0 +1,53 @@
+name: Report an error
+description: Flag a misquote, broken link, wrong attribution, factual error, or schema issue.
+title: "[Error] "
+labels: ["bug", "error-report"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for catching this. The commons cites under fair use, and a misquoted or mis-attributed source is a real problem — not a nit. Errors are taken seriously.
+
+  - type: input
+    id: where
+    attributes:
+      label: Where's the error?
+      description: URL on the live site, or a file path in the repo if you spotted it browsing the source.
+      placeholder: "https://equitylanguagecommons.org/terms/native-american/"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of error
+      options:
+        - Misquoted source (text doesn't match the original)
+        - Wrong attribution (right text, wrong source)
+        - Wrong year, page, or section reference
+        - Broken or wrong external link
+        - Factual error in synthesis or audience notes
+        - Editorial voice violation (blame-leaning framing)
+        - Schema / display issue
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What's wrong?
+      description: Be specific. Quote the affected text and explain what it should say instead.
+      placeholder: |
+        The NAJA quote on the `tribe` page reads "...two or more individuals of different tribal affiliation."
+
+        The original NAJA guide (page 1, first paragraph) actually says "...two or more individuals from different tribes." The current phrasing is a paraphrase, not the original wording.
+    validations:
+      required: true
+
+  - type: textarea
+    id: source
+    attributes:
+      label: Reference / source for the correction (if applicable)
+      description: A URL, PDF page, or other reference that supports your correction.
+      placeholder: "https://indigenousjournalists.org/ap-style-insert/ (current canonical URL)"

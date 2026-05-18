@@ -1,0 +1,66 @@
+name: Suggest a new term
+description: Propose a term that should have a commons entry — one we haven't indexed yet, or one that's in the long-tail Glossary Index but deserves a full cross-source treatment.
+title: "[Term] "
+labels: ["suggestion", "term"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a term. The commons indexes terms that have substantive coverage in **three or more** source guides — that's the threshold where cross-reference becomes useful. Single- and dual-source terms live in the [Glossary Index](https://equitylanguagecommons.org/glossary/) instead.
+
+        If you're not sure which threshold applies, suggest it anyway — we'll triage.
+
+  - type: input
+    id: term
+    attributes:
+      label: Term
+      description: The term you're suggesting (lowercase is fine; we'll display-case it)
+      placeholder: "houseless"
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why this term?
+      description: What's important about this term that makes it worth including? A sentence or two is fine.
+      placeholder: "It's increasingly used in housing-justice contexts as an alternative to 'unhoused' or 'homeless,' with a distinct framing rooted in [...]."
+    validations:
+      required: true
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources you've seen treat this term
+      description: List any source guides (with links if you have them) that you've seen treat this term. Don't worry if you only know one or two — we can dig for more during research.
+      placeholder: |
+        - National Coalition for the Homeless — https://nationalhomeless.org/...
+        - Sierra Club Equity Language Guide (2021) — uses both terms
+
+  - type: dropdown
+    id: chapter
+    attributes:
+      label: Which chapter would this fit?
+      description: Pick the chapter that feels closest. "Not sure" is a fine answer.
+      options:
+        - Race & Ethnicity
+        - Indigenous Identity & Sovereignty
+        - Sexuality & Gender Identity
+        - Disability & Accessibility
+        - Immigration
+        - Class & Economic Status
+        - Trauma, Violence & Survivors
+        - Religion
+        - War & Conflict
+        - Housing
+        - Age
+        - Body & Appearance
+        - Not sure / new chapter
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Anything else?
+      description: Generational context, regional variation, related terms we should cross-link, source orgs we should contact for more context — anything that would help.

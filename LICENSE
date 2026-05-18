@@ -1,0 +1,91 @@
+Equity Language Commons — License
+==================================
+
+The Equity Language Commons consists of three layers, each governed by a
+different license. Pick the section that applies to what you're reusing.
+
+------------------------------------------------------------------------
+
+1. Content layer (term pages, synthesis, chapter intros, the schema)
+
+Copyright (c) 2026 Jordan Krueger
+
+Licensed under the Creative Commons Attribution 4.0 International
+License (CC BY 4.0). You may share and adapt this material for any
+purpose, including commercially, under the following terms:
+
+  - Attribution — You must give appropriate credit ("Equity Language
+    Commons, edited by Jordan Krueger"), provide a link to the license,
+    and indicate if changes were made.
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+This covers everything in:
+  - site/src/content/terms/ (synthesis, audience notes, frontmatter
+    composition)
+  - site/src/content/sources/ (About sections, posture rationale)
+  - site/src/content/chapters/ (lede, cross-cutting principles)
+  - notes/ (schema documentation, working notes)
+  - research/ (research notes — caveat: the AUDIT TRAIL of source
+    quotes within research notes is fair-use citation, not commons-
+    licensed content)
+
+------------------------------------------------------------------------
+
+2. Code layer (Astro components, build scripts, deploy tooling)
+
+Copyright (c) 2026 Jordan Krueger
+
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+This covers everything in:
+  - site/src/ (Astro components, pages, layouts, data loaders)
+  - scripts/ (Python and shell scripts for the build pipeline)
+  - Config files (package.json, astro.config.mjs, tsconfig.json, etc.)
+
+------------------------------------------------------------------------
+
+3. Source-guide quotations (third-party content cited under fair use)
+
+Every direct quotation from a source guide in this commons is the
+copyright of its respective publisher and appears here as a short
+fair-use excerpt (each quote under 50 words, with full attribution to
+publisher, year, and source URL).
+
+These quotations are NOT licensed under CC BY 4.0 by virtue of their
+inclusion here. Reuse beyond fair-use citation requires permission from
+the original publisher.
+
+The full list of source publishers, with current contact information,
+appears on each source page at:
+  https://equitylanguagecommons.org/sources/
+
+------------------------------------------------------------------------
+
+In summary
+----------
+
+If you're reusing the COMMONS'S OWN WORK (synthesis, principles,
+schema), follow CC BY 4.0.
+
+If you're reusing the CODEBASE, follow MIT.
+
+If you're reusing SOURCE-GUIDE QUOTATIONS, contact the original
+publisher.

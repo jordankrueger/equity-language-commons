@@ -1,0 +1,74 @@
+name: Suggest a new source guide
+description: Propose a progressive equity-language style guide that should be added to the corpus.
+title: "[Source] "
+labels: ["suggestion", "source"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a source. We're interested in progressive equity-language guides specifically — style references that focus on what to call people and how to frame identity-related issues. Brand identity guides, AP-grammar references, and clinical terminology references are usually out of scope unless they substantially intersect with equity language.
+
+        For host posture (whether the commons can mirror the PDF, link out, etc.), see [ROADMAP.md](https://github.com/jordankrueger/equity-language-commons/blob/main/ROADMAP.md). We'll figure out the posture during intake.
+
+  - type: input
+    id: org
+    attributes:
+      label: Publishing organization
+      description: Who published the guide?
+      placeholder: "GLAAD"
+    validations:
+      required: true
+
+  - type: input
+    id: title
+    attributes:
+      label: Guide title
+      placeholder: "GLAAD Media Reference Guide, 11th edition"
+    validations:
+      required: true
+
+  - type: input
+    id: year
+    attributes:
+      label: Publication year (most recent edition)
+      placeholder: "2024"
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Canonical URL of the guide
+      description: Where the live version of the guide is published. If you have a PDF link, that's even better.
+      placeholder: "https://www.glaad.org/reference"
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: What does it cover?
+      description: A sentence or two about the guide's scope — which identity areas it addresses, what its angle is.
+      placeholder: "GLAAD's media reference guide covers LGBTQ+ identity, gender, and sexual orientation terminology, with a strong journalism focus. Long-running — first edition was 1992."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: posture-hint
+    attributes:
+      label: Best guess on host posture
+      description: |
+        Three options, see [ROADMAP.md](https://github.com/jordankrueger/equity-language-commons/blob/main/ROADMAP.md) for the full criteria.
+      options:
+        - Active organization, link-out only (most live web docs)
+        - Active organization, private mirror + link-out (static PDFs)
+        - Orphaned / defunct, can host publicly (closed orgs, lapsed copyright)
+        - Not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Anything else?
+      description: License notes you're aware of, version history, related guides from the same org, contact for the maintainer, etc.

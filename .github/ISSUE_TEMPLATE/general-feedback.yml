@@ -1,0 +1,38 @@
+name: General feedback
+description: Something else? Editorial reaction, usability observation, suggestion that doesn't fit the other templates.
+title: "[Feedback] "
+labels: ["feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For open-ended conversations (chapter organization, methodology, framing, "have you considered..."), a [Discussion](https://github.com/jordankrueger/equity-language-commons/discussions) might be a better fit than an issue — discussions support back-and-forth better than the issue tracker.
+
+        Use this template if you have feedback that you want tracked as actionable.
+
+  - type: textarea
+    id: feedback
+    attributes:
+      label: What's the feedback?
+      description: Whatever you'd like to say. As much or as little context as fits.
+    validations:
+      required: true
+
+  - type: input
+    id: where
+    attributes:
+      label: Specific page or section (if applicable)
+      placeholder: "https://equitylanguagecommons.org/chapters/race-ethnicity/"
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of feedback is this?
+      options:
+        - "Editorial — voice, framing, tone"
+        - "Usability — navigation, search, mobile experience"
+        - "Methodology — source selection, criteria, scope"
+        - "Substance — agreement, disagreement, addition to a synthesis"
+        - "Other"
+    validations:
+      required: true
