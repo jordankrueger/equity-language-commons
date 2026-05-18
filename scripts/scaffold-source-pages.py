@@ -81,13 +81,14 @@ ORG_SLUG_OVERRIDES = {
 # org name alone. Leaving an entry out is fine — script falls back to null.
 KNOWN_URLS = {
     "hrc": "https://www.hrc.org/resources/glossary-of-terms",
-    "nabj": "https://nabjonline.org/blog/the-nabj-style-guide/",
+    "nabj": "https://www.nabj.org/page/styleguide",
     "color-of-change": "https://colorofchange.org/resources/",
-    "define-american": "https://defineamerican.com/our-work/media-reference-guide/",
+    "define-american": "https://defineamerican.com/resources-for-journalists/",
     "idp": "https://www.immigrantdefenseproject.org/",
     "interact": "https://interactadvocates.org/",
     "wordsaboutwar": "https://wordsaboutwarmatter.org/",
     "wfpusa": "https://www.wfpusa.org/",
+    "naja": "https://indigenousjournalists.org/ap-style-insert/",
 }
 
 

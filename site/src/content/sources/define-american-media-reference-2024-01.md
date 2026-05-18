@@ -3,12 +3,12 @@ org: "Define American"
 org_slug: "define-american"
 work_title: "Telling Authentic Immigrant Stories: Media Reference Guide (3rd ed.)"
 year: 2024
-source_url: "https://defineamerican.com/our-work/media-reference-guide/"
+source_url: "https://defineamerican.com/resources-for-journalists/"
 local_archive: "source-guides/discovered/define-american-media-reference-2024-01.pdf"
 host_posture: "private-mirror-link-out"
-live_status: "404"
+live_status: "live"
 added: 2026-05-17
-last_checked: 2026-05-17
+last_checked: 2026-05-18
 stub: true
 length_pages: 41
 format: "PDF"

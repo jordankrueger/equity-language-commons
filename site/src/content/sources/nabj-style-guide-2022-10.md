@@ -3,12 +3,12 @@ org: "NABJ"
 org_slug: "nabj"
 work_title: "NABJ Style Guide"
 year: 2022
-source_url: "https://nabjonline.org/blog/the-nabj-style-guide/"
+source_url: "https://www.nabj.org/page/styleguide"
 local_archive: "source-guides/discovered/nabj-style-guide-2022-10.md"
 host_posture: "private-mirror-link-out"
-live_status: "404"
+live_status: "login-gated"
 added: 2026-05-17
-last_checked: 2026-05-17
+last_checked: 2026-05-18
 stub: true
 format: "markdown"
 ---
