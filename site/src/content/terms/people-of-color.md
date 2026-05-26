@@ -34,7 +34,7 @@ guidance:
     org_slug: "sierra-club"
     year: 2021
     entry_updated: null
-    source_url: "https://www.sierraclub.org/equity-language-guide"
+    source_url: "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf"
     local_archive: "source-guides/Equity Language Guide Sierra Club 2021.pdf"
     recommendation: "use-with-care"
     quote: "'People of color' has in the past served as a collective term for people who are not white. A preferred term today is 'BIPOC' referring to Black, Indigenous and people of color … Either term, PoC or BIPOC, is acceptable for use at the Sierra Club … Overall, we should strive to be more specific whenever possible."

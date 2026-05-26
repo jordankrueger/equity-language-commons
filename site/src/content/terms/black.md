@@ -28,7 +28,7 @@ guidance:
     org_slug: "sierra-club"
     year: 2021
     entry_updated: null
-    source_url: "https://www.sierraclub.org/equity-language-guide"
+    source_url: "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf"
     local_archive: "source-guides/Equity Language Guide Sierra Club 2021.pdf"
     recommendation: "use"
     quote: "Be sure to ask interview subjects and spokespeople how they prefer to be referred to, and note that these terms are not interchangeable, particularly for recent immigrants from African countries living in the U.S. The Sierra Club always capitalizes Black when referring to race or ethnicity."

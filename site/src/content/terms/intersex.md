@@ -46,7 +46,7 @@ guidance:
     org_slug: "sierra-club"
     year: 2021
     entry_updated: null
-    source_url: "https://www.sierraclub.org/equity-language-guide"
+    source_url: "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf"
     local_archive: "source-guides/Equity Language Guide Sierra Club 2021.pdf"
     recommendation: "use-with-care"
     quote: "The Sierra Club uses 'LGBTQI' as a default term for people who identify as gay, transgender, bi, intersex, or queer. 'Gay' and 'queer' are also available to people as a self-description of their own community. Ask the person you are referring to how they would like to be described."

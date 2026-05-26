@@ -55,7 +55,7 @@ guidance:
     org_slug: "sierra-club"
     year: 2021
     entry_updated: null
-    source_url: "https://www.sierraclub.org/equity-language-guide"
+    source_url: "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf"
     local_archive: "source-guides/Equity Language Guide Sierra Club 2021.pdf"
     recommendation: "use-with-care"
     quote: "When referring to a Tribal nation, we should refer to the specific nation (Dine, Cheyenne, Nooksack, etc.), not 'Tribes' generally. Though Native nations are often generalized in collective terminology (Native, Indigenous nations, Indigenous peoples, Native American, American Indian), it is best to refer specifically to the nation."

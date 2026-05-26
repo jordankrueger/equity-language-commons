@@ -30,7 +30,7 @@ guidance:
     org_slug: "sierra-club"
     year: 2021
     entry_updated: null
-    source_url: "https://www.sierraclub.org/equity-language-guide"
+    source_url: "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf"
     local_archive: "source-guides/Equity Language Guide Sierra Club 2021.pdf"
     recommendation: "use"
     quote: "Do not capitalize the word 'white.' Doing so risks the perception that Sierra Club is aligned with organized white supremacy. Some argue that by not capitalizing white, whiteness is designated as the default. This is a good conversation to have, but at this time the Sierra Club does not capitalize white to avoid the appearance of allying with organized white supremacy."

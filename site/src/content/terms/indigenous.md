@@ -81,7 +81,7 @@ guidance:
     org_slug: "sierra-club"
     year: 2021
     entry_updated: null
-    source_url: "https://www.sierraclub.org/equity-language-guide"
+    source_url: "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf"
     local_archive: "source-guides/Equity Language Guide Sierra Club 2021.pdf"
     recommendation: "use-with-care"
     quote: "Generally speaking, the Sierra Club uses 'Tribal' to refer to Native peoples in a U.S. context and 'Indigenous' in an international context. 'Native' can be used in either context but should always be qualified by 'nations,' 'people' or 'peoples.'"
@@ -93,7 +93,7 @@ guidance:
     org_slug: "sierra-club"
     year: 2021
     entry_updated: null
-    source_url: "https://www.sierraclub.org/equity-language-guide"
+    source_url: "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf"
     local_archive: "source-guides/Equity Language Guide Sierra Club 2021.pdf"
     recommendation: "avoid"
     quote: "'Indian' or 'Indian Country': Similarly, though many Tribal peoples may use 'Indian' to refer to themselves, the Sierra Club is not a Tribal organization and should default to using a more formal, respectful term like 'Tribal' or 'Native.' If someone wishes to be identified as 'Indian,' we should refer to them as 'self-identified' (e.g., self-identified Indian activist)."

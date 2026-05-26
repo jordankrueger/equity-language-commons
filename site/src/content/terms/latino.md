@@ -35,7 +35,7 @@ guidance:
     org_slug: "sierra-club"
     year: 2021
     entry_updated: null
-    source_url: "https://www.sierraclub.org/equity-language-guide"
+    source_url: "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf"
     local_archive: "source-guides/Equity Language Guide Sierra Club 2021.pdf"
     recommendation: "use"
     quote: "The Sierra Club defaults to 'Latino,' not 'Hispanic,' to describe people of Latin American heritage or descent. … While 'Latino' is a masculine word in Spanish, it can also be used to describe a group of people of mixed genders. … 'Latina' is the feminine version of 'Latino,' and should be used when describing an individual woman, e.g., 'Vanessa is a Latina organizer,' or groups of Latina women, e.g., the headline 'Black and Latina moms are the most concerned about climate change.'"

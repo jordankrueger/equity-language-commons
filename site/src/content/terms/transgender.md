@@ -75,7 +75,7 @@ guidance:
     org_slug: "sierra-club"
     year: 2021
     entry_updated: null
-    source_url: "https://www.sierraclub.org/equity-language-guide"
+    source_url: "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf"
     local_archive: "source-guides/Equity Language Guide Sierra Club 2021.pdf"
     recommendation: "use-with-care"
     quote: "There are regional and cultural differences for using the terms 'trans' versus 'transgender.' It is always best to check with the person you are referring to before using either. The term 'transgendered' should be avoided. 'Transsexual' is generally considered dated, and may be considered a slur, and should never be used by the Sierra Club unless specifically requested as a self-description."

@@ -41,7 +41,7 @@ guidance:
     org_slug: "sierra-club"
     year: 2021
     entry_updated: null
-    source_url: "https://www.sierraclub.org/equity-language-guide"
+    source_url: "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf"
     local_archive: "source-guides/Equity Language Guide Sierra Club 2021.pdf"
     recommendation: "use-with-care"
     quote: "Through treaties, Tribes ceded their traditional homelands and other properties and rights. The land Tribes reserved for themselves to continue living upon are called 'reservations' for a reason. Any benefits Tribal members receive come from treaty rights in exchange for non-Native people to make their homes on Tribal lands."
@@ -53,7 +53,7 @@ guidance:
     org_slug: "sierra-club"
     year: 2021
     entry_updated: null
-    source_url: "https://www.sierraclub.org/equity-language-guide"
+    source_url: "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf"
     local_archive: "source-guides/Equity Language Guide Sierra Club 2021.pdf"
     recommendation: "avoid"
     quote: "'On the rez': The term 'rez' (meaning reservation) should never be used by the Sierra Club. Many slang terms that are used in a particular community are welcome within that community, but not appropriate for use by people who are not members of that community. Instead, say 'on the Navajo Nation' or other specific place name."

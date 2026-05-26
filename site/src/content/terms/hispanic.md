@@ -28,7 +28,7 @@ guidance:
     org_slug: "sierra-club"
     year: 2021
     entry_updated: null
-    source_url: "https://www.sierraclub.org/equity-language-guide"
+    source_url: "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf"
     local_archive: "source-guides/Equity Language Guide Sierra Club 2021.pdf"
     recommendation: "non-preferred"
     quote: "The Sierra Club defaults to 'Latino,' not 'Hispanic,' to describe people of Latin American heritage or descent. As when discussing anyone's racial identity, however, you should use the language people use to describe themselves. … Please also note that the terms 'Latino/a/x' and 'Hispanic' are not simply interchangeable. Though there are different nuances and viewpoints, in general, 'Hispanic' refers to people who speak Spanish and/or are descended from Spanish-speaking populations, while 'Latino/a/x' refers to people who are from or descended from people from Latin America. As with many matters, perspectives vary and it is best to be as specific as possible and consult with people as to how they wish to be identified."

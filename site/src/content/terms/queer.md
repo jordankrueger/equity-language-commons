@@ -38,7 +38,7 @@ guidance:
     org_slug: "sierra-club"
     year: 2021
     entry_updated: null
-    source_url: "https://www.sierraclub.org/equity-language-guide"
+    source_url: "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf"
     local_archive: "source-guides/Equity Language Guide Sierra Club 2021.pdf"
     recommendation: "use-with-care"
     quote: "If someone identifies as 'queer' — an identity that has been reclaimed by LGBTQI communities to elevate it from its previous status as a slur — referring to them as a 'self-identified queer activist' would make it clear that this person chooses to be identified this way."
