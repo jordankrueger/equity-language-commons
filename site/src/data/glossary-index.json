@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-18T17:55:32+00:00",
+  "generated_at": "2026-05-26T16:43:31+00:00",
   "stats": {
     "total_terms": 939,
-    "commons_terms": 33,
-    "long_tail_terms": 906,
+    "commons_terms": 38,
+    "long_tail_terms": 901,
     "by_coverage": {
       "1": 683,
       "2": 209,
@@ -1091,7 +1091,7 @@
       "term": "ableism",
       "display": "Ableism",
       "source_count": 2,
-      "commons_slug": null,
+      "commons_slug": "ableism",
       "sources": [
         {
           "source_slug": "ncdj",
@@ -1105,7 +1105,7 @@
           "source_slug": "sierra-club",
           "org": "Sierra Club",
           "year": "2021",
-          "source_url": "https://www.sierraclub.org/equity-language-guide",
+          "source_url": "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf",
           "excerpt": "",
           "extraction_method": "keyword"
         }
@@ -1219,7 +1219,7 @@
       "term": "accessible",
       "display": "Accessible",
       "source_count": 2,
-      "commons_slug": null,
+      "commons_slug": "accessible",
       "sources": [
         {
           "source_slug": "diversity-style-guide",
@@ -1537,7 +1537,7 @@
           "source_slug": "sierra-club",
           "org": "Sierra Club",
           "year": "2021",
-          "source_url": "https://www.sierraclub.org/equity-language-guide",
+          "source_url": "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf",
           "excerpt": "",
           "extraction_method": "keyword"
         }
@@ -2625,7 +2625,7 @@
           "source_slug": "sierra-club",
           "org": "Sierra Club",
           "year": "2021",
-          "source_url": "https://www.sierraclub.org/equity-language-guide",
+          "source_url": "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf",
           "excerpt": "autistic person” rather than someone “with autism”",
           "extraction_method": "keyword"
         }
@@ -4102,7 +4102,7 @@
           "source_slug": "sierra-club",
           "org": "Sierra Club",
           "year": "2021",
-          "source_url": "https://www.sierraclub.org/equity-language-guide",
+          "source_url": "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf",
           "excerpt": "",
           "extraction_method": "keyword"
         },
@@ -4342,7 +4342,7 @@
           "source_slug": "sierra-club",
           "org": "Sierra Club",
           "year": "2021",
-          "source_url": "https://www.sierraclub.org/equity-language-guide",
+          "source_url": "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf",
           "excerpt": "instead of “confined to a wheelchair” or “wheelchairbound”",
           "extraction_method": "keyword"
         }
@@ -4590,7 +4590,7 @@
           "source_slug": "sierra-club",
           "org": "Sierra Club",
           "year": "2021",
-          "source_url": "https://www.sierraclub.org/equity-language-guide",
+          "source_url": "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf",
           "excerpt": "use of the word “crazy” or “insane” as a pejorative.",
           "extraction_method": "keyword"
         }
@@ -5446,7 +5446,7 @@
           "source_slug": "sierra-club",
           "org": "Sierra Club",
           "year": "2021",
-          "source_url": "https://www.sierraclub.org/equity-language-guide",
+          "source_url": "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf",
           "excerpt": "patient” to avoid the implication that their diagnosis",
           "extraction_method": "keyword"
         }
@@ -5504,7 +5504,7 @@
       "term": "disability",
       "display": "Disability",
       "source_count": 5,
-      "commons_slug": null,
+      "commons_slug": "disability",
       "sources": [
         {
           "source_slug": "color-of-change-black-families-narrative-2020",
@@ -5534,7 +5534,7 @@
           "source_slug": "sierra-club",
           "org": "Sierra Club",
           "year": "2021",
-          "source_url": "https://www.sierraclub.org/equity-language-guide",
+          "source_url": "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf",
           "excerpt": "disability justice movement. Practicing people-first",
           "extraction_method": "keyword"
         },
@@ -6646,7 +6646,7 @@
           "source_slug": "sierra-club",
           "org": "Sierra Club",
           "year": "2021",
-          "source_url": "https://www.sierraclub.org/equity-language-guide",
+          "source_url": "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf",
           "excerpt": "families, are we representing all kinds of families, or",
           "extraction_method": "keyword"
         }
@@ -7342,7 +7342,7 @@
           "source_slug": "sierra-club",
           "org": "Sierra Club",
           "year": "2021",
-          "source_url": "https://www.sierraclub.org/equity-language-guide",
+          "source_url": "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf",
           "excerpt": "",
           "extraction_method": "keyword"
         },
@@ -7374,7 +7374,7 @@
           "source_slug": "sierra-club",
           "org": "Sierra Club",
           "year": "2021",
-          "source_url": "https://www.sierraclub.org/equity-language-guide",
+          "source_url": "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf",
           "excerpt": "",
           "extraction_method": "keyword"
         },
@@ -7614,7 +7614,7 @@
           "source_slug": "sierra-club",
           "org": "Sierra Club",
           "year": "2021",
-          "source_url": "https://www.sierraclub.org/equity-language-guide",
+          "source_url": "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf",
           "excerpt": "genocide of Native peoples. Since 2018, the Sierra Club",
           "extraction_method": "keyword"
         }
@@ -8254,7 +8254,7 @@
           "source_slug": "sierra-club",
           "org": "Sierra Club",
           "year": "2021",
-          "source_url": "https://www.sierraclub.org/equity-language-guide",
+          "source_url": "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf",
           "excerpt": "heterosexual person with economic privilege. When we",
           "extraction_method": "keyword"
         }
@@ -8358,7 +8358,7 @@
           "source_slug": "sierra-club",
           "org": "Sierra Club",
           "year": "2021",
-          "source_url": "https://www.sierraclub.org/equity-language-guide",
+          "source_url": "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf",
           "excerpt": "may prefer Hispanic, Latino/Latina or another descriptor",
           "extraction_method": "keyword"
         }
@@ -8534,7 +8534,7 @@
           "source_slug": "sierra-club",
           "org": "Sierra Club",
           "year": "2021",
-          "source_url": "https://www.sierraclub.org/equity-language-guide",
+          "source_url": "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf",
           "excerpt": "Homophobia of this type is unfortunately common —",
           "extraction_method": "keyword"
         }
@@ -8750,7 +8750,7 @@
           "source_slug": "sierra-club",
           "org": "Sierra Club",
           "year": "2021",
-          "source_url": "https://www.sierraclub.org/equity-language-guide",
+          "source_url": "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf",
           "excerpt": "Never use the term “illegal” to describe a person. If",
           "extraction_method": "keyword"
         }
@@ -8830,7 +8830,7 @@
           "source_slug": "sierra-club",
           "org": "Sierra Club",
           "year": "2021",
-          "source_url": "https://www.sierraclub.org/equity-language-guide",
+          "source_url": "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf",
           "excerpt": "",
           "extraction_method": "keyword"
         }
@@ -8966,7 +8966,7 @@
           "source_slug": "sierra-club",
           "org": "Sierra Club",
           "year": "2021",
-          "source_url": "https://www.sierraclub.org/equity-language-guide",
+          "source_url": "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf",
           "excerpt": "Indian Affairs, or land referred to by the EPA as “Indian",
           "extraction_method": "keyword"
         }
@@ -9206,7 +9206,7 @@
           "source_slug": "sierra-club",
           "org": "Sierra Club",
           "year": "2021",
-          "source_url": "https://www.sierraclub.org/equity-language-guide",
+          "source_url": "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf",
           "excerpt": "use of the word “crazy” or “insane” as a pejorative.",
           "extraction_method": "keyword"
         }
@@ -9830,7 +9830,7 @@
           "source_slug": "sierra-club",
           "org": "Sierra Club",
           "year": "2021",
-          "source_url": "https://www.sierraclub.org/equity-language-guide",
+          "source_url": "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf",
           "excerpt": "use of a term like “lame” to describe something",
           "extraction_method": "keyword"
         }
@@ -9950,7 +9950,7 @@
           "source_slug": "sierra-club",
           "org": "Sierra Club",
           "year": "2021",
-          "source_url": "https://www.sierraclub.org/equity-language-guide",
+          "source_url": "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf",
           "excerpt": "may prefer Hispanic, Latino/Latina or another descriptor",
           "extraction_method": "keyword"
         }
@@ -10006,7 +10006,7 @@
           "source_slug": "sierra-club",
           "org": "Sierra Club",
           "year": "2021",
-          "source_url": "https://www.sierraclub.org/equity-language-guide",
+          "source_url": "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf",
           "excerpt": "may prefer Hispanic, Latino/Latina or another descriptor",
           "extraction_method": "keyword"
         }
@@ -10030,7 +10030,7 @@
           "source_slug": "sierra-club",
           "org": "Sierra Club",
           "year": "2021",
-          "source_url": "https://www.sierraclub.org/equity-language-guide",
+          "source_url": "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf",
           "excerpt": "example, some people might prefer “Latinx” while others",
           "extraction_method": "keyword"
         },
@@ -10760,7 +10760,7 @@
       "term": "mental health",
       "display": "Mental Health",
       "source_count": 2,
-      "commons_slug": null,
+      "commons_slug": "mental-health",
       "sources": [
         {
           "source_slug": "diversity-style-guide",
@@ -11134,7 +11134,7 @@
           "source_slug": "sierra-club",
           "org": "Sierra Club",
           "year": "2021",
-          "source_url": "https://www.sierraclub.org/equity-language-guide",
+          "source_url": "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf",
           "excerpt": "• Minority: According to Race Forward, “Defining people",
           "extraction_method": "keyword"
         }
@@ -13998,7 +13998,7 @@
           "source_slug": "sierra-club",
           "org": "Sierra Club",
           "year": "2021",
-          "source_url": "https://www.sierraclub.org/equity-language-guide",
+          "source_url": "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf",
           "excerpt": "",
           "extraction_method": "keyword"
         }
@@ -14526,7 +14526,7 @@
           "source_slug": "sierra-club",
           "org": "Sierra Club",
           "year": "2021",
-          "source_url": "https://www.sierraclub.org/equity-language-guide",
+          "source_url": "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf",
           "excerpt": "",
           "extraction_method": "keyword"
         }
@@ -14566,7 +14566,7 @@
           "source_slug": "sierra-club",
           "org": "Sierra Club",
           "year": "2021",
-          "source_url": "https://www.sierraclub.org/equity-language-guide",
+          "source_url": "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf",
           "excerpt": "",
           "extraction_method": "keyword"
         }
@@ -15454,7 +15454,7 @@
           "source_slug": "sierra-club",
           "org": "Sierra Club",
           "year": "2021",
-          "source_url": "https://www.sierraclub.org/equity-language-guide",
+          "source_url": "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf",
           "excerpt": "• Slavery: When referring to a person who was",
           "extraction_method": "keyword"
         }
@@ -15478,7 +15478,7 @@
           "source_slug": "sierra-club",
           "org": "Sierra Club",
           "year": "2021",
-          "source_url": "https://www.sierraclub.org/equity-language-guide",
+          "source_url": "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf",
           "excerpt": "• Never use slurs or phrasing that is commonly",
           "extraction_method": "keyword"
         }
@@ -15758,7 +15758,7 @@
           "source_slug": "sierra-club",
           "org": "Sierra Club",
           "year": "2021",
-          "source_url": "https://www.sierraclub.org/equity-language-guide",
+          "source_url": "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf",
           "excerpt": "• Don’t use “special needs,” “specially abled”",
           "extraction_method": "keyword"
         }
@@ -16088,7 +16088,7 @@
       "term": "survivor",
       "display": "Survivor",
       "source_count": 2,
-      "commons_slug": null,
+      "commons_slug": "survivor",
       "sources": [
         {
           "source_slug": "gcjt",
@@ -16142,7 +16142,7 @@
           "source_slug": "sierra-club",
           "org": "Sierra Club",
           "year": "2021",
-          "source_url": "https://www.sierraclub.org/equity-language-guide",
+          "source_url": "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf",
           "excerpt": "",
           "extraction_method": "keyword"
         }
@@ -16390,7 +16390,7 @@
           "source_slug": "sierra-club",
           "org": "Sierra Club",
           "year": "2021",
-          "source_url": "https://www.sierraclub.org/equity-language-guide",
+          "source_url": "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf",
           "excerpt": "",
           "extraction_method": "keyword"
         }
