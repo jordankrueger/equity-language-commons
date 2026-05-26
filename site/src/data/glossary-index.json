@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-26T16:43:31+00:00",
+  "generated_at": "2026-05-26T17:02:52+00:00",
   "stats": {
-    "total_terms": 939,
+    "total_terms": 944,
     "commons_terms": 38,
-    "long_tail_terms": 901,
+    "long_tail_terms": 906,
     "by_coverage": {
-      "1": 683,
-      "2": 209,
-      "3": 38,
-      "4": 4,
+      "1": 667,
+      "2": 206,
+      "3": 58,
+      "4": 8,
       "5": 4,
       "8": 1
     }
@@ -203,6 +203,7 @@
       "content warnings",
       "continuing care retirement community",
       "conversion therapy",
+      "convict",
       "coptic christians",
       "coptics",
       "copts",
@@ -312,6 +313,7 @@
       "epileptic",
       "epileptic fit",
       "episcopal church",
+      "eskimo",
       "ethnicity",
       "evangelical lutheran church in america",
       "ex gay",
@@ -418,6 +420,7 @@
       "hip hop",
       "hispanic",
       "hispanic paradox",
+      "hiv",
       "hiv disease",
       "hiv negative",
       "hiv positive",
@@ -426,6 +429,7 @@
       "holy spirit",
       "holy thursday",
       "homebound",
+      "homeless",
       "homophobia",
       "homosexual",
       "homosexuality",
@@ -480,6 +484,7 @@
       "invisible disabilities",
       "islam",
       "islamic fundamentalist",
+      "islamophobia",
       "issei"
     ],
     "j": [
@@ -1114,9 +1119,17 @@
     "ableist": {
       "term": "ableist",
       "display": "Ableist",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "ncdj",
           "org": "National Center on Disability and Journalism",
@@ -1202,9 +1215,17 @@
     "accessibility": {
       "term": "accessibility",
       "display": "Accessibility",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
@@ -1282,9 +1303,17 @@
     "addict": {
       "term": "addict",
       "display": "Addict",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
@@ -1386,9 +1415,17 @@
     "african american": {
       "term": "african american",
       "display": "African American",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": "african-american",
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
@@ -1546,9 +1583,17 @@
     "agender": {
       "term": "agender",
       "display": "Agender",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "nlgja",
           "org": "NLGJA: The Association of LGBTQ+ Journalists",
@@ -1642,9 +1687,17 @@
     "alcoholic": {
       "term": "alcoholic",
       "display": "Alcoholic",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
@@ -1746,7 +1799,7 @@
     "america": {
       "term": "america",
       "display": "America",
-      "source_count": 4,
+      "source_count": 3,
       "commons_slug": null,
       "sources": [
         {
@@ -1755,14 +1808,6 @@
           "year": "2024",
           "source_url": "https://defineamerican.com/resources-for-journalists/",
           "excerpt": "America home, 11 million of whom are",
-          "extraction_method": "keyword"
-        },
-        {
-          "source_slug": "naja",
-          "org": "Indigenous Journalists Association (formerly NAJA)",
-          "year": "2017",
-          "source_url": "https://indigenousjournalists.org/ap-style-insert/",
-          "excerpt": "",
           "extraction_method": "keyword"
         },
         {
@@ -1786,9 +1831,17 @@
     "american arab": {
       "term": "american arab",
       "display": "American Arab",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "American Arab, Middle Eastern, and North African Psychological",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
@@ -1834,9 +1887,17 @@
     "american sign language": {
       "term": "american sign language",
       "display": "American Sign Language",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
@@ -2058,9 +2119,17 @@
     "antisemitism": {
       "term": "antisemitism",
       "display": "Antisemitism",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
@@ -2254,6 +2323,14 @@
       "commons_slug": null,
       "sources": [
         {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
           "source_slug": "color-of-change-antiracist-protest-reporting-2020",
           "org": "Color of Change",
           "year": "2020",
@@ -2278,14 +2355,6 @@
           "extraction_method": "keyword"
         },
         {
-          "source_slug": "naja",
-          "org": "Indigenous Journalists Association (formerly NAJA)",
-          "year": "2017",
-          "source_url": "https://indigenousjournalists.org/ap-style-insert/",
-          "excerpt": "",
-          "extraction_method": "keyword"
-        },
-        {
           "source_slug": "seiu",
           "org": "SEIU",
           "year": "2020",
@@ -2298,9 +2367,17 @@
     "asian american": {
       "term": "asian american",
       "display": "Asian American",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": "asian-american",
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
@@ -2570,9 +2647,17 @@
     "autism spectrum disorder": {
       "term": "autism spectrum disorder",
       "display": "Autism Spectrum Disorder",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "autism spectrum disorder. U. Department of Health and Human Services.",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "ncdj",
           "org": "National Center on Disability and Journalism",
@@ -2962,9 +3047,17 @@
     "biological": {
       "term": "biological",
       "display": "Biological",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "biological or molecular representation of intergenerational experiences may validate the experiences of children who",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "nlgja",
           "org": "NLGJA: The Association of LGBTQ+ Journalists",
@@ -3050,9 +3143,17 @@
     "bipoc": {
       "term": "bipoc",
       "display": "BIPOC",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": "bipoc",
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "BIPOC (Black, Indigenous, and people of color)",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
@@ -4007,9 +4108,17 @@
     "cisgender": {
       "term": "cisgender",
       "display": "Cisgender",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": "cisgender",
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "2022, Gender definition). Here is an example of when it is appropriate to use gender versus sex: “I am a cisgender woman",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "gcjt",
           "org": "Global Consortium for Journalism & Trauma",
@@ -4247,9 +4356,17 @@
     "colorism": {
       "term": "colorism",
       "display": "Colorism",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
@@ -4327,9 +4444,17 @@
     "confined to a wheelchair": {
       "term": "confined to a wheelchair",
       "display": "Confined To A Wheelchair",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
@@ -4500,6 +4625,22 @@
         }
       ]
     },
+    "convict": {
+      "term": "convict",
+      "display": "Convict",
+      "source_count": 1,
+      "commons_slug": null,
+      "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        }
+      ]
+    },
     "coptic christians": {
       "term": "coptic christians",
       "display": "Coptic Christians",
@@ -4567,9 +4708,17 @@
     "crazy": {
       "term": "crazy",
       "display": "Crazy",
-      "source_count": 3,
+      "source_count": 4,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
@@ -4655,9 +4804,17 @@
     "cripple": {
       "term": "cripple",
       "display": "Cripple",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "ncdj",
           "org": "National Center on Disability and Journalism",
@@ -5487,9 +5644,17 @@
     "differently abled": {
       "term": "differently abled",
       "display": "Differently Abled",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "ncdj",
           "org": "National Center on Disability and Journalism",
@@ -5583,9 +5748,17 @@
     "disabled": {
       "term": "disabled",
       "display": "Disabled",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "ncdj",
           "org": "National Center on Disability and Journalism",
@@ -5775,7 +5948,7 @@
     "diversity": {
       "term": "diversity",
       "display": "Diversity",
-      "source_count": 3,
+      "source_count": 2,
       "commons_slug": null,
       "sources": [
         {
@@ -5792,14 +5965,6 @@
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
           "excerpt": "diversity: Catchall term to describe a condition or environment that is multiracial",
-          "extraction_method": "keyword"
-        },
-        {
-          "source_slug": "naja",
-          "org": "Indigenous Journalists Association (formerly NAJA)",
-          "year": "2017",
-          "source_url": "https://indigenousjournalists.org/ap-style-insert/",
-          "excerpt": "",
           "extraction_method": "keyword"
         }
       ]
@@ -6191,9 +6356,17 @@
     "dwarf": {
       "term": "dwarf",
       "display": "Dwarf",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
@@ -6417,6 +6590,22 @@
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "",
           "extraction_method": "glossary"
+        }
+      ]
+    },
+    "eskimo": {
+      "term": "eskimo",
+      "display": "Eskimo",
+      "source_count": 1,
+      "commons_slug": null,
+      "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "Siberia, and Greenland may identify as a specific nation (e., Inuit, Iñupiat). Avoid the term “Eskimo” because",
+          "extraction_method": "keyword"
         }
       ]
     },
@@ -6703,9 +6892,17 @@
     "female to male": {
       "term": "female to male",
       "display": "Female To Male",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
@@ -7423,9 +7620,17 @@
     "gender nonconforming": {
       "term": "gender nonconforming",
       "display": "Gender Nonconforming",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "gender nonconforming), sexual orientation (e., gay, lesbian, bisexual), and socioeconomic status (e., poor, working",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
@@ -7527,9 +7732,17 @@
     "genderqueer": {
       "term": "genderqueer",
       "display": "Genderqueer",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "genderqueer, gender-fluid, gender nonconforming, gender diverse, or gender expansive” (PFLAG, 2022,",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "hrc-glossary-2023-05",
           "org": "Human Rights Campaign",
@@ -7623,9 +7836,17 @@
     "geriatrics": {
       "term": "geriatrics",
       "display": "Geriatrics",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "Geriatrics Society adopts modified American Medical Association Style.",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
@@ -7655,9 +7876,17 @@
     "ghetto": {
       "term": "ghetto",
       "display": "Ghetto",
-      "source_count": 3,
+      "source_count": 4,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
@@ -8007,9 +8236,17 @@
     "handicapped": {
       "term": "handicapped",
       "display": "Handicapped",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "ncdj",
           "org": "National Center on Disability and Journalism",
@@ -8183,9 +8420,17 @@
     "hermaphrodite": {
       "term": "hermaphrodite",
       "display": "Hermaphrodite",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "nlgja",
           "org": "NLGJA: The Association of LGBTQ+ Journalists",
@@ -8231,9 +8476,17 @@
     "heterosexism": {
       "term": "heterosexism",
       "display": "Heterosexism",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "nlgja",
           "org": "NLGJA: The Association of LGBTQ+ Journalists",
@@ -8380,6 +8633,30 @@
         }
       ]
     },
+    "hiv": {
+      "term": "hiv",
+      "display": "Hiv",
+      "source_count": 2,
+      "commons_slug": null,
+      "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "nlgja",
+          "org": "NLGJA: The Association of LGBTQ+ Journalists",
+          "year": "2025",
+          "source_url": "https://www.nlgja.org/stylebook/",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        }
+      ]
+    },
     "hiv disease": {
       "term": "hiv disease",
       "display": "Hiv Disease",
@@ -8505,6 +8782,22 @@
           "source_url": "https://ncdj.org/style-guide/",
           "excerpt": "",
           "extraction_method": "glossary"
+        }
+      ]
+    },
+    "homeless": {
+      "term": "homeless",
+      "display": "Homeless",
+      "source_count": 1,
+      "commons_slug": null,
+      "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
         }
       ]
     },
@@ -8991,7 +9284,7 @@
     "indian country": {
       "term": "indian country",
       "display": "Indian Country",
-      "source_count": 2,
+      "source_count": 1,
       "commons_slug": null,
       "sources": [
         {
@@ -9001,14 +9294,6 @@
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "",
           "extraction_method": "glossary"
-        },
-        {
-          "source_slug": "naja",
-          "org": "Indigenous Journalists Association (formerly NAJA)",
-          "year": "2017",
-          "source_url": "https://indigenousjournalists.org/ap-style-insert/",
-          "excerpt": "",
-          "extraction_method": "keyword"
         }
       ]
     },
@@ -9183,9 +9468,17 @@
     "insane": {
       "term": "insane",
       "display": "Insane",
-      "source_count": 3,
+      "source_count": 4,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
@@ -9271,9 +9564,17 @@
     "institutional racism": {
       "term": "institutional racism",
       "display": "Institutional Racism",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "gcjt",
           "org": "Global Consortium for Journalism & Trauma",
@@ -9422,8 +9723,8 @@
           "source_slug": "apa",
           "org": "American Psychological Association",
           "year": "2023",
-          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guidelines",
-          "excerpt": "Recognize intersectionality — people hold multiple identities affected by overlapping systems",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "monolith. Make sure to use inclusive terms to acknowledge that intersectionality. People are",
           "extraction_method": "keyword"
         },
         {
@@ -9471,9 +9772,17 @@
     "invalid": {
       "term": "invalid",
       "display": "Invalid",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "ncdj",
           "org": "National Center on Disability and Journalism",
@@ -9529,6 +9838,22 @@
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "",
           "extraction_method": "glossary"
+        }
+      ]
+    },
+    "islamophobia": {
+      "term": "islamophobia",
+      "display": "Islamophobia",
+      "source_count": 1,
+      "commons_slug": null,
+      "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
         }
       ]
     },
@@ -9815,9 +10140,17 @@
     "lame": {
       "term": "lame",
       "display": "Lame",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "ncdj",
           "org": "National Center on Disability and Journalism",
@@ -10255,9 +10588,17 @@
     "little person": {
       "term": "little person",
       "display": "Little Person",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
@@ -10527,9 +10868,17 @@
     "male to female": {
       "term": "male to female",
       "display": "Male To Female",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
@@ -10903,9 +11252,17 @@
     "mentally retarded": {
       "term": "mentally retarded",
       "display": "Mentally Retarded",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
@@ -11063,9 +11420,17 @@
     "midget": {
       "term": "midget",
       "display": "Midget",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
@@ -11119,17 +11484,9 @@
     "minority": {
       "term": "minority",
       "display": "minority",
-      "source_count": 2,
+      "source_count": 1,
       "commons_slug": "minority",
       "sources": [
-        {
-          "source_slug": "apa",
-          "org": "American Psychological Association",
-          "year": "2023",
-          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guidelines",
-          "excerpt": "On race terminology: Specify nation/region of origin when possible. Avoid umbrella terms like \"minority\"; use \"peopl",
-          "extraction_method": "keyword"
-        },
         {
           "source_slug": "sierra-club",
           "org": "Sierra Club",
@@ -11895,9 +12252,17 @@
     "neurodivergent": {
       "term": "neurodivergent",
       "display": "Neurodivergent",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
@@ -11911,17 +12276,9 @@
     "neurodiversity": {
       "term": "neurodiversity",
       "display": "Neurodiversity",
-      "source_count": 2,
+      "source_count": 1,
       "commons_slug": null,
       "sources": [
-        {
-          "source_slug": "apa",
-          "org": "American Psychological Association",
-          "year": "2023",
-          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guidelines",
-          "excerpt": "",
-          "extraction_method": "keyword"
-        },
         {
           "source_slug": "ncdj",
           "org": "National Center on Disability and Journalism",
@@ -12295,9 +12652,17 @@
     "nuts": {
       "term": "nuts",
       "display": "Nuts",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
@@ -12335,9 +12700,17 @@
     "obesity": {
       "term": "obesity",
       "display": "Obesity",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "obesity, smoking, medication noncompliance or nonadherence, trauma, psychosis) are influenced by upstream decisions",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
@@ -13055,9 +13428,17 @@
     "people of color": {
       "term": "people of color",
       "display": "people of color",
-      "source_count": 3,
+      "source_count": 4,
       "commons_slug": "people-of-color",
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "use the specific name of the group or groups to which you refer, or use broader terms such as “people of color” or",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "nabj-style-guide-2022-10",
           "org": "NABJ",
@@ -13319,9 +13700,17 @@
     "powwow": {
       "term": "powwow",
       "display": "Powwow",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
@@ -13374,8 +13763,8 @@
           "source_slug": "apa",
           "org": "American Psychological Association",
           "year": "2023",
-          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guidelines",
-          "excerpt": "On gender pronouns: Use \"pronouns\" rather than \"preferred pronouns\" (which implies choice). Use singular \"they\" for",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "Do not use the term “preferred pronouns” because this implies a choice about one’s gender. Use the term “pronouns”",
           "extraction_method": "keyword"
         },
         {
@@ -13399,9 +13788,17 @@
     "pregnant people": {
       "term": "pregnant people",
       "display": "Pregnant People",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "nlgja",
           "org": "NLGJA: The Association of LGBTQ+ Journalists",
@@ -13542,8 +13939,8 @@
           "source_slug": "apa",
           "org": "American Psychological Association",
           "year": "2023",
-          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guidelines",
-          "excerpt": "On gender pronouns: Use \"pronouns\" rather than \"preferred pronouns\" (which implies choice). Use singular \"they\" for",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "Do not use the term “preferred pronouns” because this implies a choice about one’s gender. Use the term “pronouns”",
           "extraction_method": "keyword"
         },
         {
@@ -13599,9 +13996,17 @@
     "psychiatric hospital": {
       "term": "psychiatric hospital",
       "display": "Psychiatric Hospital",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
@@ -13647,9 +14052,17 @@
     "psychopathology": {
       "term": "psychopathology",
       "display": "Psychopathology",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "psychopathology, and treatment. Peter Lang International Academic",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "ncdj",
           "org": "National Center on Disability and Journalism",
@@ -15119,17 +15532,9 @@
     "sexual orientation": {
       "term": "sexual orientation",
       "display": "Sexual Orientation",
-      "source_count": 3,
+      "source_count": 2,
       "commons_slug": "sexual-orientation",
       "sources": [
-        {
-          "source_slug": "apa",
-          "org": "American Psychological Association",
-          "year": "2023",
-          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guidelines",
-          "excerpt": "",
-          "extraction_method": "keyword"
-        },
         {
           "source_slug": "hrc-glossary-2023-05",
           "org": "Human Rights Campaign",
@@ -15735,9 +16140,17 @@
     "special needs": {
       "term": "special needs",
       "display": "Special Needs",
-      "source_count": 3,
+      "source_count": 4,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
@@ -16343,9 +16756,17 @@
     "third world": {
       "term": "third world",
       "display": "Third World",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "sometimes referred to as “majority world” nations instead of “third world” or “developing” countries, terms that are no",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "nabj-style-guide-2022-10",
           "org": "NABJ",
@@ -16415,9 +16836,17 @@
     "totem": {
       "term": "totem",
       "display": "Totem",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
@@ -16463,9 +16892,17 @@
     "tranny": {
       "term": "tranny",
       "display": "Tranny",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "nlgja",
           "org": "NLGJA: The Association of LGBTQ+ Journalists",
@@ -16951,9 +17388,17 @@
     "transgendered": {
       "term": "transgendered",
       "display": "Transgendered",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "nlgja",
           "org": "NLGJA: The Association of LGBTQ+ Journalists",
@@ -17175,9 +17620,17 @@
     "transsexual": {
       "term": "transsexual",
       "display": "Transsexual",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "nlgja",
           "org": "NLGJA: The Association of LGBTQ+ Journalists",
@@ -17199,9 +17652,17 @@
     "transvestite": {
       "term": "transvestite",
       "display": "Transvestite",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
@@ -18110,9 +18571,17 @@
     "wheelchair": {
       "term": "wheelchair",
       "display": "Wheelchair",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": null,
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
@@ -18214,9 +18683,17 @@
     "white": {
       "term": "white",
       "display": "white",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": "white",
       "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "White women may experience discrimination based on their gender but may also benefit from Whiteness and have privilege",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
