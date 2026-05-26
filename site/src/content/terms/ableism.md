@@ -77,6 +77,18 @@ guidance:
     quote_loc: "Ableism glossary entry"
     paraphrase: "Racial Equity Tools, drawing on Teaching for Diversity and Social Justice, defines ableism as a system of oppression operating at individual, institutional, and cultural levels — framing it not merely as discrimination against people with disabilities but as the interaction of structures, norms, and beliefs that maintains the status quo."
     confidence: "VERIFIED-ARCHIVED"
+  - org: "American Psychological Association"
+    org_slug: "apa"
+    year: 2023
+    entry_updated: null
+    source_url: "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf"
+    local_archive: "source-guides/discovered/apa-inclusive-language-2023-10.pdf"
+    recommendation: "use"
+    derived_from: []
+    quote: "Stereotyping, prejudicial attitudes, discriminatory behavior, and social oppression toward people with disabilities to inhibit their rights and well-being."
+    quote_loc: "Disability glossary, ableism entry"
+    paraphrase: "APA's second edition defines ableism in its disability glossary as stereotyping, prejudicial attitudes, discriminatory behavior, and social oppression toward people with disabilities. It places the concept within the shift from a medical, deficit-based model of disability to a social model, and — in its prejudice entry — parallels ableism with racism, sexism, and ageism as prejudice based on a marginalized status."
+    confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []
 methodological_context: []
@@ -89,7 +101,7 @@ contributors:
 
 ## Synthesis
 
-**"Ableism" is settled vocabulary across the corpus** — every source uses and defines it, and the definitions converge tightly. NCDJ and the Diversity Style Guide describe it as prejudice or discrimination based on disability; Racial Equity Tools and SumOfUs sharpen that into a **structural** account — a system of oppression that operates on individual, institutional, and cultural levels, not merely between individuals. SumOfUs's "structural ableism assumes that there is an ideal body and mind that is better than all others" and RET's "system of oppression that disadvantages people with disabilities" are the same claim stated two ways. The Diversity Style Guide adds the near-synonyms — disability discrimination, ablecentrism, disability oppression.
+**"Ableism" is settled vocabulary across the corpus** — every source uses and defines it, and the definitions converge tightly. NCDJ and the Diversity Style Guide describe it as prejudice or discrimination based on disability; Racial Equity Tools and SumOfUs sharpen that into a **structural** account — a system of oppression that operates on individual, institutional, and cultural levels, not merely between individuals. SumOfUs's "structural ableism assumes that there is an ideal body and mind that is better than all others" and RET's "system of oppression that disadvantages people with disabilities" are the same claim stated two ways. The Diversity Style Guide adds the near-synonyms — disability discrimination, ablecentrism, disability oppression. APA's glossary captures both registers in a single line, defining ableism as "stereotyping, prejudicial attitudes, discriminatory behavior, and social oppression toward people with disabilities" — interpersonal and structural at once.
 
 Where the guides diverge is **how far to carry the word into copy about individuals** — the familiar advocacy-versus-journalism split. The advocacy and academic guides (RET, SumOfUs, DSG) define ableism as a system and expect writers to name it. NCDJ, writing for newsrooms, keeps the definition but adds two cautions: the term "may not be understood by all," so an explanation may be required, and writers should be as careful about labeling a specific person "ableist" as they would be about calling someone "racist" or "sexist." Sierra Club bridges the two — it defines ableism and then points at everyday language ("crazy," "insane," "lame") as a common, often unconscious form of it, putting the accountability on the writer's own word choices.
 

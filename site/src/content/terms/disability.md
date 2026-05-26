@@ -59,14 +59,14 @@ guidance:
     org_slug: "apa"
     year: 2023
     entry_updated: null
-    source_url: "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guidelines"
-    local_archive: "source-guides/discovered/apa-inclusive-language-2023-10.md"
+    source_url: "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf"
+    local_archive: "source-guides/discovered/apa-inclusive-language-2023-10.pdf"
     recommendation: "use-with-care"
     derived_from: []
-    quote: "Person-first emphasizes the individual over their identity; identity-first reclaims disability/identity as cultural pride."
-    quote_loc: "Summary — Person-first vs. identity-first language"
-    paraphrase: "The APA Inclusive Language Guide (second edition) frames disability language around the person-first / identity-first distinction, treating identity-first usage as a reclamation of disability as cultural pride, and grounds its broader approach in showing respect by using people's self-identified language. (Drawn from a summarized extraction of the guide, not the full text.)"
-    confidence: "SUMMARY-ONLY"
+    quote: "Language should be selected with the understanding that the individual's preference supersedes matters of style. If you are uncertain about how a person identifies, it is recommended that you ask their preference."
+    quote_loc: "Person-First and Identity-First Language section"
+    paraphrase: "APA's second edition grounds disability language in the person-first/identity-first distinction and makes the person's stated preference decisive: person-first emphasizes the individual, identity-first treats the disability as a focus of cultural pride and reclamation, and where preference is unknown the guide says to ask. It notes the Deaf and autistic communities' established use of identity-first language."
+    confidence: "VERIFIED-ARCHIVED"
   - org: "Racial Equity Tools"
     org_slug: "racial-equity-tools"
     year: 2023

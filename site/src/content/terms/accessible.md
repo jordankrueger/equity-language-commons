@@ -50,6 +50,18 @@ guidance:
     quote_loc: "Handicap/handicapped entry, NCDJ Recommendation"
     paraphrase: "NCDJ frames “accessible” as the preferred alternative to “handicapped” for places and things: while “handicapped parking” persists in laws and regulations, the guide notes that many prefer “accessible parking,” reflecting the same shift Sierra Club prescribes."
     confidence: "VERIFIED-ARCHIVED"
+  - org: "American Psychological Association"
+    org_slug: "apa"
+    year: 2023
+    entry_updated: null
+    source_url: "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf"
+    local_archive: "source-guides/discovered/apa-inclusive-language-2023-10.pdf"
+    recommendation: "use"
+    derived_from: []
+    quote: "Accessibility is achieved when people with disabilities can ‘acquire the same information, engage in the same interactions, and enjoy the same services’ as people who do not have disabilities, in ‘an equally effective and equally integrated manner with substantially equivalent ease of use.’"
+    quote_loc: "Disability glossary, accessibility entry"
+    paraphrase: "APA's disability glossary defines accessibility — quoting the U.S. Office of Civil Rights — as achieved when people with disabilities can acquire the same information, engage in the same interactions, and enjoy the same services as people without disabilities, with substantially equivalent ease of use. The entry ties accessible design to the social model of disability rather than a deficit-based one."
+    confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []
 methodological_context: []
@@ -62,9 +74,9 @@ contributors:
 
 ## Synthesis
 
-This is a **narrow, practical entry, and the sources agree on it completely:** "accessible" is the preferred word for spaces, facilities, and features designed for disabled access, and it has displaced "handicapped." Sierra Club states the rule directly — avoid "handicapped" for locations or items, and use "accessible parking" and "accessible bathroom stall" instead. NCDJ reaches the same place from the other side: in its handicap/handicapped entry it notes that while "handicapped parking" survives in laws and regulations, "many prefer the term 'accessible parking.'" The Diversity Style Guide supplies the definitional backing, describing accessibility as the degree to which a facility is "usable and approachable for people with disabilities."
+This is a **narrow, practical entry, and the sources agree on it completely:** "accessible" is the preferred word for spaces, facilities, and features designed for disabled access, and it has displaced "handicapped." Sierra Club states the rule directly — avoid "handicapped" for locations or items, and use "accessible parking" and "accessible bathroom stall" instead. NCDJ reaches the same place from the other side: in its handicap/handicapped entry it notes that while "handicapped parking" survives in laws and regulations, "many prefer the term 'accessible parking.'" The Diversity Style Guide supplies the definitional backing, describing accessibility as the degree to which a facility is "usable and approachable for people with disabilities." APA goes further still, defining accessibility — by way of the U.S. Office of Civil Rights — as people with disabilities acquiring the same information, interactions, and services as everyone else, "with substantially equivalent ease of use," and tying it to the social model of disability.
 
-There is no real divergence here, only a difference in scope. The guides treat "accessible" as the settled replacement term; the lone nuance NCDJ flags is that "handicapped" remains acceptable when you are quoting a law, regulation, or official program name that still uses it. Because the corpus coverage is concentrated rather than broad, this entry is best read as a specific usage rule — the one communicators meet most often when describing a venue or an event — rather than a contested identity term.
+There is no real divergence here, only a difference in altitude. The journalism and movement guides (Sierra Club, NCDJ) treat "accessible" as the settled replacement term for "handicapped," with NCDJ's lone nuance being that "handicapped" remains acceptable when you are quoting a law, regulation, or official program name that still uses it. APA and DSG supply the concept underneath the usage rule: accessibility as a standard of equal participation, not a courtesy. So the entry works on two levels — the everyday word you reach for when describing a venue or an event, and the principle that the word is meant to guarantee.
 
 ## Audience notes
 
