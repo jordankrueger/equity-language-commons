@@ -18,11 +18,12 @@ term_slugs:
   - "classism"
   - "disadvantaged"
   - "ghetto"
+  - "working-class"
 ---
 
 ## What this chapter covers
 
-This chapter gathers the language of poverty, social class, and economic status: the structural concept that names class-based oppression (classism), the race- and class-coded place names the guides reject (ghetto, which here also covers its companion "inner city"), and the deficit and charity descriptors applied to people in poverty (disadvantaged, which covers underprivileged, at-risk, the poor, and the needy). The corpus is thinner on class than on race, gender, or disability — few of the guides carry dedicated entries for "poverty" or "poor" as headwords, so the vocabulary clusters around these structural and euphemistic terms rather than a long list of identity labels.
+This chapter gathers the language of poverty, social class, and economic status: the structural concept that names class-based oppression (classism), the race- and class-coded place names the guides reject (ghetto, which here also covers its companion "inner city"), the deficit and charity descriptors applied to people in poverty (disadvantaged, which covers underprivileged, at-risk, the poor, and the needy), and the contested solidarity term many claim with pride but whose default image can exclude (working class). The corpus is thinner on class than on race, gender, or disability — few of the guides carry dedicated entries for "poverty" or "poor" as headwords, so the vocabulary clusters around these structural, euphemistic, and contested terms rather than a long list of identity labels.
 
 **The chapter's center of gravity is framing rather than labeling.** The recurring question is not "what do we call this group?" but "does our language locate hardship in a person or in a system?" Two adjacent areas live elsewhere in the commons: the language of housing insecurity ("unhoused," "homeless," "people experiencing houselessness") is treated in the Housing chapter, and labor and workers' vocabulary is a future chapter. The deepest single source here is the American Psychological Association's Socioeconomic Status section, which supplies definitions for classism and class privilege alongside an avoid-and-replace table.
 

@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-27T14:28:18+00:00",
+  "generated_at": "2026-05-27T14:46:41+00:00",
   "stats": {
-    "total_terms": 948,
-    "commons_terms": 56,
+    "total_terms": 949,
+    "commons_terms": 57,
     "long_tail_terms": 892,
     "by_coverage": {
-      "1": 667,
+      "1": 668,
       "2": 206,
       "3": 58,
       "4": 10,
@@ -993,6 +993,7 @@
       "withdrawal",
       "wokeness",
       "wokism",
+      "working class",
       "worship",
       "worshipped",
       "worshipper",
@@ -18855,6 +18856,22 @@
           "source_url": "https://transjournalists.org/style-guide/",
           "excerpt": "woke (adj.), wokeness/wokism (n.)",
           "extraction_method": "glossary"
+        }
+      ]
+    },
+    "working class": {
+      "term": "working class",
+      "display": "Working class",
+      "source_count": 1,
+      "commons_slug": "working-class",
+      "sources": [
+        {
+          "source_slug": "seiu",
+          "org": "SEIU",
+          "year": "2020",
+          "source_url": "",
+          "excerpt": "working class (n.), working-class (adj.)",
+          "extraction_method": "keyword"
         }
       ]
     },
