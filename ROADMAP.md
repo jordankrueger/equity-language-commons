@@ -1,5 +1,7 @@
 # Equity Language Commons — Roadmap
 
+> **Current state (2026-05-27): 6 chapters, 56 indexed terms, 98 static pages.** The authoritative live tracker is `CLAUDE.md` (Phase status + per-chapter detail + pick-up notes). Chapters added since session 2: Disability & Mental Health (14 terms, incl. the rejected-labels batch), Immigration & Citizenship (6), Class & Economic Status (3, just started). The dated status blocks below are kept as historical session records.
+
 **Status as of 2026-05-18 (end-of-session 2):** Phases 0–2.7 all complete. Phase 3 in progress across **3 active chapters** — Race & Ethnicity (18 terms), Indigenous & Tribal Sovereignty (5 terms), Sexuality & Gender Identity (10 terms). **33 indexed terms total.** Build clean, 73 static pages.
 
 **Today's shipped work (session 2):**

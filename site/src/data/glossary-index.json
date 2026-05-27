@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-27T13:58:35+00:00",
+  "generated_at": "2026-05-27T14:28:18+00:00",
   "stats": {
-    "total_terms": 947,
-    "commons_terms": 49,
-    "long_tail_terms": 898,
+    "total_terms": 948,
+    "commons_terms": 56,
+    "long_tail_terms": 892,
     "by_coverage": {
-      "1": 666,
+      "1": 667,
       "2": 206,
       "3": 58,
       "4": 10,
@@ -270,6 +270,7 @@
       "disability studies",
       "disabled",
       "disabled people",
+      "disadvantaged",
       "discrimination",
       "disfigured",
       "disfigurement",
@@ -1308,7 +1309,7 @@
       "term": "addict",
       "display": "Addict",
       "source_count": 3,
-      "commons_slug": null,
+      "commons_slug": "addict",
       "sources": [
         {
           "source_slug": "apa",
@@ -4224,7 +4225,7 @@
       "term": "classism",
       "display": "Classism",
       "source_count": 3,
-      "commons_slug": null,
+      "commons_slug": "classism",
       "sources": [
         {
           "source_slug": "color-of-change-black-survivors-styleguide-2022",
@@ -4736,7 +4737,7 @@
       "term": "crazy",
       "display": "Crazy",
       "source_count": 4,
-      "commons_slug": null,
+      "commons_slug": "crazy",
       "sources": [
         {
           "source_slug": "apa",
@@ -5824,6 +5825,22 @@
           "source_url": "https://ncdj.org/style-guide/",
           "excerpt": "",
           "extraction_method": "glossary"
+        }
+      ]
+    },
+    "disadvantaged": {
+      "term": "disadvantaged",
+      "display": "Disadvantaged",
+      "source_count": 1,
+      "commons_slug": "disadvantaged",
+      "sources": [
+        {
+          "source_slug": "sierra-club",
+          "org": "Sierra Club",
+          "year": "2021",
+          "source_url": "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
         }
       ]
     },
@@ -7919,7 +7936,7 @@
       "term": "ghetto",
       "display": "Ghetto",
       "source_count": 4,
-      "commons_slug": null,
+      "commons_slug": "ghetto",
       "sources": [
         {
           "source_slug": "apa",
@@ -9526,7 +9543,7 @@
       "term": "insane",
       "display": "Insane",
       "source_count": 4,
-      "commons_slug": null,
+      "commons_slug": "insane",
       "sources": [
         {
           "source_slug": "apa",
@@ -14934,7 +14951,7 @@
       "term": "retarded",
       "display": "Retarded",
       "source_count": 1,
-      "commons_slug": null,
+      "commons_slug": "retarded",
       "sources": [
         {
           "source_slug": "ncdj",
