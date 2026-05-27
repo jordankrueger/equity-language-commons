@@ -21,12 +21,13 @@ term_slugs:
   - "refugees"
   - "undocumented-immigrant"
   - "illegal-immigrant"
+  - "illegal-alien"
   - "alien"
 ---
 
 ## What this chapter covers
 
-This chapter gathers the terms source guides use to name people by immigration status: the neutral base term (immigrant), the legally-defined statuses (refugee, and by reference asylum seeker and migrant), the corpus's prescribed term for people without current legal status (undocumented immigrant), and the two rejected framings that describe the same population in the language of crime and otherness (illegal immigrant, alien). Future batches may extend it to related entries such as asylum seeker, migrant, noncitizen, anchor baby, and DACA / Dreamer.
+This chapter gathers the terms source guides use to name people by immigration status: the neutral base term (immigrant), the legally-defined statuses (refugee, and by reference asylum seeker and migrant), the corpus's prescribed term for people without current legal status (undocumented immigrant), and the rejected framings that describe the same population in the language of crime and otherness (illegal immigrant, illegal alien, alien). Future batches may extend it to related entries such as asylum seeker, migrant, noncitizen, anchor baby, and DACA / Dreamer.
 
 **The chapter divides cleanly into prescribe and reject.** Unlike chapters where the hard call is between two defensible forms, here the same group of people draws the corpus's most unanimous endorsement ("undocumented," recommended by every source that addresses it) and its most unanimous rejection ("illegal immigrant" and "alien," avoided by every source that addresses them). The dedicated sources are Define American's media reference guide and the Immigrant Defense Project's journalist guides, the corpus's deepest single treatments of immigration language.
 

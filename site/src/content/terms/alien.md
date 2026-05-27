@@ -3,7 +3,6 @@ term: "Alien"
 slug: "alien"
 aliases:
   - "Alien"
-  - "Illegal alien"
   - "Criminal alien"
   - "Resident alien"
 related_terms:
