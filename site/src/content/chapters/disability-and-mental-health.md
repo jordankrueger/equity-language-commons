@@ -2,7 +2,7 @@
 title: "Disability & Mental Health"
 slug: "disability-and-mental-health"
 order: 4
-lede: "Disability, ableism, accessible, mental health, survivor — how source guides handle disability identity, mental health, and the language of trauma and illness. The dominant thread is procedural: ask the person, name a condition only when it's relevant, and don't borrow this vocabulary as metaphor. The dedicated source is the National Center on Disability and Journalism's Disability Language Style Guide."
+lede: "Disability, deaf, mental illness, addiction, handicapped, victim — how source guides handle disability and Deaf identity, mental health, addiction, and the language of trauma and illness. The dominant thread is procedural: ask the person, name a condition only when it's relevant, use the people-first or identity-first form the person prefers, and don't borrow this vocabulary as metaphor or as a label for a person. The dedicated source is the National Center on Disability and Journalism's Disability Language Style Guide."
 cross_cutting_principles:
   - title: "Ask the person; self-identification governs"
     body: "Every term in this chapter routes its hardest call back to the person being described. NCDJ's repeated instruction is to ask the individual or an organizational spokesperson their preferred terminology — for the people-first/identity-first choice on disability, for naming a mental illness, for the word survivors of violence want used. SumOfUs and the Diversity Style Guide say the same of victim versus survivor; Sierra Club makes 'ask people how they want to be identified' its governing rule. The defaults the guides offer answer the question of what to do when a preference isn't known; they never override a stated one."
@@ -19,14 +19,19 @@ cross_cutting_principles:
 term_slugs:
   - "ableism"
   - "accessible"
+  - "addiction"
+  - "deaf"
   - "disability"
+  - "handicapped"
   - "mental-health"
+  - "mental-illness"
   - "survivor"
+  - "victim"
 ---
 
 ## What this chapter covers
 
-This chapter gathers the terms source guides use for disability identity, mental health, and the language of trauma and illness: the core identity terms (disability, disabled, people with disabilities), the structural concept that names their mistreatment (ableism), the practical access vocabulary that has displaced "handicapped" (accessible), the terminology around mental health and mental illness, and the contested victim/survivor pair used in coverage of violence and illness. Future batches may extend it to specific conditions and to related entries such as addiction, recovery, and neurodiversity.
+This chapter gathers the terms source guides use for disability identity, mental health, and the language of trauma and illness: the core identity terms (disability, disabled, people with disabilities), the structural concept that names their mistreatment (ableism), the practical access vocabulary that has displaced "handicapped" (accessible), the dated term it displaced (handicapped), the terminology around mental health and mental illness, the language of addiction, the contested victim/survivor pair used in coverage of violence and illness, and the first specific-condition identity in the corpus where identity-first language is the community norm (Deaf/deaf). Future batches may extend it to more specific conditions and to the rejected labels for people ("addict," "crazy"/"insane"), along with recovery and neurodiversity.
 
 **The chapter's center of gravity is procedural rather than lexical.** Compared with other chapters, fewer of these calls are "use X, not Y"; more are "ask the person, name the condition only when relevant, and don't impose a frame." The dedicated source is the National Center on Disability and Journalism's Disability Language Style Guide, the corpus's deepest single treatment of these terms.
 
@@ -39,7 +44,9 @@ This chapter gathers the terms source guides use for disability identity, mental
 - **Diversity Style Guide (2023)** — peer aggregator; definitional backing for ableism, accessibility, and the victim/survivor debate.
 - **APA Inclusive Language Guidelines (2023)** — academic/clinical framing of person-first versus identity-first language. Represented here through a summarized extraction, not the full guide.
 - **Color of Change (2022 Black Survivors Style Guide)** — intersectional survivor coverage; the victim/survivor paired form and the protection of weaponizable details.
-- **GCJT Style Guide for Trauma-Informed Journalism (2021)** — the sharpest statement that "survivor" should not be assumed any more than "victim"; follow the language each person uses.
+- **GCJT Style Guide for Trauma-Informed Journalism (2021)** — the sharpest statement that "survivor" should not be assumed any more than "victim"; follow the language each person uses. Also the corpus's clearest source on naming a specific mental-health condition and the Deaf community's identity-first preference.
+- **SEIU Stylebook (2020)** — partial; its person-first AIDS and health-condition entries ("AIDS victim" → "people with AIDS") inform the victim and disability terms.
+- **WFP USA, Writing With Dignity (2022)** — dignity-in-storytelling principles; source of the rule not to apply "victim" to a person without their own attribution.
 
 ## Chronology
 
