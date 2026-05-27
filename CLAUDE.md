@@ -26,13 +26,14 @@ locked. Astro site live at the preview URL. Full programmatic pipeline
 shipped — extract → matrix → source-page scaffold → enrich → term scaffold,
 plus glossary index + SQLite build-time index + Contribute page.
 
-**Phase 3 (bulk term indexing) is underway** across **4 chapters**:
+**Phase 3 (bulk term indexing) is underway** across **5 chapters**:
 - **Race & Ethnicity** — 18 indexed terms, chapter intro shipped with 6 cross-cutting principles
 - **Indigenous & Tribal Sovereignty** — 5 indexed terms (native-american, american-indian, first-nations, reservation, tribe), chapter intro with 6 cross-cutting principles
 - **Sexuality & Gender Identity** — 10 indexed terms (transgender, gay, queer, pronouns, homophobia, bisexual, lesbian, cisgender, intersex, sexual-orientation), chapter intro with 7 cross-cutting principles
 - **Disability & Mental Health** — 5 indexed terms (disability, ableism, accessible, mental-health, survivor), chapter intro with 6 cross-cutting principles; anchored by NCDJ's Disability Language Style Guide. Added 2026-05-26. Note: `accessible` is the thinnest page (3 sources); APA disability guidance is SUMMARY-ONLY (extraction, not full guide).
+- **Immigration & Citizenship** — 5 indexed terms (immigrant, refugees, undocumented-immigrant, illegal-immigrant, alien), chapter intro with 6 cross-cutting principles; anchored by Define American + Immigrant Defense Project (2020 + 2021 Comm/Unity). Added 2026-05-27. Splits cleanly prescribe (undocumented = unanimous `use`) vs. reject (illegal-immigrant unanimous `avoid` ×7, alien `avoid` ×6). One PARTIAL: Color of Change on illegal-immigrant (OCR collapsed the use/avoid table columns).
 
-**38 indexed terms total.** Build clean, 79 static pages.
+**43 indexed terms total.** Build clean, 85 static pages.
 
 **Launch scope expanded 2026-05-18.** Original "~50 terms / 3-4 chapters" target was a minimum-viable-launch threshold. After looking at actual matrix data (268 terms have ≥3 sources), Jordan locked the full-launch threshold at **≥3 sources, ~250 commons-style term pages across 8-10 chapters, plus a Glossary Index for the ~1,000-term long tail.** No soft launch — full public launch when ready, per `feedback_no_soft_launches`.
 
@@ -40,11 +41,13 @@ plus glossary index + SQLite build-time index + Contribute page.
 
 ## Pick-up notes for next ELC session
 
+**Done 2026-05-27:** Immigration & Citizenship chapter shipped (5 terms, Define American + IDP-anchored) and deployed to preview. First batch: immigrant, refugees, undocumented-immigrant, illegal-immigrant, alien. Note: bare `undocumented` is not a matrix term — the matrix-strong form is `undocumented immigrant` (slug `undocumented-immigrant`). Cleanup subagent removed 9 incidental hits from `immigrant` (kept 4 of 13) and 4 from `refugees` (kept 4 of 8); fixed Sierra Club inversion on undocumented (avoid→use) and 5 use-with-care→avoid mis-tags on illegal-immigrant. Matrix regenerated.
+
 **Done 2026-05-26:** Sierra Club URL fixed — old `sierraclub.org/equity-language-guide` is dead (404); the live 2021 PDF (30pp, verified correct edition vs. the 2018 one) is at the `sce-authors/u12332` files path. Updated the source page + all 25 term pages citing it; logged the 2018 predecessor in version_history; corrected length_pages 40→30. Disability & Mental Health chapter shipped (5 terms, NCDJ-anchored) and deployed to preview.
 
 In priority order:
 
-1. **Next chapter: Immigration & Citizenship.** Strongest unstarted chapter. `immigrant` (12 srcs), `illegal` (12), `illegal immigrant` (7), `refugees` (7), `alien` (7), `undocumented`. Politically high-impact. Define American is the dedicated source. Suggested first batch of 5: immigrant, refugees, undocumented, illegal-immigrant, alien. Use `notes/cleanup-pass-prompt.md` for the verification pass.
+1. **Round out Immigration & Citizenship.** Matrix-strong candidates not yet indexed: `undocumented immigrant` is in; next tier is `noncitizen` (3 srcs), `asylum seeker` / `reporting on asylum seekers` (TJA-dedicated), `migrant`, `anchor baby` (on multiple avoid lists), `naturalized`/`naturalization`. DACA / Dreamer is high-impact but thin in the matrix — may need a discovered source. Color of Change illegal-immigrant entry is PARTIAL (verify the use/avoid table against the PDF to bump to VERIFIED-ARCHIVED).
 
 2. **Round out Disability & Mental Health.** `accessible` shipped with only 3 sources (thinnest page) — strengthen if more turn up. Matrix-strong candidates not yet indexed: `injury` (8 srcs), `victim` (12, pairs with survivor), `addiction`, `recovery`, `neurodiversity`. Upgrade APA from SUMMARY-ONLY if the full APA guide gets archived.
 

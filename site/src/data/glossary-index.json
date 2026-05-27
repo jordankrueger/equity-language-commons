@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-26T17:05:56+00:00",
+  "generated_at": "2026-05-27T11:37:27+00:00",
   "stats": {
-    "total_terms": 944,
-    "commons_terms": 38,
-    "long_tail_terms": 906,
+    "total_terms": 945,
+    "commons_terms": 43,
+    "long_tail_terms": 902,
     "by_coverage": {
       "1": 666,
       "2": 206,
       "3": 58,
       "4": 9,
       "5": 3,
-      "6": 1,
+      "6": 2,
       "8": 1
     }
   },
@@ -48,6 +48,7 @@
       "alcoholic",
       "alcoholics anonymous",
       "alcoholism",
+      "alien",
       "ally",
       "america",
       "american arab",
@@ -1764,6 +1765,13 @@
           "extraction_method": "glossary"
         }
       ]
+    },
+    "alien": {
+      "term": "alien",
+      "display": "Alien",
+      "source_count": 6,
+      "commons_slug": "alien",
+      "sources": []
     },
     "ally": {
       "term": "ally",
@@ -9078,7 +9086,7 @@
       "term": "illegal immigrant",
       "display": "Illegal Immigrant",
       "source_count": 2,
-      "commons_slug": null,
+      "commons_slug": "illegal-immigrant",
       "sources": [
         {
           "source_slug": "color-of-change-antiracist-protest-reporting-2020",
@@ -9126,7 +9134,7 @@
       "term": "immigrant",
       "display": "Immigrant",
       "source_count": 3,
-      "commons_slug": null,
+      "commons_slug": "immigrant",
       "sources": [
         {
           "source_slug": "define-american-media-reference-2024-01",
@@ -14518,7 +14526,7 @@
       "term": "refugees",
       "display": "Refugees",
       "source_count": 2,
-      "commons_slug": null,
+      "commons_slug": "refugees",
       "sources": [
         {
           "source_slug": "comm-unity-style-guide-2021",
@@ -18054,7 +18062,7 @@
       "term": "undocumented immigrant",
       "display": "Undocumented Immigrant",
       "source_count": 4,
-      "commons_slug": null,
+      "commons_slug": "undocumented-immigrant",
       "sources": [
         {
           "source_slug": "comm-unity-style-guide-2021",
