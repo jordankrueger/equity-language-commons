@@ -19,19 +19,23 @@ cross_cutting_principles:
 term_slugs:
   - "ableism"
   - "accessible"
+  - "addict"
   - "addiction"
+  - "crazy"
   - "deaf"
   - "disability"
   - "handicapped"
+  - "insane"
   - "mental-health"
   - "mental-illness"
+  - "retarded"
   - "survivor"
   - "victim"
 ---
 
 ## What this chapter covers
 
-This chapter gathers the terms source guides use for disability identity, mental health, and the language of trauma and illness: the core identity terms (disability, disabled, people with disabilities), the structural concept that names their mistreatment (ableism), the practical access vocabulary that has displaced "handicapped" (accessible), the dated term it displaced (handicapped), the terminology around mental health and mental illness, the language of addiction, the contested victim/survivor pair used in coverage of violence and illness, and the first specific-condition identity in the corpus where identity-first language is the community norm (Deaf/deaf). Future batches may extend it to more specific conditions and to the rejected labels for people ("addict," "crazy"/"insane"), along with recovery and neurodiversity.
+This chapter gathers the terms source guides use for disability identity, mental health, and the language of trauma and illness: the core identity terms (disability, disabled, people with disabilities), the structural concept that names their mistreatment (ableism), the practical access vocabulary that has displaced "handicapped" (accessible), the dated term it displaced (handicapped), the terminology around mental health and mental illness, the language of addiction, the contested victim/survivor pair used in coverage of violence and illness, and the specific-condition identity where identity-first language is the community norm (Deaf/deaf). It also covers the rejected labels for people — the noun "addict" (distinct from the condition "addiction"), the ableist pejoratives "crazy" and "insane," and the slur "retarded" — where the corpus is near-unanimous that the word should not be used. Future batches may extend it to more specific conditions, along with recovery and neurodiversity.
 
 **The chapter's center of gravity is procedural rather than lexical.** Compared with other chapters, fewer of these calls are "use X, not Y"; more are "ask the person, name the condition only when relevant, and don't impose a frame." The dedicated source is the National Center on Disability and Journalism's Disability Language Style Guide, the corpus's deepest single treatment of these terms.
 
