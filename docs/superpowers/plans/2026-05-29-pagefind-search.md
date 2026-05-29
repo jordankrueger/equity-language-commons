@@ -40,7 +40,7 @@ import Search from "astro-pagefind/components/Search.astro";
 - Astro 5, static. `site/astro.config.mjs`: `site: "https://equitylanguagecommons.org"`, `trailingSlash: "always"`, `build.format: "directory"`, plus a `vite.server.allowedHosts` block (Tailscale). **Leave all of that intact** — only add the integration.
 - `site/package.json`: sole dep `astro ^5`. Scripts: `dev`, `start`, `build` (`astro build`), `preview`, `astro`. No script change needed.
 - Layout: **`src/layouts/BaseLayout.astro` is the only layout.** It imports `SiteHeader`, `SiteFooter`, and `../styles/global.css`; props `{ title: string; description?: string; mainClass?: string }`; body is `<body><SiteHeader /><main class={mainClass}><slot /></main><SiteFooter /></body>`.
-- Header: **`src/components/SiteHeader.astro`** — nav comes from a `nav` array: `Terms (/terms/)`, `Chapters (/chapters/)`, `Sources (/sources/)`, `Glossary (/glossary/)`, `About (/about/)`. (Brand link = home; there is no separate "Home" item.)
+- Header: **`src/components/SiteHeader.astro`** — root element `<header class="site-header">`; nav comes from a `const NAV: NavItem[]` array where `NavItem = { href: string; label: string; match?: RegExp }`. Current items: `Browse chapters (/chapters/)`, `Glossary (/glossary/)`, `Sources (/sources/)`, `About (/about/)`, `Contribute (/contribute/)`. (Brand link `<a href="/">` = home; no separate "Home" item.) `match` is a RegExp tested against the current path to set the `current`/`aria-current` state.
 - Footer: **`src/components/SiteFooter.astro`**.
 - Pages present: `terms/[slug].astro` (wraps content in `<article class="term">`, `<h1>` is the term name), `chapters/[slug].astro` (`<article class="chapter">`), `chapters/index.astro`, `sources/[slug].astro` (`<article class="source">`), `sources/index.astro`, `glossary/index.astro`, `about.astro`, `contribute.astro`, `index.astro`. **There is no `terms/index.astro` and no `404.astro`.**
 - No Pagefind anything yet. Tree clean, on `main`.
@@ -62,9 +62,9 @@ Optional, only if quick + clean: on `terms/[slug].astro` add `data-pagefind-filt
 1. `cd site && npm install -D astro-pagefind`.
 2. `astro.config.mjs`: add `import pagefind from "astro-pagefind"` and `integrations: [pagefind()]`. Touch nothing else in that file.
 3. `BaseLayout.astro`: add the `pagefind?: boolean` prop and the conditional `data-pagefind-body` on `<main>` (per Indexing scope #1).
-4. Add `pagefind` to the `<BaseLayout>` call in the four content pages (#2). Add `data-pagefind-ignore` to `SiteHeader` + `SiteFooter` root elements (#4).
+4. Add `pagefind` to the `<BaseLayout>` call in the four content pages (#2): `terms/[slug].astro` (line ~24), `chapters/[slug].astro` (~37), `sources/[slug].astro` (~61, multiline tag), `glossary/index.astro` (~40, multiline tag). Add `data-pagefind-ignore` to the `<header class="site-header">` element in `SiteHeader.astro` and the root element of `SiteFooter.astro` (#4).
 5. Create `src/pages/search.astro`: a normal page using `BaseLayout` (title "Search", do NOT pass `pagefind`), an `<h1>Search</h1>` + short intro line, and the `<Search>` component from `astro-pagefind/components/Search.astro`. Style minimally; reuse existing global classes where natural, scoped CSS otherwise. It should look at home in the site.
-6. `SiteHeader.astro`: add `{ href: "/search/", label: "Search" }` to the `nav` array (end of the list is fine).
+6. `SiteHeader.astro`: add `{ href: "/search/", label: "Search", match: /^\/search/ }` to the `NAV` array (end of the list is fine).
 7. Verify: `npm run build` must succeed and produce `dist/pagefind/`. Then `npm run preview`, open `/search/`, type a known term (e.g. `latino`, `ableism`, or `tribe`) and confirm results appear and link to the correct term page.
 8. Commit. Suggested split: commit A = integration + indexing wiring (tasks 1–4); commit B = search page + nav + verify (tasks 5–7). Per-task commits straight to `main`.
 
