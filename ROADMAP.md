@@ -183,7 +183,7 @@ Remaining:
 - [x] Set up remote GitHub repo at `jordankrueger/equity-language-commons` (private to start) — done 2026-05-16
 - [x] Deploy to Cloudflare Pages on the `pages.dev` URL — done 2026-05-16 via Wrangler direct upload (`./scripts/deploy.sh`); GitHub auto-deploy via CF dashboard pending Jordan
 - [x] Source-page mechanical metadata filled out — done 2026-05-17 via `enrich-source-pages.py` (length_pages, format, live_status, dates)
-- [ ] **Wire Pagefind client-side search** — needed for Phase 4 launch
+- [x] **Wire Pagefind client-side search** — done 2026-05-29 via `astro-pagefind` integration; `/search/` page + header nav link; indexes term/chapter/source/glossary pages only (chrome ignored). Deployed to preview.
 - [ ] **Write About sections for all 27 source pages** — Phase 4 launch gate. Either manually as part of Phase 3 batches, or build Phase 2.6 #3 (source-page About generator) to batch-process.
 - [ ] Verify Sierra Club guide page count / section count against actual PDF (placeholder values currently — note: enrich script pulled `length_pages: 40` from pdfinfo)
 - [ ] Acquire 4 queued source guides (Homelessness Beat Reporters, Radical Copyeditor 30-phrases, full APA Inclusive Language Guide, NAJA Tribal Nations Media Guide 2020) — if/when discovered
