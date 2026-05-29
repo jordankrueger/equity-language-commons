@@ -11,12 +11,13 @@ const NAV: NavItem[] = [
   { href: "/sources/", label: "Sources", match: /^\/sources/ },
   { href: "/about/", label: "About", match: /^\/about/ },
   { href: "/contribute/", label: "Contribute", match: /^\/contribute/ },
+  { href: "/search/", label: "Search", match: /^\/search/ },
 ];
 
 const path = Astro.url.pathname;
 ---
 
-<header class="site-header">
+<header class="site-header" data-pagefind-ignore>
   <div class="wrap">
     <p class="site-title"><a href="/">Equity Language <em>Commons</em></a></p>
     <nav class="site-nav" aria-label="Primary">

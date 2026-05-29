@@ -1,0 +1,32 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Search from "astro-pagefind/components/Search.astro";
+---
+
+<BaseLayout
+  title="Search"
+  description="Search the Equity Language Commons by term, chapter, source, or glossary entry."
+>
+  <h1>Search</h1>
+  <p class="subtitle">Search across terms, chapters, sources, and glossary entries.</p>
+
+  <div class="search-shell">
+    <Search
+      className="commons-search"
+      searchboxOptions={{
+        placeholder: "Search terms, chapters, sources...",
+        "max-results": 10,
+      }}
+    />
+  </div>
+</BaseLayout>
+
+<style>
+  .search-shell {
+    margin-top: 2rem;
+  }
+
+  .commons-search {
+    display: block;
+  }
+</style>

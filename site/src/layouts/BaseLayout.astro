@@ -7,9 +7,10 @@ interface Props {
   title: string;
   description?: string;
   mainClass?: string;
+  pagefind?: boolean;
 }
 
-const { title, description, mainClass } = Astro.props;
+const { title, description, mainClass, pagefind } = Astro.props;
 const fullTitle =
   title === "Equity Language Commons" ? title : `${title} — Equity Language Commons`;
 ---
@@ -25,7 +26,7 @@ const fullTitle =
   </head>
   <body>
     <SiteHeader />
-    <main class={mainClass}>
+    <main class={mainClass} data-pagefind-body={pagefind ? true : undefined}>
       <slot />
     </main>
     <SiteFooter />

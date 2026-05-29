@@ -34,7 +34,7 @@ const publishedCount = chapterTerms.filter((t) => t.published).length;
 const plannedCount = chapterTerms.length - publishedCount;
 ---
 
-<BaseLayout title={data.title} description={data.lede} mainClass="wide">
+<BaseLayout title={data.title} description={data.lede} mainClass="wide" pagefind>
   <Breadcrumb
     trail={[
       { href: "/", label: "Home" },

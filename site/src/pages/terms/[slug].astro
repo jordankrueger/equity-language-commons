@@ -21,7 +21,7 @@ const { Content } = await render(term);
 const guidance = [...(data.guidance ?? [])].sort((a, b) => a.year - b.year);
 ---
 
-<BaseLayout title={data.term} description={`${data.term} — equity-language guidance across ${guidance.length} sources.`}>
+<BaseLayout title={data.term} description={`${data.term} — equity-language guidance across ${guidance.length} sources.`} pagefind>
   <Breadcrumb
     trail={[
       { href: "/", label: "Home" },

@@ -13,5 +13,8 @@
   },
   "dependencies": {
     "astro": "^5.0.0"
+  },
+  "devDependencies": {
+    "astro-pagefind": "^2.0.0"
   }
 }
