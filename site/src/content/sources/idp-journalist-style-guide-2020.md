@@ -19,8 +19,8 @@ format: "PDF"
 
 The **Immigrant Defense Project (IDP)** is a U.S. legal-advocacy organization working at the intersection of the immigration and criminal legal systems — defending the rights of immigrants facing detention and deportation, especially where policing and incarceration co-mingle with immigration enforcement. *(This description draws on IDP's own website rather than an independent encyclopedic source.)*
 
-This is the **first edition** of IDP's journalist guide — the *Journalist Style Guide: Covering Immigrants with Convictions* (July 14, 2020), "Prepared by the Comm/Unity Network." It was released "at a pivotal moment to defend Black lives in the United States," and frames its guidance around reporting on people caught at the intersection of immigration enforcement, policing, and incarceration. It was later expanded and superseded by the *Comm/Unity Style Guide* (held on its own source page). In the commons it is a source for the Immigration & Citizenship chapter.
+The commons cites IDP's journalist guidance in two editions, both "Prepared by the Comm/Unity Network": the first edition — *Journalist Style Guide: Covering Immigrants with Convictions* (July 2020), released "at a pivotal moment to defend Black lives in the United States" — and the expanded *Comm/Unity Style Guide* that succeeded it. They are primary sources for the Immigration & Citizenship chapter, behind terms such as *undocumented immigrant*, *illegal immigrant*, and *illegal alien*.
 
 ## Access
 
-Host posture is **host-publicly**: the original URL now 404s, leaving this first edition an orphaned work, so the commons holds an archived copy with attribution and links to IDP and to the current edition. *(Provisional live status — confirm with `enrich-source-pages.py`.)*
+The two editions have different access status. The later *Comm/Unity Style Guide* remains live on IDP's site (host posture **private-mirror-link-out**, linked above), while the 2020 first edition's original URL now 404s and survives as an archived orphan copy held with attribution. Quotes are held within fair-use limits.

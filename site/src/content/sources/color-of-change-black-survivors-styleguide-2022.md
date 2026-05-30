@@ -19,7 +19,7 @@ format: "PDF"
 
 **Color of Change** is a U.S. progressive nonprofit — by its own description "the nation's largest online racial justice organization" — founded in 2005 in the aftermath of Hurricane Katrina to strengthen the political voice of Black Americans. Its stated mission is "creating a more human, less hostile world for Black people in America," and its narrative-and-media work produces journalist-facing guidance on covering Black communities.
 
-This guide, the *Black Survivors Journalist Style Guide* (2022), gives newsrooms guidance on covering Black survivors of violence and harm with accuracy and care. In the commons it informs the survivor/victim terminology in the Disability & Mental Health chapter.
+The commons cites three of its guides: *Anti-Racist Protest Reporting* (2020), on covering protest and racial-justice movements; the *Black Families Narrative Guide* (2020), on how Black families are portrayed; and the *Black Survivors Journalist Style Guide* (2022), on covering Black survivors of violence. Together they inform the Race & Ethnicity chapter and the survivor/victim terminology in the Disability & Mental Health chapter.
 
 ## Access
 

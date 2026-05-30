@@ -19,7 +19,7 @@ format: "PDF"
 
 *Words about War Matter: A Language Guide for Discussing War and Foreign Policy* is a guide for writing and talking about war and foreign policy "more accurately, more honestly, and in ways people outside the Washington, DC foreign policy 'blob' can understand." It targets "dehumanizing euphemisms, bloodless jargon, little-known government acronyms, and troubling metaphors that hide warfare's damage," pairing each with plainer alternatives — for example, "Pentagon spending" in place of "defense spending."
 
-This is the **full-length version** (version 2, May 2025) — the longer companion to the two-page short guide — adding explanations and additional guidance. It is led by **David Vine (American University)** and, per its own credit line, was "produced with support from American University, Concordia University, University of California–Irvine and the War Prevention Initiative of the Jubitz Family Foundation." In the commons it is a source for war and foreign-policy framing terms.
+The guide comes in two forms (both version 2, May 2025): a two-page short version and a longer full-length version that adds explanations and further guidance. It is led by **David Vine (American University)** and, per its own credit line, was "produced with support from American University, Concordia University, University of California–Irvine and the War Prevention Initiative of the Jubitz Family Foundation." In the commons it is a source for war and foreign-policy framing terms.
 
 ## Access
 
