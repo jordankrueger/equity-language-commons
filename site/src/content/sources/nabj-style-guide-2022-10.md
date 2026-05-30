@@ -3,20 +3,23 @@ org: "NABJ"
 org_slug: "nabj"
 work_title: "NABJ Style Guide"
 year: 2022
+copyright_holder: "National Association of Black Journalists"
+license: "© NABJ. Members-gated stylebook; excerpted under fair use, not republished."
 source_url: "https://www.nabj.org/page/styleguide"
 local_archive: "source-guides/discovered/nabj-style-guide-2022-10.md"
 host_posture: "private-mirror-link-out"
 live_status: "login-gated"
 added: 2026-05-17
 last_checked: 2026-05-18
-stub: true
 format: "markdown"
 ---
 
 ## About
 
-*Source stub — about section pending.* This page exists so term entries that cite NABJ can link to a source page. Full publication details, host-posture rationale, version history, and license findings will be filled in as Phase 2 progresses.
+The **National Association of Black Journalists (NABJ)** is a 501(c)(3) professional organization of African American journalists, students, and media professionals, founded in 1975 in Washington, D.C., by 44 journalists. Its *NABJ Style Guide* (2022, last revised 2025) offers recommendations on terminology for covering Black communities and race.
+
+In the commons it is a source for the Race & Ethnicity chapter.
 
 ## Access
 
-Posture: **private-mirror-link-out** (provisional). Live status when last checked: **live** (provisional — run `enrich-source-pages.py` to confirm).
+Host posture is **private-mirror-link-out**, but the live stylebook is **members-gated** on nabj.org — readers without a login cannot reach it. The commons therefore keeps a private preservation copy for citation verification and links to the (gated) original. Quotes are held within fair-use limits and attributed to NABJ.
