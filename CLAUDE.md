@@ -26,21 +26,41 @@ locked. Astro site live at the preview URL. Full programmatic pipeline
 shipped — extract → matrix → source-page scaffold → enrich → term scaffold,
 plus glossary index + SQLite build-time index + Contribute page.
 
-**Phase 3 (bulk term indexing) is underway** across **6 chapters**:
-- **Race & Ethnicity** — 18 indexed terms, chapter intro shipped with 6 cross-cutting principles
+**Phase 3 (bulk term indexing) is underway** across **9 chapters**:
+- **Race & Ethnicity** — 24 indexed terms (added 2026-06-03: slavery, systemic-racism, discrimination, stereotypes, colonialism, arab). Chapter lede + cross-cutting principles updated to cover structural vocabulary alongside identity labels. Note: `arab` went here, not Faith — Sierra separates Muslim (religion) from Arab (ethnicity).
 - **Indigenous & Tribal Sovereignty** — 5 indexed terms (native-american, american-indian, first-nations, reservation, tribe), chapter intro with 6 cross-cutting principles
-- **Sexuality & Gender Identity** — 10 indexed terms (transgender, gay, queer, pronouns, homophobia, bisexual, lesbian, cisgender, intersex, sexual-orientation), chapter intro with 7 cross-cutting principles
-- **Disability & Mental Health** — 14 indexed terms (disability, ableism, accessible, mental-health, survivor, victim, handicapped, mental-illness, addiction, deaf, + rejected labels addict, crazy, insane, retarded), chapter intro with 6 cross-cutting principles; anchored by NCDJ's Disability Language Style Guide. Added 2026-05-26, rounded out 2026-05-27, rejected-labels batch added 2026-05-27. Note: `accessible` + `addiction` are the thinnest pages (3-4 sources each); `victim` is intentionally split-recommendation (avoid in illness/disability framing, contested in violence/trauma framing); `deaf` is the chapter's first specific-condition identity-first page (capital-D Deaf). The 4 rejected labels are all unanimous `avoid` (addict covers junkie; crazy covers loony/psycho/nuts/deranged; insane carries a legal-term carve-out; retarded is the slur, cites Rosa's Law).
-- **Immigration & Citizenship** — 6 indexed terms (immigrant, refugees, undocumented-immigrant, illegal-immigrant, illegal-alien, alien), chapter intro with 6 cross-cutting principles; anchored by Define American + Immigrant Defense Project (2020 + 2021 Comm/Unity). Added 2026-05-27. Splits cleanly prescribe (undocumented = unanimous `use`) vs. reject (illegal-immigrant `avoid` ×7, illegal-alien `avoid` ×4, alien `avoid` ×6). One PARTIAL: Color of Change on illegal-immigrant (OCR collapsed the use/avoid table columns).
-- **Class & Economic Status** — 4 indexed terms (classism, ghetto, disadvantaged, working-class), chapter intro with 5 cross-cutting principles; anchored by APA's Socioeconomic Status section + Sierra Club's Classism and Wealth section. Added 2026-05-27, rounded out same day. `classism` is the structural concept (`use`, parallel to ableism); `ghetto` is unanimous `avoid` and also covers its companion "inner city" (folded in as an alias — see note below); `disadvantaged` is the deficit/charity-descriptor cluster page (covers underprivileged, at-risk, the poor, the needy — `avoid` ×3 + APA `use-with-care`); `working-class` is `contested` (CoC: coded-white, excludes Black families ↔ APA: a claimed pride identity — 2 strong-but-opposed orgs, which is what carries a contested page). Corpus is genuinely thin on class — few guides have dedicated "poverty"/"poor" headwords, so the chapter clusters around these structural/euphemistic/contested terms.
+- **Sexuality & Gender Identity** — 14 indexed terms (added 2026-06-03: nonbinary, asexual, transsexual, gender-identity), chapter intro with 7 cross-cutting principles
+- **Disability & Mental Health** — 18 indexed terms (added 2026-06-03: autism, disabled, depression, injury), chapter intro with 6 cross-cutting principles; anchored by NCDJ's Disability Language Style Guide. Note: `accessible` + `addiction` are the thinnest pages (3-4 sources each); `victim` is intentionally split-recommendation (avoid in illness/disability framing, contested in violence/trauma framing); `deaf` is the chapter's first specific-condition identity-first page (capital-D Deaf). The 4 rejected labels are all unanimous `avoid`.
+- **Immigration & Citizenship** — 6 indexed terms (immigrant, refugees, undocumented-immigrant, illegal-immigrant, illegal-alien, alien), chapter intro with 6 cross-cutting principles; anchored by Define American + Immigrant Defense Project. One PARTIAL: Color of Change on illegal-immigrant (OCR collapsed the use/avoid table columns).
+- **Class & Economic Status** — 4 indexed terms (classism, ghetto, disadvantaged, working-class), chapter intro with 5 cross-cutting principles. Corpus is genuinely thin on class — few guides have dedicated "poverty"/"poor" headwords.
+- **Age & Generations** — 3 indexed terms (ageism, elderly, aging), order 7. Added 2026-06-03.
+- **Criminal Justice & Incarceration** — 4 indexed terms (convict, felon, inmate, offender), order 8. Added 2026-06-03.
+- **Faith & Religious Identity** — 3 indexed terms (antisemitism, islamophobia, muslim), order 9. Added 2026-06-03.
 
-**57 indexed terms total.** Build clean, 99 static pages.
+**81 indexed terms total.** 2 intentional `verified-hold` stubs: `jew.md`, `islam.md` — real content, below the ≥3-source bar; need a Jewish-press or interfaith style guide as 3rd source to graduate to full pages.
+
+**Movement & Advocacy chapter deferred** — only `ally` clears the ≥3-source bar in the current corpus. `tolerance`/`activist`/`advocate`/`equality` are sub-threshold. Needs a movement/organizing-focused source guide to unlock.
+
+**NEW FEATURE (2026-06-03) — Glossary Index canonical-source tiering:**
+- Spec: `docs/superpowers/specs/2026-06-03-glossary-canonical-source-tiering-design.md`
+- Four tiers in `site/src/data/glossary-index.json`: `full` (≥3 sources, has page) / `verified-hold` (hand-verified 1-2, from `notes/curated-glossary-overrides.yml`) / `curated` (≥1 real glossary-headword source, auto-promoted — 821 terms) / `listed` (incidental only)
+- `curated` + `verified-hold` entries link to an INTERNAL `/sources/<slug>/` canonical page — link-rot is handled once via each source page's `live_status` + local archive. Offline-no-archive demotes `curated`→`listed`, keeps `verified-hold` excerpt, emits build-time stderr report.
+- Key files: `scripts/build-glossary-index.py` (tiering logic), `notes/curated-glossary-overrides.yml` (seeded with jew/islam/tolerance), `site/src/pages/glossary/index.astro` (tier display/badges/canonical links)
+- **Parser gotcha:** `stub: true  # TODO...` inline comment makes a `== "true"` check fail — the string becomes `"true  # TODO..."`. Fixed with `.startswith("true")`. Affects any frontmatter field with an inline comment.
 
 **Launch scope expanded 2026-05-18.** Original "~50 terms / 3-4 chapters" target was a minimum-viable-launch threshold. After looking at actual matrix data (268 terms have ≥3 sources), Jordan locked the full-launch threshold at **≥3 sources, ~250 commons-style term pages across 8-10 chapters, plus a Glossary Index for the ~1,000-term long tail.** No soft launch — full public launch when ready, per `feedback_no_soft_launches`.
 
 **Standing reference — `notes/cleanup-pass-prompt.md`** captures the subagent cleanup-pass workflow + every editorial rule + error pattern caught during Phase 3. Read it before dispatching a cleanup subagent. Update when new error patterns appear.
 
 ## Pick-up notes for next ELC session
+
+**Done 2026-06-03 — 3 new chapters + round-outs + glossary canonical-source tiering:**
+- Age & Generations (3 terms), Criminal Justice & Incarceration (4 terms), Faith & Religious Identity (3 terms) — all deployed + HTTP 200 verified
+- Round-outs: Race & Ethnicity +6 (slavery, systemic-racism, discrimination, stereotypes, colonialism, arab), LGBTQ+ +4 (nonbinary, asexual, transsexual, gender-identity), Disability +4 (autism, disabled, depression, injury). Term count 57 → 81.
+- Glossary tiering feature shipped (spec + implementation + deployment). 821 curated entries auto-promoted. `jew`/`islam`/`tolerance` seeded in `notes/curated-glossary-overrides.yml` as `verified-hold`.
+- Movement & Advocacy chapter deferred — only `ally` at ≥3 sources. Needs a movement/organizing-focused source guide.
+- **Parser gotcha fixed:** `stub: true  # TODO...` inline comment breaks `== "true"` check; use `.startswith("true")` everywhere in frontmatter parsers.
+- Git hygiene: `site/node_modules` symlink accidentally tracked by `git add -A`; removed from index, added to `.gitignore`. 15 commits merged to origin/main; worktree removed.
 
 **Done 2026-05-30 — all 26 stub source pages written + deployed (Phase 4 launch item closed):**
 - **Every source page now has real About + Access prose.** Wrote all 26 from the `research/source-about-material/` packets, the archived guides themselves, and live web verification. Added `copyright_holder` + a conservative fair-use `license` to each; removed `stub: true` from all 26. Clean build (100 pages, 0 warnings; Pagefind now indexes 96 fragments). Deployed + verified live. The ROADMAP Phase 4 item "verify all source pages have About sections written" is **done** — only `apa` and `sierra-club` were written before; the rest are new.
