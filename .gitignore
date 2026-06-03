@@ -34,3 +34,4 @@ public/pagefind/
 
 # macOS resource forks
 ._*
+site/node_modules
