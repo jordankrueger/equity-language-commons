@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-03T15:06:58+00:00",
+  "generated_at": "2026-06-03T15:19:31+00:00",
   "stats": {
-    "total_terms": 953,
-    "commons_terms": 67,
+    "total_terms": 955,
+    "commons_terms": 73,
     "verified_hold_terms": 3,
-    "curated_terms": 821,
-    "listed_terms": 62,
-    "long_tail_terms": 886,
+    "curated_terms": 819,
+    "listed_terms": 60,
+    "long_tail_terms": 882,
     "by_coverage": {
       "1": 669,
       "2": 206,
-      "3": 59,
+      "3": 61,
       "4": 12,
       "5": 4,
       "6": 2,
@@ -75,6 +75,7 @@
       "apocalypse",
       "apocalyptic",
       "appearing",
+      "arab",
       "arab american",
       "argeelah",
       "argilah",
@@ -192,6 +193,7 @@
       "cochlear implant",
       "coded language",
       "codeswitching",
+      "colonialism",
       "colorblind",
       "colored",
       "colorism",
@@ -2928,6 +2930,19 @@
           "extraction_method": "glossary"
         }
       ]
+    },
+    "arab": {
+      "term": "arab",
+      "display": "Arab",
+      "source_count": 3,
+      "commons_slug": "arab",
+      "tier": "full",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": []
     },
     "arab american": {
       "term": "arab american",
@@ -6401,6 +6416,19 @@
         }
       ]
     },
+    "colonialism": {
+      "term": "colonialism",
+      "display": "Colonialism",
+      "source_count": 3,
+      "commons_slug": "colonialism",
+      "tier": "full",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": []
+    },
     "colorblind": {
       "term": "colorblind",
       "display": "Colorblind",
@@ -8899,19 +8927,12 @@
       "term": "discrimination",
       "display": "Discrimination",
       "source_count": 2,
-      "commons_slug": null,
-      "tier": "curated",
-      "provenance": "machine-extracted",
-      "canonical_source": {
-        "source_slug": "tja",
-        "page_slug": "tja",
-        "org": "Trans Journalists Association",
-        "year": "2026",
-        "source_page_url": "/sources/tja/",
-        "live_status": "live"
-      },
+      "commons_slug": "discrimination",
+      "tier": "full",
+      "provenance": null,
+      "canonical_source": null,
       "canonical_archived": false,
-      "excerpt": "discrimination, gender-based (n.) {#def-gender-discrimination updated=",
+      "excerpt": null,
       "note": null,
       "sources": [
         {
@@ -25351,17 +25372,10 @@
       "term": "slavery",
       "display": "Slavery",
       "source_count": 3,
-      "commons_slug": null,
-      "tier": "curated",
-      "provenance": "machine-extracted",
-      "canonical_source": {
-        "source_slug": "diversity-style-guide",
-        "page_slug": "diversity-style-guide",
-        "org": "Diversity Style Guide",
-        "year": "2023",
-        "source_page_url": "/sources/diversity-style-guide/",
-        "live_status": "live"
-      },
+      "commons_slug": "slavery",
+      "tier": "full",
+      "provenance": null,
+      "canonical_source": null,
       "canonical_archived": false,
       "excerpt": null,
       "note": null,
@@ -26159,8 +26173,8 @@
       "term": "stereotypes",
       "display": "Stereotypes",
       "source_count": 3,
-      "commons_slug": null,
-      "tier": "listed",
+      "commons_slug": "stereotypes",
+      "tier": "full",
       "provenance": null,
       "canonical_source": null,
       "canonical_archived": false,
@@ -26483,8 +26497,8 @@
       "term": "systemic racism",
       "display": "Systemic Racism",
       "source_count": 2,
-      "commons_slug": null,
-      "tier": "listed",
+      "commons_slug": "systemic-racism",
+      "tier": "full",
       "provenance": null,
       "canonical_source": null,
       "canonical_archived": false,
