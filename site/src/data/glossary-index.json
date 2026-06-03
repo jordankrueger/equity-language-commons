@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-03T14:14:24+00:00",
+  "generated_at": "2026-06-03T14:24:26+00:00",
   "stats": {
-    "total_terms": 951,
-    "commons_terms": 60,
-    "long_tail_terms": 891,
+    "total_terms": 952,
+    "commons_terms": 64,
+    "long_tail_terms": 888,
     "by_coverage": {
       "1": 668,
       "2": 206,
       "3": 59,
-      "4": 11,
+      "4": 12,
       "5": 4,
       "6": 2,
       "8": 1
@@ -333,6 +333,7 @@
       "false balance",
       "false details",
       "families",
+      "felon",
       "female",
       "female bodied",
       "female identified",
@@ -4667,7 +4668,7 @@
       "term": "convict",
       "display": "Convict",
       "source_count": 1,
-      "commons_slug": null,
+      "commons_slug": "convict",
       "sources": [
         {
           "source_slug": "apa",
@@ -6916,6 +6917,13 @@
           "extraction_method": "keyword"
         }
       ]
+    },
+    "felon": {
+      "term": "felon",
+      "display": "Felon",
+      "source_count": 4,
+      "commons_slug": "felon",
+      "sources": []
     },
     "female": {
       "term": "female",
@@ -9504,7 +9512,7 @@
       "term": "inmate",
       "display": "Inmate",
       "source_count": 3,
-      "commons_slug": null,
+      "commons_slug": "inmate",
       "sources": [
         {
           "source_slug": "color-of-change-antiracist-protest-reporting-2020",
@@ -12896,7 +12904,7 @@
       "term": "offender",
       "display": "Offender",
       "source_count": 1,
-      "commons_slug": null,
+      "commons_slug": "offender",
       "sources": [
         {
           "source_slug": "gcjt",
