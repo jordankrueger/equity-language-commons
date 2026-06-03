@@ -90,15 +90,18 @@ tolerance:
 
 The override `excerpt` is authoritative for the entry; `canonical_source_slug` resolves through the same source-lookup as curated terms.
 
+**Malformed override guard:** if an override's `canonical_source_slug` does not resolve to a real source page (typo, renamed source), the builder MUST NOT emit a broken `/sources/.../` link. Instead it: (a) keeps the entry as `verified-hold` with its excerpt/note but `canonical_source: null`, and (b) adds the term to the stderr report as `UNRESOLVED OVERRIDE SOURCE: <term> -> <bad_slug>`. This makes overrides typos loud at build time rather than silently broken in the page.
+
 ### Offline / link-rot policy
 
 The builder reads `live_status` (and presence of `local_archive`) for each canonical source and sets entry state:
 
 - **`live`** → normal render: "Canonical source: {org} ({year}) →" linking to the source page.
 - **`offline` or `login-gated` WITH `local_archive`** → entry adds `canonical_archived: true`; render shows an "archived copy available" hint. The source page itself surfaces the local archive. No build failure.
-- **`offline` WITHOUT `local_archive`** → the genuine failure mode:
-  - The entry's tier is **downgraded to `listed`** (it loses its canonical pointer until re-sourced), and
-  - the term is added to a build-time **report** printed to stderr: `UNAVAILABLE CANONICAL SOURCES (curated/verified terms): <term> -> <source_slug>`. Non-fatal (exit 0), but visible in deploy logs.
+- **`offline` WITHOUT `local_archive`** → the genuine failure mode. Behavior differs by tier, because a `curated` excerpt is machine-extracted (low standalone value) while a `verified-hold` excerpt is human-checked (worth keeping):
+  - **`curated`** → **downgraded to `listed`** (loses its canonical pointer entirely until re-sourced).
+  - **`verified-hold`** → **retains its verified excerpt + note** (the human content stays surfaced) but `canonical_source` is set to `null` and `canonical_archived` is irrelevant; the reader sees the verified text without a live pointer.
+  - In both cases the term is added to a build-time **report** printed to stderr: `UNAVAILABLE CANONICAL SOURCES (<tier>): <term> -> <source_slug>`. Non-fatal (exit 0), but visible in deploy logs.
 
 This means availability is tracked exactly once (on the source page, by `enrich-source-pages.py`); the glossary inherits it.
 
