@@ -8,6 +8,9 @@ const { stats, by_letter, entries } = glossaryData as {
   stats: {
     total_terms: number;
     commons_terms: number;
+    verified_hold_terms: number;
+    curated_terms: number;
+    listed_terms: number;
     long_tail_terms: number;
     by_coverage: Record<string, number>;
   };
@@ -19,6 +22,19 @@ const { stats, by_letter, entries } = glossaryData as {
       display: string;
       source_count: number;
       commons_slug: string | null;
+      tier: "full" | "verified-hold" | "curated" | "listed";
+      provenance: "verified" | "machine-extracted" | null;
+      canonical_source: {
+        source_slug: string;
+        page_slug: string;
+        org: string;
+        year: string;
+        source_page_url: string;
+        live_status: string;
+      } | null;
+      canonical_archived: boolean;
+      excerpt: string | null;
+      note: string | null;
       sources: Array<{
         source_slug: string;
         org: string;
@@ -30,6 +46,8 @@ const { stats, by_letter, entries } = glossaryData as {
     }
   >;
 };
+
+const canonicalCount = stats.verified_hold_terms + stats.curated_terms;
 
 const letters = Object.keys(by_letter);
 const populatedLetters = new Set(letters);
@@ -46,7 +64,7 @@ const navLetters = [...A_TO_Z, "#"];
   <Breadcrumb trail={[{ href: "/", label: "Home" }, { label: "Glossary" }]} />
   <h1>Glossary</h1>
   <p class="subtitle">
-    Every term that appears in any source guide in the commons, A–Z. Terms with cross-source treatment in <strong>three or more</strong> guides have full commons entries — click to open. Single- and dual-source entries are listed inline so the corpus's long tail stays discoverable.
+    Every term that appears in any source guide in the commons, A–Z. Terms with cross-source treatment in <strong>three or more</strong> guides have full commons entries — click to open. Terms with at least one real source-guide definition point to a <strong>canonical source</strong> to consult. The rest are listed so the corpus's long tail stays discoverable.
   </p>
 
   <div class="stats-row" role="presentation">
@@ -59,8 +77,12 @@ const navLetters = [...A_TO_Z, "#"];
       <span class="stat-label">with full commons entries (≥3 sources)</span>
     </div>
     <div class="stat">
-      <span class="stat-num">{stats.long_tail_terms.toLocaleString()}</span>
-      <span class="stat-label">in the long tail (1–2 sources)</span>
+      <span class="stat-num">{canonicalCount.toLocaleString()}</span>
+      <span class="stat-label">pointing to a canonical source</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">{stats.listed_terms.toLocaleString()}</span>
+      <span class="stat-label">listed only</span>
     </div>
   </div>
 
@@ -112,13 +134,17 @@ const navLetters = [...A_TO_Z, "#"];
       <ul class="term-list">
         {by_letter[letter].map((termKey) => {
           const entry = entries[termKey];
-          const hasCommons = !!entry.commons_slug;
+          const hasCommons = entry.tier === "full" && !!entry.commons_slug;
+          const canon = entry.canonical_source;
+          const isCurated =
+            entry.tier === "verified-hold" || entry.tier === "curated";
           const showInline = !hasCommons && entry.sources.length > 0;
           return (
             <li
               class="term-row"
               data-coverage={entry.source_count}
               data-is-commons={hasCommons ? "true" : "false"}
+              data-tier={entry.tier}
             >
               <div class="term-main">
                 {hasCommons ? (
@@ -132,10 +158,39 @@ const navLetters = [...A_TO_Z, "#"];
                 <span class={`coverage-badge cov-${Math.min(entry.source_count, 5)}`}>
                   {entry.source_count} {entry.source_count === 1 ? "source" : "sources"}
                 </span>
+                {entry.tier === "verified-hold" && (
+                  <span class="tier-tag verified" title="Hand-verified excerpt">verified</span>
+                )}
+                {entry.tier === "curated" && (
+                  <span class="tier-tag curated" title="Excerpt extracted from the source's own glossary">from source glossary</span>
+                )}
               </div>
+              {isCurated && entry.excerpt && (
+                <p class="curated-excerpt">“{entry.excerpt}”</p>
+              )}
+              {isCurated && (
+                <p class="curated-meta">
+                  {canon ? (
+                    <>
+                      Canonical source:{" "}
+                      <a href={canon.source_page_url}>
+                        {canon.org}{canon.year ? ` (${canon.year})` : ""}
+                      </a>
+                      {entry.canonical_archived && (
+                        <span class="archived-hint"> · archived copy on the source page</span>
+                      )}
+                    </>
+                  ) : (
+                    <span class="archived-hint">canonical source currently unavailable</span>
+                  )}
+                </p>
+              )}
+              {isCurated && entry.note && (
+                <p class="curated-note">{entry.note}</p>
+              )}
               {showInline && (
                 <details class="sources-detail">
-                  <summary>Show sources</summary>
+                  <summary>Show {entry.sources.length === 1 ? "source" : "all sources"}</summary>
                   <ul class="sources-list">
                     {entry.sources.map((src) => (
                       <li class="source-row">
@@ -381,4 +436,38 @@ const navLetters = [...A_TO_Z, "#"];
   .source-year { color: var(--ink-muted); font-variant-numeric: tabular-nums; }
   .source-excerpt { color: var(--ink-soft); font-style: italic; }
   .source-excerpt-missing { color: var(--ink-muted); font-style: italic; font-size: 0.9em; }
+
+  /* Curated / verified-hold canonical-source blocks */
+  .tier-tag {
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: 0.1rem 0.4rem;
+    border-radius: 0.2rem;
+    border: 1px solid var(--rule);
+    color: var(--ink-muted);
+    white-space: nowrap;
+  }
+  .tier-tag.verified { color: var(--accent); border-color: var(--accent-soft); }
+  .curated-excerpt {
+    margin: 0.35rem 0 0.2rem;
+    color: var(--ink-soft);
+    font-style: italic;
+    font-size: 0.92rem;
+    max-width: 52rem;
+  }
+  .curated-meta {
+    margin: 0.15rem 0 0;
+    font-size: 0.85rem;
+    color: var(--ink-muted);
+  }
+  .curated-meta a { color: var(--accent); border-bottom: 1px dotted var(--accent-soft); text-decoration: none; }
+  .curated-meta a:hover { border-bottom-style: solid; }
+  .archived-hint { color: var(--ink-muted); font-style: italic; }
+  .curated-note {
+    margin: 0.2rem 0 0;
+    font-size: 0.8rem;
+    color: var(--ink-muted);
+    max-width: 52rem;
+  }
 </style>

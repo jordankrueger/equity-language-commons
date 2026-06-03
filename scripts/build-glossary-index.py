@@ -52,6 +52,21 @@ MATRIX_CSV = ROOT / "notes" / "term-coverage-matrix.csv"
 TERMS_DIR = ROOT / "site" / "src" / "content" / "terms"
 SOURCES_DIR = ROOT / "site" / "src" / "content" / "sources"
 OUT_PATH = ROOT / "site" / "src" / "data" / "glossary-index.json"
+OVERRIDES_YML = ROOT / "notes" / "curated-glossary-overrides.yml"
+
+# Precedence for picking a curated term's canonical source among its
+# structured-glossary ("glossary" extraction_method) sources. Most
+# comprehensive aggregator first, then domain-specific guides. Matched
+# against the resolved source page-slug with startswith(), so the short
+# form here matches both "hrc" and "hrc-glossary-2023-05".
+CANONICAL_PRECEDENCE = [
+    "diversity-style-guide",
+    "ncdj",
+    "hrc",
+    "nlgja",
+    "tja",
+    "radical-copyeditor",
+]
 
 # Maximum excerpt length per source, in characters. The matrix already
 # truncates to 150ish chars; we re-truncate at 220 for display.
@@ -128,6 +143,8 @@ def _build_org_lookup() -> tuple[dict[str, dict[str, str]], list[tuple[str, dict
             "year": year,
             "source_url": url,
             "page_slug": page_slug,
+            "live_status": fm.get("live_status", "live"),
+            "local_archive": fm.get("local_archive", ""),
         }
         exact[page_slug] = meta
         org_slug_fm = fm.get("org_slug")
@@ -161,19 +178,124 @@ def _resolve_source(
     }
 
 
-def _build_commons_lookup() -> dict[str, str]:
-    """Map term-slug → commons-page-slug for terms with .md files."""
-    lookup: dict[str, str] = {}
+def _build_commons_lookup() -> tuple[dict[str, str], dict[str, str]]:
+    """Map term-slug → commons-page-slug, split by publication state.
+
+    Returns:
+        (published, stub_display)
+        - published: slug → slug for term pages with `stub` falsy. These
+          are the `full`-tier pages that get a /terms/<slug>/ link.
+        - stub_display: slug → display-term for `stub:true` pages. These
+          are NOT full pages (they fall to `verified-hold` via the
+          overrides file); the display name is kept so the glossary can
+          render it nicely.
+    """
+    published: dict[str, str] = {}
+    stub_display: dict[str, str] = {}
     for path in sorted(TERMS_DIR.glob("*.md")):
         slug = path.stem
-        # Index by both the file stem and any aliases visible in
-        # frontmatter (the basic parser only sees scalar values, so
-        # alias arrays aren't read here — fine for current usage).
-        lookup[slug] = slug
-        # Compound-slug case: tribe.md indexed as 'tribe' should also
-        # match 'tribal' searches in the long-tail. Handled via aliases
-        # in the term file's display, not here.
-    return lookup
+        fm = _parse_frontmatter(path)
+        # The stub line often carries an inline comment
+        # ("stub: true  # TODO ..."), so match on the leading token.
+        is_stub = str(fm.get("stub", "")).strip().lower().startswith("true")
+        if is_stub:
+            stub_display[slug] = fm.get("term", slug.replace("-", " ").title())
+        else:
+            published[slug] = slug
+    return published, stub_display
+
+
+def _load_overrides() -> dict[str, dict[str, str]]:
+    """Parse notes/curated-glossary-overrides.yml with a minimal block
+    parser (no PyYAML). Expects flat structure: a top-level term key
+    (no indent, trailing colon) followed by indented `key: "value"`
+    scalar fields. Returns term → {canonical_source_slug, excerpt, note}.
+    """
+    overrides: dict[str, dict[str, str]] = {}
+    if not OVERRIDES_YML.exists():
+        return overrides
+    current: Optional[str] = None
+    for raw_line in OVERRIDES_YML.read_text(encoding="utf-8").splitlines():
+        if not raw_line.strip() or raw_line.lstrip().startswith("#"):
+            continue
+        if not raw_line[0].isspace():
+            # Top-level term key: "jew:"
+            key = raw_line.split(":", 1)[0].strip()
+            if key:
+                current = key.lower()
+                overrides[current] = {}
+            continue
+        if current is None or ":" not in raw_line:
+            continue
+        field, _, value = raw_line.strip().partition(":")
+        value = value.strip()
+        # Strip a single matching pair of surrounding quotes, then
+        # unescape the \" sequences the YAML used inside them.
+        if len(value) >= 2 and value[0] == value[-1] and value[0] in "\"'":
+            value = value[1:-1]
+        value = value.replace('\\"', '"')
+        overrides[current][field.strip()] = value
+    return overrides
+
+
+def _resolve_canonical(
+    source_slug: str,
+    exact: dict[str, dict[str, str]],
+    prefix: list[tuple[str, dict[str, str]]],
+) -> tuple[Optional[dict], bool]:
+    """Resolve a canonical source slug (from an override or a curated
+    pick) to a renderable canonical_source object + a resolved flag.
+
+    Returns (canonical_source | None, resolved). `resolved` is False when
+    the slug matches no real source page — the caller treats that as an
+    unresolved-override error (no broken /sources/ link emitted).
+    """
+    resolved = source_slug in exact or any(
+        source_slug == org_slug or source_slug.startswith(org_slug + "-")
+        for org_slug, _ in prefix
+    )
+    if not resolved:
+        return None, False
+    meta = _resolve_source(source_slug, exact, prefix)
+    page_slug = meta.get("page_slug", source_slug)
+    canonical = {
+        "source_slug": page_slug,
+        "page_slug": page_slug,
+        "org": meta.get("org", source_slug),
+        "year": meta.get("year", ""),
+        "source_page_url": f"/sources/{page_slug}/",
+        "live_status": meta.get("live_status", "live"),
+        "local_archive": meta.get("local_archive", ""),
+    }
+    return canonical, True
+
+
+def _pick_curated_canonical(
+    sources: list[dict],
+    exact: dict[str, dict[str, str]],
+    prefix: list[tuple[str, dict[str, str]]],
+) -> tuple[Optional[dict], str]:
+    """Among a term's structured-glossary sources, pick the canonical one
+    by CANONICAL_PRECEDENCE. Returns (canonical_source | None, excerpt).
+    None when the term has no `glossary`-method source.
+    """
+    glossary_sources = [
+        s for s in sources if s.get("extraction_method") == "glossary"
+    ]
+    if not glossary_sources:
+        return None, ""
+
+    def rank(src: dict) -> int:
+        page_slug = src.get("source_slug", "")
+        for i, pref in enumerate(CANONICAL_PRECEDENCE):
+            if page_slug == pref or page_slug.startswith(pref):
+                return i
+        return len(CANONICAL_PRECEDENCE)
+
+    glossary_sources.sort(key=rank)
+    chosen = glossary_sources[0]
+    canonical, _ = _resolve_canonical(chosen.get("source_slug", ""), exact, prefix)
+    return canonical, chosen.get("excerpt", "")
 
 
 def _display_form(term: str, commons_slug: Optional[str]) -> str:
@@ -345,6 +467,87 @@ def _truncate(text: str, max_chars: int = EXCERPT_MAX_CHARS) -> str:
     return text[: max_chars - 1].rstrip() + "…"
 
 
+def _apply_offline_policy(
+    entry: dict,
+    term: str,
+    canonical: dict,
+    tier: str,
+    offline: list[tuple[str, str, str]],
+) -> None:
+    """Apply the canonical source's live_status policy, mutating entry.
+
+    - live → expose the canonical pointer.
+    - offline/login-gated WITH a local archive → expose pointer + archived flag.
+    - offline WITHOUT a local archive → the failure mode:
+        curated → demote to `listed` (lose pointer, excerpt, provenance);
+        verified-hold → keep excerpt + note, drop the pointer only.
+      Either way, record the term in the offline report.
+    """
+    live_status = canonical.get("live_status", "live")
+    has_archive = bool(canonical.get("local_archive"))
+    # Strip the internal-only local_archive key before exposing.
+    public = {k: v for k, v in canonical.items() if k != "local_archive"}
+
+    if live_status == "offline" and not has_archive:
+        offline.append((tier, term, canonical.get("page_slug", "")))
+        if tier == "curated":
+            entry["tier"] = "listed"
+            entry["provenance"] = None
+            entry["excerpt"] = None
+            entry["canonical_source"] = None
+        else:  # verified-hold keeps its human-checked excerpt + note
+            entry["canonical_source"] = None
+        return
+
+    entry["canonical_source"] = public
+    if live_status in ("offline", "login-gated") and has_archive:
+        entry["canonical_archived"] = True
+
+
+def _assign_tier(
+    entry: dict,
+    term: str,
+    overrides: dict[str, dict[str, str]],
+    exact: dict[str, dict[str, str]],
+    prefix: list[tuple[str, dict[str, str]]],
+    unresolved: list[tuple[str, str]],
+    offline: list[tuple[str, str, str]],
+) -> None:
+    """Resolve an entry's tier and canonical source in place.
+
+    Precedence: full (published page) → verified-hold (override) →
+    curated (has a structured-glossary source) → listed (default).
+    """
+    if entry["commons_slug"]:
+        entry["tier"] = "full"
+        return
+
+    slug_dashed = term.replace(" ", "-")
+    override = overrides.get(term) or overrides.get(slug_dashed)
+    if override:
+        entry["tier"] = "verified-hold"
+        entry["provenance"] = "verified"
+        entry["excerpt"] = override.get("excerpt") or None
+        entry["note"] = override.get("note") or None
+        canonical, resolved = _resolve_canonical(
+            override.get("canonical_source_slug", ""), exact, prefix
+        )
+        if not resolved:
+            unresolved.append((term, override.get("canonical_source_slug", "")))
+            entry["canonical_source"] = None
+        else:
+            _apply_offline_policy(entry, term, canonical, "verified-hold", offline)
+        return
+
+    canonical, excerpt = _pick_curated_canonical(entry["sources"], exact, prefix)
+    if canonical is not None:
+        entry["tier"] = "curated"
+        entry["provenance"] = "machine-extracted"
+        entry["excerpt"] = excerpt or None
+        _apply_offline_policy(entry, term, canonical, "curated", offline)
+    # else: tier stays "listed" (set in the entry default)
+
+
 def build_index() -> dict:
     if not MATRIX_CSV.exists():
         raise SystemExit(
@@ -352,7 +555,11 @@ def build_index() -> dict:
         )
 
     exact_lookup, prefix_lookup = _build_org_lookup()
-    commons_lookup = _build_commons_lookup()
+    commons_lookup, stub_display = _build_commons_lookup()
+    overrides = _load_overrides()
+    # Build-time reports (printed to stderr, non-fatal).
+    unresolved_overrides: list[tuple[str, str]] = []
+    offline_reports: list[tuple[str, str, str]] = []
 
     entries: dict[str, dict] = {}
     coverage_histogram: dict[int, int] = {}
@@ -395,6 +602,12 @@ def build_index() -> dict:
                     "display": term,  # filled after grouping
                     "source_count": 0,
                     "commons_slug": None,
+                    "tier": "listed",            # full | verified-hold | curated | listed
+                    "provenance": None,          # verified | machine-extracted | None
+                    "canonical_source": None,
+                    "canonical_archived": False,
+                    "excerpt": None,             # canonical teaser (curated/verified-hold)
+                    "note": None,
                     "sources": [],
                 },
             )
@@ -429,33 +642,47 @@ def build_index() -> dict:
             deduped.append(src)
         entry["sources"] = deduped
         entry["source_count"] = len(deduped)
-        # Ultra-short terms are noise-prone — TV networks, file
-        # extensions, country codes, etc. all match 2-4 char keyword
-        # scans. Require more coverage to keep them:
-        #   ≤2 chars → need ≥3 sources
-        #   3-4 chars → need ≥2 sources
-        #   5+ chars → any count (including 1) is acceptable
-        if len(term) <= 2 and entry["source_count"] < 3:
-            continue
-        if 3 <= len(term) <= 4 and entry["source_count"] < 2:
-            continue
-        # Also drop if the term has zero remaining sources (the only
-        # hits were filtered as index-only).
-        if entry["source_count"] == 0:
-            continue
-        # Drop truncated multi-word phrases — the matrix's term-universe
-        # builder sometimes captures only the first few words of a
-        # longer DSG glossary entry (e.g. "accents and direct quotation
-        # of [dialect]" → indexed as "accents and direct quotation of").
-        # Terms with multiple words ending in a stop word are dropped.
-        words = term.split()
-        if len(words) >= 2 and words[-1].lower() in TRUNCATED_PHRASE_ENDINGS:
-            continue
-        # Resolve commons-page link.
         slug_dashed = term.replace(" ", "-")
+        # Hand-curated override terms always survive the noise filters —
+        # the override supplies the canonical excerpt even when matrix
+        # coverage is thin or the term is short (e.g. "jew").
+        is_override = term in overrides or slug_dashed in overrides
+        if not is_override:
+            # Ultra-short terms are noise-prone — TV networks, file
+            # extensions, country codes, etc. all match 2-4 char keyword
+            # scans. Require more coverage to keep them:
+            #   ≤2 chars → need ≥3 sources
+            #   3-4 chars → need ≥2 sources
+            #   5+ chars → any count (including 1) is acceptable
+            if len(term) <= 2 and entry["source_count"] < 3:
+                continue
+            if 3 <= len(term) <= 4 and entry["source_count"] < 2:
+                continue
+            # Also drop if the term has zero remaining sources (the only
+            # hits were filtered as index-only).
+            if entry["source_count"] == 0:
+                continue
+            # Drop truncated multi-word phrases — the matrix's term-universe
+            # builder sometimes captures only the first few words of a
+            # longer DSG glossary entry (e.g. "accents and direct quotation
+            # of [dialect]" → indexed as "accents and direct quotation of").
+            # Terms with multiple words ending in a stop word are dropped.
+            words = term.split()
+            if len(words) >= 2 and words[-1].lower() in TRUNCATED_PHRASE_ENDINGS:
+                continue
+        # Resolve commons-page link (published, non-stub pages only).
         if slug_dashed in commons_lookup:
             entry["commons_slug"] = commons_lookup[slug_dashed]
-        entry["display"] = _display_form(term, entry["commons_slug"])
+        # Display: published page name → stub page name → derived form.
+        if slug_dashed in stub_display:
+            entry["display"] = stub_display[slug_dashed]
+        else:
+            entry["display"] = _display_form(term, entry["commons_slug"])
+        # Tier + canonical-source resolution.
+        _assign_tier(
+            entry, term, overrides, exact_lookup, prefix_lookup,
+            unresolved_overrides, offline_reports,
+        )
         bucket = _letter_bucket(term)
         by_letter.setdefault(bucket, []).append(term)
         coverage_histogram[entry["source_count"]] = (
@@ -490,6 +717,12 @@ def build_index() -> dict:
             "display": display,
             "source_count": guidance_count,
             "commons_slug": commons_slug,
+            "tier": "full",
+            "provenance": None,
+            "canonical_source": None,
+            "canonical_archived": False,
+            "excerpt": None,
+            "note": None,
             "sources": [],  # full source list lives on the commons page
         }
         bucket = _letter_bucket(term)
@@ -502,12 +735,32 @@ def build_index() -> dict:
     for letter in by_letter:
         by_letter[letter].sort()
 
+    by_tier: dict[str, int] = {}
+    for e in entries.values():
+        by_tier[e["tier"]] = by_tier.get(e["tier"], 0) + 1
+
     stats = {
         "total_terms": len(entries),
-        "commons_terms": sum(1 for e in entries.values() if e["commons_slug"]),
+        "commons_terms": by_tier.get("full", 0),
+        "verified_hold_terms": by_tier.get("verified-hold", 0),
+        "curated_terms": by_tier.get("curated", 0),
+        "listed_terms": by_tier.get("listed", 0),
         "long_tail_terms": sum(1 for e in entries.values() if not e["commons_slug"]),
         "by_coverage": {str(k): v for k, v in sorted(coverage_histogram.items())},
     }
+
+    # Build-time reports (non-fatal — visible in deploy logs).
+    if unresolved_overrides:
+        print("UNRESOLVED OVERRIDE SOURCES:", file=sys.stderr)
+        for term, slug in sorted(unresolved_overrides):
+            print(f"  {term} -> {slug}", file=sys.stderr)
+    if offline_reports:
+        print(
+            "UNAVAILABLE CANONICAL SOURCES (offline, no archive):",
+            file=sys.stderr,
+        )
+        for tier, term, slug in sorted(offline_reports):
+            print(f"  [{tier}] {term} -> {slug}", file=sys.stderr)
 
     # Sort letter keys: A-Z then '#'.
     ordered_letters: dict[str, list[str]] = {}
@@ -533,8 +786,9 @@ def main() -> int:
     stats = data["stats"]
     print(f"wrote {OUT_PATH.relative_to(ROOT)}")
     print(
-        f"  total: {stats['total_terms']} | commons: {stats['commons_terms']} | "
-        f"long-tail: {stats['long_tail_terms']}"
+        f"  total: {stats['total_terms']} | full: {stats['commons_terms']} | "
+        f"verified-hold: {stats['verified_hold_terms']} | "
+        f"curated: {stats['curated_terms']} | listed: {stats['listed_terms']}"
     )
     print(f"  coverage histogram: {stats['by_coverage']}")
     return 0

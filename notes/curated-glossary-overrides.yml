@@ -1,0 +1,27 @@
+# Curated glossary overrides — sub-threshold terms we have hand-verified
+# and chosen to elevate above the raw long-tail. Each points to a canonical
+# internal source page (/sources/<slug>/). See the design spec:
+#   docs/superpowers/specs/2026-06-03-glossary-canonical-source-tiering-design.md
+#
+# Fields per term (term key = matrix-normalized form, lowercase, spaces):
+#   canonical_source_slug — resolves to a /sources/<slug>/ page
+#   excerpt               — clean, human-verified teaser (verbatim or faithful)
+#   note                  — why it is held below the 3-source bar
+#
+# Parsed by build-glossary-index.py with a minimal block parser (no PyYAML).
+# Keep it flat: one top-level term key, three indented scalar fields each.
+
+jew:
+  canonical_source_slug: "diversity-style-guide"
+  excerpt: "Use Jew for men and women. Never use \"jew\" as a verb (e.g. \"he jewed me down\") — that colloquial form is offensive. Many describe themselves as secular, cultural, or ethnic Jews."
+  note: "Two verified sources (Diversity Style Guide, SumOfUs), below the three-source bar. A Jewish-press or interfaith style guide would graduate it to a full page."
+
+islam:
+  canonical_source_slug: "diversity-style-guide"
+  excerpt: "Islam is the youngest of the three major monotheistic religions; its followers are Muslims. Not all Arabs are Muslim and not all Muslims are Arab. Do not use \"Islamist\" as a synonym for militants or extremists."
+  note: "Two distinct orgs (Diversity Style Guide, NABJ), below the three-source bar. Much of its don't-conflate teaching overlaps the Muslim page."
+
+tolerance:
+  canonical_source_slug: "sierra-club"
+  excerpt: "Avoid the frame of \"tolerance\" of differences — we should not be aiming to \"tolerate\" one another, but rather to celebrate our differences."
+  note: "Sierra Club is the only guide with a real entry; valuable but single-source, so it is folded into the index rather than shipped as a full page."
