@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-30T16:03:02+00:00",
+  "generated_at": "2026-06-03T14:14:24+00:00",
   "stats": {
-    "total_terms": 949,
-    "commons_terms": 57,
-    "long_tail_terms": 892,
+    "total_terms": 951,
+    "commons_terms": 60,
+    "long_tail_terms": 891,
     "by_coverage": {
       "1": 668,
       "2": 206,
-      "3": 58,
-      "4": 10,
+      "3": 59,
+      "4": 11,
       "5": 4,
       "6": 2,
       "8": 1
@@ -41,6 +41,7 @@
       "afrocentrism",
       "ageism",
       "agender",
+      "aging",
       "aids",
       "alaska native",
       "albinism",
@@ -311,6 +312,7 @@
     "e": [
       "eastern orthodox",
       "ebonics",
+      "elderly",
       "emancipation proclamation",
       "english only movement",
       "epilepsy",
@@ -1566,7 +1568,7 @@
       "term": "ageism",
       "display": "Ageism",
       "source_count": 2,
-      "commons_slug": null,
+      "commons_slug": "ageism",
       "sources": [
         {
           "source_slug": "gcjt",
@@ -1617,6 +1619,13 @@
           "extraction_method": "glossary"
         }
       ]
+    },
+    "aging": {
+      "term": "aging",
+      "display": "Aging",
+      "source_count": 3,
+      "commons_slug": "aging",
+      "sources": []
     },
     "aids": {
       "term": "aids",
@@ -6540,6 +6549,13 @@
           "extraction_method": "keyword"
         }
       ]
+    },
+    "elderly": {
+      "term": "elderly",
+      "display": "Elderly",
+      "source_count": 4,
+      "commons_slug": "elderly",
+      "sources": []
     },
     "emancipation proclamation": {
       "term": "emancipation proclamation",
