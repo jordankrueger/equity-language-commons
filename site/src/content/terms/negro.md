@@ -23,8 +23,8 @@ guidance:
     local_archive: "source-guides/discovered/sumofus-progressive-styleguide-2016.pdf"
     recommendation: "avoid"
     quote: "Negro"
-    quote_loc: "Words to avoid list (alongside Mestizo, Mulatto, Pardo, part-Indian, part-native)"
-    paraphrase: "SumOfUs lists 'Negro' among terms to avoid, grouped with other dated racial and mixed-ancestry descriptors (Mestizo, Mulatto, Pardo, part-Indian). The guide treats it as a term superseded by current usage rather than offering historical-context exceptions."
+    quote_loc: "Indigeneity/Ancestry section, 'Terms avoided/questioned by decolonization activists' table"
+    paraphrase: "SumOfUs lists 'Negro' in the avoided/questioned column of its decolonization-terminology table, alongside Mestizo, Pardo, and part-Indian — terms its Indigeneity/Ancestry section records as avoided or questioned by decolonization activists. The entry is a bare listing; SumOfUs offers no elaboration or historical-context exceptions for it."
     confidence: "VERIFIED-ARCHIVED"
 
   - org: "American Psychological Association"
@@ -62,7 +62,7 @@ contributors:
 
 ## Synthesis
 
-**Unanimous avoid as a descriptor for living people — with a carve-out every source that elaborates agrees on: proper names and historical references.** SumOfUs places "Negro" on its words-to-avoid list alongside other dated racial descriptors. APA groups it with "colored" and "Afro-American" as terms whose use is "generally inappropriate." The Diversity Style Guide gives the operative instruction: use African American or Black instead, never "Negro" (or "Negress") to describe a person — while keeping the term intact where it is part of a proper name or a historical reference, such as the National Council of Negro Women, the Negro National Anthem, or the United Negro College Fund.
+**Unanimous avoid as a descriptor for living people — with a carve-out every source that elaborates agrees on: proper names and historical references.** SumOfUs records "Negro" in the avoided/questioned column of its decolonization-terminology table, alongside other colonial-era ancestry labels. APA groups it with "colored" and "Afro-American" as terms whose use is "generally inappropriate." The Diversity Style Guide gives the operative instruction: use African American or Black instead, never "Negro" (or "Negress") to describe a person — while keeping the term intact where it is part of a proper name or a historical reference, such as the National Council of Negro Women, the Negro National Anthem, or the United Negro College Fund.
 
 The term's arc is unusually well documented. It was the standard, respectful term of the 17th through mid-20th centuries — the word of W.E.B. DuBois and Booker T. Washington, and of the civil-rights era's own institutions — before the Black Power movement of the late 1960s shifted preferred usage to "Black." That history is why the carve-out exists: organization names and primary-source quotations carry the term forward as a matter of record, not of current usage. Writers quoting King's speeches or naming historic institutions are using the record's language, which the guides distinguish from choosing the word today.
 

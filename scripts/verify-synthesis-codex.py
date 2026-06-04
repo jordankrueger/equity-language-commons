@@ -84,10 +84,13 @@ def resolve_archive(local_archive, org_slug):
     return cands[0] if cands else None
 
 
-def excerpt_for(quote, arch_path, context=40):
-    """±context raw lines around the first place the quote's opening words
-    appear (normalized, line-windowed). Falls back to the file head."""
+def excerpt_for(quote, arch_path, context=120):
+    """Whole archive when it's small enough (claims often draw on parts of
+    the source far from the quoted entry); otherwise ±context raw lines
+    around the first place the quote's opening words appear."""
     lines = open(arch_path, errors="replace").read().splitlines()
+    if len(lines) <= 2500:
+        return "\n".join(lines)
     probe = " ".join(norm(quote).split()[:6])
     if probe:
         for i in range(len(lines)):
@@ -114,7 +117,7 @@ def bundle_for(path):
         if not arch:
             continue
         quote = qm.group(1).replace('\\"', '"')
-        key = (arch, quote[:40])
+        key = arch
         if key in seen:
             continue
         seen.add(key)
@@ -124,14 +127,16 @@ def bundle_for(path):
     return "\n".join(parts)
 
 
-PROMPT_TEMPLATE = """/goal Audit one published reference page against its source excerpts and return a single JSON object listing every unsupported claim; stop when the JSON is emitted.
+PROMPT_TEMPLATE = """/goal Audit one published reference page against its source excerpts and return a single JSON object listing EVERY audited factual claim with its verdict (including SUPPORTED ones); stop when the JSON is emitted.
 
-You are auditing a reference page for hallucinations. Below you are given the page (frontmatter + prose) and excerpts from the primary sources it cites. For EVERY factual claim in the Synthesis section, Audience notes section, and each guidance entry's paraphrase field, classify it as:
+You are auditing a reference page for hallucinations. Below you are given the page (frontmatter + prose) and excerpts from the primary sources it cites. Audit ONLY factual claims — statements about the world or about what a source says: dates, statistics, coinages, legal facts, chronology, and characterizations of a cited source's position. Do NOT audit the page's own editorial advice, recommendations, or writing guidance ("writers should...", "use X when...", practical tips) — that is the author's voice, not a factual claim. For every factual claim in the Synthesis section, Audience notes section, and each guidance entry's paraphrase field, classify it as:
 - SUPPORTED: follows from the quoted/excerpted source material
 - EXTERNAL: a real-world claim not derivable from the provided sources (dates, coinages, legal facts, statistics the author added)
 - CONTRADICTED: conflicts with the provided source material
 
 For paraphrases, additionally flag any that misstate the cited source's position (treat that as CONTRADICTED with the evidence).
+
+Calibration: reserve EXTERNAL for CONCRETE checkable facts the sources do not contain — named entities, dates, numbers, statistics, events, legal/institutional facts, coinages, attributions. Interpretive syntheses, characterizations, and judgments about the corpus ("the sources agree...", "the arc is well documented", "this reads as...") are the author's analysis: classify them SUPPORTED when consistent with the sources, CONTRADICTED only when the sources actually conflict with them. Do not flag a claim merely because the sources don't state it in those words.
 
 Rules: do not rewrite the page; do not treat the page's own assertions as evidence; when an excerpt is too noisy to judge, use verdict EXTERNAL with evidence "source excerpt insufficient". Output ONLY one JSON object, no markdown fences, shaped:
 {{"page": "{slug}", "claims": [{{"text": "<claim, abbreviated ok>", "section": "synthesis|audience_notes|paraphrase:<org_slug>", "verdict": "SUPPORTED|EXTERNAL|CONTRADICTED", "evidence": "<one line>"}}]}}
