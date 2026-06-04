@@ -1,0 +1,193 @@
+# Layer 1 verification report
+
+- V1 quote-in-archive: 271 OK, 82 MISS, 22 truncated, 29 loose-match, 29 gapped(extraction noise), 0 no-archive
+- V2 confidence: 71 FAIL, 0 upgrade suggestions
+- V3 urls: 0 OK, 0 dead
+- V4 cross-ref: 0 FAIL, 9 year mismatches
+
+## Findings
+
+- **V1 TRUNCATED** `ableism` (apa): apa-inclusive-language-2023-10.md :: le with disabilities to inhibit their rights and well-being.
+- **V1 TRUNCATED** `addict` (gcjt): gcjt-style-guide-trauma-2021.md :: heroin addiction" is preferable to "she was a heroin addict.
+- **V1 MISS** `addict` (apa): apa-inclusive-language-2023-10.md :: Term to avoid: addict. Suggested alternatives: person who injects drug
+- **V2 FAIL** `addict` (apa): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 TRUNCATED** `addiction` (gcjt): gcjt-style-guide-trauma-2021.md :: heroin addiction" is preferable to "she was a heroin addict.
+- **V1 TRUNCATED** `ageism` (apa): apa-inclusive-language-2023-10.md :: olicies and practices that perpetuate stereotypical beliefs.
+- **V1 MISS** `alien` (sumofus): sumofus-progressive-styleguide-2016.md :: Terms avoided/questioned by immigrants rights activists: alien, an ill
+- **V2 FAIL** `alien` (sumofus): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `alien` (idp): idp-journalist-style-guide-2020.md :: PROBLEMATIC TERM: “Criminal alien.” “Alien” is an offensive term; and 
+- **V2 FAIL** `alien` (idp): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `alien` (idp): comm-unity-style-guide-2021.md :: PROBLEMATIC TERM: “Criminal alien.” “Alien” is an offensive term; and 
+- **V2 FAIL** `alien` (idp): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V4 YEAR-MISMATCH** `american-indian` (naja): entry year 2017 not on source page(s) ['naja.md']
+- **V1 MISS** `arab` (sierra-club): sierra-club-equity-language-guide-2021.md :: Muslim" is not synonymous with Arab; African American Muslims are the 
+- **V2 FAIL** `arab` (sierra-club): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 TRUNCATED** `arab` (apa): apa-inclusive-language-2023-10.md :: all cases, it is best to allow individuals to self-identify.
+- **V1 TRUNCATED** `asexual` (nlgja): nlgja-stylebook-lgbtq-2025-06.md :: gender; not synonymous with agender or gender-nonconforming.
+- **V1 TRUNCATED** `autism` (apa): apa-inclusive-language-2023-10.md :: he community until you can learn an individual's preference.
+- **V1 MISS** `bipoc` (ngc): native-governance-center-style-guide-2021-02.md :: Use Black, Indigenous, People of Color (BIPOC) rather than People of C
+- **V2 FAIL** `bipoc` (ngc): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `bipoc` (racial-equity-tools): racial-equity-tools-glossary-2023.md :: A term referring to 'Black and/or Indigenous People of Color.' While '
+- **V4 YEAR-MISMATCH** `black` (nabj): entry year 2020 not on source page(s) ['nabj-style-guide-2022-10.md']
+- **V4 YEAR-MISMATCH** `brown` (nabj): entry year 2020 not on source page(s) ['nabj-style-guide-2022-10.md']
+- **V1 MISS** `cisgender` (gcjt): gcjt-style-guide-trauma-2021.md :: When writing about a trans person, don't describe them as 'identifying
+- **V2 FAIL** `cisgender` (gcjt): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `cisgender` (sierra-club): sierra-club-equity-language-guide-2021.md :: Use the term 'cisgender' (rather than 'non-trans' or 'non-transgender'
+- **V2 FAIL** `cisgender` (sierra-club): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `cisgender` (diversity-style-guide): diversity-style-guide-2023-11.md :: A term used by some to describe people who are not transgender. 'Cis-'
+- **V2 FAIL** `cisgender` (diversity-style-guide): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `cisgender` (racial-equity-tools): racial-equity-tools-glossary-2023.md :: The term cisgender is not a slur. People who are not trans should avoi
+- **V2 FAIL** `cisgender` (racial-equity-tools): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `cisgender` (tja): tja-stylebook-2026-01.md :: A term coined by a biologist and used to describe someone whose gender
+- **V2 FAIL** `cisgender` (tja): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 TRUNCATED** `classism` (apa): apa-inclusive-language-2023-10.md :: nd practices that maintain inequality on the basis of class.
+- **V1 TRUNCATED** `colonialism` (apa): apa-inclusive-language-2023-10.md :: he way White people "colonized" people in the United States.
+- **V1 MISS** `convict` (idp): idp-journalist-style-guide-2020.md :: As health experts have noted, this carries a significant amount of sti // Alternatives: Person with a felony conviction.
+- **V2 FAIL** `convict` (idp): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `convict` (idp): comm-unity-style-guide-2021.md :: Alternatives: Person with a felony conviction.
+- **V2 FAIL** `convict` (idp): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `convict` (apa): apa-inclusive-language-2023-10.md :: Term to avoid: prisoner / convict. Suggested alternative: person who i
+- **V2 FAIL** `convict` (apa): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `crazy` (sumofus): sumofus-progressive-styleguide-2016.md :: nut, nut job, nutter, nutso
+- **V2 FAIL** `crazy` (sumofus): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `crazy` (apa): apa-inclusive-language-2023-10.md :: Term to avoid: crazy. Suggested alternatives: person living with a men
+- **V2 FAIL** `crazy` (apa): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 TRUNCATED** `deaf` (apa): apa-inclusive-language-2023-10.md :: he community until you can learn an individual's preference.
+- **V1 TRUNCATED** `disadvantaged` (apa): apa-inclusive-language-2023-10.md :: ersely, class solidarity exists in "poor people's movements.
+- **V1 MISS** `elderly` (apa): apa-inclusive-language-2023-10.md :: Term to avoid: the elderly. Suggested alternative: older adults.
+- **V2 FAIL** `elderly` (apa): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `felon` (idp): idp-journalist-style-guide-2020.md :: As health experts have noted, this carries a significant amount of sti // Alternatives: Person with a felony conviction.
+- **V2 FAIL** `felon` (idp): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `felon` (idp): comm-unity-style-guide-2021.md :: Alternatives: Person with a felony conviction.
+- **V2 FAIL** `felon` (idp): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `first-nations` (sumofus): sumofus-progressive-styleguide-2016.md :: The term 'First Nation(s)' is widely used and has for the most part re
+- **V2 FAIL** `first-nations` (sumofus): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `first-nations` (sumofus): sumofus-progressive-styleguide-2016.md :: Avoid vocabulary and usage that carries hierarchical valuation, descri // Similarly, do not say 'Canadian First Nations' as Canada is the coloni
+- **V2 FAIL** `first-nations` (sumofus): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `gay` (sierra-club): sierra-club-equity-language-guide-2021.md :: The Sierra Club uses 'LGBTQI' as a default term for people who identif
+- **V2 FAIL** `gay` (sierra-club): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 TRUNCATED** `gender-identity` (apa): apa-inclusive-language-2023-10.md :: herent sense of being nonbinary, a woman/girl, or a man/boy. // iduals. Gender identity is distinct from sexual orientation.
+- **V1 TRUNCATED** `ghetto` (apa): apa-inclusive-language-2023-10.md :: ghetto/the ghetto → underresourced area.
+- **V1 TRUNCATED** `ghetto` (color-of-change): color-of-change-black-families-narrative-2020.md :: orhood that white people should disparage, dismiss and fear.
+- **V1 TRUNCATED** `ghetto` (gcjt): gcjt-style-guide-trauma-2021.md :: s by describing a neighborhood or other area with precision.
+- **V1 MISS** `ghetto` (sumofus): sumofus-progressive-styleguide-2016.md :: ghetto (especially as an adv. or adj.)
+- **V2 FAIL** `ghetto` (sumofus): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `handicapped` (apa): apa-inclusive-language-2023-10.md :: Term to avoid: handicapped. Suggested alternative: person with a physi
+- **V2 FAIL** `handicapped` (apa): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `hispanic` (sierra-club): sierra-club-equity-language-guide-2021.md :: The Sierra Club defaults to 'Latino,' not 'Hispanic,' to describe peop // Please also note that the terms 'Latino/a/x' and 'Hispanic' are not si
+- **V2 FAIL** `hispanic` (sierra-club): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `illegal-alien` (sumofus): sumofus-progressive-styleguide-2016.md :: Terms avoided/questioned by immigrants rights activists: alien · an il
+- **V2 FAIL** `illegal-alien` (sumofus): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `illegal-alien` (define-american): define-american-media-reference-2024-01.md :: Problematic Terms: illegals, illegal immigrant, alien, illegal alien. 
+- **V2 FAIL** `illegal-alien` (define-american): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `illegal-immigrant` (color-of-change): color-of-change-antiracist-protest-reporting-2020.md :: [Use] UNDOCUMENTED PERSON [not] ILLEGAL IMMIGRANT.
+- **V1 MISS** `illegal-immigrant` (idp): idp-journalist-style-guide-2020.md :: PROBLEMATIC TERM: “Illegal immigrant.” This term ignores the complexit
+- **V2 FAIL** `illegal-immigrant` (idp): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `illegal-immigrant` (define-american): define-american-media-reference-2024-01.md :: Problematic Terms: illegals, illegal immigrant, alien, illegal alien
+- **V2 FAIL** `illegal-immigrant` (define-american): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `indian` (sumofus): sumofus-progressive-styleguide-2016.md :: The term “Indian” is outdated and should be replaced by the term “Firs
+- **V2 FAIL** `indian` (sumofus): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `indigenous` (naja): naja-indigenous-terminology-2023-06.md :: These factors make the words 'Indigenous' and 'Aboriginal' identities,
+- **V4 YEAR-MISMATCH** `indigenous` (naja): entry year 2017 not on source page(s) ['naja.md']
+- **V1 MISS** `indigenous` (sierra-club): sierra-club-equity-language-guide-2021.md :: Generally speaking, the Sierra Club uses 'Tribal' to refer to Native p
+- **V2 FAIL** `indigenous` (sierra-club): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `indigenous` (sierra-club): sierra-club-equity-language-guide-2021.md :: Indian' or 'Indian Country': Similarly, though many Tribal peoples may
+- **V2 FAIL** `indigenous` (sierra-club): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `indigenous` (sumofus): sumofus-progressive-styleguide-2016.md :: Indigenous' is internationally inclusive for all Indigenous peoples.
+- **V2 FAIL** `indigenous` (sumofus): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `indigenous` (gcjt): gcjt-style-guide-trauma-2021.md :: The Native American Journalist Association (NAJA) encourages newsrooms
+- **V4 YEAR-MISMATCH** `indigenous` (radical-copyeditor): entry year 2020 not on source page(s) ['radical-copyeditor.md']
+- **V1 MISS** `inmate` (color-of-change): color-of-change-antiracist-protest-reporting-2020.md :: INCARCERATED PERSON [use] / INMATE [avoid].
+- **V2 FAIL** `inmate` (color-of-change): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 TRUNCATED** `inmate` (gcjt): gcjt-style-guide-trauma-2021.md :: find out if an individual/individuals favor a specific term.
+- **V1 MISS** `inmate` (sumofus): sumofus-progressive-styleguide-2016.md :: Terms used by police, and incarceration reform activists: formerly inc
+- **V2 FAIL** `inmate` (sumofus): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `insane` (apa): apa-inclusive-language-2023-10.md :: Term to avoid: insane. Suggested alternative: person with a preexistin
+- **V2 FAIL** `insane` (apa): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `intersex` (sierra-club): sierra-club-equity-language-guide-2021.md :: The Sierra Club uses 'LGBTQI' as a default term for people who identif
+- **V2 FAIL** `intersex` (sierra-club): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 TRUNCATED** `islamophobia` (apa): apa-inclusive-language-2023-10.md ::  ideas portray Islam and Muslims as a threat to non-Muslims.
+- **V1 MISS** `latine` (diversity-style-guide): diversity-style-guide-2023-11.md :: Latine is a gender-neutral or non-binary alternative to Latino and Lat
+- **V1 MISS** `latino` (sierra-club): sierra-club-equity-language-guide-2021.md :: The Sierra Club defaults to 'Latino,' not 'Hispanic,' to describe peop // Latina' is the feminine version of 'Latino,' and should be used when d
+- **V2 FAIL** `latino` (sierra-club): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `latinx` (sierra-club): sierra-club-equity-language-guide-2021.md :: Some people use the term 'Latinx' as a gender-neutral alternative to L
+- **V2 FAIL** `latinx` (sierra-club): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `latinx` (sierra-club): sierra-club-equity-language-guide-2021.md :: The Sierra Club defaults to 'Latino,' not 'Hispanic,' to describe peop
+- **V2 FAIL** `latinx` (sierra-club): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `mental-illness` (apa): apa-inclusive-language-2023-10.md :: Term to avoid: mentally ill. Suggested alternative: person living with
+- **V2 FAIL** `mental-illness` (apa): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `minority` (sierra-club): sierra-club-equity-language-guide-2021.md :: Minority: According to Race Forward, 'Defining people of color as ‘min
+- **V2 FAIL** `minority` (sierra-club): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `minority` (diversity-style-guide): diversity-style-guide-2023-11.md :: These terms have historically referred to non-White racial groups, ind
+- **V1 MISS** `minority` (racial-equity-tools): racial-equity-tools-glossary-2023.md :: Many of the terms in this glossary have evolved over time. For example
+- **V4 YEAR-MISMATCH** `native-american` (naja): entry year 2017 not on source page(s) ['naja.md']
+- **V1 MISS** `native-american` (ngc): native-governance-center-style-guide-2021-02.md :: Refer to our organization as Native-led, rather than Native American-l
+- **V2 FAIL** `native-american` (ngc): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `native-american` (sierra-club): sierra-club-equity-language-guide-2021.md :: Be sure to capitalize 'Tribe' or 'Tribal' as well as 'Native' and 'Ind
+- **V2 FAIL** `native-american` (sierra-club): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 TRUNCATED** `native-american` (gcjt): gcjt-style-guide-trauma-2021.md :: ion. Headlines should refer to tribes by their proper names.
+- **V1 MISS** `offender` (idp): idp-journalist-style-guide-2020.md :: As health experts have noted, this carries a significant amount of sti // Alternatives: Person with a felony conviction.
+- **V2 FAIL** `offender` (idp): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `offender` (idp): comm-unity-style-guide-2021.md :: Alternatives: Person with a felony conviction.
+- **V2 FAIL** `offender` (idp): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `offender` (sierra-club): sierra-club-equity-language-guide-2021.md :: Phrases to use instead: formerly incarcerated person · incarcerated pe
+- **V2 FAIL** `offender` (sierra-club): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `offender` (sumofus): sumofus-progressive-styleguide-2016.md :: Terms avoided/questioned by police, and incarceration reform activists
+- **V2 FAIL** `offender` (sumofus): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `people-of-color` (sierra-club): sierra-club-equity-language-guide-2021.md :: People of color' has in the past served as a collective term for peopl // Either term, PoC or BIPOC, is acceptable for use at the Sierra Club
+- **V2 FAIL** `people-of-color` (sierra-club): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `people-of-color` (racial-equity-tools): racial-equity-tools-glossary-2023.md :: Often the preferred collective term for referring to non-White racial 
+- **V1 MISS** `people-with-disabilities` (seiu): seiu-stylebook-2020-01.md :: disabled\nCorrect:\npeople with disabilities
+- **V2 FAIL** `people-with-disabilities` (seiu): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 TRUNCATED** `people-with-disabilities` (apa): apa-inclusive-language-2023-10.md ::  first applied to issues regarding people with disabilities.
+- **V1 MISS** `pronouns` (interact): interact-intersex-media-guide-2017.md :: Some intersex people may choose to use gender pronouns other than 'he'
+- **V2 FAIL** `pronouns` (interact): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `pronouns` (apa): apa-inclusive-language-2023-10.md :: Do not use the term 'preferred pronouns' because this implies a choice // use the singular 'they' to avoid making assumptions about an individua
+- **V2 FAIL** `pronouns` (apa): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `pronouns` (tja): tja-stylebook-2026-01.md :: Avoid the phrase preferred pronouns. Someone's pronouns are not a pref
+- **V2 FAIL** `pronouns` (tja): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `queer` (sierra-club): sierra-club-equity-language-guide-2021.md :: If someone identifies as 'queer' — an identity that has been reclaimed
+- **V2 FAIL** `queer` (sierra-club): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `reservation` (sierra-club): sierra-club-equity-language-guide-2021.md :: On the rez': The term 'rez' (meaning reservation) should never be used
+- **V2 FAIL** `reservation` (sierra-club): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V4 YEAR-MISMATCH** `reservation` (naja): entry year 2017 not on source page(s) ['naja.md']
+- **V1 MISS** `reservation` (racial-equity-tools): racial-equity-tools-glossary-2023.md :: Indian reservations are recognized as what can be termed 'nations with
+- **V1 MISS** `retarded` (apa): apa-inclusive-language-2023-10.md :: Term to avoid: mentally retarded. Suggested alternative: child with a 
+- **V2 FAIL** `retarded` (apa): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `sexual-orientation` (sumofus): sumofus-progressive-styleguide-2016.md :: sex worker · sexual orientation · slut, slut-shaming (if this is how a
+- **V2 FAIL** `sexual-orientation` (sumofus): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `sexual-orientation` (apa): apa-inclusive-language-2023-10.md ::  The term 'homosexual' is outdated and should not be used to describe 
+- **V1 TRUNCATED** `slavery` (apa): apa-inclusive-language-2023-10.md ::  bias-free language guidelines for writing about disability.
+- **V1 TRUNCATED** `stereotypes` (color-of-change): color-of-change-black-families-narrative-2020.md :: ty and to blame Black people for social unrest and violence.
+- **V1 MISS** `systemic-racism` (apa): apa-inclusive-language-2023-10.md :: that marginalizes and subjugates nondominant racial groups in a given 
+- **V2 FAIL** `systemic-racism` (apa): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `transgender` (gcjt): gcjt-style-guide-trauma-2021.md :: When writing about a trans person, don't describe them as 'identifying
+- **V2 FAIL** `transgender` (gcjt): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `transgender` (sierra-club): sierra-club-equity-language-guide-2021.md :: There are regional and cultural differences for using the terms 'trans
+- **V2 FAIL** `transgender` (sierra-club): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `transgender` (racial-equity-tools): racial-equity-tools-glossary-2023.md :: Often shortened to trans, from the Latin prefix for 'on a different si
+- **V2 FAIL** `transgender` (racial-equity-tools): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `tribe` (ngc): native-governance-center-style-guide-2021-02.md :: Capitalize the words Tribe and Tribal, regardless of whether they appe
+- **V2 FAIL** `tribe` (ngc): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `tribe` (sierra-club): sierra-club-equity-language-guide-2021.md :: When referring collectively to more than one Tribe, use the term 'Trib
+- **V2 FAIL** `tribe` (sierra-club): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `tribe` (sierra-club): sierra-club-equity-language-guide-2021.md :: The term 'tribalism' to describe extreme group loyalty. Use 'partisans
+- **V2 FAIL** `tribe` (sierra-club): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `tribe` (naja): naja-indigenous-terminology-2023-06.md :: Reporters should identify Indigenous people by their specific tribes, 
+- **V2 FAIL** `tribe` (naja): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V4 YEAR-MISMATCH** `tribe` (naja): entry year 2017 not on source page(s) ['naja.md']
+- **V1 TRUNCATED** `tribe` (gcjt): gcjt-style-guide-trauma-2021.md :: ion. Headlines should refer to tribes by their proper names.
+- **V1 MISS** `tribe` (apa): apa-inclusive-language-2023-10.md :: When writing about Indigenous Peoples, use the names that they call th
+- **V1 MISS** `undocumented-immigrant` (idp): idp-journalist-style-guide-2020.md :: PROBLEMATIC TERM: “Illegal immigrant. // ALTERNATIVES: Undocumented immigrant, Immigrant without current status
+- **V2 FAIL** `undocumented-immigrant` (idp): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `undocumented-immigrant` (idp): comm-unity-style-guide-2021.md :: PROBLEMATIC TERM: “Illegal immigrant.” This term ignores the complexit
+- **V2 FAIL** `undocumented-immigrant` (idp): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `undocumented-immigrant` (define-american): define-american-media-reference-2024-01.md :: Problematic Terms: illegals, illegal immigrant, alien, illegal alien. 
+- **V2 FAIL** `undocumented-immigrant` (define-american): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `unhoused-homeless` (sumofus): sumofus-progressive-styleguide-2016.md :: homeless person [used] / the homeless [avoided] / transient [avoided]
+- **V2 FAIL** `unhoused-homeless` (sumofus): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `urban` (sierra-club): sierra-club-equity-language-guide-2021.md :: Use caution with terms that may subtly evoke and reinforce racial ster
+- **V2 FAIL** `urban` (sierra-club): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V1 MISS** `victim` (apa): apa-inclusive-language-2023-10.md :: Term to avoid: AIDS victim. Suggested alternative: person with AIDS.
+- **V2 FAIL** `victim` (apa): labeled VERIFIED-ARCHIVED but quote not found in archive
+- **V4 YEAR-MISMATCH** `white` (nabj): entry year 2020 not on source page(s) ['nabj-style-guide-2022-10.md']

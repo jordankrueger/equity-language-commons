@@ -26,7 +26,7 @@ guidance:
     source_url: null
     local_archive: "source-guides/discovered/sumofus-progressive-styleguide-2016.pdf"
     recommendation: "use"
-    quote: "yy non-cisgender, cisgender"
+    quote: "non-cisgender, cisgender"
     quote_loc: "Gender/Sex section, accepted terms list"
     paraphrase: "SumOfUs lists 'cisgender' on its accepted-terms list for the Gender/Sex section, paired with 'non-cisgender' as a parallel construction. The guide treats cisgender as the standard term for people whose gender identity matches their sex assigned at birth, consistent with the broader rule to use specific terms tied to self-identification."
     confidence: "VERIFIED-ARCHIVED"

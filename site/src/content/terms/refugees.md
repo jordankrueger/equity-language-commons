@@ -58,7 +58,7 @@ guidance:
     local_archive: "source-guides/discovered/tja-stylebook-2026-01.md"
     recommendation: "use-with-care"
     derived_from: []
-    quote: "When writing about asylum seekers who are transgender or otherwise gender-expansive, make sure to ask about gendered language (whether pronouns or titles, etc.) as well as what term they use to describe themselves… Always double-check with a source before including their last name."
+    quote: "When writing about asylum seekers who are transgender or otherwise gender-expansive, make sure to ask about gendered language (whether pronouns or titles, etc.) as well as what term they use to describe themselves… Always double-check with a source before including their last name in the story in case the published information may jeopardize their asylum application."
     quote_loc: "Reporting on asylum seekers or refugees"
     paraphrase: "The Trans Journalists Association does not object to 'refugee' but adds a self-identification and safety layer when reporting on trans or gender-expansive refugees and asylum seekers: ask which terms and gendered language a person uses for themselves, recognize that language varies across cultures, and protect identifying details that could jeopardize an asylum claim or endanger the person's community back home."
     confidence: "VERIFIED-ARCHIVED"

@@ -31,7 +31,7 @@ guidance:
     source_url: null
     local_archive: "source-guides/discovered/sumofus-progressive-styleguide-2016.pdf"
     recommendation: "use"
-    quote: "yy sex worker yy sexual orientation yy slut, slut-shaming (if this is how a person or group self-identifies) yy they, them, their yy third gender"
+    quote: "sex worker · sexual orientation · slut, slut-shaming (if this is how a person or group self-identifies) · they, them, their · third gender"
     quote_loc: "Gender/Sex section, accepted terms list"
     paraphrase: "SumOfUs lists 'sexual orientation' on its accepted-terms list for the Gender/Sex section, alongside 'they, them, their' and other self-identification-keyed terms. The guide's broader Gender/Sex rule is to not assume heterosexual orientation and to use specific identity terms (lesbian, gay man, bisexual woman) rather than defaulting to umbrella categories."
     confidence: "VERIFIED-ARCHIVED"
@@ -55,8 +55,8 @@ guidance:
     source_url: "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guidelines"
     local_archive: "source-guides/discovered/apa-inclusive-language-2023-10.md"
     recommendation: "use"
-    quote: "Identity categories covered: … Sexual orientation and gender diversity"
-    quote_loc: "Major content sections, identity categories list"
+    quote: "Refer 'to an enduring disposition to experience sexual, affectional, or romantic attractions to nonbinary people, women, or men…' The term 'homosexual' is outdated and should not be used to describe a person's sexual orientation."
+    quote_loc: "Sexual Orientation glossary, 'sexual orientation and identity' definition"
     paraphrase: "APA treats sexual orientation as one of the seven identity categories its inclusive-language guide covers, paired with gender diversity as a companion topic. The guide's broader principles for the category center self-identification and intersectionality — choose specific terms over umbrella categories, defer to how the subject identifies, and recognize that orientation interacts with race, disability, and other identities."
     confidence: "SUMMARY-ONLY"
 

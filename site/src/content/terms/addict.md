@@ -35,7 +35,7 @@ guidance:
     local_archive: "source-guides/discovered/ncdj-disability-style-guide-2021.md"
     recommendation: "avoid"
     derived_from: []
-    quote: "It is preferable to refer to someone who harmfully uses drugs as \"someone with a drug addiction\" rather than an \"addict.\" … Avoid \"alcoholic\", \"addict\", \"user\" and \"abuser\" unless individuals prefer those terms for themselves or if they occur in quotations or names of organizations."
+    quote: "It is preferable to refer to someone who harmfully uses drugs as \"someone with a drug addiction\" rather than an \"addict.\" … Avoid \"alcoholic\", \"addict\", \"user\" and \"abuser\" unless individuals prefer those terms for themselves or if they occur in quotations or names of organizations, such as Alcoholics Anonymous."
     quote_loc: "\"Addict/addiction\" entry, NCDJ Recommendation + Conforms to AP style"
     paraphrase: "NCDJ — the chapter's anchor source — prefers \"someone with a drug addiction\" to the noun \"addict,\" and following AP, advises avoiding \"alcoholic,\" \"addict,\" \"user,\" and \"abuser\" unless a person uses those terms for themselves, or they appear in quotations or organization names such as Alcoholics Anonymous."
     confidence: "VERIFIED-ARCHIVED"

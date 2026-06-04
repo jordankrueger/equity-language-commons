@@ -46,7 +46,7 @@ guidance:
     source_url: "https://www.diversitystyleguide.com/glossary/negro/"
     local_archive: "source-guides/discovered/diversity-style-guide-2023-11.md"
     recommendation: "avoid"
-    quote: "Use African American or black. Do not use to describe a person of African descent. Do not use Negress. Term acceptable in organization names and historical references, for example, National Council of Negro Women or Negro National Anthem."
+    quote: "Use African American or black. Do not use to describe a person of African descent. Do not use Negress. … Term acceptable in organization names and historical references, for example, National Council of Negro Women or Negro National Anthem."
     quote_loc: "Negro glossary entry (lines 2629–2631 in archived markdown)"
     paraphrase: "DSG directs writers to African American or black, and bars 'Negro' and 'Negress' as descriptors for living people — while preserving the term in proper organization names (National Council of Negro Women) and historical references (Negro National Anthem). The entry traces the term's arc from the standard 17th–19th-century usage of DuBois and Booker T. Washington to its decline after the 1960s Black Power movement."
     confidence: "VERIFIED"

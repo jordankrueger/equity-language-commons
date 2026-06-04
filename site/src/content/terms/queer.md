@@ -29,7 +29,7 @@ guidance:
     source_url: null
     local_archive: "source-guides/discovered/sumofus-progressive-styleguide-2016.pdf"
     recommendation: "reclaimed-in-community"
-    quote: "Be mindful of appropriate and respectful in-group versus out-group naming. Queer is an acceptable in-group term but it is often better to refer to queer communities rather than calling an individual queer unless they have already told you this is how they identify. … When referring to the broader community, queer (as in queer people) or LGBTQ (as in LGBTQ people) is appropriate."
+    quote: "Be mindful of appropriate and respectful in-group versus out-group naming. Queer is an acceptable in-group term but it is often better to refer to queer communities rather than calling an individual queer unless they have already told you this is how they identify. … When referring to the broader community, queer (as in queer people) or LGBTQ (as in LGBTQ people) is appropriate …"
     quote_loc: "Gender/Sex section, Central Principles"
     paraphrase: "SumOfUs treats queer as a valid in-group term and an acceptable umbrella for the broader LGBTQ community, but draws a careful line at applying it to individuals: prefer 'queer communities' to 'a queer person' unless the individual has self-identified that way. The guide's preferred-terms list includes queer as an accepted in-group identifier."
     confidence: "VERIFIED-ARCHIVED"

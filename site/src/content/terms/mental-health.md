@@ -25,7 +25,7 @@ guidance:
     local_archive: "source-guides/discovered/sumofus-progressive-styleguide-2016.pdf"
     recommendation: "use-with-care"
     derived_from: []
-    quote: "it is therefore paramount to use people-first language, to reject a purely “medical” framing of disability, to always use disability and mental health terminology accurately, and to use narratives that support people with disabilities in building power."
+    quote: "it is therefore paramount to use people-first language, to reject a purely “medical” framing of disability, to always use disability and mental health terminology accurately, and to use narratives that support people with disabilities in building power …"
     quote_loc: "Disability section, Anti-ableism framework"
     paraphrase: "SumOfUs treats mental health alongside disability under one anti-ableism framework: use people-first language, use mental health terminology accurately, and avoid deploying it metaphorically — especially as an insult or flippantly."
     confidence: "VERIFIED-ARCHIVED"

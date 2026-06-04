@@ -21,7 +21,7 @@ guidance:
     local_archive: "source-guides/discovered/apa-inclusive-language-2023-10.pdf"
     recommendation: "use"
     derived_from: []
-    quote: "The assignment of characteristics of worth and ability on the basis of actual or perceived social class and the attitudes, policies, and practices that maintain inequality on the basis of class. … Classism serves to define and reinforce social class groups."
+    quote: "The assignment of characteristics of worth and ability on the basis of actual or perceived social class and the attitudes, policies, and practices that maintain inequality on the basis of class. … Classism serves to define and reinforce social class groups. …"
     quote_loc: "Socioeconomic Status glossary, \"classism\" definition"
     paraphrase: "APA's second edition defines classism in its Socioeconomic Status glossary as the assignment of worth and ability on the basis of social class, plus the attitudes, policies, and practices that maintain class inequality. It locates classism across interpersonal interactions, education, housing, health care, and public policy — naming it as standard vocabulary."
     confidence: "VERIFIED-ARCHIVED"
@@ -57,7 +57,7 @@ guidance:
     local_archive: "source-guides/discovered/racial-equity-tools-glossary-2023.md"
     recommendation: "use"
     derived_from: []
-    quote: "Differential treatment based on social class or perceived social class. Classism is the systematic oppression of subordinated class groups to advantage and strengthen the dominant class groups. … Policies and practices are set up to benefit more class-privileged people at the expense of the less class-privileged people."
+    quote: "Differential treatment based on social class or perceived social class. Classism is the systematic oppression of subordinated class groups to advantage and strengthen the dominant class groups. … Policies and practices are set up to benefit more class-privileged people at the expense of the less class-privileged people …"
     quote_loc: "Classism glossary entry (source: Class Action)"
     paraphrase: "Racial Equity Tools, citing Class Action, defines classism as the systematic oppression of subordinated class groups to advantage the dominant ones — operating through policies and practices that benefit class-privileged people and produce wealth inequality, plus the culture that perpetuates those systems."
     confidence: "VERIFIED-ARCHIVED"

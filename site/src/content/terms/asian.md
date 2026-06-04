@@ -24,7 +24,7 @@ guidance:
     source_url: null
     local_archive: "source-guides/CaseyStyleManualComplete.pdf"
     recommendation: "use"
-    quote: "For nouns: African American, Asian American, black, Hispanic, Latino, Native American, non-Hispanic white, white (do not use Caucasian)."
+    quote: "For nouns: African American, Asian American, black, Hispanic, Latino, Native American, non-Hispanic white, white (do not use Caucasian) …"
     quote_loc: "p. 14, Race and Ethnicity"
     paraphrase: "Casey lists 'Asian American' (no hyphen) among approved racial/ethnic nouns. The guide treats 'Asian' chiefly as the adjective and 'Asian American' as the noun form, in line with US usage where the standalone 'Asian' reads as broader than the American-context identity term."
     confidence: "VERIFIED-ARCHIVED"

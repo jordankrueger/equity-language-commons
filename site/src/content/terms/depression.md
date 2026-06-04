@@ -24,7 +24,7 @@ guidance:
     local_archive: "source-guides/Equity Language Guide Sierra Club 2021.pdf"
     recommendation: "use-with-care"
     derived_from: []
-    quote: "Use \"disheartening\" or \"sad\" instead of \"depressing.\""
+    quote: "Use \"disheartening\" or \"sad\" instead of \"depressing\" …"
     quote_loc: "Word Choice list, p. 6"
     paraphrase: "Sierra Club's word-choice list gives the colloquial-use rule in one line: reach for \"disheartening\" or \"sad\" rather than \"depressing\" in everyday writing, reserving clinical-mental-health vocabulary for the diagnosed condition."
     confidence: "VERIFIED-ARCHIVED"

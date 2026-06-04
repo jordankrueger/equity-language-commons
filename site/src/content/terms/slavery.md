@@ -31,7 +31,7 @@ guidance:
     local_archive: "source-guides/discovered/apa-inclusive-language-2023-10.pdf"
     recommendation: "use-with-care"
     derived_from: []
-    quote: "slave / person who is/was enslaved … For more information on person-first and identity-first language, please refer to the APA bias-free language guidelines."
+    quote: "slave / person who is/was enslaved … For more information on person-first and identity-first language, please refer to the APA bias-free language guidelines for writing about disability."
     quote_loc: "Person-first vs. dehumanizing language table, p. 10"
     paraphrase: "APA places \"slave\" in its table of dehumanizing terms paired with the preferred person-first form, \"person who is/was enslaved\" — alongside parallel pairs like \"prisoner\"/\"person who is incarcerated.\" The guidance treats the noun as a label to revise rather than a word to ban outright, and points to its broader person-first guidelines."
     confidence: "VERIFIED-ARCHIVED"

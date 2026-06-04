@@ -37,7 +37,7 @@ guidance:
     local_archive: "source-guides/discovered/apa-inclusive-language-2023-10.pdf"
     recommendation: "use"
     derived_from: []
-    quote: "A person's psychological sense of their gender. Many people describe gender identity as a deeply felt, inherent sense of being nonbinary, a woman/girl, or a man/boy. … Gender identity applies to all individuals and is not a characteristic of only transgender or nonbinary individuals. Gender identity is distinct from sexual orientation."
+    quote: "A person's psychological sense of their gender. Many people describe gender identity as a deeply felt, inherent sense of being nonbinary, a woman/girl, or a man/boy. … Gender identity applies to all individuals and is not a characteristic of only transgender or nonbinary individuals. Gender identity is distinct from sexual orientation. …"
     quote_loc: "Gender identity definition"
     paraphrase: "APA defines gender identity as a person's psychological, deeply felt sense of their own gender, and stresses two boundaries: it applies to everyone, not only transgender or nonbinary people, and it is distinct from sexual orientation — the two must not be conflated. Identities may or may not correspond to sex assigned at birth."
     confidence: "VERIFIED-ARCHIVED"

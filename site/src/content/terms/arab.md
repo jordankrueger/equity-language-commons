@@ -46,7 +46,7 @@ guidance:
     local_archive: "source-guides/discovered/apa-inclusive-language-2023-10.pdf"
     recommendation: "use"
     derived_from: []
-    quote: "This category \"includes all individuals who identify with one or more nationalities or ethnic groups with origins in Arabia, the Middle East, and North Africa.\" … When writing about people of MENA descent, state the nation of origin … In all cases, it is best to allow individuals to self-identify."
+    quote: "This category \"includes all individuals who identify with one or more nationalities or ethnic groups with origins in Arabia, the Middle East, and North Africa.\" … When writing about people of MENA descent, state the nation of origin … In all cases, it is best to allow individuals to self-identify. …"
     quote_loc: "Glossary: American Arab, Middle Eastern, and North African (AMENA)"
     paraphrase: "APA places Arab within the broader AMENA (Arab, Middle Eastern, and North African) category, defined by nationality and ethnic origin in Arabia, the Middle East, and North Africa. It advises naming the specific nation of origin where possible — and, above all, deferring to how individuals self-identify."
     confidence: "VERIFIED-ARCHIVED"

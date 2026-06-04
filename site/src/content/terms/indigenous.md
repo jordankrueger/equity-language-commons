@@ -72,7 +72,7 @@ guidance:
     source_url: "https://naja.com/"
     local_archive: "source-guides/discovered/naja-indigenous-terminology-2023-06.pdf"
     recommendation: "use"
-    quote: "These factors make the words 'Indigenous' and 'Aboriginal' identities, not adjectives, and NAJA urges outlets to capitalize these terms in order to avoid confusion between indigenous plants and animals and Indigenous human beings. Avoid referring to Indigenous people as possessions of states or countries."
+    quote: "These factors make the words 'Indigenous' and 'Aboriginal' identities, not adjectives, and NAJA urges outlets to capitalize these terms in order to avoid confusion between indigenous plants and animals and Indigenous human beings. … avoid referring to Indigenous people as possessions of states or countries."
     quote_loc: "Reporting and Indigenous Terminology poster, Indigenous or Aboriginal section (PDF metadata: created 2017-04-08)"
     paraphrase: "NAJA's capitalization rule is the canonical one in U.S. progressive journalism style: lowercase for plants and animals, uppercase for people. DSG, NGC, GCJT, and Sierra Club all inherit this rule directly or indirectly. NAJA also introduces the 'Indigenous people of Wyoming' construction as preferred over 'Wyoming's Indigenous people' — rejecting the possessive framing. File naming note: archived file is dated 2023-06 but PDF creation date is 2017-04; treat as 2017 source."
     confidence: "VERIFIED"
@@ -108,7 +108,7 @@ guidance:
     source_url: null
     local_archive: "source-guides/discovered/sumofus-progressive-styleguide-2016.pdf"
     recommendation: "use"
-    quote: "'Indigenous' is internationally inclusive for all Indigenous peoples. Whenever possible, use a specific name (e.g., Cherokee and Inuit). If you are not aware of the preferred name, whenever possible, ask."
+    quote: "'Indigenous' is internationally inclusive for all Indigenous peoples. … Whenever possible, use a specific name (e.g., Cherokee and Inuit). If you are not aware of the preferred name, whenever possible, ask."
     quote_loc: "p. 24, Indigeneity/Ancestry — Specific Recommendations"
     paraphrase: "SumOfUs lands on 'Indigenous' as the global umbrella and First Nations / Native American / Aboriginal Peoples as the country-specific terms layered underneath (Canada / US / Australia respectively). The guide addresses colonial-caste terminology (Mestizo, Criollo, Pardo, Zambo) under the same heading — broader scope than any U.S.-journalism-focused guide. Frames the whole section as decolonization, citing Tuck and Yang's 'Decolonization Is Not a Metaphor.' 'Indian' is flagged as outdated except in direct quotes, book titles, historical context, legal/constitutional discussion, rights-and-benefits terminology, and census data."
     confidence: "VERIFIED-ARCHIVED"

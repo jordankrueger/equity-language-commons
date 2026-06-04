@@ -22,7 +22,7 @@ guidance:
     local_archive: "source-guides/discovered/sumofus-progressive-styleguide-2016.pdf"
     recommendation: "avoid"
     derived_from: []
-    quote: "Terms avoided/questioned by disability rights activists: … afflicted by … crippled by … suffering from . . . victim of . . ."
+    quote: "Terms avoided/questioned by disability rights activists: … afflicted by … crippled by … suffering from . . . … victim of . . ."
     quote_loc: "Disability language two-column list, \"Terms avoided/questioned by disability rights activists\""
     paraphrase: "SumOfUs places \"victim of …\" in its column of terms avoided or questioned by disability rights activists, alongside other framings (\"afflicted by,\" \"suffering from\") that cast a person as passive or pitiable."
     confidence: "VERIFIED-ARCHIVED"

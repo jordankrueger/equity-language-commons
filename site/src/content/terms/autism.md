@@ -62,7 +62,7 @@ guidance:
     local_archive: "source-guides/discovered/apa-inclusive-language-2023-10.pdf"
     recommendation: "use"
     derived_from: []
-    quote: "In some cases, as with the Deaf community and autistic community, it is appropriate to use the preferred identity-first language of the community until you can learn an individual's preference."
+    quote: "In some cases, as with the Deaf community and autistic community, it is appropriate to use the preferred identity-first language of the community until you can learn an individual's preference. …"
     quote_loc: "Person-First and Identity-First Language section"
     paraphrase: "APA names the autistic community, alongside the Deaf community, as a case where it is appropriate to default to identity-first language until an individual's own preference is known. It frames identity-first language as an expression of cultural pride and reclamation, with the individual's stated preference superseding matters of style."
     confidence: "VERIFIED-ARCHIVED"
@@ -74,7 +74,7 @@ guidance:
     local_archive: "source-guides/discovered/diversity-style-guide-2023-11.md"
     recommendation: "use"
     derived_from: []
-    quote: "Opinions vary on how to refer to someone with autism. Some people with autism prefer being referred to as an autistic person; others object to using autistic as an adjective. … Ask individuals how they prefer to be described. If in doubt, use people-first language."
+    quote: "Opinions vary on how to refer to someone with autism. Some people with autism prefer being referred to as an autistic person; others object to using autistic as an adjective. … Ask individuals how they prefer to be described. If in doubt, use people-first language, referring to someone as a person with autism spectrum disorder rather than an autistic person."
     quote_loc: "Glossary entry, \"autism/autism spectrum disorders\""
     paraphrase: "DSG records the same split — some prefer \"an autistic person,\" others object to \"autistic\" as an adjective — and directs writers to ask, defaulting to people-first language only when in doubt. Like NCDJ, it notes the 2013 DSM-5 consolidated subtypes such as Asperger's into the single autism spectrum disorder diagnosis."
     confidence: "VERIFIED-ARCHIVED"

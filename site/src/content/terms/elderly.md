@@ -58,7 +58,7 @@ guidance:
     local_archive: "source-guides/discovered/diversity-style-guide-2023-11.md"
     recommendation: "use-with-care"
     derived_from: []
-    quote: "Use this word carefully and sparingly. The term is appropriate only in generic phrases that do not refer to specific individuals: concern for the elderly, a home for the elderly, etc. In other words, describing a person as elderly is bad form."
+    quote: "Use this word carefully and sparingly. The term is appropriate only in generic phrases that do not refer to specific individuals: concern for the elderly, a home for the elderly, etc. In other words, describing a person as elderly is bad form, although the generalized category elderly might not be offensive."
     quote_loc: "Glossary entry, \"elderly\""
     paraphrase: "The Diversity Style Guide says to use \"elderly\" carefully and sparingly — acceptable only in generic phrases like \"a home for the elderly,\" but not for describing a specific individual, where the guide considers it inappropriate."
     confidence: "VERIFIED-ARCHIVED"

@@ -74,7 +74,7 @@ guidance:
     source_url: null
     local_archive: "source-guides/CaseyStyleManualComplete.pdf"
     recommendation: "use"
-    quote: "For nouns: African American, Asian American, black, Hispanic, Latino, Native American, non-Hispanic white, white (do not use Caucasian)."
+    quote: "For nouns: African American, Asian American, black, Hispanic, Latino, Native American, non-Hispanic white, white (do not use Caucasian) …"
     quote_loc: "p. 14, Race and Ethnicity"
     paraphrase: "Casey 2013 lists 'Asian American' (no hyphen) in the approved-nouns list. Pre-dates the major contested-terminology debates around AAPI, AANHPI, and the post-2020 Stop AAPI Hate-era reframing — Casey's posture is the stable baseline; later guides build on top of it."
     confidence: "VERIFIED-ARCHIVED"

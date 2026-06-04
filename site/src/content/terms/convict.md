@@ -74,7 +74,7 @@ guidance:
     local_archive: "source-guides/discovered/diversity-style-guide-2023-11.md"
     recommendation: "avoid"
     derived_from: []
-    quote: "Avoid this term when referring to a person who is incarcerated or has been convicted of a crime. Instead, use people-first language. The Marshall Project … recommends … constructions that include \"person\" or \"people,\" a subject's name and/or fixed biographical characteristics."
+    quote: "Avoid this term when referring to a person who is incarcerated or has been convicted of a crime. Instead, use people-first language. The Marshall Project … recommends … constructions that include \"person\" or \"people,\" a subject's name and/or fixed biographical characteristics like age or state."
     quote_loc: "Glossary entry, “convict”"
     paraphrase: "The Diversity Style Guide advises against \"convict,\" citing the Marshall Project's recommendation to use people-first constructions — \"incarcerated people,\" a subject's name, or fixed biographical details — rather than a crime-based label."
     confidence: "VERIFIED-ARCHIVED"

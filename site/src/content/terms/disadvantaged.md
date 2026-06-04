@@ -62,7 +62,7 @@ guidance:
     local_archive: "source-guides/discovered/apa-inclusive-language-2023-10.pdf"
     recommendation: "use-with-care"
     derived_from: []
-    quote: "the poor → people whose incomes are below the federal poverty threshold … Many people find the terms \"low-class\" and \"poor\" pejorative. Conversely, class solidarity exists in \"poor people's movements.\""
+    quote: "the poor → people whose incomes are below the federal poverty threshold … Many people find the terms \"low-class\" and \"poor\" pejorative. Conversely, class solidarity exists in \"poor people's movements.\" …"
     quote_loc: "Socioeconomic Status, \"Term to Avoid / Suggested Alternative\" table"
     paraphrase: "APA's second edition suggests replacing \"the poor\" with \"people whose incomes are below the federal poverty threshold,\" but explicitly builds in nuance: while many find \"low-class\" and \"poor\" pejorative, class solidarity lives in \"poor people's movements\" and many proudly identify as \"working class.\" The page treats these as terms to use with care, not blanket avoidance."
     confidence: "VERIFIED-ARCHIVED"

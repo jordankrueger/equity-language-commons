@@ -59,7 +59,7 @@ guidance:
     local_archive: "source-guides/discovered/apa-inclusive-language-2023-10.pdf"
     recommendation: "use"
     derived_from: []
-    quote: "Stereotyping and discrimination against individuals or groups based on their age, regardless of whether the targeted individual or group is younger or older. Ageism may take many forms, including prejudicial attitudes, discriminatory practices, or some institutional policies and practices that perpetuate stereotypical beliefs."
+    quote: "Stereotyping and discrimination against individuals or groups based on their age, regardless of whether the targeted individual or group is younger or older. Ageism may take many forms, including prejudicial attitudes, discriminatory practices, or some institutional policies and practices that perpetuate stereotypical beliefs. …"
     quote_loc: "Age glossary, \"ageism\" definition"
     paraphrase: "APA defines ageism in its Age glossary as stereotyping and discrimination based on age — younger or older — taking forms from prejudicial attitudes to institutional policy. It names ageism as standard vocabulary, parallel to its definitions of classism and other structural concepts."
     confidence: "VERIFIED-ARCHIVED"

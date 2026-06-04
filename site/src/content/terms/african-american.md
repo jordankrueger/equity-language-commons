@@ -66,7 +66,7 @@ guidance:
     source_url: null
     local_archive: "source-guides/CaseyStyleManualComplete.pdf"
     recommendation: "use"
-    quote: "For nouns: African American, Asian American, black, Hispanic, Latino, Native American, non-Hispanic white, white (do not use Caucasian)."
+    quote: "For nouns: African American, Asian American, black, Hispanic, Latino, Native American, non-Hispanic white, white (do not use Caucasian) …"
     quote_loc: "p. 14, Race and Ethnicity"
     paraphrase: "Casey 2013 lists African American (no hyphen) parallel to Asian American, Hispanic, Latino, Native American — the standard pre-2020 'hyphenated-American' construction without the hyphen. Casey predates the 2020 AP capital-B Black shift; its lowercase 'black' alongside 'African American' reflects the era convention."
     confidence: "VERIFIED-ARCHIVED"

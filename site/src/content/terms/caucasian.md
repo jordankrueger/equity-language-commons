@@ -23,7 +23,7 @@ guidance:
     source_url: null
     local_archive: "source-guides/CaseyStyleManualComplete.pdf"
     recommendation: "avoid"
-    quote: "For nouns: African American, Asian American, black, Hispanic, Latino, Native American, non-Hispanic white, white (do not use Caucasian)."
+    quote: "For nouns: African American, Asian American, black, Hispanic, Latino, Native American, non-Hispanic white, white (do not use Caucasian) …"
     quote_loc: "p. 14, Race and Ethnicity"
     paraphrase: "Casey 2013's only Caucasian guidance is the parenthetical 'do not use Caucasian' inside the approved-nouns list. Compact but absolute — Caucasian is not on the approved list and is explicitly named as unacceptable. Notable that even Casey, the oldest guide in the in-scope corpus, treats this as a settled call."
     confidence: "VERIFIED-ARCHIVED"

@@ -30,7 +30,7 @@ guidance:
     local_archive: "source-guides/discovered/apa-inclusive-language-2023-10.pdf"
     recommendation: "use"
     derived_from: []
-    quote: "Prejudice, negative sentiments, and hostility toward Islam and Muslims. Islamophobia may be based on ideas about Islam as a religion and on ideas about Muslims as a cultural and ethnic group. Islamophobic ideas portray Islam and Muslims as a threat to non-Muslims."
+    quote: "Prejudice, negative sentiments, and hostility toward Islam and Muslims. Islamophobia may be based on ideas about Islam as a religion and on ideas about Muslims as a cultural and ethnic group. Islamophobic ideas portray Islam and Muslims as a threat to non-Muslims. …"
     quote_loc: "Glossary entry, \"Islamophobia\" (citing Berntzen & Rambøl, 2020)"
     paraphrase: "APA, citing Berntzen and Rambøl, defines Islamophobia as prejudice, negative sentiments, and hostility toward Islam and Muslims — grounded in ideas about Islam as a religion and Muslims as a cultural and ethnic group. It names Islamophobia as standard vocabulary."
     confidence: "VERIFIED-ARCHIVED"

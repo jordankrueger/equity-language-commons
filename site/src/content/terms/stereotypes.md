@@ -31,7 +31,7 @@ guidance:
     local_archive: "source-guides/discovered/color-of-change-black-families-narrative-2020.pdf"
     recommendation: "avoid"
     derived_from: []
-    quote: "\"Out of wedlock\" … is a dog-whistle that elicits racist \"welfare queen\" stereotypes. … \"Thug\" is used to elicit stereotypes of dangerous Black male criminality and to blame Black people for social unrest and violence."
+    quote: "\"Out of wedlock\" … is a dog-whistle that elicits racist \"welfare queen\" stereotypes. … \"Thug\" is used to elicit stereotypes of dangerous Black male criminality and to blame Black people for social unrest and violence. …"
     quote_loc: "Language to avoid — \"Out of wedlock,\" \"Thug\""
     paraphrase: "Color of Change identifies specific coded terms as stereotype triggers: \"out of wedlock\" as a dog-whistle for the \"welfare queen\" stereotype, and \"thug\" as a term that elicits stereotypes of Black male criminality. The guidance is to avoid words whose function is to activate a racist stereotype."
     confidence: "VERIFIED-ARCHIVED"

@@ -60,7 +60,7 @@ guidance:
     local_archive: "source-guides/Equity Language Guide Sierra Club 2021.pdf"
     recommendation: "avoid"
     derived_from: []
-    quote: "Avoid using \"handicapped\" to describe locations or items designed to make a space more accessible. … Use the term \"accessible\" instead — \"accessible parking\" and \"accessible bathroom stall.\""
+    quote: "Avoid using \"handicapped\" to describe locations or items designed to make a space more accessible. … Use the term \"accessible\" instead — \"accessible parking\" and \"accessible bathroom stall\". …"
     quote_loc: "Equity language guidance, accessibility section"
     paraphrase: "Sierra Club extends the avoidance even to facilities and signage, recommending \"accessible\" in place of \"handicapped\" for parking, restrooms, and other accommodations."
     confidence: "VERIFIED-ARCHIVED"

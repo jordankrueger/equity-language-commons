@@ -36,7 +36,7 @@ guidance:
     local_archive: "source-guides/discovered/gcjt-style-guide-trauma-2021.md"
     recommendation: "use-with-care"
     derived_from: []
-    quote: "Are they prisoners, inmates, convicts, or incarcerated people? … Others believe that the term prisoner is dehumanizing, and might prefer terms such as incarcerated person … Try to find out if an individual/individuals favor a specific term."
+    quote: "Are they prisoners, inmates, convicts, or incarcerated people? … Others believe that the term prisoner is dehumanizing, and might prefer terms such as incarcerated person … Try to find out if an individual/individuals favor a specific term. …"
     quote_loc: "“Prisons and Incarcerated People” entry"
     paraphrase: "GCJT presents \"inmate\" as one of several contested options for naming people who are incarcerated, notes there are differing perspectives, and directs writers to learn how an individual prefers to be described."
     confidence: "VERIFIED-ARCHIVED"

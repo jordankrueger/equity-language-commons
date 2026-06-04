@@ -49,7 +49,7 @@ guidance:
     local_archive: "source-guides/discovered/gcjt-style-guide-trauma-2021.md"
     recommendation: "avoid"
     derived_from: []
-    quote: "In general, do not use \"ghetto\", or related adjectives such as \"notorious\", \"urban\" and \"gritty,\" to describe a geographic area. These cliches are often euphemisms for race. Avoid perpetuating negative stereotypes by describing a neighborhood or other area with precision."
+    quote: "In general, do not use \"ghetto\", or related adjectives such as \"notorious\", \"urban\" and \"gritty,\" to describe a geographic area. These cliches are often euphemisms for race. Avoid perpetuating negative stereotypes by describing a neighborhood or other area with precision. …"
     quote_loc: "\"Ghetto\" entry"
     paraphrase: "The Global Consortium for Journalism & Trauma traces \"ghetto\" from sixteenth-century Venice through the Holocaust to today's segregated, low-income U.S. neighborhoods, and directs writers not to use it — or related cliches like \"notorious,\" \"urban,\" and \"gritty\" — because they are often euphemisms for race."
     confidence: "VERIFIED-ARCHIVED"

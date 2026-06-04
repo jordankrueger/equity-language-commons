@@ -55,7 +55,7 @@ guidance:
     source_url: "https://www.nabj.org/page/styleguide"
     local_archive: "source-guides/discovered/nabj-style-guide-2022-10.md"
     recommendation: "use"
-    quote: "NABJ believes it is important to capitalize 'Black' when referring to (and out of respect for) the Black diaspora. … NABJ also recommends that whenever a color is used to appropriately describe race then it should be capitalized, including White and Brown."
+    quote: "The organization believes it is important to capitalize \"Black\" when referring to (and out of respect for) the Black diaspora. … NABJ also recommends that whenever a color is used to appropriately describe race then it should be capitalized, including White and Brown."
     quote_loc: "NABJ Statement on Capitalizing Black and Other Racial Identifiers (June 2020)"
     paraphrase: "NABJ's June 2020 statement broke from the lowercase-white default that NGC, Sierra Club, and AP would adopt. NABJ's rule is symmetric: if a color names a race, capitalize it — Black, White, Brown. Position is grounded in respect for the Black diaspora as a shared identity, not in parity with whiteness."
     confidence: "VERIFIED"
@@ -91,7 +91,7 @@ guidance:
     source_url: null
     local_archive: "source-guides/CaseyStyleManualComplete.pdf"
     recommendation: "use"
-    quote: "For nouns: African American, Asian American, black, Hispanic, Latino, Native American, non-Hispanic white, white (do not use Caucasian)."
+    quote: "For nouns: African American, Asian American, black, Hispanic, Latino, Native American, non-Hispanic white, white (do not use Caucasian) …"
     quote_loc: "p. 14, Race and Ethnicity"
     paraphrase: "Casey 2013 lists African American and lowercase 'black' as parallel acceptable nouns alongside Asian American, Hispanic, Latino, Native American, and lowercase white. The lowercase 'black' is the dominant convention pre-2020 — Casey's posture is contemporaneous with AP's pre-June-2020 rule, and pre-dates the post-George-Floyd shift across most US journalism style guides."
     confidence: "VERIFIED-ARCHIVED"

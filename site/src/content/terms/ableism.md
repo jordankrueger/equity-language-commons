@@ -85,7 +85,7 @@ guidance:
     local_archive: "source-guides/discovered/apa-inclusive-language-2023-10.pdf"
     recommendation: "use"
     derived_from: []
-    quote: "Stereotyping, prejudicial attitudes, discriminatory behavior, and social oppression toward people with disabilities to inhibit their rights and well-being."
+    quote: "Stereotyping, prejudicial attitudes, discriminatory behavior, and social oppression toward people with disabilities to inhibit their rights and well-being. …"
     quote_loc: "Disability glossary, ableism entry"
     paraphrase: "APA's second edition defines ableism in its disability glossary as stereotyping, prejudicial attitudes, discriminatory behavior, and social oppression toward people with disabilities. It places the concept within the shift from a medical, deficit-based model of disability to a social model, and — in its prejudice entry — parallels ableism with racism, sexism, and ageism as prejudice based on a marginalized status."
     confidence: "VERIFIED-ARCHIVED"

@@ -61,7 +61,7 @@ guidance:
     local_archive: "source-guides/discovered/apa-inclusive-language-2023-10.pdf"
     recommendation: "use"
     derived_from: []
-    quote: "Identity-first language is often used as an expression of cultural pride … In some cases, as with the Deaf community and autistic community, it is appropriate to use the preferred identity-first language of the community until you can learn an individual's preference."
+    quote: "Identity-first language is often used as an expression of cultural pride … In some cases, as with the Deaf community and autistic community, it is appropriate to use the preferred identity-first language of the community until you can learn an individual's preference. …"
     quote_loc: "Disability section, person-first vs. identity-first language"
     paraphrase: "APA frames identity-first language as an expression of cultural pride and names the Deaf community as a case where it is appropriate to default to identity-first language until an individual's own preference is known."
     confidence: "VERIFIED-ARCHIVED"
@@ -73,7 +73,7 @@ guidance:
     local_archive: "source-guides/discovered/diversity-style-guide-2023-11.md"
     recommendation: "use"
     derived_from: []
-    quote: "Lowercase when referring to a hearing-loss condition or to a deaf person who prefers lowercase. Capitalize for those who identify as members of the Deaf community or when they capitalize Deaf when describing themselves. Deaf should be used as an adjective, not as a noun."
+    quote: "Lowercase when referring to a hearing-loss condition or to a deaf person who prefers lowercase. Capitalize for those who identify as members of the Deaf community or when they capitalize Deaf when describing themselves. Deaf should be used as an adjective, not as a noun; it describes a person with profound or complete hearing loss."
     quote_loc: "Glossary entry, \"Deaf, deaf\""
     paraphrase: "The Diversity Style Guide sets out the capitalization rule — lowercase \"deaf\" for the condition, capital \"Deaf\" for the cultural community — and adds that \"Deaf\" should be used as an adjective, not a noun (\"woman who is deaf,\" not \"a deaf\")."
     confidence: "VERIFIED-ARCHIVED"

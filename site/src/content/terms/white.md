@@ -81,7 +81,7 @@ guidance:
     source_url: null
     local_archive: "source-guides/CaseyStyleManualComplete.pdf"
     recommendation: "use"
-    quote: "For nouns: African American, Asian American, black, Hispanic, Latino, Native American, non-Hispanic white, white (do not use Caucasian)."
+    quote: "For nouns: African American, Asian American, black, Hispanic, Latino, Native American, non-Hispanic white, white (do not use Caucasian) …"
     quote_loc: "p. 14, Race and Ethnicity"
     paraphrase: "Casey 2013 lists lowercase 'white' and 'non-Hispanic white' as approved nouns, parallel to lowercase 'black' — both reflecting AP's pre-June-2020 convention. The 'do not use Caucasian' instruction is the only explicit avoidance, and matches every later guide that addresses it (DSG 2023 echoes the same posture)."
     confidence: "VERIFIED-ARCHIVED"

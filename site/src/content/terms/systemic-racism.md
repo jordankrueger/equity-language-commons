@@ -29,7 +29,7 @@ guidance:
     local_archive: "source-guides/discovered/apa-inclusive-language-2023-10.pdf"
     recommendation: "use"
     derived_from: []
-    quote: "The collection of policies, practices, and procedures of societal institutions … that marginalizes and subjugates nondominant racial groups in a given society. Also institutionalized racism, systemic racism."
+    quote: "The collection of policies, practices, and procedures of societal institutions … that marginalizes and subjugates nondominant racial groups in a given society. Also institutionalized racism, systemic racism. …"
     quote_loc: "Glossary: institutional racism"
     paraphrase: "APA defines institutional racism — listing \"systemic racism\" as a synonym — as the policies, practices, and procedures of societal institutions (education, government, health care, housing, finance, media) that marginalize and subjugate nondominant racial groups. It notes that disciplines are beginning to distinguish institutional from structural racism, terms long used interchangeably."
     confidence: "VERIFIED-ARCHIVED"

@@ -44,7 +44,7 @@ guidance:
     source_url: "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf"
     local_archive: "source-guides/Equity Language Guide Sierra Club 2021.pdf"
     recommendation: "use-with-care"
-    quote: "Through treaties, Tribes ceded their traditional homelands and other properties and rights. The land Tribes reserved for themselves to continue living upon are called 'reservations' for a reason. Any benefits Tribal members receive come from treaty rights in exchange for non-Native people to make their homes on Tribal lands."
+    quote: "Through treaties, Tribes ceded their traditional homelands and other properties and rights. The land Tribes reserved for themselves to continue living upon are called 'reservations' for a reason. Any benefits Tribal members receive come from treaty rights in exchange for non-Native people to make their homes on Tribal lands and use their resources."
     quote_loc: "p. 16, Tribal Sovereignty and Public Lands → Tips on Writing About Tribal Nations"
     paraphrase: "Sierra Club reframes 'reservation' etymologically and politically: the land was reserved by Tribes for themselves through treaty negotiation, not granted to them by the federal government. The framing is a corrective against the common misreading of reservations as government-allocated land. Treaty rights, not government benevolence, are the source of Tribal land rights."
     confidence: "VERIFIED-ARCHIVED"

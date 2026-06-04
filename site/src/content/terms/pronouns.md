@@ -61,7 +61,7 @@ guidance:
     source_url: "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guidelines"
     local_archive: "source-guides/discovered/apa-inclusive-language-2023-10.md"
     recommendation: "use"
-    quote: "On gender pronouns: Use 'pronouns' rather than 'preferred pronouns' (which implies choice). Use singular 'they' for individuals with unknown pronouns."
+    quote: "Do not use the term 'preferred pronouns' because this implies a choice about one's gender. Use the term 'pronouns' or 'identified pronouns' instead. … use the singular 'they' to avoid making assumptions about an individual's gender."
     quote_loc: "Notable guidance, gender pronouns entry"
     paraphrase: "APA's 2023 guidance crystallizes the post-2020 shift away from 'preferred pronouns': the term 'preferred' implies a choice that doesn't exist, since pronouns are simply the right way to refer to a person. The guide pairs this with the singular-'they' default for unknown pronouns."
     confidence: "VERIFIED-ARCHIVED"

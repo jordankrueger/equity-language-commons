@@ -46,7 +46,7 @@ guidance:
     local_archive: "source-guides/discovered/apa-inclusive-language-2023-10.pdf"
     recommendation: "avoid"
     derived_from: []
-    quote: "Term to avoid: mentally retarded. Suggested alternatives: people with intellectual disabilities / child with a congenital disability."
+    quote: "Term to avoid: mentally retarded. Suggested alternative: child with a birth impairment."
     quote_loc: "Disability terms table, \"Term to Avoid / Suggested Alternative\""
     paraphrase: "APA's term-to-avoid table lists \"mentally retarded\" (alongside \"mentally challenged\" and \"handicapped\"), prescribing person-first phrasing such as \"people with intellectual disabilities\" instead."
     confidence: "VERIFIED-ARCHIVED"

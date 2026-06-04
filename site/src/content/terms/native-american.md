@@ -83,7 +83,7 @@ guidance:
     source_url: "https://dartcenter.org/resources/style-guide-trauma-informed-journalism"
     local_archive: "source-guides/discovered/gcjt-style-guide-trauma-2021.md"
     recommendation: "use-with-care"
-    quote: "Native Americans are the Indigenous people of North America. The term should only be used to describe groups of two or more people who come from different tribal affiliations. If you're interviewing individuals, or reporting on individual tribes, then identify them by their preferred tribal affiliation. Headlines should refer to tribes by their proper names."
+    quote: "Native Americans are the Indigenous people of North America. The term should only be used to describe groups of two or more people who come from different tribal affiliations. If you're interviewing individuals, or reporting on individual tribes, then identify them by their preferred tribal affiliation. Headlines should refer to tribes by their proper names. …"
     quote_loc: "Native American entry"
     paraphrase: "GCJT adopts NAJA's precision rule explicitly: Native American is a multi-tribal collective term only. For individuals or single-tribe coverage, the specific tribal affiliation is the correct identifier. The guide credits NAJA as its source and recommends NAJA's Tribal Nations Media Guide for deeper reference."
     confidence: "VERIFIED-ARCHIVED"

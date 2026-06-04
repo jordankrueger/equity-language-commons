@@ -27,7 +27,7 @@ guidance:
     local_archive: "source-guides/discovered/sumofus-progressive-styleguide-2016.pdf"
     recommendation: "avoid"
     derived_from: []
-    quote: "The term “Indian” is outdated and should be replaced by the term “First Nation” except in the following cases: in direct quotations; when citing titles of books, works of art, etc.; in discussions of history where necessary for clarity and accuracy; in discussions of some legal/constitutional matters."
+    quote: "The term “Indian” is outdated and should be replaced by the term “First Nation” except in the following cases: in direct quotations; when citing titles of books, works of art, etc.; in discussions of history where necessary for clarity and accuracy; in discussions of some legal/constitutional matters requiring precision in terminology …"
     quote_loc: "Indigeneity/Ancestry section, terminology bullets"
     paraphrase: "Writing for a Canadian context, Sum of Us directs writers to replace standalone “Indian” with “First Nation,” carving out exceptions for direct quotations, titles of works, historical discussion, and legal or constitutional precision (including statistical categories and rights tied to legal “Indian” status)."
     confidence: "VERIFIED-ARCHIVED"

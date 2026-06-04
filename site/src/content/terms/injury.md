@@ -61,7 +61,7 @@ guidance:
     local_archive: "source-guides/discovered/wordsaboutwar-full-2025.pdf"
     recommendation: "avoid"
     derived_from: []
-    quote: "casualty … Like other military terms, \"casualty\" hides what's happening: people killed or wounded. There's also public confusion about whether the term refers to people killed, wounded, or both. The AP Stylebook recommends: \"Avoid using the word, which is vague.\""
+    quote: "casualty … Like other military terms, \"casualty\" hides what's happening: people killed or wounded. There's also public confusion about whether the term refers to people killed, wounded, or both. The AP Stylebook recommends: \"Avoid using the word, which is vague and can refer to either injuries or deaths.\""
     quote_loc: "Terms to Avoid → casualty"
     paraphrase: "Words About War flags \"casualty\" as a military euphemism that hides whether people were killed, wounded, or both, recommending the plainer \"killed and wounded.\" In the context of injury, the entry shows how aggregating terms can obscure the specific harm done to specific people."
     confidence: "VERIFIED-ARCHIVED"

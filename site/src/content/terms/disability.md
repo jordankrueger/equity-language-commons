@@ -27,7 +27,7 @@ guidance:
     local_archive: "source-guides/discovered/sumofus-progressive-styleguide-2016.pdf"
     recommendation: "use-with-care"
     derived_from: []
-    quote: "In a world built to shut people with physical, mental, and emotional disabilities out, it is therefore paramount to use people-first language, to reject a purely “medical” framing of disability, to always use disability and mental health terminology accurately."
+    quote: "In a world built to shut people with physical, mental, and emotional disabilities out, it is therefore paramount to use people-first language, to reject a purely “medical” framing of disability, to always use disability and mental health terminology accurately …"
     quote_loc: "Disability section, Anti-ableism framework"
     paraphrase: "SumOfUs frames disability through an anti-ableism lens: default to people-first language, reject a purely medical framing of disability, and ask the individual for their preferred terminology. Its specific recommendations include avoiding metaphorical or flippant use of disability terms and not villainizing, sentimentalizing, or heroizing people with disabilities."
     confidence: "VERIFIED-ARCHIVED"
@@ -51,7 +51,7 @@ guidance:
     local_archive: "source-guides/Equity Language Guide Sierra Club 2021.pdf"
     recommendation: "use-with-care"
     derived_from: []
-    quote: "Practicing people-first language means recognizing that everyone is first and foremost a person, not their disability or other identity. … Sometimes individuals prefer “identity-first” language. … In all cases, ask people how they want to be identified."
+    quote: "Practicing people-first language means recognizing that everyone is first and foremost a person, not their disability or other identity. … Sometimes individuals prefer “identity-first” language. … In all cases, ask people how they want to be identified …"
     quote_loc: "Overall Recommendations, Use People-First Language, p. 1"
     paraphrase: "Sierra Club prescribes people-first language as its default, tracing the concept to the disability justice movement, while noting that some people prefer identity-first language. The guide's governing rule is to ask each person how they want to be identified rather than impose either form."
     confidence: "VERIFIED-ARCHIVED"
@@ -75,7 +75,7 @@ guidance:
     local_archive: "source-guides/discovered/racial-equity-tools-glossary-2023.md"
     recommendation: "use-with-care"
     derived_from: []
-    quote: "Disability justice activists, organizers, and cultural workers understand that able-bodied supremacy has been formed in relation to other systems of domination and exploitation. The histories of white supremacy and ableism are inextricably entwined."
+    quote: "Disability justice activists, organizers, and cultural workers understand that able-bodied supremacy has been formed in relation to other systems of domination and exploitation. The histories of white supremacy and ableism are inextricably entwined, created in the context of colonial conquest and capitalist domination."
     quote_loc: "Fundamentals / Core Concepts, Disability Justice entry"
     paraphrase: "Racial Equity Tools situates disability inside a disability justice framework drawn from Sins Invalid, emphasizing that ableism is entangled with white supremacy and other systems of domination, and that all bodies are unique, essential, and shaped simultaneously by ability, race, gender, class, and nation."
     confidence: "VERIFIED-ARCHIVED"

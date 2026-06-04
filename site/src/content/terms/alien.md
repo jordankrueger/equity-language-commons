@@ -25,7 +25,7 @@ guidance:
     local_archive: "source-guides/discovered/sumofus-progressive-styleguide-2016.pdf"
     recommendation: "avoid"
     derived_from: []
-    quote: "Terms avoided/questioned by immigrants rights activists: alien, an illegal, anchor baby, ex-pat, failed asylum seeker, illegal alien, illegal asylum seeker, illegal immigrant, legal alien, legal citizen, legal resident, legalized, resident alien."
+    quote: "Terms avoided/questioned by immigrants rights activists: alien, an illegal, anchor baby, ex-pat, failed asylum seeker, illegal alien, illegal asylum seeker, illegal immigrant, legal alien, legal citizen, legal resident, legalized … resident alien."
     quote_loc: "Immigration/Refugees, Terms Avoided/Questioned by Immigrants Rights Activists"
     paraphrase: "SumOfUs lists 'alien,' 'illegal alien,' 'legal alien,' and 'resident alien' among the terms avoided or questioned by immigrant-rights activists, opposite an approved column that includes 'person,' 'foreign national,' and 'undocumented immigrant.' The guide frames branding people as 'illegal' or 'alien' as skipping the presumption of innocence."
     confidence: "VERIFIED-ARCHIVED"

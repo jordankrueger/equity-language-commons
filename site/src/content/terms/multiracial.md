@@ -45,7 +45,7 @@ guidance:
     source_url: null
     local_archive: "source-guides/CaseyStyleManualComplete.pdf"
     recommendation: "use"
-    quote: "For nouns: African American, Asian American, black, Hispanic, Latino, Native American, non-Hispanic white, white (do not use Caucasian)."
+    quote: "For nouns: African American, Asian American, black, Hispanic, Latino, Native American, non-Hispanic white, white (do not use Caucasian) …"
     quote_loc: "p. 14, Race and Ethnicity"
     paraphrase: "Casey 2013 does not list multiracial or biracial in the approved-nouns list. Notable absence: the rapid growth of the multiracial US population through the 2010s — Census 2020 found that multiracial Americans grew 276% over the prior decade — makes Casey's list feel incomplete by 2026 standards. The omission is a date marker, not an objection."
     confidence: "VERIFIED-ARCHIVED"

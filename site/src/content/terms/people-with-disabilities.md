@@ -64,7 +64,7 @@ guidance:
     local_archive: "source-guides/discovered/apa-inclusive-language-2023-10.pdf"
     recommendation: "use-with-care"
     derived_from: []
-    quote: "The discussion of person-first versus identity-first language was first applied to issues regarding people with disabilities. … Language should be selected with the understanding that the individual's preference supersedes matters of style. If you are uncertain about how a person identifies, it is recommended that you ask their preference."
+    quote: "The discussion of person-first versus identity-first language was first applied to issues regarding people with disabilities. … Language should be selected with the understanding that the individual's preference supersedes matters of style. If you are uncertain about how a person identifies, it is recommended that you ask their preference. …"
     quote_loc: "Person-First and Identity-First Language"
     paraphrase: "APA frames people-first language (“people with disabilities”) and identity-first language as two valid approaches that originated in the disability context. Its governing rule is that individual preference supersedes style; when a preference is unknown, ask. For some communities (Deaf, autistic) identity-first is the expected default until a preference is learned."
     confidence: "VERIFIED-ARCHIVED"

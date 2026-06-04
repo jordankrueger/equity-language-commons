@@ -55,7 +55,7 @@ guidance:
     source_url: null
     local_archive: "source-guides/CaseyStyleManualComplete.pdf"
     recommendation: "use"
-    quote: "For nouns: African American, Asian American, black, Hispanic, Latino, Native American, non-Hispanic white, white (do not use Caucasian)."
+    quote: "For nouns: African American, Asian American, black, Hispanic, Latino, Native American, non-Hispanic white, white (do not use Caucasian) …"
     quote_loc: "p. 14, Race and Ethnicity"
     paraphrase: "Casey 2013 includes both Hispanic and Latino in the approved-nouns list with no defaulting rule and no commentary on the distinction. 'Non-Hispanic white' as a separate listed noun shows the term being used as a federal-survey ethnicity descriptor (the standard Census/HHS 'Hispanic vs. non-Hispanic' frame), not just an identity label."
     confidence: "VERIFIED-ARCHIVED"
