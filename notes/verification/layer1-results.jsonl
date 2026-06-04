@@ -142,13 +142,13 @@
 {"page": "black", "org_slug": "ngc", "year": "2021", "check": "V1", "verdict": "OK", "detail": "native-governance-center-style-guide-2021-02.md"}
 {"page": "black", "org_slug": "ngc", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://nativegov.org/resources/style-guide/"}
 {"page": "black", "org_slug": "nabj", "year": "2020", "check": "V1", "verdict": "OK", "detail": "nabj-style-guide-2022-10.md"}
-{"page": "black", "org_slug": "nabj", "year": "2020", "check": "V3", "verdict": "DEAD", "detail": "403 https://www.nabj.org/page/styleguide"}
+{"page": "black", "org_slug": "nabj", "year": "2020", "check": "V3", "verdict": "OK", "detail": "403 (gated \u2014 expected) https://www.nabj.org/page/styleguide"}
 {"page": "black", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
 {"page": "black", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/african-american-african-american-black-2/"}
 {"page": "black", "org_slug": "seiu", "year": "2020", "check": "V1", "verdict": "OK", "detail": "seiu-stylebook-2020-01.md"}
 {"page": "black", "org_slug": "aecf", "year": "2013", "check": "V1", "verdict": "OK", "detail": "casey-editorial-guide-2013-04.md"}
 {"page": "brown", "org_slug": "nabj", "year": "2020", "check": "V1", "verdict": "OK", "detail": "nabj-style-guide-2022-10.md"}
-{"page": "brown", "org_slug": "nabj", "year": "2020", "check": "V3", "verdict": "DEAD", "detail": "403 https://www.nabj.org/page/styleguide"}
+{"page": "brown", "org_slug": "nabj", "year": "2020", "check": "V3", "verdict": "OK", "detail": "403 (gated \u2014 expected) https://www.nabj.org/page/styleguide"}
 {"page": "caucasian", "org_slug": "aecf", "year": "2013", "check": "V1", "verdict": "OK", "detail": "casey-editorial-guide-2013-04.md"}
 {"page": "caucasian", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
 {"page": "caucasian", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/caucasian/"}
@@ -309,7 +309,7 @@
 {"page": "ghetto", "org_slug": "gcjt", "year": "2021", "check": "V1", "verdict": "HUMAN-VERIFIED", "detail": "gcjt-style-guide-trauma-2021.md"}
 {"page": "ghetto", "org_slug": "gcjt", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://dartcenter.org/resources/style-guide-trauma-informed-journalism"}
 {"page": "ghetto", "org_slug": "nabj", "year": "2022", "check": "V1", "verdict": "OK", "detail": "nabj-style-guide-2022-10.md"}
-{"page": "ghetto", "org_slug": "nabj", "year": "2022", "check": "V3", "verdict": "DEAD", "detail": "403 https://www.nabj.org/page/styleguide"}
+{"page": "ghetto", "org_slug": "nabj", "year": "2022", "check": "V3", "verdict": "OK", "detail": "403 (gated \u2014 expected) https://www.nabj.org/page/styleguide"}
 {"page": "ghetto", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
 {"page": "ghetto", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/ghetto-inner-city/"}
 {"page": "ghetto", "org_slug": "sumofus", "year": "2016", "check": "V1", "verdict": "HUMAN-VERIFIED", "detail": "sumofus-progressive-styleguide-2016.md"}
@@ -397,7 +397,7 @@
 {"page": "indigenous", "org_slug": "ngc", "year": "2021", "check": "V1", "verdict": "OK", "detail": "native-governance-center-style-guide-2021-02.md"}
 {"page": "indigenous", "org_slug": "ngc", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://nativegov.org/resources/style-guide/"}
 {"page": "indigenous", "org_slug": "naja", "year": "2017", "check": "V1", "verdict": "HUMAN-VERIFIED", "detail": "naja-indigenous-terminology-2023-06.md"}
-{"page": "indigenous", "org_slug": "naja", "year": "2017", "check": "V3", "verdict": "DEAD", "detail": "<urlopen error [Errno 61] Connection refused> https://naja.com/"}
+{"page": "indigenous", "org_slug": "naja", "year": "2017", "check": "V3", "verdict": "OK", "detail": "200 https://indigenousjournalists.org/ap-style-insert/"}
 {"page": "indigenous", "org_slug": "sierra-club", "year": "2021", "check": "V1", "verdict": "HUMAN-VERIFIED", "detail": "sierra-club-equity-language-guide-2021.md"}
 {"page": "indigenous", "org_slug": "sierra-club", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf"}
 {"page": "indigenous", "org_slug": "sierra-club", "year": "2021", "check": "V1", "verdict": "HUMAN-VERIFIED", "detail": "sierra-club-equity-language-guide-2021.md"}
@@ -413,7 +413,7 @@
 {"page": "indigenous", "org_slug": "apa", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.apa.org/about/apa/equity-diversity-inclusion/language-guidelines"}
 {"page": "indigenous", "org_slug": "tja", "year": "2026", "check": "V3", "verdict": "OK", "detail": "200 https://transjournalists.org/style-guide/"}
 {"page": "indigenous", "org_slug": "nlgja", "year": "2025", "check": "V3", "verdict": "OK", "detail": "200 https://www.nlgja.org/stylebook/"}
-{"page": "indigenous", "org_slug": "elements-of-indigenous-style", "year": "2018", "check": "V3", "verdict": "DEAD", "detail": "404 https://brusheducation.ca/books/elements-of-indigenous-style"}
+{"page": "indigenous", "org_slug": "elements-of-indigenous-style", "year": "2018", "check": "V3", "verdict": "OK", "detail": "200 https://brusheducation.ca/brush-catalogue/p/elements-of-indigenous-style-2e"}
 {"page": "indigenous", "org_slug": "un-cobo-1972", "year": "1972", "check": "V3", "verdict": "OK", "detail": "200 https://daccess-ods.un.org/access.nsf/get?open&DS=E/CN.4/SUB.2/L.566&Lang=E"}
 {"page": "indigenous", "org_slug": "radical-copyeditor", "year": "2020", "check": "V3", "verdict": "OK", "detail": "200 https://radicalcopyeditor.com/2020/10/12/thirty-everyday-phrases-that-perpetuate-the-oppression-of-indigenous-peoples/"}
 {"page": "injury", "org_slug": "ncdj", "year": "2021", "check": "V1", "verdict": "OK", "detail": "ncdj-disability-style-guide-2021.md"}
@@ -457,7 +457,7 @@
 {"page": "intersex", "org_slug": "tja", "year": "2026", "check": "V1", "verdict": "GAPPED", "detail": "tja-stylebook-2026-01.md :: Someone born with reproductive anatomy, chromosomes, or horm"}
 {"page": "intersex", "org_slug": "tja", "year": "2026", "check": "V3", "verdict": "OK", "detail": "200 https://transjournalists.org/style-guide/"}
 {"page": "islam", "org_slug": "nabj", "year": "2022", "check": "V1", "verdict": "OK", "detail": "nabj-style-guide-2022-10.md"}
-{"page": "islam", "org_slug": "nabj", "year": "2022", "check": "V3", "verdict": "DEAD", "detail": "403 https://www.nabj.org/page/styleguide"}
+{"page": "islam", "org_slug": "nabj", "year": "2022", "check": "V3", "verdict": "OK", "detail": "403 (gated \u2014 expected) https://www.nabj.org/page/styleguide"}
 {"page": "islam", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
 {"page": "islam", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/islam/"}
 {"page": "islam", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
@@ -535,7 +535,7 @@
 {"page": "muslim", "org_slug": "sierra-club", "year": "2021", "check": "V1", "verdict": "GAPPED", "detail": "sierra-club-equity-language-guide-2021.md :: Don't use geographic descriptors interchangeably with religi"}
 {"page": "muslim", "org_slug": "sierra-club", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf"}
 {"page": "muslim", "org_slug": "nabj", "year": "2022", "check": "V1", "verdict": "OK", "detail": "nabj-style-guide-2022-10.md"}
-{"page": "muslim", "org_slug": "nabj", "year": "2022", "check": "V3", "verdict": "DEAD", "detail": "403 https://www.nabj.org/page/styleguide"}
+{"page": "muslim", "org_slug": "nabj", "year": "2022", "check": "V3", "verdict": "OK", "detail": "403 (gated \u2014 expected) https://www.nabj.org/page/styleguide"}
 {"page": "muslim", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
 {"page": "muslim", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/muslim-muslims/"}
 {"page": "native-american", "org_slug": "aecf", "year": "2013", "check": "V1", "verdict": "LOOSE", "detail": "casey-editorial-guide-2013-04.md :: For nouns: African American, Asian American, black, Hispanic"}
@@ -792,7 +792,7 @@
 {"page": "white", "org_slug": "ngc", "year": "2021", "check": "V1", "verdict": "OK", "detail": "native-governance-center-style-guide-2021-02.md"}
 {"page": "white", "org_slug": "ngc", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://nativegov.org/resources/style-guide/"}
 {"page": "white", "org_slug": "nabj", "year": "2020", "check": "V1", "verdict": "OK", "detail": "nabj-style-guide-2022-10.md"}
-{"page": "white", "org_slug": "nabj", "year": "2020", "check": "V3", "verdict": "DEAD", "detail": "403 https://www.nabj.org/page/styleguide"}
+{"page": "white", "org_slug": "nabj", "year": "2020", "check": "V3", "verdict": "OK", "detail": "403 (gated \u2014 expected) https://www.nabj.org/page/styleguide"}
 {"page": "white", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "GAPPED", "detail": "diversity-style-guide-2023-11.md :: In a June 2020 statement announcing its endorsement of the c"}
 {"page": "white", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/white-white/"}
 {"page": "white", "org_slug": "aecf", "year": "2013", "check": "V1", "verdict": "OK", "detail": "casey-editorial-guide-2013-04.md"}

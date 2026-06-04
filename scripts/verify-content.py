@@ -157,8 +157,10 @@ for f in glob.glob(f"{SOURCES}/*.md"):
     year = re.search(r"^year: (\d+)", s, re.M)
     vyears = re.findall(r"^  - year: (\d+)", s, re.M)
     if slug:
+        gated = bool(re.search(r'live_status: "(login-gated|paywalled)"', s))
         source_pages.setdefault(slug.group(1), []).append({
             "file": os.path.basename(f),
+            "gated": gated,
             "years": {int(year.group(1))} | {int(v) for v in vyears}
             if year else set(),
         })
@@ -314,6 +316,11 @@ for path in term_files:
             if url not in checked_urls:
                 checked_urls[url] = url_alive(url)
             ok, code = checked_urls[url]
+            # 401/403 on a login-gated/paywalled source is expected
+            if not ok and str(code) in ("401", "403") and any(
+                    p.get("gated") for p in source_pages.get(org_slug, [])):
+                ok = True
+                code = f"{code} (gated — expected)"
             results.append({**rec, "check": "V3",
                             "verdict": "OK" if ok else "DEAD",
                             "detail": f"{code} {url}"})

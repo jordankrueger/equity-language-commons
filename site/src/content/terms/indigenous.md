@@ -69,7 +69,7 @@ guidance:
     org_slug: "naja"
     year: 2017
     entry_updated: null
-    source_url: "https://naja.com/"
+    source_url: "https://indigenousjournalists.org/ap-style-insert/"
     local_archive: "source-guides/discovered/naja-indigenous-terminology-2023-06.pdf"
     recommendation: "use"
     quote: "These factors make the words 'Indigenous' and 'Aboriginal' identities, not adjectives, and NAJA urges outlets to capitalize these terms in order to avoid confusion between indigenous plants and animals and Indigenous human beings. … avoid referring to Indigenous people as possessions of states or countries."
@@ -210,7 +210,7 @@ methodological_context:
   - org: "Gregory Younging / Brush Education"
     org_slug: "elements-of-indigenous-style"
     year: 2018
-    source_url: "https://brusheducation.ca/books/elements-of-indigenous-style"
+    source_url: "https://brusheducation.ca/brush-catalogue/p/elements-of-indigenous-style-2e"
     local_archive: null
     framework: "Indigenous style as distinct editorial system"
     note: "Foundational book-length treatment of Indigenous style. NGC's 2021 guide is structurally built on this source and quotes it directly in the opening framing. Not in our archive (paid book, Brush Education); cited as reference per MANIFEST. Positions: Indigenous style overrides conventional style in disagreement; capitalization of Indigenous / Tribe / Creator / Elder / Sundance / Sweat Lodge / Traditional Knowledge / First Nations / Métis is political redress."
