@@ -54,6 +54,13 @@ plus glossary index + SQLite build-time index + Contribute page.
 
 ## Pick-up notes for next ELC session
 
+**Done 2026-06-04 (later) — full content-verification system shipped + run:**
+- **Layer 0** `scripts/lint-content.py` gates every deploy (brackets/TODOs/scaffold notes/broken links). Fixed 19 [[wiki-bracket]] artifacts + 58 leftover TODO comments.
+- **Layer 1** `scripts/verify-content.py`: every guidance quote checked against its archive (exact/truncated/loose/gapped tiers + accent-folding + pandoc-noise stripping), confidence-label audit, URL liveness (gated-source tolerant), org/year cross-refs. 433 checks GREEN. 103 extraction-artifact quotes hand-verified vs PDFs live in `notes/verification/layer1-verified-overrides.yml` — **remove a row if its quote is edited**. Quote-triage found zero fabrications; 8 fixes (ellipses, NAJA years).
+- **Layer 2** `scripts/verify-synthesis-codex.py`: Codex (ChatGPT OAuth, `codex exec` via stdin, OPENAI_API_KEY stripped) audited 3,921 claims on 91 pages. 125 CONTRADICTED hand-triaged → **114 REAL paraphrase/synthesis precision fixes** (over-claimed consensus, misattributed definitions), 8 dismissed, 3 stale. Zero fabricated quotes / wrong recommendations. Reports + dispositions in `notes/verification/`.
+- **Open for Jordan:** keep/cite/cut triage of ~336 genuine EXTERNAL added-facts (`notes/verification/layer2-external-summary.md`, grouped); 325 more flags are "excerpt insufficient" (bundle-size limitation — optional re-audit with bigger bundles); ~60 W2 over-length quotes from lint still need trimming pre-launch.
+- **Gotchas captured:** codex hangs = hidden Gatekeeper dialog (Screen Share to dismiss); codex exec input cap ~1MB (use stdin + char-capped bundles); `codex exec -` reads prompt from stdin.
+
 **Done 2026-06-04 — 13-term mega-batch across 5 chapters (94 terms total):**
 - Top-coverage sweep: `asian` (5 kept of 16 scaffolded — heavy incidental pruning; SEIU Oriental→Asian inversion handled), `negro` (unanimous avoid, proper-name/historical carve-out), `institutional-racism` (unanimous use; Carmichael/Hamilton coinage in synthesis), `people-with-disabilities` (SEIU inversion fixed avoid→use; person-first vs identity-first debate is the page's spine), `homosexual` (avoid ×4 + DSG medical-context carve-out)
 - LGBTQ+ round-out: `transgendered` (unanimous avoid ×6, 2016→2026 register shift documented), `transition` (3 kept of 6 — SumOfUs/SEIU/Sierra were wrong-sense hits: labor/energy transition; NLGJA relevance test), `genderqueer` (exactly 3 strong; not-a-synonym-for-trans rule), `gender-binary` (4 concept-term entries)

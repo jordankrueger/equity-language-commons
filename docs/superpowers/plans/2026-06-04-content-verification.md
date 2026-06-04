@@ -1,6 +1,6 @@
 # Content verification system — spec for sign-off
 
-**Status:** DRAFT — awaiting Jordan's sign-off. Layer 0 is already shipped.
+**Status:** SHIPPED 2026-06-04 — all three layers built and run. Layer 1: scripts/verify-content.py (433 checks green; overrides in notes/verification/layer1-verified-overrides.yml). Layer 2: scripts/verify-synthesis-codex.py (91 pages, 3,921 claims; 114 precision fixes applied; reports in notes/verification/). Remaining: Jordan's keep/cite/cut triage of the EXTERNAL summary; optional re-audit of 'excerpt insufficient' claims with bigger bundles.
 **Goal:** Every published page is machine-verified: no hallucinated claims, every
 quote traceable to its archived source, every link pointing at the right place.
 
