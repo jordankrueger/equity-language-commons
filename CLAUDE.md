@@ -54,6 +54,11 @@ plus glossary index + SQLite build-time index + Contribute page.
 
 ## Pick-up notes for next ELC session
 
+**NEXT SESSION PLAN (agreed 2026-06-04):**
+1. **Finish the verification arc:** trim the ~60 over-length quotes (lint W2 list; Layer 1 re-verifies; remove touched rows from `layer1-verified-overrides.yml`), then pre-triage `notes/verification/layer2-external-summary.md` — Claude proposes keep/cite/cut per group, Jordan reviews decisions not raw items.
+2. **Source discovery session (`/research`):** corpus is tapped at 94 terms vs the ~250 launch target. Needed guides: movement/organizing (unlocks Movement & Advocacy chapter), Jewish-press or interfaith (graduates jew/islam stubs), poverty/economic-justice (Class stuck at 4), migration/asylum (unlocks asylum-seeker, migrant, anchor-baby).
+3. **DECISION FOR JORDAN before launch prep:** launch at ~100 machine-verified pages vs. grind to the locked ~250-page threshold. The verification system changes the calculus — per-page quality is now provable. Launch prep (repo public, DNS flip, legal pass) waits on this call.
+
 **Done 2026-06-04 (later) — full content-verification system shipped + run:**
 - **Layer 0** `scripts/lint-content.py` gates every deploy (brackets/TODOs/scaffold notes/broken links). Fixed 19 [[wiki-bracket]] artifacts + 58 leftover TODO comments.
 - **Layer 1** `scripts/verify-content.py`: every guidance quote checked against its archive (exact/truncated/loose/gapped tiers + accent-folding + pandoc-noise stripping), confidence-label audit, URL liveness (gated-source tolerant), org/year cross-refs. 433 checks GREEN. 103 extraction-artifact quotes hand-verified vs PDFs live in `notes/verification/layer1-verified-overrides.yml` — **remove a row if its quote is edited**. Quote-triage found zero fabrications; 8 fixes (ellipses, NAJA years).
