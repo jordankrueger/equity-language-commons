@@ -32,6 +32,7 @@ term_slugs:
   - "insane"
   - "mental-health"
   - "mental-illness"
+  - "people-with-disabilities"
   - "retarded"
   - "survivor"
   - "victim"

@@ -23,8 +23,11 @@ term_slugs:
   - "bisexual"
   - "cisgender"
   - "gay"
+  - "gender-binary"
   - "gender-identity"
+  - "genderqueer"
   - "homophobia"
+  - "homosexual"
   - "intersex"
   - "lesbian"
   - "nonbinary"
@@ -32,6 +35,8 @@ term_slugs:
   - "queer"
   - "sexual-orientation"
   - "transgender"
+  - "transgendered"
+  - "transition"
   - "transsexual"
 ---
 

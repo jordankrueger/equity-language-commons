@@ -19,10 +19,13 @@ cross_cutting_principles:
 term_slugs:
   - "american-indian"
   - "first-nations"
+  - "indian"
+  - "indian-country"
   - "indigenous"
   - "native-american"
   - "reservation"
   - "tribe"
+  - "two-spirit"
 ---
 
 ## What this chapter covers
