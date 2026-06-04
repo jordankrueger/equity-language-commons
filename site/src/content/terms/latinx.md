@@ -61,7 +61,7 @@ guidance:
     recommendation: "use-with-care"
     quote: "Terms used by some as gender-neutral alternatives to Latino or Latina. Some prefer *Latine* — or less commonly, *Latin@* — to *Latinx*. Defer to an individual's use and do not apply it to those who do not self-describe with it."
     quote_loc: "Glossary entry: Latinx, Latine (adj.) — anchor #def-latinx"
-    paraphrase: "TJA groups Latinx and Latine under one entry, notes the rising preference for Latine among some communities, and applies strict self-identification deferral — never apply either to someone who doesn't use it for themselves."
+    paraphrase: "TJA groups Latinx and Latine under one entry, notes that some prefer Latine (or, less commonly, Latin@) to Latinx, and applies strict self-identification deferral — never apply either to someone who doesn't use it for themselves."
     confidence: "VERIFIED"
 
   - org: "Diversity Style Guide"
@@ -150,19 +150,19 @@ contributors:
 
 ## Synthesis
 
-"Latinx" is one of the most actively contested terms in progressive style guidance, but the contest is narrower than it looks. Every source that engages the term agrees on the floor: self-identification is primary. Where guides diverge is on the **default** — the term to use when individual preference is unknown or when writing about a group in the aggregate.
+"Latinx" is one of the most actively contested terms in progressive style guidance, but the contest is narrower than it looks. Among the sources that take a position on usage, self-identification is the recurring floor — Sierra Club and TJA both make it explicit. Where guides diverge is on the **default** — the term to use when individual preference is unknown or when writing about a group in the aggregate.
 
-Three positions appear in the corpus:
+Three patterns appear in the corpus:
 
-1. **Latino-default with Latinx on request** — Sierra Club (2021), SEIU (2020). Treat Latinx as conditional on self-ID or partner-org usage.
-2. **Latinx-default without qualification** — Native Governance Center (2021) uses Latinx as its example term; Casey (2013) predates the debate.
-3. **Defer only** — TJA, DSG, Racial Equity Tools. No house default; the term is audience- and self-ID-dependent.
+1. **Latino-default with Latinx on request** — Sierra Club (2021) accepts Latinx but defaults to Latino/Latina, using Latinx on self-ID or partner-org usage. SEIU (2020) shares the Latino-default but predates Latinx and doesn't address it.
+2. **Latinx used without qualification** — Native Governance Center (2021) uses Latinx as its example capitalized identifier (in passing, not as a worked-out position); Casey (2013) predates the debate.
+3. **Defer / audience-dependent** — TJA applies strict self-ID deferral; Racial Equity Tools frames the whole cluster as audience-dependent. DSG (whose recommendation here is "evolving") describes Latinx as "increasingly used" and maintains separate entries rather than setting a house default.
 
-The strongest signal in the data is a time trend: **Latine is ascending, Latinx is stabilizing as "use with care."** The 2021 guides (Sierra Club, NGC) show no awareness of Latine. The 2023–2024 guides (DSG, TJA) explicitly elevate Latine as an alternative that works better in Spanish. Latine's advantage is structural, not just preferential: it's pronounceable in Spanish, it follows the "e" gender-neutral pattern that Spanish speakers actually use, and it originated in Spanish-speaking LGBTQIA+ communities rather than as an English-internet coinage. Practitioners writing for Spanish-speaking or bilingual audiences after ~2023 should weight Latine over Latinx.
+The strongest signal in the data is a time trend: **Latine is ascending, Latinx is settling into a "use with care" / "evolving" posture.** The 2021 guides (Sierra Club, NGC) show no awareness of Latine. Among the 2023–2024 sources, DSG's Latine entry elevates it as the more Spanish-usable form ("more easily pronounced than Latinx"), and TJA notes that some prefer Latine to Latinx. Latine's advantage is structural, not just preferential: it's pronounceable in Spanish, it follows the "e" gender-neutral pattern that Spanish speakers actually use, and it originated in Spanish-speaking LGBTQIA+ communities rather than as an English-internet coinage. Practitioners writing for Spanish-speaking or bilingual audiences after ~2023 should weight Latine over Latinx.
 
 A separate call: **Hispanic and Latino are not interchangeable, and later guides make that distinction explicit where earlier ones didn't.** "Hispanic" foregrounds Spanish-language heritage (includes Spain, excludes Brazil). "Latino/a/x" foregrounds Latin American geographic origin (excludes Spain, includes Brazil). Sierra Club (2021) and DSG (2023) both spell out this distinction; the 2013 Casey guide, written before this distinction had settled into style-guide practice, treats the terms as equivalent approved nouns. Use one or the other with intent, not as synonyms.
 
-The Pew 3%/23% data (2019) is the load-bearing empirical claim across the synthesis space: only 3% of U.S. Hispanic/Latino adults used Latinx for themselves. That gap — between progressive institutional uptake and community self-ID — is why Sierra Club, TJA, and DSG all converge on variations of "use with care" rather than unqualified endorsement.
+The Pew 3%/23% data (2019) is the load-bearing empirical claim across the synthesis space: only 3% of U.S. Hispanic/Latino adults used Latinx for themselves. That gap — between progressive institutional uptake and community self-ID — underlies the cautious posture of Sierra Club (use-with-care, default Latino) and TJA (strict self-ID deferral); DSG, citing the same Pew data, frames the term as "increasingly used" while flagging that many Latino/Hispanic people are unfamiliar with it.
 
 
 ## History note

@@ -78,7 +78,7 @@ guidance:
     recommendation: "use"
     quote: "Gay | A person who is emotionally, romantically or sexually attracted to members of the same gender. Men, women and non-binary people may use this term to describe themselves."
     quote_loc: "Glossary, Gay entry (updated 5/31/2023)"
-    paraphrase: "HRC defines gay as a same-gender attraction descriptor open to men, women, and non-binary people — broader than the men-only default found in older journalism style guides. The companion lesbian entry treats lesbian as the term for women attracted to women, but explicitly notes some women prefer 'gay.'"
+    paraphrase: "HRC defines gay as a same-gender attraction descriptor open to men, women, and non-binary people — broader than the men-only default found in older journalism style guides. The companion lesbian entry treats lesbian as the term for women (and non-binary people) attracted to women."
     confidence: "VERIFIED-ARCHIVED"
 
   - org: "NLGJA: The Association of LGBTQ+ Journalists"
@@ -90,7 +90,7 @@ guidance:
     recommendation: "use"
     quote: "Refers to men who are attracted to other men. Do not use as a singular noun: Juan is gay, not Juan is a gay. Acceptable in tight headlines and in quotations to refer collectively to gays and lesbians."
     quote_loc: "Sexual Orientation → gay (noun, adj.)"
-    paraphrase: "NLGJA's 2025 stylebook treats gay primarily as describing men who are attracted to men, accepts it as a tight-headline shorthand for gays and lesbians, and bars its use as a singular noun. Companion entries treat 'homosexual' as obsolete for people (acceptable only as a noun for the concept of same-sex attraction in research contexts) and reject 'gay agenda' as a politically charged opposition framing."
+    paraphrase: "NLGJA's 2025 stylebook treats gay primarily as describing men who are attracted to men, accepts it as a tight-headline shorthand for gays and lesbians, and bars its use as a singular noun. Companion entries treat 'homosexual' as obsolete for people, accept 'homosexuality' as the noun for the concept of same-sex attraction (most useful in scientific-research writing), and reject 'gay agenda' as a politically charged opposition framing."
     confidence: "VERIFIED-ARCHIVED"
 
 context_data: []
@@ -105,7 +105,7 @@ contributors:
 
 ## Synthesis
 
-The cross-source consensus on gay starts with what it isn't: **don't use "homosexual" for people.** SEIU, DSG, and NLGJA all explicitly prefer "gay" and reject "homosexual" as an adjective or noun describing people. DSG's reasoning carries the corpus: "homosexual" connotes clinical context and historical references to sexual activity rather than identity, and treating it as the formal-register synonym for gay misreads the term's actual baggage. NLGJA scopes "homosexual" to research contexts only, where it still functions as a neutral noun for the concept of same-sex attraction. The second piece of grammar consensus is just as universal: **gay is not a singular noun.** Don't write "a gay" — DSG and NLGJA make this explicit, and the pattern echoes the transgender-is-an-adjective rule from the rest of this chapter.
+The cross-source consensus on gay starts with what it isn't: **don't use "homosexual" for people.** SEIU, DSG, and NLGJA all explicitly prefer "gay" and reject "homosexual" as an adjective or noun describing people. DSG's reasoning carries the corpus: "homosexual" connotes clinical context and historical references to sexual activity rather than identity, and treating it as the formal-register synonym for gay misreads the term's actual baggage. NLGJA treats "homosexual" as obsolete for people and points instead to "homosexuality" as the noun for the concept of same-sex attraction, most useful in scientific-research writing. The second piece of grammar consensus is just as universal: **gay is not a singular noun.** Don't write "a gay" — DSG and NLGJA make this explicit, and the pattern echoes the transgender-is-an-adjective rule from the rest of this chapter.
 
 Where the corpus diverges is on **scope.** DSG and NLGJA treat gay as primarily describing men, with lesbian as the parallel term for women — DSG's "gay for men, lesbian for women" rule is the dominant pre-2020 default, with subject preference as the override. HRC takes a notably broader position in its 2023 glossary: gay is "a person who is emotionally, romantically or sexually attracted to members of the same gender," and "men, women and non-binary people may use this term to describe themselves." That's a genuine doctrinal split — HRC opens the term to anyone who self-identifies that way; DSG and NLGJA hold the men-as-default with subject-preference exception. Both positions are coherent; the practical resolution is the same in either: defer to how the subject identifies.
 
@@ -115,7 +115,7 @@ A note on associated phrasings: NLGJA rejects "gay agenda" as politically charge
 
 ## Audience notes
 
-- **Journalists and editors.** Use "gay" as an adjective; don't use it as a singular noun. For collective references, "gay people," "gay men," "gays and lesbians" (or "gay" alone in tight headlines per NLGJA and DSG). Don't use "homosexual" for people — it's acceptable only in research contexts as a noun for the concept. "Gay agenda," "gay lifestyle," and "avowed homosexual" are not neutral phrasings; use "LGBTQ+ rights" or "LGBTQ+ advocates" as the substitute.
+- **Journalists and editors.** Use "gay" as an adjective; don't use it as a singular noun. For collective references, "gay people," "gay men," "gays and lesbians" (or "gay" alone in tight headlines per NLGJA and DSG). Don't use "homosexual" for people; where a noun for the concept of same-sex attraction is needed, "homosexuality" is the acceptable form (most useful in scientific-research writing). "Gay agenda," "gay lifestyle," and "avowed homosexual" are not neutral phrasings; use "LGBTQ+ rights" or "LGBTQ+ advocates" as the substitute.
 - **Defaulting between gay and lesbian.** When the subject's preference isn't known, DSG and NLGJA's default of gay-for-men and lesbian-for-women is workable. When the subject has stated a preference, that overrides. Some women prefer "gay"; some lesbians prefer "lesbian" exclusively; HRC's framing makes the broader read available.
 - **Umbrella references.** Don't use "gay" to describe the broader LGBTQ+ community. "LGBTQ+ community," "queer community" (where the audience accepts the reclaimed sense), or "LGBTQI" (Sierra Club's house default) carry the umbrella correctly. SumOfUs makes this the strictest rule in the corpus; SEIU's "would you write X community about any other group" test is the practical check.
 - **Internal-comms and movement writing.** Movement guides converge on broader umbrellas (queer, LGBTQ+) and reserve "gay" for the specific reference. External news copy follows DSG and NLGJA — gay-for-men, lesbian-for-women, with self-ID as override. Both rules respect the same underlying principle: gay isn't an umbrella; treat it as a specific identifier.

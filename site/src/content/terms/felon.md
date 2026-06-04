@@ -40,7 +40,7 @@ guidance:
     derived_from: []
     quote: "“Felon;” “convict;” “ex-con;” “offender” … As health experts have noted, this carries a significant amount of stigma. These terms may paint an overly simplistic picture to readers. … Alternatives: Person with a felony conviction."
     quote_loc: "Problematic Terms to Reconsider chart, Comm/Unity Style Guide R4 (2021)"
-    paraphrase: "The Comm/Unity Style Guide (published by IDP) carries the same combined entry, flagging \"felon\" as stigmatizing and preferring \"person with a felony conviction.\""
+    paraphrase: "The Comm/Unity Style Guide — prepared by the Comm/Unity Network, anchored by IDP — carries the same combined entry, flagging \"felon\" as stigmatizing and preferring \"person with a felony conviction.\""
     confidence: "VERIFIED-ARCHIVED"
   - org: "Sierra Club"
     org_slug: "sierra-club"

@@ -39,7 +39,7 @@ guidance:
     derived_from: []
     quote: "Don't use language that reinforces stigma, or implies helplessness or victimhood. For example, describe \"people living with AIDS\" rather than people \"suffering from AIDS.\""
     quote_loc: "Disease entry"
-    paraphrase: "GCJT applies the same anti-suffering rule to conditions and injuries: avoid language that implies helplessness or victimhood. Its worked example — \"people living with AIDS\" rather than \"suffering from AIDS\" — models the \"lives with\" construction as the neutral alternative to the suffering frame."
+    paraphrase: "GCJT's disease entry states the same anti-suffering rule: avoid language that implies helplessness or victimhood. Its worked example — \"people living with AIDS\" rather than \"suffering from AIDS\" — models the \"lives with\" construction as the neutral alternative to the suffering frame, a pattern that carries over to injury language."
     confidence: "VERIFIED-ARCHIVED"
   - org: "American Psychological Association"
     org_slug: "apa"

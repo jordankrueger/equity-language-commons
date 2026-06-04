@@ -69,7 +69,7 @@ guidance:
     recommendation: "use"
     quote: "Lesbian | A woman who is emotionally, romantically or sexually attracted to other women. Women and non-binary people may use this term to describe themselves."
     quote_loc: "Glossary, Lesbian entry"
-    paraphrase: "HRC defines lesbian as a woman attracted to other women, and explicitly extends the term to non-binary people who use it for themselves — a broader opening than the women-only default in older journalism style guides. The companion gay entry notes some women prefer 'gay' instead of 'lesbian,' and HRC defers to how the subject describes themselves."
+    paraphrase: "HRC defines lesbian as a woman attracted to other women, and explicitly extends the term to non-binary people who use it for themselves — a broader opening than the women-only default in older journalism style guides. HRC defers throughout to how the subject describes themselves."
     confidence: "VERIFIED-ARCHIVED"
 
 context_data: []
@@ -94,4 +94,4 @@ The most recent shift in the corpus is HRC's **extension of the term to non-bina
 
 - **Journalists.** When a subject's gender is described in non-binary terms but the subject self-identifies as a lesbian, use lesbian. HRC's 2023 reframing supports this directly; the older corpus supports it implicitly through self-identification deference. Don't override the subject's self-description with a structural rule that "lesbian = woman."
 - **Movement writing.** SumOfUs's specific-over-umbrella rule applies as cleanly to lesbian as to bisexual: don't write "gay rights" when lesbian women are the specific subjects; don't collapse lesbian into a broader "gay" framing in contexts where the specificity matters. The "L" in LGBTQ+ acronyms goes first across all the major coalition guides for a reason — surfacing rather than subsuming.
-- **The "gay" alternative.** Some lesbians prefer to be called gay. DSG and HRC both surface this and treat it as a non-issue: the subject's self-description settles the question. Default to lesbian when the subject's preference isn't known; flip to gay without comment when the subject names it.
+- **The "gay" alternative.** Some lesbians prefer to be called gay. DSG surfaces this directly ("ask the subject which term she prefers") and treats it as a non-issue: the subject's self-description settles the question. Default to lesbian when the subject's preference isn't known; flip to gay without comment when the subject names it.
