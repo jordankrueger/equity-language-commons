@@ -48,9 +48,9 @@ term_slugs:
 
 ## What this chapter covers
 
-This chapter gathers the terms most progressive style guides treat as racial or ethnic identifiers, including umbrella terms (BIPOC, people of color, AAPI, multiracial, Brown, minority), specific-identity terms (Black, African American, Asian American, Arab, Latinx, Latine, Latino/a, Hispanic, white), subset identities (Chicanx, Afro-Latino), racially-coded euphemisms to avoid (urban, inner-city), and non-preferred terms (Caucasian, minority).
+This chapter gathers the terms most progressive style guides treat as racial or ethnic identifiers, including umbrella terms (BIPOC, people of color, AAPI, multiracial, Brown, minority), specific-identity terms (Black, African American, Asian, Asian American, Arab, Latinx, Latine, Latino/a, Hispanic, white), subset identities (Chicanx, Afro-Latino), racially-coded euphemisms to avoid (urban, inner-city), non-preferred terms (Caucasian, minority), and the dated descriptor the corpus retired to proper names and historical reference (Negro).
 
-It also carries the **structural vocabulary** the corpus uses to name how race operates: systemic (institutional) racism, colonialism, discrimination, and stereotypes, plus the person-first handling of enslavement. These concept terms are usable, standard language — the guides define them to be named, not avoided — and they connect this chapter to the parallel structural concepts (ableism, classism, ageism) elsewhere in the commons.
+It also carries the **structural vocabulary** the corpus uses to name how race operates: systemic racism and institutional racism (now on separate pages, matching the sources' scale distinction), colonialism, discrimination, and stereotypes, plus the person-first handling of enslavement. These concept terms are usable, standard language — the guides define them to be named, not avoided — and they connect this chapter to the parallel structural concepts (ableism, classism, ageism) elsewhere in the commons.
 
 **Indigenous & Tribal Sovereignty is a separate chapter.** Most sources that treat Indigenous identity frame it through sovereignty rather than race, and the commons follows that framing. Native American, American Indian, Indigenous, Tribal, and related vocabulary live in that chapter, not here.
 

@@ -30,7 +30,7 @@ term_slugs:
 
 ## What this chapter covers
 
-This chapter gathers terms that source guides frame through Indigenous identity, sovereignty, and political relationship: umbrella terms (Indigenous, Native, Native American, American Indian, First Nations), specific structural terms (tribe, Tribal Nation, reservation), and the legal and geographic vocabulary that sits alongside them (Indian Country, treaty rights, federal recognition).
+This chapter gathers terms that source guides frame through Indigenous identity, sovereignty, and political relationship: umbrella terms (Indigenous, Native, Native American, American Indian, First Nations), specific structural terms (tribe, Tribal Nation, reservation), the legal and geographic vocabulary that sits alongside them (Indian Country, treaty rights, federal recognition), the bare "Indian" with its self-identification and disambiguation rules, and the Native-only identity term Two-Spirit.
 
 **Indigenous & Tribal Sovereignty is separate from Race & Ethnicity by design.** Most sources in the corpus that engage Indigenous identity frame it through sovereignty — treaty relationships, federally recognized nations, government-to-government interaction — rather than through race. The commons follows that framing: Indigenous, Native American, American Indian, Tribal, and related vocabulary live here, not in the Race & Ethnicity chapter.
 

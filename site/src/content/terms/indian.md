@@ -1,0 +1,90 @@
+---
+term: "Indian"
+slug: "indian"
+aliases: []
+related_terms:
+  - slug: "american-indian"
+    relation: "overlapping-but-distinct"
+  - slug: "native-american"
+    relation: "overlapping-but-distinct"
+  - slug: "first-nations"
+    relation: "geographic-variant"
+  - slug: "indigenous"
+    relation: "umbrella-for"
+categories:
+  - "indigenous-identity-and-sovereignty"
+  - "race-ethnicity"
+tags:
+  - "self-id-required"
+  - "evolving-usage"
+  - "disambiguation"
+guidance:
+  - org: "SumOfUs"
+    org_slug: "sumofus"
+    year: 2016
+    entry_updated: null
+    source_url: null
+    local_archive: "source-guides/discovered/sumofus-progressive-styleguide-2016.pdf"
+    recommendation: "avoid"
+    derived_from: []
+    quote: "The term “Indian” is outdated and should be replaced by the term “First Nation” except in the following cases: in direct quotations; when citing titles of books, works of art, etc.; in discussions of history where necessary for clarity and accuracy; in discussions of some legal/constitutional matters."
+    quote_loc: "Indigeneity/Ancestry section, terminology bullets"
+    paraphrase: "Writing for a Canadian context, Sum of Us directs writers to replace standalone “Indian” with “First Nation,” carving out exceptions for direct quotations, titles of works, historical discussion, and legal or constitutional precision (including statistical categories and rights tied to legal “Indian” status)."
+    confidence: "VERIFIED-ARCHIVED"
+  - org: "Native Governance Center"
+    org_slug: "ngc"
+    year: 2021
+    entry_updated: null
+    source_url: "https://nativegov.org/resources/style-guide/"
+    local_archive: "source-guides/Native-Governance-Center-Style-Guide-published-2021-02.pdf"
+    recommendation: "use-with-care"
+    derived_from: []
+    quote: "Refer to the people we serve as: Native people, Native, or Indigenous. Use American Indian or Indian when requested by a particular interview subject or when quoting another work."
+    quote_loc: "The People and Nations We Serve → Other terminology related to Native nations and lands"
+    paraphrase: "NGC does not use “Indian” as a default. Its preferred general terms are Native people, Native, or Indigenous; “Indian” (or American Indian) is reserved for when an individual self-identifies that way or when quoting another work. The default is self-identification."
+    confidence: "VERIFIED-ARCHIVED"
+  - org: "Sierra Club"
+    org_slug: "sierra-club"
+    year: 2021
+    entry_updated: null
+    source_url: "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf"
+    local_archive: "source-guides/Equity Language Guide Sierra Club 2021.pdf"
+    recommendation: "use-with-care"
+    derived_from: []
+    quote: "“Indian” or “Indian Country”: Similarly, though many Tribal peoples may use “Indian” to refer to themselves, the Sierra Club is not a Tribal organization and should default to using a more formal, respectful term like “Tribal” or “Native.” If someone wishes to be identified as “Indian,” we should refer to them as “self-identified” (e.g., self-identified Indian activist)."
+    quote_loc: "Indigenous Peoples → Slang terms and references to avoid"
+    paraphrase: "Sierra Club acknowledges that many Tribal people use “Indian” for themselves, but advises non-Tribal organizations to default to “Tribal” or “Native.” When someone self-identifies as Indian, the guide directs writers to mark that explicitly (e.g., “self-identified Indian activist”), keeping self-identification primary."
+    confidence: "VERIFIED-ARCHIVED"
+  - org: "Diversity Style Guide"
+    org_slug: "diversity-style-guide"
+    year: 2023
+    entry_updated: null
+    source_url: "https://www.diversitystyleguide.com/glossary/indian-indian-american/"
+    local_archive: "source-guides/discovered/diversity-style-guide-2023-11.md"
+    recommendation: "use-with-care"
+    derived_from: []
+    quote: "Use Indian or person from India to refer to a person with ancestral ties to India. Use Indian American to refer to a U.S. permanent resident or citizen with ancestral ties to India. Do not confuse with American Indian. Do not use to refer to indigenous peoples of the United States."
+    quote_loc: "Entry: Indian, Indian American"
+    paraphrase: "DSG treats the unqualified “Indian” as referring to people with ancestral ties to India, and explicitly cautions against using it for Indigenous peoples of the United States (use American Indian for that). The two senses should not be conflated."
+    confidence: "VERIFIED-ARCHIVED"
+context_data: []
+external_references: []
+methodological_context: []
+audience_notes: []
+last_reviewed: 2026-06-04
+created: 2026-06-04
+contributors:
+  - "jordan"
+---
+## Synthesis
+
+**Bare "Indian" is nobody's default — but the reasons split three ways, and each carries its own rule.** First, the disambiguation problem: the Diversity Style Guide reserves the unqualified word for people with ancestral ties to India and explicitly bars it for Indigenous peoples of the United States (that's "American Indian," on its own page). Second, the self-identification rule: the Native Governance Center and Sierra Club both acknowledge that many Native and Tribal people use "Indian" for themselves — and both direct non-Native organizations to default to other terms (Native, Indigenous, Tribal), using "Indian" only when an individual requests it or in quotation. Sierra Club adds a marker convention: write "self-identified Indian activist," so the word choice is visibly the subject's. Third, the geographic split: SumOfUs, writing for a Canadian context, replaces "Indian" with "First Nation" outright, with exceptions for quotes, titles, history, and legal precision.
+
+That legal exception is load-bearing in both countries. "Indian" remains embedded in statute — Canada's Indian Act and registered-status system, and U.S. federal law from the Bureau of Indian Affairs to Title 18's "Indian Country" — so legal and policy writing sometimes cannot avoid the word without losing accuracy. The corpus's handling: use the statutory term when the statute is the subject, and the community's own terms everywhere else.
+
+The page divides cleanly from its neighbors: "American Indian" (a settled, acceptable identifier in U.S. usage, especially when requested), "Native American" and "First Nations" (the U.S. and Canadian preferred generals), and "Indigenous" (the international umbrella). Bare "Indian" is the form that needs this page because it sits at the intersection of a dated colonial label, a current self-identifier, a statutory term of art, and the standard demonym for 1.4 billion people from India.
+
+## Audience notes
+
+- **Journalists and editors.** Unqualified "Indian" means a person from India. For Indigenous people, use the person's nation first (Diné, Oglala Lakota), then their preferred general term; "Indian" only on request or in quotes, marked as self-identification.
+- **Legal, policy, and data writers.** Statutory categories (Indian Act status, BIA programs, Census "American Indian") keep the statutory word — quote the category precisely, and switch to the community's terms in your own analysis.
