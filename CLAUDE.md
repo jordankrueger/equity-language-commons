@@ -27,17 +27,17 @@ shipped — extract → matrix → source-page scaffold → enrich → term scaf
 plus glossary index + SQLite build-time index + Contribute page.
 
 **Phase 3 (bulk term indexing) is underway** across **9 chapters**:
-- **Race & Ethnicity** — 24 indexed terms (added 2026-06-03: slavery, systemic-racism, discrimination, stereotypes, colonialism, arab). Chapter lede + cross-cutting principles updated to cover structural vocabulary alongside identity labels. Note: `arab` went here, not Faith — Sierra separates Muslim (religion) from Arab (ethnicity).
-- **Indigenous & Tribal Sovereignty** — 5 indexed terms (native-american, american-indian, first-nations, reservation, tribe), chapter intro with 6 cross-cutting principles
-- **Sexuality & Gender Identity** — 14 indexed terms (added 2026-06-03: nonbinary, asexual, transsexual, gender-identity), chapter intro with 7 cross-cutting principles
-- **Disability & Mental Health** — 18 indexed terms (added 2026-06-03: autism, disabled, depression, injury), chapter intro with 6 cross-cutting principles; anchored by NCDJ's Disability Language Style Guide. Note: `accessible` + `addiction` are the thinnest pages (3-4 sources each); `victim` is intentionally split-recommendation (avoid in illness/disability framing, contested in violence/trauma framing); `deaf` is the chapter's first specific-condition identity-first page (capital-D Deaf). The 4 rejected labels are all unanimous `avoid`.
-- **Immigration & Citizenship** — 6 indexed terms (immigrant, refugees, undocumented-immigrant, illegal-immigrant, illegal-alien, alien), chapter intro with 6 cross-cutting principles; anchored by Define American + Immigrant Defense Project. One PARTIAL: Color of Change on illegal-immigrant (OCR collapsed the use/avoid table columns).
+- **Race & Ethnicity** — 27 indexed terms (added 2026-06-04: asian, negro, institutional-racism). Chapter lede + cross-cutting principles updated to cover structural vocabulary alongside identity labels. Note: `arab` went here, not Faith — Sierra separates Muslim (religion) from Arab (ethnicity).
+- **Indigenous & Tribal Sovereignty** — 8 indexed terms (added 2026-06-04: indian, indian-country, two-spirit), chapter intro with 6 cross-cutting principles. Note: two-spirit's 3rd source is NLGJA's dedicated two-spirit entry, which the matrix scan missed; two-spirit is dual-category (also LGBTQ+). `tribal`/`sovereignty`/`treaty` are NOT standalone matrix terms in the current corpus (only compounds) — the earlier pick-up note claiming they were matrix-strong was stale.
+- **Sexuality & Gender Identity** — 19 indexed terms (added 2026-06-04: homosexual, transgendered, transition, genderqueer, gender-binary), chapter intro with 7 cross-cutting principles
+- **Disability & Mental Health** — 19 indexed terms (added 2026-06-04: people-with-disabilities), chapter intro with 6 cross-cutting principles; anchored by NCDJ's Disability Language Style Guide. Note: `accessible` + `addiction` are the thinnest pages (3-4 sources each); `victim` is intentionally split-recommendation (avoid in illness/disability framing, contested in violence/trauma framing); `deaf` is the chapter's first specific-condition identity-first page (capital-D Deaf). The 4 rejected labels are all unanimous `avoid`.
+- **Immigration & Citizenship** — 7 indexed terms (added 2026-06-04: dreamer — the consolidated Dreamer / DACA Recipient page; slug `dreamer`, aliases cover DACA/DREAM Act), chapter intro with 6 cross-cutting principles; anchored by Define American + Immigrant Defense Project. One PARTIAL: Color of Change on illegal-immigrant (OCR collapsed the use/avoid table columns).
 - **Class & Economic Status** — 4 indexed terms (classism, ghetto, disadvantaged, working-class), chapter intro with 5 cross-cutting principles. Corpus is genuinely thin on class — few guides have dedicated "poverty"/"poor" headwords.
 - **Age & Generations** — 3 indexed terms (ageism, elderly, aging), order 7. Added 2026-06-03.
 - **Criminal Justice & Incarceration** — 4 indexed terms (convict, felon, inmate, offender), order 8. Added 2026-06-03.
 - **Faith & Religious Identity** — 3 indexed terms (antisemitism, islamophobia, muslim), order 9. Added 2026-06-03.
 
-**81 indexed terms total.** 2 intentional `verified-hold` stubs: `jew.md`, `islam.md` — real content, below the ≥3-source bar; need a Jewish-press or interfaith style guide as 3rd source to graduate to full pages.
+**94 indexed terms total.** 2 intentional `verified-hold` stubs: `jew.md`, `islam.md` — real content, below the ≥3-source bar; need a Jewish-press or interfaith style guide as 3rd source to graduate to full pages.
 
 **Movement & Advocacy chapter deferred** — only `ally` clears the ≥3-source bar in the current corpus. `tolerance`/`activist`/`advocate`/`equality` are sub-threshold. Needs a movement/organizing-focused source guide to unlock.
 
@@ -53,6 +53,16 @@ plus glossary index + SQLite build-time index + Contribute page.
 **Standing reference — `notes/cleanup-pass-prompt.md`** captures the subagent cleanup-pass workflow + every editorial rule + error pattern caught during Phase 3. Read it before dispatching a cleanup subagent. Update when new error patterns appear.
 
 ## Pick-up notes for next ELC session
+
+**Done 2026-06-04 — 13-term mega-batch across 5 chapters (94 terms total):**
+- Top-coverage sweep: `asian` (5 kept of 16 scaffolded — heavy incidental pruning; SEIU Oriental→Asian inversion handled), `negro` (unanimous avoid, proper-name/historical carve-out), `institutional-racism` (unanimous use; Carmichael/Hamilton coinage in synthesis), `people-with-disabilities` (SEIU inversion fixed avoid→use; person-first vs identity-first debate is the page's spine), `homosexual` (avoid ×4 + DSG medical-context carve-out)
+- LGBTQ+ round-out: `transgendered` (unanimous avoid ×6, 2016→2026 register shift documented), `transition` (3 kept of 6 — SumOfUs/SEIU/Sierra were wrong-sense hits: labor/energy transition; NLGJA relevance test), `genderqueer` (exactly 3 strong; not-a-synonym-for-trans rule), `gender-binary` (4 concept-term entries)
+- Indigenous round-out: `indian` (bare-Indian page, distinct from american-indian; DSG India-disambiguation + self-id rules + Canadian First Nation replacement), `indian-country` (Title 18 legal term; NAJA OCR verified against PDF), `two-spirit` (rescued from 2-source flag by adding NLGJA's dedicated entry by hand — matrix scan had missed it; capitalization divergence NLGJA-lowercase vs TJA/RET-capitalized documented)
+- Immigration: consolidated `dreamer` page (Dreamer / DACA Recipient; 5 entries, 4 orgs). Define American column-scramble resolved by reading PDF p.9 with -layout — definitions verified verbatim. Key teaching: DACA recipients (580k) are a subset of Dreamers (2M+); DREAM Act = legislation (never passed), DACA = executive program (2012). Raw daca/dream-act scaffolds deleted in favor of the one page.
+- Fixed 2 invalid category values the scaffolder emitted: `lgbtq-identity` → `sexuality-and-gender-identity`, `disability` → `disability-and-mental-health` (two-spirit, people-with-disabilities)
+- Chapter intros updated (race, LGBTQ+, indigenous, immigration); matrix regenerated (94/96 indexed)
+- Clean build 142 pages, 0 warnings; deployed; all 13 pages + /search HTTP-200 verified; content spot-checked
+- Worktree merged to main (ff), pushed to GitHub, worktree+branch removed
 
 **Done 2026-06-03 — 3 new chapters + round-outs + glossary canonical-source tiering:**
 - Age & Generations (3 terms), Criminal Justice & Incarceration (4 terms), Faith & Religious Identity (3 terms) — all deployed + HTTP 200 verified
