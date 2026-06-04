@@ -5,6 +5,9 @@ set -euo pipefail
 
 PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 
+# Content lint — blocks the deploy on authoring artifacts / broken links.
+"$PROJECT_ROOT/scripts/lint-content.py"
+
 # Refresh derived data first — order matters: matrix → glossary → sqlite.
 "$PROJECT_ROOT/scripts/build-coverage-matrix.py" >/dev/null
 "$PROJECT_ROOT/scripts/build-glossary-index.py"

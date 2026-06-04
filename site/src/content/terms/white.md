@@ -117,7 +117,7 @@ audience_notes:
   - audience: "Caucasian usage"
     note: "Avoid as a synonym for 'white' in identity contexts — both Casey 2013 and DSG 2023 are explicit. DSG allows the term in demographic-data contexts where it is the formal label being cited. The pseudo-scientific origins (Blumenbach's 18th-century racial typology) make 'Caucasian' a poor descriptor in current usage."
   - audience: "Writing about white supremacy / white nationalism"
-    note: "Distinct vocabulary applies regardless of house capitalization rule. Sierra Club's reasoning for lowercase 'white' is rooted specifically in not sharing orthography with the capital-W White used by organized white-supremacist movements as a political identity. See [[white-supremacy]]."
+    note: "Distinct vocabulary applies regardless of house capitalization rule. Sierra Club's reasoning for lowercase 'white' is rooted specifically in not sharing orthography with the capital-W White used by organized white-supremacist movements as a political identity. See white supremacy."
 
 last_reviewed: 2026-05-16
 created: 2026-05-16

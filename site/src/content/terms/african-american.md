@@ -87,13 +87,13 @@ context_data:
   - label: "Gallup race-preference polling (1991–2019)"
     claim: "Across multiple polls, roughly half to two-thirds of Black / African American respondents reported no preference between the two terms. In the 2019 poll, those with a preference split evenly between the two."
     url: "https://news.gallup.com/poll/315566/black-americans-no-preference-black-african-american.aspx"
-    relevance: "Same data underpinning the [[black]] entry. Confirms that neither term can be defaulted-to without sometimes mis-identifying — the most-with-no-preference makes either acceptable; the evenly-split-with-preference makes neither the safe default."
+    relevance: "Same data underpinning the Black entry. Confirms that neither term can be defaulted-to without sometimes mis-identifying — the most-with-no-preference makes either acceptable; the evenly-split-with-preference makes neither the safe default."
 
 audience_notes:
   - audience: "Recent African immigrants and their US-born children"
     note: "African American often does not fit; many identify by national origin (Nigerian American, Ethiopian American, Somali, etc.) or as Black. 'African American' is sometimes read in specifically denoting descent from people enslaved in the United States, which makes it a partial misfit for first- and second-generation African immigrants regardless of race. Sierra Club's 'not interchangeable' caution is most operative here."
   - audience: "Afro-Latino / Afro-Caribbean / Afro-Latinx"
-    note: "African American often does not fit; people who are racially Black but ethnically Dominican, Cuban, Haitian, Brazilian, etc. typically identify by national heritage and/or as Black, with 'African American' as a US-rooted descriptor that doesn't capture their experience. See [[afro-latino]]."
+    note: "African American often does not fit; people who are racially Black but ethnically Dominican, Cuban, Haitian, Brazilian, etc. typically identify by national heritage and/or as Black, with 'African American' as a US-rooted descriptor that doesn't capture their experience. See afro latino."
   - audience: "Older / Boomer generation"
     note: "Often skews toward 'African American' as the contemporary respectful term that supplanted earlier vocabulary. Jesse Jackson's 1980s popularization is the generational anchor."
   - audience: "Younger / movement contexts"
@@ -119,7 +119,7 @@ The Gallup data anchors the practical conclusion: ask if possible (Sierra Club, 
 
 **Capitalization is straightforward**: both words capitalized as a proper-noun-style ethnic identifier. This was true even in the pre-2020 era when 'black' was lowercase; 'African American' has always carried the same capitalization that 'Asian American,' 'Mexican American,' 'Italian American,' etc. share.
 
-For comprehensive coverage of capitalization debates, the 2020 AP shift, and the NABJ/AP split on whether to capitalize White, see the companion [[black]] entry — the guidance is captured jointly across both pages because every source addresses the two terms together.
+For comprehensive coverage of capitalization debates, the 2020 AP shift, and the NABJ/AP split on whether to capitalize White, see the companion [Black](/terms/black/) entry — the guidance is captured jointly across both pages because every source addresses the two terms together.
 
 
 ## History note

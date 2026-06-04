@@ -1,0 +1,139 @@
+#!/usr/bin/env python3
+"""Content lint for the Equity Language Commons site.
+
+Catches authoring artifacts and broken internal references before they ship.
+Run from the repo root. Wired into deploy.sh — a FAIL blocks the deploy.
+
+Checks (FAIL — exit 1):
+  F1  [[wiki-bracket]] syntax anywhere in content (renders literally; never valid)
+  F2  scaffolder-notes HTML comment blocks left in published pages
+  F3  TODO markers in pages that are not stubs
+  F4  `stub: true` on a page whose Synthesis section has real prose
+  F6  internal markdown links (/terms/..., /chapters/..., /sources/...) that
+      don't resolve to a content file
+
+Checks (WARN — exit 0 unless --strict):
+  W1  dangling related_terms slugs (allowed pre-launch as "planned" stubs;
+      use --strict at launch to promote to FAIL)
+  W2  quote longer than 50 words (fair-use margin)
+  W3  `categories` value that doesn't match a chapter slug (field is
+      currently unrendered/vestigial, but keep it consistent)
+
+Schema-level validation (required guidance keys, recommendation/confidence
+enums) is intentionally NOT duplicated here — Astro's zod schema in
+site/src/content.config.ts enforces it on every build.
+
+Usage:
+  ./scripts/lint-content.py            # warnings allowed
+  ./scripts/lint-content.py --strict   # warnings are failures (launch mode)
+"""
+
+import glob
+import os
+import re
+import sys
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+TERMS = os.path.join(ROOT, "site/src/content/terms")
+CHAPTERS = os.path.join(ROOT, "site/src/content/chapters")
+SOURCES = os.path.join(ROOT, "site/src/content/sources")
+
+strict = "--strict" in sys.argv
+fails, warns = [], []
+
+
+def slugs_in(directory):
+    return {os.path.basename(f)[:-3] for f in glob.glob(f"{directory}/*.md")}
+
+
+term_slugs = slugs_in(TERMS)
+chapter_slugs = slugs_in(CHAPTERS)
+source_slugs = slugs_in(SOURCES)
+all_content = (
+    glob.glob(f"{TERMS}/*.md")
+    + glob.glob(f"{CHAPTERS}/*.md")
+    + glob.glob(f"{SOURCES}/*.md")
+)
+
+
+def rel(path):
+    return os.path.relpath(path, ROOT)
+
+
+for path in sorted(all_content):
+    text = open(path).read()
+    name = rel(path)
+    is_term = "/terms/" in path
+
+    # F1 — wiki brackets
+    for n, line in enumerate(text.splitlines(), 1):
+        if "[[" in line:
+            fails.append(f"F1 {name}:{n} wiki-bracket syntax: {line.strip()[:80]}")
+
+    # F2 — scaffolder notes
+    if "scaffolder notes" in text:
+        fails.append(f"F2 {name} contains a scaffolder-notes block")
+
+    # split frontmatter / body
+    m = re.match(r"^---\n(.*?)\n---\n?(.*)$", text, re.S)
+    if not m:
+        fails.append(f"F7 {name} has no parseable frontmatter")
+        continue
+    fm, body = m.groups()
+    is_stub = bool(re.search(r"^stub:\s*true", fm, re.M))
+
+    # F3 — TODO markers outside stubs
+    if not is_stub and "TODO" in text:
+        for n, line in enumerate(text.splitlines(), 1):
+            if "TODO" in line:
+                fails.append(f"F3 {name}:{n} TODO marker: {line.strip()[:80]}")
+
+    # F4 — stub flag with real synthesis prose
+    if is_stub:
+        syn = re.search(r"## Synthesis\n(.*?)(\n## |\Z)", body, re.S)
+        if syn and re.sub(r"<!--.*?-->", "", syn.group(1), flags=re.S).strip():
+            fails.append(f"F4 {name} marked stub: true but Synthesis has prose")
+
+    # F6 — internal links must resolve
+    for target in re.findall(r"\]\(/(terms|chapters|sources)/([a-z0-9-]+)/?\)", text):
+        kind, slug = target
+        pool = {"terms": term_slugs, "chapters": chapter_slugs,
+                "sources": source_slugs}[kind]
+        if slug not in pool:
+            fails.append(f"F6 {name} links to missing /{kind}/{slug}/")
+
+    if not is_term:
+        continue
+
+    # W3 — categories should match chapter slugs (vestigial field, keep tidy)
+    cat_block = re.search(r"^categories:\n((?:  - \"[^\"]+\"\n)+)", fm, re.M)
+    if cat_block:
+        for cat in re.findall(r'  - "([^"]+)"', cat_block.group(1)):
+            if cat not in chapter_slugs:
+                warns.append(f"W3 {name} category \"{cat}\" is not a chapter slug")
+
+    # W2 — quote length (fair-use margin)
+    for entry in re.split(r"\n  - org:", "\n" + fm)[1:]:
+        entry = "org:" + entry
+        head = entry.splitlines()[0].strip()
+        quote = re.search(r'quote:\s*"(.+?)"\n', entry, re.S)
+        if quote and len(quote.group(1).split()) > 50:
+            warns.append(f"W2 {name} quote >50 words "
+                         f"({len(quote.group(1).split())}): {head[:40]}")
+
+    # W1 — dangling related_terms
+    for slug in re.findall(r'^  - slug: "([a-z0-9-]+)"', fm, re.M):
+        if slug not in term_slugs:
+            warns.append(f"W1 {name} related_terms → missing term \"{slug}\"")
+
+for w in warns:
+    print(f"WARN  {w}")
+for f in fails:
+    print(f"FAIL  {f}")
+
+n_files = len(all_content)
+print(f"\nlint-content: {n_files} files checked — "
+      f"{len(fails)} failure(s), {len(warns)} warning(s)"
+      + (" [--strict]" if strict else ""))
+
+sys.exit(1 if fails or (strict and warns) else 0)

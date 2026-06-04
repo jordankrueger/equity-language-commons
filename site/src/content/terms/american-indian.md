@@ -90,7 +90,7 @@ guidance:
 context_data: []
 external_references: []
 methodological_context: []
-audience_notes: []  # TODO: 1-2 audience-specific notes (journalist vs activist vs internal-comms framing)
+audience_notes: []
 last_reviewed: 2026-05-18
 created: 2026-05-18
 contributors:
@@ -99,7 +99,7 @@ contributors:
 
 ## Synthesis
 
-American Indian shares almost all of its style-guide treatment with [[native-american]] — the two terms are paired across NAJA, DSG, NGC, Sierra Club, and RET. The shared consensus: when an umbrella is needed, the two are interchangeable; specific tribal names are preferable to either; and self-identification overrides any default. NAJA's precision rule applies equally — American Indian, like Native American, describes two or more people from different tribal affiliations, not an individual.
+American Indian shares almost all of its style-guide treatment with [Native American](/terms/native-american/) — the two terms are paired across NAJA, DSG, NGC, Sierra Club, and RET. The shared consensus: when an umbrella is needed, the two are interchangeable; specific tribal names are preferable to either; and self-identification overrides any default. NAJA's precision rule applies equally — American Indian, like Native American, describes two or more people from different tribal affiliations, not an individual.
 
 What separates American Indian from Native American is **legal weight and chronology, not preference.** "American Indian" carries a specific federal definition: membership in a federally recognized tribe, with each tribe setting its own enrollment criteria (DSG). The term predates Native American as the mainstream US descriptor; "Native American" gained traction in the 1960s, and HR 4238 in 2016 formally replaced "American Indian" with "Native American" across federal statutes (DSG). American Indian remains in active use today — for legal contexts (federally recognized tribes, Indian Country, Indian Health Service), for individuals who self-identify with the term, and in the published names of long-established organizations (the National Congress of American Indians, the American Indian Movement).
 

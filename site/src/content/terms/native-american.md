@@ -115,7 +115,7 @@ guidance:
 context_data: []
 external_references: []
 methodological_context: []
-audience_notes: []  # TODO: 1-2 audience-specific notes (journalist vs activist vs internal-comms framing)
+audience_notes: []
 last_reviewed: 2026-05-18
 created: 2026-05-18
 contributors:
@@ -135,4 +135,4 @@ Chronology matters here. "Native American" gained traction in the 1960s as the p
 - **Journalists.** The NAJA precision rule is operational: use the specific tribal name unless the reference is genuinely multi-tribal. Headlines and lede paragraphs are where this slips most often — phrases like "Oklahoma Native American tribe" or "Native American group" are explicitly named by NAJA as accuracy failures, not just courtesy issues. If the story names one tribe, name that tribe.
 - **Communicators in or for Indigenous-led organizations.** Follow the organization's own naming. NGC's preference for "Native" or "Native-led" over "Native American" reflects common usage in many Indigenous-led nonprofits and tribal media; non-Native communicators should mirror it when describing those organizations rather than imposing the more common umbrella.
 - **Coalition language and umbrella references.** When an umbrella is genuinely needed (statistics, multi-nation policy contexts, demographic descriptors), Native American and American Indian remain in active parallel use. The legal frame favors Native American (HR 4238 in federal code); some communities still self-describe as American Indian. Self-identification overrides default usage whenever a community has stated a preference.
-- **Capitalization.** Capitalize Native, Indigenous, Tribal, and Native American consistently as racial / ethnic / cultural / political identifiers across the corpus. The asymmetric "capitalize Black, lowercase white" debate that runs through [[black]] and [[white]] does not have a direct analog here — these terms are uniformly capitalized in the post-2020 set.
+- **Capitalization.** Capitalize Native, Indigenous, Tribal, and Native American consistently as racial / ethnic / cultural / political identifiers across the corpus. The asymmetric "capitalize Black, lowercase white" debate that runs through [Black](/terms/black/) and [white](/terms/white/) does not have a direct analog here — these terms are uniformly capitalized in the post-2020 set.

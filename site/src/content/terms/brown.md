@@ -70,7 +70,7 @@ contributors:
 
 ## Synthesis
 
-Brown is the **third color-based race descriptor** in the US R&E vocabulary, and it sits in the same NABJ-vs-AP capitalization split as [[white]] — but with a much thinner corpus engagement and a more unstable referent.
+Brown is the **third color-based race descriptor** in the US R&E vocabulary, and it sits in the same NABJ-vs-AP capitalization split as [white](/terms/white/) — but with a much thinner corpus engagement and a more unstable referent.
 
 **Capitalization tracks the same split as White.** NABJ's symmetric rule capitalizes Black, White, and Brown for descriptive integrity. AP's asymmetric rule capitalizes only Black. Most US news follows AP. Most progressive movement vocabulary follows NABJ for Brown when it engages the term at all. There is no third position — houses that capitalize White generally capitalize Brown; houses that lowercase white generally lowercase brown (when they engage the term, which Sierra Club, NGC, SEIU, and Casey do not).
 
@@ -83,7 +83,7 @@ Brown is the **third color-based race descriptor** in the US R&E vocabulary, and
 
 When a more specific identifier fits — Latinx, South Asian, MENA, Indigenous, the specific national-origin descriptor — the specificity preference applies (same rule as the rest of the R&E corpus).
 
-**No major style guide reviewed here has a comprehensive 'Brown' entry.** NABJ addresses capitalization; the other guides either don't engage the term (Sierra Club, NGC, SEIU, Casey, RET) or address it only inside other entries (DSG references Brown in the [[black]] and [[white]] entries but doesn't have a standalone entry). The corpus thinness reflects the term's instability and the way it shows up more in movement vocabulary than in journalism style.
+**No major style guide reviewed here has a comprehensive 'Brown' entry.** NABJ addresses capitalization; the other guides either don't engage the term (Sierra Club, NGC, SEIU, Casey, RET) or address it only inside other entries (DSG references Brown in the [Black](/terms/black/) and [white](/terms/white/) entries but doesn't have a standalone entry). The corpus thinness reflects the term's instability and the way it shows up more in movement vocabulary than in journalism style.
 
 **For Jordan's-voice / advocacy writing**: capitalize Brown if you're capitalizing White; lowercase brown if you're lowercasing white. Match house style consistently across the three color descriptors.
 

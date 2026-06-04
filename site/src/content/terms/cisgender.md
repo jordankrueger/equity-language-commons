@@ -103,7 +103,7 @@ contributors:
 
 ## Synthesis
 
-The corpus converges sharply on **cisgender as the affirmative descriptor** for people whose gender identity matches the sex they were assigned at birth. RET, GCJT, TJA, Sierra Club, and SumOfUs all use the term without scare quotes and treat it as standard. The shared definition is etymological: "cis-" is a Latin prefix meaning "on the same side as," the formal antonym of "trans-" (DSG, RET, TJA). Across the post-2020 set, the term is not framed as activist jargon — it's the operative counterpart to [[transgender]].
+The corpus converges sharply on **cisgender as the affirmative descriptor** for people whose gender identity matches the sex they were assigned at birth. RET, GCJT, TJA, Sierra Club, and SumOfUs all use the term without scare quotes and treat it as standard. The shared definition is etymological: "cis-" is a Latin prefix meaning "on the same side as," the formal antonym of "trans-" (DSG, RET, TJA). Across the post-2020 set, the term is not framed as activist jargon — it's the operative counterpart to [Transgender](/terms/transgender/).
 
 The corpus's strongest **rule** is what to use cisgender instead of. Sierra Club and TJA are explicit: don't use "normal," "typical," or "non-trans" / "non-transgender" as the contrasting construction for cisgender people. The framing matters because the alternatives encode transgender as the deviation; cisgender names a position symmetrically. RET sharpens the point: cisgender is not a slur, and people who are not transgender should call themselves cisgender rather than "normal." The corpus treats the cisgender/normal substitution as one of the most-recurring writing-side errors in non-LGBTQ+ writing about transgender topics.
 

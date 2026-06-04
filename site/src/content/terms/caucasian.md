@@ -37,7 +37,7 @@ guidance:
     recommendation: "non-preferred"
     quote: "Avoid as a synonym for White, unless used in demographic data. Updated February 2021"
     quote_loc: "Caucasian entry (lines 781–784 in archived markdown)"
-    paraphrase: "DSG's call matches Casey's underlying recommendation but carves out the same exception the [[minority]] entry uses: formal demographic-data contexts where Caucasian is the actual label being cited. Otherwise use White or white per house style."
+    paraphrase: "DSG's call matches Casey's underlying recommendation but carves out the same exception the minority entry uses: formal demographic-data contexts where Caucasian is the actual label being cited. Otherwise use White or white per house style."
     confidence: "VERIFIED"
 
 context_data:
@@ -66,7 +66,7 @@ Caucasian is one of the cleanest 'do not use' calls in the R&E corpus — the tw
 
 **The avoidance is grounded in origin, not just preference.** Caucasian as a racial category comes from Blumenbach's 1795 five-race typology, built on the now-thoroughly-discredited theory that Europeans originated in the Caucasus region and based on cranial measurements that the underlying racial science has long since abandoned. Using 'Caucasian' as a synonym for white in 2026 carries that history forward in a way that the more direct 'white' doesn't.
 
-**The exception is narrow and matches the [[minority]] entry's exception**: formal data contexts where 'Caucasian' is the actual federal or institutional label being cited. Some older HHS, FBI UCR, and academic survey instruments still use the term as their category name. Match the source; don't generalize the label.
+**The exception is narrow and matches the [minority](/terms/minority/) entry's exception**: formal data contexts where 'Caucasian' is the actual federal or institutional label being cited. Some older HHS, FBI UCR, and academic survey instruments still use the term as their category name. Match the source; don't generalize the label.
 
 There's nothing more to say. This is a settled call.
 

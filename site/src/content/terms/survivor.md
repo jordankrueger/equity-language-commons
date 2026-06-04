@@ -77,7 +77,7 @@ guidance:
 context_data: []
 external_references: []
 methodological_context: []
-audience_notes: []  # TODO: 1-2 audience-specific notes (journalist vs activist vs internal-comms framing)
+audience_notes: []
 last_reviewed: 2026-05-26
 created: 2026-05-26
 contributors:

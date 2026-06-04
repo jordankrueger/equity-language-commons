@@ -100,7 +100,7 @@ context_data:
   - label: "Pew 2013 / 2019 preference data"
     claim: "Among US Hispanic/Latino adults expressing a preference between Hispanic and Latino, Hispanic is preferred 2:1 nationally. Regional variation is sharp — Texas 46% Hispanic vs. 8% Latino; the Western US flips toward Latino."
     url: "https://www.pewresearch.org/hispanic/2013/10/22/three-fourths-of-hispanics-say-their-community-needs-a-leader/"
-    relevance: "Same data underpinning the [[hispanic]] entry. Sierra Club's Latino default works for Western US audiences and partner orgs; it works against the data for Eastern US, Caribbean, South American, and (especially) Texas-focused contexts."
+    relevance: "Same data underpinning the Hispanic entry. Sierra Club's Latino default works for Western US audiences and partner orgs; it works against the data for Eastern US, Caribbean, South American, and (especially) Texas-focused contexts."
 
   - label: "U.S. Census Bureau federal definition"
     claim: "Latino is defined federally as an ethnicity, not a race. Census surveys pair 'Hispanic or Latino?' separately from race; respondents identify as 'Hispanic or Latino' or 'non-Hispanic or Latino' independently of racial identification."
@@ -111,7 +111,7 @@ audience_notes:
   - audience: "Western US / California / New Mexico / Arizona"
     note: "Latino strongly preferred. LA Times' 2011 institutional adoption is the documented anchor; many West Coast progressive orgs (including Sierra Club at the national level) followed similar reasoning. Defaulting to Latino here matches the dominant regional convention."
   - audience: "Texas / Eastern US / Caribbean / South American heritage"
-    note: "Hispanic often preferred. Defaulting to Latino in these contexts mis-matches the regional preference data. See [[hispanic]] for the data."
+    note: "Hispanic often preferred. Defaulting to Latino in these contexts mis-matches the regional preference data. See Hispanic for the data."
   - audience: "Gender-neutral collective"
     note: "Latinos (masculine plural) traditionally functions as the mixed-group default in Spanish. Sierra Club and SEIU codify this convention. In contemporary US usage, Latinx (English-rooted) or Latine (Spanish-rooted) are increasingly preferred as gender-neutral collective forms — both avoid the masculine-default-for-mixed problem. The choice between traditional 'Latinos' and gender-neutral 'Latinx/Latine' is audience- and context-dependent."
   - audience: "Latina (feminine)"
@@ -119,7 +119,7 @@ audience_notes:
   - audience: "Capitalization"
     note: "Always capitalized. Latino, Latina, Latinos, Latinas all capitalized whether at start of sentence or mid-sentence. Every guide that addresses it agrees."
   - audience: "Chicano / Chicana / Chicanx"
-    note: "Subset identity for Mexican-American experience, particularly in California, Texas, and the Southwest. See [[chicanx]]. DSG flags that Latino has 'displaced Chicano and Mexican American' in Western US contexts — true at the institutional default level, but Chicano remains a politicized self-identification many embrace."
+    note: "Subset identity for Mexican-American experience, particularly in California, Texas, and the Southwest. See Chicanx. DSG flags that Latino has 'displaced Chicano and Mexican American' in Western US contexts — true at the institutional default level, but Chicano remains a politicized self-identification many embrace."
 
 last_reviewed: 2026-05-16
 created: 2026-05-16
