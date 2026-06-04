@@ -49,7 +49,7 @@ guidance:
     local_archive: "source-guides/Equity Language Guide Sierra Club 2021.pdf"
     recommendation: "avoid"
     derived_from: []
-    quote: "Phrases to avoid when talking about incarceration … offender or ex-offender … Phrases to use instead: formerly incarcerated person · incarcerated person · person in prison · person with conviction."
+    quote: "Phrases to avoid when talking about incarceration … offender or ex-offender … Phrases to use instead: formerly incarcerated person · incarcerated person · … person in prison · person with conviction …"
     quote_loc: "“Phrases to Avoid When Talking About Incarceration” table (from the Sum of Us Guide)"
     paraphrase: "Sierra Club's incarceration table lists \"offender or ex-offender\" among phrases to avoid, directing writers to people-first alternatives such as \"formerly incarcerated person\" and \"person with conviction.\""
     confidence: "VERIFIED-ARCHIVED"

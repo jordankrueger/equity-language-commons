@@ -12,6 +12,9 @@ live_status: "login-gated"
 added: 2026-05-17
 last_checked: 2026-05-18
 format: "markdown"
+version_history:
+  - year: 2020
+    note: "June 2020 NABJ statement on capitalizing Black (and related racial identifiers) — republished within the 2022 style guide; several term entries cite the statement's original year."
 ---
 
 ## About

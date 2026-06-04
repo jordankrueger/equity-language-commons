@@ -12,6 +12,9 @@ live_status: "live"
 format: "markdown"
 last_checked: 2026-05-18
 added: 2026-05-17
+version_history:
+  - year: 2020
+    note: "“Thirty Everyday Phrases That Perpetuate the Oppression of Indigenous Peoples” (Oct 2020) — a separate RCE article cited by the indigenous term entry."
 ---
 
 ## About

@@ -1,0 +1,290 @@
+# Human-verified quote overrides for verify-content.py (V1).
+# Each entry was hand-checked against the source PDF/scrape on the date shown
+# (2026-06-04 triage: three subagents, zero fabrications found — all of these
+# are faithful quotes the extraction .md cannot exact-match: page-footer
+# interleaving, two-column scrambles, OCR noise, or table-row reconstruction).
+# The verifier reports these as HUMAN-VERIFIED instead of MISS/TRUNCATED.
+# REMOVE an entry if its page quote is ever edited — it must re-verify.
+entries:
+  - page: "ableism"
+    org_slug: "apa"
+    verified: 2026-06-04
+  - page: "addict"
+    org_slug: "apa"
+    verified: 2026-06-04
+  - page: "addict"
+    org_slug: "gcjt"
+    verified: 2026-06-04
+  - page: "addiction"
+    org_slug: "gcjt"
+    verified: 2026-06-04
+  - page: "ageism"
+    org_slug: "apa"
+    verified: 2026-06-04
+  - page: "alien"
+    org_slug: "idp"
+    verified: 2026-06-04
+  - page: "alien"
+    org_slug: "sumofus"
+    verified: 2026-06-04
+  - page: "arab"
+    org_slug: "apa"
+    verified: 2026-06-04
+  - page: "arab"
+    org_slug: "sierra-club"
+    verified: 2026-06-04
+  - page: "asexual"
+    org_slug: "nlgja"
+    verified: 2026-06-04
+  - page: "autism"
+    org_slug: "apa"
+    verified: 2026-06-04
+  - page: "bipoc"
+    org_slug: "ngc"
+    verified: 2026-06-04
+  - page: "bipoc"
+    org_slug: "racial-equity-tools"
+    verified: 2026-06-04
+  - page: "cisgender"
+    org_slug: "diversity-style-guide"
+    verified: 2026-06-04
+  - page: "cisgender"
+    org_slug: "gcjt"
+    verified: 2026-06-04
+  - page: "cisgender"
+    org_slug: "racial-equity-tools"
+    verified: 2026-06-04
+  - page: "cisgender"
+    org_slug: "sierra-club"
+    verified: 2026-06-04
+  - page: "cisgender"
+    org_slug: "tja"
+    verified: 2026-06-04
+  - page: "classism"
+    org_slug: "apa"
+    verified: 2026-06-04
+  - page: "colonialism"
+    org_slug: "apa"
+    verified: 2026-06-04
+  - page: "convict"
+    org_slug: "apa"
+    verified: 2026-06-04
+  - page: "convict"
+    org_slug: "idp"
+    verified: 2026-06-04
+  - page: "crazy"
+    org_slug: "apa"
+    verified: 2026-06-04
+  - page: "crazy"
+    org_slug: "sumofus"
+    verified: 2026-06-04
+  - page: "deaf"
+    org_slug: "apa"
+    verified: 2026-06-04
+  - page: "disadvantaged"
+    org_slug: "apa"
+    verified: 2026-06-04
+  - page: "elderly"
+    org_slug: "apa"
+    verified: 2026-06-04
+  - page: "felon"
+    org_slug: "idp"
+    verified: 2026-06-04
+  - page: "first-nations"
+    org_slug: "sumofus"
+    verified: 2026-06-04
+  - page: "gay"
+    org_slug: "sierra-club"
+    verified: 2026-06-04
+  - page: "gender-identity"
+    org_slug: "apa"
+    verified: 2026-06-04
+  - page: "ghetto"
+    org_slug: "apa"
+    verified: 2026-06-04
+  - page: "ghetto"
+    org_slug: "color-of-change"
+    verified: 2026-06-04
+  - page: "ghetto"
+    org_slug: "gcjt"
+    verified: 2026-06-04
+  - page: "ghetto"
+    org_slug: "sumofus"
+    verified: 2026-06-04
+  - page: "handicapped"
+    org_slug: "apa"
+    verified: 2026-06-04
+  - page: "hispanic"
+    org_slug: "sierra-club"
+    verified: 2026-06-04
+  - page: "illegal-alien"
+    org_slug: "define-american"
+    verified: 2026-06-04
+  - page: "illegal-alien"
+    org_slug: "sumofus"
+    verified: 2026-06-04
+  - page: "illegal-immigrant"
+    org_slug: "color-of-change"
+    verified: 2026-06-04
+  - page: "illegal-immigrant"
+    org_slug: "define-american"
+    verified: 2026-06-04
+  - page: "illegal-immigrant"
+    org_slug: "idp"
+    verified: 2026-06-04
+  - page: "indian"
+    org_slug: "sumofus"
+    verified: 2026-06-04
+  - page: "indigenous"
+    org_slug: "gcjt"
+    verified: 2026-06-04
+  - page: "indigenous"
+    org_slug: "naja"
+    verified: 2026-06-04
+  - page: "indigenous"
+    org_slug: "sierra-club"
+    verified: 2026-06-04
+  - page: "indigenous"
+    org_slug: "sumofus"
+    verified: 2026-06-04
+  - page: "inmate"
+    org_slug: "color-of-change"
+    verified: 2026-06-04
+  - page: "inmate"
+    org_slug: "gcjt"
+    verified: 2026-06-04
+  - page: "inmate"
+    org_slug: "sumofus"
+    verified: 2026-06-04
+  - page: "insane"
+    org_slug: "apa"
+    verified: 2026-06-04
+  - page: "intersex"
+    org_slug: "sierra-club"
+    verified: 2026-06-04
+  - page: "islamophobia"
+    org_slug: "apa"
+    verified: 2026-06-04
+  - page: "latine"
+    org_slug: "diversity-style-guide"
+    verified: 2026-06-04
+  - page: "latino"
+    org_slug: "sierra-club"
+    verified: 2026-06-04
+  - page: "latinx"
+    org_slug: "sierra-club"
+    verified: 2026-06-04
+  - page: "mental-illness"
+    org_slug: "apa"
+    verified: 2026-06-04
+  - page: "minority"
+    org_slug: "diversity-style-guide"
+    verified: 2026-06-04
+  - page: "minority"
+    org_slug: "racial-equity-tools"
+    verified: 2026-06-04
+  - page: "minority"
+    org_slug: "sierra-club"
+    verified: 2026-06-04
+  - page: "native-american"
+    org_slug: "gcjt"
+    verified: 2026-06-04
+  - page: "native-american"
+    org_slug: "ngc"
+    verified: 2026-06-04
+  - page: "native-american"
+    org_slug: "sierra-club"
+    verified: 2026-06-04
+  - page: "offender"
+    org_slug: "idp"
+    verified: 2026-06-04
+  - page: "offender"
+    org_slug: "sumofus"
+    verified: 2026-06-04
+  - page: "people-of-color"
+    org_slug: "racial-equity-tools"
+    verified: 2026-06-04
+  - page: "people-of-color"
+    org_slug: "sierra-club"
+    verified: 2026-06-04
+  - page: "people-with-disabilities"
+    org_slug: "apa"
+    verified: 2026-06-04
+  - page: "people-with-disabilities"
+    org_slug: "seiu"
+    verified: 2026-06-04
+  - page: "pronouns"
+    org_slug: "apa"
+    verified: 2026-06-04
+  - page: "pronouns"
+    org_slug: "interact"
+    verified: 2026-06-04
+  - page: "pronouns"
+    org_slug: "tja"
+    verified: 2026-06-04
+  - page: "queer"
+    org_slug: "sierra-club"
+    verified: 2026-06-04
+  - page: "reservation"
+    org_slug: "racial-equity-tools"
+    verified: 2026-06-04
+  - page: "reservation"
+    org_slug: "sierra-club"
+    verified: 2026-06-04
+  - page: "retarded"
+    org_slug: "apa"
+    verified: 2026-06-04
+  - page: "sexual-orientation"
+    org_slug: "apa"
+    verified: 2026-06-04
+  - page: "sexual-orientation"
+    org_slug: "sumofus"
+    verified: 2026-06-04
+  - page: "slavery"
+    org_slug: "apa"
+    verified: 2026-06-04
+  - page: "stereotypes"
+    org_slug: "color-of-change"
+    verified: 2026-06-04
+  - page: "systemic-racism"
+    org_slug: "apa"
+    verified: 2026-06-04
+  - page: "transgender"
+    org_slug: "gcjt"
+    verified: 2026-06-04
+  - page: "transgender"
+    org_slug: "racial-equity-tools"
+    verified: 2026-06-04
+  - page: "transgender"
+    org_slug: "sierra-club"
+    verified: 2026-06-04
+  - page: "tribe"
+    org_slug: "apa"
+    verified: 2026-06-04
+  - page: "tribe"
+    org_slug: "gcjt"
+    verified: 2026-06-04
+  - page: "tribe"
+    org_slug: "naja"
+    verified: 2026-06-04
+  - page: "tribe"
+    org_slug: "ngc"
+    verified: 2026-06-04
+  - page: "tribe"
+    org_slug: "sierra-club"
+    verified: 2026-06-04
+  - page: "undocumented-immigrant"
+    org_slug: "define-american"
+    verified: 2026-06-04
+  - page: "undocumented-immigrant"
+    org_slug: "idp"
+    verified: 2026-06-04
+  - page: "unhoused-homeless"
+    org_slug: "sumofus"
+    verified: 2026-06-04
+  - page: "urban"
+    org_slug: "sierra-club"
+    verified: 2026-06-04
+  - page: "victim"
+    org_slug: "apa"
+    verified: 2026-06-04

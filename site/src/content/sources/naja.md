@@ -13,6 +13,9 @@ length_pages: 2
 format: "PDF"
 last_checked: 2026-05-18
 added: 2026-05-17
+version_history:
+  - year: 2017
+    note: "Earlier edition of the terminology guide (PDF metadata 2017-04-08); the indigenous term entry deliberately cites this edition."
 ---
 
 ## About

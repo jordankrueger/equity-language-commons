@@ -60,7 +60,7 @@ guidance:
     local_archive: "source-guides/discovered/sumofus-progressive-styleguide-2016.pdf"
     recommendation: "use"
     derived_from: []
-    quote: "Terms used by police, and incarceration reform activists: formerly incarcerated person · incarcerated person · inmate · jail · justice involved individual · parolee · person in prison · person with conviction · prison."
+    quote: "Terms used by police, and incarceration reform activists: formerly incarcerated person · incarcerated person · inmate · jail · justice involved individual · parolee · person in prison · person with conviction · prison …"
     quote_loc: "Police/Incarceration two-column list, “Terms used by … incarceration reform activists” column"
     paraphrase: "SumOfUs is the dissenting voice in the cluster: its two-column list places \"inmate\" among terms used by incarceration-reform activists rather than among terms to avoid, reflecting a 2016 reader survey in which a minority still supported the word."
     confidence: "VERIFIED-ARCHIVED"

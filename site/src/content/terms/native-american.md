@@ -42,7 +42,7 @@ guidance:
 
   - org: "Indigenous Journalists Association (formerly NAJA)"
     org_slug: "naja"
-    year: 2017
+    year: 2023
     entry_updated: null
     source_url: "https://indigenousjournalists.org/ap-style-insert/"
     local_archive: "source-guides/discovered/naja-indigenous-terminology-2023-06.pdf"

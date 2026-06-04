@@ -135,6 +135,19 @@ def resolve_archive(local_archive, org_slug):
     return best if best_n >= 1 else None
 
 
+# ---------- human-verified overrides ----------
+# notes/verification/layer1-verified-overrides.yml lists (page, org_slug)
+# pairs whose quotes were hand-verified against the source PDF/scrape even
+# though the extraction .md cannot exact-match them. Edit a page quote →
+# remove its row so it re-verifies.
+OVERRIDES = set()
+_ov = os.path.join(OUTDIR, "layer1-verified-overrides.yml")
+if os.path.exists(_ov):
+    _txt = open(_ov).read()
+    OVERRIDES = set(zip(re.findall(r'page: "([^"]+)"', _txt),
+                        re.findall(r'org_slug: "([^"]+)"', _txt)))
+
+
 # ---------- source-page index ----------
 
 source_pages = {}
@@ -260,7 +273,11 @@ for path in term_files:
                             gapped.append(s)
                             continue
                     missing.append(s)
-                if missing:
+                if (missing or truncated) and (slug, org_slug) in OVERRIDES:
+                    results.append({**rec, "check": "V1",
+                                    "verdict": "HUMAN-VERIFIED",
+                                    "detail": os.path.basename(arch)})
+                elif missing:
                     results.append({**rec, "check": "V1", "verdict": "MISS",
                                     "detail": f"{os.path.basename(arch)} :: "
                                     + " // ".join(m[:70] for m in missing)})
@@ -333,6 +350,7 @@ with open(f"{OUTDIR}/layer1-report.md", "w") as f:
             f"{count('V1','MISS')} MISS, {count('V1','TRUNCATED')} truncated, "
             f"{count('V1','LOOSE')} loose-match, "
             f"{count('V1','GAPPED')} gapped(extraction noise), "
+            f"{count('V1','HUMAN-VERIFIED')} human-verified, "
             f"{count('V1','NO-ARCHIVE')} no-archive\n")
     f.write(f"- V2 confidence: {count('V2','FAIL')} FAIL, "
             f"{len(upgrades)} upgrade suggestions\n")
