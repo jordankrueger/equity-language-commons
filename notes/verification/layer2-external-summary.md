@@ -1,0 +1,693 @@
+# EXTERNAL claims summary — 664 flags across 82 pages
+
+Each is a real-world fact the page asserts that its cited sources don't contain.
+Disposition options per item: keep (editorial knowledge) / verify+cite / cut.
+
+## Auditor: excerpt insufficient (325)
+
+- `ableism`: APA parallels ableism with racism, sexism, and ageism as prejudice based on marginalized status.
+- `ableism`: The mental-health entry covers casual ableist language in detail.
+- `addict`: AA usage includes "I'm an alcoholic"
+- `addict`: APA lists "addict" alongside "alcoholic" and "drug user/abuser"
+- `addict`: APA prescribes "person with substance use disorder" or "person who injects drugs" instead
+- `addict`: APA's term-to-avoid table lists "addict"
+- `addict`: APA's term-to-avoid table prescribes "person with substance use disorder"
+- `addict`: All four sources reject "addict" as a noun
+- `addict`: Some people in recovery claim "addict"
+- `addict`: This page covers the noun applied to a person, while companion page covers the condition
+- `addiction`: Specificity can include naming the substance, such as "opioid addiction."
+- `addiction`: The addiction page pairs with mental health.
+- `ageism`: APA treats ageism parallel to its definitions of classism and other structural concepts.
+- `ageism`: Ageism is less reflexively recognized than racism or sexism.
+- `american-indian`: American Indian has been used and reclaimed across the political spectrum.
+- `american-indian`: American Indian remains the term several long-established Native organizations use for themselves.
+- `american-indian`: Older speakers often prefer American Indian.
+- `american-indian`: Some regions and tribes use one term consistently over the other.
+- `asian`: The American-context identity term, including the no-hyphen rule and AAPI umbrella, lives on the asian-american page.
+- `asian`: The avoid guidance for Oriental lives on that term's separate page.
+- `asian`: The corpus applies a similar guidance gradient to other umbrella terms.
+- `asian`: The rejected predecessor form lives on its own page.
+- `asian`: This page covers the standalone 'Asian.'
+- `autism`: Autism pairs with disability and ableism
+- `autism`: The broader version of the same shift lives on disabled
+- `caucasian`: Blumenbach's typology was based on cranial measurements.
+- `caucasian`: Blumenbach's typology was built on the now-discredited theory that Europeans originated in the Caucasus region.
+- `caucasian`: Casey is the oldest guide in the in-scope corpus.
+- `caucasian`: Caucasian carries pseudo-scientific 18th-century racial-typology baggage that white doesn't.
+- `caucasian`: DSG carves out the same exception the minority entry uses.
+- `caucasian`: Every guide that uses white or White as a positive descriptor implicitly retires Caucasian by replacement.
+- `caucasian`: Sierra Club, NGC, NABJ, RET, and SEIU don't address Caucasian directly.
+- `caucasian`: The avoidance is grounded in origin, not just preference.
+- `caucasian`: The underlying racial science has long since been abandoned.
+- `chicanx`: Chican@ is rarely seen in current general usage.
+- `chicanx`: Chicane is a Spanish-rooted gender-neutral form parallel to Latine.
+- `chicanx`: Chicane is less common.
+- `chicanx`: Chicane is the parallel Spanish-rooted gender-neutral alternative.
+- `chicanx`: Chicano is the mixed-group default.
+- `chicanx`: Chicano/Chicana/Chicanx self-identification has multi-generational community history.
+- `chicanx`: Chicano/Chicana/Chicanx self-identification is largely a US Southwest and Pacific Northwest phenomenon.
+- `chicanx`: Chicanx and Chicane provide gender-neutral alternatives.
+- `chicanx`: Chicanx is an English-rooted gender-neutral form parallel to Latinx.
+- `chicanx`: Chicanx is the English-rooted gender-neutral alternative.
+- `chicanx`: Gender-neutral Chicanx/Chicane/Chican@ forms track the same evolution as the Latino cluster.
+- `chicanx`: Gender-neutral forms are gaining ground in academic, movement, LGBTQIA+, and younger contexts.
+- `chicanx`: Gender-neutral forms are gaining ground where Latinx/Latine are gaining ground.
+- `chicanx`: Gender-neutral forms are less established in older or non-movement contexts.
+- `chicanx`: Hispanic or generic Mexican-American identification can suggest assimilation into whiteness.
+- `chicanx`: Mexican American without a hyphen is the neutral descriptor.
+- `chicanx`: Non-Southwest Mexican-American communities are less likely to use Chicano/Chicana/Chicanx.
+- `chicanx`: Recent Mexican immigrants are less likely to use Chicano/Chicana/Chicanx.
+- `chicanx`: Those audience contexts include academic, movement, LGBTQIA+, and younger cohorts.
+- `cisgender`: RET, GCJT, TJA, Sierra Club, and SumOfUs all use cisgender without scare quotes and treat it as standard
+- `cisgender`: Sierra Club and TJA explicitly say what to use cisgender instead of
+- `cisgender`: Sierra Club explicitly rejects 'non-trans' and 'non-transgender'
+- `cisgender`: Sierra Club frames cisgender as affirmative descriptor rather than a negation
+- `cisgender`: Sierra Club prescribes 'cisgender' as the correct term for people who are not transgender
+- `cisgender`: Sierra Club treats cisgender as the standard counterpart to transgender
+- `cisgender`: SumOfUs lists 'cisgender' on its accepted-terms list for the Gender/Sex section
+- `cisgender`: SumOfUs pairs 'cisgender' with 'non-cisgender' as a parallel construction
+- `cisgender`: SumOfUs treats cisgender as the standard term for people whose gender identity matches sex assigned at birth
+- `classism`: Classism is less familiar to general audiences than racism or sexism.
+- `classism`: Classism is less recognized than racism or sexism for many general-audience readers.
+- `convict`: The Comm/Unity Style Guide was published by IDP.
+- `crazy`: APA prescribes person-first phrasing such as "person living with a mental illness" instead
+- `crazy`: APA's term-to-avoid table lists "crazy" alongside "nuts," "insane," and "mentally ill"
+- `crazy`: APA's term-to-avoid table prescribes "person living with a mental illness"
+- `crazy`: The "mental illness" and "mental health" pages are paired with this page
+- `deaf`: Page pairs with disability and accessible
+- `deaf`: This entry sits beside the chapter’s disability terms rather than under them
+- `disability`: APA's guide is a second edition
+- `disabled`: The term pairs with disability and handicapped.
+- `disabled`: This is the general version of the shift visible on autism.
+- `disadvantaged`: SumOfUs contrasts those terms with preferred framings like low-income, economic opportunity, and people experiencing a condition.
+- `disadvantaged`: SumOfUs files disadvantaged and at-risk among terms questioned by economic justice activists.
+- `disadvantaged`: SumOfUs places disadvantaged, at-risk, basic, classy, and culture of poverty in a column of terms avoided or questioned by economi
+- `disadvantaged`: SumOfUs places those terms opposite preferred framings like low-income and people experiencing a condition.
+- `discrimination`: Systemic racism, ableism, and classism name discrimination at the structural level
+- `discrimination`: The page is the thinnest page in the chapter’s structural set
+- `discrimination`: The remedy and evidence differ between interpersonal and institutional discrimination
+- `elderly`: APA flags that "Elder" functions as an honorific in some cultures.
+- `elderly`: APA is the most direct: its table lists "the elderly" and "elderly people" and prescribes "older adults" or "older people."
+- `elderly`: APA notes that capitalized "Elder" is considered an honorific in certain cultures.
+- `elderly`: APA prescribes "older adults" and "older people" instead of "the elderly" and "elderly people."
+- `elderly`: APA says those terms "other" older adults.
+- `elderly`: APA's reasoning is that the blanket noun "others" older adults into a single undifferentiated category.
+- `elderly`: APA's term-to-avoid table lists "the elderly" and "elderly people."
+- `elderly`: Across all four sources, "older adults" is the preferred term and "the elderly" is the form to move away from.
+- `elderly`: Capitalized "Elder" is a position of respect in many Indigenous and other communities.
+- `elderly`: GCJT advises against "seniors" and "elderly" for individuals or groups.
+- `elderly`: GCJT advises against medicalizing age-related conditions without a diagnosis or the subject's own framing.
+- `elderly`: GCJT goes furthest, advising writers to avoid "seniors" and "elderly" for individuals or groups altogether.
+- `elderly`: Self-identification ties the softer and harder positions together; none of the guides wants a writer assigning an age label the su
+- `elderly`: That honorific usage is the opposite of othering.
+- `elderly`: The honorific matters most in Indigenous contexts, where Elder is a title of standing, not a euphemism for old.
+- `first-nations`: 'First Nations, Métis, and Inuit' is the standard expanded form
+- `first-nations`: Calling US tribes 'First Nations' is a common cross-border slip
+- `first-nations`: First Nations is geographically scoped unlike the rest of this chapter's terms
+- `first-nations`: First Nations is one of SumOfUs's recommended self-ID terms in a decolonization-activist column
+- `gay`: DSG and SEIU largely echo rejections of gay agenda, gay lifestyle, and avowed homosexual
+- `gay`: Sierra Club defaults to 'LGBTQI' as the umbrella
+- `gay`: Sierra Club defaults to LGBTQI as the umbrella
+- `gay`: Sierra Club says gay is not off-limits but is not the default
+- `gay`: Sierra Club treats 'gay' as a valid self-description for individuals or communities that use it for themselves
+- `gay`: Sierra Club's house default is LGBTQI
+- `gender-binary`: The term's day-to-day editorial work is mostly indirect.
+- `gender-identity`: DSG notes most people have a gender identity of man or woman while some do not fit neatly into either.
+- `genderqueer`: Collapsing genderqueer and nonbinary undercounts both.
+- `genderqueer`: Some people embrace genderqueer for precisely the edge of queer's reclamation history.
+- `handicapped`: APA prescribes the person-first "person with a physical disability" instead.
+- `handicapped`: APA's term-to-avoid table lists "handicapped" and "handi-capable" among forms to avoid.
+- `handicapped`: NCDJ is the chapter's anchor source.
+- `handicapped`: This page pairs with disability and accessible.
+- `homosexual`: SumOfUs avoided-terms list names homosexual outright.
+- `immigrant`: Diversity Style Guide applies a relevancy test borrowed from its rule on race for immigrant status.
+- `immigrant`: Diversity Style Guide says a source's undocumented status should be discussed among source, reporter, and editors because of depor
+- `immigrant`: Diversity Style Guide says immigrant status should be flagged only when it materially advances the story and relevance is explicit
+- `immigrant`: Diversity Style Guide says to discuss a source's undocumented status among source, reporter, and editors before publishing because
+- `immigrant`: Diversity Style Guide says undocumented status disclosure carries deportation risk.
+- `immigrant`: Diversity Style Guide treats 'immigrant' as acceptable with a relevancy test analogous to race.
+- `indian-country`: Native publications use the term freely.
+- `indigenous`: APA directs writers to use Indigenous communities' self-names and peoples/nations rather than tribes.
+- `indigenous`: APA writes for academic psychology.
+- `indigenous`: APA's peoples/nations-over-tribes preference differs from NGC and Sierra Club's liberal use of Tribe/Tribal.
+- `indigenous`: Alaska Native is an in-region umbrella encompassing Inupiat, Yupik, Athabascan, Haida, Tlingit, Tsimshian, and Aleut peoples.
+- `indigenous`: Australian Aboriginal/Torres Strait Islander terminology rules are established by sources.
+- `indigenous`: Australian guidance: Aboriginal People/Peoples, Torres Strait Islander distinct, Aborigine(s) acceptable to some, avoid Aboriginal
+- `indigenous`: Canadian terms are First Nations, Métis, Inuit; Aboriginal Peoples covers all three but is increasingly dated as a noun.
+- `indigenous`: Country-specific terms sit underneath Indigenous: Native American in U.S., First Nations in Canada, Aboriginal in Australia.
+- `indigenous`: DSG maintains separate entries for American Indian, Alaska Native, and First Nations.
+- `indigenous`: Do not say Canadian First Nations because it implies possession by Canada, per SumOfUs.
+- `indigenous`: Eskimo is retained only where communities self-identify that way.
+- `indigenous`: GCJT adds reporting protocol from Allan Clarke at ABC: research community, build relationships, work with Elders, seek permissions
+- `indigenous`: GCJT adopts NAJA's capitalization rule and cites NAJA by name.
+- `indigenous`: GCJT/Allan Clarke advise community research and relationship-building when reporting in-community.
+- `indigenous`: GCJT/Allan Clarke advise permissions for sacred sites, cultural objects, and ceremonies.
+- `indigenous`: GCJT/Allan Clarke advise working through Elders and community leaders.
+- `indigenous`: Inuit has replaced Eskimo in most current usage across SumOfUs, DSG, and Sierra Club.
+- `indigenous`: Many Alaska Native people prefer Alaska Native to American Indian.
+- `indigenous`: No other corpus source names the Indigenous Sovereignty/Tribal Sovereignty distinction as cleanly as RET.
+- `indigenous`: RET carries entries for Indigenous populations, Indigenous Sovereignty, and Tribal Sovereignty.
+- `indigenous`: RET gives Indigenous Sovereignty its own entry and distinguishes it from Tribal Sovereignty.
+- `indigenous`: RET's Indigenous Sovereignty/Tribal Sovereignty split is the sharpest articulation in the corpus.
+- `indigenous`: Sierra Club flags 'on the rez', 'spirit animals', 'Eskimo', 'tribalism', 'let's powwow', 'circle the wagons', 'low on the totem po
+- `indigenous`: Sierra Club is unusual in the corpus for combining in-group/out-group dynamics and everyday idiom appropriation.
+- `indigenous`: SumOfUs addresses Mestizo, Criollo, Pardo, and Zambo under the same heading.
+- `indigenous`: SumOfUs frames the section as decolonization and cites Tuck and Yang.
+- `indigenous`: SumOfUs layers First Nations, Native American, and Aboriginal Peoples underneath by country.
+- `indigenous`: SumOfUs uses Indigenous as the global umbrella.
+- `indigenous`: Two-Spirit is Indigenous-specific and should not be applied outside Indigenous contexts; self-ID only.
+- `injury`: APA pairs those terms with neutral, person-first alternatives.
+- `inmate`: The Diversity Style Guide advises against "inmate."
+- `insane`: APA lists “insane” alongside “crazy” and “mental defect.”
+- `insane`: APA suggests “person with a preexisting behavioral health disorder” instead of “insane.”
+- `insane`: APA’s table lists “insane” as a term to avoid.
+- `institutional-racism`: The commons keeps separate pages for institutional and systemic racism.
+- `intersex`: Medical settings sometimes default to DSD because that's diagnostic-code language.
+- `intersex`: TJA has an adjective rule for transgender, bisexual, and queer.
+- `islamophobia`: Racial Equity Tools treats Islamophobia and antisemitism as entangled prejudices rooted in the same systems.
+- `latino`: Chicano remains a politicized self-identification many embrace.
+- `latino`: Latino is distinct from Hispanic and does not fully overlap with it.
+- `latino`: Texas / Eastern US / Caribbean / South American heritage: Hispanic often preferred.
+- `latinx`: Casey guide predates Latinx's mainstream emergence.
+- `latinx`: Casey guide predates later explicit Hispanic/Latino distinction in style guides.
+- `latinx`: DSG treats Latinx as a distinct entry alongside separately maintained entries for Latine, Latina/Latino, and Hispanic.
+- `latinx`: Hispanic and Latino are not interchangeable.
+- `latinx`: Hispanic foregrounds Spanish-language heritage, includes Spain, and excludes Brazil.
+- `latinx`: Hispanic foregrounds Spanish-language heritage, includes Spain, and excludes Brazil.
+- `latinx`: Later guides make the Hispanic/Latino distinction explicit where earlier ones did not.
+- `latinx`: Latine follows a grammatical gender-neutral e-suffix pattern.
+- `latinx`: Latine follows the e gender-neutral pattern used by Spanish speakers.
+- `latinx`: Latine is ascending while Latinx is stabilizing as use with care.
+- `latinx`: Latine is often preferred by Spanish-speaking/bilingual audiences.
+- `latinx`: Latine is pronounceable in Spanish.
+- `latinx`: Latine is pronounceable in Spanish.
+- `latinx`: Latine originated in Spanish-speaking LGBTQIA+ communities.
+- `latinx`: Latino foregrounds Latin American geographic origin, excludes Spain, and includes Brazil.
+- `latinx`: Latino/Chicano is more common in Western US / Mexican-American heritage contexts.
+- `latinx`: Latino/a/x foregrounds Latin American geographic origin, excludes Spain, and includes Brazil.
+- `latinx`: Latinx is harder to pronounce in Spanish.
+- `latinx`: Latinx is sometimes perceived as an English-internet construction imposed on Spanish-speaking communities.
+- `latinx`: SEIU predates the peak Latinx debate and rise of Latine.
+- `latinx`: Sierra Club accepts Latinx as a gender-neutral alternative but treats it as non-default.
+- `latinx`: Sierra Club explicitly distinguishes Hispanic as Spanish-language descent and Latino/a/x as Latin American origin.
+- `latinx`: Sierra Club flags no community consensus on Latinx.
+- `latinx`: Sierra Club house default is Latino over Hispanic.
+- `latinx`: Sierra Club says use Latinx for partner-org usage or project-level conversation.
+- `lesbian`: HRC's definition is broader than the women-only default in older journalism style guides
+- `mental-illness`: APA avoids mentally ill alongside crazy and insane.
+- `mental-illness`: APA avoids the adjective mentally ill and crazy/insane.
+- `mental-illness`: APA endorses mental illness itself when framed person-first.
+- `mental-illness`: APA endorses mental illness itself while not endorsing adjective-as-identity.
+- `mental-illness`: APA prescribes person living with a mental illness.
+- `mental-illness`: APA prescribes person living with a mental illness.
+- `mental-illness`: APA supports person-first noun person living with a mental illness rather than adjective collective the mentally ill.
+- `mental-illness`: Everyone has mental health.
+- `mental-illness`: NCDJ is the chapter's anchor.
+- `mental-illness`: This page pairs with mental health.
+- `mental-illness`: Treating mental illness and mental health as synonyms is a common error.
+- `multiracial`: DSG and most contemporary US guides converge on this hyphenation.
+- `multiracial`: Many multiracial people identify with multiple racial categories simultaneously rather than as multiracial singularly.
+- `multiracial`: Many multiracial people identify with multiple racial categories simultaneously, not as multiracial as a unified identity.
+- `multiracial`: Some people prefer a single racial identity even when their ancestry is multiracial.
+- `nonbinary`: Nonbinary is lowercase except at the start of a sentence.
+- `nonbinary`: The closed spelling 'nonbinary' is now dominant.
+- `people-of-color`: 'Colored people' is the Jim Crow-era color-first construction
+- `people-of-color`: 'People of color' is the contemporary people-first construction
+- `people-of-color`: BIPOC fronts the Black-and-Indigenous structural distinction
+- `people-of-color`: Criticism includes that POC works for white speakers as polite reference but not how communities name themselves
+- `people-of-color`: Criticism includes that non-white is what POC means structurally regardless of people-first construction
+- `people-of-color`: DSG implicitly rejects colored people
+- `people-of-color`: DSG implicitly treats people of color and colored people as non-interchangeable
+- `people-of-color`: NAACP name does not license generalized use of 'colored people'
+- `people-of-color`: NGC's rule says use BIPOC when group includes Black and/or Indigenous people and structural-distinction framing is relevant
+- `people-of-color`: POC remains the older, more-established frame
+- `people-of-color`: POCI appears in some academic and activist contexts
+- `people-of-color`: POCI is an alternative to BIPOC
+- `people-of-color`: POCI is less common
+- `people-of-color`: POCI places Indigenous people in coordinate rather than subordinate position
+- `people-of-color`: When fronting the Black-and-Indigenous structural distinction, BIPOC is the right term
+- `pronouns`: APA pairs this with singular-they default for unknown pronouns
+- `pronouns`: APA says 'preferred' implies a choice that does not exist
+- `pronouns`: APA's framing is the tightest
+- `pronouns`: DSG and NLGJA reject he/she or he or she as unknown-pronoun fallback
+- `pronouns`: NLGJA and TJA prefer constructions like 'the pronouns she/he/they uses for themself'
+- `pronouns`: Pronouns entry has strongest, sharpest cross-source consensus in the chapter
+- `pronouns`: The broader ask-don't-assume principle covers name, identifier, contact, and consent for physical description
+- `pronouns`: interACT says never assume pronouns from a name or appearance
+- `queer`: Community-internal use of queer is much wider in movement publications and LGBTQ+-led organizations.
+- `queer`: Culturally queer usage is contested even within LGBTQ+ communities.
+- `queer`: Generational and contextual splits are the load-bearing factor for queer usage.
+- `queer`: LGBTQ+ community/LGBTQ community carry the umbrella more universally than queer community.
+- `queer`: Mixed-generation audiences may experience queer differently.
+- `queer`: Movement publications, LGBTQ+-led organizations, and community-internal copy may accept the reclaimed umbrella sense of queer.
+- `queer`: Older LGBTQ+ readers who experienced queer as an active slur may still hear it that way regardless of intent.
+- `queer`: Older LGBTQ+ readers who lived through queer as a slur may still hear it as a slur regardless of intent.
+- `queer`: Queer is the most contested term in this chapter.
+- `queer`: Queer reads differently to a 25-year-old and a 65-year-old within the same LGBTQ+ community.
+- `queer`: Younger LGBTQ+ people include straight-presenting people with non-binary identities or culturally queer affinity in queer usage.
+- `queer`: Younger LGBTQ+ people more commonly use queer as a primary identifier and comfortable umbrella.
+- `queer`: Younger LGBTQ+ people more commonly use queer as a primary identifier.
+- `reservation`: NAJA does not separately treat 'reservation' as a style-guide entry.
+- `reservation`: NAJA uses 'reservation' descriptively throughout the guide alongside 'tribal lands.'
+- `retarded`: APA's table lists "mentally retarded" alongside "mentally challenged" and "handicapped" and prescribes person-first phrasing like 
+- `retarded`: APA's term-to-avoid table prescribes "people with intellectual disabilities."
+- `retarded`: This page pairs with disability.
+- `sexual-orientation`: DSG companion 'sexual preference' entry treats 'preference' as obsolete and replaceable by 'orientation.'
+- `sexual-orientation`: DSG defines sexual orientation as enduring attraction.
+- `sexual-orientation`: DSG explicitly distinguishes sexual orientation and gender identity as different axes.
+- `sexual-orientation`: DSG says transgender people may hold any sexual orientation.
+- `sexual-orientation`: DSG, HRC, RET, and NLGJA give nearly interchangeable definitions.
+- `sexual-orientation`: SEIU companion L entry lists 'lesbian, gay, bisexual and transgender [LGBT]' as accepted acronym form.
+- `sexual-orientation`: SumOfUs says to use specific identity terms rather than umbrella categories.
+- `sexual-orientation`: SumOfUs's broader Gender/Sex rule is not to assume heterosexual orientation.
+- `slavery`: Diversity Style Guide’s descriptive prose pre-dates the “enslaved person” convention that Sierra Club and APA codify
+- `slavery`: Sierra Club companion list extends the principle with “enslavers,” “fugitives from slavery,” and “born into slavery” alternatives
+- `slavery`: The historical noun still appears in direct quotation and proper names
+- `systemic-racism`: RET companion 'Racist Policies' entry says structural racism and systemic racism name the same phenomenon.
+- `transgender`: Conflating gender identity with sexual orientation is a common cross-axis error in non-LGBTQ+ writing.
+- `transgender`: Every active LGBTQ+-led source in the corpus is TJA, NLGJA, and HRC.
+- `transgender`: RET says trans has gained ground as the broader-inclusive option.
+- `transgender`: RET says trans is increasingly the broader-inclusive form.
+- `transgender`: SEIU pairs the transgender entry with an LGBT acronym entry under L.
+- `transgender`: SumOfUs accepted-terms list pairs transgender (adj.) with transgender people and trans woman/trans man.
+- `transgender`: SumOfUs avoided-terms list flags transgender (noun), transgendered (adj.), transgenders, and trans*.
+- `transgender`: SumOfUs treats transgender as the preferred descriptor.
+- `transgender`: TJA, NLGJA, DSG, SEIU, Sierra Club, and SumOfUs explicitly reject transgendered.
+- `transgender`: The most common cross-axis error in non-LGBTQ+ writing is treating transgender as a sexual orientation category.
+- `transgender`: Transgender remains the more universally understood term for external-facing copy.
+- `transgender`: interACT says conflating intersex and transgender erases both.
+- `transgendered`: This form persists in older policy documents and trainings.
+- `transition`: Sources flag fully transitioned and completed her transition as misdescribing the process.
+- `tribe`: APA generalizes the nation/people preference across academic and clinical contexts.
+- `tribe`: The 'tribalism' metaphor flattens Tribal nations into a stand-in for irrational factionalism.
+- `tribe`: The harm of 'tribal' metaphors is not abstract.
+- `undocumented-immigrant`: The term predates these guides
+- `unhoused-homeless`: 'The homeless' has no comparable reclamation constituency.
+- `unhoused-homeless`: 'Transient' and 'the homeless' are flagged.
+- `unhoused-homeless`: Approved construction shifts from identity-first to person-first.
+- `unhoused-homeless`: Avoid stigmatizing or criminalizing terms is a point of guide agreement.
+- `unhoused-homeless`: Beat-specific practices go deeper than general style guides.
+- `unhoused-homeless`: DSG takes a firmer pro-person-first position on homelessness than NCDJ does on disability.
+- `unhoused-homeless`: DSG's 'some prefer unhoused' framing reflects West Coast geography most strongly.
+- `unhoused-homeless`: DSG's proscriptions land in the same anti-criminalization place as SumOfUs.
+- `unhoused-homeless`: NCDJ's move is methodologically the same move DSG applies to this term two years later.
+- `unhoused-homeless`: National homelessness advocacy organizations may publish style guidance.
+- `unhoused-homeless`: No corpus source ranks 'homeless' above 'unhoused' or vice versa.
+- `unhoused-homeless`: People with disabilities have pushed for identity-first reclamation, including Deaf and autistic communities.
+- `unhoused-homeless`: Person-first language here reflects community posture rather than mechanical application.
+- `unhoused-homeless`: SumOfUs Economy section used 'persons experiencing homelessness' while Housing approved 'homeless person.'
+- `unhoused-homeless`: SumOfUs Housing section approved 'homeless person.'
+- `unhoused-homeless`: SumOfUs and DSG show a seven-year migration in progressive style on this term.
+- `unhoused-homeless`: SumOfUs argues certain words cue public-order responses rather than policy responses.
+- `unhoused-homeless`: SumOfUs contains a within-guide inconsistency on this wording.
+- `unhoused-homeless`: SumOfUs does not reconcile the two constructions.
+- `unhoused-homeless`: SumOfUs explicitly names bum, indigent, vagrant, and beggar.
+- `unhoused-homeless`: SumOfUs flags 'the homeless' and 'transient' as avoided terms.
+- `unhoused-homeless`: SumOfUs guidance is framed as anti-criminalization, not only politeness.
+- `unhoused-homeless`: SumOfUs has a sidebar on San Francisco's 'criminalization of homelessness.'
+- `unhoused-homeless`: SumOfUs makes no mention of 'unhoused' or 'houseless.'
+- `unhoused-homeless`: SumOfUs names bum, indigent, vagrant, and beggar as stigmatizing or criminalizing terms.
+- `unhoused-homeless`: SumOfUs reads as an in-progress transition between person-first and identity-first wordings.
+- `unhoused-homeless`: The Economy construction is person-first and sits alongside Housing's 'homeless person.'
+- `unhoused-homeless`: The Homelessness Beat Reporters Collective guide is referenced by TJA.
+- `unhoused-homeless`: The Homelessness Beat Reporters Collective's reporting guide is referenced by TJA.
+- `unhoused-homeless`: The SumOfUs Economy section lists 'persons experiencing homelessness' as an approved term.
+- `unhoused-homeless`: The homeless/unhoused cluster is smaller and tighter than race/ethnicity clusters like Latinx.
+- `unhoused-homeless`: The principles were settled but the wording was not.
+- `unhoused-homeless`: This term has only two direct-guidance sources in the current archive.
+- `unhoused-homeless`: West Coast adoption claim is anecdotal among corpus sources and not empirically quantified here.
+- `unhoused-homeless`: What SumOfUs allowed, DSG rules out.
+- `urban`: Sierra Club is the only in-scope guide that addresses 'urban' directly.
+- `urban`: That music industry shift is the clearest institutional move away from the coded usage.
+- `urban`: The broader pattern persists in marketing, education policy, and journalism.
+- `urban`: Urban is the corpus's clearest example of a racially coded euphemism.
+- `victim`: APA lists "AIDS victim" as a form to avoid.
+- `victim`: APA offers "person with AIDS" instead.
+- `victim`: APA replaces "AIDS victim" with person-first "person with AIDS."
+- `victim`: Many prefer "survivor."
+- `victim`: The paired "victim/survivor" construction is used when the person cannot be asked.
+- `victim`: This page pairs directly with survivor.
+- `working-class`: Color of Change says "working class" is applied to white people whether or not they are actually working.
+- `working-class`: Color of Change says Black families in the same economic strata are rarely granted the label.
+- `working-class`: This page pairs with classism and disadvantaged.
+
+## Other (176)
+
+- `african-american`: African American has always carried the same capitalization as Asian American, Mexican American, Italian American, etc.
+- `african-american`: African American is sometimes read as specifically denoting descent from people enslaved in the United States.
+- `african-american`: Casey's lowercase black alongside African American reflects era convention.
+- `african-american`: Many Black Americans whose ancestry traces to enslaved people brought to the U.S. match both frames.
+- `african-american`: Racially Black people who are ethnically Dominican, Cuban, Haitian, Brazilian, etc. typically identify by national heritage and/or
+- `african-american`: Recent African immigrants and their U.S.-born children often identify by national origin or as Black.
+- `african-american`: That enslaved-descendant reading can make African American a partial misfit for first- and second-generation African immigrants re
+- `american-indian`: American Indian remains in published names of long-established organizations such as National Congress of American Indians and Ame
+- `american-indian`: American Indian remains the term many older Native individuals use for themselves.
+- `antisemitism`: Anti-Semitism lends false legitimacy to a 19th-century racial pseudo-category.
+- `antisemitism`: Racial Equity Tools names antisemitism as a concept communicators should understand and use.
+- `asian-american`: AANHPI is preferred by some Pacific Islander advocates because AAPI can read as Asian-American-dominant.
+- `asian-american`: APIA means Asian Pacific Islander American and is an older, less common form still seen in established organization names.
+- `asian-american`: Examples such as Korean American, Vietnamese American, Hmong American, Native Hawaiian, Samoan, Filipino American are source-suppo
+- `asian-american`: Native Hawaiian status as Indigenous people with sovereignty claims tied to the overthrow of the Hawaiian Kingdom adds a layer AAP
+- `asian-american`: Oriental is acceptable only for objects, design styles, or historical institutional names.
+- `asian-american`: Sierra Club has a Hawai'ian Native entry.
+- `asian-american`: Some South Asian Americans use South Asian and others find it inadequate, particularly when Brown is the operative identity catego
+- `asian-american`: South Asian includes Indian, Pakistani, Bangladeshi, Sri Lankan, Nepalese, Bhutanese, Maldivian.
+- `asian-american`: Specific identifiers include Chinese American, Korean American, Vietnamese American, Filipino American, Hmong American, Pakistani 
+- `autism`: For much of the autistic community, person-first "person with autism" is the opposite of the respectful choice
+- `bipoc`: BIPOC travels poorly to UK, EU, Latin American, or African contexts where racial categories and histories differ.
+- `bipoc`: DSG-aligned guidance is to spell out Black, Indigenous, and people of color on first use and use BIPOC later.
+- `bisexual`: 'Bi' as a self-description is widely accepted in the corpus and in current usage.
+- `bisexual`: HRC frames bisexual erasure as its own form of prejudice distinct from homophobia.
+- `bisexual`: HRC says attraction may vary across different periods of life and intensities.
+- `bisexual`: The frame has shifted decisively from older 'both sexes' wording toward 'more than one gender.'
+- `chicanx`: Chican@ is mostly in academic-department names now.
+- `cisgender`: The corpus treats cisgender/normal substitution as one of the most-recurring writing-side errors in non-LGBTQ+ writing about trans
+- `colonialism`: The page cross-links colonialism to Indigenous, systemic racism, and classism because colonialism is treated as a present-tense st
+- `depression`: GCJT reserves the term for the diagnosed condition rather than everyday low mood.
+- `depression`: Sierra Club reserves clinical-mental-health vocabulary for the diagnosed condition.
+- `disability`: Both SumOfUs and Sierra Club trace people-first language to the disability justice movement
+- `disability`: SumOfUs and Sierra Club ask writers never to villainize, sentimentalize, or heroize disabled people
+- `disability`: SumOfUs and Sierra Club ask writers to avoid using disability metaphorically or as an insult
+- `disability`: SumOfUs and Sierra Club ask writers to reject a purely medical view of disability
+- `disadvantaged`: The page pairs with classism and ghetto.
+- `dreamer`: DAPA is DACA's companion program.
+- `dreamer`: Diversity Style Guide has definitional entries for both DACA and the DREAM Act.
+- `dreamer`: Diversity Style Guide keeps DACA and DREAM Act in separate, cross-referenced entries.
+- `dreamer`: SEIU handles DACA as a standard acronym headword with bracketed expansion for first reference.
+- `dreamer`: SEIU prescribes the full form Deferred Action for Childhood Arrivals on first reference.
+- `felon`: "Felon" is the label that disenfranchisement and "ban the box" campaigns organize against.
+- `felon`: SumOfUs has incarceration guidance built around the decriminalizing-language slogan "Felons, not families."
+- `felon`: The page pairs with convict, inmate, and offender.
+- `gay`: Movement guides reserve gay for specific reference
+- `gay`: Progressive movement guides SumOfUs and Sierra Club both flag that gay is not a substitute for an umbrella term
+- `gay`: Rejections of gay agenda, gay lifestyle, and avowed homosexual are settled across the corpus
+- `gay`: Sierra Club treats gay as a self-description offered by the subject, not writer-applied label
+- `gay`: Some lesbians prefer 'lesbian' exclusively
+- `gay`: The pattern echoes the transgender-is-an-adjective rule from the rest of this chapter
+- `gender-identity`: Conflating gender identity, sexual orientation, and gender expression is a frequent error.
+- `hispanic`: Chicano is a politicized subset-identity for Mexican-American experience that some embrace and others don't.
+- `hispanic`: Hispanic may be received as colder than Latino in these communities.
+- `hispanic`: Hispanic vs. Latino as an English-language question is largely orthogonal to the Latinx/Latine debate.
+- `hispanic`: Latine is rising as the in-Spanish gender-neutral form.
+- `hispanic`: Latino foregrounds geographic origin in a way some Caribbean readers find less central to self-description.
+- `hispanic`: Latino skews more common in the Western US and especially Mexican-American Western contexts.
+- `hispanic`: Latinx adoption is still evolving.
+- `hispanic`: Mexican-American/Chicano/Western note: Latino tends to be more common.
+- `hispanic`: Sierra Club explicitly defines Hispanic as Spanish-language descent including Spain/excluding Brazil and Latino/a/x as Latin Ameri
+- `hispanic`: Sierra Club is a Western-US-organized environmental org with strong Latino partner networks.
+- `hispanic`: Younger/college-age cohorts often skew toward Latinx or Latine over Hispanic, especially in academic and movement contexts.
+- `homophobia`: APA and academic guides sometimes offer alternatives like heterosexism or anti-gay prejudice.
+- `homophobia`: Lesbophobia is sometimes used for lesbians specifically and is standard usage in the corpus.
+- `homophobia`: None of the eight sources scanned offers an alternative like heterosexism or anti-gay prejudice as a replacement.
+- `homophobia`: The '-phobia' suffix is criticized in some adjacent scholarship as inaccurate because these are systemic prejudices, not clinical 
+- `homosexual`: Each replacement has its own page in this chapter.
+- `homosexual`: Homosexual carried the weight of decades in which same-sex attraction was classified as pathology.
+- `homosexual`: Homosexual originated as a 19th-century clinical category.
+- `homosexual`: Homosexual was later favored by opponents of gay rights for its clinical coldness.
+- `indian`: DSG says to use American Indian for Indigenous peoples of the United States.
+- `indian`: There are 1.4 billion people from India.
+- `indian`: “American Indian” is on its own page in DSG.
+- `indian`: “Native American” is the U.S. preferred general term.
+- `indigenous`: Advocacy guides Sierra Club and SumOfUs land on posture 1.
+- `indigenous`: Capitalization is framed as rejecting plants-and-animals equivalence in NAJA, DSG, and GCJT.
+- `indigenous`: Casey is a pre-formalization document from before current consensus crystallized.
+- `indigenous`: Casey predates the capitalization rule and APA summary does not address it.
+- `indigenous`: DSG, NGC, GCJT, and Sierra Club inherit NAJA's rule directly or indirectly.
+- `indigenous`: Every engaged source rejects terminology-only hygiene without sovereignty engagement.
+- `indigenous`: Indigenous is the pan-national umbrella in SumOfUs, Sierra Club, and UN.
+- `indigenous`: Indigenous-led NGC and RET land on sovereignty-first posture 3.
+- `indigenous`: NAJA's capitalization rule is canonical in U.S. progressive journalism style.
+- `indigenous`: NAJA, NGC, DSG, GCJT, SumOfUs, and Sierra Club all say to use specific tribal/national/linguistic names when possible.
+- `indigenous`: NAJA, now IJA, is the canonical journalism reference.
+- `indigenous`: NGC, NAJA, DSG, and GCJT treat Indigenous as a U.S.-editorial default.
+- `indigenous`: Newsroom guides NAJA, DSG, and GCJT land on posture 2.
+- `indigenous`: RET and NGC/Younging use Indigenous as sovereignty-first framing.
+- `indigenous`: SumOfUs and Sierra Club treat Indigenous as a universal umbrella.
+- `indigenous`: The Cobo report is the canonical UN-level definition.
+- `injury`: APA treats suffering/affliction language as an assumption about a person's experience that writers should not impose.
+- `insane`: NCDJ, Diversity Style Guide, and APA all treat “insane,” “insanity,” and “mentally deranged” as informal, now-offensive stand-ins 
+- `insane`: NCDJ, Diversity Style Guide, and APA prefer “mental illness,” “mental disorder,” or APA’s “person with a … behavioral health disor
+- `institutional-racism`: Its defined-headword presence a half-century later shows movement from movement vocabulary into standard usage.
+- `latine`: For English-language US writing where Spanish pronunciation is not primary, Latinx remains the more common form and standard insti
+- `latine`: Latin@ is an older post-internet construction.
+- `latine`: Latin@ is less common in current usage than either Latinx or Latine.
+- `latine`: Latin@ is rarely seen in current general usage.
+- `latine`: Latine has not displaced Latinx as the dominant English-language gender-neutral form.
+- `latine`: Latine is rising in academic, movement, and LGBTQIA+ contexts.
+- `latine`: Latinx does not pronounce in Spanish.
+- `latine`: Latinx is widely critiqued as an English-internet construction imposed on Spanish-speaking communities.
+- `latine`: Latinx remains the more common form in US English writing.
+- `latine`: TJA notes a rising preference for Latine specifically among some communities.
+- `latine`: The '-x' suffix does not function as a gender-neutral marker in Spanish.
+- `latino`: Black Latino, white Latino, Indigenous Latino, and multiracial Latino are all standard identifications.
+- `latino`: Capitalization is settled across every guide: Latino, Latina, Latinos, Latinas are always capitalized.
+- `latino`: Chicano/Chicana/Chicanx is a subset identity for Mexican-American experience, particularly in California, Texas, and the Southwest
+- `latino`: LA Times and Sierra Club reflect dominant regional convention in California, New Mexico, Arizona, and the broader Western US.
+- `latino`: Latino, Latina, Latinos, Latinas are always capitalized.
+- `latino`: Latinx and Latine are increasingly preferred gender-neutral collective forms.
+- `latino`: Latinx in English contexts and Latine in Spanish contexts displace the masculine default and are gaining ground.
+- `latino`: Latinx is English-rooted and Latine is Spanish-rooted.
+- `latino`: Many West Coast progressive orgs, including Sierra Club nationally, followed similar reasoning.
+- `latino`: RET extends that same audience-dependence to Latine.
+- `latino`: SEIU matches Sierra Club's masculine-default-for-mixed-groups convention.
+- `latino`: The displacement is true at the institutional default level.
+- `lesbian`: 'Lesbians' as a community noun is in active use among lesbians themselves
+- `lesbian`: Contemporary usage opens lesbian to non-binary lesbians without redefining lesbian as a non-women identity
+- `lesbian`: DSG's lesbian grammar is distinct from adjective-only rules for transgender or gay
+- `lesbian`: Lesbian grammar differs from the Transgender, Gay, and Bisexual adjective-not-noun rules
+- `lesbian`: The 'L' in LGBTQ+ acronyms goes first across all the major coalition guides
+- `lesbian`: The corpus reflects community noun usage rather than imposing a broader adjective-only rule
+- `lesbian`: The shift mirrors broader contemporary lesbian-community usage
+- `minority`: California, Texas, New Mexico, Hawaii, and many large metros are already past that threshold.
+- `minority`: DSG and Sierra Club both source the framing to Race Forward.
+- `minority`: Every guide treats applying 'minority' to a single person as the worst case.
+- `minority`: In California, Texas, New Mexico, Hawaii, and many large metro areas, 'minority' is factually inaccurate.
+- `minority`: RET implicitly makes the same individual-level recommendation.
+- `minority`: The same individual-level rule applies as with BIPOC.
+- `minority`: The word has similar connotations in phrases like 'minor partner' or 'minor consideration.'
+- `native-american`: DSG's interchangeability rule sources directly to NAJA.
+- `native-american`: Headlines and lede paragraphs are where this slips most often.
+- `native-american`: NGC's preference reflects common usage in many Indigenous-led nonprofits and tribal media.
+- `native-american`: Sierra Club treats Native American as acceptable but not default.
+- `native-american`: Sierra Club treats Native American as an acceptable collective term but not the default.
+- `native-american`: The Black/white capitalization debate in related pages has no direct analog here.
+- `negro`: DSG keeps the term intact in proper names or historical references, such as National Council of Negro Women, Negro National Anthem
+- `negro`: Guides distinguish quoting King's speeches or naming historic institutions from choosing the word today.
+- `negro`: Negro was the standard, respectful term of the 17th through mid-20th centuries.
+- `negro`: Negro was used by civil-rights era institutions.
+- `offender`: "Ex-offender" persists in older reentry and parole language.
+- `offender`: "Ex-offender" remains common in older reentry-program language.
+- `people-with-disabilities`: Neighboring pages cover “disabled,” “handicapped,” and capital-D “Deaf.”
+- `people-with-disabilities`: Person-first language was taught for years as the single respectful form.
+- `pronouns`: APA, DSG, NLGJA, and TJA all explicitly reject 'preferred pronouns' on the same logic
+- `pronouns`: NLGJA rejects preferred pronouns on the same APA/DSG/TJA logic
+- `pronouns`: Surface vocabulary has converged in the past three years
+- `pronouns`: Unknown-pronoun default is singular they, AP-aligned, per Sierra Club, NLGJA, and TJA
+- `pronouns`: interACT was earliest in corpus to name neopronouns
+- `pronouns`: interACT's guidance is earliest in this corpus to name neopronouns like zie/hir alongside they/them
+- `refugees`: TJA says identifying details could endanger family in the home country.
+- `sexual-orientation`: SEIU and DSG both have explicit paired entries 'sexual orientation [Not: sexual preference].'
+- `sexual-orientation`: SEIU and DSG give the same reasoning: 'preference' implies choice.
+- `sexual-orientation`: SEIU treats 'preference' as implying choice and obsolete.
+- `sexual-orientation`: Sources that get the two-axis rule wrong tend to get downstream details wrong, such as assuming a transgender source is gay or tre
+- `stereotypes`: The stereotypes page sits next to discrimination and coded-language entries such as ghetto and urban elsewhere in the commons.
+- `tribe`: Casey's absence is a date marker, not a divergence.
+- `tribe`: Sierra Club treats specific nation names such as Dine, Cheyenne, Nooksack as preferable to generic 'Tribes.'
+- `tribe`: The Confederated Salish and Kootenai Tribes and the Quileute Tribe use 'Tribe/Tribes' in official names.
+- `tribe`: When a collective term is needed, 'Indigenous nations' from DSG carries sovereignty content better than 'tribes.'
+- `two-spirit`: Avoid two-spirited in all styles.
+- `two-spirit`: Both styling camps agree never to use the adjective two-spirited.
+- `two-spirit`: Capitalization aligns with a capitalization-as-respect convention for Indigenous identifiers.
+- `urban`: 'Inner-city schools' and 'inner-city kids' function as racial code in the same way as 'urban.'
+- `urban`: 'Inner-city' carries an added implication of social or economic dysfunction.
+- `urban`: 'Inner-city' follows the same euphemism pattern as 'urban.'
+- `urban`: 'Inner-city' is often even more racially loaded than 'urban.'
+- `urban`: 'Urban schools' could mean majority-Black or majority-Latinx schools, low-income city schools, or literally schools in cities.
+- `urban`: 'Urban schools,' 'urban communities,' 'urban audience,' and 'urban music' often function as substitutes for Black schools, predomi
+- `urban`: R&B, hip-hop, Latin trap, and gospel are genre names.
+- `urban`: Schools in cities are a much broader population than majority-Black/Latinx or low-income city schools.
+- `urban`: The broader pattern includes 'urban audience,' 'urban consumer,' 'urban schools,' and 'urban communities.'
+- `urban`: These words function as racial euphemisms in many contexts, particularly for Black or POC communities, schools, neighborhoods, or 
+- `urban`: Writers often use 'urban' as racial shorthand without being conscious of it.
+
+## Dated events/chronology (81)
+
+- `african-american`: AP retired the hyphenated form in 2019.
+- `african-american`: Black skews in movement contexts because of politicized post-2013 Black Lives Matter framing.
+- `african-american`: Older/Boomer audiences often skew toward African American as the contemporary respectful term that supplanted earlier vocabulary.
+- `african-american`: SEIU matches AP's 2019 retirement of the hyphenated form.
+- `african-american`: The hyphenated form is a pre-2019 stylistic legacy that AP retired.
+- `american-indian`: American Indian predates Native American as the mainstream US descriptor.
+- `antisemitism`: The closed spelling is what most major institutions adopted in the early 2020s.
+- `asian-american`: Asian-American is a pre-2019 stylistic legacy.
+- `asian-american`: Casey 2013 pre-dates major contested-terminology debates around AAPI, AANHPI, and post-2020 Stop AAPI Hate-era reframing.
+- `asian-american`: Casey entry pre-dates post-2010s debates over AAPI vs AANHPI, Asian American as identity vs demographic category, and post-2020 St
+- `asian-american`: DSG 2023 routes Oriental to historical-context-only usage.
+- `asian-american`: Native Hawaiian is a distinct political category as an Indigenous people of the United States with sovereignty claims tied to the 
+- `asian-american`: Pacific Islander and Native Hawaiian advocates have argued with increasing institutional success since the mid-2010s for AANHPI as
+- `asian-american`: SEIU matches every other guide in the corpus that addresses the Oriental/Asian pair, including DSG, AECF, AAJA, and a 1976 Departm
+- `asian-american`: The hyphenated form is a pre-2010s stylistic legacy that AP retired in 2019.
+- `bipoc`: DSG locates a May 2020 inflection point with the murder of George Floyd.
+- `caucasian`: Caucasian as a racial category comes from Blumenbach's 1795 five-race typology.
+- `caucasian`: Racial-language conventions were generally looser before 2020.
+- `chicanx`: The 1960s movement's framing was specifically against assimilation into whiteness.
+- `chicanx`: The lowercase likely reflects pre-2020 convention of lowercasing some ethnic identifiers.
+- `cisgender`: The trajectory is from 'term used by some' (DSG 2023) to 'use this term' (TJA 2026, Sierra Club 2021, RET 2023)
+- `disadvantaged`: The guidance is stable from SumOfUs 2016 through 2023.
+- `dreamer`: The DREAM Act was first introduced in 2001 and never enacted.
+- `first-nations`: NGC's capitalization rule is consistent with the broader convention of capitalizing Indigenous identifiers across the post-2020 co
+- `first-nations`: SumOfUs dates that replacement/common usage to post-1980s
+- `gay`: DSG's gay-for-men, lesbian-for-women rule is the dominant pre-2020 default
+- `hispanic`: Hispanic-vs-Latino preference data has not moved much across two decades of Pew surveys.
+- `hispanic`: Pew preference finding remained substantially stable through 2020 follow-up surveys.
+- `homophobia`: Older progressive guides SumOfUs 2016 and SEIU 2020 don't engage homophobia as a labeled topic.
+- `indigenous`: Casey predates formalization of contemporary Indigenous style by NGC and NAJA.
+- `indigenous`: DSG, GCJT, and indirectly Sierra Club anchor Indigenous entries in NAJA's 2017 position.
+- `indigenous`: NAJA 2017 is the earliest sharp-edged source.
+- `indigenous`: The NAJA archive filename is dated 2023-06 but PDF creation date is 2017-04.
+- `inmate`: SumOfUs draws on a 2016 reader survey.
+- `inmate`: SumOfUs placement reflects a 2016 reader survey.
+- `institutional-racism`: Black Power was published in 1967.
+- `latine`: More major guides will likely add Latine entries through 2025-2026.
+- `latine`: Sierra Club 2021, SEIU 2020, Casey 2013, and NGC 2021 predate Latine institutional uptake.
+- `latino`: Sierra Club's 2021 adoption follows the same reasoning as LA Times.
+- `latino`: The 2020 SEIU stylebook predates major institutional uptake of Latinx or Latine.
+- `latinx`: Age strongly correlates with Latinx adoption per Pew 2019.
+- `latinx`: Casey predates the Latinx debate.
+- `latinx`: DSG flags 2019 Pew adoption data.
+- `latinx`: Pew 2019 3%/23% data is the load-bearing empirical claim across the synthesis space.
+- `latinx`: Sierra Club 2021 and DSG 2023 both spell out the Hispanic/Latino distinction.
+- `latinx`: Sierra Club 2021 supports deferring to partner org style in coalition work.
+- `latinx`: The 2013 Casey guide was written before the Hispanic/Latino distinction settled into style-guide practice.
+- `latinx`: Writers after about 2023 should weight Latine over Latinx for Spanish-speaking or bilingual audiences.
+- `multiracial`: The embrace of mixed/mixed-race includes the 2010s 'mixed' movement and several mixed-identity organizations.
+- `multiracial`: There was a 2010s 'mixed' movement.
+- `native-american`: Post-2020 guides include NGC, Sierra Club, GCJT, DSG with a February 2021 update, and RET.
+- `negro`: The Black Power movement of the late 1960s shifted preferred usage to 'Black.'
+- `people-of-color`: NAACP retains 'Colored People' in its proper name because of its 1909 founding context
+- `people-of-color`: POC predates BIPOC by roughly four decades
+- `people-of-color`: SEIU confirms the late-2010s pre-BIPOC convention
+- `people-of-color`: SEIU's 2020 stylebook predates post-Floyd BIPOC mainstreaming
+- `pronouns`: 2023-2026 guides (APA, DSG, NLGJA, TJA) all replace preferred-pronouns framing while keeping same underlying operational rule
+- `pronouns`: APA 2023 crystallizes post-2020 shift away from 'preferred pronouns'
+- `pronouns`: Color of Change's 2022 'preferred pronouns' phrasing predates post-2023 consensus rejecting that phrase
+- `pronouns`: The shift away from preferred pronouns is post-2020 and settled by 2025
+- `sexual-orientation`: Pre-2010 mainstream use of 'sexual preference' was settled out of the post-2020 progressive corpus.
+- `transgender`: NLGJA relevance rule is the operational standard for 2025+ news copy.
+- `tribe`: Casey is not in this entry because the 2013 guide does not engage these questions.
+- `tribe`: SumOfUs predates the shift reflected by post-2020 guides.
+- `tribe`: The SumOfUs guide predates the wider shift to capitalizing 'Tribe' itself as a respect convention.
+- `tribe`: The capital-T convention is a post-2020 settling, not a long-standing rule.
+- `tribe`: The capital-T convention travels with the broader move to capitalize Indigenous racial, ethnic, and political identifiers across p
+- `unhoused-homeless`: 'Unhoused' and 'houseless' had not entered mainstream progressive style discourse yet in 2016.
+- `unhoused-homeless`: 'Unhoused' has broader community adoption in West Coast policy and advocacy writing from 2020 onward.
+- `unhoused-homeless`: DSG flips SumOfUs's 2016 Housing-section approval of 'homeless person.'
+- `unhoused-homeless`: NCDJ 2021, APA 2023, and Radical Copyeditor 2017 address person-first vs identity-first on disability, not homelessness.
+- `unhoused-homeless`: NCDJ retired its person-first default in 2021 in favor of asking case-by-case.
+- `unhoused-homeless`: Only two current-corpus sources issue direct guidance: SumOfUs 2016 and DSG 2023.
+- `unhoused-homeless`: Post-2020 style lands on person-first 'people experiencing homelessness.'
+- `unhoused-homeless`: Pre-2020 style accepted identity-first 'homeless person.'
+- `unhoused-homeless`: SumOfUs 2016 does not mention 'unhoused.'
+- `unhoused-homeless`: SumOfUs's 2016 Housing/Space table approves 'homeless person.'
+- `unhoused-homeless`: There was a clear 2016-to-2023 migration in progressive style.
+- `urban`: The 2020 music industry shift involved Republic Records and several major labels retiring 'urban' as a genre marker and replacing 
+- `victim`: Color of Change is a 2022 guide.
+- `victim`: DSG is a 2023 guide/page.
+
+## Legal/government facts (35)
+
+- `alien`: A statute may use 'alien' as a defined legal term.
+- `alien`: Sierra Club avoidance is part of a rule never to use 'illegal' or dehumanizing legal-jargon labels for people.
+- `american-indian`: American Indian remains in active use today for legal contexts such as federally recognized tribes, Indian Country, and Indian Hea
+- `american-indian`: American Indian remains the canonical descriptor for treaty rights, federal Indian law, Indian Health Service eligibility, and sim
+- `american-indian`: The 2016 HR 4238 change applies to ordinary federal usage.
+- `american-indian`: The 2016 HR 4238 change does not retroactively edit the body of federal Indian law using the older term.
+- `caucasian`: Federal demographic categories use Caucasian as a formal label.
+- `dreamer`: Define American and Diversity Style Guide support the DREAM Act chronology and non-enactment facts.
+- `hispanic`: Hispanic is often perceived as a federal-government bureaucratic label in Mexican-American/Western communities.
+- `homosexual`: Older medical literature, statutes, and court opinions use homosexual as a category label.
+- `illegal-alien`: "Illegal alien" began as defined statutory language.
+- `illegal-alien`: Objection built from journalist associations in 1994 to wire-service style in 2013 to the immigration agency's own usage in 2021.
+- `illegal-alien`: Statutes use "alien" as a defined legal term.
+- `illegal-immigrant`: By 2021, USCIS had moved away from broader 'illegal' and 'alien' vocabulary
+- `illegal-immigrant`: The 2021 Comm/Unity revision keeps 'illegal immigrant' on its problematic-terms chart
+- `indian`: BIA programs are statutory categories using the word “Indian.”
+- `indian`: Indian Act status is a statutory category using the word “Indian.”
+- `indian`: “Indian” remains embedded in Canada’s Indian Act.
+- `indian`: “Indian” remains embedded in U.S. federal law through the Bureau of Indian Affairs.
+- `indian-country`: Indian Country is often the only accurate term for the Title 18 jurisdictional category.
+- `indigenous`: American Indian and Native American are both federal terms.
+- `indigenous`: American Indian/Indian/First Nations are reserved for self-ID, legal context, or geographic specificity.
+- `indigenous`: DSG contributes statutory detail that HR 4238 signed by Obama in 2016 replaced American Indian with Native American in federal law
+- `indigenous`: HR 4238 in 2016 replaced American Indian with Native American in federal laws.
+- `indigenous`: RET distinguishes Indigenous Sovereignty as inherent/pre-colonial/independent of state recognition from Tribal Sovereignty as lega
+- `insane`: “Found not guilty by reason of insanity” is a legal-sense use.
+- `insane`: “Found not guilty by reason of insanity” is an applicable legal phrasing.
+- `minority`: 'Minority-serving institutions' and 'minority outreach grants' are proper-noun federal/institutional category usages.
+- `native-american`: Native American was the preferred federal-era replacement for American Indian.
+- `refugees`: The legal definition has not moved.
+- `tribe`: Many federally recognized tribes use 'Tribe' in their official names.
+- `tribe`: The lowercase form remains in active use in some style guides and legal contexts.
+- `unhoused-homeless`: Bum, indigent, vagrant, and beggar carry legal/enforcement connotations and cue public-order framing rather than policy-failure fr
+- `unhoused-homeless`: Statutory writing will continue to use 'homeless' because the law does.
+- `unhoused-homeless`: The McKinney-Vento Act's 'lacks a fixed, regular, and adequate nighttime residence' is the U.S. federal definition.
+
+## Statistics (19)
+
+- `addict`: NCDJ is the chapter's anchor source
+- `addict`: This page pairs with addiction and mental health pages
+- `asian-american`: AAPI works as an umbrella for collective contexts such as AAPI Heritage Month or AAPI mental-health survey data.
+- `caucasian`: Some older HHS, FBI UCR, and academic survey instruments still use Caucasian as a category name.
+- `caucasian`: Some older HHS, FBI UCR, and academic survey instruments still use Caucasian.
+- `caucasian`: The exception is narrow and matches the minority entry's exception.
+- `gender-binary`: Examples of binary artifacts include M/F-only fields, "both genders," and "opposite sex."
+- `gender-binary`: For survey and form designers, the binary shows up most often as an artifact.
+- `hispanic`: Older cohorts skew Hispanic or Latino.
+- `latino`: Defaulting to Latino in those contexts mismatches regional preference data.
+- `latino`: Texas, Eastern US, Caribbean, and South American heritage content skew toward Hispanic preference per Pew.
+- `latino`: Western US / California / New Mexico / Arizona: Latino strongly preferred.
+- `latinx`: Hispanic is more common in Eastern US / Caribbean / South American self-identification per DSG and RET.
+- `latinx`: Only 3% of U.S. Hispanic/Latino adults used Latinx for themselves.
+- `latinx`: Younger cohorts are more likely to use Latinx or Latine; older cohorts are more likely to use Latino or Hispanic.
+- `minority`: 'Emerging majority' is less common in current usage but worth knowing as a peer alternative.
+- `minority`: 'Emerging majority' is less common in current usage than 'people of color' or BIPOC.
+- `minority`: 'Minority-serving institutions' are proper-noun usages to keep when referring to the actual program or data category.
+- `multiracial`: When Casey was written, the US multiracial population was 9 million.
+
+## Census (13)
+
+- `hispanic`: The standard Census/HHS frame is 'Hispanic vs. non-Hispanic'.
+- `hispanic`: Writing about Census, ACS, HHS, or any federal-data source generally calls for 'Hispanic'.
+- `indian`: Census “American Indian” is a statutory category using the word “Indian.”
+- `indigenous`: SumOfUs flags Indian as outdated except in quotes, titles, historical, legal, rights/benefits, and census contexts.
+- `minority`: The U.S. Census Bureau projects non-Hispanic White Americans will no longer be a majority by approximately 2045.
+- `multiracial`: By 2020 the Census counted 33.8 million multiracial people.
+- `multiracial`: Census 2020 found multiracial Americans grew 276% over the prior decade.
+- `multiracial`: The 2020 Census data uses 'two or more races'.
+- `multiracial`: The multiracial US population grew rapidly through the 2010s.
+- `multiracial`: The multiracial umbrella now applies to a population larger than several individual racial categories.
+- `multiracial`: US Census allows 'two or more races' as a category.
+- `negro`: Older datasets, court records, and the U.S. Census use 'Negro' as a category label.
+- `negro`: The U.S. Census carried the term as late as 2010.
+
+## AP Stylebook facts (9)
+
+- `african-american`: Casey predates the 2020 AP capital-B Black shift.
+- `african-american`: The companion Black entry covers capitalization debates, the 2020 AP shift, and the NABJ/AP split on White.
+- `illegal-alien`: Journalists/editors avoiding the term tracks UNITY (1994), AP style (2013), and USCIS practice (2021).
+- `illegal-alien`: The AP Stylebook made a 2013 decision to stop using "illegal" for a person.
+- `illegal-immigrant`: AP style has tracked the 'do not use illegal as noun/person' guidance since 2013
+- `illegal-immigrant`: The watershed is the AP Stylebook's 2013 decision to drop 'illegal immigrant'
+- `native-american`: Casey's hyphenated adjective convention is contemporaneous with AP style pre-2019.
+- `pronouns`: AP gradually accepted singular they in 2017, 2019, and current default usage
+- `undocumented-immigrant`: The AP Stylebook dropped 'illegal immigrant' in 2013
+
+## Coinages/origins (6)
+
+- `bipoc`: BIPOC was coined to make catch-all non-white usage harder.
+- `dreamer`: Dreamer polls well precisely because it was coined to.
+- `institutional-racism`: The coined term named racism that persists without individual racists.
+- `institutional-racism`: The term was coined by Stokely Carmichael/Kwame Ture and Charles V. Hamilton in Black Power.
+- `latinx`: Latine originated in Spanish-speaking LGBTQIA+ communities rather than as an English-internet coinage.
+- `two-spirit`: Two-Spirit was coined at a 1990 gathering in Winnipeg.
+

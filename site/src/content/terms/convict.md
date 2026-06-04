@@ -28,7 +28,7 @@ guidance:
     derived_from: []
     quote: "“Felon;” “convict;” “ex-con;” “offender” … As health experts have noted, this carries a significant amount of stigma. These terms may paint an overly simplistic picture to readers. … Alternatives: Person with a felony conviction."
     quote_loc: "Problematic Terms to Reconsider chart, IDP Journalist Style Guide (2020)"
-    paraphrase: "The Immigrant Defense Project's journalist guide groups \"convict\" with \"felon,\" \"ex-con,\" and \"offender\" as problematic terms to reconsider, noting the stigma they carry, and points writers to \"person with a felony conviction\" or \"person with a conviction.\""
+    paraphrase: "The Immigrant Defense Project's journalist guide groups \"convict\" with \"felon,\" \"ex-con,\" and \"offender\" as problematic terms to reconsider, noting the stigma they carry, and points writers to \"person with a felony conviction\" (the adjacent \"criminal / convicted criminal\" row offers the broader \"person with a conviction\")."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Immigrant Defense Project"
     org_slug: "idp"

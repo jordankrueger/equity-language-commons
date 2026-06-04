@@ -54,7 +54,7 @@ guidance:
     derived_from: []
     quote: "PROBLEMATIC TERM: “Illegal immigrant.” This term ignores the complexities of immigration status and has been widely rejected by news organizations over the last several years. ALTERNATIVES: Undocumented immigrant, Immigrant without current status."
     quote_loc: "Problematic Terms to Reconsider chart, Comm/Unity Style Guide R4"
-    paraphrase: "The 2021 Comm/Unity revision carries the same prescription as IDP's 2020 guide: 'undocumented immigrant' or 'immigrant without current status' replaces 'illegal immigrant.' The rationale is that the rejected term flattens a complex legal reality and has been widely abandoned by newsrooms."
+    paraphrase: "The Comm/Unity revision (third edition, dated March 2022 on its title page) carries the same prescription as IDP's 2020 guide: 'undocumented immigrant' or 'immigrant without current status' replaces 'illegal immigrant.' The rationale is that the rejected term flattens a complex legal reality and has been widely abandoned by newsrooms."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Sierra Club"
     org_slug: "sierra-club"
@@ -104,7 +104,7 @@ contributors:
 
 ## Synthesis
 
-**"Undocumented immigrant" is the corpus's prescribed term** — the agreed replacement for the "illegal" family of words. All six sources here recommend it, and most name it explicitly as the alternative to "illegal immigrant" and "illegal alien." The shared rationale is that it describes a person's documentation status without converting the person into a crime: "a person is never illegal" (SumOfUs); it "does not dehumanize them in the manner that such terms as aliens and illegals do" (Diversity Style Guide); the "illegal" framing "unfairly replaces complex legal circumstances with an assumption of guilt" (Define American). The Immigrant Defense Project, in both its 2020 Journalist Style Guide and its 2021 Comm/Unity revision, lists it as the direct alternative on a chart of problematic terms to reconsider.
+**"Undocumented immigrant" is the corpus's prescribed term** — the agreed replacement for the "illegal" family of words. All six sources here recommend it, and most name it explicitly as the alternative to "illegal immigrant" and "illegal alien." The shared rationale is that it describes a person's documentation status without converting the person into a crime: "a person is never illegal" (SumOfUs); it "does not dehumanize them in the manner that such terms as aliens and illegals do" (Diversity Style Guide); the "illegal" framing "unfairly replaces complex legal circumstances with an assumption of guilt" (Define American). The Immigrant Defense Project, in both its 2020 Journalist Style Guide and its later Comm/Unity revision (third edition, March 2022), lists it as the direct alternative on a chart of problematic terms to reconsider.
 
 The sources also define the term tightly: "undocumented" describes a current lack of legal status, not a permanent identity. SumOfUs notes that an asylum seeker becomes undocumented only after failing to respond to a removal notice. Define American widens the menu slightly to "unauthorized immigrant" and "immigrant without legal status," but "undocumented" is the common core every source returns to.
 

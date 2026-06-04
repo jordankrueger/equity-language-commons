@@ -119,7 +119,7 @@ audience_notes:
   - audience: "Oriental"
     note: "Do not use as a descriptor for people. Federal law (H.R. 4238, 2016) removed the term from US statutes. Acceptable only when referring to objects, design styles, or historical institutional names (Oriental Exclusion Act, Asian Oriental Studies departments where that is the formal name)."
   - audience: "Hyphenation"
-    note: "No hyphen. 'Asian American,' not 'Asian-American.' Every guide that addresses it (DSG explicitly, AECF/SEIU/Sierra Club by usage) treats it as two words. The hyphenated form is a pre-2010s stylistic legacy that AP retired in 2019."
+    note: "No hyphen in modern usage. 'Asian American,' not 'Asian-American.' DSG states this explicitly, and Sierra Club follows it by usage. Casey (2013) lists the unhyphenated noun but hyphenates the adjective ('Asian-American woman'), reflecting the pre-2019 compound-modifier convention; SEIU's stylebook addresses only Oriental→Asian, not the hyphenation of 'Asian American.' AP retired the hyphen in 2019."
 
 last_reviewed: 2026-05-16
 created: 2026-05-16
@@ -133,7 +133,7 @@ The Asian American cluster is the umbrella term where the **specificity rule** d
 
 **The umbrella has internal structure.** DSG's South Asian / East Asian / Southeast Asian sub-divisions are the most common US sub-categorization. The Pacific Islander/Native Hawaiian/AANHPI question is the most contested edge: AAPI's most-common form folds two distinct federal racial categories into one umbrella, and Pacific Islander and Native Hawaiian advocates have argued (with increasing institutional success since the mid-2010s) for AANHPI as the more accurate replacement. Native Hawaiian's status as an Indigenous people with sovereignty claims tied to the overthrow of the Hawaiian Kingdom adds a layer that AAPI alone can't carry.
 
-**Capitalization and hyphenation are settled.** Asian, Asian American, Pacific Islander, Native Hawaiian — all capitalized across every guide reviewed. 'Asian American' takes no hyphen; 'Asian-American' is a pre-2019 stylistic legacy. None of the guides in the corpus diverge on these.
+**Capitalization is settled; hyphenation is nearly so.** Asian, Asian American, Pacific Islander, Native Hawaiian — all capitalized across every guide reviewed. On hyphenation, the modern rule is no hyphen ('Asian American,' not 'Asian-American'), which DSG states explicitly and Sierra Club follows by usage. The one wrinkle is Casey (2013), which lists the unhyphenated noun 'Asian American' but gives a hyphenated adjective form ('Asian-American woman') — the pre-2019 convention that hyphenated compound modifiers; AP retired the hyphen in 2019.
 
 **'Oriental' is the cleanest 'do not use' in the entire R&E corpus.** SEIU 2020 is explicit; DSG 2023 routes the term to historical-context-only usage; H.R. 4238 (2016) removed it from federal statutes. There is no guide in any tier of the corpus that defends or accepts 'Oriental' as a descriptor for people.
 

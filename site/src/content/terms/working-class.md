@@ -59,5 +59,5 @@ That is the resolution the page lands on: "working class" is neither a clean `us
 ## Audience notes
 
 - **Journalists and editors.** Don't let "working class" or "working families" default to its coded-white image. When that's who you mean, name Black, white, and other working-class communities explicitly rather than relying on the phrase to include them.
-- **Advocates and internal comms.** It's a powerful solidarity banner — APA notes it's claimed with pride and anchors poor people's movements. The work is widening it, not dropping it.
+- **Advocates and internal comms.** It's a powerful solidarity banner — APA notes many individuals proudly identify as working class, alongside the class solidarity of poor people's movements. The work is widening it, not dropping it.
 - **Watch the slogan.** "Working families" as a stand-alone tagline can quietly read as white and suburban; pair it with explicit inclusion so it doesn't exclude the families it's meant to speak for.

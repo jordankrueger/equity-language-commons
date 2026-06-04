@@ -27,7 +27,7 @@ guidance:
     derived_from: []
     quote: "Terms avoided/questioned by immigrants rights activists: alien, an illegal, anchor baby, ex-pat, failed asylum seeker, illegal alien, illegal asylum seeker, illegal immigrant, legal alien, legal citizen, legal resident, legalized … resident alien …"
     quote_loc: "Immigration/Refugees, Terms Avoided/Questioned by Immigrants Rights Activists"
-    paraphrase: "SumOfUs lists 'alien,' 'illegal alien,' 'legal alien,' and 'resident alien' among the terms avoided or questioned by immigrant-rights activists, opposite an approved column that includes 'person,' 'foreign national,' and 'undocumented immigrant.' The guide frames branding people as 'illegal' or 'alien' as skipping the presumption of innocence."
+    paraphrase: "SumOfUs lists 'alien,' 'illegal alien,' 'legal alien,' and 'resident alien' among the terms avoided or questioned by immigrant-rights activists, opposite an approved column that includes 'person,' 'foreign national,' and 'undocumented immigrant.' The guide's presumption-of-innocence critique is aimed at the 'illegal' compounds ('illegal immigrant' / 'illegal alien'), which it says skip the trial and brand the person as criminality itself."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Immigrant Defense Project"
     org_slug: "idp"
@@ -51,7 +51,7 @@ guidance:
     derived_from: []
     quote: "PROBLEMATIC TERM: “Criminal alien.” “Alien” is an offensive term; and together, these two words risk sensationalizing the issue. ALTERNATIVES: Formerly incarcerated immigrant, Person with a criminal record."
     quote_loc: "Problematic Terms to Reconsider chart, Comm/Unity Style Guide R4"
-    paraphrase: "The 2021 Comm/Unity revision repeats IDP's position verbatim: 'alien' is offensive, 'criminal alien' sensationalizes, and writers should describe people by circumstance instead."
+    paraphrase: "The Comm/Unity edition of IDP's chart repeats this position verbatim: 'alien' is offensive, 'criminal alien' sensationalizes, and writers should describe people by circumstance instead."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Sierra Club"
     org_slug: "sierra-club"
@@ -101,9 +101,9 @@ contributors:
 
 ## Synthesis
 
-**Every source says avoid "alien" and its compounds** — illegal alien, criminal alien, legal alien, resident alien. The objection is dehumanization. The Diversity Style Guide records that, with science fiction's rise, "alien" came to mean a creature from outer space and is now "considered pejorative by most immigrants." The Immigrant Defense Project states flatly that "'alien' is an offensive term" and that pairing it with "criminal" sensationalizes coverage. Define American calls it "dehumanizing." SumOfUs and Sierra Club both place the whole family of "alien" terms on their avoid lists, opposite approved columns led by "person," "foreign national," and "undocumented immigrant."
+**Every source says avoid "alien," and collectively they reject its compounds** — illegal alien, criminal alien, legal alien, resident alien (no single guide enumerates all four: SumOfUs and Sierra Club list the legal/resident/illegal forms, IDP targets "criminal alien," and Define American and DSG name "alien" and "illegal alien"). The objection is dehumanization. The Diversity Style Guide records that, with science fiction's rise, "alien" came to mean a creature from outer space and is now "considered pejorative by most immigrants." The Immigrant Defense Project states flatly that "'alien' is an offensive term" and that pairing it with "criminal" sensationalizes coverage. Define American calls it "dehumanizing." SumOfUs and Sierra Club both place the whole family of "alien" terms on their avoid lists, opposite approved columns led by "person," "foreign national," and "undocumented immigrant."
 
-What sets this term apart from "illegal immigrant" is the institutional anchor: this is the word the U.S. government itself retired. The Diversity Style Guide and Define American both cite the February 2021 USCIS instruction to drop "alien," "illegal alien," and "undocumented alien" in favor of "noncitizen," "undocumented noncitizen," or "undocumented individual," along with the Biden administration's guidance changing agency vocabulary. "Alien" thus moved from a neutral legal term to a pejorative that even its originating institution abandoned.
+What sets this term apart from "illegal immigrant" is the institutional anchor: this is the word the U.S. government itself retired. The Diversity Style Guide cites the February 2021 USCIS instruction to drop "alien," "illegal alien," and "undocumented alien" in favor of "noncitizen," "undocumented noncitizen," or "undocumented individual"; Define American likewise notes that USCIS removed the term from its guidelines and that the Biden administration changed agency vocabulary away from it. "Alien" thus moved from a neutral legal term to a pejorative that even its originating institution abandoned.
 
 The chronology is a drift and then a formal break. "Alien" began as government and legal vocabulary; the guides describe its slide into pejorative usage and, by 2021, its retirement from federal immigration language. The prescribed alternatives are "undocumented immigrant," "noncitizen," or a description of the person's circumstance.
 

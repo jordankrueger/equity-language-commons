@@ -31,7 +31,7 @@ guidance:
     recommendation: "reclaimed-in-community"
     quote: "Be mindful of appropriate and respectful in-group versus out-group naming. Queer is an acceptable in-group term but it is often better to refer to queer communities rather than calling an individual queer unless they have already told you this is how they identify. … When referring to the broader community, queer (as in queer people) or LGBTQ (as in LGBTQ people) is appropriate …"
     quote_loc: "Gender/Sex section, Central Principles"
-    paraphrase: "SumOfUs treats queer as a valid in-group term and an acceptable umbrella for the broader LGBTQ community, but draws a careful line at applying it to individuals: prefer 'queer communities' to 'a queer person' unless the individual has self-identified that way. The guide's preferred-terms list includes queer as an accepted in-group identifier."
+    paraphrase: "SumOfUs treats queer as a valid in-group term and an acceptable umbrella for the broader LGBTQ community, but draws a careful line at applying it to individuals: prefer 'queer communities' to 'a queer person' unless the individual has self-identified that way. The guide's central principles name queer as an acceptable in-group identifier."
     confidence: "VERIFIED-ARCHIVED"
 
   - org: "Sierra Club"
@@ -94,7 +94,7 @@ contributors:
 
 ## Synthesis
 
-Queer is the most contested term in this chapter, and the corpus reflects that contest rather than resolving it. **All five sources agree on the operative rule:** use queer when the subject self-identifies that way or in a direct quotation. Sierra Club's "self-identified queer activist" construction is the cleanest model — explicitly signaling that the term comes from the subject, not the writer. SumOfUs adds a related caution: prefer "queer communities" over "a queer person" unless the individual has stated the identifier. The rule is uniform across the corpus: queer is not a writer-applied default.
+Queer is the most contested term in this chapter, and the corpus reflects that contest rather than resolving it. **The guides that give a use-rule converge on self-identification:** use queer when the subject identifies that way (DSG adds the direct-quotation case explicitly). Sierra Club's "self-identified queer activist" construction is the cleanest model — explicitly signaling that the term comes from the subject, not the writer. SumOfUs adds a related caution: prefer "queer communities" over "a queer person" unless the individual has stated the identifier. HRC's glossary describes the reclamation without prescribing a use-rule. Across the guides that prescribe one, queer is not a writer-applied default.
 
 Where sources diverge sharply is on **how settled the reclamation is.** HRC's 2023 glossary treats the reclamation as a present-tense fact within "many parts of the LGBTQ+ movement" — the slur history appears, but as history, not as a current cautionary frame. DSG's entry, by contrast, names ongoing dissent inside the community: queer "is not universally accepted even within the LGBT community" and "should be avoided unless describing someone who self-identifies that way or in a direct quote." NLGJA's 2025 stylebook lands closest to DSG: "Use with caution; still offensive when used as an epithet and might be offensive to many LGBTQ+ people regardless of intent." Both DSG and NLGJA hold the partial-reclamation frame; HRC treats it as settled. SumOfUs and Sierra Club sit between — accepting the in-community use without making strong claims about completion.
 

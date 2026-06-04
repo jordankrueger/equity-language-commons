@@ -121,9 +121,9 @@ contributors:
 
 ## Synthesis
 
-People of color is the umbrella that BIPOC partly displaced and that none of the major progressive guides have fully retired. The current corpus position: POC remains acceptable, with two qualifying rules that every guide agrees on.
+People of color is the umbrella that BIPOC partly displaced and that none of the major progressive guides have fully retired. The current corpus position: POC remains acceptable, with two qualifying rules that recur across the guides.
 
-**Rule 1: Use a more specific identifier when one fits.** Five of five guides reviewed here name the specificity preference. POC is a collective frame, not an individual identity label. The same critique that limits BIPOC applies — when you mean 'Black voters' or 'Latinx organizers' or 'Vietnamese American small business owners,' say so.
+**Rule 1: Use a more specific identifier when one fits.** Sierra Club, NGC, DSG, and RET all name the specificity preference; SEIU's compact entry doesn't address it, confirming only that 'persons of color' is acceptable and 'colored persons' never is. POC is a collective frame, not an individual identity label. The same critique that limits BIPOC applies — when you mean 'Black voters' or 'Latinx organizers' or 'Vietnamese American small business owners,' say so.
 
 **Rule 2: When you mean specifically to front the Black-and-Indigenous structural distinction, BIPOC is the right term.** NGC's rule is the sharpest articulation — BIPOC over POC whenever the group includes Black and/or Indigenous people. Sierra Club treats this as preference rather than requirement; NGC treats it as the rule. Both agree on the underlying logic.
 

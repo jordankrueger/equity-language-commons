@@ -120,4 +120,4 @@ The thread that ties both contexts together is that the person, not the writer, 
 
 - **Journalists and editors.** In illness and disability stories, avoid "victim of [a condition]" — state the facts ("she has ALS," not "ALS victim"). In stories about violence, ask the person whether they use "victim" or "survivor" rather than defaulting to either.
 - **Advocates and internal comms.** "Victim" can re-victimize and strip agency, and many prefer "survivor" — but "survivor" is not universal either. Follow the person's own word, and use the paired "victim/survivor" only when you can't ask.
-- **Self-identification governs.** The one rule shared across every source is to use the term a person uses for themselves and not impose "victim" without their attribution.
+- **Self-identification governs in the violence frame.** WFP USA and DSG state it directly: use the term a person uses for themselves and don't impose "victim" without their attribution. The disability-frame sources (NCDJ, SEIU, APA, SumOfUs) reach a compatible place by a different route — person-first alternatives to "victim of [a condition]" rather than an explicit self-id rule.

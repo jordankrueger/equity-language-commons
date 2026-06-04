@@ -88,9 +88,12 @@ def excerpt_for(quote, arch_path, context=120):
     """Whole archive when it's small enough (claims often draw on parts of
     the source far from the quoted entry); otherwise ±context raw lines
     around the first place the quote's opening words appear."""
-    lines = open(arch_path, errors="replace").read().splitlines()
-    if len(lines) <= 2500:
-        return "\n".join(lines)
+    raw = open(arch_path, errors="replace").read()
+    lines = raw.splitlines()
+    # full file only when BOTH line- and char-bounded (some web scrapes
+    # put huge text on few lines; codex exec caps input at ~1MB total)
+    if len(lines) <= 2500 and len(raw) <= 150_000:
+        return raw
     probe = " ".join(norm(quote).split()[:6])
     if probe:
         for i in range(len(lines)):
@@ -146,9 +149,10 @@ Rules: do not rewrite the page; do not treat the page's own assertions as eviden
 
 def run_codex(prompt):
     env = {k: v for k, v in os.environ.items() if k != "OPENAI_API_KEY"}
+    # prompt via stdin — large bundles exceed ARG_MAX as an argv element
     r = subprocess.run(
-        ["codex", "exec", "--sandbox", "read-only", "--cd", ROOT, prompt],
-        capture_output=True, text=True, timeout=600, env=env)
+        ["codex", "exec", "--sandbox", "read-only", "--cd", ROOT, "-"],
+        input=prompt, capture_output=True, text=True, timeout=600, env=env)
     out = r.stdout
     # last JSON object in the output (codex prints session noise first)
     m = re.findall(r'\{"page".*\}', out, re.S)

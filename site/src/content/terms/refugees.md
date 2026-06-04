@@ -74,7 +74,7 @@ contributors:
 
 ## Synthesis
 
-**No source in the corpus rejects "refugee"** — it is an accepted term, and the cautions all stem from one fact: it is a legal term of art with a specific meaning. The Global Consortium for Journalism & Trauma grounds it in the 1951 Refugee Convention, and Define American defines it by the persecution-based standard that confers the status. Both insist writers distinguish "refugee" from migrant, asylum seeker, and internally displaced person, because the label determines a person's legal rights and a state's responsibilities. Getting the category wrong is not a stylistic slip; it misstates what someone is legally owed. Sierra Club simply lists "refugee" among its appropriate terms, alongside asylee, asylum seeker, and stateless person.
+**No source in the corpus rejects "refugee"** — it is an accepted term, and the cautions all stem from one fact: it is a legal term of art with a specific meaning. The Global Consortium for Journalism & Trauma grounds it in the 1951 Refugee Convention, and Define American defines it by the persecution-based standard that confers the status. Both insist writers distinguish "refugee" from migrant and asylum seeker — and GCJT adds internally displaced person to the set — because the label determines a person's legal rights and a state's responsibilities. Getting the category wrong is not a stylistic slip; it misstates what someone is legally owed. Sierra Club simply lists "refugee" among its appropriate terms, alongside asylee, asylum seeker, and stateless person.
 
 The trauma-informed and identity layers are what the later sources add. GCJT pairs the precision rule with a caution against reducing a person to the legal label: convey their humanity "beyond the legal definition of their status," rather than framing them only as victims or heroes. The Trans Journalists Association adds a self-identification and safety layer for trans or gender-expansive refugees and asylum seekers — ask which terms and gendered language a person uses, recognize that this varies across cultures, and protect identifying details (including last names) that could jeopardize an asylum claim or endanger family in the home country.
 
@@ -83,5 +83,5 @@ The guidance is stable across the corpus; the 2021–2026 sources refine rather 
 ## Audience notes
 
 - **Journalists and editors.** Use "refugee" for people who meet the legal standard, and distinguish it from "asylum seeker" (who applies from inside the U.S. or at a port of entry) and "migrant." The category carries legal weight, so get it right.
-- **Trauma-informed coverage and safety.** Protect details that could endanger a person or jeopardize an asylum claim, and ask trans or gender-expansive sources what language they use for themselves (TJA, GCJT).
+- **Trauma-informed coverage and safety.** Protect details that could endanger a person or jeopardize an asylum claim (TJA, GCJT), and ask trans or gender-expansive sources what language they use for themselves (TJA).
 - **Don't collapse the person into the status.** "Refugee" is a fact about someone's circumstance, not the whole of who they are (GCJT).

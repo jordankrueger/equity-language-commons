@@ -24,7 +24,7 @@ guidance:
     derived_from: []
     quote: "Avoid using “handicapped” to describe locations or items designed to make a space more accessible. … Use the term “accessible” instead — “accessible parking” and “accessible bathroom stall”."
     quote_loc: "Disabilities section, tips on accessible spaces, p. 4"
-    paraphrase: "Sierra Club prescribes “accessible” as the replacement for “handicapped” when describing spaces or facilities, giving “accessible parking” and “accessible bathroom stall” as the preferred forms — a usage rule communicators most often encounter when hosting in-person events."
+    paraphrase: "Sierra Club prescribes “accessible” as the replacement for “handicapped” when describing spaces or facilities, giving “accessible parking” and “accessible bathroom stall” as the preferred forms — a usage rule communicators may run into when hosting in-person events, around restrooms or parking."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Diversity Style Guide"
     org_slug: "diversity-style-guide"

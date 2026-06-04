@@ -119,7 +119,7 @@ The Gallup data anchors the practical conclusion: ask if possible (Sierra Club, 
 
 **Capitalization is straightforward**: both words capitalized as a proper-noun-style ethnic identifier. This was true even in the pre-2020 era when 'black' was lowercase; 'African American' has always carried the same capitalization that 'Asian American,' 'Mexican American,' 'Italian American,' etc. share.
 
-For comprehensive coverage of capitalization debates, the 2020 AP shift, and the NABJ/AP split on whether to capitalize White, see the companion [Black](/terms/black/) entry — the guidance is captured jointly across both pages because every source addresses the two terms together.
+For comprehensive coverage of capitalization debates, the 2020 AP shift, and the NABJ/AP split on whether to capitalize White, see the companion [Black](/terms/black/) entry — the guidance is captured jointly across both pages because the guides that elaborate (Sierra Club, DSG, RET) address the two terms together; SEIU and Casey list them as separate word-style entries.
 
 
 ## History note

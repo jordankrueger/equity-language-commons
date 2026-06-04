@@ -90,7 +90,7 @@ contributors:
 
 The second conversation is about **health conditions** — "cancer survivor," "stroke survivor." Here NCDJ records that "survivor" and the related "battle" framing are widely accepted and understood, but flags that they can offend, since the language of fighting and surviving can imply that those who died simply did not fight hard enough.
 
-What unifies both contexts is the **rejection of an imposed binary.** No source tells you to default to either "victim" or "survivor"; each routes the decision back to the person being described. The divergence is one of subject matter, not principle — violence coverage and illness coverage raise different sensitivities, but the operative rule, follow self-identification, is the same.
+What unifies both contexts is the **rejection of an imposed binary.** No source tells you to default to either "victim" or "survivor." SumOfUs, DSG, and GCJT route the decision back to the person being described — follow the language each source uses for themselves. Color of Change comes at it from the coverage-practice side (affirming survivors, centering their narratives), and NCDJ from acceptance-with-caution in illness framing; neither contradicts the self-identification approach. The divergence is one of subject matter, not principle — violence coverage and illness coverage raise different sensitivities, but the guides that prescribe a term-choice rule land on the same place: follow self-identification.
 
 ## Audience notes
 

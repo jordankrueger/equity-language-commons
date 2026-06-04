@@ -59,7 +59,7 @@ contributors:
 
 ## Synthesis
 
-**The shared move is person-first: "enslaved person," not "slave."** Color of Change states it most directly — "when referring to a person who was enslaved, we should say 'enslaved person' rather than 'slave,'" because the noun "diminishes their humanity and fails to place the agency" where it belongs, on the enslaver and the system. APA carries the same pairing in its person-first table ("slave" → "person who is/was enslaved"). The Diversity Style Guide supplies the historical reference entry rather than a usage rule.
+**The shared move is person-first: "enslaved person," not "slave."** Sierra Club states it most directly — "when referring to a person who was enslaved, we should say 'enslaved person' rather than 'slave,'" because the noun "diminishes their humanity and fails to place the agency" where it belongs, on the enslaver and the system. APA carries the same pairing in its person-first table ("slave" → "person who is/was enslaved"). The Diversity Style Guide supplies the historical reference entry rather than a usage rule.
 
 The point is grammatical and moral at once: "slave" names a person by a condition imposed on them, collapsing identity into the institution, while "enslaved person" keeps the person primary and marks enslavement as something done to them. This parallels the person-first logic the commons applies to [incarcerated people](/terms/inmate/) and to disability. The historical noun still appears in direct quotation and proper names, but the default for the commons' audiences is the person-first construction — which also tends to restore the missing actor: people were enslaved *by* someone.
 

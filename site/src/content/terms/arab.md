@@ -48,7 +48,7 @@ guidance:
     derived_from: []
     quote: "This category \"includes all individuals who identify with one or more nationalities or ethnic groups with origins in Arabia, the Middle East, and North Africa.\" … When writing about people of MENA descent, state the nation of origin … In all cases, it is best to allow individuals to self-identify. …"
     quote_loc: "Glossary: American Arab, Middle Eastern, and North African (AMENA)"
-    paraphrase: "APA places Arab within the broader AMENA (Arab, Middle Eastern, and North African) category, defined by nationality and ethnic origin in Arabia, the Middle East, and North Africa. It advises naming the specific nation of origin where possible — and, above all, deferring to how individuals self-identify."
+    paraphrase: "APA places Arab within the broader AMENA category — which it spells out as American Arab, Middle Eastern, and North African — defined by nationality and ethnic origin in Arabia, the Middle East, and North Africa. It advises naming the specific nation of origin where possible — and, above all, deferring to how individuals self-identify."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []
@@ -62,9 +62,9 @@ contributors:
 
 ## Synthesis
 
-**"Arab" is an ethnic and national grouping, not a religion — and the central rule across the sources is: do not equate it with "Muslim."** The Diversity Style Guide defines Arab as a person "from an Arabic-speaking country," explicitly "not synonymous with Muslim," and warns against implying "that Arab equals Muslim, holy war or terrorist" — adding the common factual correction that "Iran is not an Arab country" (Iranians are predominantly Persian). Sierra Club states the same from the other direction: "Muslim is not synonymous with Arab," and the largest U.S. Muslim population is African American. APA situates Arab within the broader AMENA category (Arab, Middle Eastern, and North African) and defers to self-identification.
+**"Arab" is an ethnic and national grouping, not a religion — and the central rule across the sources is: do not equate it with "Muslim."** The Diversity Style Guide defines Arab as a person "from an Arabic-speaking country," explicitly "not synonymous with Muslim," and warns against implying "that Arab equals Muslim, holy war or terrorist" — adding the common factual correction that "Iran is not an Arab country" (Iranians are predominantly Persian). Sierra Club states the same from the other direction: "Muslim is not synonymous with Arab," and the largest U.S. Muslim population is African American. APA situates Arab within the broader AMENA category — which it writes out as American Arab, Middle Eastern, and North African — and defers to self-identification.
 
-The throughline is specificity and self-ID: "Arab" describes language, ethnicity, and nationality; "Arabic" is the language and the adjective; and religion is a separate axis entirely. This page pairs directly with [Muslim](/terms/muslim/) — the two form a classic do-not-conflate pairing the corpus keeps flagging, because the conflation is exactly the mechanism by which "Arab" gets fused with "terrorist." The guidance is stable and consistent across all three sources.
+The throughline is specificity and self-ID: "Arab" describes ethnicity and nationality (and is the adjective for people); "Arabic" is the language, which the Diversity Style Guide notes is generally not used as an adjective; and religion is a separate axis entirely. This page pairs directly with [Muslim](/terms/muslim/) — the two form a classic do-not-conflate pairing the corpus keeps flagging, because the conflation is exactly the mechanism by which "Arab" gets fused with "terrorist." The guidance is stable and consistent across all three sources.
 
 ## Audience notes
 

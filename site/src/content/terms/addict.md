@@ -78,7 +78,7 @@ contributors:
 
 The same rejection extends to the labels that travel with "addict." Following AP, NCDJ folds in "alcoholic," "user," and "abuser"; the Diversity Style Guide and NCDJ both single out "junkie" — which the American Psychiatric Association discourages — as a narrower, harsher term for someone who uses heroin.
 
-Two exceptions are consistent across the sources: a person's own self-identification, and direct quotation or organization names (the "A" in Alcoholics Anonymous is not edited). The guidance is stable from 2021 through 2023, all of it pointing the same direction — the disease is not the person. This page pairs with [addiction](/terms/addiction/) and [mental health](/terms/mental-health/).
+NCDJ spells out two exceptions: a person's own self-identification, and direct quotation or organization names (the "A" in Alcoholics Anonymous is not edited); APA likewise holds that an individual's own preference supersedes style. The guidance is stable from 2021 through 2023, all of it pointing the same direction — the disease is not the person. This page pairs with [addiction](/terms/addiction/) and [mental health](/terms/mental-health/).
 
 ## Audience notes
 
