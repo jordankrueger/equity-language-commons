@@ -17,7 +17,7 @@ related_terms:
 
 categories:
   - "indigenous-identity-and-sovereignty"
-  - "place-and-geography"
+  - "indigenous-identity-and-sovereignty"
 
 tags:
   - "capitalization-rule"

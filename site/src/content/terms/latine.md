@@ -16,7 +16,7 @@ related_terms:
 categories:
   - "race-ethnicity"
   - "language-and-identity"
-  - "gender-and-sexuality"
+  - "sexuality-and-gender-identity"
 
 tags:
   - "ascending-term"

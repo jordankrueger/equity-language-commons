@@ -13,12 +13,8 @@ related_terms:
     relation: "geographic-variant"   # US legal/census term
   - slug: "first-nations"
     relation: "geographic-variant"   # Canadian term
-  - slug: "aboriginal"
-    relation: "geographic-variant"   # Australian / pan-international term
   - slug: "alaska-native"
     relation: "subset-identity"      # US regional umbrella
-  - slug: "inuit"
-    relation: "subset-identity"
   - slug: "tribal"
     relation: "overlapping-but-distinct"  # political-entity framing
   - slug: "indian"

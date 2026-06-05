@@ -10,8 +10,6 @@ related_terms:
     relation: "alternative-form"
   - slug: "bipoc"
     relation: "alternative-form"
-  - slug: "emerging-majority"
-    relation: "alternative-form"
 
 categories:
   - "race-ethnicity"

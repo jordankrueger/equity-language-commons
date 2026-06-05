@@ -16,8 +16,6 @@ related_terms:
     relation: "overlapping-but-distinct"
   - slug: "chicanx"
     relation: "subset-identity"
-  - slug: "afro-latino"
-    relation: "subset-identity"
 
 categories:
   - "race-ethnicity"

@@ -170,6 +170,9 @@ entries:
   - page: "islamophobia"
     org_slug: "apa"
     verified: 2026-06-04
+  - page: "lame"
+    org_slug: "sumofus"
+    verified: 2026-06-05
   - page: "latine"
     org_slug: "diversity-style-guide"
     verified: 2026-06-04
@@ -281,6 +284,9 @@ entries:
   - page: "victim"
     org_slug: "apa"
     verified: 2026-06-04
+  - page: "wheelchair"
+    org_slug: "sumofus"
+    verified: 2026-06-05
   - page: "white"
     org_slug: "diversity-style-guide"
     verified: 2026-06-05

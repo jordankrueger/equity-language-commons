@@ -12,4 +12,28 @@
 # resolves them automatically. This file is for folds that don't warrant
 # an alias and for post-triage drops.
 
-decisions: []
+decisions:
+  - term: "america"
+    decision: "drop"
+    decided: 2026-06-05
+    reason: "Only 2 strong sources (Sierra Club: avoid generic 'Americans'; David Vine: avoid 'America' for the US government) — aligned, not opposed, so no contested-page exception. Other 11 matrix hits incidental. Glossary long tail."
+  - term: "american sign language"
+    decision: "drop"
+    decided: 2026-06-05
+    reason: "Only 2 strong sources, and DSG's entry is a verbatim republication of NCDJ's (not independent treatment); APA hit incidental. No rescuable third source. Glossary long tail."
+  - term: "families"
+    decision: "drop"
+    decided: 2026-06-05
+    reason: "2 strong sources covering unrelated senses (NLGJA: LGBTQ+ family language; CoC: Black-family narrative framing) — no coherent shared headword. Glossary long tail."
+  - term: "mexican"
+    decision: "drop"
+    decided: 2026-06-05
+    reason: "Only 1 strong source (DSG's Mexican/Mexican-American entry); other 4 matrix hits incidental keyword noise. Glossary long tail."
+  - term: "parent"
+    decision: "drop"
+    decided: 2026-06-05
+    reason: "7 of 9 matrix hits incidental; the 2 real entries (DSG, NLGJA) are both narrowly LGBTQ+ family/parent terminology, not the generic term. Glossary long tail."
+  - term: "biological"
+    decision: "fold"
+    decided: 2026-06-05
+    reason: "Bare-form matrix hits are all about 'biological sex/male/female' framing — covered by the biological-sex page (its aliases carry the phrasal forms; the bare adjective alone isn't a headword)."

@@ -19,13 +19,21 @@ cross_cutting_principles:
   - title: "Don't disclose history without consent"
     body: "TJA, NLGJA, GCJT, and SumOfUs all treat deadnaming (publishing a transgender person's prior name) and disclosing gender history as ethical violations requiring explicit consent. The corresponding rule for sexual orientation: outing — publicly disclosing someone's LGBTQ+ identity without consent — is a parallel violation in both GCJT and SumOfUs. Even when the source is comfortable being identified, specific historical details (prior names, prior identities, transition timelines) require separate consent."
 term_slugs:
+  - "agender"
+  - "ally"
   - "asexual"
+  - "biological-sex"
   - "bisexual"
   - "cisgender"
+  - "deadname"
+  - "female-to-male"
   - "gay"
+  - "gender-affirming-care"
   - "gender-binary"
   - "gender-identity"
+  - "gender-nonconforming"
   - "genderqueer"
+  - "grooming"
   - "homophobia"
   - "homosexual"
   - "intersex"
@@ -38,6 +46,7 @@ term_slugs:
   - "transgendered"
   - "transition"
   - "transsexual"
+  - "transvestite"
 ---
 
 ## What this chapter covers

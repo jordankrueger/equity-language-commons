@@ -21,6 +21,7 @@ term_slugs:
   - "accessible"
   - "addict"
   - "addiction"
+  - "alcoholic"
   - "autism"
   - "crazy"
   - "deaf"
@@ -30,12 +31,19 @@ term_slugs:
   - "handicapped"
   - "injury"
   - "insane"
+  - "lame"
+  - "little-person"
   - "mental-health"
   - "mental-illness"
   - "people-with-disabilities"
+  - "psychiatric-hospital"
   - "retarded"
+  - "schizophrenic"
+  - "special-needs"
+  - "suicide"
   - "survivor"
   - "victim"
+  - "wheelchair"
 ---
 
 ## What this chapter covers

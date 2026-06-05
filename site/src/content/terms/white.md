@@ -10,10 +10,6 @@ related_terms:
     relation: "overlapping-but-distinct"
   - slug: "caucasian"
     relation: "alternative-form"
-  - slug: "non-hispanic-white"
-    relation: "overlapping-but-distinct"
-  - slug: "white-supremacy"
-    relation: "overlapping-but-distinct"
 
 categories:
   - "race-ethnicity"

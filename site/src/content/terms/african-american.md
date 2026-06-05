@@ -8,10 +8,6 @@ aliases:
 related_terms:
   - slug: "black"
     relation: "overlapping-but-distinct"
-  - slug: "afro-latino"
-    relation: "overlapping-but-distinct"
-  - slug: "afro-caribbean"
-    relation: "overlapping-but-distinct"
 
 categories:
   - "race-ethnicity"

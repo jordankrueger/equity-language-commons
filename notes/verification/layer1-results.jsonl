@@ -48,12 +48,27 @@
 {"page": "ageism", "org_slug": "apa", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf"}
 {"page": "ageism", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
 {"page": "ageism", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/ageism/"}
+{"page": "agender", "org_slug": "apa", "year": "2023", "check": "V1", "verdict": "OK", "detail": "apa-inclusive-language-2023-10.md"}
+{"page": "agender", "org_slug": "apa", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf"}
+{"page": "agender", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
+{"page": "agender", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/agender/"}
+{"page": "agender", "org_slug": "nlgja", "year": "2025", "check": "V1", "verdict": "LOOSE", "detail": "nlgja-stylebook-lgbtq-2025-06.md :: Defined as not having a gender; not synonymous with asexual "}
+{"page": "agender", "org_slug": "nlgja", "year": "2025", "check": "V3", "verdict": "OK", "detail": "200 https://www.nlgja.org/stylebook/"}
+{"page": "agender", "org_slug": "tja", "year": "2026", "check": "V1", "verdict": "OK", "detail": "tja-stylebook-2026-01.md"}
+{"page": "agender", "org_slug": "tja", "year": "2026", "check": "V3", "verdict": "OK", "detail": "200 https://transjournalists.org/style-guide/"}
 {"page": "aging", "org_slug": "gcjt", "year": "2021", "check": "V1", "verdict": "OK", "detail": "gcjt-style-guide-trauma-2021.md"}
 {"page": "aging", "org_slug": "gcjt", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://dartcenter.org/resources/style-guide-trauma-informed-journalism"}
 {"page": "aging", "org_slug": "sierra-club", "year": "2021", "check": "V1", "verdict": "OK", "detail": "sierra-club-equity-language-guide-2021.md"}
 {"page": "aging", "org_slug": "sierra-club", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf"}
 {"page": "aging", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
 {"page": "aging", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/aging/"}
+{"page": "alcoholic", "org_slug": "sumofus", "year": "2016", "check": "V1", "verdict": "LOOSE", "detail": "sumofus-progressive-styleguide-2016.md :: Terms avoided/questioned by disability rights activists:"}
+{"page": "alcoholic", "org_slug": "ncdj", "year": "2021", "check": "V1", "verdict": "OK", "detail": "ncdj-disability-style-guide-2021.md"}
+{"page": "alcoholic", "org_slug": "ncdj", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://ncdj.org/style-guide/"}
+{"page": "alcoholic", "org_slug": "apa", "year": "2023", "check": "V1", "verdict": "OK", "detail": "apa-inclusive-language-2023-10.md"}
+{"page": "alcoholic", "org_slug": "apa", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf"}
+{"page": "alcoholic", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
+{"page": "alcoholic", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/alcoholic-alcoholism/"}
 {"page": "alien", "org_slug": "sumofus", "year": "2016", "check": "V1", "verdict": "HUMAN-VERIFIED", "detail": "sumofus-progressive-styleguide-2016.md"}
 {"page": "alien", "org_slug": "idp", "year": "2020", "check": "V1", "verdict": "HUMAN-VERIFIED", "detail": "idp-journalist-style-guide-2020.md"}
 {"page": "alien", "org_slug": "idp", "year": "2020", "check": "V3", "verdict": "OK", "detail": "200 https://www.immigrantdefenseproject.org/"}
@@ -65,6 +80,16 @@
 {"page": "alien", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/illegal-alien/"}
 {"page": "alien", "org_slug": "define-american", "year": "2024", "check": "V1", "verdict": "OK", "detail": "define-american-media-reference-2024-01.md"}
 {"page": "alien", "org_slug": "define-american", "year": "2024", "check": "V3", "verdict": "OK", "detail": "200 https://defineamerican.com/resources-for-journalists/"}
+{"page": "ally", "org_slug": "hrc", "year": "2023", "check": "V1", "verdict": "OK", "detail": "hrc-glossary-2023-05.md"}
+{"page": "ally", "org_slug": "hrc", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.hrc.org/resources/glossary-of-terms"}
+{"page": "ally", "org_slug": "nlgja", "year": "2025", "check": "V1", "verdict": "LOOSE", "detail": "nlgja-stylebook-lgbtq-2025-06.md :: A person who supports LGBTQ+ people and causes but does not "}
+{"page": "ally", "org_slug": "nlgja", "year": "2025", "check": "V3", "verdict": "OK", "detail": "200 https://www.nlgja.org/stylebook/"}
+{"page": "ally", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
+{"page": "ally", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/ally-2/"}
+{"page": "ally", "org_slug": "racial-equity-tools", "year": "2023", "check": "V1", "verdict": "OK", "detail": "racial-equity-tools-glossary-2023.md"}
+{"page": "ally", "org_slug": "racial-equity-tools", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.racialequitytools.org/glossary"}
+{"page": "ally", "org_slug": "apa", "year": "2023", "check": "V1", "verdict": "OK", "detail": "apa-inclusive-language-2023-10.md"}
+{"page": "ally", "org_slug": "apa", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf"}
 {"page": "american-indian", "org_slug": "naja", "year": "2023", "check": "V1", "verdict": "LOOSE", "detail": "naja-indigenous-terminology-2023-06.md :: Native American and American Indian can be used interchangea"}
 {"page": "american-indian", "org_slug": "naja", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://indigenousjournalists.org/ap-style-insert/"}
 {"page": "american-indian", "org_slug": "ngc", "year": "2021", "check": "V1", "verdict": "OK", "detail": "native-governance-center-style-guide-2021-02.md"}
@@ -120,6 +145,14 @@
 {"page": "autism", "org_slug": "apa", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf"}
 {"page": "autism", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
 {"page": "autism", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/autismautism-spectrum-disorders/"}
+{"page": "biological-sex", "org_slug": "radical-copyeditor", "year": "2017", "check": "V1", "verdict": "OK", "detail": "radicalcopyeditor-trans-style-guide-2017.md"}
+{"page": "biological-sex", "org_slug": "radical-copyeditor", "year": "2017", "check": "V3", "verdict": "OK", "detail": "200 https://radicalcopyeditor.com/2017/08/31/transgender-style-guide/"}
+{"page": "biological-sex", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
+{"page": "biological-sex", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/biological-genderbiological-sex/"}
+{"page": "biological-sex", "org_slug": "nlgja", "year": "2025", "check": "V1", "verdict": "OK", "detail": "nlgja-stylebook-lgbtq-2025-06.md"}
+{"page": "biological-sex", "org_slug": "nlgja", "year": "2025", "check": "V3", "verdict": "OK", "detail": "200 https://www.nlgja.org/stylebook/"}
+{"page": "biological-sex", "org_slug": "tja", "year": "2026", "check": "V1", "verdict": "OK", "detail": "tja-stylebook-2026-01.md"}
+{"page": "biological-sex", "org_slug": "tja", "year": "2026", "check": "V3", "verdict": "OK", "detail": "200 https://transjournalists.org/style-guide/"}
 {"page": "bipoc", "org_slug": "sierra-club", "year": "2021", "check": "V1", "verdict": "HUMAN-VERIFIED", "detail": "sierra-club-equity-language-guide-2021.md"}
 {"page": "bipoc", "org_slug": "sierra-club", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf"}
 {"page": "bipoc", "org_slug": "ngc", "year": "2021", "check": "V1", "verdict": "OK", "detail": "native-governance-center-style-guide-2021-02.md"}
@@ -179,6 +212,13 @@
 {"page": "colonialism", "org_slug": "apa", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf"}
 {"page": "colonialism", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
 {"page": "colonialism", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/colonialism/"}
+{"page": "colored", "org_slug": "seiu", "year": "2020", "check": "V1", "verdict": "OK", "detail": "seiu-stylebook-2020-01.md"}
+{"page": "colored", "org_slug": "nabj", "year": "2022", "check": "V1", "verdict": "OK", "detail": "nabj-style-guide-2022-10.md"}
+{"page": "colored", "org_slug": "nabj", "year": "2022", "check": "V3", "verdict": "OK", "detail": "403 (gated \u2014 expected) https://www.nabj.org/page/styleguide"}
+{"page": "colored", "org_slug": "apa", "year": "2023", "check": "V1", "verdict": "OK", "detail": "apa-inclusive-language-2023-10.md"}
+{"page": "colored", "org_slug": "apa", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf"}
+{"page": "colored", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
+{"page": "colored", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/colored/"}
 {"page": "convict", "org_slug": "idp", "year": "2020", "check": "V1", "verdict": "HUMAN-VERIFIED", "detail": "idp-journalist-style-guide-2020.md"}
 {"page": "convict", "org_slug": "idp", "year": "2020", "check": "V3", "verdict": "OK", "detail": "200 https://www.immigrantdefenseproject.org/"}
 {"page": "convict", "org_slug": "idp", "year": "2021", "check": "V1", "verdict": "HUMAN-VERIFIED", "detail": "comm-unity-style-guide-2021.md"}
@@ -198,6 +238,12 @@
 {"page": "crazy", "org_slug": "apa", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf"}
 {"page": "crazy", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
 {"page": "crazy", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/crazycrazed-psycho-nuts-lunatic-deranged-wacko/"}
+{"page": "deadname", "org_slug": "gcjt", "year": "2021", "check": "V1", "verdict": "OK", "detail": "gcjt-style-guide-trauma-2021.md"}
+{"page": "deadname", "org_slug": "gcjt", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://dartcenter.org/resources/style-guide-trauma-informed-journalism"}
+{"page": "deadname", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
+{"page": "deadname", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/dead-name-deadname/"}
+{"page": "deadname", "org_slug": "nlgja", "year": "2025", "check": "V1", "verdict": "OK", "detail": "nlgja-stylebook-lgbtq-2025-06.md"}
+{"page": "deadname", "org_slug": "nlgja", "year": "2025", "check": "V3", "verdict": "OK", "detail": "200 https://www.nlgja.org/stylebook/"}
 {"page": "deaf", "org_slug": "sumofus", "year": "2016", "check": "V1", "verdict": "LOOSE", "detail": "sumofus-progressive-styleguide-2016.md :: Terms used by disability rights activists:"}
 {"page": "deaf", "org_slug": "gcjt", "year": "2021", "check": "V1", "verdict": "OK", "detail": "gcjt-style-guide-trauma-2021.md"}
 {"page": "deaf", "org_slug": "gcjt", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://dartcenter.org/resources/style-guide-trauma-informed-journalism"}
@@ -239,6 +285,13 @@
 {"page": "discrimination", "org_slug": "racial-equity-tools", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.racialequitytools.org/glossary"}
 {"page": "discrimination", "org_slug": "tja", "year": "2026", "check": "V1", "verdict": "LOOSE", "detail": "tja-stylebook-2026-01.md :: Gender-based discrimination is language used to describe dis"}
 {"page": "discrimination", "org_slug": "tja", "year": "2026", "check": "V3", "verdict": "OK", "detail": "200 https://transjournalists.org/style-guide/"}
+{"page": "diversity", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
+{"page": "diversity", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/diversity/"}
+{"page": "diversity", "org_slug": "racial-equity-tools", "year": "2023", "check": "V1", "verdict": "OK", "detail": "racial-equity-tools-glossary-2023.md"}
+{"page": "diversity", "org_slug": "racial-equity-tools", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.racialequitytools.org/glossary"}
+{"page": "diversity", "org_slug": "nabj", "year": "2022", "check": "V1", "verdict": "OK", "detail": "nabj-style-guide-2022-10.md"}
+{"page": "diversity", "org_slug": "nabj", "year": "2022", "check": "V3", "verdict": "OK", "detail": "403 (gated \u2014 expected) https://www.nabj.org/page/styleguide"}
+{"page": "diversity", "org_slug": "aecf", "year": "2013", "check": "V1", "verdict": "OK", "detail": "casey-editorial-guide-2013-04.md"}
 {"page": "dreamer", "org_slug": "define-american", "year": "2024", "check": "V1", "verdict": "OK", "detail": "define-american-media-reference-2024-01.md"}
 {"page": "dreamer", "org_slug": "define-american", "year": "2024", "check": "V3", "verdict": "OK", "detail": "200 https://defineamerican.com/resources-for-journalists/"}
 {"page": "dreamer", "org_slug": "define-american", "year": "2024", "check": "V1", "verdict": "OK", "detail": "define-american-media-reference-2024-01.md"}
@@ -254,6 +307,19 @@
 {"page": "elderly", "org_slug": "apa", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf"}
 {"page": "elderly", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
 {"page": "elderly", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/elderly/"}
+{"page": "ethnicity", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
+{"page": "ethnicity", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/ethnicity-mention-of/"}
+{"page": "ethnicity", "org_slug": "racial-equity-tools", "year": "2023", "check": "V1", "verdict": "OK", "detail": "racial-equity-tools-glossary-2023.md"}
+{"page": "ethnicity", "org_slug": "racial-equity-tools", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.racialequitytools.org/glossary"}
+{"page": "ethnicity", "org_slug": "gcjt", "year": "2021", "check": "V1", "verdict": "OK", "detail": "gcjt-style-guide-trauma-2021.md"}
+{"page": "ethnicity", "org_slug": "gcjt", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://dartcenter.org/resources/style-guide-trauma-informed-journalism"}
+{"page": "ethnicity", "org_slug": "aecf", "year": "2013", "check": "V1", "verdict": "OK", "detail": "casey-editorial-guide-2013-04.md"}
+{"page": "ethnicity", "org_slug": "sierra-club", "year": "2021", "check": "V1", "verdict": "OK", "detail": "sierra-club-equity-language-guide-2021.md"}
+{"page": "ethnicity", "org_slug": "sierra-club", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf"}
+{"page": "ethnicity", "org_slug": "nabj", "year": "2022", "check": "V1", "verdict": "OK", "detail": "nabj-style-guide-2022-10.md"}
+{"page": "ethnicity", "org_slug": "nabj", "year": "2022", "check": "V3", "verdict": "OK", "detail": "403 (gated \u2014 expected) https://www.nabj.org/page/styleguide"}
+{"page": "ethnicity", "org_slug": "apa", "year": "2023", "check": "V1", "verdict": "OK", "detail": "apa-inclusive-language-2023-10.md"}
+{"page": "ethnicity", "org_slug": "apa", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf"}
 {"page": "felon", "org_slug": "idp", "year": "2020", "check": "V1", "verdict": "HUMAN-VERIFIED", "detail": "idp-journalist-style-guide-2020.md"}
 {"page": "felon", "org_slug": "idp", "year": "2020", "check": "V3", "verdict": "OK", "detail": "200 https://www.immigrantdefenseproject.org/"}
 {"page": "felon", "org_slug": "idp", "year": "2021", "check": "V1", "verdict": "HUMAN-VERIFIED", "detail": "comm-unity-style-guide-2021.md"}
@@ -262,6 +328,12 @@
 {"page": "felon", "org_slug": "sierra-club", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf"}
 {"page": "felon", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
 {"page": "felon", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/felon-offender/"}
+{"page": "female-to-male", "org_slug": "apa", "year": "2023", "check": "V1", "verdict": "OK", "detail": "apa-inclusive-language-2023-10.md"}
+{"page": "female-to-male", "org_slug": "apa", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf"}
+{"page": "female-to-male", "org_slug": "tja", "year": "2026", "check": "V1", "verdict": "OK", "detail": "tja-stylebook-2026-01.md"}
+{"page": "female-to-male", "org_slug": "tja", "year": "2026", "check": "V3", "verdict": "OK", "detail": "200 https://transjournalists.org/style-guide/"}
+{"page": "female-to-male", "org_slug": "nlgja", "year": "2025", "check": "V1", "verdict": "LOOSE", "detail": "nlgja-stylebook-lgbtq-2025-06.md :: FTM, or female-to-male, is generally seen as outdated. // MTF, or male-to-female, is generally seen as outdated."}
+{"page": "female-to-male", "org_slug": "nlgja", "year": "2025", "check": "V3", "verdict": "OK", "detail": "200 https://www.nlgja.org/stylebook/"}
 {"page": "first-nations", "org_slug": "sumofus", "year": "2016", "check": "V1", "verdict": "HUMAN-VERIFIED", "detail": "sumofus-progressive-styleguide-2016.md"}
 {"page": "first-nations", "org_slug": "sumofus", "year": "2016", "check": "V1", "verdict": "HUMAN-VERIFIED", "detail": "sumofus-progressive-styleguide-2016.md"}
 {"page": "first-nations", "org_slug": "ngc", "year": "2021", "check": "V1", "verdict": "LOOSE", "detail": "native-governance-center-style-guide-2021-02.md :: Elements of Indigenous Style recommends capitalizing the fol"}
@@ -278,6 +350,12 @@
 {"page": "gay", "org_slug": "hrc", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.hrc.org/resources/glossary-of-terms"}
 {"page": "gay", "org_slug": "nlgja", "year": "2025", "check": "V1", "verdict": "LOOSE", "detail": "nlgja-stylebook-lgbtq-2025-06.md :: Refers to men who are attracted to other men. Do not use as "}
 {"page": "gay", "org_slug": "nlgja", "year": "2025", "check": "V3", "verdict": "OK", "detail": "200 https://www.nlgja.org/stylebook/"}
+{"page": "gender-affirming-care", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
+{"page": "gender-affirming-care", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/gender-affirming-care-transition-related-medical-care/"}
+{"page": "gender-affirming-care", "org_slug": "nlgja", "year": "2025", "check": "V1", "verdict": "OK", "detail": "nlgja-stylebook-lgbtq-2025-06.md"}
+{"page": "gender-affirming-care", "org_slug": "nlgja", "year": "2025", "check": "V3", "verdict": "OK", "detail": "200 https://www.nlgja.org/stylebook/"}
+{"page": "gender-affirming-care", "org_slug": "tja", "year": "2026", "check": "V1", "verdict": "OK", "detail": "tja-stylebook-2026-01.md"}
+{"page": "gender-affirming-care", "org_slug": "tja", "year": "2026", "check": "V3", "verdict": "OK", "detail": "200 https://transjournalists.org/style-guide/"}
 {"page": "gender-binary", "org_slug": "apa", "year": "2023", "check": "V1", "verdict": "OK", "detail": "apa-inclusive-language-2023-10.md"}
 {"page": "gender-binary", "org_slug": "apa", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf"}
 {"page": "gender-binary", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
@@ -296,6 +374,12 @@
 {"page": "gender-identity", "org_slug": "racial-equity-tools", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.racialequitytools.org/glossary"}
 {"page": "gender-identity", "org_slug": "nlgja", "year": "2025", "check": "V1", "verdict": "OK", "detail": "nlgja-stylebook-lgbtq-2025-06.md"}
 {"page": "gender-identity", "org_slug": "nlgja", "year": "2025", "check": "V3", "verdict": "OK", "detail": "200 https://www.nlgja.org/stylebook/"}
+{"page": "gender-nonconforming", "org_slug": "apa", "year": "2023", "check": "V1", "verdict": "OK", "detail": "apa-inclusive-language-2023-10.md"}
+{"page": "gender-nonconforming", "org_slug": "apa", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf"}
+{"page": "gender-nonconforming", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
+{"page": "gender-nonconforming", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/gender-nonconforming/"}
+{"page": "gender-nonconforming", "org_slug": "tja", "year": "2026", "check": "V1", "verdict": "LOOSE", "detail": "tja-stylebook-2026-01.md :: Gender-nonconforming (often abbreviated as GNC) refers to ge"}
+{"page": "gender-nonconforming", "org_slug": "tja", "year": "2026", "check": "V3", "verdict": "OK", "detail": "200 https://transjournalists.org/style-guide/"}
 {"page": "genderqueer", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
 {"page": "genderqueer", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/genderqueer/"}
 {"page": "genderqueer", "org_slug": "hrc", "year": "2023", "check": "V1", "verdict": "OK", "detail": "hrc-glossary-2023-05.md"}
@@ -313,6 +397,12 @@
 {"page": "ghetto", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
 {"page": "ghetto", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/ghetto-inner-city/"}
 {"page": "ghetto", "org_slug": "sumofus", "year": "2016", "check": "V1", "verdict": "HUMAN-VERIFIED", "detail": "sumofus-progressive-styleguide-2016.md"}
+{"page": "grooming", "org_slug": "color-of-change", "year": "2022", "check": "V1", "verdict": "LOOSE", "detail": "color-of-change-black-survivors-styleguide-2022.md :: Grooming[:] The process in which an abuser/predator gains th"}
+{"page": "grooming", "org_slug": "color-of-change", "year": "2022", "check": "V3", "verdict": "OK", "detail": "200 https://colorofchange.org/resources/"}
+{"page": "grooming", "org_slug": "nlgja", "year": "2025", "check": "V1", "verdict": "OK", "detail": "nlgja-stylebook-lgbtq-2025-06.md"}
+{"page": "grooming", "org_slug": "nlgja", "year": "2025", "check": "V3", "verdict": "OK", "detail": "200 https://www.nlgja.org/stylebook/"}
+{"page": "grooming", "org_slug": "tja", "year": "2026", "check": "V1", "verdict": "OK", "detail": "tja-stylebook-2026-01.md"}
+{"page": "grooming", "org_slug": "tja", "year": "2026", "check": "V3", "verdict": "OK", "detail": "200 https://transjournalists.org/style-guide/"}
 {"page": "handicapped", "org_slug": "sumofus", "year": "2016", "check": "V1", "verdict": "LOOSE", "detail": "sumofus-progressive-styleguide-2016.md :: Terms avoided/questioned by disability rights activists:"}
 {"page": "handicapped", "org_slug": "gcjt", "year": "2021", "check": "V1", "verdict": "LOOSE", "detail": "gcjt-style-guide-trauma-2021.md :: avoid terms like \"handicapped\" or \"the disabled.\" Instead, g"}
 {"page": "handicapped", "org_slug": "gcjt", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://dartcenter.org/resources/style-guide-trauma-informed-journalism"}
@@ -447,6 +537,12 @@
 {"page": "institutional-racism", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/institutional-racism/"}
 {"page": "institutional-racism", "org_slug": "racial-equity-tools", "year": "2023", "check": "V1", "verdict": "OK", "detail": "racial-equity-tools-glossary-2023.md"}
 {"page": "institutional-racism", "org_slug": "racial-equity-tools", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.racialequitytools.org/glossary"}
+{"page": "intersectionality", "org_slug": "apa", "year": "2023", "check": "V1", "verdict": "LOOSE", "detail": "apa-inclusive-language-2023-10.md :: The complex, cumulative way in which the effects of multiple"}
+{"page": "intersectionality", "org_slug": "apa", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf"}
+{"page": "intersectionality", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
+{"page": "intersectionality", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/intersectionality/"}
+{"page": "intersectionality", "org_slug": "racial-equity-tools", "year": "2023", "check": "V1", "verdict": "OK", "detail": "racial-equity-tools-glossary-2023.md"}
+{"page": "intersectionality", "org_slug": "racial-equity-tools", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.racialequitytools.org/resources/fundamentals/core-concepts/intersectionality"}
 {"page": "intersex", "org_slug": "sumofus", "year": "2016", "check": "V1", "verdict": "OK", "detail": "sumofus-progressive-styleguide-2016.md"}
 {"page": "intersex", "org_slug": "interact", "year": "2017", "check": "V1", "verdict": "OK", "detail": "interact-intersex-media-guide-2017.md"}
 {"page": "intersex", "org_slug": "interact", "year": "2017", "check": "V3", "verdict": "OK", "detail": "200 https://interactadvocates.org/"}
@@ -473,6 +569,15 @@
 {"page": "jew", "org_slug": "sumofus", "year": "2016", "check": "V1", "verdict": "OK", "detail": "sumofus-progressive-styleguide-2016.md"}
 {"page": "jew", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
 {"page": "jew", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/jew/"}
+{"page": "lame", "org_slug": "ncdj", "year": "2021", "check": "V1", "verdict": "OK", "detail": "ncdj-disability-style-guide-2021.md"}
+{"page": "lame", "org_slug": "ncdj", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://ncdj.org/style-guide/"}
+{"page": "lame", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
+{"page": "lame", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/lame/"}
+{"page": "lame", "org_slug": "apa", "year": "2023", "check": "V1", "verdict": "OK", "detail": "apa-inclusive-language-2023-10.md"}
+{"page": "lame", "org_slug": "apa", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf"}
+{"page": "lame", "org_slug": "sierra-club", "year": "2021", "check": "V1", "verdict": "OK", "detail": "sierra-club-equity-language-guide-2021.md"}
+{"page": "lame", "org_slug": "sierra-club", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf"}
+{"page": "lame", "org_slug": "sumofus", "year": "2016", "check": "V1", "verdict": "HUMAN-VERIFIED", "detail": "sumofus-progressive-styleguide-2016.md"}
 {"page": "latine", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
 {"page": "latine", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/latine/"}
 {"page": "latine", "org_slug": "tja", "year": "2026", "check": "V1", "verdict": "OK", "detail": "tja-stylebook-2026-01.md"}
@@ -506,6 +611,15 @@
 {"page": "lesbian", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/lesbian/"}
 {"page": "lesbian", "org_slug": "hrc", "year": "2023", "check": "V1", "verdict": "OK", "detail": "hrc-glossary-2023-05.md"}
 {"page": "lesbian", "org_slug": "hrc", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.hrc.org/resources/glossary-of-terms"}
+{"page": "little-person", "org_slug": "sumofus", "year": "2016", "check": "V1", "verdict": "OK", "detail": "sumofus-progressive-styleguide-2016.md"}
+{"page": "little-person", "org_slug": "ncdj", "year": "2021", "check": "V1", "verdict": "OK", "detail": "ncdj-disability-style-guide-2021.md"}
+{"page": "little-person", "org_slug": "ncdj", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://ncdj.org/style-guide/"}
+{"page": "little-person", "org_slug": "sierra-club", "year": "2021", "check": "V1", "verdict": "OK", "detail": "sierra-club-equity-language-guide-2021.md"}
+{"page": "little-person", "org_slug": "sierra-club", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf"}
+{"page": "little-person", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
+{"page": "little-person", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/dwarf-little-person-midget-short-stature/"}
+{"page": "little-person", "org_slug": "apa", "year": "2023", "check": "V1", "verdict": "OK", "detail": "apa-inclusive-language-2023-10.md"}
+{"page": "little-person", "org_slug": "apa", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf"}
 {"page": "mental-health", "org_slug": "sumofus", "year": "2016", "check": "V1", "verdict": "OK", "detail": "sumofus-progressive-styleguide-2016.md"}
 {"page": "mental-health", "org_slug": "sierra-club", "year": "2021", "check": "V1", "verdict": "OK", "detail": "sierra-club-equity-language-guide-2021.md"}
 {"page": "mental-health", "org_slug": "sierra-club", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf"}
@@ -605,6 +719,12 @@
 {"page": "pronouns", "org_slug": "nlgja", "year": "2025", "check": "V3", "verdict": "OK", "detail": "200 https://www.nlgja.org/stylebook/"}
 {"page": "pronouns", "org_slug": "tja", "year": "2026", "check": "V1", "verdict": "OK", "detail": "tja-stylebook-2026-01.md"}
 {"page": "pronouns", "org_slug": "tja", "year": "2026", "check": "V3", "verdict": "OK", "detail": "200 https://transjournalists.org/style-guide/"}
+{"page": "psychiatric-hospital", "org_slug": "ncdj", "year": "2021", "check": "V1", "verdict": "OK", "detail": "ncdj-disability-style-guide-2021.md"}
+{"page": "psychiatric-hospital", "org_slug": "ncdj", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://ncdj.org/style-guide/"}
+{"page": "psychiatric-hospital", "org_slug": "apa", "year": "2023", "check": "V1", "verdict": "OK", "detail": "apa-inclusive-language-2023-10.md"}
+{"page": "psychiatric-hospital", "org_slug": "apa", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf"}
+{"page": "psychiatric-hospital", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
+{"page": "psychiatric-hospital", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/insane-asylummental-health-hospitalpsychiatric-hospital/"}
 {"page": "queer", "org_slug": "sumofus", "year": "2016", "check": "V1", "verdict": "OK", "detail": "sumofus-progressive-styleguide-2016.md"}
 {"page": "queer", "org_slug": "sierra-club", "year": "2021", "check": "V1", "verdict": "HUMAN-VERIFIED", "detail": "sierra-club-equity-language-guide-2021.md"}
 {"page": "queer", "org_slug": "sierra-club", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf"}
@@ -641,6 +761,13 @@
 {"page": "retarded", "org_slug": "apa", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf"}
 {"page": "retarded", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
 {"page": "retarded", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/mentally-retarded-mentally-disabled-intellectually-disabled-developmentally-disabled/"}
+{"page": "schizophrenic", "org_slug": "sumofus", "year": "2016", "check": "V1", "verdict": "OK", "detail": "sumofus-progressive-styleguide-2016.md"}
+{"page": "schizophrenic", "org_slug": "gcjt", "year": "2021", "check": "V1", "verdict": "OK", "detail": "gcjt-style-guide-trauma-2021.md"}
+{"page": "schizophrenic", "org_slug": "gcjt", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://dartcenter.org/resources/style-guide-trauma-informed-journalism"}
+{"page": "schizophrenic", "org_slug": "ncdj", "year": "2021", "check": "V1", "verdict": "OK", "detail": "ncdj-disability-style-guide-2021.md"}
+{"page": "schizophrenic", "org_slug": "ncdj", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://ncdj.org/style-guide/"}
+{"page": "schizophrenic", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
+{"page": "schizophrenic", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/schizophrenic/"}
 {"page": "sexual-orientation", "org_slug": "sumofus", "year": "2016", "check": "V1", "verdict": "HUMAN-VERIFIED", "detail": "sumofus-progressive-styleguide-2016.md"}
 {"page": "sexual-orientation", "org_slug": "seiu", "year": "2020", "check": "V1", "verdict": "OK", "detail": "seiu-stylebook-2020-01.md"}
 {"page": "sexual-orientation", "org_slug": "apa", "year": "2023", "check": "V1", "verdict": "HUMAN-VERIFIED", "detail": "apa-inclusive-language-2023-10.md"}
@@ -659,6 +786,14 @@
 {"page": "slavery", "org_slug": "apa", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf"}
 {"page": "slavery", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
 {"page": "slavery", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/slavery/"}
+{"page": "special-needs", "org_slug": "ncdj", "year": "2021", "check": "V1", "verdict": "OK", "detail": "ncdj-disability-style-guide-2021.md"}
+{"page": "special-needs", "org_slug": "ncdj", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://ncdj.org/style-guide/"}
+{"page": "special-needs", "org_slug": "sierra-club", "year": "2021", "check": "V1", "verdict": "OK", "detail": "sierra-club-equity-language-guide-2021.md"}
+{"page": "special-needs", "org_slug": "sierra-club", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf"}
+{"page": "special-needs", "org_slug": "apa", "year": "2023", "check": "V1", "verdict": "OK", "detail": "apa-inclusive-language-2023-10.md"}
+{"page": "special-needs", "org_slug": "apa", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf"}
+{"page": "special-needs", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
+{"page": "special-needs", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/specialspecial-needsfunctional-needs/"}
 {"page": "stereotypes", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
 {"page": "stereotypes", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/stereotypes/"}
 {"page": "stereotypes", "org_slug": "color-of-change", "year": "2020", "check": "V1", "verdict": "HUMAN-VERIFIED", "detail": "color-of-change-black-families-narrative-2020.md"}
@@ -671,6 +806,16 @@
 {"page": "stereotypes", "org_slug": "sierra-club", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf"}
 {"page": "stereotypes", "org_slug": "gcjt", "year": "2021", "check": "V1", "verdict": "OK", "detail": "gcjt-style-guide-trauma-2021.md"}
 {"page": "stereotypes", "org_slug": "gcjt", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://dartcenter.org/resources/style-guide-trauma-informed-journalism"}
+{"page": "suicide", "org_slug": "ncdj", "year": "2021", "check": "V1", "verdict": "OK", "detail": "ncdj-disability-style-guide-2021.md"}
+{"page": "suicide", "org_slug": "ncdj", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://ncdj.org/style-guide/"}
+{"page": "suicide", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
+{"page": "suicide", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/suicide/"}
+{"page": "suicide", "org_slug": "nlgja", "year": "2025", "check": "V1", "verdict": "OK", "detail": "nlgja-stylebook-lgbtq-2025-06.md"}
+{"page": "suicide", "org_slug": "nlgja", "year": "2025", "check": "V3", "verdict": "OK", "detail": "200 https://www.nlgja.org/stylebook/"}
+{"page": "suicide", "org_slug": "gcjt", "year": "2021", "check": "V1", "verdict": "OK", "detail": "gcjt-style-guide-trauma-2021.md"}
+{"page": "suicide", "org_slug": "gcjt", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://dartcenter.org/resources/style-guide-trauma-informed-journalism"}
+{"page": "suicide", "org_slug": "apa", "year": "2023", "check": "V1", "verdict": "OK", "detail": "apa-inclusive-language-2023-10.md"}
+{"page": "suicide", "org_slug": "apa", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf"}
 {"page": "survivor", "org_slug": "sumofus", "year": "2016", "check": "V1", "verdict": "OK", "detail": "sumofus-progressive-styleguide-2016.md"}
 {"page": "survivor", "org_slug": "gcjt", "year": "2021", "check": "V1", "verdict": "OK", "detail": "gcjt-style-guide-trauma-2021.md"}
 {"page": "survivor", "org_slug": "gcjt", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://dartcenter.org/resources/style-guide-trauma-informed-journalism"}
@@ -730,6 +875,13 @@
 {"page": "transsexual", "org_slug": "nlgja", "year": "2025", "check": "V3", "verdict": "OK", "detail": "200 https://www.nlgja.org/stylebook/"}
 {"page": "transsexual", "org_slug": "tja", "year": "2026", "check": "V1", "verdict": "OK", "detail": "tja-stylebook-2026-01.md"}
 {"page": "transsexual", "org_slug": "tja", "year": "2026", "check": "V3", "verdict": "OK", "detail": "200 https://transjournalists.org/style-guide/"}
+{"page": "transvestite", "org_slug": "sumofus", "year": "2016", "check": "V1", "verdict": "OK", "detail": "sumofus-progressive-styleguide-2016.md"}
+{"page": "transvestite", "org_slug": "apa", "year": "2023", "check": "V1", "verdict": "OK", "detail": "apa-inclusive-language-2023-10.md"}
+{"page": "transvestite", "org_slug": "apa", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf"}
+{"page": "transvestite", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
+{"page": "transvestite", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/transvestite/"}
+{"page": "transvestite", "org_slug": "tja", "year": "2026", "check": "V1", "verdict": "OK", "detail": "tja-stylebook-2026-01.md"}
+{"page": "transvestite", "org_slug": "tja", "year": "2026", "check": "V3", "verdict": "OK", "detail": "200 https://transjournalists.org/style-guide/"}
 {"page": "tribe", "org_slug": "ngc", "year": "2021", "check": "V1", "verdict": "HUMAN-VERIFIED", "detail": "native-governance-center-style-guide-2021-02.md"}
 {"page": "tribe", "org_slug": "ngc", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://nativegov.org/resources/style-guide/"}
 {"page": "tribe", "org_slug": "sierra-club", "year": "2021", "check": "V1", "verdict": "HUMAN-VERIFIED", "detail": "sierra-club-equity-language-guide-2021.md"}
@@ -787,6 +939,13 @@
 {"page": "victim", "org_slug": "apa", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf"}
 {"page": "victim", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
 {"page": "victim", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/victim-survivor/"}
+{"page": "wheelchair", "org_slug": "sumofus", "year": "2016", "check": "V1", "verdict": "HUMAN-VERIFIED", "detail": "sumofus-progressive-styleguide-2016.md"}
+{"page": "wheelchair", "org_slug": "sierra-club", "year": "2021", "check": "V1", "verdict": "OK", "detail": "sierra-club-equity-language-guide-2021.md"}
+{"page": "wheelchair", "org_slug": "sierra-club", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf"}
+{"page": "wheelchair", "org_slug": "apa", "year": "2023", "check": "V1", "verdict": "OK", "detail": "apa-inclusive-language-2023-10.md"}
+{"page": "wheelchair", "org_slug": "apa", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf"}
+{"page": "wheelchair", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
+{"page": "wheelchair", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/wheelchairwheelchair-boundconfined-to-a-wheelchair/"}
 {"page": "white", "org_slug": "sierra-club", "year": "2021", "check": "V1", "verdict": "HUMAN-VERIFIED", "detail": "sierra-club-equity-language-guide-2021.md"}
 {"page": "white", "org_slug": "sierra-club", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf"}
 {"page": "white", "org_slug": "ngc", "year": "2021", "check": "V1", "verdict": "OK", "detail": "native-governance-center-style-guide-2021-02.md"}

@@ -10,8 +10,6 @@ aliases:
   - "polyethnic"
   - "mixed"
 related_terms:
-  - slug: "afro-latino"
-    relation: "subset-identity"
   - slug: "people-of-color"
     relation: "overlapping-but-distinct"
 
