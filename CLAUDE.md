@@ -63,10 +63,14 @@ plus glossary index + SQLite build-time index + Contribute page.
 
 ## Pick-up notes for next ELC session
 
-**NEXT SESSION PLAN:**
-1. ~~**Finish the verification arc**~~ — **DONE 2026-06-05.** Quote trims + Layer 2 external-claims dispositions both closed (see below). The verification arc is complete: lint gate + Layer 1 green + Layer 2 dispositions executed.
-2. **Source discovery session (`/research`):** corpus is tapped at 94 terms vs the ~250 launch target. Needed guides: movement/organizing (unlocks Movement & Advocacy chapter), Jewish-press or interfaith (graduates jew/islam stubs), poverty/economic-justice (Class stuck at 4), migration/asylum (unlocks asylum-seeker, migrant, anchor-baby).
-3. **DECISION FOR JORDAN before launch prep:** launch at ~100 machine-verified pages vs. grind to the locked ~250-page threshold. The verification system changes the calculus — per-page quality is now provable. Launch prep (repo public, DNS flip, legal pass) waits on this call.
+**NEXT SESSION PLAN (set 2026-06-05, after coverage-completeness arc):**
+1. **Source discovery session (`/research`) — NEXT TASK.** Corpus is fully tapped at 115 terms — the W6 completeness lint proves every ≥3-source term is now handled, so growth requires new sources. Four targeted gaps:
+   - **Jewish-press / interfaith guide** (e.g., JTA stylebook, Religion News Association) → graduates the `jew`/`islam` verified-hold stubs to full pages; Faith chapter at 3 terms
+   - **Movement/organizing guide** → unlocks the deferred Movement & Advocacy chapter (activist, advocate, tolerance, equality all at 1–2 sources)
+   - **Poverty/economic-justice guide** → Class & Economic Status stuck at 4 terms; corpus has no dedicated class headwords
+   - **Migration/asylum guide** (UNHCR-style or Define American companion) → unlocks asylum-seeker, migrant, anchor-baby
+   When new sources land: drop PDF → MANIFEST row → extract-pdfs → build-coverage-matrix → scaffold-source-pages → enrich-source-pages → rebuild glossary index → **W6 lint automatically surfaces every newly-qualified term.**
+2. **DECISION FOR JORDAN before launch prep:** launch at 115 machine-verified pages vs. grow further with discovered sources. The verification system changes the calculus — per-page quality is provable and completeness-vs-corpus is machine-checked. Launch prep (repo public, DNS flip, legal pass) waits on this call. Only launch-blocking question source discovery touches: ship with jew/islam as glossary-tier stubs or wait to graduate them.
 
 **Done 2026-06-05 (later) — Layer 2 external-claims dispositions executed; verification arc CLOSED:**
 - **Dispositions:** ~620 of 664 flags closed as keep under 3 group rules (excerpt-insufficient = bundle artifact; site-structural/chronology framing; hedged sociolinguistic generalizations). Doc: `notes/verification/layer2-external-dispositions.md` (EXECUTED). Re-audit of the 325 excerpt-insufficient flags skipped pre-launch per approved rule.
