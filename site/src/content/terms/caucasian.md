@@ -48,7 +48,7 @@ context_data:
 
 audience_notes:
   - audience: "Formal demographic data / institutional category names"
-    note: "Acceptable when citing federal demographic categories that use 'Caucasian' as the formal label (some older HHS, FBI UCR, and academic survey instruments still do). Match the source's terminology when citing data; otherwise use White or white per house style."
+    note: "Acceptable when citing a legacy instrument that uses 'Caucasian' as its formal label. Current federal standards do not — OMB standards and the FBI UCR use 'White.' 'Caucasian' survives in older instruments (the FBI UCR before its 2013 overhaul; some HHS-affiliated surveys like the Health and Retirement Study used 'White/Caucasian') and in medical-research writing. Match the source's terminology when citing such data; otherwise use White or white per house style."
   - audience: "Identity contexts / general writing"
     note: "Avoid. Use white or White (per house style on capitalization). 'Caucasian' carries the pseudo-scientific 18th-century racial-typology baggage that the more direct 'white' doesn't."
   - audience: "Quoting sources"
@@ -64,13 +64,13 @@ contributors:
 
 Caucasian is one of the cleanest 'do not use' calls in the R&E corpus — the two guides that address it (Casey 2013, DSG 2023) agree, and even Casey, written in the pre-2020 era when racial-language conventions were generally looser, takes the same position. Sierra Club, NGC, NABJ, RET, and SEIU don't address Caucasian directly, but every guide that uses 'white' or 'White' as a positive descriptor implicitly retires Caucasian by replacement.
 
-**The avoidance is grounded in origin, not just preference.** Caucasian as a racial category comes from Blumenbach's 1795 five-race typology, built on the now-thoroughly-discredited theory that Europeans originated in the Caucasus region and based on cranial measurements that the underlying racial science has long since abandoned. Using 'Caucasian' as a synonym for white in 2026 carries that history forward in a way that the more direct 'white' doesn't.
+**The avoidance is grounded in origin, not just preference.** Caucasian as a racial category comes from [Blumenbach's 1795 five-race typology](https://en.wikipedia.org/wiki/Johann_Friedrich_Blumenbach), built on the now-thoroughly-discredited theory that Europeans originated in the Caucasus region and based on cranial measurements that the underlying racial science has long since abandoned. Using 'Caucasian' as a synonym for white in 2026 carries that history forward in a way that the more direct 'white' doesn't.
 
-**The exception is narrow and matches the [minority](/terms/minority/) entry's exception**: formal data contexts where 'Caucasian' is the actual federal or institutional label being cited. Some older HHS, FBI UCR, and academic survey instruments still use the term as their category name. Match the source; don't generalize the label.
+**The exception is narrow and matches the [minority](/terms/minority/) entry's exception**: formal data contexts where 'Caucasian' is the actual label being cited. Current federal standards do not use it — [OMB's race and ethnicity standards use 'White'](https://obamawhitehouse.archives.gov/omb/fedreg_1997standards), as does the FBI's Uniform Crime Reporting program. 'Caucasian' survives only in legacy instruments: the FBI UCR used it before its 2013 overhaul, and some HHS-affiliated surveys (such as the Health and Retirement Study) used 'White/Caucasian.' The term also remains common in medical-research writing. Match the source where it genuinely uses the label; don't generalize it as a current federal category.
 
 There's nothing more to say. This is a settled call.
 
 
 ## History note
 
-Caucasian entered US racial vocabulary through 19th-century borrowing of Blumenbach's typology and became the formal federal-data label through the 20th century in immigration, census, and law-enforcement statistics. Most major US institutional vocabularies shifted from Caucasian to white during the second half of the 20th century; the term's residue in survey instruments and casual usage persists. The current style-guide consensus that emerged in the 2000s–2010s — avoid Caucasian in identity contexts, allow only when citing data using the formal label — has held without significant dissent.
+Caucasian entered US racial vocabulary through 19th-century borrowing of Blumenbach's typology and appeared in 20th-century immigration, census, and law-enforcement records. Most major US institutional vocabularies shifted from Caucasian to white during the second half of the 20th century — current OMB standards and the FBI UCR use 'White' — and the term's residue in legacy survey instruments and casual usage persists. The current style-guide consensus that emerged in the 2000s–2010s — avoid Caucasian in identity contexts, allow only when citing data using the formal label — has held without significant dissent.

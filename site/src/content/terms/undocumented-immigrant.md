@@ -108,10 +108,10 @@ contributors:
 
 The sources also define the term tightly: "undocumented" describes a current lack of legal status, not a permanent identity. SumOfUs notes that an asylum seeker becomes undocumented only after failing to respond to a removal notice. Define American widens the menu slightly to "unauthorized immigrant" and "immigrant without legal status," but "undocumented" is the common core every source returns to.
 
-The chronology runs from movement language into institutional practice. The term predates these guides — the AP Stylebook dropped "illegal immigrant" in 2013 — but the watershed the later sources cite is February 2021, when USCIS itself shifted to "noncitizen," "undocumented noncitizen," or "undocumented individual" (Diversity Style Guide). So by 2023–2024, the preferred-term consensus runs from progressive style guides through the federal agency's own register, rather than dividing along advocacy lines.
+The chronology runs from movement language into institutional practice. The term predates these guides — the [AP Stylebook dropped "illegal immigrant" in 2013](/sources/ap-stylebook/) — but the watershed the later sources cite is February 2021, when USCIS itself shifted to "noncitizen," "undocumented noncitizen," or "undocumented individual" (Diversity Style Guide). So by 2023–2024, the preferred-term consensus runs from progressive style guides through the federal agency's own register, rather than dividing along advocacy lines.
 
 ## Audience notes
 
-- **Journalists and editors.** "Undocumented immigrant" or "undocumented" is the standard; "noncitizen" and "undocumented individual" are the federal-register variants since 2021. Never use "illegal" as a noun for a person.
+- **Journalists and editors.** "Undocumented immigrant" or "undocumented" is the standard; "noncitizen" and "undocumented individual" entered the federal register through the 2021 USCIS update (since reversed in 2025, when "alien" was reinstated). Never use "illegal" as a noun for a person.
 - **Advocates and internal comms.** Pair the term with the person's story. "Undocumented" is a status someone is in, not a label for who they are — and status can change.
 - **Precision.** Undocumented is not interchangeable with asylum seeker or refugee. Use the accurate status, and confirm it before publishing given the disclosure risk.

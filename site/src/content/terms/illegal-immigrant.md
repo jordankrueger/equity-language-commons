@@ -118,7 +118,7 @@ contributors:
 
 The dominant prescribed alternative is "undocumented immigrant" (see that entry). The phrasing varies at the edges: Color of Change reaches the same place from its people-first frame, pairing "illegal immigrant" (avoid) against "undocumented person" (use) in the same table that pairs "inmate" against "incarcerated person," and Define American also offers "unauthorized immigrant" and "immigrant without legal status."
 
-The chronology shows agreement hardening rather than forming. The watershed is the AP Stylebook's 2013 decision to drop "illegal immigrant," which the Immigrant Defense Project and Define American both reference; from SumOfUs (2016) onward, avoidance is treated as settled. By 2021, even USCIS had moved away from the broader "illegal" and "alien" vocabulary (see the alien entry), so the rejection now extends from movement guides through the federal government's own usage.
+The chronology shows agreement hardening rather than forming. The watershed is the [AP Stylebook's 2013 decision to drop "illegal immigrant"](/sources/ap-stylebook/), which the Immigrant Defense Project and Define American both reference; from SumOfUs (2016) onward, avoidance is treated as settled. By 2021, even USCIS had moved away from the broader "illegal" and "alien" vocabulary (see the alien entry), so the rejection now extends from movement guides through the federal government's own usage.
 
 ## Audience notes
 

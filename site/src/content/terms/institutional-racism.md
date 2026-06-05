@@ -63,7 +63,7 @@ contributors:
 
 The live precision question is institutional versus systemic (and structural) racism. APA notes that disciplines are beginning to distinguish the institutional form from the structural form after a period when the terms circulated interchangeably; the working distinction across the corpus is scale — institutional racism names what specific institutions do; systemic racism names how those effects compound across institutions and history. The commons keeps separate pages for each, matching the sources' cross-references.
 
-The term carries its own history: coined by Stokely Carmichael (Kwame Ture) and Charles V. Hamilton in *Black Power* (1967) precisely to name racism that persists without individual racists. Its presence as a defined headword in psychology, journalism, and racial-equity reference works a half-century later marks how fully it moved from movement vocabulary into standard usage.
+The term carries its own history: [coined by Stokely Carmichael (Kwame Ture) and Charles V. Hamilton in *Black Power: The Politics of Liberation* (1967)](https://en.wikipedia.org/wiki/Institutional_racism) precisely to name racism that persists without individual racists. Its presence as a defined headword in psychology, journalism, and racial-equity reference works a half-century later marks how fully it moved from movement vocabulary into standard usage.
 
 ## Audience notes
 

@@ -131,7 +131,7 @@ Where the guides genuinely diverge is on **whether POC is a positive frame or a 
 
 **Abbreviation differs by house.** Sierra Club allows 'PoC' inline (mixed-case). DSG directs writers away from 'POC' entirely. The safest middle: spell out on first use, abbreviate on subsequent reference, match house style.
 
-**The 'colored people' boundary is firm.** Every guide that addresses it (SEIU explicit, RET explicit, DSG implicit) treats 'people of color' and 'colored people' as definitionally non-interchangeable. The NAACP's retention of 'Colored People' in its proper name reflects its 1909 founding context and does not license generalized use.
+**The 'colored people' boundary is firm.** Every guide that addresses it (SEIU explicit, RET explicit, DSG implicit) treats 'people of color' and 'colored people' as definitionally non-interchangeable. The NAACP's retention of 'Colored People' in its proper name reflects its [1909 founding context](https://www.loc.gov/exhibits/naacp/founding-and-early-years.html) and does not license generalized use.
 
 POC predates BIPOC by roughly four decades — late-1970s racial-justice organizing — and remains the older, more-established frame. BIPOC layers an explicit Black-Indigenous front onto the same umbrella; both terms coexist in current usage and both are accepted across the corpus.
 

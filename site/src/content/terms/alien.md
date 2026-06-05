@@ -109,6 +109,6 @@ The chronology is a drift and then a formal break. "Alien" began as government a
 
 ## Audience notes
 
-- **Journalists and editors.** Avoid "alien," "illegal alien," "criminal alien," and "resident alien." Use "undocumented immigrant," "noncitizen," or describe the person's situation. This matches USCIS practice since 2021.
+- **Journalists and editors.** Avoid "alien," "illegal alien," "criminal alien," and "resident alien." Use "undocumented immigrant," "noncitizen," or describe the person's situation. This matched USCIS practice after its 2021 update, though a later administration reinstated "alien" in 2025.
 - **Advocates and internal comms.** "Alien" and especially "criminal alien" are sensationalizing labels; describe people by circumstance — for example, "formerly incarcerated immigrant" or "person with a criminal record" (Immigrant Defense Project).
 - **Legal and technical writing.** Where a statute uses "alien" as a defined legal term, quote or cite it precisely, but don't carry the word into your own narration.

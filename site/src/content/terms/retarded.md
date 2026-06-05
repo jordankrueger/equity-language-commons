@@ -75,7 +75,7 @@ contributors:
 
 **This is the most charged term in the chapter, and the corpus is unanimous: do not use it.** NCDJ — the chapter's anchor — instructs writers not to use "retarded" or any of its variants, calling the word particularly charged; the Diversity Style Guide files "mentally retarded," "retard," and "mental retardation" together as offensive; APA's term-to-avoid table prescribes "people with intellectual disabilities"; and SumOfUs places it among the terms disability rights activists reject. The preferred replacement is the specific condition, or the person-first "person with an intellectual disability."
 
-The law moved with the language. In 2010, Rosa's Law replaced "mental retardation" with "intellectual disability" across much of U.S. federal statute — both NCDJ and the Diversity Style Guide cite it. That shift marks the clinical term's retirement, not merely a stylistic preference.
+The law moved with the language. In 2010, [Rosa's Law](https://en.wikipedia.org/wiki/Rosa%27s_Law) replaced "mental retardation" with "intellectual disability" across much of U.S. federal statute — both NCDJ and the Diversity Style Guide cite it. That shift marks the clinical term's retirement, not merely a stylistic preference.
 
 The exception the sources allow is the narrowest in the chapter. NCDJ asks writers to weigh even quoted use carefully, "as the word is particularly charged"; the Diversity Style Guide treats any historical use as something to attribute and contextualize, never to reproduce in one's own voice. The guidance is consistent from 2016 through 2023. This page pairs with [disability](/terms/disability/).
 

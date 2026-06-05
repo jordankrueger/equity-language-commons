@@ -1,9 +1,18 @@
-# Layer 2 external-claims dispositions — PROPOSAL (2026-06-05)
+# Layer 2 external-claims dispositions — EXECUTED (2026-06-05)
 
 Pre-triage of `layer2-external-summary.md` per the 2026-06-04 plan: Claude
-proposes keep/cite/cut per group; Jordan reviews decisions, not raw items.
+proposed keep/cite/cut per group; Jordan approved same day.
 
-**Status: awaiting Jordan's sign-off on the group rules + the named exceptions.**
+**Status: EXECUTED 2026-06-05.** Group rules applied; ~25 distinct facts
+verified against primary sources (see `external-facts-research.md`) and
+cited; 3 reference-tier source pages created (`ap-stylebook`,
+`pew-research-center`, `us-census-bureau`, all `link-out-only`); all 10
+exceptions fixed plus research-discovered corrections (UNVERIFIED 1994
+UNITY chronology removed from illegal-alien; USCIS-2021 framing updated for
+the 2025 reversal; DACA count refreshed to ~538k; "coined at"→"adopted at"
+on two-spirit; HR 4238 scoped to its two statutes; AP singular-they 2019
+element dropped as unverifiable). Re-audit of the 325 excerpt-insufficient
+flags: skipped pre-launch per approved rule.
 
 ## How to read this
 
