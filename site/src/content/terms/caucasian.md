@@ -62,7 +62,7 @@ contributors:
 
 ## Synthesis
 
-Caucasian is one of the cleanest 'do not use' calls in the R&E corpus — the two guides that address it (Casey 2013, DSG 2023) agree, and even Casey, written in the pre-2020 era when racial-language conventions were generally looser, takes the same position. Sierra Club, NGC, NABJ, RET, and SEIU don't address Caucasian directly, but every guide that uses 'white' or 'White' as a positive descriptor implicitly retires Caucasian by replacement.
+Caucasian is one of the cleanest 'do not use' calls in the R&E corpus — the two guides that address it (Casey 2013, DSG 2023) agree, and even Casey, written years before the post-2020 wave of style-guide formalization, takes the same position. Sierra Club, NGC, NABJ, RET, and SEIU don't address Caucasian directly, but every guide that uses 'white' or 'White' as a positive descriptor implicitly retires Caucasian by replacement.
 
 **The avoidance is grounded in origin, not just preference.** Caucasian as a racial category comes from [Blumenbach's 1795 five-race typology](https://en.wikipedia.org/wiki/Johann_Friedrich_Blumenbach), built on the now-thoroughly-discredited theory that Europeans originated in the Caucasus region and based on cranial measurements that the underlying racial science has long since abandoned. Using 'Caucasian' as a synonym for white in 2026 carries that history forward in a way that the more direct 'white' doesn't.
 
