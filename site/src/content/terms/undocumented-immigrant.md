@@ -76,7 +76,7 @@ guidance:
     local_archive: "source-guides/discovered/diversity-style-guide-2023-11.md"
     recommendation: "use"
     derived_from: []
-    quote: "Preferred terms to illegal alien, illegal immigrant, or illegal(s). This term describes the immigration status of people who do not have the federal documentation to show they are legally entitled to work, visit or live here… but does not dehumanize them in the manner that such terms as aliens and illegals do."
+    quote: "Preferred terms to illegal alien, illegal immigrant, or illegal(s). … does not dehumanize them in the manner that such terms as aliens and illegals do."
     quote_loc: "Glossary entry: undocumented immigrant, undocumented individual"
     paraphrase: "The Diversity Style Guide names 'undocumented immigrant' (and 'undocumented individual') the preferred term over illegal alien, illegal immigrant, or illegals, because it points to a person's lack of documentation without dehumanizing them. It notes that in February 2021 USCIS itself moved to 'noncitizen,' 'undocumented noncitizen,' or 'undocumented individual.'"
     confidence: "VERIFIED-ARCHIVED"

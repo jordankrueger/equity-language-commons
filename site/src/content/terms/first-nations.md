@@ -33,7 +33,7 @@ guidance:
     source_url: null
     local_archive: "source-guides/discovered/sumofus-progressive-styleguide-2016.pdf"
     recommendation: "use"
-    quote: "'Aboriginal Peoples' refers to all the Aboriginal people collectively, without regard to their separate origins and identities (including Métis, First Nations, and Inuit). … The term 'First Nation(s)' is widely used and has for the most part replaced the term 'Indian.' 'First Nations People(s)' refers to all Indian peoples in Canada – both Status and Non-Status Indians. It excludes Métis and Inuit people."
+    quote: "The term 'First Nation(s)' is widely used and has for the most part replaced the term 'Indian.' 'First Nations People(s)' refers to all Indian peoples in Canada – both Status and Non-Status Indians. It excludes Métis and Inuit people."
     quote_loc: "Indigeneity / Ancestry section → In Canada"
     paraphrase: "SumOfUs treats First Nations as the Canadian replacement for 'Indian' (post-1980s common usage), covering Status and Non-Status Indian peoples in Canada but specifically excluding Métis and Inuit. 'First Nations' is also one of the recommended self-ID terms in the guide's decolonization-activist column. The guide also flags that the proper name of the specific nation should be used whenever possible."
     confidence: "VERIFIED-ARCHIVED"
@@ -45,7 +45,7 @@ guidance:
     source_url: null
     local_archive: "source-guides/discovered/sumofus-progressive-styleguide-2016.pdf"
     recommendation: "avoid"
-    quote: "Avoid vocabulary and usage that carries hierarchical valuation, describes Indigenous peoples as 'belonging' to Canada, the United States, or Australia, etc., and other usages that may denote inferiority. … Similarly, do not say 'Canadian First Nations' as Canada is the colonial power and many Indigenous people do not identify as Canadian."
+    quote: "Avoid vocabulary and usage that carries hierarchical valuation, describes Indigenous peoples as 'belonging' to Canada, the United States, or Australia, etc. … do not say 'Canadian First Nations' as Canada is the colonial power and many Indigenous people do not identify as Canadian."
     quote_loc: "Indigeneity / Ancestry section → Specific Recommendations"
     paraphrase: "SumOfUs draws a sharp line against possessive constructions like 'Canadian First Nations' or 'Canada's Indigenous people' — the framing erases that Canada is the colonial power and that many First Nations people do not identify as Canadian. The recommended construction puts the people first: 'Indigenous peoples in Canada' rather than 'Canada's Indigenous people.'"
     confidence: "VERIFIED-ARCHIVED"
@@ -69,7 +69,7 @@ guidance:
     source_url: "https://www.diversitystyleguide.com/glossary/first-nations/"
     local_archive: "source-guides/discovered/diversity-style-guide-2023-11.md"
     recommendation: "use"
-    quote: "First Nations is a term used to describe Aboriginal peoples of Canada who are ethnically neither Métis nor Inuit, according to a list of terms compiled by the First Nations Studies Program at the University of British Columbia. This phrase came into common usage in the 1970s and '80s and generally replaced the term Indian to refer to Indigenous people of Canada. The term is not widely used in the U.S."
+    quote: "First Nations is a term used to describe Aboriginal peoples of Canada who are ethnically neither Métis nor Inuit … This phrase came into common usage in the 1970s and '80s and generally replaced the term Indian to refer to Indigenous people of Canada."
     quote_loc: "Entry: First Nations (updated February 2021)"
     paraphrase: "DSG's entry mirrors SumOfUs's framing: First Nations covers Aboriginal peoples of Canada who are neither Métis nor Inuit, replaced 'Indian' as common usage starting in the 1970s–80s, and is sourced to the First Nations Studies Program at UBC. The entry also flags that the term is not widely used in the US — a geographic-scope caution that matters when borrowing the term across the border."
     confidence: "VERIFIED-ARCHIVED"

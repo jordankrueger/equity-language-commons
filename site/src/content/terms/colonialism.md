@@ -41,7 +41,7 @@ guidance:
     local_archive: "source-guides/discovered/apa-inclusive-language-2023-10.pdf"
     recommendation: "use"
     derived_from: []
-    quote: "Colonization requires the dehumanization of peoples who are Indigenous to an area so that their land is stolen, their culture is erased, and peoples are eliminated for the economic benefit of empire building. … A form of colonization, specifically settler colonialism, may be used to describe the way White people \"colonized\" people in the United States. …"
+    quote: "Colonization requires the dehumanization of peoples who are Indigenous to an area so that their land is stolen, their culture is erased, and peoples are eliminated for the economic benefit of empire building."
     quote_loc: "Glossary: decolonization / colonization"
     paraphrase: "APA defines colonization as the dehumanization of Indigenous peoples to justify stealing land, erasing culture, and empire-building, and names settler colonialism as the form that displaced and killed Indigenous populations in the United States. It frames the legacy as dislocation, dispossession, and white privilege, with decolonization as the corrective process."
     confidence: "VERIFIED-ARCHIVED"

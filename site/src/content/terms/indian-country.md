@@ -25,7 +25,7 @@ guidance:
     local_archive: "source-guides/Native-Governance-Center-Style-Guide-published-2021-02.pdf"
     recommendation: "use-with-care"
     derived_from: []
-    quote: "Capitalize the term Indian Country. DO NOT capitalize reservation, unless it’s part of a specific reservation name or referring back to the name of a specific reservation. … A reservation is not the same thing as a Native nation. A reservation refers to a Native nation’s current land base as defined by the federal government. A Native nation is a sovereign political entity."
+    quote: "Capitalize the term Indian Country. … A reservation is not the same thing as a Native nation. A reservation refers to a Native nation’s current land base as defined by the federal government. A Native nation is a sovereign political entity."
     quote_loc: "The People and Nations We Serve → Other terminology related to Native nations and lands"
     paraphrase: "NGC's only rule on the phrase is orthographic: capitalize Indian Country. It pairs this with a distinction worth carrying — a reservation (lowercase) is a federally defined land base, not the same thing as a Native nation, which is a sovereign political entity."
     confidence: "VERIFIED-ARCHIVED"
@@ -37,7 +37,7 @@ guidance:
     local_archive: "source-guides/Equity Language Guide Sierra Club 2021.pdf"
     recommendation: "use-with-care"
     derived_from: []
-    quote: "Sometimes it is unavoidable to cite language that is problematic but which is officially sanctioned by an institutional body like the US government; for example … land referred to by the EPA as “Indian country.” Where possible, try to find language that circumvents the problematic phrasing, or acknowledge its harmful history."
+    quote: "Sometimes it is unavoidable to cite language that is problematic but which is officially sanctioned by an institutional body like the US government … Where possible, try to find language that circumvents the problematic phrasing, or acknowledge its harmful history."
     quote_loc: "General Best Practices, citing institutional language"
     paraphrase: "Sierra Club treats “Indian country” as institutionally sanctioned terminology — the term the EPA uses for land — that is sometimes unavoidable to cite, alongside a parallel example of citing an action by the Bureau of Indian Affairs. Where it must appear, the guide asks writers to find language that circumvents it or to acknowledge its history — for example, framing it as land the EPA refers to as ‘Indian Country.’"
     confidence: "VERIFIED-ARCHIVED"

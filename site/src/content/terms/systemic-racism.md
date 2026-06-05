@@ -41,7 +41,7 @@ guidance:
     local_archive: "source-guides/discovered/racial-equity-tools-glossary-2023.md"
     recommendation: "use"
     derived_from: []
-    quote: "Institutional racism refers specifically to the ways in which institutional policies and practices create different outcomes for different racial groups. The institutional policies may never mention any racial group, but their effect is to create advantages for whites and oppression and disadvantage for people from groups classified as people of color."
+    quote: "The institutional policies may never mention any racial group, but their effect is to create advantages for whites and oppression and disadvantage for people from groups classified as people of color."
     quote_loc: "Glossary: Institutional Racism"
     paraphrase: "Racial Equity Tools defines institutional racism through outcomes rather than intent — policies that never name a racial group but still produce advantage for white people and disadvantage for people of color. Its companion \"Racist Policies\" entry adds that \"structural racism\" and \"systemic racism\" name the same phenomenon: \"Racism itself is institutional, structural, and systemic.\""
     confidence: "VERIFIED-ARCHIVED"

@@ -28,7 +28,7 @@ guidance:
     source_url: null
     local_archive: "source-guides/discovered/sumofus-progressive-styleguide-2016.pdf"
     recommendation: "use-with-care"
-    quote: "Avoid defaulting to umbrella terms like gay or homosexual. Use LGBTQ to refer to a broad community or be specific when relevant: lesbian, gay man, bisexual woman, etc. … When referring to the broader community, queer (as in queer people) or LGBTQ (as in LGBTQ people) is appropriate – gay, however, is not."
+    quote: "Avoid defaulting to umbrella terms like gay or homosexual. … When referring to the broader community, queer (as in queer people) or LGBTQ (as in LGBTQ people) is appropriate – gay, however, is not."
     quote_loc: "Gender/Sex section, Central Principles"
     paraphrase: "SumOfUs treats 'gay' as too narrow to serve as an umbrella for the LGBTQ community: when referring to the broad community, 'queer' or 'LGBTQ' is the right scope, and 'gay' should be reserved for specific references (gay man, gay couple). The guide accepts gay in its preferred-terms list but bars it from collective umbrella use."
     confidence: "VERIFIED-ARCHIVED"
@@ -64,7 +64,7 @@ guidance:
     source_url: "https://www.diversitystyleguide.com/glossary/gay/"
     local_archive: "source-guides/discovered/diversity-style-guide-2023-11.md"
     recommendation: "use"
-    quote: "Refers to men who are attracted to other men; preferred over homosexual, which connotes clinical context or references to sexual activity. Avoid using as a singular noun. For women, lesbian is generally used, but when possible ask the subject which term she prefers. To include both, use gays and lesbians. In headlines where space is limited, gay is acceptable to describe both."
+    quote: "Refers to men who are attracted to other men; preferred over homosexual, which connotes clinical context or references to sexual activity. Avoid using as a singular noun. … In headlines where space is limited, gay is acceptable to describe both."
     quote_loc: "Gay entry"
     paraphrase: "DSG treats gay as the preferred term over homosexual and gives a clear default split: gay for men, lesbian for women, with the subject's own preference as the override. The guide accepts 'gay' as a tight-headline shorthand for both, and explicitly bars 'gay' as a singular noun (don't write 'a gay')."
     confidence: "VERIFIED-ARCHIVED"

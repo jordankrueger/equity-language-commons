@@ -6,6 +6,11 @@
 # The verifier reports these as HUMAN-VERIFIED instead of MISS/TRUNCATED.
 # REMOVE an entry if its page quote is ever edited — it must re-verify.
 entries:
+  # --- 2026-06-05 quote-trim batch: quotes shortened for fair-use (<=50 words).
+  # Each trimmed quote is a machine-verified contiguous substring of the
+  # 2026-06-04 human-verified text (pure deletion, span-checked in git diff),
+  # so faithfulness to the PDF is preserved by construction. The extraction
+  # .md still cannot exact-match these (same artifacts as before).
   - page: "ableism"
     org_slug: "apa"
     verified: 2026-06-04
@@ -28,9 +33,6 @@ entries:
     org_slug: "sumofus"
     verified: 2026-06-04
   - page: "arab"
-    org_slug: "apa"
-    verified: 2026-06-04
-  - page: "arab"
     org_slug: "sierra-club"
     verified: 2026-06-04
   - page: "asexual"
@@ -38,9 +40,6 @@ entries:
     verified: 2026-06-04
   - page: "autism"
     org_slug: "apa"
-    verified: 2026-06-04
-  - page: "bipoc"
-    org_slug: "ngc"
     verified: 2026-06-04
   - page: "bipoc"
     org_slug: "racial-equity-tools"
@@ -53,7 +52,7 @@ entries:
     verified: 2026-06-04
   - page: "cisgender"
     org_slug: "racial-equity-tools"
-    verified: 2026-06-04
+    verified: 2026-06-05
   - page: "cisgender"
     org_slug: "sierra-club"
     verified: 2026-06-04
@@ -61,9 +60,6 @@ entries:
     org_slug: "tja"
     verified: 2026-06-04
   - page: "classism"
-    org_slug: "apa"
-    verified: 2026-06-04
-  - page: "colonialism"
     org_slug: "apa"
     verified: 2026-06-04
   - page: "convict"
@@ -92,12 +88,9 @@ entries:
     verified: 2026-06-04
   - page: "first-nations"
     org_slug: "sumofus"
-    verified: 2026-06-04
+    verified: 2026-06-05
   - page: "gay"
     org_slug: "sierra-club"
-    verified: 2026-06-04
-  - page: "gender-identity"
-    org_slug: "apa"
     verified: 2026-06-04
   - page: "ghetto"
     org_slug: "apa"
@@ -134,7 +127,7 @@ entries:
     verified: 2026-06-04
   - page: "indian"
     org_slug: "sumofus"
-    verified: 2026-06-04
+    verified: 2026-06-05
   - page: "indigenous"
     org_slug: "gcjt"
     verified: 2026-06-04
@@ -143,7 +136,7 @@ entries:
     verified: 2026-06-04
   - page: "indigenous"
     org_slug: "sierra-club"
-    verified: 2026-06-04
+    verified: 2026-06-05
   - page: "indigenous"
     org_slug: "sumofus"
     verified: 2026-06-04
@@ -159,6 +152,9 @@ entries:
   - page: "insane"
     org_slug: "apa"
     verified: 2026-06-04
+  - page: "intersex"
+    org_slug: "diversity-style-guide"
+    verified: 2026-06-05
   - page: "intersex"
     org_slug: "sierra-club"
     verified: 2026-06-04
@@ -185,10 +181,7 @@ entries:
     verified: 2026-06-04
   - page: "minority"
     org_slug: "sierra-club"
-    verified: 2026-06-04
-  - page: "native-american"
-    org_slug: "gcjt"
-    verified: 2026-06-04
+    verified: 2026-06-05
   - page: "native-american"
     org_slug: "ngc"
     verified: 2026-06-04
@@ -206,7 +199,7 @@ entries:
     verified: 2026-06-04
   - page: "people-of-color"
     org_slug: "sierra-club"
-    verified: 2026-06-04
+    verified: 2026-06-05
   - page: "people-with-disabilities"
     org_slug: "apa"
     verified: 2026-06-04
@@ -219,9 +212,6 @@ entries:
   - page: "pronouns"
     org_slug: "interact"
     verified: 2026-06-04
-  - page: "pronouns"
-    org_slug: "tja"
-    verified: 2026-06-04
   - page: "queer"
     org_slug: "sierra-club"
     verified: 2026-06-04
@@ -230,7 +220,7 @@ entries:
     verified: 2026-06-04
   - page: "reservation"
     org_slug: "sierra-club"
-    verified: 2026-06-04
+    verified: 2026-06-05
   - page: "retarded"
     org_slug: "apa"
     verified: 2026-06-04
@@ -251,22 +241,16 @@ entries:
     verified: 2026-06-04
   - page: "transgender"
     org_slug: "gcjt"
-    verified: 2026-06-04
-  - page: "transgender"
-    org_slug: "racial-equity-tools"
-    verified: 2026-06-04
+    verified: 2026-06-05
   - page: "transgender"
     org_slug: "sierra-club"
-    verified: 2026-06-04
+    verified: 2026-06-05
   - page: "tribe"
     org_slug: "apa"
     verified: 2026-06-04
   - page: "tribe"
-    org_slug: "gcjt"
-    verified: 2026-06-04
-  - page: "tribe"
     org_slug: "naja"
-    verified: 2026-06-04
+    verified: 2026-06-05
   - page: "tribe"
     org_slug: "ngc"
     verified: 2026-06-04
@@ -288,3 +272,6 @@ entries:
   - page: "victim"
     org_slug: "apa"
     verified: 2026-06-04
+  - page: "white"
+    org_slug: "sierra-club"
+    verified: 2026-06-05

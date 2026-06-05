@@ -48,7 +48,7 @@ guidance:
     source_url: "https://www.diversitystyleguide.com/glossary/chicana-chicano/"
     local_archive: "source-guides/discovered/diversity-style-guide-2023-11.md"
     recommendation: "reclaimed-in-community"
-    quote: "People of Mexican descent; Chicano refers to men and Chicana to women. The terms were originally considered derogatory. However the Chicano movement during the 1960s adopted these names in response to discrimination against Mexican Americans working under unfair labor and social conditions. These terms announce pride in indigenous ancestry, which was a significant ideological element of the Chicano movement."
+    quote: "The terms were originally considered derogatory. However the Chicano movement during the 1960s adopted these names in response to discrimination against Mexican Americans working under unfair labor and social conditions. These terms announce pride in indigenous ancestry, which was a significant ideological element of the Chicano movement."
     quote_loc: "Chicana, Chicano entry (lines 816–819 in archived markdown)"
     paraphrase: "DSG's framing is historical — Chicano/Chicana were originally derogatory, reclaimed through the 1960s Chicano movement as terms of political and cultural pride foregrounding Indigenous ancestry. The reclaimed framing matters: this is not a neutral identifier, it's a politically chosen one. DSG also has a separate Chican@ entry treating the '@' construction as one of several gender-inclusive variants."
     confidence: "VERIFIED"

@@ -36,9 +36,9 @@ guidance:
     local_archive: "source-guides/discovered/gcjt-style-guide-trauma-2021.md"
     recommendation: "use-with-care"
     derived_from: []
-    quote: "The U.S. National Institute of Mental Health defines depression as a common but serious mood disorder with severe symptoms that affect how one feels, thinks, and handles daily activities. … To be diagnosed with depression (now officially termed Major Depressive Disorder) specific symptoms must have been present for at least two weeks."
+    quote: "To be diagnosed with depression (now officially termed Major Depressive Disorder) specific symptoms must have been present for at least two weeks."
     quote_loc: "Depression entry"
-    paraphrase: "GCJT treats depression as a clinical diagnosis (Major Depressive Disorder) with specific diagnostic criteria, and advises journalists to understand its forms and avoid drawing general links between suicide and depression in a story. The framing reserves the term for the diagnosed condition rather than everyday low mood."
+    paraphrase: "GCJT cites the U.S. National Institute of Mental Health's definition of depression as a common but serious mood disorder, and treats it as a clinical diagnosis (Major Depressive Disorder) requiring specific symptoms present for at least two weeks. It advises journalists to understand its forms and avoid drawing general links between suicide and depression in a story. The framing reserves the term for the diagnosed condition rather than everyday low mood."
     confidence: "VERIFIED-ARCHIVED"
   - org: "National Center on Disability and Journalism"
     org_slug: "ncdj"

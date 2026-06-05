@@ -76,7 +76,7 @@ guidance:
     source_url: "https://www.nlgja.org/stylebook/"
     local_archive: "source-guides/discovered/nlgja-stylebook-lgbtq-2025-06.md"
     recommendation: "use-with-care"
-    quote: "Fear, hatred or dislike of homosexuality, gay men and/or lesbians. Similar terms are biphobia for bisexuals and transphobia for transgender people. Restrict to relevant usage, such as in quotations, opinions or broad references to the concept. Use LGBTQ+ rights opponents or similar instead of homophobes when describing people who oppose LGBTQ+ people, rights or activism."
+    quote: "Fear, hatred or dislike of homosexuality, gay men and/or lesbians. … Restrict to relevant usage, such as in quotations, opinions or broad references to the concept. Use LGBTQ+ rights opponents or similar instead of homophobes when describing people who oppose LGBTQ+ people, rights or activism."
     quote_loc: "Sexual Orientation → homophobia (noun), homophobic (adj.)"
     paraphrase: "NLGJA's 2025 stylebook converges with DSG: accept the concept, restrict it to relevant usage (quotations, opinion, conceptual references), and use 'LGBTQ+ rights opponents' rather than 'homophobes' in news copy. The entry explicitly names biphobia and transphobia as parallel formations and treats them as a related family of concepts."
     confidence: "VERIFIED-ARCHIVED"

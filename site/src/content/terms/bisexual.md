@@ -55,7 +55,7 @@ guidance:
     source_url: "https://www.diversitystyleguide.com/glossary/bisexual-bi/"
     local_archive: "source-guides/discovered/diversity-style-guide-2023-11.md"
     recommendation: "use"
-    quote: "A person who has the capacity to form enduring physical, romantic and/or emotional attractions to those of the same gender or to those of another gender. People may experience this attraction in differing ways and degrees over their lifetime. Bisexual people need not have had specific sexual experiences to be bisexual; in fact, they need not have had any sexual experience at all to identify as bisexual."
+    quote: "People may experience this attraction in differing ways and degrees over their lifetime. Bisexual people need not have had specific sexual experiences to be bisexual; in fact, they need not have had any sexual experience at all to identify as bisexual."
     quote_loc: "Bisexual, bi entry"
     paraphrase: "DSG defines bisexual as the capacity for attraction across genders, and pairs the definition with two precision rules: experience can vary over a person's lifetime, and specific sexual experience is not required to identify as bisexual. The construction uses bisexual primarily as an adjective ('bisexual people')."
     confidence: "VERIFIED-ARCHIVED"

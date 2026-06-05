@@ -74,7 +74,7 @@ guidance:
     source_url: "https://www.racialequitytools.org/glossary"
     local_archive: "source-guides/discovered/racial-equity-tools-glossary-2023.md"
     recommendation: "use"
-    quote: "A term (pronounced sis-gender) used to refer to an individual whose gender identity aligns with the sex assigned to them at birth. The prefix cis- comes from the Latin word for 'on the same side as.' … The term cisgender is not a slur. People who are not trans should avoid calling themselves 'normal' and instead refer to themselves as cisgender or cis."
+    quote: "The term cisgender is not a slur. People who are not trans should avoid calling themselves 'normal' and instead refer to themselves as cisgender or cis."
     quote_loc: "Cisgender entry"
     paraphrase: "RET (sourcing PFLAG's June 2022 glossary) prescribes cisgender as the standard self-description for people who are not transgender, and explicitly names the term's contested politics: cisgender is not a slur, and the alternative ('normal') is the construction to avoid. The companion 'cissexism' entry frames cisgender privilege as a structural system, distinct from cisgender as an identity descriptor."
     confidence: "VERIFIED-ARCHIVED"

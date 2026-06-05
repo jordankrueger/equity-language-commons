@@ -73,7 +73,7 @@ guidance:
     local_archive: "source-guides/discovered/diversity-style-guide-2023-11.md"
     recommendation: "use"
     derived_from: []
-    quote: "Lowercase when referring to a hearing-loss condition or to a deaf person who prefers lowercase. Capitalize for those who identify as members of the Deaf community or when they capitalize Deaf when describing themselves. Deaf should be used as an adjective, not as a noun; it describes a person with profound or complete hearing loss."
+    quote: "Lowercase when referring to a hearing-loss condition or to a deaf person who prefers lowercase. Capitalize for those who identify as members of the Deaf community or when they capitalize Deaf when describing themselves. Deaf should be used as an adjective, not as a noun…"
     quote_loc: "Glossary entry, \"Deaf, deaf\""
     paraphrase: "The Diversity Style Guide sets out the capitalization rule — lowercase \"deaf\" for the condition, capital \"Deaf\" for the cultural community — and adds that \"Deaf\" should be used as an adjective, not a noun (\"woman who is deaf,\" not \"a deaf\")."
     confidence: "VERIFIED-ARCHIVED"

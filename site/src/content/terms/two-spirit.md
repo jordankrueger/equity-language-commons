@@ -39,7 +39,7 @@ guidance:
     local_archive: "source-guides/discovered/tja-stylebook-2026-01.md"
     recommendation: "use-with-care"
     derived_from: []
-    quote: "A term used by some trans and queer people that broadly encompasses Indigenous identity and spirituality, always capitalized. It can mean different things in various tribal and cultural contexts. When an Indigenous person uses this label for themself, ask how they define it and include appropriate context about their tribal or national identity."
+    quote: "A term used by some trans and queer people that broadly encompasses Indigenous identity and spirituality, always capitalized. … When an Indigenous person uses this label for themself, ask how they define it and include appropriate context about their tribal or national identity."
     quote_loc: "Definitions → Two-Spirit (adj.)"
     paraphrase: "TJA defines Two-Spirit as an always-capitalized term encompassing Indigenous identity and spirituality whose meaning varies across tribal and cultural contexts. The guidance for writers: when an Indigenous person self-identifies this way, ask how they define it and supply context about their specific tribal or national identity."
     confidence: "VERIFIED-ARCHIVED"

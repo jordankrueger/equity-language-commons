@@ -30,7 +30,7 @@ guidance:
     source_url: "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf"
     local_archive: "source-guides/Equity Language Guide Sierra Club 2021.pdf"
     recommendation: "non-preferred"
-    quote: "Minority: According to Race Forward, 'Defining people of color as ‘minorities’ is not recommended because of changing demographics and the ways in which it reinforces ideas of inferiority and marginalization of a group of people.' In some areas, it is also simply becoming inaccurate as population demographics shift. When considering a term to use other than 'minority,' consider which specific communities you actually mean. BIPOC communities? Working class communities? Be more specific and you can easily avoid this term."
+    quote: "Minority: According to Race Forward, 'Defining people of color as ‘minorities’ is not recommended because of changing demographics and the ways in which it reinforces ideas of inferiority and marginalization of a group of people.' In some areas, it is also simply becoming inaccurate as population demographics shift."
     quote_loc: "p. 13, Racial and Ethnic Identity → Common Phrases to Avoid"
     paraphrase: "Sierra Club's avoidance recommendation stacks three reasons: demographic inaccuracy (in many places non-white populations are not numerically minorities), the inferiority-marginalization connotation, and the same specificity preference that runs across the entire R&E section. Sources the recommendation to Race Forward."
     confidence: "VERIFIED-ARCHIVED"

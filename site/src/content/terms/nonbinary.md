@@ -62,7 +62,7 @@ guidance:
     local_archive: "source-guides/discovered/nlgja-stylebook-lgbtq-2025-06.md"
     recommendation: "use"
     derived_from: []
-    quote: "Refers to a person whose gender identity and/or expression is not strictly male or female. Nonbinary people may identify as somewhere between male and female or reject a binary categorization of gender altogether. Use if a person self-identifies as nonbinary, or in quotations or names of organizations. Some nonbinary individuals identify as trans."
+    quote: "Refers to a person whose gender identity and/or expression is not strictly male or female. … Use if a person self-identifies as nonbinary, or in quotations or names of organizations. Some nonbinary individuals identify as trans."
     quote_loc: "Gender, Gender Identity → nonbinary (adj.)"
     paraphrase: "NLGJA's 2025 stylebook treats nonbinary as an adjective and ties its use to self-identification: apply it when a person identifies that way, in quotations, or in organization names. The entry repeats the partial trans-overlap rule — some nonbinary people identify as trans, some do not — and the singular \"they\" is treated as standard, needing no explanation."
     confidence: "VERIFIED-ARCHIVED"
@@ -74,7 +74,7 @@ guidance:
     local_archive: "source-guides/discovered/tja-stylebook-2026-01.md"
     recommendation: "use"
     derived_from: []
-    quote: "An umbrella term for genders other than man and woman. This is also a term for a specific gender. While nonbinary people are generally not considered cisgender, not everyone who is nonbinary considers themselves trans. Do not automatically identify a nonbinary person as trans unless they describe themself that way; identify them simply as nonbinary."
+    quote: "An umbrella term for genders other than man and woman… While nonbinary people are generally not considered cisgender, not everyone who is nonbinary considers themselves trans. Do not automatically identify a nonbinary person as trans unless they describe themself that way; identify them simply as nonbinary…"
     quote_loc: "Politicized or Inaccurate Phrases → nonbinary (adj.)"
     paraphrase: "TJA's definition is the tightest in the corpus: nonbinary is both an umbrella for genders other than man and woman and a specific gender, and writers should never auto-label a nonbinary person as trans unless they self-describe that way. The accompanying TJA guidance rejects \"identifies as nonbinary\" framing in favor of \"is nonbinary.\""
     confidence: "VERIFIED-ARCHIVED"

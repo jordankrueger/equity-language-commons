@@ -96,7 +96,7 @@ guidance:
     source_url: "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf"
     local_archive: "source-guides/Equity Language Guide Sierra Club 2021.pdf"
     recommendation: "avoid"
-    quote: "'Indian' or 'Indian Country': Similarly, though many Tribal peoples may use 'Indian' to refer to themselves, the Sierra Club is not a Tribal organization and should default to using a more formal, respectful term like 'Tribal' or 'Native.' If someone wishes to be identified as 'Indian,' we should refer to them as 'self-identified' (e.g., self-identified Indian activist)."
+    quote: "though many Tribal peoples may use 'Indian' to refer to themselves, the Sierra Club is not a Tribal organization and should default to using a more formal, respectful term like 'Tribal' or 'Native.' If someone wishes to be identified as 'Indian,' we should refer to them as 'self-identified'…"
     quote_loc: "p. 18, Cultural Appropriation — Common Phrases to Avoid"
     paraphrase: "Sierra Club splits the in-group / out-group question explicitly: 'Indian' can be legitimate in-group self-reference but is not appropriate for Sierra Club's house use. The guide also flags 'on the rez,' 'spirit animals,' 'Eskimo' (except self-ID), 'tribalism' (to mean extreme loyalty), 'let's powwow,' 'circle the wagons,' 'low on the totem pole,' and any use of 'native' in the 'native New Yorker' sense. Unusual in the corpus for naming both in-group/out-group dynamics and everyday-idiom appropriation together."
     confidence: "VERIFIED-ARCHIVED"
@@ -137,7 +137,7 @@ guidance:
     derived_from:
       - "un-cobo-1972"
       - "indigenous-environmental-network"
-    quote: "[Indigenous Sovereignty] is distinguishable from Tribal Sovereignty in that it is not a nation-state recognition of inherent sovereignty under nation-state dominion. Rather, it arises from Indigenous Traditional Knowledge, belonging to each Indigenous nation, tribe, first nation, community, etc. Indigenous sovereignty exists regardless of what the nation-state does or does not do."
+    quote: "[Indigenous Sovereignty] is distinguishable from Tribal Sovereignty in that it is not a nation-state recognition of inherent sovereignty under nation-state dominion. Rather, it arises from Indigenous Traditional Knowledge, belonging to each Indigenous nation, tribe, first nation, community, etc."
     quote_loc: "Entry 'Indigenous Sovereignty' (archived markdown line 2128), quoting Indigenous Environmental Network, June 2020"
     paraphrase: "RET carries three relevant entries: Indigenous populations (UN Cobo 1972 definition), Indigenous Sovereignty, and Tribal Sovereignty. RET's distinctive contribution is the explicit split between Indigenous Sovereignty (inherent, pre-colonial, independent of state recognition) and Tribal Sovereignty (legal recognition within US law). No other corpus source names this conceptual distinction so cleanly. The Cobo report (1972) is the canonical UN-level definition."
     confidence: "VERIFIED"

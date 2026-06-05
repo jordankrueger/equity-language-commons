@@ -47,7 +47,7 @@ guidance:
     source_url: "https://nativegov.org/resources/style-guide/"
     local_archive: "source-guides/Native-Governance-Center-Style-Guide-published-2021-02.pdf"
     recommendation: "use-with-care"
-    quote: "Use Black, Indigenous, People of Color (BIPOC) rather than People of Color (POC) if referring to a group that includes Black and/or Indigenous folks. Refer to individuals by their individual racial/ethnic/cultural/political identifier, rather than using BIPOC, whenever possible. Example, 'Natalia is a Latinx small business owner,' rather than, 'Natalia is a BIPOC small business owner.'"
+    quote: "Use Black, Indigenous, People of Color (BIPOC) rather than People of Color (POC) if referring to a group that includes Black and/or Indigenous folks. Refer to individuals by their individual racial/ethnic/cultural/political identifier, rather than using BIPOC, whenever possible."
     quote_loc: "p. 4, References to Racial, Ethnic, Cultural (and Political) Groups"
     paraphrase: "NGC's rule matches Sierra Club's at the structural level — BIPOC over POC when Black or Indigenous people are in the group; specific identifier over BIPOC for individuals. The Natalia example is the cleanest articulation of the failure mode the rule guards against: a Latinx small business owner is not 'a BIPOC small business owner' as an identity label; BIPOC is a collective frame, not a personal descriptor."
     confidence: "VERIFIED-ARCHIVED"

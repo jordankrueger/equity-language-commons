@@ -46,7 +46,7 @@ guidance:
     local_archive: "source-guides/discovered/define-american-media-reference-2024-01.pdf"
     recommendation: "use"
     derived_from: []
-    quote: "Refugee: An individual who has been forced to flee their home country because of a well-founded fear of persecution based on race, religion, nationality, membership in a particular social group, or political opinion. Congress gave the President authority to set a quota each year on the number of refugees to admit."
+    quote: "Refugee: An individual who has been forced to flee their home country because of a well-founded fear of persecution based on race, religion, nationality, membership in a particular social group, or political opinion."
     quote_loc: "p. 10, Define “Immigrant” → Refugee"
     paraphrase: "Define American defines 'refugee' by its persecution-based legal standard and distinguishes it from asylum seekers (who must apply from inside the U.S. or at a port of entry) and migrants. The definition is presented matter-of-factly, with the term treated as accurate and usable when the legal circumstances fit."
     confidence: "VERIFIED-ARCHIVED"
@@ -58,7 +58,7 @@ guidance:
     local_archive: "source-guides/discovered/tja-stylebook-2026-01.md"
     recommendation: "use-with-care"
     derived_from: []
-    quote: "When writing about asylum seekers who are transgender or otherwise gender-expansive, make sure to ask about gendered language (whether pronouns or titles, etc.) as well as what term they use to describe themselves… Always double-check with a source before including their last name in the story in case the published information may jeopardize their asylum application."
+    quote: "When writing about asylum seekers who are transgender or otherwise gender-expansive, make sure to ask about gendered language (whether pronouns or titles, etc.) as well as what term they use to describe themselves…"
     quote_loc: "Reporting on asylum seekers or refugees"
     paraphrase: "The Trans Journalists Association does not object to 'refugee' but adds a self-identification and safety layer when reporting on trans or gender-expansive refugees and asylum seekers: ask which terms and gendered language a person uses for themselves, recognize that language varies across cultures, and protect identifying details that could jeopardize an asylum claim or endanger the person's community back home."
     confidence: "VERIFIED-ARCHIVED"

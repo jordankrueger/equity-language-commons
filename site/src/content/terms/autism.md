@@ -26,7 +26,7 @@ guidance:
     local_archive: "source-guides/discovered/ncdj-disability-style-guide-2021.md"
     recommendation: "use"
     derived_from: []
-    quote: "Opinions vary on how to refer to someone with autism. Some people with autism prefer being referred to as \"autistic\" … Refer to someone as having autistic spectrum disorder only if the information is relevant to the story and if you are confident there is a medical diagnosis. Ask individuals how they prefer to be described."
+    quote: "Some people with autism prefer being referred to as \"autistic\" … Refer to someone as having autistic spectrum disorder only if the information is relevant to the story and if you are confident there is a medical diagnosis. Ask individuals how they prefer to be described."
     quote_loc: "Autism/autism spectrum disorder/autistic entry, NCDJ Recommendation"
     paraphrase: "NCDJ — the chapter's anchor — treats the identity-first/people-first choice as one the individual settles: many prefer \"autistic\" or \"an autistic person,\" others prefer \"a person with autism.\" It notes the 2013 DSM-5 folded subtypes like Asperger's into the single autism spectrum disorder diagnosis, points to the Autistic Self Advocacy Network's identity-first guidance, and advises naming a diagnosis only when relevant and confirmed."
     confidence: "VERIFIED-ARCHIVED"
@@ -50,7 +50,7 @@ guidance:
     local_archive: "source-guides/Equity Language Guide Sierra Club 2021.pdf"
     recommendation: "use"
     derived_from: []
-    quote: "Sometimes individuals prefer \"identity-first\" language. For example, some people prefer to identify as \"an autistic person\" rather than someone \"with autism\" because their autism is foundational to their sense of self. In all cases, ask people how they want to be identified, and remember that no community speaks with one voice."
+    quote: "For example, some people prefer to identify as \"an autistic person\" rather than someone \"with autism\" because their autism is foundational to their sense of self. In all cases, ask people how they want to be identified, and remember that no community speaks with one voice."
     quote_loc: "Overall Recommendations, Use People-First Language, p. 1"
     paraphrase: "Sierra Club uses autism as its worked example of identity-first language: some people prefer \"an autistic person\" because their autism is foundational to their sense of self. The governing rule is to ask each person how they want to be identified, with the reminder that the community does not speak with one voice."
     confidence: "VERIFIED-ARCHIVED"
@@ -74,7 +74,7 @@ guidance:
     local_archive: "source-guides/discovered/diversity-style-guide-2023-11.md"
     recommendation: "use"
     derived_from: []
-    quote: "Opinions vary on how to refer to someone with autism. Some people with autism prefer being referred to as an autistic person; others object to using autistic as an adjective. … Ask individuals how they prefer to be described. If in doubt, use people-first language, referring to someone as a person with autism spectrum disorder rather than an autistic person."
+    quote: "Some people with autism prefer being referred to as an autistic person; others object to using autistic as an adjective. … Ask individuals how they prefer to be described. If in doubt, use people-first language, referring to someone as a person with autism spectrum disorder rather than an autistic person."
     quote_loc: "Glossary entry, \"autism/autism spectrum disorders\""
     paraphrase: "DSG records the same split — some prefer \"an autistic person,\" others object to \"autistic\" as an adjective — and directs writers to ask, defaulting to people-first language only when in doubt. Like NCDJ, it notes the 2013 DSM-5 consolidated subtypes such as Asperger's into the single autism spectrum disorder diagnosis."
     confidence: "VERIFIED-ARCHIVED"

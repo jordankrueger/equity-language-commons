@@ -27,7 +27,7 @@ guidance:
     local_archive: "source-guides/discovered/sumofus-progressive-styleguide-2016.pdf"
     recommendation: "avoid"
     derived_from: []
-    quote: "The term “Indian” is outdated and should be replaced by the term “First Nation” except in the following cases: in direct quotations; when citing titles of books, works of art, etc.; in discussions of history where necessary for clarity and accuracy; in discussions of some legal/constitutional matters requiring precision in terminology …"
+    quote: "The term “Indian” is outdated and should be replaced by the term “First Nation” except in the following cases: in direct quotations; when citing titles of books, works of art, etc.; … in discussions of some legal/constitutional matters requiring precision in terminology …"
     quote_loc: "Indigeneity/Ancestry section, terminology bullets"
     paraphrase: "Writing for a Canadian context, Sum of Us directs writers to replace standalone “Indian” with “First Nation,” carving out exceptions for direct quotations, titles of works, historical discussion, and legal or constitutional precision (including statistical categories and rights tied to legal “Indian” status)."
     confidence: "VERIFIED-ARCHIVED"
@@ -51,7 +51,7 @@ guidance:
     local_archive: "source-guides/Equity Language Guide Sierra Club 2021.pdf"
     recommendation: "use-with-care"
     derived_from: []
-    quote: "“Indian” or “Indian Country”: Similarly, though many Tribal peoples may use “Indian” to refer to themselves, the Sierra Club is not a Tribal organization and should default to using a more formal, respectful term like “Tribal” or “Native.” If someone wishes to be identified as “Indian,” we should refer to them as “self-identified” (e.g., self-identified Indian activist)."
+    quote: "the Sierra Club is not a Tribal organization and should default to using a more formal, respectful term like “Tribal” or “Native.” If someone wishes to be identified as “Indian,” we should refer to them as “self-identified” (e.g., self-identified Indian activist)."
     quote_loc: "Indigenous Peoples → Slang terms and references to avoid"
     paraphrase: "Sierra Club acknowledges that many Tribal people use “Indian” for themselves, but advises non-Tribal organizations to default to “Tribal” or “Native.” When someone self-identifies as Indian, the guide directs writers to mark that explicitly (e.g., “self-identified Indian activist”), keeping self-identification primary."
     confidence: "VERIFIED-ARCHIVED"
@@ -63,7 +63,7 @@ guidance:
     local_archive: "source-guides/discovered/diversity-style-guide-2023-11.md"
     recommendation: "use-with-care"
     derived_from: []
-    quote: "Use Indian or person from India to refer to a person with ancestral ties to India. Use Indian American to refer to a U.S. permanent resident or citizen with ancestral ties to India. Do not confuse with American Indian. Do not use to refer to indigenous peoples of the United States."
+    quote: "Use Indian or person from India to refer to a person with ancestral ties to India. Use Indian American to refer to a U.S. permanent resident or citizen with ancestral ties to India. … Do not use to refer to indigenous peoples of the United States."
     quote_loc: "Entry: Indian, Indian American"
     paraphrase: "DSG treats the unqualified “Indian” as referring to people with ancestral ties to India, and explicitly cautions against using it for Indigenous peoples of the United States (use American Indian for that). The two senses should not be conflated."
     confidence: "VERIFIED-ARCHIVED"

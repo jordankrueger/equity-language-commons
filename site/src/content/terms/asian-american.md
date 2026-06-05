@@ -62,7 +62,7 @@ guidance:
     source_url: "https://www.diversitystyleguide.com/glossary/asian-american-asian-american/"
     local_archive: "source-guides/discovered/diversity-style-guide-2023-11.md"
     recommendation: "use"
-    quote: "Asian American is the proper term for people who come from Asia or descend from people who lived in Asia. Do not hyphenate. When possible, ask people how they identify (Asian American or Chinese American, Japanese American, etc.). You may use the umbrella term South Asian to refer to Indians, Pakistanis and Bangladeshis. Chinese, Japanese, Korean, Vietnamese and others would be known as East Asians."
+    quote: "Asian American is the proper term for people who come from Asia or descend from people who lived in Asia. Do not hyphenate. … You may use the umbrella term South Asian to refer to Indians, Pakistanis and Bangladeshis."
     quote_loc: "Asian American entry (lines 466–469 in archived markdown)"
     paraphrase: "DSG's rule is tight: 'Asian American' is the proper term, no hyphen, ask for self-ID when possible. Provides the sub-umbrella structure used across the US — South Asian (India, Pakistan, Bangladesh), East Asian (China, Japan, Korea, Vietnam). The separate 'Asian' entry flags 'Caution. A term as broad as European.' — useful for distinguishing US 'Asian American' usage from UK 'Asian' usage (which centers South Asian)."
     confidence: "VERIFIED"

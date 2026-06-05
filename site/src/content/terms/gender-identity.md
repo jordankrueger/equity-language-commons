@@ -25,7 +25,7 @@ guidance:
     local_archive: "source-guides/discovered/gcjt-style-guide-trauma-2021.md"
     recommendation: "use"
     derived_from: []
-    quote: "Gender identity refers to how people feel or present themselves, and can correlate or differ from the sex they were assigned at birth. Only refer to an individual's gender if it's pertinent to a story. Seek permission from sources when publishing details about gender if doing so could result in repercussions for that person."
+    quote: "Only refer to an individual's gender if it's pertinent to a story. Seek permission from sources when publishing details about gender if doing so could result in repercussions for that person."
     quote_loc: "Gender Identity entry"
     paraphrase: "GCJT defines gender identity as how people feel about and present their gender, which may align with or differ from sex assigned at birth, and pairs the definition with two trauma-informed rules: mention gender only when pertinent, and seek consent before publishing gender details that could put a source at risk."
     confidence: "VERIFIED-ARCHIVED"
@@ -37,7 +37,7 @@ guidance:
     local_archive: "source-guides/discovered/apa-inclusive-language-2023-10.pdf"
     recommendation: "use"
     derived_from: []
-    quote: "A person's psychological sense of their gender. Many people describe gender identity as a deeply felt, inherent sense of being nonbinary, a woman/girl, or a man/boy. … Gender identity applies to all individuals and is not a characteristic of only transgender or nonbinary individuals. Gender identity is distinct from sexual orientation. …"
+    quote: "A person's psychological sense of their gender. … Gender identity applies to all individuals and is not a characteristic of only transgender or nonbinary individuals. Gender identity is distinct from sexual orientation…"
     quote_loc: "Gender identity definition"
     paraphrase: "APA defines gender identity as a person's psychological, deeply felt sense of their own gender, and stresses two boundaries: it applies to everyone, not only transgender or nonbinary people, and it is distinct from sexual orientation — the two must not be conflated. Identities may or may not correspond to sex assigned at birth."
     confidence: "VERIFIED-ARCHIVED"
@@ -61,7 +61,7 @@ guidance:
     local_archive: "source-guides/discovered/racial-equity-tools-glossary-2023.md"
     recommendation: "use"
     derived_from: []
-    quote: "A person's deeply held core sense of self in relation to gender. Gender identity does not always correspond to biological sex. People become aware of their gender identity at many different stages of life, from as early as 18 months and into adulthood. Gender identity is a separate concept from sexuality and gender expression."
+    quote: "People become aware of their gender identity at many different stages of life, from as early as 18 months and into adulthood. Gender identity is a separate concept from sexuality and gender expression."
     quote_loc: "Glossary, Gender Identity entry"
     paraphrase: "RET defines gender identity as a deeply held core sense of self in relation to gender that need not correspond to biological sex, and notes awareness can emerge at any life stage. The entry draws the same two boundaries the corpus shares: gender identity is separate from both sexuality and gender expression."
     confidence: "VERIFIED-ARCHIVED"
