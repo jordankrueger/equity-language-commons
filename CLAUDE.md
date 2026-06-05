@@ -55,15 +55,21 @@ plus glossary index + SQLite build-time index + Contribute page.
 ## Pick-up notes for next ELC session
 
 **NEXT SESSION PLAN (agreed 2026-06-04):**
-1. **Finish the verification arc:** trim the ~60 over-length quotes (lint W2 list; Layer 1 re-verifies; remove touched rows from `layer1-verified-overrides.yml`), then pre-triage `notes/verification/layer2-external-summary.md` — Claude proposes keep/cite/cut per group, Jordan reviews decisions not raw items.
+1. **Finish the verification arc:** ~~trim the over-length quotes~~ (**done 2026-06-05** — see below), then pre-triage `notes/verification/layer2-external-summary.md` — Claude proposes keep/cite/cut per group, Jordan reviews decisions not raw items.
 2. **Source discovery session (`/research`):** corpus is tapped at 94 terms vs the ~250 launch target. Needed guides: movement/organizing (unlocks Movement & Advocacy chapter), Jewish-press or interfaith (graduates jew/islam stubs), poverty/economic-justice (Class stuck at 4), migration/asylum (unlocks asylum-seeker, migrant, anchor-baby).
 3. **DECISION FOR JORDAN before launch prep:** launch at ~100 machine-verified pages vs. grind to the locked ~250-page threshold. The verification system changes the calculus — per-page quality is now provable. Launch prep (repo public, DNS flip, legal pass) waits on this call.
+
+**Done 2026-06-05 — all 81 over-length quotes trimmed to fair-use ≤50 words (W2 lint clean):**
+- 67 mechanical (51–80w) via 3 parallel subagents + 14 big ones (81–153w, the definitional heavyweights: bipoc, hispanic, latino, black, white) Jordan-reviewed. All trims are **pure-deletion contiguous spans** of the previously verified quote, span-checked programmatically against git HEAD — paraphrases carry the dropped material (5 extended). Working pattern: the quote-worthy part is the org's *rule or argument in its own voice*; definitions, stats, and worked examples paraphrase fine.
+- **Override-row bookkeeping:** 18 touched rows removed from `layer1-verified-overrides.yml`; 16 re-added dated 2026-06-05 with a substring-of-verified-chain rationale (trimmed spans are substrings of 2026-06-04 hand-verified text, so faithfulness is preserved by construction; extraction .mds still can't exact-match them). 3 TRUNCATED verdicts fixed with the trailing-"…" convention instead.
+- **Gotcha:** override rows are per (page, org_slug) and cover ALL of that org's entries on the page — removing one exposes untrimmed sibling quotes to re-verification too.
+- Layer 1 green (802 checks, 0 findings), lint 0 W2, 142 pages built, deployed + spot-checked live. Commits b9bc6d9 + e1dbccc on main.
 
 **Done 2026-06-04 (later) — full content-verification system shipped + run:**
 - **Layer 0** `scripts/lint-content.py` gates every deploy (brackets/TODOs/scaffold notes/broken links). Fixed 19 [[wiki-bracket]] artifacts + 58 leftover TODO comments.
 - **Layer 1** `scripts/verify-content.py`: every guidance quote checked against its archive (exact/truncated/loose/gapped tiers + accent-folding + pandoc-noise stripping), confidence-label audit, URL liveness (gated-source tolerant), org/year cross-refs. 433 checks GREEN. 103 extraction-artifact quotes hand-verified vs PDFs live in `notes/verification/layer1-verified-overrides.yml` — **remove a row if its quote is edited**. Quote-triage found zero fabrications; 8 fixes (ellipses, NAJA years).
 - **Layer 2** `scripts/verify-synthesis-codex.py`: Codex (ChatGPT OAuth, `codex exec` via stdin, OPENAI_API_KEY stripped) audited 3,921 claims on 91 pages. 125 CONTRADICTED hand-triaged → **114 REAL paraphrase/synthesis precision fixes** (over-claimed consensus, misattributed definitions), 8 dismissed, 3 stale. Zero fabricated quotes / wrong recommendations. Reports + dispositions in `notes/verification/`.
-- **Open for Jordan:** keep/cite/cut triage of ~336 genuine EXTERNAL added-facts (`notes/verification/layer2-external-summary.md`, grouped); 325 more flags are "excerpt insufficient" (bundle-size limitation — optional re-audit with bigger bundles); ~60 W2 over-length quotes from lint still need trimming pre-launch.
+- **Open for Jordan:** keep/cite/cut triage of ~336 genuine EXTERNAL added-facts (`notes/verification/layer2-external-summary.md`, grouped); 325 more flags are "excerpt insufficient" (bundle-size limitation — optional re-audit with bigger bundles).
 - **Gotchas captured:** codex hangs = hidden Gatekeeper dialog (Screen Share to dismiss); codex exec input cap ~1MB (use stdin + char-capped bundles); `codex exec -` reads prompt from stdin.
 
 **Done 2026-06-04 — 13-term mega-batch across 5 chapters (94 terms total):**
