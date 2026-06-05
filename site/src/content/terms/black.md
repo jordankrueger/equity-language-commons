@@ -67,7 +67,7 @@ guidance:
     source_url: "https://www.diversitystyleguide.com/glossary/african-american-african-american-black-2/"
     local_archive: "source-guides/discovered/diversity-style-guide-2023-11.md"
     recommendation: "use"
-    quote: "African American and Black are both generally acceptable although some individuals may have a strong preference for one term or other. Black and African American do not necessarily mean the same thing and individuals may not identify with one term or the other. It's best to ask. If that's not possible, use either term. In a series of polls between 1991 and 2019, Gallup found that half to two-thirds of African American and Black respondents did not have a preference, and in the most recent poll in 2019 those who did have a preference were evenly split between the two terms."
+    quote: "Black and African American do not necessarily mean the same thing and individuals may not identify with one term or the other. It's best to ask. If that's not possible, use either term."
     quote_loc: "Entry: African American, African-American, Black, black (lines 191–194 in archived markdown)"
     paraphrase: "DSG treats Black and African American as parallel acceptable terms, distinct in meaning, with self-identification as primary. Provides Gallup data showing roughly half of Black/African American respondents have no preference between the two; the half that do are split. The 2020 turn to capitalize Black is documented as a post-George Floyd shift across AP, NABJ, and NYT."
     confidence: "VERIFIED"

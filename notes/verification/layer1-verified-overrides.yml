@@ -42,8 +42,14 @@ entries:
     org_slug: "apa"
     verified: 2026-06-04
   - page: "bipoc"
+    org_slug: "diversity-style-guide"
+    verified: 2026-06-05
+  - page: "bipoc"
     org_slug: "racial-equity-tools"
     verified: 2026-06-04
+  - page: "bipoc"
+    org_slug: "sierra-club"
+    verified: 2026-06-05
   - page: "cisgender"
     org_slug: "diversity-style-guide"
     verified: 2026-06-04
@@ -107,6 +113,9 @@ entries:
   - page: "handicapped"
     org_slug: "apa"
     verified: 2026-06-04
+  - page: "hispanic"
+    org_slug: "diversity-style-guide"
+    verified: 2026-06-05
   - page: "hispanic"
     org_slug: "sierra-club"
     verified: 2026-06-04
@@ -272,6 +281,9 @@ entries:
   - page: "victim"
     org_slug: "apa"
     verified: 2026-06-04
+  - page: "white"
+    org_slug: "diversity-style-guide"
+    verified: 2026-06-05
   - page: "white"
     org_slug: "sierra-club"
     verified: 2026-06-05

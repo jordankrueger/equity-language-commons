@@ -42,7 +42,7 @@ guidance:
     source_url: "https://www.diversitystyleguide.com/glossary/minority/"
     local_archive: "source-guides/discovered/diversity-style-guide-2023-11.md"
     recommendation: "non-preferred"
-    quote: "These terms have historically referred to non-White racial groups, indicating that they were numerically smaller than the dominant White majority. Defining people of color as 'minorities' is not recommended because of changing demographics and the ways in which it reinforces ideas of inferiority and marginalization of a group of people. Defining people by how they self-identify is often preferable and more respectful. The term 'minority' may be needed in specific cases (such as 'minority contracting' and 'minority-owned businesses') to reflect data that is collected using those categories. Avoid referring to an individual as a minority."
+    quote: "Defining people of color as 'minorities' is not recommended because of changing demographics and the ways in which it reinforces ideas of inferiority and marginalization of a group of people. … The term 'minority' may be needed in specific cases (such as 'minority contracting' and 'minority-owned businesses')…"
     quote_loc: "minority, racial minority entry (lines 2461–2464 in archived markdown)"
     paraphrase: "DSG matches Sierra Club's reasoning exactly (both source the framing to Race Forward) and adds the practical exception: formal program names where 'minority' is the institutional category being referenced ('minority contracting,' 'minority-owned business') are acceptable because they refer to the actual data category. Otherwise avoid; never apply 'a minority' to an individual."
     confidence: "VERIFIED"

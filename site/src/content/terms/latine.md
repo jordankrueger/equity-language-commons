@@ -35,7 +35,7 @@ guidance:
     source_url: "https://www.diversitystyleguide.com/glossary/latine/"
     local_archive: "source-guides/discovered/diversity-style-guide-2023-11.md"
     recommendation: "use"
-    quote: "Latine is a gender-neutral or non-binary alternative to Latino and Latina. This term originated from LGBTQIA+, gender non-binary and feminist communities in Spanish-speaking countries. Latine replaces the 'a' and 'o' with the gender-neutral Spanish letter 'e'. The letter 'e' can be found in non-gendered Spanish nouns like 'estudiante' (student). Latine is pronounced la-TEEN-eh; it's similar to Latino, but replace the 'o' with the Spanish 'e' sound. Latine is increasingly used among Spanish speakers as it's more easily pronounced than Latinx and can be used in plural forms."
+    quote: "Latine is a gender-neutral or non-binary alternative to Latino and Latina. This term originated from LGBTQIA+, gender non-binary and feminist communities in Spanish-speaking countries. … Latine is increasingly used among Spanish speakers as it's more easily pronounced than Latinx and can be used in plural forms."
     quote_loc: "Latine entry (lines 2201–2204 in archived markdown)"
     paraphrase: "DSG's Latine entry (updated March 2024, the most recent of any DSG entry on this cluster) frames Latine as structurally better than Latinx for Spanish speakers: pronounceable, follows the existing 'e' gender-neutral pattern in Spanish, pluralizes cleanly. Origins are LGBTQIA+ and feminist communities in Spanish-speaking countries — the term was constructed inside Spanish, not imported to it."
     confidence: "VERIFIED"

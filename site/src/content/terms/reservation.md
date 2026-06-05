@@ -32,7 +32,7 @@ guidance:
     source_url: "https://nativegov.org/resources/style-guide/"
     local_archive: "source-guides/Native-Governance-Center-Style-Guide-published-2021-02.pdf"
     recommendation: "use-with-care"
-    quote: "DO NOT capitalize reservation, unless it's part of a specific reservation name or referring back to the name of a specific reservation. Example: 'Wayne Ducheneaux II is from the Cheyenne River Reservation. When he was recently back home on the Reservation, he knocked down a wall …' A note on the term reservation: A reservation is not the same thing as a Native nation. A reservation refers to a Native nation's current land base as defined by the federal government. A Native nation is a sovereign political entity."
+    quote: "DO NOT capitalize reservation, unless it's part of a specific reservation name or referring back to the name of a specific reservation. … A reservation refers to a Native nation's current land base as defined by the federal government. A Native nation is a sovereign political entity."
     quote_loc: "p. 6, The People and Nations We Serve → Other terminology related to Native nations and lands"
     paraphrase: "NGC distinguishes a reservation (a land base defined by the federal government) from a Native nation (a sovereign political entity) — the two are not interchangeable. Capitalization rule: lowercase 'reservation' as a generic term; capitalize only when it appears as part of a specific named reservation, or when an immediate back-reference makes the antecedent specific."
     confidence: "VERIFIED-ARCHIVED"

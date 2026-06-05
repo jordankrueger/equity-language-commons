@@ -37,7 +37,7 @@ guidance:
     source_url: "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf"
     local_archive: "source-guides/Equity Language Guide Sierra Club 2021.pdf"
     recommendation: "use"
-    quote: "When writing about a specific individual, ask what pronouns they use (she, her, hers; he, him, his; they, them, their; or different pronouns of their choice). Don't assume someone's gender on the basis of their appearance. They/them/their and other gender neutral pronouns are a legitimate and vital identification for people whose identities are not encompassed by the gender binary. When you do not know someone's gender, and have no way of asking them, follow AP style by defaulting to a gender-neutral 'they' pronoun."
+    quote: "When writing about a specific individual, ask what pronouns they use … Don't assume someone's gender on the basis of their appearance. … When you do not know someone's gender, and have no way of asking them, follow AP style by defaulting to a gender-neutral 'they' pronoun."
     quote_loc: "Tips for Writing About Gender and Sexuality, p. 7"
     paraphrase: "Sierra Club's rule centers three operational steps: ask the individual, never assume from appearance, and default to singular 'they' when asking isn't possible. The guide treats gender-neutral pronouns as legitimate identification (not preference) and aligns with AP style for unknown-pronoun defaults."
     confidence: "VERIFIED-ARCHIVED"

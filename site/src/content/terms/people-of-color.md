@@ -73,7 +73,7 @@ guidance:
     source_url: "https://www.racialequitytools.org/glossary"
     local_archive: "source-guides/discovered/racial-equity-tools-glossary-2023.md"
     recommendation: "use"
-    quote: "Often the preferred collective term for referring to non-White racial groups. Racial justice advocates have been using the term 'people of color' (not to be confused with the pejorative 'colored people') since the late 1970s as an inclusive and unifying frame across different racial groups that are not White, to address racial inequities. While 'people of color' can be a politically useful term, and describes people with their own attributes (as opposed to what they are not, e.g., 'non-White'), it is also important whenever possible to identify people through their own racial/ethnic group, as each has its own distinct experience and meaning and may be more appropriate."
+    quote: "Racial justice advocates have been using the term 'people of color' (not to be confused with the pejorative 'colored people') since the late 1970s as an inclusive and unifying frame across different racial groups that are not White, to address racial inequities."
     quote_loc: "People of Color entry (lines 3211–3215 in archived markdown)"
     paraphrase: "RET treats POC as positively framed — names people by their own attributes rather than by what they are not. Roots the term historically in late-1970s racial-justice organizing. Distinguishes sharply from 'colored people,' which is pejorative. Same specificity-preferred caveat as Sierra Club and DSG."
     confidence: "VERIFIED"

@@ -120,11 +120,11 @@
 {"page": "autism", "org_slug": "apa", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf"}
 {"page": "autism", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
 {"page": "autism", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/autismautism-spectrum-disorders/"}
-{"page": "bipoc", "org_slug": "sierra-club", "year": "2021", "check": "V1", "verdict": "GAPPED", "detail": "sierra-club-equity-language-guide-2021.md :: A preferred term today is 'BIPOC' referring to Black, Indige"}
+{"page": "bipoc", "org_slug": "sierra-club", "year": "2021", "check": "V1", "verdict": "HUMAN-VERIFIED", "detail": "sierra-club-equity-language-guide-2021.md"}
 {"page": "bipoc", "org_slug": "sierra-club", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf"}
 {"page": "bipoc", "org_slug": "ngc", "year": "2021", "check": "V1", "verdict": "OK", "detail": "native-governance-center-style-guide-2021-02.md"}
 {"page": "bipoc", "org_slug": "ngc", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://nativegov.org/resources/style-guide/"}
-{"page": "bipoc", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "GAPPED", "detail": "diversity-style-guide-2023-11.md :: An acronym that stands for Black, Indigenous and people of c"}
+{"page": "bipoc", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "HUMAN-VERIFIED", "detail": "diversity-style-guide-2023-11.md"}
 {"page": "bipoc", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/bipoc/"}
 {"page": "bipoc", "org_slug": "racial-equity-tools", "year": "2023", "check": "V1", "verdict": "HUMAN-VERIFIED", "detail": "racial-equity-tools-glossary-2023.md"}
 {"page": "bipoc", "org_slug": "racial-equity-tools", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.racialequitytools.org/glossary"}
@@ -328,7 +328,7 @@
 {"page": "hispanic", "org_slug": "sierra-club", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf"}
 {"page": "hispanic", "org_slug": "seiu", "year": "2020", "check": "V1", "verdict": "OK", "detail": "seiu-stylebook-2020-01.md"}
 {"page": "hispanic", "org_slug": "aecf", "year": "2013", "check": "V1", "verdict": "OK", "detail": "casey-editorial-guide-2013-04.md"}
-{"page": "hispanic", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "GAPPED", "detail": "diversity-style-guide-2023-11.md :: An umbrella term referring to a person whose ethnic origin i"}
+{"page": "hispanic", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "HUMAN-VERIFIED", "detail": "diversity-style-guide-2023-11.md"}
 {"page": "hispanic", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/hispanic/"}
 {"page": "hispanic", "org_slug": "racial-equity-tools", "year": "2023", "check": "V1", "verdict": "OK", "detail": "racial-equity-tools-glossary-2023.md"}
 {"page": "hispanic", "org_slug": "racial-equity-tools", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.racialequitytools.org/glossary"}
@@ -473,7 +473,7 @@
 {"page": "jew", "org_slug": "sumofus", "year": "2016", "check": "V1", "verdict": "OK", "detail": "sumofus-progressive-styleguide-2016.md"}
 {"page": "jew", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
 {"page": "jew", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/jew/"}
-{"page": "latine", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "HUMAN-VERIFIED", "detail": "diversity-style-guide-2023-11.md"}
+{"page": "latine", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "OK", "detail": "diversity-style-guide-2023-11.md"}
 {"page": "latine", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/latine/"}
 {"page": "latine", "org_slug": "tja", "year": "2026", "check": "V1", "verdict": "OK", "detail": "tja-stylebook-2026-01.md"}
 {"page": "latine", "org_slug": "tja", "year": "2026", "check": "V3", "verdict": "OK", "detail": "200 https://transjournalists.org/style-guide/"}
@@ -481,7 +481,7 @@
 {"page": "latino", "org_slug": "sierra-club", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf"}
 {"page": "latino", "org_slug": "seiu", "year": "2020", "check": "V1", "verdict": "OK", "detail": "seiu-stylebook-2020-01.md"}
 {"page": "latino", "org_slug": "aecf", "year": "2013", "check": "V1", "verdict": "OK", "detail": "casey-editorial-guide-2013-04.md"}
-{"page": "latino", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "GAPPED", "detail": "diversity-style-guide-2023-11.md :: Umbrella terms referring to residents or citizens of the Uni"}
+{"page": "latino", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "GAPPED", "detail": "diversity-style-guide-2023-11.md :: Latino is principally used west of the Mississippi, where it"}
 {"page": "latino", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/latinalatino/"}
 {"page": "latino", "org_slug": "racial-equity-tools", "year": "2023", "check": "V1", "verdict": "OK", "detail": "racial-equity-tools-glossary-2023.md"}
 {"page": "latino", "org_slug": "racial-equity-tools", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.racialequitytools.org/glossary"}
@@ -593,7 +593,7 @@
 {"page": "people-with-disabilities", "org_slug": "apa", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf"}
 {"page": "pronouns", "org_slug": "interact", "year": "2017", "check": "V1", "verdict": "HUMAN-VERIFIED", "detail": "interact-intersex-media-guide-2017.md"}
 {"page": "pronouns", "org_slug": "interact", "year": "2017", "check": "V3", "verdict": "OK", "detail": "200 https://interactadvocates.org/"}
-{"page": "pronouns", "org_slug": "sierra-club", "year": "2021", "check": "V1", "verdict": "GAPPED", "detail": "sierra-club-equity-language-guide-2021.md :: When writing about a specific individual, ask what pronouns "}
+{"page": "pronouns", "org_slug": "sierra-club", "year": "2021", "check": "V1", "verdict": "GAPPED", "detail": "sierra-club-equity-language-guide-2021.md :: When you do not know someone's gender, and have no way of as"}
 {"page": "pronouns", "org_slug": "sierra-club", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf"}
 {"page": "pronouns", "org_slug": "color-of-change", "year": "2022", "check": "V1", "verdict": "OK", "detail": "color-of-change-black-survivors-styleguide-2022.md"}
 {"page": "pronouns", "org_slug": "color-of-change", "year": "2022", "check": "V3", "verdict": "OK", "detail": "200 https://colorofchange.org/resources/"}
@@ -622,7 +622,7 @@
 {"page": "refugees", "org_slug": "define-american", "year": "2024", "check": "V3", "verdict": "OK", "detail": "200 https://defineamerican.com/resources-for-journalists/"}
 {"page": "refugees", "org_slug": "tja", "year": "2026", "check": "V1", "verdict": "OK", "detail": "tja-stylebook-2026-01.md"}
 {"page": "refugees", "org_slug": "tja", "year": "2026", "check": "V3", "verdict": "OK", "detail": "200 https://transjournalists.org/style-guide/"}
-{"page": "reservation", "org_slug": "ngc", "year": "2021", "check": "V1", "verdict": "GAPPED", "detail": "native-governance-center-style-guide-2021-02.md :: DO NOT capitalize reservation, unless it's part of a specifi"}
+{"page": "reservation", "org_slug": "ngc", "year": "2021", "check": "V1", "verdict": "OK", "detail": "native-governance-center-style-guide-2021-02.md"}
 {"page": "reservation", "org_slug": "ngc", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://nativegov.org/resources/style-guide/"}
 {"page": "reservation", "org_slug": "sierra-club", "year": "2021", "check": "V1", "verdict": "GAPPED", "detail": "sierra-club-equity-language-guide-2021.md :: Through treaties, Tribes ceded their traditional homelands a"}
 {"page": "reservation", "org_slug": "sierra-club", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf"}
@@ -793,7 +793,7 @@
 {"page": "white", "org_slug": "ngc", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://nativegov.org/resources/style-guide/"}
 {"page": "white", "org_slug": "nabj", "year": "2020", "check": "V1", "verdict": "OK", "detail": "nabj-style-guide-2022-10.md"}
 {"page": "white", "org_slug": "nabj", "year": "2020", "check": "V3", "verdict": "OK", "detail": "403 (gated \u2014 expected) https://www.nabj.org/page/styleguide"}
-{"page": "white", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "GAPPED", "detail": "diversity-style-guide-2023-11.md :: In a June 2020 statement announcing its endorsement of the c"}
+{"page": "white", "org_slug": "diversity-style-guide", "year": "2023", "check": "V1", "verdict": "HUMAN-VERIFIED", "detail": "diversity-style-guide-2023-11.md"}
 {"page": "white", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/white-white/"}
 {"page": "white", "org_slug": "aecf", "year": "2013", "check": "V1", "verdict": "OK", "detail": "casey-editorial-guide-2013-04.md"}
 {"page": "working-class", "org_slug": "color-of-change", "year": "2020", "check": "V1", "verdict": "OK", "detail": "color-of-change-black-families-narrative-2020.md"}

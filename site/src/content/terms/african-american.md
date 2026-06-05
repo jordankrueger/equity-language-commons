@@ -42,9 +42,9 @@ guidance:
     source_url: "https://www.diversitystyleguide.com/glossary/african-american-african-american-black-2/"
     local_archive: "source-guides/discovered/diversity-style-guide-2023-11.md"
     recommendation: "use"
-    quote: "Jesse Jackson popularized the term African American, which had already existed, in the 1980s. It mirrors hyphenated names for other American groups. Some people may identify themselves as African American to resist Black as a socially constructed category. Others may identify this way to assert their American identity. There are many reasons one might identify as African American. Some people may identify as Black because they do not feel connected to the American state. Others may identify as Black because they do not identify with the African continent."
+    quote: "Some people may identify themselves as African American to resist Black as a socially constructed category. Others may identify this way to assert their American identity. … Some people may identify as Black because they do not feel connected to the American state."
     quote_loc: "Entry: African American, African-American, Black, black (lines 191–194 in archived markdown)"
-    paraphrase: "DSG provides the strongest treatment of why someone might prefer one term over the other. African American foregrounds US-American national identity and African heritage as paired; Black foregrounds racial identity without the national-origin claim or African continental claim. Both are valid self-identifications and they answer different questions."
+    paraphrase: "DSG provides the strongest treatment of why someone might prefer one term over the other. African American foregrounds US-American national identity and African heritage as paired; Black foregrounds racial identity without the national-origin claim or African continental claim. Both are valid self-identifications and they answer different questions. DSG also notes that Jesse Jackson popularized the already-existing term in the 1980s, mirroring hyphenated names for other American groups."
     confidence: "VERIFIED"
 
   - org: "SEIU"
