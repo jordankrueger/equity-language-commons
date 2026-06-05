@@ -17,6 +17,28 @@ const { term } = Astro.props;
 const data = term.data;
 const { Content } = await render(term);
 
+// Cross-reference resolution: a related_terms slug links to its page when
+// one exists, to the page whose alias it is, or falls back to the term's
+// glossary entry — never a dead /terms/ link.
+const slugify = (s) =>
+  s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/-+/g, "-").replace(/^-|-$/g, "");
+const allTerms = await getCollection("terms");
+const pageSlugs = new Set(allTerms.map((t) => t.data.slug));
+const aliasTo = new Map();
+for (const t of allTerms) {
+  for (const a of t.data.aliases ?? []) {
+    const s = slugify(a);
+    if (s && !pageSlugs.has(s) && !aliasTo.has(s)) aliasTo.set(s, t.data.slug);
+  }
+}
+const xrefHref = (slug) =>
+  pageSlugs.has(slug)
+    ? `/terms/${slug}/`
+    : aliasTo.has(slug)
+      ? `/terms/${aliasTo.get(slug)}/`
+      : `/glossary/#${slug}`;
+const xrefIsGlossary = (slug) => !pageSlugs.has(slug) && !aliasTo.has(slug);
+
 // sort guidance chronologically (oldest first; readers see how the term has moved)
 const guidance = [...(data.guidance ?? [])].sort((a, b) => a.year - b.year);
 ---
@@ -141,8 +163,11 @@ const guidance = [...(data.guidance ?? [])].sort((a, b) => a.year - b.year);
       <ul class="xref-list">
         {data.related_terms.map((r) => (
           <li>
-            <a href={`/terms/${r.slug}/`} class="xref-term">{r.slug}</a>
+            <a href={xrefHref(r.slug)} class="xref-term">{r.slug}</a>
             <span class="xref-relation">{r.relation}</span>
+            {xrefIsGlossary(r.slug) && (
+              <span class="xref-glossary-tag" title="No dedicated page yet — links to the glossary index">glossary</span>
+            )}
           </li>
         ))}
       </ul>
@@ -236,6 +261,12 @@ const guidance = [...(data.guidance ?? [])].sort((a, b) => a.year - b.year);
     text-transform: uppercase; letter-spacing: 0.05em;
   }
   .xref-note { margin: 0.3rem 0 0; font-size: 0.93rem; color: var(--ink-soft); }
+  .xref-glossary-tag {
+    font-size: 0.7rem; color: var(--ink-muted);
+    margin-left: 0.5rem; padding: 0.05rem 0.4rem;
+    border: 1px solid var(--accent-soft); border-radius: 3px;
+    text-transform: uppercase; letter-spacing: 0.05em;
+  }
 
   .audience {
     background: var(--bg-accent);

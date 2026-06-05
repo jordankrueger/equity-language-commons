@@ -142,6 +142,7 @@ const navLetters = [...A_TO_Z, "#"];
           return (
             <li
               class="term-row"
+              id={termKey.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/-+/g, "-").replace(/^-|-$/g, "")}
               data-coverage={entry.source_count}
               data-is-commons={hasCommons ? "true" : "false"}
               data-tier={entry.tier}

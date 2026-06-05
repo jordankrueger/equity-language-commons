@@ -6,6 +6,7 @@ aliases:
   - "Illegal immigration"
   - "Illegals"
   - "An illegal"
+  - "Illegal"
 related_terms:
   - slug: "undocumented-immigrant"
     relation: "overlapping-but-distinct"

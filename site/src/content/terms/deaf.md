@@ -5,6 +5,7 @@ aliases:
   - "Deaf"
   - "Hard of hearing"
   - "Deaf and hard of hearing"
+  - "Partially deaf"
 related_terms:
   - slug: "disability"
     relation: "related-concept"

@@ -13,11 +13,17 @@ Checks (FAIL — exit 1):
       don't resolve to a content file
 
 Checks (WARN — exit 0 unless --strict):
-  W1  dangling related_terms slugs (allowed pre-launch as "planned" stubs;
-      use --strict at launch to promote to FAIL)
+  W1  related_terms slug that is neither a page, a page alias, nor a
+      glossary term (the page component falls back to a glossary link,
+      so page/alias/glossary targets all resolve; only true orphans warn)
   W2  quote longer than 50 words (fair-use margin)
   W3  `categories` value that doesn't match a chapter slug (field is
       currently unrendered/vestigial, but keep it consistent)
+  W6  coverage completeness: a glossary term with >=3 sources must have a
+      page, resolve to a page via alias, or carry a documented decision in
+      notes/coverage-decisions.yml (fold/drop with reason). This is the
+      "sense of completeness" gate: every term that clears the bar is
+      either treated or deliberately not.
 
 Schema-level validation (required guidance keys, recommendation/confidence
 enums) is intentionally NOT duplicated here — Astro's zod schema in
@@ -29,6 +35,7 @@ Usage:
 """
 
 import glob
+import json
 import os
 import re
 import sys
@@ -37,6 +44,12 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TERMS = os.path.join(ROOT, "site/src/content/terms")
 CHAPTERS = os.path.join(ROOT, "site/src/content/chapters")
 SOURCES = os.path.join(ROOT, "site/src/content/sources")
+GLOSSARY_INDEX = os.path.join(ROOT, "site/src/data/glossary-index.json")
+COVERAGE_DECISIONS = os.path.join(ROOT, "notes/coverage-decisions.yml")
+
+
+def _slugify(s):
+    return re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-", s.lower())).strip("-")
 
 strict = "--strict" in sys.argv
 fails, warns = [], []
@@ -49,6 +62,24 @@ def slugs_in(directory):
 term_slugs = slugs_in(TERMS)
 chapter_slugs = slugs_in(CHAPTERS)
 source_slugs = slugs_in(SOURCES)
+
+# alias slugs across all term pages (for W1 + W6 resolution)
+alias_slugs = set()
+for _p in glob.glob(f"{TERMS}/*.md"):
+    _m = re.search(r"^aliases:\n((?:[ \t]+-[ \t]+.*\n)+)",
+                   open(_p).read(), re.M)
+    if _m:
+        for _a in re.findall(r"-\s+(.*)", _m.group(1)):
+            alias_slugs.add(_slugify(_a.strip().strip("\"'")))
+
+# glossary term slugs (for W1 fallback resolution)
+glossary_slugs = set()
+if os.path.exists(GLOSSARY_INDEX):
+    with open(GLOSSARY_INDEX) as _f:
+        _gidx = json.load(_f)
+    glossary_slugs = {_slugify(t) for t in _gidx.get("entries", {})}
+else:
+    _gidx = None
 all_content = (
     glob.glob(f"{TERMS}/*.md")
     + glob.glob(f"{CHAPTERS}/*.md")
@@ -121,10 +152,32 @@ for path in sorted(all_content):
             warns.append(f"W2 {name} quote >50 words "
                          f"({len(quote.group(1).split())}): {head[:40]}")
 
-    # W1 — dangling related_terms
+    # W1 — related_terms that resolve nowhere (page, alias, or glossary)
     for slug in re.findall(r'^  - slug: "([a-z0-9-]+)"', fm, re.M):
-        if slug not in term_slugs:
-            warns.append(f"W1 {name} related_terms → missing term \"{slug}\"")
+        if (slug not in term_slugs and slug not in alias_slugs
+                and slug not in glossary_slugs):
+            warns.append(f"W1 {name} related_terms → \"{slug}\" resolves to "
+                         "no page, alias, or glossary entry")
+
+# W6 — coverage completeness: every >=3-source glossary term is either a
+# page, an alias of a page, or carries a documented decision.
+if _gidx is not None:
+    decided = set()
+    if os.path.exists(COVERAGE_DECISIONS):
+        for line in open(COVERAGE_DECISIONS):
+            dm = re.match(r'^- term: "(.*)"', line.strip())
+            if dm:
+                decided.add(_slugify(dm.group(1)))
+    for tkey, entry in _gidx.get("entries", {}).items():
+        if entry.get("source_count", 0) < 3:
+            continue
+        if entry.get("commons_slug"):
+            continue
+        tslug = _slugify(tkey)
+        if tslug in term_slugs or tslug in alias_slugs or tslug in decided:
+            continue
+        warns.append(f"W6 coverage: \"{tkey}\" has {entry['source_count']} "
+                     "sources but no page, alias, or coverage decision")
 
 for w in warns:
     print(f"WARN  {w}")

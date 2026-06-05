@@ -1,0 +1,15 @@
+# Coverage decisions — documented fold/drop calls for >=3-source glossary
+# terms that deliberately do NOT get their own commons page.
+#
+# Read by scripts/lint-content.py (W6). A term listed here is excused from
+# the completeness warning. Every entry needs a reason — "we decided" is
+# the point of the file.
+#
+# decision values: fold (covered by another page; name it) | drop (not a
+# real equity-language headword after incidental-hit pruning; explain)
+#
+# NOTE: terms folded via page ALIASES don't need entries here — the alias
+# resolves them automatically. This file is for folds that don't warrant
+# an alias and for post-triage drops.
+
+decisions: []

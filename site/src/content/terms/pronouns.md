@@ -5,6 +5,8 @@ aliases:
   - "Pronouns"
   - "Personal pronouns"
   - "Gender pronouns"
+  - "Preferred pronouns"
+  - "Gender-neutral pronouns"
 related_terms:
   - slug: "transgender"
     relation: "related-concept"

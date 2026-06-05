@@ -192,6 +192,8 @@ def _build_commons_lookup() -> tuple[dict[str, str], dict[str, str]]:
     """
     published: dict[str, str] = {}
     stub_display: dict[str, str] = {}
+    alias_lists: dict[str, list[str]] = {}
+    alias_block_re = re.compile(r"^aliases:\n((?:[ \t]+-[ \t]+.*\n)+)", re.M)
     for path in sorted(TERMS_DIR.glob("*.md")):
         slug = path.stem
         fm = _parse_frontmatter(path)
@@ -202,6 +204,20 @@ def _build_commons_lookup() -> tuple[dict[str, str], dict[str, str]]:
             stub_display[slug] = fm.get("term", slug.replace("-", " ").title())
         else:
             published[slug] = slug
+            m = alias_block_re.search(path.read_text(encoding="utf-8"))
+            if m:
+                alias_lists[slug] = [
+                    a.strip().strip("\"'")
+                    for a in re.findall(r"-\s+(.*)", m.group(1))
+                ]
+    # Alias resolution: a glossary term matching a published page's alias
+    # links to that page (e.g. "daca" → /terms/dreamer/, "autistic" →
+    # /terms/autism/). Page slugs win over aliases; first alias wins ties.
+    for slug, aliases in alias_lists.items():
+        for alias in aliases:
+            alias_slug = re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-", alias.lower())).strip("-")
+            if alias_slug and alias_slug not in published:
+                published[alias_slug] = slug
     return published, stub_display
 
 
@@ -698,7 +714,11 @@ def build_index() -> dict:
     # comparison pages like `unhoused-homeless`, or terms whose matrix
     # keyword-scan hits were filtered out like `chicanx`). These need to
     # be browsable in the glossary even when the matrix doesn't list them.
-    for commons_slug in commons_lookup:
+    for commons_slug, target_slug in commons_lookup.items():
+        # Alias keys (commons_slug != target) only resolve existing matrix
+        # entries — they don't get synthesized glossary rows of their own.
+        if commons_slug != target_slug:
+            continue
         # Matrix uses spaces; normalize back the other direction.
         term = commons_slug.replace("-", " ")
         if term in entries or commons_slug in entries:
