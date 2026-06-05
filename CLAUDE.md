@@ -54,10 +54,17 @@ plus glossary index + SQLite build-time index + Contribute page.
 
 ## Pick-up notes for next ELC session
 
-**NEXT SESSION PLAN (agreed 2026-06-04):**
-1. **Finish the verification arc:** ~~trim the over-length quotes~~ (**done 2026-06-05** — see below), then pre-triage `notes/verification/layer2-external-summary.md` — Claude proposes keep/cite/cut per group, Jordan reviews decisions not raw items.
+**NEXT SESSION PLAN:**
+1. ~~**Finish the verification arc**~~ — **DONE 2026-06-05.** Quote trims + Layer 2 external-claims dispositions both closed (see below). The verification arc is complete: lint gate + Layer 1 green + Layer 2 dispositions executed.
 2. **Source discovery session (`/research`):** corpus is tapped at 94 terms vs the ~250 launch target. Needed guides: movement/organizing (unlocks Movement & Advocacy chapter), Jewish-press or interfaith (graduates jew/islam stubs), poverty/economic-justice (Class stuck at 4), migration/asylum (unlocks asylum-seeker, migrant, anchor-baby).
 3. **DECISION FOR JORDAN before launch prep:** launch at ~100 machine-verified pages vs. grind to the locked ~250-page threshold. The verification system changes the calculus — per-page quality is now provable. Launch prep (repo public, DNS flip, legal pass) waits on this call.
+
+**Done 2026-06-05 (later) — Layer 2 external-claims dispositions executed; verification arc CLOSED:**
+- **Dispositions:** ~620 of 664 flags closed as keep under 3 group rules (excerpt-insufficient = bundle artifact; site-structural/chronology framing; hedged sociolinguistic generalizations). Doc: `notes/verification/layer2-external-dispositions.md` (EXECUTED). Re-audit of the 325 excerpt-insufficient flags skipped pre-launch per approved rule.
+- **~25 distinct hard facts verified against primary sources** (3 parallel research agents; audit trail in `notes/verification/external-facts-research.md` with URLs + excerpts + VERIFIED/PARTIAL/UNVERIFIED flags).
+- **NEW citation mechanism — reference-tier source pages** (`host_posture: link-out-only`, no archive): `sources/ap-stylebook.md`, `sources/pew-research-center.md`, `sources/us-census-bureau.md`. They absorb ~40 citation flags; synthesis prose links internally (`/sources/ap-stylebook/` etc.); statutes/events link inline to primary URLs (congress.gov, law.cornell.edu, census.gov…). 16 term pages carry internal citation links.
+- **Research-discovered corrections (beyond the 10 planned exceptions):** caucasian federal-label claim was FALSE (OMB uses "White"; fixed in 3 places); illegal-alien's "1994 UNITY" chronology UNVERIFIED in our voice (the 1994 UNITY resolution on record is about mascots — claim survives only inside the DSG paraphrase, attributed); USCIS 2021 "noncitizen" shift was reversed in 2025 (pages now frame it as a documented turn, not current practice); DACA count refreshed 580k→~538k (KFF, late 2024); two-spirit "coined at"→"adopted at" Winnipeg 1990; HR 4238 scoped to its two 1970s statutes (it did NOT rewrite federal Indian law); AP singular-they "2019 expansion" dropped (only 2017 is documented).
+- Lint 0 failures, Layer 1 802 checks 0 findings, 145 pages built, deployed + live-verified. Commits b46b4c7 + 34858e7 on main.
 
 **Done 2026-06-05 — all 81 over-length quotes trimmed to fair-use ≤50 words (W2 lint clean):**
 - 67 mechanical (51–80w) via 3 parallel subagents + 14 big ones (81–153w, the definitional heavyweights: bipoc, hispanic, latino, black, white) Jordan-reviewed. All trims are **pure-deletion contiguous spans** of the previously verified quote, span-checked programmatically against git HEAD — paraphrases carry the dropped material (5 extended). Working pattern: the quote-worthy part is the org's *rule or argument in its own voice*; definitions, stats, and worked examples paraphrase fine.
