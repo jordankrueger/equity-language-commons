@@ -10,7 +10,7 @@ local_archive: "source-guides/discovered/tja-stylebook-2026-01.md"
 host_posture: "private-mirror-link-out"
 live_status: "live"
 format: "markdown"
-last_checked: 2026-05-18
+last_checked: 2026-06-06
 added: 2026-05-17
 ---
 

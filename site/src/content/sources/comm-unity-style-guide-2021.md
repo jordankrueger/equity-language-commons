@@ -10,7 +10,7 @@ local_archive: "source-guides/discovered/comm-unity-style-guide-2021.pdf"
 host_posture: "private-mirror-link-out"
 live_status: "live"
 added: 2026-05-17
-last_checked: 2026-05-18
+last_checked: 2026-06-06
 length_pages: 13
 format: "PDF"
 ---

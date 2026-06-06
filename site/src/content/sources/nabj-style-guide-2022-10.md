@@ -10,7 +10,7 @@ local_archive: "source-guides/discovered/nabj-style-guide-2022-10.md"
 host_posture: "private-mirror-link-out"
 live_status: "login-gated"
 added: 2026-05-17
-last_checked: 2026-05-18
+last_checked: 2026-06-06
 format: "markdown"
 version_history:
   - year: 2020

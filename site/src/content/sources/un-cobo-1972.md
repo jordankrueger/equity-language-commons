@@ -9,7 +9,7 @@ source_url: "https://social.desa.un.org/issues/indigenous-peoples/publications/m
 local_archive: null
 host_posture: "link-out-only"
 live_status: "live"
-last_checked: 2026-05-18
+last_checked: 2026-06-06
 added: 2026-05-17
 ---
 

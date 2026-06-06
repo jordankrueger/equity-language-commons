@@ -1,29 +1,32 @@
 {
-  "generated_at": "2026-06-05T14:21:11+00:00",
+  "generated_at": "2026-06-06T16:13:17+00:00",
   "stats": {
-    "total_terms": 956,
-    "commons_terms": 164,
+    "total_terms": 994,
+    "commons_terms": 165,
     "verified_hold_terms": 3,
     "curated_terms": 737,
-    "listed_terms": 52,
-    "long_tail_terms": 792,
+    "listed_terms": 89,
+    "long_tail_terms": 829,
     "by_coverage": {
-      "1": 670,
-      "2": 206,
-      "3": 61,
-      "4": 12,
-      "5": 4,
-      "6": 2,
+      "1": 667,
+      "2": 216,
+      "3": 67,
+      "4": 31,
+      "5": 8,
+      "6": 3,
+      "7": 1,
       "8": 1
     }
   },
   "by_letter": {
     "a": [
+      "abaya",
       "able bodied",
       "ableism",
       "ableist",
       "abnormal",
       "abnormality",
+      "abolition",
       "abortion",
       "accessibility",
       "accessible",
@@ -31,6 +34,8 @@
       "activist",
       "addict",
       "addiction",
+      "adhan",
+      "advocate",
       "affirm identities",
       "affirmative action",
       "africa",
@@ -53,6 +58,7 @@
       "alcoholics anonymous",
       "alcoholism",
       "alien",
+      "allahu akbar",
       "ally",
       "america",
       "american arab",
@@ -77,11 +83,13 @@
       "appearing",
       "arab",
       "arab american",
+      "arabic",
       "argeelah",
       "argilah",
       "aromantic",
       "asexual",
       "ash wednesday",
+      "ashkenazi",
       "asian",
       "asian american",
       "asian exclusion acts",
@@ -101,7 +109,8 @@
       "autism",
       "autism spectrum disorder",
       "autism spectrum disorders",
-      "autistic"
+      "autistic",
+      "ayatollah"
     ],
     "b": [
       "bad neighborhood",
@@ -155,7 +164,8 @@
       "bride",
       "brown",
       "burkini",
-      "burmese names"
+      "burmese names",
+      "burqa"
     ],
     "c": [
       "cajun",
@@ -170,6 +180,7 @@
       "caucasian",
       "central america",
       "cerebral palsy",
+      "chabad",
       "charlie chan",
       "chicana",
       "chicano",
@@ -200,6 +211,7 @@
       "comatose",
       "coming out",
       "commitment ceremony",
+      "community",
       "competitive advantage in youth sports",
       "confined to a wheelchair",
       "confucianism",
@@ -269,6 +281,7 @@
       "developmentally disabled",
       "diagnosis",
       "dialect",
+      "diaspora",
       "differences of sexual development",
       "differently abled",
       "disability",
@@ -325,6 +338,7 @@
       "epileptic",
       "epileptic fit",
       "episcopal church",
+      "equality",
       "eskimo",
       "ethnicity",
       "evangelical lutheran church in america",
@@ -339,6 +353,7 @@
       "false balance",
       "false details",
       "families",
+      "fatwa",
       "felon",
       "female",
       "female bodied",
@@ -390,6 +405,7 @@
       "genetic defect",
       "genetic disorder",
       "genocide",
+      "gentile",
       "geriatrics",
       "gerontology",
       "ghetto",
@@ -408,14 +424,21 @@
       "gynephilic"
     ],
     "h": [
+      "hadith",
       "hair",
+      "halakhah",
+      "halal",
       "handicap",
       "handicapable",
       "handicapped",
+      "hanukkah",
+      "haraam",
+      "haram",
       "hard of hearing",
       "haredi",
       "haredim",
       "harelip",
+      "hashem",
       "hate crime",
       "hbcus",
       "hearing impaired",
@@ -428,6 +451,7 @@
       "heterosexual",
       "high functioning",
       "high holy days",
+      "hijab",
       "hindu",
       "hinduism",
       "hip hop",
@@ -449,7 +473,9 @@
       "hormone therapy",
       "housebound",
       "housing choice voucher program",
+      "hujjaj",
       "human rights campaign",
+      "husband",
       "hyperactivity disorder"
     ],
     "i": [
@@ -461,6 +487,7 @@
       "illegal alien",
       "illegal immigrant",
       "illegals",
+      "imam",
       "immigrant",
       "impaired",
       "impairment",
@@ -494,6 +521,7 @@
       "interpreter",
       "intersectionality",
       "intersex",
+      "intifada",
       "invalid",
       "invisible disabilities",
       "islam",
@@ -507,15 +535,18 @@
       "japanese names",
       "jew",
       "jews for jesus",
+      "jihad",
       "jim crow",
       "juneteenth"
     ],
     "k": [
+      "kabbalah",
       "karma",
       "keloid",
       "killing fields",
       "kippa",
       "kippah",
+      "koran",
       "korean names",
       "ku klux klan",
       "kwanzaa"
@@ -555,6 +586,8 @@
       "lupus"
     ],
     "m": [
+      "mad",
+      "madrassa",
       "mainline protestant",
       "malaysian names",
       "male bodied",
@@ -568,6 +601,7 @@
       "marriage",
       "martial arts",
       "masculine pronouns",
+      "masjid",
       "mass incarceration",
       "master bedroom",
       "mccarran walter act",
@@ -608,8 +642,10 @@
       "montgomery bus boycott",
       "more races",
       "mormon church",
+      "moslem",
       "motown",
       "mulatto",
+      "mullah",
       "multiple genders exist",
       "multiple personality disorder",
       "multiple pronouns",
@@ -739,6 +775,7 @@
       "puerto rico"
     ],
     "q": [
+      "qawwali",
       "quadriplegia",
       "quadriplegic",
       "queen",
@@ -825,9 +862,11 @@
       "sexual preference",
       "sexual reassignment",
       "sexually transmitted infection",
+      "shariah",
       "sheikh",
       "shiism",
       "shiite",
+      "shiva",
       "short stature",
       "shrink",
       "sickle cell anemia",
@@ -1144,6 +1183,28 @@
         }
       ]
     },
+    "abaya": {
+      "term": "abaya",
+      "display": "Abaya",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "listed",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "religion-stylebook-2026-06",
+          "org": "Religion Stylebook",
+          "year": "2026",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        }
+      ]
+    },
     "able bodied": {
       "term": "able bodied",
       "display": "Able Bodied",
@@ -1176,7 +1237,7 @@
     "ableism": {
       "term": "ableism",
       "display": "Ableism",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": "ableism",
       "tier": "full",
       "provenance": null,
@@ -1185,6 +1246,14 @@
       "excerpt": null,
       "note": null,
       "sources": [
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "ncdj",
           "org": "National Center on Disability and Journalism",
@@ -1236,7 +1305,7 @@
     "abnormal": {
       "term": "abnormal",
       "display": "Abnormal",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -1259,6 +1328,14 @@
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "",
           "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
         },
         {
           "source_slug": "ncdj",
@@ -1304,6 +1381,28 @@
           "source_url": "https://ncdj.org/style-guide/",
           "excerpt": "",
           "extraction_method": "glossary"
+        }
+      ]
+    },
+    "abolition": {
+      "term": "abolition",
+      "display": "Abolition",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "listed",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
         }
       ]
     },
@@ -1459,7 +1558,7 @@
     "addict": {
       "term": "addict",
       "display": "Addict",
-      "source_count": 3,
+      "source_count": 4,
       "commons_slug": "addict",
       "tier": "full",
       "provenance": null,
@@ -1483,6 +1582,14 @@
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "",
           "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
         },
         {
           "source_slug": "ncdj",
@@ -1521,6 +1628,58 @@
           "source_url": "https://ncdj.org/style-guide/",
           "excerpt": "",
           "extraction_method": "glossary"
+        }
+      ]
+    },
+    "adhan": {
+      "term": "adhan",
+      "display": "Adhan",
+      "source_count": 2,
+      "commons_slug": null,
+      "tier": "listed",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "cair-journalists-guide-2021-08",
+          "org": "CAIR",
+          "year": "2021",
+          "source_url": "",
+          "excerpt": "Adhan – The Muslim call to prayer. The “dh” is pronounced like the “th” in “thus.”",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "religion-stylebook-2026-06",
+          "org": "Religion Stylebook",
+          "year": "2026",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        }
+      ]
+    },
+    "advocate": {
+      "term": "advocate",
+      "display": "Advocate",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "listed",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "opportunity-agenda-social-justice-phrase-guide-2015",
+          "org": "The Opportunity Agenda",
+          "year": "2015",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
         }
       ]
     },
@@ -1615,7 +1774,7 @@
     "african american": {
       "term": "african american",
       "display": "African American",
-      "source_count": 3,
+      "source_count": 4,
       "commons_slug": "african-american",
       "tier": "full",
       "provenance": null,
@@ -1630,6 +1789,14 @@
           "year": "2023",
           "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
           "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "• Generally use Black, rather than African American, unless this is the preferred language in a specific",
           "extraction_method": "keyword"
         },
         {
@@ -1849,7 +2016,7 @@
     "ageism": {
       "term": "ageism",
       "display": "Ageism",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": "ageism",
       "tier": "full",
       "provenance": null,
@@ -1867,6 +2034,14 @@
           "extraction_method": "keyword"
         },
         {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
           "source_slug": "sierra-club",
           "org": "Sierra Club",
           "year": "2021",
@@ -1879,7 +2054,7 @@
     "agender": {
       "term": "agender",
       "display": "Agender",
-      "source_count": 3,
+      "source_count": 5,
       "commons_slug": "agender",
       "tier": "full",
       "provenance": null,
@@ -1893,6 +2068,22 @@
           "org": "American Psychological Association",
           "year": "2023",
           "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
           "excerpt": "",
           "extraction_method": "keyword"
         },
@@ -2054,7 +2245,7 @@
     "alcoholic": {
       "term": "alcoholic",
       "display": "Alcoholic",
-      "source_count": 3,
+      "source_count": 4,
       "commons_slug": "alcoholic",
       "tier": "full",
       "provenance": null,
@@ -2078,6 +2269,14 @@
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "",
           "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
         },
         {
           "source_slug": "ncdj",
@@ -2169,10 +2368,40 @@
       "note": null,
       "sources": []
     },
+    "allahu akbar": {
+      "term": "allahu akbar",
+      "display": "Allahu Akbar",
+      "source_count": 2,
+      "commons_slug": null,
+      "tier": "listed",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "cair-journalists-guide-2021-08",
+          "org": "CAIR",
+          "year": "2021",
+          "source_url": "",
+          "excerpt": "Allahu Akbar – Arabic phrase meaning “God is Great.” This phrase is used in many situations.",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "religion-stylebook-2026-06",
+          "org": "Religion Stylebook",
+          "year": "2026",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        }
+      ]
+    },
     "ally": {
       "term": "ally",
       "display": "Ally",
-      "source_count": 3,
+      "source_count": 4,
       "commons_slug": "ally",
       "tier": "full",
       "provenance": null,
@@ -2196,6 +2425,14 @@
           "source_url": "https://www.hrc.org/resources/glossary-of-terms",
           "excerpt": "Ally \\| A term used to describe someone who is actively supportive of LGBTQ+ people. It encompasses straight and cis",
           "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
         },
         {
           "source_slug": "nlgja",
@@ -2791,7 +3028,7 @@
     "apocalypse": {
       "term": "apocalypse",
       "display": "Apocalypse",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -2814,6 +3051,14 @@
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "",
           "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "religion-stylebook-2026-06",
+          "org": "Religion Stylebook",
+          "year": "2026",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
         }
       ]
     },
@@ -2915,6 +3160,28 @@
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "",
           "extraction_method": "glossary"
+        }
+      ]
+    },
+    "arabic": {
+      "term": "arabic",
+      "display": "Arabic",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "listed",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "picum-words-matter-2017-03",
+          "org": "PICUM",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
         }
       ]
     },
@@ -3061,6 +3328,28 @@
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "",
           "extraction_method": "glossary"
+        }
+      ]
+    },
+    "ashkenazi": {
+      "term": "ashkenazi",
+      "display": "Ashkenazi",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "listed",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "religion-stylebook-2026-06",
+          "org": "Religion Stylebook",
+          "year": "2026",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
         }
       ]
     },
@@ -3697,6 +3986,36 @@
         }
       ]
     },
+    "ayatollah": {
+      "term": "ayatollah",
+      "display": "Ayatollah",
+      "source_count": 2,
+      "commons_slug": null,
+      "tier": "listed",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "cair-journalists-guide-2021-08",
+          "org": "CAIR",
+          "year": "2021",
+          "source_url": "",
+          "excerpt": "Ayatollah – A religious leader among Shia Muslims. It is used as a title of respect for one who is",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "religion-stylebook-2026-06",
+          "org": "Religion Stylebook",
+          "year": "2026",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        }
+      ]
+    },
     "bad neighborhood": {
       "term": "bad neighborhood",
       "display": "Bad Neighborhood",
@@ -3838,7 +4157,7 @@
     "bar mitzvah": {
       "term": "bar mitzvah",
       "display": "Bar Mitzvah",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -3861,6 +4180,14 @@
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "",
           "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "religion-stylebook-2026-06",
+          "org": "Religion Stylebook",
+          "year": "2026",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
         }
       ]
     },
@@ -3896,7 +4223,7 @@
     "bathroom": {
       "term": "bathroom",
       "display": "Bathroom",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -3913,6 +4240,14 @@
       "note": null,
       "sources": [
         {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
           "year": "2023",
@@ -3925,7 +4260,7 @@
     "bathroom bill": {
       "term": "bathroom bill",
       "display": "Bathroom Bill",
-      "source_count": 1,
+      "source_count": 3,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -3941,6 +4276,22 @@
       "excerpt": null,
       "note": null,
       "sources": [
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "nlgja",
           "org": "NLGJA: The Association of LGBTQ+ Journalists",
@@ -4157,7 +4508,7 @@
     "bigender": {
       "term": "bigender",
       "display": "Bigender",
-      "source_count": 1,
+      "source_count": 3,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -4173,6 +4524,22 @@
       "excerpt": null,
       "note": null,
       "sources": [
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "tja",
           "org": "Trans Journalists Association",
@@ -4853,7 +5220,7 @@
     "black lives matter": {
       "term": "black lives matter",
       "display": "Black Lives Matter",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -4876,6 +5243,14 @@
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "Black Lives Matter, #BlackLivesMatter(https://www/glossary/black-lives-matter-blacklivesmatt",
           "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
         },
         {
           "source_slug": "seiu",
@@ -5287,6 +5662,28 @@
         }
       ]
     },
+    "burqa": {
+      "term": "burqa",
+      "display": "Burqa",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "listed",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "religion-stylebook-2026-06",
+          "org": "Religion Stylebook",
+          "year": "2026",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        }
+      ]
+    },
     "cajun": {
       "term": "cajun",
       "display": "Cajun",
@@ -5632,6 +6029,28 @@
           "source_url": "https://ncdj.org/style-guide/",
           "excerpt": "",
           "extraction_method": "glossary"
+        }
+      ]
+    },
+    "chabad": {
+      "term": "chabad",
+      "display": "Chabad",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "listed",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "religion-stylebook-2026-06",
+          "org": "Religion Stylebook",
+          "year": "2026",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
         }
       ]
     },
@@ -6502,6 +6921,28 @@
         }
       ]
     },
+    "community": {
+      "term": "community",
+      "display": "Community",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "listed",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "18doors-interfaith-glossary-2023",
+          "org": "18Doors",
+          "year": "2023",
+          "source_url": "",
+          "excerpt": "Keep in mind that interfaith couples and families are not only the people who belong to your community – they are also l",
+          "extraction_method": "keyword"
+        }
+      ]
+    },
     "competitive advantage in youth sports": {
       "term": "competitive advantage in youth sports",
       "display": "Competitive Advantage In Youth Sports",
@@ -6534,7 +6975,7 @@
     "confined to a wheelchair": {
       "term": "confined to a wheelchair",
       "display": "Wheelchair",
-      "source_count": 3,
+      "source_count": 4,
       "commons_slug": "wheelchair",
       "tier": "full",
       "provenance": null,
@@ -6548,6 +6989,14 @@
           "org": "American Psychological Association",
           "year": "2023",
           "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
           "excerpt": "",
           "extraction_method": "keyword"
         },
@@ -7120,7 +7569,7 @@
     "cripple": {
       "term": "cripple",
       "display": "Cripple",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -7141,6 +7590,14 @@
           "org": "American Psychological Association",
           "year": "2023",
           "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
           "excerpt": "",
           "extraction_method": "keyword"
         },
@@ -7560,7 +8017,7 @@
     "deaf": {
       "term": "deaf",
       "display": "Deaf",
-      "source_count": 5,
+      "source_count": 2,
       "commons_slug": "deaf",
       "tier": "full",
       "provenance": null,
@@ -7568,7 +8025,24 @@
       "canonical_archived": false,
       "excerpt": null,
       "note": null,
-      "sources": []
+      "sources": [
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "ncdj",
+          "org": "National Center on Disability and Journalism",
+          "year": "2021",
+          "source_url": "https://ncdj.org/style-guide/",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        }
+      ]
     },
     "deaf and dumb": {
       "term": "deaf and dumb",
@@ -7727,7 +8201,7 @@
     "defect": {
       "term": "defect",
       "display": "Defect",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -7743,6 +8217,14 @@
       "excerpt": null,
       "note": null,
       "sources": [
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "ncdj",
           "org": "National Center on Disability and Journalism",
@@ -7989,7 +8471,7 @@
     "deranged": {
       "term": "deranged",
       "display": "Crazy",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": "crazy",
       "tier": "full",
       "provenance": null,
@@ -8005,6 +8487,14 @@
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "crazy/crazed, psycho, nuts, lunatic, deranged, wacko(https://www/glossary/crazycrazed-psycho",
           "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
         },
         {
           "source_slug": "ncdj",
@@ -8482,6 +8972,28 @@
         }
       ]
     },
+    "diaspora": {
+      "term": "diaspora",
+      "display": "Diaspora",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "listed",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "religion-stylebook-2026-06",
+          "org": "Religion Stylebook",
+          "year": "2026",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        }
+      ]
+    },
     "differences of sexual development": {
       "term": "differences of sexual development",
       "display": "Differences Of Sexual Development",
@@ -8514,7 +9026,7 @@
     "differently abled": {
       "term": "differently abled",
       "display": "Differently Abled",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -8539,6 +9051,14 @@
           "extraction_method": "keyword"
         },
         {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
           "source_slug": "ncdj",
           "org": "National Center on Disability and Journalism",
           "year": "2021",
@@ -8551,7 +9071,7 @@
     "disability": {
       "term": "disability",
       "display": "Disability",
-      "source_count": 5,
+      "source_count": 7,
       "commons_slug": "disability",
       "tier": "full",
       "provenance": null,
@@ -8569,10 +9089,26 @@
           "extraction_method": "keyword"
         },
         {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
           "source_slug": "gcjt",
           "org": "Global Center for Journalism & Trauma",
           "year": "2021",
           "source_url": "https://dartcenter.org/resources/style-guide-trauma-informed-journalism",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
           "excerpt": "",
           "extraction_method": "keyword"
         },
@@ -8723,7 +9259,7 @@
     "disadvantaged": {
       "term": "disadvantaged",
       "display": "Disadvantaged",
-      "source_count": 1,
+      "source_count": 3,
       "commons_slug": "disadvantaged",
       "tier": "full",
       "provenance": null,
@@ -8732,6 +9268,22 @@
       "excerpt": null,
       "note": null,
       "sources": [
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "sierra-club",
           "org": "Sierra Club",
@@ -9000,7 +9552,7 @@
     "diversity": {
       "term": "diversity",
       "display": "Diversity",
-      "source_count": 3,
+      "source_count": 4,
       "commons_slug": "diversity",
       "tier": "full",
       "provenance": null,
@@ -9009,6 +9561,14 @@
       "excerpt": null,
       "note": null,
       "sources": [
+        {
+          "source_slug": "cair-journalists-guide-2021-08",
+          "org": "CAIR",
+          "year": "2021",
+          "source_url": "",
+          "excerpt": "diversity and complexity of the American Muslim community. One can do so in a variety of ways,",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "casey-editorial-guide-2013-04",
           "org": "casey-editorial-guide-2013-04",
@@ -9716,7 +10276,7 @@
     "dwarf": {
       "term": "dwarf",
       "display": "Little Person",
-      "source_count": 3,
+      "source_count": 4,
       "commons_slug": "little-person",
       "tier": "full",
       "provenance": null,
@@ -9740,6 +10300,14 @@
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "dwarf, little person, midget, short stature(https://www/glossary/dwarf-little-person-midget-",
           "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
         },
         {
           "source_slug": "ncdj",
@@ -10112,6 +10680,28 @@
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "",
           "extraction_method": "glossary"
+        }
+      ]
+    },
+    "equality": {
+      "term": "equality",
+      "display": "Equality",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "listed",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
         }
       ]
     },
@@ -10505,6 +11095,36 @@
         }
       ]
     },
+    "fatwa": {
+      "term": "fatwa",
+      "display": "Fatwa",
+      "source_count": 2,
+      "commons_slug": null,
+      "tier": "listed",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "cair-journalists-guide-2021-08",
+          "org": "CAIR",
+          "year": "2021",
+          "source_url": "",
+          "excerpt": "Fatwa – A religious edict or legal opinion that is written by qualified scholars commenting on issues",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "religion-stylebook-2026-06",
+          "org": "Religion Stylebook",
+          "year": "2026",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        }
+      ]
+    },
     "felon": {
       "term": "felon",
       "display": "Felon",
@@ -10521,7 +11141,7 @@
     "female": {
       "term": "female",
       "display": "Female",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -10537,6 +11157,14 @@
       "excerpt": "female/feminine pronouns, male/masculine pronouns(https://www/glossary/female-feminine-prono",
       "note": null,
       "sources": [
+        {
+          "source_slug": "cair-journalists-guide-2021-08",
+          "org": "CAIR",
+          "year": "2021",
+          "source_url": "",
+          "excerpt": "or female: you are the offspring of one another.’” (3:195)",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
@@ -10770,7 +11398,7 @@
     "first nations": {
       "term": "first nations",
       "display": "First Nations",
-      "source_count": 3,
+      "source_count": 4,
       "commons_slug": "first-nations",
       "tier": "full",
       "provenance": null,
@@ -10786,6 +11414,14 @@
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "",
           "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "First Nations _(specifically Canada)_",
+          "extraction_method": "keyword"
         },
         {
           "source_slug": "native-governance-center-style-guide-2021-02",
@@ -10895,7 +11531,7 @@
     "functional needs": {
       "term": "functional needs",
       "display": "Functional Needs",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -10918,6 +11554,14 @@
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "special/special needs/functional needs(https://www/glossary/specialspecial-needsfunctional-n",
           "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
         },
         {
           "source_slug": "ncdj",
@@ -10990,7 +11634,7 @@
     "gay": {
       "term": "gay",
       "display": "Gay",
-      "source_count": 3,
+      "source_count": 4,
       "commons_slug": "gay",
       "tier": "full",
       "provenance": null,
@@ -10999,6 +11643,14 @@
       "excerpt": null,
       "note": null,
       "sources": [
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "themselves. For instance, referring to someone as “queer” instead of as “gay,” if that is how the have",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "hrc-glossary-2023-05",
           "org": "Human Rights Campaign",
@@ -11240,7 +11892,7 @@
     "gender binary": {
       "term": "gender binary",
       "display": "Gender Binary",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": "gender-binary",
       "tier": "full",
       "provenance": null,
@@ -11249,6 +11901,14 @@
       "excerpt": null,
       "note": null,
       "sources": [
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "hrc-glossary-2023-05",
           "org": "Human Rights Campaign",
@@ -11497,7 +12157,7 @@
     "gender identity": {
       "term": "gender identity",
       "display": "Gender Identity",
-      "source_count": 3,
+      "source_count": 4,
       "commons_slug": "gender-identity",
       "tier": "full",
       "provenance": null,
@@ -11512,6 +12172,14 @@
           "year": "2020",
           "source_url": "https://colorofchange.org/resources/",
           "excerpt": "gender identity. Has beliefs or practices that attack",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
           "extraction_method": "keyword"
         },
         {
@@ -11535,7 +12203,7 @@
     "gender identity disorder": {
       "term": "gender identity disorder",
       "display": "Gender Identity Disorder",
-      "source_count": 2,
+      "source_count": 4,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -11552,12 +12220,28 @@
       "note": null,
       "sources": [
         {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
           "year": "2023",
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "",
           "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
         },
         {
           "source_slug": "tja",
@@ -11883,7 +12567,7 @@
     "genderfluid": {
       "term": "genderfluid",
       "display": "Genderfluid",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -11900,6 +12584,14 @@
       "note": null,
       "sources": [
         {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
           "source_slug": "tja",
           "org": "Trans Journalists Association",
           "year": "2026",
@@ -11912,7 +12604,7 @@
     "genderqueer": {
       "term": "genderqueer",
       "display": "Genderqueer",
-      "source_count": 3,
+      "source_count": 4,
       "commons_slug": "genderqueer",
       "tier": "full",
       "provenance": null,
@@ -11927,6 +12619,14 @@
           "year": "2023",
           "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
           "excerpt": "genderqueer, gender-fluid, gender nonconforming, gender diverse, or gender expansive” (PFLAG, 2022,",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
           "extraction_method": "keyword"
         },
         {
@@ -12064,6 +12764,28 @@
         }
       ]
     },
+    "gentile": {
+      "term": "gentile",
+      "display": "Gentile",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "listed",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "religion-stylebook-2026-06",
+          "org": "Religion Stylebook",
+          "year": "2026",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        }
+      ]
+    },
     "geriatrics": {
       "term": "geriatrics",
       "display": "Geriatrics",
@@ -12179,7 +12901,7 @@
     "gifted": {
       "term": "gifted",
       "display": "Gifted",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -12196,6 +12918,14 @@
       "note": null,
       "sources": [
         {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
           "source_slug": "ncdj",
           "org": "National Center on Disability and Journalism",
           "year": "2021",
@@ -12208,7 +12938,7 @@
     "glaad": {
       "term": "glaad",
       "display": "Glaad",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -12224,6 +12954,14 @@
       "excerpt": null,
       "note": null,
       "sources": [
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "GLAAD, Glossary of Terms- Transgender",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "nlgja",
           "org": "NLGJA: The Association of LGBTQ+ Journalists",
@@ -12587,6 +13325,28 @@
         }
       ]
     },
+    "hadith": {
+      "term": "hadith",
+      "display": "Hadith",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "listed",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "religion-stylebook-2026-06",
+          "org": "Religion Stylebook",
+          "year": "2026",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        }
+      ]
+    },
     "hair": {
       "term": "hair",
       "display": "Hair",
@@ -12620,6 +13380,50 @@
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
           "excerpt": "Hair: When describing a persons hair in news stories, ask what style the hair is, do",
+          "extraction_method": "keyword"
+        }
+      ]
+    },
+    "halakhah": {
+      "term": "halakhah",
+      "display": "Halakhah",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "listed",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "religion-stylebook-2026-06",
+          "org": "Religion Stylebook",
+          "year": "2026",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        }
+      ]
+    },
+    "halal": {
+      "term": "halal",
+      "display": "Halal",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "listed",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "religion-stylebook-2026-06",
+          "org": "Religion Stylebook",
+          "year": "2026",
+          "source_url": "",
+          "excerpt": "",
           "extraction_method": "keyword"
         }
       ]
@@ -12679,7 +13483,7 @@
     "handicapped": {
       "term": "handicapped",
       "display": "Handicapped",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": "handicapped",
       "tier": "full",
       "provenance": null,
@@ -12697,12 +13501,86 @@
           "extraction_method": "keyword"
         },
         {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
           "source_slug": "ncdj",
           "org": "National Center on Disability and Journalism",
           "year": "2021",
           "source_url": "https://ncdj.org/style-guide/",
           "excerpt": "",
           "extraction_method": "glossary"
+        }
+      ]
+    },
+    "hanukkah": {
+      "term": "hanukkah",
+      "display": "Hanukkah",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "listed",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "religion-stylebook-2026-06",
+          "org": "Religion Stylebook",
+          "year": "2026",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        }
+      ]
+    },
+    "haraam": {
+      "term": "haraam",
+      "display": "Haraam",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "listed",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "religion-stylebook-2026-06",
+          "org": "Religion Stylebook",
+          "year": "2026",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        }
+      ]
+    },
+    "haram": {
+      "term": "haram",
+      "display": "Haram",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "listed",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "religion-stylebook-2026-06",
+          "org": "Religion Stylebook",
+          "year": "2026",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
         }
       ]
     },
@@ -12731,7 +13609,7 @@
     "haredi": {
       "term": "haredi",
       "display": "Haredi",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -12754,6 +13632,14 @@
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "",
           "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "religion-stylebook-2026-06",
+          "org": "Religion Stylebook",
+          "year": "2026",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
         }
       ]
     },
@@ -12812,6 +13698,28 @@
           "source_url": "https://ncdj.org/style-guide/",
           "excerpt": "",
           "extraction_method": "glossary"
+        }
+      ]
+    },
+    "hashem": {
+      "term": "hashem",
+      "display": "Hashem",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "listed",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "religion-stylebook-2026-06",
+          "org": "Religion Stylebook",
+          "year": "2026",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
         }
       ]
     },
@@ -12972,7 +13880,7 @@
     "hermaphrodite": {
       "term": "hermaphrodite",
       "display": "Hermaphrodite",
-      "source_count": 2,
+      "source_count": 4,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -12993,6 +13901,22 @@
           "org": "American Psychological Association",
           "year": "2023",
           "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
           "excerpt": "",
           "extraction_method": "keyword"
         },
@@ -13155,7 +14079,7 @@
     "high holy days": {
       "term": "high holy days",
       "display": "High Holy Days",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -13178,6 +14102,36 @@
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "",
           "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "religion-stylebook-2026-06",
+          "org": "Religion Stylebook",
+          "year": "2026",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        }
+      ]
+    },
+    "hijab": {
+      "term": "hijab",
+      "display": "Hijab",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "listed",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "cair-journalists-guide-2021-08",
+          "org": "CAIR",
+          "year": "2021",
+          "source_url": "",
+          "excerpt": "Hijab – It is used commonly to describe modest Muslim dress, specifically the head scarf that many",
+          "extraction_method": "keyword"
         }
       ]
     },
@@ -13652,7 +14606,7 @@
     "homosexual": {
       "term": "homosexual",
       "display": "Homosexual",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": "homosexual",
       "tier": "full",
       "provenance": null,
@@ -13661,6 +14615,14 @@
       "excerpt": null,
       "note": null,
       "sources": [
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "nlgja",
           "org": "NLGJA: The Association of LGBTQ+ Journalists",
@@ -13787,6 +14749,28 @@
         }
       ]
     },
+    "hujjaj": {
+      "term": "hujjaj",
+      "display": "Hujjaj",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "listed",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "religion-stylebook-2026-06",
+          "org": "Religion Stylebook",
+          "year": "2026",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        }
+      ]
+    },
     "human rights campaign": {
       "term": "human rights campaign",
       "display": "Human Rights Campaign",
@@ -13813,6 +14797,28 @@
           "source_url": "https://www.nlgja.org/stylebook/",
           "excerpt": "",
           "extraction_method": "glossary"
+        }
+      ]
+    },
+    "husband": {
+      "term": "husband",
+      "display": "Husband",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "listed",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "• Use parallel terms or terms of equal status and avoid terms that denote gender inferiority: “husband",
+          "extraction_method": "keyword"
         }
       ]
     },
@@ -14080,6 +15086,36 @@
         }
       ]
     },
+    "imam": {
+      "term": "imam",
+      "display": "Imam",
+      "source_count": 2,
+      "commons_slug": null,
+      "tier": "listed",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "cair-journalists-guide-2021-08",
+          "org": "CAIR",
+          "year": "2021",
+          "source_url": "",
+          "excerpt": "Imam – One who leads congregational prayers in a mosque or in any other location. It is an honorific",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "religion-stylebook-2026-06",
+          "org": "Religion Stylebook",
+          "year": "2026",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        }
+      ]
+    },
     "immigrant": {
       "term": "immigrant",
       "display": "Immigrant",
@@ -14179,7 +15215,7 @@
     "implicit bias": {
       "term": "implicit bias",
       "display": "Implicit Bias",
-      "source_count": 1,
+      "source_count": 3,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -14196,12 +15232,28 @@
       "note": null,
       "sources": [
         {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
           "year": "2023",
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "implicit bias, unconscious bias{",
           "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
         }
       ]
     },
@@ -14317,7 +15369,7 @@
     "indian": {
       "term": "indian",
       "display": "Indian",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": "indian",
       "tier": "full",
       "provenance": null,
@@ -14333,6 +15385,14 @@
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "",
           "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "Indian _(unless it is a quote or referring to an already established name)_",
+          "extraction_method": "keyword"
         },
         {
           "source_slug": "sierra-club",
@@ -14613,7 +15673,7 @@
     "inner city": {
       "term": "inner city",
       "display": "Ghetto",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": "ghetto",
       "tier": "full",
       "provenance": null,
@@ -14622,6 +15682,14 @@
       "excerpt": null,
       "note": null,
       "sources": [
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
@@ -14777,7 +15845,7 @@
     "institutional racism": {
       "term": "institutional racism",
       "display": "Institutional Racism",
-      "source_count": 3,
+      "source_count": 4,
       "commons_slug": "institutional-racism",
       "tier": "full",
       "provenance": null,
@@ -14791,6 +15859,14 @@
           "org": "American Psychological Association",
           "year": "2023",
           "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
           "excerpt": "",
           "extraction_method": "keyword"
         },
@@ -14939,7 +16015,7 @@
     "interfaith": {
       "term": "interfaith",
       "display": "Interfaith",
-      "source_count": 1,
+      "source_count": 3,
       "commons_slug": null,
       "tier": "listed",
       "provenance": null,
@@ -14948,6 +16024,22 @@
       "excerpt": null,
       "note": null,
       "sources": [
+        {
+          "source_slug": "18doors-interfaith-glossary-2023",
+          "org": "18Doors",
+          "year": "2023",
+          "source_url": "",
+          "excerpt": "Interfaith Inclusive Language: A Glossary and Discussion Guide",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "cair-journalists-guide-2021-08",
+          "org": "CAIR",
+          "year": "2021",
+          "source_url": "",
+          "excerpt": "interfaith dialogue. As the Quran states: “(Rest assured that) those who believe (in the Quran), and",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "seiu",
           "org": "SEIU",
@@ -15019,7 +16111,7 @@
     "intersectionality": {
       "term": "intersectionality",
       "display": "Intersectionality",
-      "source_count": 3,
+      "source_count": 5,
       "commons_slug": "intersectionality",
       "tier": "full",
       "provenance": null,
@@ -15037,12 +16129,28 @@
           "extraction_method": "keyword"
         },
         {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
           "year": "2023",
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "",
           "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
         },
         {
           "source_slug": "sumofus",
@@ -15057,7 +16165,7 @@
     "intersex": {
       "term": "intersex",
       "display": "Intersex",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": "intersex",
       "tier": "full",
       "provenance": null,
@@ -15066,6 +16174,14 @@
       "excerpt": null,
       "note": null,
       "sources": [
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
@@ -15081,6 +16197,28 @@
           "source_url": "https://transjournalists.org/style-guide/",
           "excerpt": "",
           "extraction_method": "glossary"
+        }
+      ]
+    },
+    "intifada": {
+      "term": "intifada",
+      "display": "Intifada",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "listed",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "religion-stylebook-2026-06",
+          "org": "Religion Stylebook",
+          "year": "2026",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
         }
       ]
     },
@@ -15153,7 +16291,7 @@
     "islam": {
       "term": "islam",
       "display": "Islam",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "tier": "verified-hold",
       "provenance": "verified",
@@ -15169,6 +16307,14 @@
       "excerpt": "Islam is the youngest of the three major monotheistic religions; its followers are Muslims. Not all Arabs are Muslim and not all Muslims are Arab. Do not use \"Islamist\" as a synonym for militants or extremists.",
       "note": "Two distinct orgs (Diversity Style Guide, NABJ), below the three-source bar. Much of its don't-conflate teaching overlaps the Muslim page.",
       "sources": [
+        {
+          "source_slug": "cair-journalists-guide-2021-08",
+          "org": "CAIR",
+          "year": "2021",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "nabj-style-guide-2022-10",
           "org": "NABJ",
@@ -15349,7 +16495,7 @@
     "jew": {
       "term": "jew",
       "display": "Jew",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "tier": "verified-hold",
       "provenance": "verified",
@@ -15366,6 +16512,14 @@
       "note": "Two verified sources (Diversity Style Guide, SumOfUs), below the three-source bar. A Jewish-press or interfaith style guide would graduate it to a full page.",
       "sources": [
         {
+          "source_slug": "18doors-interfaith-glossary-2023",
+          "org": "18Doors",
+          "year": "2023",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
           "source_slug": "color-of-change-black-families-narrative-2020",
           "org": "Color of Change",
           "year": "2020",
@@ -15378,7 +16532,7 @@
     "jews for jesus": {
       "term": "jews for jesus",
       "display": "Jews For Jesus",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -15401,6 +16555,44 @@
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "",
           "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "religion-stylebook-2026-06",
+          "org": "Religion Stylebook",
+          "year": "2026",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        }
+      ]
+    },
+    "jihad": {
+      "term": "jihad",
+      "display": "Jihad",
+      "source_count": 2,
+      "commons_slug": null,
+      "tier": "listed",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "cair-journalists-guide-2021-08",
+          "org": "CAIR",
+          "year": "2021",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "religion-stylebook-2026-06",
+          "org": "Religion Stylebook",
+          "year": "2026",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
         }
       ]
     },
@@ -15473,6 +16665,28 @@
           "org": "NABJ",
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        }
+      ]
+    },
+    "kabbalah": {
+      "term": "kabbalah",
+      "display": "Kabbalah",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "listed",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "religion-stylebook-2026-06",
+          "org": "Religion Stylebook",
+          "year": "2026",
+          "source_url": "",
           "excerpt": "",
           "extraction_method": "keyword"
         }
@@ -15628,6 +16842,28 @@
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "",
           "extraction_method": "glossary"
+        }
+      ]
+    },
+    "koran": {
+      "term": "koran",
+      "display": "Koran",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "listed",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "religion-stylebook-2026-06",
+          "org": "Religion Stylebook",
+          "year": "2026",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
         }
       ]
     },
@@ -16116,7 +17352,7 @@
     "legally blind": {
       "term": "legally blind",
       "display": "Legally Blind",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -16132,6 +17368,14 @@
       "excerpt": "Blind/legally blind/limited vision/low vision/partially sighted/visually impaired",
       "note": null,
       "sources": [
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "Legally blind _(for someone who has almost complete loss of sight)_",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "ncdj",
           "org": "National Center on Disability and Journalism",
@@ -16307,7 +17551,7 @@
     "limited vision": {
       "term": "limited vision",
       "display": "Limited Vision",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -16330,6 +17574,14 @@
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "blind/limited vision/low vision/partially sighted/visually impaired(https://www/glossary/bli",
           "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "Limited vision/Low vision/Partially sighted/Visually impaired _(for someone who is neither legally or completely blind)_",
+          "extraction_method": "keyword"
         },
         {
           "source_slug": "ncdj",
@@ -16395,7 +17647,7 @@
     "little person": {
       "term": "little person",
       "display": "Little Person",
-      "source_count": 3,
+      "source_count": 4,
       "commons_slug": "little-person",
       "tier": "full",
       "provenance": null,
@@ -16419,6 +17671,14 @@
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "dwarf, little person, midget, short stature(https://www/glossary/dwarf-little-person-midget-",
           "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
         },
         {
           "source_slug": "ncdj",
@@ -16733,6 +17993,58 @@
           "year": "2022",
           "source_url": "https://www.nabj.org/page/styleguide",
           "excerpt": "lupus: Chronic disease that affects immunity. Normally, the body\\'s immune system",
+          "extraction_method": "keyword"
+        }
+      ]
+    },
+    "mad": {
+      "term": "mad",
+      "display": "Crazy",
+      "source_count": 2,
+      "commons_slug": "crazy",
+      "tier": "full",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "ncdj",
+          "org": "National Center on Disability and Journalism",
+          "year": "2021",
+          "source_url": "https://ncdj.org/style-guide/",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        }
+      ]
+    },
+    "madrassa": {
+      "term": "madrassa",
+      "display": "Madrassa",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "listed",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "religion-stylebook-2026-06",
+          "org": "Religion Stylebook",
+          "year": "2026",
+          "source_url": "",
+          "excerpt": "",
           "extraction_method": "keyword"
         }
       ]
@@ -17131,6 +18443,28 @@
         }
       ]
     },
+    "masjid": {
+      "term": "masjid",
+      "display": "Masjid",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "listed",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "cair-journalists-guide-2021-08",
+          "org": "CAIR",
+          "year": "2021",
+          "source_url": "",
+          "excerpt": "Masjid – The Arabic word for “mosque,” an Islamic house of worship. Plural: masajid.",
+          "extraction_method": "keyword"
+        }
+      ]
+    },
     "mass incarceration": {
       "term": "mass incarceration",
       "display": "Mass Incarceration",
@@ -17281,7 +18615,7 @@
     "mental health disorder": {
       "term": "mental health disorder",
       "display": "Mental Health Disorder",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -17297,6 +18631,14 @@
       "excerpt": "mental illness, mental health disorder(https://www/glossary/mental-illness-mental-health-dis",
       "note": null,
       "sources": [
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "Mental health disorder (preferred term in homeless services world)",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
@@ -17730,7 +19072,7 @@
     "midget": {
       "term": "midget",
       "display": "Little Person",
-      "source_count": 3,
+      "source_count": 4,
       "commons_slug": "little-person",
       "tier": "full",
       "provenance": null,
@@ -17754,6 +19096,14 @@
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "dwarf, little person, midget, short stature(https://www/glossary/dwarf-little-person-midget-",
           "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
         },
         {
           "source_slug": "ncdj",
@@ -18332,6 +19682,28 @@
         }
       ]
     },
+    "moslem": {
+      "term": "moslem",
+      "display": "Moslem",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "listed",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "religion-stylebook-2026-06",
+          "org": "Religion Stylebook",
+          "year": "2026",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        }
+      ]
+    },
     "motown": {
       "term": "motown",
       "display": "Motown",
@@ -18387,6 +19759,36 @@
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "",
           "extraction_method": "glossary"
+        }
+      ]
+    },
+    "mullah": {
+      "term": "mullah",
+      "display": "Mullah",
+      "source_count": 2,
+      "commons_slug": null,
+      "tier": "listed",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "cair-journalists-guide-2021-08",
+          "org": "CAIR",
+          "year": "2021",
+          "source_url": "",
+          "excerpt": "Mullah – A Persian word with a meaning similar to “Imam.”",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "religion-stylebook-2026-06",
+          "org": "Religion Stylebook",
+          "year": "2026",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
         }
       ]
     },
@@ -18510,7 +19912,7 @@
     "multiracial": {
       "term": "multiracial",
       "display": "multiracial",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": "multiracial",
       "tier": "full",
       "provenance": null,
@@ -18519,6 +19921,14 @@
       "excerpt": null,
       "note": null,
       "sources": [
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "• Use a multiracial lens, and consider all communities of color",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
@@ -20729,7 +22139,7 @@
     "partial hearing loss": {
       "term": "partial hearing loss",
       "display": "Partial Hearing Loss",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -20745,6 +22155,14 @@
       "excerpt": null,
       "note": null,
       "sources": [
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "Partial hearing loss/Partially deaf _(for those who have some hearing loss)_",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "ncdj",
           "org": "National Center on Disability and Journalism",
@@ -20994,7 +22412,7 @@
     "people of color": {
       "term": "people of color",
       "display": "people of color",
-      "source_count": 4,
+      "source_count": 5,
       "commons_slug": "people-of-color",
       "tier": "full",
       "provenance": null,
@@ -21009,6 +22427,14 @@
           "year": "2023",
           "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
           "excerpt": "use the specific name of the group or groups to which you refer, or use broader terms such as “people of color” or",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "people of color in images, and also being conscious of the context and not reinforcing stereotypes, or",
           "extraction_method": "keyword"
         },
         {
@@ -21908,7 +23334,7 @@
     "psycho": {
       "term": "psycho",
       "display": "Crazy",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": "crazy",
       "tier": "full",
       "provenance": null,
@@ -21924,6 +23350,14 @@
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "crazy/crazed, psycho, nuts, lunatic, deranged, wacko(https://www/glossary/crazycrazed-psycho",
           "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
         },
         {
           "source_slug": "ncdj",
@@ -22075,6 +23509,28 @@
           "source_slug": "seiu",
           "org": "SEIU",
           "year": "2020",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        }
+      ]
+    },
+    "qawwali": {
+      "term": "qawwali",
+      "display": "Qawwali",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "listed",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "religion-stylebook-2026-06",
+          "org": "Religion Stylebook",
+          "year": "2026",
           "source_url": "",
           "excerpt": "",
           "extraction_method": "keyword"
@@ -22580,7 +24036,7 @@
     "redneck": {
       "term": "redneck",
       "display": "Redneck",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "tier": "listed",
       "provenance": null,
@@ -22589,6 +24045,14 @@
       "excerpt": null,
       "note": null,
       "sources": [
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "nabj-style-guide-2022-10",
           "org": "NABJ",
@@ -22829,7 +24293,7 @@
     "religious titles": {
       "term": "religious titles",
       "display": "Religious Titles",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -22852,6 +24316,14 @@
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "",
           "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "religion-stylebook-2026-06",
+          "org": "Religion Stylebook",
+          "year": "2026",
+          "source_url": "",
+          "excerpt": "Shiites and Sunnis use a few of the same religious titles but differ on others. Shiites have a more-defined hierarchy th",
+          "extraction_method": "keyword"
         }
       ]
     },
@@ -23316,7 +24788,7 @@
     "retarded": {
       "term": "retarded",
       "display": "Retarded",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": "retarded",
       "tier": "full",
       "provenance": null,
@@ -23325,6 +24797,14 @@
       "excerpt": null,
       "note": null,
       "sources": [
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "ncdj",
           "org": "National Center on Disability and Journalism",
@@ -23396,7 +24876,7 @@
     "reverse racism": {
       "term": "reverse racism",
       "display": "Reverse Racism",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -23419,6 +24899,14 @@
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "reverse discrimination, reverse racism{",
           "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
         },
         {
           "source_slug": "sierra-club",
@@ -23703,7 +25191,7 @@
     "same sex marriage": {
       "term": "same sex marriage",
       "display": "Same Sex Marriage",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -23719,6 +25207,14 @@
       "excerpt": null,
       "note": null,
       "sources": [
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "• Use \"same sex couple's marriage rights\" or something similar instead of just \"same sex marriage\"",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "tja",
           "org": "Trans Journalists Association",
@@ -24332,7 +25828,7 @@
     "sex change": {
       "term": "sex change",
       "display": "Sex Change",
-      "source_count": 2,
+      "source_count": 4,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -24348,6 +25844,22 @@
       "excerpt": null,
       "note": null,
       "sources": [
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "nlgja",
           "org": "NLGJA: The Association of LGBTQ+ Journalists",
@@ -24436,7 +25948,7 @@
     "sexual preference": {
       "term": "sexual preference",
       "display": "Sexual Preference",
-      "source_count": 1,
+      "source_count": 3,
       "commons_slug": null,
       "tier": "listed",
       "provenance": null,
@@ -24445,6 +25957,22 @@
       "excerpt": null,
       "note": null,
       "sources": [
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "seiu",
           "org": "SEIU",
@@ -24513,10 +26041,32 @@
         }
       ]
     },
+    "shariah": {
+      "term": "shariah",
+      "display": "Shariah",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "listed",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "cair-journalists-guide-2021-08",
+          "org": "CAIR",
+          "year": "2021",
+          "source_url": "",
+          "excerpt": "Shariah – Islamic law derived by scholars from the Quran and Hadith.",
+          "extraction_method": "keyword"
+        }
+      ]
+    },
     "sheikh": {
       "term": "sheikh",
       "display": "Sheikh",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -24539,6 +26089,14 @@
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "",
           "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "religion-stylebook-2026-06",
+          "org": "Religion Stylebook",
+          "year": "2026",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
         }
       ]
     },
@@ -24600,10 +26158,32 @@
         }
       ]
     },
+    "shiva": {
+      "term": "shiva",
+      "display": "Shiva",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "listed",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "religion-stylebook-2026-06",
+          "org": "Religion Stylebook",
+          "year": "2026",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        }
+      ]
+    },
     "short stature": {
       "term": "short stature",
       "display": "Little Person",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": "little-person",
       "tier": "full",
       "provenance": null,
@@ -24619,6 +26199,14 @@
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "dwarf, little person, midget, short stature(https://www/glossary/dwarf-little-person-midget-",
           "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
         },
         {
           "source_slug": "ncdj",
@@ -25389,7 +26977,7 @@
     "special needs": {
       "term": "special needs",
       "display": "Special Needs",
-      "source_count": 4,
+      "source_count": 6,
       "commons_slug": "special-needs",
       "tier": "full",
       "provenance": null,
@@ -25407,12 +26995,28 @@
           "extraction_method": "keyword"
         },
         {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
           "year": "2023",
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "special/special needs/functional needs(https://www/glossary/specialspecial-needsfunctional-n",
           "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
         },
         {
           "source_slug": "ncdj",
@@ -25853,7 +27457,7 @@
     "substance abuse": {
       "term": "substance abuse",
       "display": "Substance Abuse",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -25869,6 +27473,14 @@
       "excerpt": null,
       "note": null,
       "sources": [
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
@@ -25949,7 +27561,7 @@
     "survivor": {
       "term": "survivor",
       "display": "Survivor",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": "survivor",
       "tier": "full",
       "provenance": null,
@@ -25958,6 +27570,14 @@
       "excerpt": null,
       "note": null,
       "sources": [
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "gcjt",
           "org": "Global Center for Journalism & Trauma",
@@ -26606,7 +28226,7 @@
     "tranny": {
       "term": "tranny",
       "display": "Tranny",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -26631,6 +28251,14 @@
           "extraction_method": "keyword"
         },
         {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
           "source_slug": "nlgja",
           "org": "NLGJA: The Association of LGBTQ+ Journalists",
           "year": "2025",
@@ -26643,7 +28271,7 @@
     "trans": {
       "term": "trans",
       "display": "Transgender",
-      "source_count": 2,
+      "source_count": 4,
       "commons_slug": "transgender",
       "tier": "full",
       "provenance": null,
@@ -26658,6 +28286,22 @@
           "year": "2020",
           "source_url": "https://colorofchange.org/resources/",
           "excerpt": "trans women; and the governmental and",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
           "extraction_method": "keyword"
         },
         {
@@ -27087,7 +28731,7 @@
     "trans woman": {
       "term": "trans woman",
       "display": "Trans Woman",
-      "source_count": 1,
+      "source_count": 3,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -27103,6 +28747,22 @@
       "excerpt": null,
       "note": null,
       "sources": [
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "tja",
           "org": "Trans Journalists Association",
@@ -27240,7 +28900,7 @@
     "transgender": {
       "term": "transgender",
       "display": "Transgender",
-      "source_count": 3,
+      "source_count": 5,
       "commons_slug": "transgender",
       "tier": "full",
       "provenance": null,
@@ -27250,12 +28910,28 @@
       "note": null,
       "sources": [
         {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
           "source_slug": "hrc-glossary-2023-05",
           "org": "Human Rights Campaign",
           "year": "2023",
           "source_url": "https://www.hrc.org/resources/glossary-of-terms",
           "excerpt": "Transgender \\| An umbrella term for people whose gender identity and/or expression is different from cultural expect",
           "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
         },
         {
           "source_slug": "nlgja",
@@ -27445,7 +29121,7 @@
     "transgendered": {
       "term": "transgendered",
       "display": "Transgendered",
-      "source_count": 3,
+      "source_count": 5,
       "commons_slug": "transgendered",
       "tier": "full",
       "provenance": null,
@@ -27459,6 +29135,22 @@
           "org": "American Psychological Association",
           "year": "2023",
           "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
           "excerpt": "",
           "extraction_method": "keyword"
         },
@@ -27520,7 +29212,7 @@
     "transition": {
       "term": "transition",
       "display": "Transition",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": "transition",
       "tier": "full",
       "provenance": null,
@@ -27529,6 +29221,14 @@
       "excerpt": null,
       "note": null,
       "sources": [
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "nlgja",
           "org": "NLGJA: The Association of LGBTQ+ Journalists",
@@ -27805,7 +29505,7 @@
     "transsexual": {
       "term": "transsexual",
       "display": "Transsexual",
-      "source_count": 3,
+      "source_count": 4,
       "commons_slug": "transsexual",
       "tier": "full",
       "provenance": null,
@@ -27819,6 +29519,14 @@
           "org": "American Psychological Association",
           "year": "2023",
           "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
           "excerpt": "",
           "extraction_method": "keyword"
         },
@@ -27843,7 +29551,7 @@
     "transvestite": {
       "term": "transvestite",
       "display": "Transvestite",
-      "source_count": 3,
+      "source_count": 5,
       "commons_slug": "transvestite",
       "tier": "full",
       "provenance": null,
@@ -27861,12 +29569,28 @@
           "extraction_method": "keyword"
         },
         {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
           "year": "2023",
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "",
           "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "Transvestite _(unless that is how the person identifies)_",
+          "extraction_method": "keyword"
         },
         {
           "source_slug": "tja",
@@ -29004,7 +30728,7 @@
     "victim": {
       "term": "victim",
       "display": "Victim",
-      "source_count": 3,
+      "source_count": 4,
       "commons_slug": "victim",
       "tier": "full",
       "provenance": null,
@@ -29013,6 +30737,14 @@
       "excerpt": null,
       "note": null,
       "sources": [
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
@@ -29362,7 +31094,7 @@
     "wheelchair": {
       "term": "wheelchair",
       "display": "Wheelchair",
-      "source_count": 3,
+      "source_count": 4,
       "commons_slug": "wheelchair",
       "tier": "full",
       "provenance": null,
@@ -29388,6 +31120,14 @@
           "extraction_method": "glossary"
         },
         {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
           "source_slug": "seiu",
           "org": "SEIU",
           "year": "2020",
@@ -29400,7 +31140,7 @@
     "wheelchair bound": {
       "term": "wheelchair bound",
       "display": "Wheelchair",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": "wheelchair",
       "tier": "full",
       "provenance": null,
@@ -29409,6 +31149,14 @@
       "excerpt": null,
       "note": null,
       "sources": [
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "diversity-style-guide",
           "org": "Diversity Style Guide",
@@ -29706,7 +31454,7 @@
     "working class": {
       "term": "working class",
       "display": "Working class",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": "working-class",
       "tier": "full",
       "provenance": null,
@@ -29715,6 +31463,14 @@
       "excerpt": null,
       "note": null,
       "sources": [
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "Working class _(to acknowledge their economic status without derogatory judgment)_",
+          "extraction_method": "keyword"
+        },
         {
           "source_slug": "seiu",
           "org": "SEIU",
@@ -29989,7 +31745,7 @@
     "zionism": {
       "term": "zionism",
       "display": "Zionism",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -30012,6 +31768,14 @@
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "",
           "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "religion-stylebook-2026-06",
+          "org": "Religion Stylebook",
+          "year": "2026",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
         }
       ]
     },
