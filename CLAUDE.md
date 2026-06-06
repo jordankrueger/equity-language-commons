@@ -63,14 +63,10 @@ plus glossary index + SQLite build-time index + Contribute page.
 
 ## Pick-up notes for next ELC session
 
-**NEXT SESSION PLAN (set 2026-06-05, after coverage-completeness arc):**
-1. **Source discovery session (`/research`) — NEXT TASK.** Corpus is fully tapped at 115 terms — the W6 completeness lint proves every ≥3-source term is now handled, so growth requires new sources. Four targeted gaps:
-   - **Jewish-press / interfaith guide** (e.g., JTA stylebook, Religion News Association) → graduates the `jew`/`islam` verified-hold stubs to full pages; Faith chapter at 3 terms
-   - **Movement/organizing guide** → unlocks the deferred Movement & Advocacy chapter (activist, advocate, tolerance, equality all at 1–2 sources)
-   - **Poverty/economic-justice guide** → Class & Economic Status stuck at 4 terms; corpus has no dedicated class headwords
-   - **Migration/asylum guide** (UNHCR-style or Define American companion) → unlocks asylum-seeker, migrant, anchor-baby
-   When new sources land: drop PDF → MANIFEST row → extract-pdfs → build-coverage-matrix → scaffold-source-pages → enrich-source-pages → rebuild glossary index → **W6 lint automatically surfaces every newly-qualified term.**
-2. **DECISION FOR JORDAN before launch prep:** launch at 115 machine-verified pages vs. grow further with discovered sources. The verification system changes the calculus — per-page quality is provable and completeness-vs-corpus is machine-checked. Launch prep (repo public, DNS flip, legal pass) waits on this call. Only launch-blocking question source discovery touches: ship with jew/islam as glossary-tier stubs or wait to graduate them.
+**NEXT SESSION PLAN (updated 2026-06-06, after source-discovery research):**
+1. **Source discovery DONE (2026-06-06).** Research run + audited (`research/source-discovery-2026-06/research-notes.md`). Jordan locked **8 new corpus sources + 2 reference-tier** (UNHCR, IOM): DCFPI (Class anchor), PICUM + HRW (Migration), Opportunity Agenda + Movement Strategy Center (Movement anchor), Religion Stylebook RNA + 18Doors + CAIR (Faith — Religion Stylebook graduates `jew`/`islam`). Skipped: ADL, AJC, ISPU, Momentum, COF, Blanchet, MIRA, Race Forward, Urban Institute; APA SES page = deepen existing APA citations instead. Posture rule established: legal-definitional sources (UNHCR/IOM) go reference-tier, never guidance tables — corpus sources must be equity guides or identity-journalism guides.
+2. **NEXT TASK: run the 3 Codex ingestion slices** — `docs/superpowers/plans/2026-06-06-source-discovery-codex-slices.md` (A: PDF acquire+extract, B: web scrapes, C: reference pages + pipeline + W6 report). All on branch `add-discovered-sources-2026-06`, NOT merged. Then Claude: verify extractions, polish source pages, graduate jew/islam, write term pages per the W6 report, merge + deploy. Post-Codex checklist is at the bottom of the slices doc.
+3. **DECISION FOR JORDAN before launch prep:** launch at 115 machine-verified pages vs. grow further with the discovered sources. The verification system changes the calculus — per-page quality is provable and completeness-vs-corpus is machine-checked. Launch prep (repo public, DNS flip, legal pass) waits on this call.
 
 **Done 2026-06-05 (later) — Layer 2 external-claims dispositions executed; verification arc CLOSED:**
 - **Dispositions:** ~620 of 664 flags closed as keep under 3 group rules (excerpt-insufficient = bundle artifact; site-structural/chronology framing; hedged sociolinguistic generalizations). Doc: `notes/verification/layer2-external-dispositions.md` (EXECUTED). Re-audit of the 325 excerpt-insufficient flags skipped pre-launch per approved rule.
