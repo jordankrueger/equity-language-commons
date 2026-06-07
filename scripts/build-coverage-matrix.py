@@ -196,6 +196,34 @@ def extract_radicalcopyeditor_trans(slug: str, text: str) -> list[TermHit]:
     return [h for h in hits if h.term not in _RADICALCOPYEDITOR_META]
 
 
+_RELIGION_STYLEBOOK_META = {
+    "religion stylebook", "judaism", "islam",
+}
+
+
+def extract_religion_stylebook(slug: str, text: str) -> list[TermHit]:
+    """## term"""
+    pat = re.compile(r"^##\s+(.+?)\s*$")
+    hits = _emit_glossary_hits(slug, text, pat, lookahead=4)
+    return [h for h in hits if h.term not in _RELIGION_STYLEBOOK_META]
+
+
+_MSC_GLOSSARY_META = {
+    "jump to terms to avoid", "disability", "economy poverty", "gender sex",
+    "race indigeneity", "sources", "avoid", "avoid this", "use this instead",
+}
+
+
+def extract_movement_strategy_center(slug: str, text: str) -> list[TermHit]:
+    """#### Term / #### **Term** / #### [Term](URL)"""
+    glossary_text = text.split("#### Disability\n##### Avoid", 1)[0]
+    glossary_text = re.sub(r"^####\s+\*\*(.*?)\*\*\s*$", r"#### \1", glossary_text, flags=re.MULTILINE)
+    glossary_text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", glossary_text)
+    pat = re.compile(r"^####\s+(.+?)\s*$")
+    hits = _emit_glossary_hits(slug, glossary_text, pat, lookahead=4)
+    return [h for h in hits if h.term not in _MSC_GLOSSARY_META]
+
+
 def _emit_glossary_hits(
     slug: str,
     text: str,
@@ -254,6 +282,8 @@ EXTRACTORS: dict[str, Callable[[str, str], list[TermHit]]] = {
     "hrc-glossary-2023-05": extract_hrc,
     "nlgja-stylebook-lgbtq-2025-06": extract_nlgja,
     "radicalcopyeditor-trans-style-guide-2017": extract_radicalcopyeditor_trans,
+    "religion-stylebook-2026-06": extract_religion_stylebook,
+    "movement-strategy-center-glossary-2024": extract_movement_strategy_center,
 }
 
 
