@@ -1,0 +1,43 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Breadcrumb from "../components/Breadcrumb.astro";
+---
+
+<BaseLayout title="Methodology" description="How the Equity Language Commons is built and verified — sources, AI-assisted compilation, verification layers, and human editorial review.">
+  <Breadcrumb trail={[{ href: "/", label: "Home" }, { label: "Methodology" }]} />
+  <h1>How this site is built and verified</h1>
+
+  <p class="lede">The commons is compiled with AI tooling and verified with a layered system that checks every quote against an archived copy of its source. This page explains the whole pipeline — what machines do, what verification catches, and where human editorial judgment comes in.</p>
+
+  <h2>Where the content comes from</h2>
+  <p>Every guidance entry on a term page is drawn from a published style guide, stylebook, or glossary — see the <a href="/sources/">sources index</a> for the full list. Each source is archived at the time of collection so quotes can be verified against a fixed text, and each source page records where the archived copy came from, when it was last checked against the live original, and how the commons hosts it (most sources are linked out to, not republished).</p>
+
+  <h2>What AI tooling does</h2>
+  <p>This is a one-person project with machine help, and that help is substantial. AI tooling is used to extract text from source documents, build the coverage matrix that determines which terms have enough sources for a page, draft term-page scaffolds and synthesis prose, and run the verification passes described below. Drafting is never the end of the pipeline — it's the input to it.</p>
+
+  <h2>The verification layers</h2>
+  <ul>
+    <li><strong>Layer 0 — structural lint.</strong> Every build is gated on automated checks: no broken cross-links, no leftover editorial scaffolding, every quote within the 50-word fair-use cap, and a completeness rule — any term with three or more sources in the corpus must have a page, resolve to one, or carry a documented editorial decision explaining why not.</li>
+    <li><strong>Layer 1 — quote verification.</strong> Every direct quote on every page is programmatically checked, character by character, against the archived source text. A quote that doesn't match verbatim fails the check. Quotes verified by hand against an original PDF (where machine text extraction is unreliable) are tracked in a separate audit file.</li>
+    <li><strong>Layer 2 — semantic audit.</strong> A second, independent AI system audits every synthesis claim against the source excerpts it cites, hunting for over-claimed consensus ("all three sources say…" when only two do), misattributed positions, and unsupported additions. Flagged claims are corrected or removed.</li>
+    <li><strong>Adversarial review during writing.</strong> New pages go through a verification stage whose explicit job is to find problems with the draft — it has caught fabricated claims and wrong attributions before publication, which is precisely why it exists.</li>
+    <li><strong>Human editorial review.</strong> The editorial decisions are human: which sources enter the corpus, which terms get pages, how contested terms are framed, and the editorial principles on the <a href="/about/">About page</a>. Pages addressing slurs and reclaimed terms receive direct human review, alongside a sampled review of the wider corpus.</li>
+  </ul>
+
+  <h2>What the badges mean</h2>
+  <p>Each guidance entry carries a confidence flag. <strong>VERIFIED-ARCHIVED</strong> means the quote was confirmed verbatim against an archived copy of the source. <strong>VERIFIED</strong> means it was confirmed against the live source. <strong>PARTIAL</strong> means the source's position is accurately represented but the exact wording could not be fully confirmed (usually a PDF extraction limitation) — these are deliberately visible rather than hidden.</p>
+
+  <h2>What this process does not do</h2>
+  <p>It does not make the commons infallible. Machine verification proves a quote matches its archive; it cannot prove an interpretation is the one a source organization would endorse, and language norms move faster than any reference can. When a source publishes a new edition, the commons' entry reflects the archived one until it's re-collected — every source page shows its collection date.</p>
+
+  <h2>Found an error?</h2>
+  <p>Corrections are wanted, not merely tolerated. Email <a href="mailto:hello@equitylanguagecommons.org">hello@equitylanguagecommons.org</a> or open an issue via the <a href="/contribute/">Contribute page</a> — quote disputes, misattributions, tone concerns, and disagreements with a synthesis are all in scope. Source organizations who want their material handled differently will be accommodated promptly.</p>
+</BaseLayout>
+
+<style>
+  .lede {
+    font-family: "Charter", Georgia, serif;
+    font-size: 1.15rem;
+    line-height: 1.6;
+  }
+</style>
