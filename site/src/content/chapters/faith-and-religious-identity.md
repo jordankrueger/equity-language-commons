@@ -14,8 +14,12 @@ cross_cutting_principles:
     body: "As across the commons, how a person or community names its own faith takes priority, and the recurring instruction is to be specific rather than to reach for a broad religious or geographic label. NABJ's guidance that plain 'Muslim' is 'sufficient' — no need for archaic compounds — is of a piece with the chapter's preference for the precise current term over the dated or the conflated one."
 term_slugs:
   - "antisemitism"
+  - "interfaith"
+  - "islam"
   - "islamophobia"
+  - "jew"
   - "muslim"
+  - "nation-of-islam"
 ---
 
 ## What this chapter covers

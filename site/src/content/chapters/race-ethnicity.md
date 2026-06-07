@@ -25,6 +25,7 @@ term_slugs:
   - "asian-american"
   - "bipoc"
   - "black"
+  - "black-lives-matter"
   - "brown"
   - "caucasian"
   - "chicanx"
@@ -32,8 +33,10 @@ term_slugs:
   - "colored"
   - "discrimination"
   - "diversity"
+  - "equity"
   - "ethnicity"
   - "hispanic"
+  - "implicit-bias"
   - "institutional-racism"
   - "intersectionality"
   - "latine"
@@ -43,11 +46,14 @@ term_slugs:
   - "multiracial"
   - "negro"
   - "people-of-color"
+  - "racism"
+  - "reverse-racism"
   - "slavery"
   - "stereotypes"
   - "systemic-racism"
   - "urban"
   - "white"
+  - "white-supremacy"
 ---
 
 ## What this chapter covers

@@ -81,3 +81,7 @@ decisions:
     decision: "fold"
     decided: 2026-06-07
     reason: "Hits (CoC/MSC/SEIU) are the flip side of abnormal-labeling guidance (MSC: use 'normal' only in medical/scientific context) — covered by the abnormal page; 'normal' added as its alias. (2026-06-07, post-avoid-table extraction.)"
+  - term: "privilege"
+    decision: "drop"
+    decided: 2026-06-07
+    reason: "Movement-concept definition (CoC/DCFPI/MSC/SEIU) — consistent with the oppression/social-justice drops. Some framing guidance exists in DCFPI/CoC; revisit alongside cultural-appropriation/decolonization if structural-vocabulary coverage goes deeper. (2026-06-07 W6 triage cleanup — originally omitted from both triage lists in error.)"

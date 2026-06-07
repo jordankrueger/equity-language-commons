@@ -66,11 +66,18 @@ source_slugs = slugs_in(SOURCES)
 # alias slugs across all term pages (for W1 + W6 resolution)
 alias_slugs = set()
 for _p in glob.glob(f"{TERMS}/*.md"):
-    _m = re.search(r"^aliases:\n((?:[ \t]+-[ \t]+.*\n)+)",
-                   open(_p).read(), re.M)
+    _txt = open(_p).read()
+    _m = re.search(r"^aliases:\n((?:[ \t]+-[ \t]+.*\n)+)", _txt, re.M)
     if _m:
         for _a in re.findall(r"-\s+(.*)", _m.group(1)):
             alias_slugs.add(_slugify(_a.strip().strip("\"'")))
+    # inline form: aliases: ["a", "b"]
+    _mi = re.search(r"^aliases:[ \t]*\[(.*)\]", _txt, re.M)
+    if _mi:
+        for _a in _mi.group(1).split(","):
+            _a = _a.strip().strip("\"'")
+            if _a:
+                alias_slugs.add(_slugify(_a))
 
 # glossary term slugs (for W1 fallback resolution)
 glossary_slugs = set()

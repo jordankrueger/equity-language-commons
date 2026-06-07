@@ -18,6 +18,7 @@ term_slugs:
   - "classism"
   - "disadvantaged"
   - "ghetto"
+  - "poor"
   - "working-class"
 ---
 

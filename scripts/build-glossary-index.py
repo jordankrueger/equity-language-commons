@@ -204,12 +204,24 @@ def _build_commons_lookup() -> tuple[dict[str, str], dict[str, str]]:
             stub_display[slug] = fm.get("term", slug.replace("-", " ").title())
         else:
             published[slug] = slug
-            m = alias_block_re.search(path.read_text(encoding="utf-8"))
+            text = path.read_text(encoding="utf-8")
+            found: list[str] = []
+            m = alias_block_re.search(text)
             if m:
-                alias_lists[slug] = [
+                found += [
                     a.strip().strip("\"'")
                     for a in re.findall(r"-\s+(.*)", m.group(1))
                 ]
+            # inline form: aliases: ["a", "b"]
+            mi = re.search(r"^aliases:[ \t]*\[(.*)\]", text, re.M)
+            if mi:
+                found += [
+                    a.strip().strip("\"'")
+                    for a in mi.group(1).split(",")
+                    if a.strip().strip("\"'")
+                ]
+            if found:
+                alias_lists[slug] = found
     # Alias resolution: a glossary term matching a published page's alias
     # links to that page (e.g. "daca" → /terms/dreamer/, "autistic" →
     # /terms/autism/). Page slugs win over aliases; first alias wins ties.
