@@ -93,8 +93,9 @@ contributors:
 ## Synthesis
 
 The sources are unanimous: **"differently abled" is a term to avoid.** All
-five corpus guides place it on the don't-use side of their disability
-tables and point to person-first or identity-first alternatives — most
+five corpus guides advise against it — in avoid/instead tables (SumOfUs,
+DCFPI, APA, Movement Strategy Center) or a dedicated entry (NCDJ) — and
+point to person-first or identity-first alternatives — most
 often "person with a disability" or "disabled person" (SumOfUs, DCFPI,
 APA, Movement Strategy Center, NCDJ). None treats it as merely a term to
 handle with care; the recommendation across the board is to drop it.

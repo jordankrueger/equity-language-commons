@@ -105,10 +105,10 @@ non-disabled writer using "cripple" in their own voice is doing something
 wrong, and every source defers, implicitly or explicitly, to how disabled
 people identify themselves.
 
-Chronologically the treatment is stable across the corpus's range. Sierra Club
-(2021) and the NCDJ (2021) already document the reclamation alongside the slur
-judgment; the APA (2023) and Movement Strategy Center (2024) carry the same
-shape forward. The NCDJ's background note traces the longer arc — the word
+Chronologically the treatment is stable across the corpus's range. The NCDJ
+(2021) already documents the reclamation alongside the slur judgment Sierra
+Club (2021) renders; the APA (2023) and Movement Strategy Center (2024) carry
+the same shape forward. The NCDJ's background note traces the longer arc — the word
 turned offensive in the early 20th century, was displaced by "handicapped" and
 then "disabled," and has more recently been partially reclaimed under "crip."
 

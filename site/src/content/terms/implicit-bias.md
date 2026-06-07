@@ -80,7 +80,7 @@ audience_notes:
   - audience: "Advocates and internal equity work"
     note: "The corpus uses implicit bias as a foundational concept to understand systemic inequity, not as preferred public-facing vocabulary. DCFPI explicitly groups it among ideas staff should keep in mind rather than terms to deploy externally. Pair it with structural framing (Racial Equity Tools, DSG) so the conversation moves from individual attitudes to the institutional steps that interrupt them."
   - audience: "When precision matters"
-    note: "\"Unconscious bias\" and \"hidden bias\" are treated as synonyms by DCFPI, Racial Equity Tools, and the Movement Strategy Center. The APA also offers \"implicit prejudice\" and \"implicit attitude.\" The defining feature across all sources is the absence of conscious awareness — distinguish it from explicit, intentional bias."
+    note: "\"Unconscious bias\" and \"hidden bias\" are treated as synonyms by DCFPI and Racial Equity Tools. The APA also offers \"implicit prejudice\" and \"implicit attitude.\" The defining feature across all sources is the absence of conscious awareness — distinguish it from explicit, intentional bias."
 last_reviewed: 2026-06-07
 created: 2026-06-07
 contributors:
@@ -92,8 +92,8 @@ contributors:
 The five sources converge on a shared definition with almost no friction: implicit
 bias is a set of negative associations or attitudes that people hold and express
 without conscious awareness, shaping their decisions and actions even when they are
-unaware of holding them. DCFPI, Racial Equity Tools, and the Movement Strategy Center
-all open with the same gloss — "also known as unconscious or hidden bias" — and the
+unaware of holding them. DCFPI and Racial Equity Tools
+both open with the same gloss — "also known as unconscious or hidden bias" — and the
 APA adds the parallel terms "implicit prejudice" and "implicit attitude." None of the
 corpus sources treats the term itself as one to avoid; the question across the corpus
 is how to use it well, not whether to use it.
@@ -103,8 +103,9 @@ explicitly journalistic, framing implicit bias as the concept that explains
 "contemporary racist acts that may not be overt or intentional" and stressing that it
 is just as harmful as explicit bias. Racial Equity Tools and the Movement Strategy
 Center, both grounded in the Kirwan Institute's research, foreground measurement (the
-Implicit Association Test) and the finding that implicit bias can override a person's
-stated commitments to equality. The APA, writing for a psychological audience, situates
+Implicit Association Test) and the gap between automatic associations and a person's
+explicit attitudes — with RET adding the sharper finding that implicit bias can
+override stated commitments to equality and fairness. The APA, writing for a psychological audience, situates
 the term within the broader phenomenon of implicit social cognition. DCFPI stands
 slightly apart: it lists implicit bias among concepts staff should understand rather
 than vocabulary it prescribes for outward-facing work.

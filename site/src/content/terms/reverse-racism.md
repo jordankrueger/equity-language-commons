@@ -65,9 +65,8 @@ contributors:
 
 ## Synthesis
 
-The three sources converge on one point: whether "reverse racism" is a
-coherent idea depends entirely on how racism is defined. The Sierra Club and
-the Movement Strategy Center both start from a structural definition — racism
+For the Sierra Club and the Movement Strategy Center, whether "reverse
+racism" is a coherent idea depends on how racism is defined: both start from a structural definition — racism
 as systemic relationships of power that elevate one racial group over others —
 and from that starting point the frame doesn't hold. The Sierra Club calls the
 assumption behind it (that white people experience racism on a level playing

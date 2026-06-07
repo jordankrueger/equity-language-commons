@@ -85,10 +85,9 @@ about the term itself. 18Doors layers on a relational caution that a newsroom
 glossary has no reason to carry: avoid defining anyone by what they are not
 (its dedicated argument against "non-Jew"), prefer affirming descriptors —
 Interfaith, Intercultural, Multi-heritage, Multi-faith — and never grade a
-person's religious identity. Both, in their own register, land on
-self-identification as the tiebreaker: 18Doors says to ask people how they want
-to identify and to respect the words they choose even when those differ from the
-guide's own recommendations.
+person's religious identity. 18Doors lands on self-identification as the
+tiebreaker: ask people how they want to identify and respect the words they
+choose even when those differ from the guide's own recommendations.
 
 Chronologically the two entries are contemporaneous (both captured in 2023) and
 not in tension, so there is no real evolution to trace — rather a division of

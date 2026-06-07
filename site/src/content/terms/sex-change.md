@@ -108,8 +108,10 @@ The sources are unanimous: **"sex change" is a dated term to avoid.** All six
 corpus sources that have a real entry — DCFPI, the Movement Strategy Center,
 NLGJA, the Trans Journalists Association, the Diversity Style Guide, and
 SumOfUs — place it in an avoid column or label it obsolete, antiquated, or
-outdated. There is no dissent and no context carve-out for the writer's own
-voice; the only exception any source names is reproducing a direct quote (TJA).
+outdated. There is no dissent. The exceptions the sources name are narrow:
+TJA allows the term inside a reproduced direct quote, and DCFPI's broader
+self-identification rule — use the terms preferred by the people affected,
+when known — covers a subject who describes their own experience that way.
 
 Where the sources diverge is on what to use instead, and that divergence
 tracks the chronology of how the surrounding vocabulary settled. The 2016–2017

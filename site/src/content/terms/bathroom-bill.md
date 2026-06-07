@@ -94,9 +94,10 @@ The three sources that pair an alternative converge on the same one.
 Movement Strategy Center and DCFPI both map "bathroom bill" directly to
 "non-discrimination law / ordinance," relabeling the measure by what it
 legally regulates rather than by the restroom imagery its opponents
-emphasize. SumOfUs doesn't supply a substitute but reaches the same verdict
-from the activist side, listing the phrase among "terms avoided/questioned by
-sex and gender identity justice activists." The practical lesson across all
+emphasize. SumOfUs reaches the same verdict from the activist
+side — its table lists "bathroom bill" among "terms avoided/questioned by sex
+and gender identity justice activists," paired against "non-discrimination
+law, ordinance" on the activist-used side. The practical lesson across all
 four is identical: name the legal mechanism, not the bathroom.
 
 Chronologically, the treatment is stable rather than evolving. SumOfUs

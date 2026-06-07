@@ -94,9 +94,9 @@ contributors:
 
 The corpus is unanimous: **"sexual preference" is a term to avoid, and "sexual
 orientation" is the replacement.** All five sources land on the same side, and
-several use the identical two-column structure — DCFPI, SEIU, and Movement
-Strategy Center each pair "sexual preference" (avoid) directly with "sexual
-orientation" (use instead), while the Diversity Style Guide and NLGJA spell out
+several pair the terms directly — DCFPI and Movement Strategy Center in
+avoid/instead tables, SEIU in an alphabetical "sexual orientation / Not:
+sexual preference" entry — while the Diversity Style Guide and NLGJA spell out
 the reasoning in prose. There is no dissent and no carve-out anywhere in the
 corpus.
 

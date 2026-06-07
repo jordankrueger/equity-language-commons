@@ -93,9 +93,8 @@ and should not appear in news copy.
 
 The divergence is one of register rather than substance. The two progressive
 equity guides (SumOfUs 2016, DCFPI 2017) treat "trans woman" as an unqualified
-in-group preferred term — it sits on a "say this" list with no caveats. The
-two identity-journalism guides (TJA, NLGJA) add a newsroom-specific relevance
-test: NLGJA advises naming someone as a trans woman only when she prefers it
+in-group preferred term — it sits on a "say this" list with no caveats. NLGJA
+adds a newsroom-specific relevance test: it advises naming someone as a trans woman only when she prefers it
 *and* her transgender status is relevant to the story, otherwise identifying
 her simply as a woman. That difference reflects the audiences — an activist
 style sheet endorsing vocabulary versus a journalism stylebook governing when
@@ -104,9 +103,10 @@ is acceptable.
 
 Chronologically, the term has only grown more settled. The 2016–2017
 progressive guides already carried it as standard; the journalism stylebooks
-maintained through 2025–2026 keep it as the recommended form while flagging
-the older "MTF" / "male-to-female" abbreviation as dated and warning against
-the closed compound's recent political weaponization. Across nearly a decade,
+maintained through 2025–2026 keep it as the recommended form and flag the
+older "MTF" / "male-to-female" abbreviation as dated; TJA additionally warns
+that the closed compound has recently been adopted by anti-trans political
+groups. Across nearly a decade,
 the recommendation direction never wavers — the refinements are about spelling
 and disclosure, not about the word.
 

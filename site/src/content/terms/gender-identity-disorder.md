@@ -69,7 +69,7 @@ audience_notes:
   - audience: "Advocates and campaigners"
     note: "Every corpus source pairs the avoided term with affirmative replacements — DCFPI and Movement Strategy Center map both \"Gender Identity Disorder\" and \"sex change\" to \"gender affirmation.\" When describing a person, lead with how they identify rather than any diagnostic label."
   - audience: "Internal comms and clinical/health contexts"
-    note: "If a diagnosis must be named (e.g., insurance, medical records), \"gender dysphoria\" is the current term. The TJA notes the necessity of a psychiatric diagnosis at all remains contested even as it enables insurance coverage — frame the diagnosis as a coverage mechanism, not a description of the person."
+    note: "If a diagnosis must be named (e.g., insurance, medical records), \"gender dysphoria\" is the current term. The Diversity Style Guide notes the necessity of a psychiatric diagnosis at all remains contested even as it enables insurance coverage — frame the diagnosis as a coverage mechanism, not a description of the person."
 last_reviewed: 2026-06-07
 created: 2026-06-07
 contributors:
@@ -93,7 +93,7 @@ send both to "gender affirmation" — folding the diagnosis and the surgical
 language into a single affirmative frame. The journalism-facing sources (DSG,
 TJA) keep the diagnostic lineage in view: they want writers to reach for
 "gender dysphoria" specifically when a diagnosis is meant, and "gender-affirming
-care" when treatment is meant. The TJA goes furthest, noting that whether a
+care" when treatment is meant. The Diversity Style Guide goes furthest, noting that whether a
 psychiatric diagnosis should be required at all remains contested even as its
 existence enables insurance coverage.
 

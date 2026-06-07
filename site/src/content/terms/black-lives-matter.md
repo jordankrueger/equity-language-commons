@@ -104,9 +104,10 @@ The Diversity Style Guide sits between, supplying the fullest journalistic
 chronology and noting the movement's own clarification that it does not hold
 Black lives to matter more than others.
 
-Chronologically, all four are post-2020 reference points, written after the
-George Floyd protests had pushed major newsrooms to capitalize Black and to
-treat Black Lives Matter as an established proper noun. None of them debates
+Chronologically, all four date from 2020 or later — Color of Change's guide
+landed in November 2020, months after the George Floyd protests had pushed
+major newsrooms to capitalize Black and to treat Black Lives Matter as an
+established proper noun; the other three are 2023–2024 references. None of them debates
 whether to capitalize or whether the movement is legitimate subject matter;
 that question was settled in practice by the time these guides were written.
 What they offer instead is precision — correct founding date, correct

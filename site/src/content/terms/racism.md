@@ -107,7 +107,7 @@ audience_notes:
   - audience: "Journalists and editors"
     note: "When sources disagree, name the level you mean. Most guides here define racism structurally (a system of power), so a one-off interpersonal slight is more precisely \"prejudice\" or \"bias.\" Reserve \"reverse racism\" with care — Sierra Club and Movement Strategy Center both reject it because the structural power dimension is absent."
   - audience: "Campaigners and organizers"
-    note: "DCFPI's formula \"Racism = racial prejudice + power\" is the cleanest shorthand for the distinction these guides share. Use it to keep \"racism\" pointed at systems and outcomes rather than narrowing it to individual intent — SEIU and APA both stress that racism operates \"with or without intent.\""
+    note: "DCFPI's formula \"Racism = racial prejudice + power\" is the cleanest shorthand for the distinction these guides share. Use it to keep \"racism\" pointed at systems and outcomes rather than narrowing it to individual intent — SEIU is explicit that interpersonal racism operates \"with or without intent.\""
   - audience: "Internal comms and DEI writers"
     note: "Racial Equity Tools is explicit that there is no settled vocabulary here. For shared documents, define your terms up front rather than assuming consensus, and decide deliberately where your team needs agreement versus where disagreement is acceptable."
 last_reviewed: 2026-06-07

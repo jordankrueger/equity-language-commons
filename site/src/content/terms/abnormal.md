@@ -57,7 +57,7 @@ audience_notes:
   - audience: "Journalists and editors"
     note: "\"Abnormal\"/\"abnormality\" are fine in a strictly medical or scientific sense — \"abnormal test result,\" \"abnormal curvature of the spine,\" \"abnormalities in brain function\" — but not as a description of a person. Don't call a non-disabled person \"normal\"; \"typical\" or \"non-disabled\" is the cleaner comparison (NCDJ, Diversity Style Guide)."
   - audience: "Advocacy and internal comms"
-    note: "The Movement Strategy Center treats both \"abnormal\" and \"normal\" as terms to avoid when describing people, pairing them with \"atypical\" and \"non-disabled.\" Watch for \"abnormal behavior\": all three sources flag it as carrying social-cultural judgment, so explain what you mean rather than letting the label stand."
+    note: "The Movement Strategy Center treats both \"abnormal\" and \"normal\" as terms to avoid when describing people, pairing them with \"atypical\" and \"non-disabled.\" Watch for \"abnormal behavior\": NCDJ and the Diversity Style Guide flag it as carrying social-cultural judgment, so explain what you mean rather than letting the label stand."
   - audience: "Anyone writing about a specific condition"
     note: "The carve-out is real but narrow. \"Abnormal\" describing a measurable phenomenon (a scan, a lab value, eye movements in Huntington's) is accepted usage; the line is crossed when the word is attached to the person rather than the finding."
 last_reviewed: 2026-06-07
@@ -75,8 +75,8 @@ curvature of the spine," "abnormalities in brain function" — while drawing the
 line at the individual. Both also extend the rule to its mirror image: calling a
 non-disabled person "normal" implies that people with disabilities are deviant or
 strange, so "typical" (NCDJ, DSG) or "non-disabled" (Movement Strategy Center) is the
-preferred comparison. All three treat "abnormal behavior" as a phrase that smuggles in
-social-cultural judgment and needs to be explained rather than asserted.
+preferred comparison. NCDJ and the DSG both treat "abnormal behavior" as a phrase that
+smuggles in social-cultural judgment and needs to be explained rather than asserted.
 
 The Movement Strategy Center reaches the same destination through a different
 format. Its Terms-to-Avoid table pairs "Abnormal" with the alternative "Atypical" and
