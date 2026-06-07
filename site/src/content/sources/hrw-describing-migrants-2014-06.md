@@ -31,10 +31,10 @@ documents the media organizations that had already dropped "illegal" by 2014.
 
 On the commons' source spectrum this is a **progressive equity guide** in
 rights-organization form: institutional usage guidance with legal reasoning
-attached. With PICUM's *Words Matter!* it anchors the migration additions to
+attached. With PICUM's *Words Matter!* it is one of the migration additions to
 the Immigration & Citizenship chapter, and it pre-dates much of the US style
-movement on the same terms — useful chronology for the *illegal-immigrant*
-and *illegal-alien* pages.
+movement on the same terms. The *illegal-immigrant* and *illegal-alien* pages
+cite it for that chronology.
 
 ## Access
 

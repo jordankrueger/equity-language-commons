@@ -108,7 +108,7 @@ contributors:
 
 The sources also define the term tightly: "undocumented" describes a current lack of legal status, not a permanent identity. SumOfUs notes that an asylum seeker becomes undocumented only after failing to respond to a removal notice. Define American widens the menu slightly to "unauthorized immigrant" and "immigrant without legal status," but "undocumented" is the common core every source returns to.
 
-The chronology runs from movement language into institutional practice. The term predates these guides — the [AP Stylebook dropped "illegal immigrant" in 2013](/sources/ap-stylebook/) — but the watershed the later sources cite is February 2021, when USCIS itself shifted to "noncitizen," "undocumented noncitizen," or "undocumented individual" (Diversity Style Guide). So by 2023–2024, the preferred-term consensus runs from progressive style guides through the federal agency's own register, rather than dividing along advocacy lines.
+The term moved from movement language into institutional practice. It predates these guides — the [AP Stylebook dropped "illegal immigrant" in 2013](/sources/ap-stylebook/) — but the change the later sources cite is February 2021, when USCIS itself shifted to "noncitizen," "undocumented noncitizen," or "undocumented individual" (Diversity Style Guide). By 2023–2024, the preferred-term consensus ran from progressive style guides through the federal agency's own register, rather than dividing along advocacy lines.
 
 ## Audience notes
 

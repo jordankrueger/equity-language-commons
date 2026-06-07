@@ -68,42 +68,12 @@ contributors:
 
 ## Synthesis
 
-The corpus sources agree on the core move: **equity is not equality, and the
-difference is the point.** Movement Strategy Center draws the cleanest line by
-defining both terms in the same glossary — equality is "uniform treatment"
-that can overlook historical and structural imbalance, while equity is
-"allocating the exact resources and opportunities needed to reach an equally
-positive outcome." The American Psychological Association arrives at the same
-place from the process angle: equity is "an ongoing process of assessing
-needs, correcting historical inequalities, and creating conditions for optimal
-outcomes," and providing resources according to need. SEIU's stylebook makes
-the point in a single parenthetical — "equity (not the same as equality)" —
-which is brief but unambiguous about the relationship.
+The corpus sources agree on the core move: **equity is not equality, and the difference is the point.** Movement Strategy Center defines both terms in the same glossary, which is what makes the contrast usable: equality is "uniform treatment" that can overlook historical and structural imbalance, while equity is "allocating the exact resources and opportunities needed to reach an equally positive outcome." The American Psychological Association says the same thing from the process angle: equity is "an ongoing process of assessing needs, correcting historical inequalities, and creating conditions for optimal outcomes," providing resources according to need. SEIU's stylebook makes the point in a single parenthetical, "equity (not the same as equality)," which is brief but unambiguous about the relationship.
 
-Where the sources diverge is mostly in altitude, not direction. MSC and APA
-supply full definitions and treat equity as a structural-vocabulary term to
-use deliberately; SEIU offers a usage flag rather than a definition, marking
-that the distinction exists without spelling it out. That makes SEIU the more
-cautionary voice in practice — its contribution is to stop a writer from
-using the two words interchangeably, which is why its recommendation reads
-as use-with-care rather than a settled definitional endorsement. None of the
-three treats "equity" as a term to avoid.
+The sources diverge in altitude, not direction. MSC and APA supply full definitions and treat equity as a structural-vocabulary term to use deliberately; SEIU offers a usage flag rather than a definition, marking that the distinction exists without spelling it out. That makes SEIU the more cautionary voice in practice: its job is to stop a writer from using the two words interchangeably, which is why its recommendation reads as use-with-care rather than a settled definitional endorsement. None of the three treats "equity" as a term to avoid.
 
-Chronologically, the treatment has held steady across the corpus's window:
-SEIU's 2020 stylebook already carries the equity-vs-equality flag, the APA's
-2023 guide formalizes equity as a process definition, and MSC's 2024 glossary
-states the paired contrast most explicitly. The trajectory is toward more
-precise definition over time rather than any shift in stance — the
-equity/equality distinction was treated as real from the earliest source
-forward, and later guides simply articulate it more fully. A scope note:
-incidental uses of "equity" elsewhere in the corpus (home equity, gender
-equity, "pay equity" as a labor term) are different senses of the word and do
-not bear on this conceptual entry.
+The treatment holds steady across the corpus's window. SEIU's 2020 stylebook already carries the equity-vs-equality flag, the APA's 2023 guide states equity as a process definition, and MSC's 2024 glossary states the paired contrast most explicitly. The distinction was treated as real from the earliest source forward; later guides articulate it more fully rather than shifting stance. A scope note: incidental uses of "equity" elsewhere in the corpus (home equity, gender equity, "pay equity" as a labor term) are different senses of the word and do not bear on this conceptual entry.
 
 ## Audience notes
 
-See the structured audience notes above: campaigners should match the word to
-the claim (same-treatment vs. need-based allocation); journalists should treat
-interchangeable use of the two terms as a clarifying-question moment rather
-than a silent edit; and internal-comms and DEI/EDI writers should follow the
-APA in framing equity as ongoing practice, not a one-time deliverable.
+See the structured audience notes above: campaigners should match the word to the claim (same-treatment vs. need-based allocation); journalists should treat interchangeable use of the two terms as a clarifying-question moment rather than a silent edit; and internal-comms and DEI/EDI writers should follow the APA in framing equity as ongoing practice, not a one-time deliverable.

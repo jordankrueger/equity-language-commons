@@ -30,8 +30,8 @@ headword glossary, it is a discussion guide built around DO/DON'T guidance
 it closes on a self-identification principle: when unsure, ask people how
 they want to identify.
 
-In the commons it anchors the *interfaith* entry in the Faith & Religious
-Identity chapter and contributes to the Jewish-identity terms.
+In the commons it is the source for the *interfaith* entry in the Faith &
+Religious Identity chapter, and it contributes to the Jewish-identity terms.
 
 ## Access
 

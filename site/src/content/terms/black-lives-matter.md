@@ -80,37 +80,37 @@ contributors:
 
 ## Synthesis
 
-The four sources converge on the basics and add no dissent. Each treats Black
-Lives Matter as a real, capitalized, proper-noun movement — not a phrase to
-hedge or avoid — and each dates its founding to 2013, in the wake of the
-acquittal in Trayvon Martin's killing. Three of the four — the Diversity Style
-Guide, Racial Equity Tools, and the Movement Strategy Center — name the same
-three founders: Alicia Garza, Patrisse Cullors, and Opal Tometi; Color of
+The four sources agree on the basics and add no dissent. Each treats Black
+Lives Matter as a real, capitalized, proper-noun movement, not a phrase to
+hedge or avoid, and each dates its founding to 2013, in the wake of the
+acquittal in Trayvon Martin's killing. Three of the four (the Diversity Style
+Guide, Racial Equity Tools, and the Movement Strategy Center) name the same
+three founders: Alicia Garza, Patrisse Cullors, and Opal Tometi. Color of
 Change's protest-reporting entry dates the movement to 2013 without naming
 them. The Diversity Style Guide is
 the only one to spell out the orthography directly, recording that the
-movement "is also written #BlackLivesMatter" — the hashtag is camel-cased,
-unspaced, and capitalized, mirroring the movement name.
+movement "is also written #BlackLivesMatter," with the hashtag camel-cased,
+unspaced, and capitalized to mirror the movement name.
 
 Where the sources differ is in register rather than position. Racial Equity
 Tools and the Movement Strategy Center quote or echo the movement's own
-self-description (the "Herstory" framing — "an ideological and political
+self-description (the "Herstory" framing, "an ideological and political
 intervention"), letting the movement speak for itself. Color of Change, a
 protest-reporting guide, is the most operationally precise: it gives Black
 Lives Matter a definition and then, in a separate entry, distinguishes the
 Black Lives Matter Network from the broader Movement for Black Lives
-coalition — the movement-versus-organization line that trips up newsrooms.
+coalition, the movement-versus-organization line that trips up newsrooms.
 The Diversity Style Guide sits between, supplying the fullest journalistic
 chronology and noting the movement's own clarification that it does not hold
 Black lives to matter more than others.
 
-Chronologically, all four date from 2020 or later — Color of Change's guide
+All four date from 2020 or later. Color of Change's guide
 landed in November 2020, months after the George Floyd protests had pushed
 major newsrooms to capitalize Black and to treat Black Lives Matter as an
 established proper noun; the other three are 2023–2024 references. None of them debates
 whether to capitalize or whether the movement is legitimate subject matter;
 that question was settled in practice by the time these guides were written.
-What they offer instead is precision — correct founding date, correct
+What they offer instead is precision: correct founding date, correct
 founders, correct hashtag form, and the distinction between the movement and
 the organizations operating under its banner.
 

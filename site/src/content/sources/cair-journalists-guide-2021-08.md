@@ -35,8 +35,8 @@ should note that the guide quotes scripture and third-party sources (the AP
 Stylebook, UN documents) within its own text; the commons cites CAIR for
 CAIR's guidance and goes to the primary sources for theirs.
 
-In the commons it contributes to the Faith & Religious Identity chapter,
-standing behind *muslim*, *islam*, *islamophobia*, and *nation-of-islam*.
+In the commons it contributes to the Faith & Religious Identity chapter, as a
+source for *muslim*, *islam*, *islamophobia*, and *nation-of-islam*.
 
 ## Access
 

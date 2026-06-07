@@ -83,13 +83,13 @@ clinical term to avoid**, superseded by "gender dysphoria." None of the corpus
 treats it as live usage. DCFPI and Movement Strategy Center both file it in an
 explicit avoid-this/use-this table; the Diversity Style Guide's dedicated entry
 is a one-line redirect ("Outdated, avoid. See gender dysphoria."); and the Trans
-Journalists Association labels it outdated and explains why. The consensus is
-not just lexical — it tracks a real change in the diagnostic manuals, and the
+Journalists Association labels it outdated and explains why. The consensus
+tracks a real change in the diagnostic manuals, and the
 sources point writers toward the same replacements.
 
-Where they diverge is small and instructive. The two avoid-tables (DCFPI,
+Where they diverge is small. The two avoid-tables (DCFPI,
 Movement Strategy Center) pair "Gender Identity Disorder" with "Sex Change" and
-send both to "gender affirmation" — folding the diagnosis and the surgical
+send both to "gender affirmation," folding the diagnosis and the surgical
 language into a single affirmative frame. The journalism-facing sources (DSG,
 TJA) keep the diagnostic lineage in view: they want writers to reach for
 "gender dysphoria" specifically when a diagnosis is meant, and "gender-affirming

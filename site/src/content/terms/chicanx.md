@@ -82,13 +82,13 @@ contributors:
 
 ## Synthesis
 
-Chicanx (and its gendered forms Chicano/Chicana) is the subset-identity in the Latino cluster that is **politically chosen**, not demographically assigned. SEIU's rule — use Latino as default, use Chicano only when the person or organization uses it for themselves — captures the operational call. DSG's historical framing explains the why: Chicano was a pejorative until the 1960s Chicano Movement reclaimed it as a term of political and cultural pride centered on Mexican-American working-class experience and Indigenous ancestry.
+Chicanx, and its gendered forms Chicano/Chicana, is the subset-identity in the Latino cluster that is politically chosen rather than demographically assigned. SEIU's rule is the operational one: use Latino as the default, and use Chicano only when the person or organization uses it for themselves. DSG explains the why. Chicano was a pejorative until the 1960s Chicano Movement reclaimed it as a term of political and cultural pride centered on Mexican-American working-class experience and Indigenous ancestry.
 
-**The political-reclamation history is the distinction**. Latino is largely a neutral demographic descriptor; Chicano is a politicized self-identification with a specific movement history. Defaulting to Chicano for any Mexican-American audience misses that the term carries the movement's political content. Defaulting to Latino for someone who identifies as Chicana misses the political claim they're making by choosing the term.
+The political-reclamation history is the distinction. Latino is largely a neutral demographic descriptor; Chicano is a politicized self-identification with a specific movement history. Defaulting to Chicano for any Mexican-American audience misses that the term carries the movement's political content. Defaulting to Latino for someone who identifies as Chicana misses the political claim they are making by choosing the term.
 
-The gender-neutral forms — Chicanx (English-rooted, parallel to Latinx), Chicane (Spanish-rooted, parallel to Latine), Chican@ (older post-internet construction, mostly in academic-department names now) — track the same evolution as the Latino cluster. Same audience patterns: gaining ground in academic, movement, LGBTQIA+, and younger contexts; less established in older or non-movement contexts.
+The gender-neutral forms track the same evolution as the rest of the Latino cluster: Chicanx (English-rooted, parallel to Latinx), Chicane (Spanish-rooted, parallel to Latine), and Chican@ (an older post-internet construction, mostly in academic-department names now). They follow the same audience patterns too — gaining ground in academic, movement, LGBTQIA+, and younger contexts, less established in older or non-movement ones.
 
-**Geographic concentration matters** — Chicano/Chicana/Chicanx self-identification is largely a US Southwest and Pacific Northwest phenomenon with multi-generational community history. Recent Mexican immigrants and non-Southwest Mexican-American communities are less likely to use the term.
+Geography matters. Chicano/Chicana/Chicanx self-identification is largely a US Southwest and Pacific Northwest phenomenon with multi-generational community history. Recent Mexican immigrants and non-Southwest Mexican-American communities are less likely to use the term.
 
 
 ## History note

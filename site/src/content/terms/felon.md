@@ -78,9 +78,9 @@ contributors:
 
 ## Synthesis
 
-**"Felon" is an avoid across every source that treats it — the prescribed move is people-first language that names the conviction without making it the person.** The Immigrant Defense Project / Comm/Unity "Problematic Terms to Reconsider" chart groups felon with convict, ex-con, and offender as stigmatizing, offering "person with a felony conviction." Sierra Club names felon and inmate together as "reductive terms," set against "formerly incarcerated person." The Diversity Style Guide's combined "felon, offender" entry gives the rationale most directly: these terms label "people based on the crime."
+**"Felon" is an avoid across every source that treats it. The prescribed move is people-first language that names the conviction without making it the person.** The Immigrant Defense Project / Comm/Unity "Problematic Terms to Reconsider" chart groups felon with convict, ex-con, and offender as stigmatizing, offering "person with a felony conviction." Sierra Club names felon and inmate together as "reductive terms," set against "formerly incarcerated person." The Diversity Style Guide's combined "felon, offender" entry gives the rationale most directly: these terms label "people based on the crime."
 
-Worth noting the framing energy the term carries on the advocacy side: SumOfUs's incarceration guidance is built around the decriminalizing-language slogan "Felons, not families" — a reminder that "felon" is precisely the word organizers push against. The page pairs with [convict](/terms/convict/), [inmate](/terms/inmate/), and [offender](/terms/offender/); felon and offender share the Diversity Style Guide's single combined entry.
+On the advocacy side, SumOfUs's incarceration guidance is built around the decriminalizing-language slogan "Felons, not families" — "felon" is the word organizers push against. The page pairs with [convict](/terms/convict/), [inmate](/terms/inmate/), and [offender](/terms/offender/); felon and offender share the Diversity Style Guide's single combined entry.
 
 ## Audience notes
 

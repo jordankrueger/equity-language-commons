@@ -74,11 +74,11 @@ contributors:
 ---
 ## Synthesis
 
-**The label "addict" is rejected across the corpus; the condition term "addiction" is not.** This page covers the noun — the word applied to a person — while its companion page, [addiction](/terms/addiction/), covers the condition itself. All four sources reject "addict" as a noun. GCJT's principle is not to identify a person with their disease ("she had a heroin addiction," not "she was a heroin addict"); NCDJ — the chapter's anchor — and the Diversity Style Guide prefer "someone with a drug addiction"; and APA's term-to-avoid table prescribes "person with substance use disorder." The shared move is person-first: name the condition a person has rather than collapsing the person into it.
+**The label "addict" is rejected across the corpus; the condition term "addiction" is not.** This page covers the noun — the word applied to a person — while its companion page, [addiction](/terms/addiction/), covers the condition itself. All four sources reject "addict" as a noun. GCJT's principle is not to identify a person with their disease ("she had a heroin addiction," not "she was a heroin addict"); NCDJ — the chapter's anchor — and the Diversity Style Guide prefer "someone with a drug addiction"; and APA's term-to-avoid table prescribes "person with substance use disorder." All four use person-first phrasing: name the condition a person has rather than collapsing the person into it.
 
-The same rejection extends to the labels that travel with "addict." Following AP, NCDJ folds in "alcoholic," "user," and "abuser"; the Diversity Style Guide and NCDJ both single out "junkie" — which the American Psychiatric Association discourages — as a narrower, harsher term for someone who uses heroin.
+The same rejection extends to the related labels. Following AP, NCDJ folds in "alcoholic," "user," and "abuser"; the Diversity Style Guide and NCDJ both single out "junkie" — which the American Psychiatric Association discourages — as a narrower, harsher term for someone who uses heroin.
 
-NCDJ spells out two exceptions: a person's own self-identification, and direct quotation or organization names (the "A" in Alcoholics Anonymous is not edited); APA likewise holds that an individual's own preference supersedes style. The guidance is stable from 2021 through 2023, all of it pointing the same direction — the disease is not the person. This page pairs with [addiction](/terms/addiction/) and [mental health](/terms/mental-health/).
+NCDJ gives two exceptions: a person's own self-identification, and direct quotation or organization names (the "A" in Alcoholics Anonymous is not edited). APA likewise holds that an individual's own preference supersedes style. The guidance is stable from 2021 through 2023. This page pairs with [addiction](/terms/addiction/) and [mental health](/terms/mental-health/).
 
 ## Audience notes
 

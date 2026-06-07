@@ -66,43 +66,41 @@ contributors:
 
 ## Synthesis
 
-The two sources approach "interfaith" from different jobs and agree on the core
-point: it is a usable, appropriate term whose value lies in being descriptive
-rather than defining people by exclusion. The Diversity Style Guide, writing for
-journalists, treats it as plainly correct and spends its entry on precision —
-"interfaith" means more than one religious tradition (Christians, Jews,
+The two sources come at "interfaith" from different tasks and agree on the core
+point: it is a usable, appropriate term whose value is that it describes rather
+than defining people by exclusion. The Diversity Style Guide, writing for
+journalists, treats it as plainly correct and spends its entry on precision.
+"Interfaith" means more than one religious tradition (Christians, Jews,
 Buddhists, Muslims) and should not be swapped for "ecumenical" (internal to
 Christianity) or "interdenominational" (one faith, several denominations).
 18Doors, writing for Jewish organizations and the people who staff them, reaches
-the same practical endorsement from the opposite direction: it is candid that
-the word is "not precise and sometimes not quite accurate," but keeps it as the
-best available umbrella for families whose partners come from different
-religious backgrounds.
+the same endorsement by another route: it is candid that the word is "not
+precise and sometimes not quite accurate," but keeps it as the best available
+umbrella for families whose partners come from different religious backgrounds.
 
-Where they diverge is depth of caution, which tracks their audiences. The
-Diversity Style Guide's concern is taxonomic accuracy; it issues no warning
-about the term itself. 18Doors layers on a relational caution that a newsroom
-glossary has no reason to carry: avoid defining anyone by what they are not
-(its dedicated argument against "non-Jew"), prefer affirming descriptors —
-Interfaith, Intercultural, Multi-heritage, Multi-faith — and never grade a
-person's religious identity. 18Doors lands on self-identification as the
-tiebreaker: ask people how they want to identify and respect the words they
-choose even when those differ from the guide's own recommendations.
+They differ in how much caution they carry, which tracks their audiences. The
+Diversity Style Guide cares about taxonomic accuracy and issues no warning about
+the term itself. 18Doors adds a relational caution that a newsroom glossary has
+no reason to carry: avoid defining anyone by what they are not (its argument
+against "non-Jew"), prefer affirming descriptors — Interfaith, Intercultural,
+Multi-heritage, Multi-faith — and never grade a person's religious identity.
+18Doors treats self-identification as the tiebreaker: ask people how they want
+to identify and respect the words they choose even when those differ from the
+guide's own recommendations.
 
-Chronologically the two entries are contemporaneous (both captured in 2023) and
-not in tension, so there is no real evolution to trace — rather a division of
-labor. The Diversity Style Guide settles what the word denotes; 18Doors settles
-how to wield it with care inside the communities it most often describes. A
-sourcing note: this page rests on two organizations. CAIR, SEIU, and the
-Immigrant Defense Project surfaced in the keyword scan but were incidental — a
-theological passage on relations with other faiths, bilingual translation-table
-entries, and an organization's name in a contact list, respectively — none of
-them a guidance position on the term.
+The two entries are contemporaneous (both captured in 2023) and not in tension.
+The Diversity Style Guide settles what the word denotes; 18Doors settles how to
+use it with care inside the communities it most often describes. A sourcing
+note: this page rests on two organizations. CAIR, SEIU, and the Immigrant
+Defense Project surfaced in the keyword scan but were incidental — a theological
+passage on relations with other faiths, bilingual translation-table entries, and
+an organization's name in a contact list, respectively — none of them a guidance
+position on the term.
 
 ## Audience notes
 
-See the structured audience notes above: Jewish-organization communicators
+See the structured audience notes above. Jewish-organization communicators
 should follow 18Doors on descriptive, affirming language and never the
-"non-Jew" framing; journalists should keep the Diversity Style Guide's
-distinction between interfaith, ecumenical, and interdenominational; and in every
+"non-Jew" framing. Journalists should keep the Diversity Style Guide's
+distinction between interfaith, ecumenical, and interdenominational. In every
 case, defer to how people identify themselves.

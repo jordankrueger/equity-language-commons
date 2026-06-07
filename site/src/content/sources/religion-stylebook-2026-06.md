@@ -28,9 +28,9 @@ across major faith traditions.
 On the commons' source spectrum this is an **identity-journalism accuracy
 guide**, not a progressive equity guide: its goal is precise, informed
 coverage of religious communities rather than advocacy framing. That makes it
-a strong cross-check on the equity guides — when an RNA entry and an advocacy
+a cross-check on the equity guides. When an RNA entry and an advocacy
 guide agree on usage (as they do on *anti-Semitism* and on distinguishing
-*Islam* from *Islamist*), the convergence is meaningful precisely because the
+*Islam* from *Islamist*), the agreement carries weight because the
 two kinds of source reach it from different starting points.
 
 The commons archives the **Judaism and Islam category entries** specifically —

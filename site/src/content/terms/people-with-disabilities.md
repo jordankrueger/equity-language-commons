@@ -83,7 +83,7 @@ contributors:
 
 What keeps the page at use-with-care is that the default is only a default. NCDJ and the APA both treat identity-first language ("disabled people") as equally legitimate, and both give the same governing rule: the individual's preference supersedes matters of style — when uncertain, ask. The APA notes the debate originated in exactly this context, and that some communities run the other way: Deaf and autistic communities widely prefer identity-first language, where the person-first form can read as distancing the person from an identity they claim. A writer who applies "people with disabilities" uniformly, over a subject's stated preference, has followed the style guide into the exact error the style guides warn against.
 
-The chronology is a flattening of what was once a sharper rule. Person-first language was taught for years as the single respectful form; the current sources (NCDJ 2021, APA 2023) describe a two-form landscape with preference as the tiebreaker. The neighboring pages carry the rest of the picture: "disabled" (the identity-first adjective, with its own community standing), "handicapped" (dated, avoid), and the chapter's identity-first exemplar, capital-D "Deaf."
+What was once a sharper rule has flattened. Person-first language was taught for years as the single respectful form; the current sources (NCDJ 2021, APA 2023) describe two valid forms with preference as the tiebreaker. The neighboring pages carry the rest of the picture: "disabled" (the identity-first adjective, with its own community standing), "handicapped" (dated, avoid), and the chapter's identity-first exemplar, capital-D "Deaf."
 
 ## Audience notes
 

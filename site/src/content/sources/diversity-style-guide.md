@@ -18,7 +18,7 @@ added: 2026-05-17
 
 **The Diversity Style Guide** is a resource "to help journalists and other media professionals cover a complex, multicultural world with accuracy, authority and sensitivity." Initially a project of the Center for Integration and Improvement of Journalism at San Francisco State University, it "brings together definitions and information from more than two dozen style guides, journalism organizations and other resources" — more than 700 terms across race/ethnicity, disability, immigration, sexuality and gender identity, drugs and alcohol, and geography. Each entry refers back to its original source.
 
-In the commons it functions as a meta-source and peer project: it is cross-referenced and linked symbiotically rather than treated as the originating authority for any single term.
+In the commons it is a meta-source and peer project: it is cross-referenced and linked rather than treated as the originating authority for any single term.
 
 ## Access
 

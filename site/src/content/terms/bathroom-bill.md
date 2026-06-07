@@ -82,34 +82,32 @@ contributors:
 
 The corpus is unanimous: every source that addresses "bathroom bill" places
 it in the avoid column. NLGJA, Movement Strategy Center, DCFPI, and SumOfUs
-all treat it as a term to step away from rather than one to use carefully —
-there is no use-with-care middle ground here, and no source defends it. The
+all treat it as a term to step away from rather than one to use carefully.
+There is no use-with-care middle ground here, and no source defends it. The
 shared reason is framing. NLGJA states it most directly: the phrase is a
 "politically charged term" for measures governing public accommodations for
 transgender people, and it tracks the way opponents of transgender equity
 narrow the debate down to restroom access. Adopting the term adopts that
 narrowing.
 
-The three sources that pair an alternative converge on the same one.
+The three sources that pair an alternative land on the same one.
 Movement Strategy Center and DCFPI both map "bathroom bill" directly to
 "non-discrimination law / ordinance," relabeling the measure by what it
 legally regulates rather than by the restroom imagery its opponents
 emphasize. SumOfUs reaches the same verdict from the activist
-side — its table lists "bathroom bill" among "terms avoided/questioned by sex
+side: its table lists "bathroom bill" among "terms avoided/questioned by sex
 and gender identity justice activists," paired against "non-discrimination
-law, ordinance" on the activist-used side. The practical lesson across all
-four is identical: name the legal mechanism, not the bathroom.
+law, ordinance" on the activist-used side. The lesson across all
+four is the same: name the legal mechanism, not the bathroom.
 
-Chronologically, the treatment is stable rather than evolving. SumOfUs
+The treatment is stable rather than evolving. SumOfUs
 flagged the term in 2016, around the peak of the North Carolina HB2 news
 cycle that put "bathroom bill" into wide circulation; DCFPI carried the same
 avoid-and-replace guidance in 2017; and Movement Strategy Center (2024) and
 NLGJA (2025) restate it nearly a decade later in the same terms. NLGJA adds
-the one nuance the others leave implicit — the term is acceptable inside
+the one point the others leave implicit: the term is acceptable inside
 direct quotes, where the writer is reporting someone else's framing rather
-than endorsing it. This page is, by design, a teaching case for a recurring
-pattern in the commons: a label that feels like neutral shorthand actually
-imports one side's framing of the issue.
+than endorsing it.
 
 ## Audience notes
 

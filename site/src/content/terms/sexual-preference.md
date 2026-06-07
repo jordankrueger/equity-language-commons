@@ -106,14 +106,13 @@ for "implying that sexuality is the result of a conscious choice"; NLGJA says it
 "implies a choice" and is imprecise. NLGJA adds the most granular distinction in
 the corpus, separating "sexual orientation" from both "sexual preference" and
 "sexuality" (which it defines as sexual activity generally) and from "sexual
-identity" (a person's own perception of their sexuality) — a reminder that the
-preferred replacement is specifically "orientation," not just any nearby phrase.
+identity" (a person's own perception of their sexuality). The preferred
+replacement is specifically "orientation," not just any nearby phrase.
 
-Chronologically the position is stable rather than evolving. The earliest source
+Chronologically the position is stable. The earliest source
 here (DCFPI, 2017) already files "sexual preference" under avoid, and the most
-recent (NLGJA, 2025) states the same rule with fuller reasoning. Unlike terms
-whose treatment shifts across editions, this one shows a settled consensus held
-consistently from 2017 through 2025 — what changes across the sources is the
+recent (NLGJA, 2025) states the same rule with fuller reasoning. The consensus holds
+from 2017 through 2025; what changes across the sources is the
 amount of explanation offered, not the recommendation.
 
 ## Audience notes

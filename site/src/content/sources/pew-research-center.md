@@ -24,12 +24,12 @@ version_history:
 ## About
 
 **Pew Research Center** is a nonpartisan research organization whose
-National Survey of Latinos series provides the empirical backbone for the
+National Survey of Latinos series supplies the survey data behind the
 commons' Hispanic / Latino / Latinx / Latine cluster. It is not an
-equity-language guide and is not part of the commons corpus — it appears
-here as a **reference source** because its survey findings are the
-load-bearing data behind several syntheses (and are quoted secondhand
-inside corpus guides like the Diversity Style Guide):
+equity-language guide and is not part of the commons corpus. It appears
+here as a **reference source** because its findings sit behind several
+syntheses, and are quoted secondhand inside corpus guides like the
+Diversity Style Guide:
 
 - **2013 survey** — 50% of Hispanic adults expressed no preference between
   "Hispanic" and "Latino"; among all respondents, Hispanic was preferred

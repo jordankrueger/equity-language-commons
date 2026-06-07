@@ -105,9 +105,9 @@ contributors:
 
 ## Synthesis
 
-Every guide that addresses BIPOC tells the same nested story, even when the surface recommendation varies: the term names a real structural distinction, and overusing it erases that distinction.
+Every guide that addresses BIPOC tells the same story, even when the surface recommendation varies: the term names a real structural distinction, and overusing it erases that distinction.
 
-The structural claim is consistent across all four sources: Black and Indigenous people in the US experience racism in a way that is qualitatively distinct from — and frequently more severe than — what other people of color experience. BIPOC names that distinction by fronting it. Sierra Club, NGC, DSG, and RET all agree on this framing. Where the prior 'people of color' umbrella treats all non-white experience as analytically interchangeable, BIPOC insists on the asymmetry.
+The structural claim is consistent across all four sources. Black and Indigenous people in the US experience racism in a way that is distinct from, and frequently more severe than, what other people of color experience. BIPOC names that distinction by fronting it. Sierra Club, NGC, DSG, and RET all agree on this. Where the prior 'people of color' umbrella treats all non-white experience as interchangeable, BIPOC insists on the asymmetry.
 
 The over-use failure mode is the live editorial concern. Three of four guides (Sierra Club, NGC, DSG) flag the same trap: writers reach for BIPOC as a polite catch-all for 'non-white,' which is exactly the move BIPOC was coined to make harder. The remedy is shared:
 
@@ -115,11 +115,11 @@ The over-use failure mode is the live editorial concern. Three of four guides (S
 2. **Reserve BIPOC for genuinely cross-cutting solidarity contexts** where the structural Black-and-Indigenous-front-and-center framing is what you mean to invoke. "BIPOC-led coalitions," "BIPOC mutual aid networks" — collective frames where the asymmetry is being deliberately named.
 3. **Use BIPOC as a noun, not an individual descriptor.** The P already means 'people' — 'BIPOC people' is redundant (DSG). BIPOC works as a group label, not as a personal identity term.
 
-The Sierra Club position — "either term, PoC or BIPOC, is acceptable" — is the most permissive in the corpus, but the surrounding text still pushes hard toward specificity over the umbrella. There is no guide in the in-scope corpus that prefers BIPOC for individual identification or that treats it as fully interchangeable with POC.
+The Sierra Club position, "either term, PoC or BIPOC, is acceptable," is the most permissive in the corpus, but the surrounding text still pushes toward specificity over the umbrella. No guide in the in-scope corpus prefers BIPOC for individual identification or treats it as fully interchangeable with POC.
 
-**RET reads the asymmetric framing as a feature**, not a hazard — leading with B and I counters anti-Black racism and Native invisibilization specifically. That's the most pro-BIPOC position in the corpus. It coexists with the Sierra Club / NGC / DSG "use with care" posture rather than contradicting it; both positions agree on what the term is for and what failure modes to avoid.
+**RET reads the asymmetric framing as a feature**, not a hazard: leading with B and I counters anti-Black racism and Native invisibilization specifically. That's the most pro-BIPOC position in the corpus. It coexists with the Sierra Club / NGC / DSG "use with care" posture rather than contradicting it; both positions agree on what the term is for and what failure modes to avoid.
 
-The cleanest one-line rule: **be more specific whenever you can; reach for BIPOC when you specifically mean the cross-cutting solidarity frame, not as shorthand for 'non-white.'**
+The one-line rule: **be more specific whenever you can; reach for BIPOC when you mean the cross-cutting solidarity frame, not as shorthand for 'non-white.'**
 
 
 ## History note

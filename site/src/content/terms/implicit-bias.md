@@ -89,40 +89,38 @@ contributors:
 
 ## Synthesis
 
-The five sources converge on a shared definition with almost no friction: implicit
-bias is a set of negative associations or attitudes that people hold and express
-without conscious awareness, shaping their decisions and actions even when they are
-unaware of holding them. DCFPI and Racial Equity Tools
-both open with the same gloss — "also known as unconscious or hidden bias" — and the
-APA adds the parallel terms "implicit prejudice" and "implicit attitude." None of the
-corpus sources treats the term itself as one to avoid; the question across the corpus
-is how to use it well, not whether to use it.
+The five sources agree on the definition. Implicit bias is a set of negative
+associations or attitudes that people hold and express without conscious awareness,
+shaping their decisions and actions even when they do not know they hold them. DCFPI
+and Racial Equity Tools both open with the same gloss — "also known as unconscious or
+hidden bias" — and the APA adds the parallel terms "implicit prejudice" and "implicit
+attitude." None of the sources treats the term itself as one to avoid. The question is
+how to use it well, not whether to use it.
 
-Where the sources differ is in emphasis. The Diversity Style Guide is the most
-explicitly journalistic, framing implicit bias as the concept that explains
-"contemporary racist acts that may not be overt or intentional" and stressing that it
-is just as harmful as explicit bias. Racial Equity Tools and the Movement Strategy
-Center, both grounded in the Kirwan Institute's research, foreground measurement (the
-Implicit Association Test) and the gap between automatic associations and a person's
-explicit attitudes — with RET adding the sharper finding that implicit bias can
-override stated commitments to equality and fairness. The APA, writing for a psychological audience, situates
-the term within the broader phenomenon of implicit social cognition. DCFPI stands
-slightly apart: it lists implicit bias among concepts staff should understand rather
-than vocabulary it prescribes for outward-facing work.
+The sources differ in emphasis. The Diversity Style Guide is the most journalistic,
+calling implicit bias the concept that explains "contemporary racist acts that may not
+be overt or intentional" and saying it is just as harmful as explicit bias. Racial
+Equity Tools and the Movement Strategy Center, both drawing on the Kirwan Institute's
+research, point to measurement (the Implicit Association Test) and to the gap between
+automatic associations and a person's explicit attitudes; RET adds that implicit bias
+can override stated commitments to equality and fairness. The APA, writing for a
+psychological audience, places the term within the broader phenomenon of implicit
+social cognition. DCFPI lists implicit bias among concepts staff should understand
+rather than vocabulary it prescribes for outward-facing work.
 
-Chronologically the treatment is stable rather than evolving. The earliest entry
-(DCFPI, 2017) and the most recent (Movement Strategy Center, 2024) define the term in
-nearly identical language, and the Kirwan Institute's 2013 research review still anchors
-the equity-sector definitions a decade later. What has shifted is framing emphasis: the
-later equity sources lean harder on the structural payoff — that naming implicit bias
-is a step toward interrupting it through changes in decision-making processes and
-institutions, not toward assigning individual blame.
+The treatment is stable across time. The earliest entry (DCFPI, 2017) and the most
+recent (Movement Strategy Center, 2024) define the term in nearly identical language,
+and the Kirwan Institute's 2013 research review still grounds the equity-sector
+definitions a decade later. What has shifted is emphasis: the later equity sources lean
+harder on the structural point, that naming implicit bias is a step toward interrupting
+it through changes in decision-making and institutions, not toward assigning individual
+blame.
 
 ## Audience notes
 
-See the structured audience notes above: journalists should treat implicit bias as a
-researched term of art for unconscious attitudes rather than a charge against an
-individual; advocates should use it as a concept that opens onto structural remedies
-rather than as preferred public vocabulary; and writers needing precision should know
-"unconscious bias," "hidden bias," "implicit prejudice," and "implicit attitude" are
-the corpus's accepted synonyms, all turning on the absence of conscious awareness.
+See the structured audience notes above. Journalists should treat implicit bias as a
+researched term for unconscious attitudes, not a charge against an individual. Advocates
+should use it as a concept that opens onto structural remedies rather than as preferred
+public vocabulary. Writers needing precision should know that "unconscious bias,"
+"hidden bias," "implicit prejudice," and "implicit attitude" are the corpus's accepted
+synonyms, all turning on the absence of conscious awareness.

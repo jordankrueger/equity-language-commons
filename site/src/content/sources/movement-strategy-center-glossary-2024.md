@@ -28,12 +28,11 @@ Economy/Poverty, Gender/Sex, Race/Indigeneity) pairing each avoided term with
 suggested alternatives.
 
 On the commons' source spectrum this is a **progressive equity guide**, and
-the corpus' movement-organizing anchor — the source the Movement & Advocacy
-chapter has been waiting for. Its two halves serve the commons differently:
-the concept definitions are the corpus' richest single statement of movement
-vocabulary, while the Terms to Avoid tables carry direct what-to-call-people
-guidance that stands behind pages from *cripple* and *abnormal* to
-*bathroom-bill* and *poor*.
+the corpus' movement-organizing anchor for the Movement & Advocacy chapter.
+Its two halves do different work: the concept definitions are the corpus'
+fullest single statement of movement vocabulary, while the Terms to Avoid
+tables carry direct what-to-call-people guidance behind pages from *cripple*
+and *abnormal* to *bathroom-bill* and *poor*.
 
 ## Access
 

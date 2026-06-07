@@ -86,7 +86,7 @@ contributors:
 
 ## Synthesis
 
-Minority is the rare term in the R&E corpus where three independent guides (Sierra Club, DSG, RET) converge on the same recommendation with substantially the same reasoning — and where the reasoning has both an empirical and a connotative leg, both of which trace back to Race Forward.
+Minority is one of the few terms in the R&E corpus where three independent guides (Sierra Club, DSG, RET) converge on the same recommendation with substantially the same reasoning. That reasoning has two parts, empirical and connotative, both tracing back to Race Forward.
 
 The empirical case: 'minority' encodes a numerical relationship (one group is smaller than the dominant group). That relationship is no longer reliably accurate. [Census Bureau projections from the late 2010s](/sources/us-census-bureau/) (the 2018 vintage) projected the crossover to a majority-nonwhite US around 2045, though the Bureau's 2023-vintage projections do not name a crossover year. California, Texas, New Mexico, Hawaii, and many large metros are already past that threshold. Using 'minority' as a default racial descriptor in these contexts is factually wrong before any connotative concern is engaged.
 
@@ -96,7 +96,7 @@ The connotative case: 'minority' carries the implication of subordination — be
 
 **The individual-level rule is firmer than the group-level rule**: every guide treats applying 'minority' to a single person as the worst case. DSG is explicit ('Avoid referring to an individual as a minority'); Sierra Club's specificity rule produces the same outcome ('Be more specific and you can easily avoid this term'); RET's overall framing makes the same recommendation implicitly. The umbrella collapses when stretched over an individual.
 
-There is no guide in the corpus that defends 'minority' as a preferred term outside the data-category exception. This is the closest thing in the R&E section to a stable cross-guide consensus.
+No guide in the corpus defends 'minority' as a preferred term outside the data-category exception.
 
 
 ## History note

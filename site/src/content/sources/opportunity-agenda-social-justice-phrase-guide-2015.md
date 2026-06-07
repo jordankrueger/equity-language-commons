@@ -29,10 +29,10 @@ rather than nouns ("Black people," not "Blacks"), watch loaded frames like
 
 On the commons' source spectrum this is a **progressive equity guide** — and
 together with the Movement Strategy Center glossary, one of the two
-movement-communications anchors added to the corpus in June 2026. Its
-distinctive contribution is phrase-level framing (how a sentence positions
-people) rather than headword definitions, which makes it a frequent secondary
-voice on terms anchored elsewhere.
+movement-communications anchors added to the corpus in June 2026. It works at
+the phrase level (how a sentence positions people) rather than by headword
+definition, so it tends to appear as a secondary voice on terms anchored
+elsewhere.
 
 ## Access
 

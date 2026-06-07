@@ -68,7 +68,7 @@ It also carries the **structural vocabulary** the corpus uses to name how race o
 
 ## How sources position themselves
 
-Sources differ more on *defaults* than on *acceptability*. Most terms in this chapter have multiple acceptable forms; the real question is which form a writer should use when the individual's preference isn't known. The five cross-cutting principles above synthesize the patterns that recur term-by-term — every entry on this page demonstrates at least one of them.
+Sources differ more on *defaults* than on *acceptability*. Most terms in this chapter have multiple acceptable forms, and the real question is which form a writer should use when the individual's preference isn't known. The cross-cutting principles above summarize the patterns that recur term-by-term; every entry on this page demonstrates at least one of them.
 
 Source coverage in this chapter spans:
 
@@ -81,4 +81,4 @@ Source coverage in this chapter spans:
 - **Racial Equity Tools (RET, 2023)** — academic/training context; emphasizes audience-dependence
 - **Trans Journalists Association (TJA, 2026)** — engages Latinx/Latine specifically through gender-inclusive lens
 
-Source-by-source guidance lets readers see the range of positions and choose based on audience. Most of the live editorial decisions in this chapter — Black-and-African-American defaulting, Hispanic-vs-Latino regional defaults, Latinx/Latine choice, white capitalization, BIPOC usage discipline — can be made coherently across multiple house positions; what matters is making them with intention and documenting the reasoning.
+Source-by-source guidance lets readers see the range of positions and choose based on audience. Most of the live editorial decisions in this chapter — Black-and-African-American defaulting, Hispanic-vs-Latino regional defaults, Latinx/Latine choice, white capitalization, BIPOC usage discipline — can be made coherently across more than one house position. What matters is making them with intention and documenting the reasoning.

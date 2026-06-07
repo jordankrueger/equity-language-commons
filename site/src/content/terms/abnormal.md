@@ -55,7 +55,7 @@ external_references: []
 methodological_context: []
 audience_notes:
   - audience: "Journalists and editors"
-    note: "\"Abnormal\"/\"abnormality\" are fine in a strictly medical or scientific sense — \"abnormal test result,\" \"abnormal curvature of the spine,\" \"abnormalities in brain function\" — but not as a description of a person. Don't call a non-disabled person \"normal\"; \"typical\" or \"non-disabled\" is the cleaner comparison (NCDJ, Diversity Style Guide)."
+    note: "\"Abnormal\"/\"abnormality\" are fine in a strictly medical or scientific sense — \"abnormal test result,\" \"abnormal curvature of the spine,\" \"abnormalities in brain function\" — but not as a description of a person. Don't call a non-disabled person \"normal\"; \"typical\" or \"non-disabled\" is the preferred comparison (NCDJ, Diversity Style Guide)."
   - audience: "Advocacy and internal comms"
     note: "The Movement Strategy Center treats both \"abnormal\" and \"normal\" as terms to avoid when describing people, pairing them with \"atypical\" and \"non-disabled.\" Watch for \"abnormal behavior\": NCDJ and the Diversity Style Guide flag it as carrying social-cultural judgment, so explain what you mean rather than letting the label stand."
   - audience: "Anyone writing about a specific condition"
@@ -68,7 +68,7 @@ contributors:
 
 ## Synthesis
 
-The three sources agree, and they agree tightly: **"abnormal" should not describe a
+The three sources agree closely: **"abnormal" should not describe a
 person.** The NCDJ and the Diversity Style Guide both carve out a narrow exception
 for medical and scientific phenomena — an "abnormal test result," an "abnormal
 curvature of the spine," "abnormalities in brain function" — while drawing the same
@@ -76,25 +76,24 @@ line at the individual. Both also extend the rule to its mirror image: calling a
 non-disabled person "normal" implies that people with disabilities are deviant or
 strange, so "typical" (NCDJ, DSG) or "non-disabled" (Movement Strategy Center) is the
 preferred comparison. NCDJ and the DSG both treat "abnormal behavior" as a phrase that
-smuggles in social-cultural judgment and needs to be explained rather than asserted.
+carries social-cultural judgment and needs to be explained rather than asserted.
 
-The Movement Strategy Center reaches the same destination through a different
+The Movement Strategy Center reaches the same place through a different
 format. Its Terms-to-Avoid table pairs "Abnormal" with the alternative "Atypical" and
-lists "Normal" among the words to avoid for people, with the explicit instruction to
+lists "Normal" among the words to avoid for people, with the instruction to
 reserve "normal" for medical or scientific contexts such as "normal test result" or
-"normal growth." That makes the page's coverage decision — folding "normal" into the
-"abnormal" entry — a faithful reflection of how the sources themselves treat the pair:
-the two words rise and fall together, acceptable for findings and off-limits for people.
+"normal growth." The page's coverage decision — folding "normal" into the
+"abnormal" entry — reflects how the sources treat the pair: the two words
+travel together, acceptable for findings and off-limits for people.
 
 A sourcing note: the Diversity Style Guide's entry follows the NCDJ's almost
 sentence for sentence (the DSG aggregates specialist disability stylebooks, and the
 NCDJ's Disability Language Style Guide is the disability anchor it draws on), so the two
 converge by design rather than independently. The Movement Strategy Center is the
-page's independent leg, arriving at the same prescription from an equity-glossary
-rather than a journalism-stylebook tradition. The chronology is short and consistent:
-across 2021–2024 the treatment did not shift — only the framing did, from the
-journalism guides' "acceptable in a medical context, avoid for a person" to the
-equity glossary's flat avoid-with-an-alternative table.
+page's independent source, reaching the same recommendation from an equity-glossary
+rather than a journalism-stylebook tradition. Across 2021–2024 the treatment did not shift —
+only the framing did, from the journalism guides' "acceptable in a medical context,
+avoid for a person" to the equity glossary's flat avoid-with-an-alternative table.
 
 ## Audience notes
 

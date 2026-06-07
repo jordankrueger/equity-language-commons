@@ -100,14 +100,14 @@ contributors:
 
 ## Synthesis
 
-**Every source avoids "handicapped" for describing a person.** All six reject it in favor of the person's specific condition or the person-first "person with a disability." GCJT states the rationale shared across the corpus: the term perpetuates negative stereotypes and evokes pity. The well-meaning coinage "handicapable" is also rejected by the sources that address it (SumOfUs, NCDJ, APA). There is no source in the corpus that endorses "handicapped" as a label for people.
+**Every source avoids "handicapped" for describing a person.** All six reject it in favor of the person's specific condition or the person-first "person with a disability." GCJT gives the reason the corpus shares: the term perpetuates negative stereotypes and evokes pity. The coinage "handicapable" is also rejected by the sources that address it (SumOfUs, NCDJ, APA). No source in the corpus endorses "handicapped" as a label for people.
 
-The one live distinction is facilities and signage. NCDJ and the Diversity Style Guide note that "handicapped" survives in narrow legal and regulatory contexts — "handicapped parking" — while observing that many now prefer "accessible." Sierra Club removes even that exception, instructing writers to use "accessible parking" and "accessible bathroom stall" rather than "handicapped" for the spaces themselves. So the term's last foothold, on signage, is itself shifting toward "accessible."
+The one live distinction is facilities and signage. NCDJ and the Diversity Style Guide note that "handicapped" survives in narrow legal and regulatory contexts, such as "handicapped parking," while observing that many now prefer "accessible." Sierra Club drops even that exception, telling writers to use "accessible parking" and "accessible bathroom stall" rather than "handicapped" for the spaces themselves. So the term's last foothold, on signage, is itself moving toward "accessible."
 
-The chronology is stable for people and moving for places. From SumOfUs (2016) through APA and the Diversity Style Guide (2023), avoidance of "handicapped" as a personal descriptor is settled; what changes over the period is the spread of "accessible" into the facilities vocabulary the older term once occupied. This page pairs with [disability](/terms/disability/) and [accessible](/terms/accessible/).
+For people, the position is settled; for places, it is still moving. From SumOfUs (2016) through APA and the Diversity Style Guide (2023), avoidance of "handicapped" as a personal descriptor holds across the corpus. What changes over the period is the spread of "accessible" into the facilities vocabulary the older term once occupied. This page pairs with [disability](/terms/disability/) and [accessible](/terms/accessible/).
 
 ## Audience notes
 
 - **Journalists and editors.** Never use "handicapped" for a person; name the specific condition or use "person with a disability." For facilities, prefer "accessible" (accessible parking, accessible restroom), even though "handicapped parking" still appears on signage.
 - **Advocates and internal comms.** "Handicapable" reads as affirming but the sources that weigh in (SumOfUs, NCDJ, APA) still file it under avoid — drop it. And don't reference a disability at all unless it's relevant to what you're saying.
-- **The reframe.** "Accessible" describes the feature of the space (a ramp, a wide stall); "handicapped" describes a supposed deficit in the person. The shift in vocabulary is a shift in what gets named.
+- **The reframe.** "Accessible" describes the feature of the space (a ramp, a wide stall); "handicapped" describes a supposed deficit in the person.

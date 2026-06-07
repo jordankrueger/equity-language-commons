@@ -86,11 +86,11 @@ contributors:
 
 ## Synthesis
 
-**Avoid for people; the narrow remainder is clinical.** Four of the five sources reject "homosexual" as a way to describe a person: SEIU's stylebook pairs it directly with its replacement ("gay people, not homosexual"), the APA calls the term dated and bars it for describing a person's sexual orientation, NLGJA labels it obsolete for people, and SumOfUs steers writers to either the LGBTQ umbrella or a specific identity term. The reasoning across the corpus is consistent — the word originated as a 19th-century clinical category, carried the weight of decades in which same-sex attraction was classified as pathology, and was later favored by opponents of gay rights precisely for its clinical coldness.
+**Avoid for people; the narrow exception is clinical.** Four of the five sources reject "homosexual" as a way to describe a person. SEIU's stylebook pairs it directly with its replacement ("gay people, not homosexual"), the APA calls the term dated and bars it for describing a person's sexual orientation, NLGJA labels it obsolete for people, and SumOfUs sends writers to either the LGBTQ umbrella or a specific identity term. The reasoning is consistent across the corpus. The word originated as a 19th-century clinical category, carried decades in which same-sex attraction was classified as pathology, and was later favored by opponents of gay rights for its clinical coldness.
 
-What keeps this page from being a flat unanimous avoid is the carve-out the journalism-side sources spell out. The Diversity Style Guide allows the term "only in medical contexts or in reference to sexual activity," and NLGJA accepts "homosexuality" as a noun for the abstract concept of same-sex attraction, particularly when covering scientific research that uses the terminology. The distinction both draw: the adjective applied to people is out; the technical term for a concept, inside technical writing, survives.
+The page is not a flat unanimous avoid because the journalism-side sources spell out a carve-out. The Diversity Style Guide allows the term "only in medical contexts or in reference to sexual activity," and NLGJA accepts "homosexuality" as a noun for the abstract concept of same-sex attraction, particularly when covering scientific research that uses the terminology. Both draw the same line: the adjective applied to people is out; the technical term for a concept, inside technical writing, survives.
 
-The replacements are the everyday identity terms: gay, lesbian, or — for breadth — LGBTQ+. Each carries its own page in this chapter.
+The replacements are the everyday identity terms: gay, lesbian, or, for breadth, LGBTQ+. Each has its own page in this chapter.
 
 ## Audience notes
 

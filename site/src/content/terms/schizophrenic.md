@@ -69,7 +69,7 @@ audience_notes:
   - audience: "General note"
     note: "Advocates and internal comms. \"Schizophrenic\" carries two distinct problems — it reduces a person to a diagnosis, and as a metaphor for \"of two minds\" it borrows a serious illness as a casual insult. Both uses are worth catching in review."
   - audience: "General note"
-    note: "When you mean \"contradictory,\" say so. The DSG offers the cleanest swap: an indecisive person is indecisive; a changing situation is unsettled. Reaching for the medical term adds nothing but the borrowed stigma."
+    note: "When you mean \"contradictory,\" say so. The DSG offers the swap: an indecisive person is indecisive; a changing situation is unsettled. Reaching for the medical term adds nothing but the borrowed stigma."
 last_reviewed: 2026-06-05
 created: 2026-06-05
 contributors:
@@ -78,12 +78,12 @@ contributors:
 
 ## Synthesis
 
-The sources agree, and they agree on two separate things at once. The first is a people-first rule: NCDJ and the Dart Center / GCJT both treat "schizophrenic" as the wrong way to label a person, preferring "a person with schizophrenia" or "living with schizophrenia." The form to avoid is the word used as a noun or fixed adjective for someone, not the diagnosis itself — NCDJ explicitly allows referring to a person as having schizophrenia when it is relevant and medically confirmed.
+The sources make two separate points. The first is a people-first rule: NCDJ and the Dart Center / GCJT both treat "schizophrenic" as the wrong way to label a person, preferring "a person with schizophrenia" or "living with schizophrenia." The form to avoid is the word used as a noun or fixed adjective for someone, not the diagnosis itself. NCDJ explicitly allows referring to a person as having schizophrenia when it is relevant and medically confirmed.
 
-The second is a caution against metaphor. Using "schizophrenic" to mean "of two minds," inconsistent, or contradictory shows up as a target across the set: SumOfUs names it in 2016, NCDJ rules it out colloquially in 2021, and the Diversity Style Guide devotes its 2023 entry to it, supplying replacements ("indecisive," "unsettled") for what the writer usually means. Notably, the metaphor caution is present from the earliest source onward rather than emerging late — the four guides, spanning 2016 to 2023, converge rather than diverge.
+The second is a caution against metaphor. Every source warns against using "schizophrenic" to mean "of two minds," inconsistent, or contradictory: SumOfUs names it in 2016, NCDJ rules it out colloquially in 2021, and the Diversity Style Guide devotes its 2023 entry to it, supplying replacements ("indecisive," "unsettled") for what the writer usually means. The metaphor caution is present from the earliest source on, not a late addition. The four guides span 2016 to 2023 and agree throughout.
 
-For a communicator the practical upshot is short. When writing about a person, use people-first language and only mention the diagnosis when it matters and is confirmed. When tempted to use "schizophrenic" figuratively, pick the plain word for the actual idea — indecisive, contradictory, unsettled, in flux. No source in this set endorses either the noun-label or the metaphor; the consensus is unanimous on both.
+For a communicator the practical rule is short. When writing about a person, use people-first language and mention the diagnosis only when it matters and is confirmed. When tempted to use "schizophrenic" figuratively, pick the plain word for the actual idea: indecisive, contradictory, unsettled, in flux. No source here endorses either the noun-label or the metaphor.
 
 ## History note
 
-The same two cautions run unbroken across the sources here from 2016 (SumOfUs) through 2023 (Diversity Style Guide): people-first phrasing over the noun label, and no metaphorical use to mean "of two minds." Rather than a shift over time, the record shows a stable, repeated position as each successive guide restated both points.
+The same two cautions run across the sources here from 2016 (SumOfUs) through 2023 (Diversity Style Guide): people-first phrasing over the noun label, and no metaphorical use to mean "of two minds." There is no shift over time; each successive guide restates both points.

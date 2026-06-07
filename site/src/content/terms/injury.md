@@ -77,9 +77,9 @@ contributors:
 
 ## Synthesis
 
-**This page isn't really about the word "injury" — it's about the verbs around it, and the corpus is unanimous in rejecting the "suffering" framing.** NCDJ states the rule: refer to injuries as "sustained" or "received" rather than "suffered," because "suffer implies that an injured person is a victim or somehow less than a person" who is uninjured. APA's terms-to-avoid table lists "suffers from or is afflicted with [condition]"; GCJT prefers "living with" over "suffering from" and warns against language that "implies helplessness or victimhood." Words About War extends the same logic to "casualty," a euphemism that "hides what's happening: people killed or wounded."
+This page is about the verbs around "injury" more than the word itself, and the corpus agrees on rejecting the "suffering" framing. NCDJ states the rule: refer to injuries as "sustained" or "received" rather than "suffered," because "suffer implies that an injured person is a victim or somehow less than a person" who is uninjured. APA's terms-to-avoid table lists "suffers from or is afflicted with [condition]." GCJT prefers "living with" over "suffering from" and warns against language that "implies helplessness or victimhood." Words About War extends the same logic to "casualty," a euphemism that "hides what's happening: people killed or wounded."
 
-The shared move is to strip the editorializing out of injury and illness language — to report what happened ("sustained a spinal injury," "lives with epilepsy") without the built-in assumption of tragedy that "afflicted," "stricken," "suffers from," and "victim of" smuggle in. It's the framing counterpart to the person-first work on [disability](/terms/disability/) and to the [victim](/terms/victim/)/[survivor](/terms/survivor/) distinction. The verbs are the whole ballgame here.
+The shared move is to strip the editorializing out of injury and illness language: report what happened ("sustained a spinal injury," "lives with epilepsy") without the built-in assumption of tragedy carried by "afflicted," "stricken," "suffers from," and "victim of." It is the framing counterpart to the person-first work on [disability](/terms/disability/) and to the [victim](/terms/victim/)/[survivor](/terms/survivor/) distinction.
 
 ## Audience notes
 

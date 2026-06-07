@@ -70,9 +70,9 @@ contributors:
 
 ## Synthesis
 
-**"Islamophobia" is usable vocabulary — but one source prefers "anti-Muslim," and the reason is worth knowing.** APA and the Diversity Style Guide both define Islamophobia straightforwardly as prejudice, fear, and hostility toward Islam and Muslims, with DSG noting it predates September 11, 2001, even as attacks grew afterward. Racial Equity Tools, drawing on Political Research Associates, adds the caveat that gives this page its nuance: because the "-phobia" suffix "tends to suggest individual bigotry to the exclusion of systemic and structural forces," the form "anti-Muslim is generally preferred" when the point is the structure rather than a personal fear.
+"Islamophobia" is usable vocabulary, but one source prefers "anti-Muslim." APA and the Diversity Style Guide both define Islamophobia as prejudice, fear, and hostility toward Islam and Muslims, with DSG noting it predates September 11, 2001, even as attacks grew afterward. Racial Equity Tools, drawing on Political Research Associates, adds the caveat: because the "-phobia" suffix "tends to suggest individual bigotry to the exclusion of systemic and structural forces," the form "anti-Muslim is generally preferred" when the point is the structure rather than a personal fear.
 
-That split is the practical takeaway. "Islamophobia" is in common usage and well understood; "anti-Muslim" is the more precise choice when naming policy, institutions, or systemic bias rather than individual prejudice. The two are not in conflict so much as differently calibrated. Islamophobia parallels [antisemitism](/terms/antisemitism/) — Racial Equity Tools treats them as entangled prejudices rooted in the same systems — and it is the prejudice that targets the identity covered on the [Muslim](/terms/muslim/) page.
+That is the practical takeaway. "Islamophobia" is in common usage and well understood; "anti-Muslim" is the more precise choice when naming policy, institutions, or systemic bias rather than individual prejudice. The two are not in conflict, just calibrated to different points. Islamophobia parallels [antisemitism](/terms/antisemitism/) — Racial Equity Tools treats them as entangled prejudices rooted in the same systems — and it is the prejudice that targets the identity covered on the [Muslim](/terms/muslim/) page.
 
 ## Audience notes
 

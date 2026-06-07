@@ -1,7 +1,7 @@
 ---
 title: "Housing"
 slug: "housing"
-lede: "Terms around homelessness, unhoused experience, and housing insecurity. Person-first vs. identity-first framings, the rise of 'unhoused,' and the framing tradeoffs between each form."
+lede: "Terms around homelessness, unhoused experience, and housing insecurity. Person-first vs. identity-first framings, the move toward 'unhoused,' and the tradeoffs between each form."
 stub: true
 ---
 

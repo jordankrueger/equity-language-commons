@@ -74,9 +74,9 @@ contributors:
 ---
 ## Synthesis
 
-**"Insane" follows the same rule as "crazy," with one added wrinkle: it is also a legal term.** NCDJ — the chapter's anchor — the Diversity Style Guide, and APA all treat "insane," "insanity," and "mentally deranged" as informal, now-offensive stand-ins for mental illness, preferring "mental illness" or "mental disorder" (APA: "person with a … behavioral health disorder"). Sierra Club pairs "insane" with "crazy" as the most common everyday ableism — a medical issue used as shorthand for bad news.
+"Insane" follows the same rule as "crazy," with one difference: it is also a legal term. NCDJ (the chapter's anchor), the Diversity Style Guide, and APA all treat "insane," "insanity," and "mentally deranged" as informal, now-offensive stand-ins for mental illness, preferring "mental illness" or "mental disorder" (APA: "person with a … behavioral health disorder"). Sierra Club pairs "insane" with "crazy" as the most common everyday ableism, a medical issue used as shorthand for bad news.
 
-The wrinkle is legal. In U.S. criminal law, insanity is a legal question, not a medical diagnosis — so NCDJ and the Diversity Style Guide both carve out an exception: use "mental illness" instead of "insane," except in a quote or when referring to a criminal defense (the insanity defense; found not guilty by reason of insanity). That carve-out is what separates this page from [crazy](/terms/crazy/), which has no comparable technical sense.
+The difference is legal. In U.S. criminal law, insanity is a legal question, not a medical diagnosis, so NCDJ and the Diversity Style Guide both carve out an exception: use "mental illness" instead of "insane," except in a quote or when referring to a criminal defense (the insanity defense; found not guilty by reason of insanity). That exception is what separates this page from [crazy](/terms/crazy/), which has no comparable technical sense.
 
 The guidance is stable across the 2021–2023 sources. This page pairs with [mental illness](/terms/mental-illness/), [mental health](/terms/mental-health/), and [crazy](/terms/crazy/).
 

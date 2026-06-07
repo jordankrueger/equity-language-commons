@@ -91,24 +91,22 @@ Where the sources speak to spelling, they agree the closed compound
 one-word version has lately been taken up by some anti-trans political groups
 and should not appear in news copy.
 
-The divergence is one of register rather than substance. The two progressive
+The sources differ in register, not substance. The two progressive
 equity guides (SumOfUs 2016, DCFPI 2017) treat "trans woman" as an unqualified
 in-group preferred term — it sits on a "say this" list with no caveats. NLGJA
-adds a newsroom-specific relevance test: it advises naming someone as a trans woman only when she prefers it
+adds a newsroom relevance test: it advises naming someone as a trans woman only when she prefers it
 *and* her transgender status is relevant to the story, otherwise identifying
-her simply as a woman. That difference reflects the audiences — an activist
+her simply as a woman. That is a difference of audience, an activist
 style sheet endorsing vocabulary versus a journalism stylebook governing when
-to disclose someone's trans status — not a disagreement about whether the term
-is acceptable.
+to disclose someone's trans status. Neither disputes that the term is acceptable.
 
-Chronologically, the term has only grown more settled. The 2016–2017
+Chronologically the term has only settled further. The 2016–2017
 progressive guides already carried it as standard; the journalism stylebooks
 maintained through 2025–2026 keep it as the recommended form and flag the
 older "MTF" / "male-to-female" abbreviation as dated; TJA additionally warns
 that the closed compound has recently been adopted by anti-trans political
-groups. Across nearly a decade,
-the recommendation direction never wavers — the refinements are about spelling
-and disclosure, not about the word.
+groups. Across nearly a decade the recommendation holds; the refinements concern spelling
+and disclosure rather than the word itself.
 
 ## Audience notes
 

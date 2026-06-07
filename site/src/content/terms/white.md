@@ -123,7 +123,7 @@ contributors:
 
 ## Synthesis
 
-White is the most-divided term in the R&E corpus — five guides reviewed here, three distinct positions, all defensible, all currently in active use across major US institutions. The divergence is the content, not a defect.
+White is the most-divided term in the R&E corpus: five guides reviewed here, three distinct positions, all defensible, all currently in active use across major US institutions. The divergence is the substance of the entry.
 
 **The two live capitalization rules**:
 
@@ -133,7 +133,7 @@ White is the most-divided term in the R&E corpus — five guides reviewed here, 
 
 3. **Pre-2020 lowercase (chronological, not doctrinal)** — Casey 2013. Both white and black lowercase, matching AP's pre-June-2020 rule. Read this as a date marker — Casey is not taking a position against the 2020 capital-B Black shift; it predates it.
 
-Both active rules are coherent. Both are working out the same problem — how to write about whiteness in a way that surfaces rather than naturalizes it — and reaching opposite tactical answers. The choice is doctrinal: which failure mode is treated as worse?
+Both active rules are coherent. Both work out the same problem — how to write about whiteness in a way that surfaces rather than naturalizes it — and reach opposite tactical answers. The choice is doctrinal: which failure mode is treated as worse?
 
 - **If sharing capital-W orthography with white-nationalist usage is the worse risk**, lowercase white (Sierra Club, AP).
 - **If leaving white as the unmarked racial default is the worse risk**, capitalize White (NABJ, WaPo, APA).
@@ -147,4 +147,4 @@ There is no third synthesis position in the corpus, and the split has remained s
 
 ## History note
 
-The lowercase 'white' convention dates back to AP style going back decades. Capital-W White appeared sporadically in Black-led publications and academic writing on whiteness studies through the late 20th century. The June 2020 AP decision to capitalize Black, followed one month later (July 20, 2020) by [AP's separate decision NOT to capitalize White](/sources/ap-stylebook/), created the asymmetric rule that became the US journalism mainstream. NABJ's June 2020 statement, Washington Post's July 29, 2020 adoption of symmetric capitalization, and the Center for the Study of Social Policy's March 2020 case all formed the opposing camp in the same window. The split has held since 2020 with no movement toward convergence.
+The lowercase 'white' convention was AP style for decades. Capital-W White appeared sporadically in Black-led publications and academic writing on whiteness studies through the late 20th century. The June 2020 AP decision to capitalize Black, followed one month later (July 20, 2020) by [AP's separate decision NOT to capitalize White](/sources/ap-stylebook/), created the asymmetric rule that became the US journalism mainstream. NABJ's June 2020 statement, Washington Post's July 29, 2020 adoption of symmetric capitalization, and the Center for the Study of Social Policy's March 2020 case all formed the opposing camp in the same window. The split has held since 2020 with no movement toward convergence.

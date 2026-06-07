@@ -80,12 +80,12 @@ contributors:
 
 ## Synthesis
 
-The four sources line up on a single recommendation: avoid "transvestite." APA, the Diversity Style Guide, and the Trans Journalists Association all place it in their avoid columns or glossary "avoid" entries, and SumOfUs reaches a compatible place from a different angle — listing it among terms to use only when a person self-identifies that way.
+All four sources recommend avoiding "transvestite." APA, the Diversity Style Guide, and the Trans Journalists Association place it in their avoid columns or glossary "avoid" entries, and SumOfUs lists it among terms to use only when a person self-identifies that way.
 
-Where the sources add nuance is in what to use instead, and they split the word's two senses. For the gender-identity sense, the prescribed replacement is "transgender": APA pairs "transvestite" with "transgender people," and DSG points the same direction. For the clothing-not-identity sense — dressing in clothing associated with another gender, without a claim about identity — both DSG and TJA redirect to "cross-dresser" (DSG's cross-dresser entry says it "Replaces the term transvestite"). A communicator picking a substitute should first decide which sense is meant.
+What to use instead depends on the word's two senses. For the gender-identity sense, the replacement is "transgender": APA pairs "transvestite" with "transgender people," and DSG points the same direction. For the clothing-not-identity sense, dressing in clothing associated with another gender without a claim about identity, both DSG and TJA redirect to "cross-dresser" (DSG's cross-dresser entry says it "Replaces the term transvestite"). A communicator picking a substitute should first decide which sense is meant.
 
-Running through all four is a self-identification and historical-quotation exception. SumOfUs and TJA both carve it out explicitly: keep the word when quoting historical material or when a person or community self-describes that way. The recommendation, in practice, is don't apply "transvestite" to anyone who hasn't claimed it — use "transgender" or "cross-dresser" by sense, and reserve the original word for direct quotation and self-description.
+All four leave an exception for self-identification and historical quotation. SumOfUs and TJA carve it out explicitly: keep the word when quoting historical material or when a person or community self-describes that way. In practice, don't apply "transvestite" to anyone who hasn't claimed it.
 
 ## History note
 
-The sources document a consistent arc. TJA dates "transvestite" to an early-1900s clinical coinage for "patients who dressed as another gender." By the 2010s and 2020s, the style guides in this commons converge on avoiding it in favor of "transgender" (for identity) and "cross-dresser" (for the clothing sense), while preserving a place for the original word in historical quotation and self-description.
+TJA dates "transvestite" to an early-1900s clinical coinage for "patients who dressed as another gender." By the 2010s and 2020s, the style guides in this commons advise avoiding it in favor of "transgender" (for identity) and "cross-dresser" (for the clothing sense), while preserving a place for the original word in historical quotation and self-description.

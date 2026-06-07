@@ -78,15 +78,15 @@ They classify that as prejudice rather than racism, which is the distinction
 the frame collapses.
 
 Where the sources differ is in posture rather than analysis. The Sierra Club
-is the most direct — it rejects the term outright in its own voice. The
+is the most direct, rejecting the term outright in its own voice. The
 Movement Strategy Center is descriptive first, defining how the phrase is
 "often used" before qualifying it, and it pairs the critique with a
 constructive move: affirmative action, the most common trigger for the
 accusation, aims to address historical injustice rather than perpetuate it.
-The Diversity Style Guide stays closest to the ground, treating "reverse
+The Diversity Style Guide stays closest to the evidence, treating "reverse
 discrimination" and "reverse racism" as a paired phrase that surfaces mainly
-in lawsuits and affirmative-action accusations, and adding an empirical note —
-its 1995 Brandeis figure that such claims scarcely succeed — rather than a
+in lawsuits and affirmative-action accusations, and adding an empirical note
+(its 1995 Brandeis figure that such claims scarcely succeed) rather than a
 definitional argument.
 
 The chronology is short and consistent: across the Diversity Style Guide's

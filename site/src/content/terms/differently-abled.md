@@ -92,30 +92,28 @@ contributors:
 
 ## Synthesis
 
-The sources are unanimous: **"differently abled" is a term to avoid.** All
-five corpus guides advise against it — in avoid/instead tables (SumOfUs,
-DCFPI, APA, Movement Strategy Center) or a dedicated entry (NCDJ) — and
-point to person-first or identity-first alternatives — most
+The sources are unanimous: "differently abled" is a term to avoid. All
+five corpus guides advise against it, in avoid/instead tables (SumOfUs,
+DCFPI, APA, Movement Strategy Center) or a dedicated entry (NCDJ), and
+point to person-first or identity-first alternatives, most
 often "person with a disability" or "disabled person" (SumOfUs, DCFPI,
-APA, Movement Strategy Center, NCDJ). None treats it as merely a term to
-handle with care; the recommendation across the board is to drop it.
+APA, Movement Strategy Center, NCDJ). None treats it as a term to handle
+with care; the recommendation across the board is to drop it.
 
 The shared reasoning is that the phrase functions as a euphemism. NCDJ puts
-it most directly — the term reads to many as condescending, or as "a way of
+it most directly: the term reads to many as condescending, or as "a way of
 avoiding talking about disability," and "for many, never was" appropriate.
-That framing explains why the guides reach for plainer language: the goal
-is to name disability accurately rather than soften it. Where the sources
-add nuance, it is about *which* plain alternative to use — APA notes that
+That is why the guides reach for plainer language. The goal
+is to name disability accurately rather than soften it. The sources differ
+only on which plain alternative to use. APA notes that
 person-first and identity-first preferences vary by community and that a
 person's own expressed preference supersedes any style rule, an instance of
 the commons-wide principle that self-identification comes first.
 
-Chronologically, the treatment is stable rather than shifting. NCDJ dates
+The treatment is stable across the corpus's range. NCDJ dates
 the term's rise to a 1990s wave of alternatives to harsher labels;
 SumOfUs (2016) already lists it as one to avoid, and the later guides —
 DCFPI (2017), APA (2023), Movement Strategy Center (2024) — keep it there.
-The euphemism-avoidance consensus on "differently abled" was settled early
-in this corpus and has not loosened.
 
 ## Audience notes
 
@@ -124,5 +122,3 @@ treat the term as one to avoid and default to "person with a disability" or
 the specific disability; campaigners should understand why the euphemism
 lands as avoidance rather than respect; and writers should always defer to a
 person's own self-identification over any general rule.
-</content>
-</invoke>

@@ -106,22 +106,22 @@ contributors:
 ## Synthesis
 
 No source treats "Islam" as anything but the standard, capitalized proper
-noun for the world's second-largest religion. The guidance weight sits
-entirely on **what gets wrongly attached to it**. Three failure modes recur
-across the corpus: conflating Arab with Muslim (NABJ and the Diversity Style
-Guide both correct it explicitly — Arabic is the Quran's language, but most
-Muslims are not Arab); conflating Islam with political movements ("Islamist"
-has a precise definition — an advocate of reordering government according to
-Islamic law — and is not a synonym for militant or extremist); and
-attributing political violence to the religion rather than the responsible
-group, the Diversity Style Guide's "Muslim bomb" warning.
+noun for the world's second-largest religion. The guidance is about **what
+gets wrongly attached to it**. Three errors recur across the corpus:
+conflating Arab with Muslim (NABJ and the Diversity Style Guide both correct
+it explicitly — Arabic is the Quran's language, but most Muslims are not
+Arab); conflating Islam with political movements ("Islamist" has a precise
+definition, an advocate of reordering government according to Islamic law,
+and is not a synonym for militant or extremist); and attributing political
+violence to the religion rather than the responsible group, the Diversity
+Style Guide's "Muslim bomb" warning.
 
-CAIR's guide, written from inside the community, frames the affirmative
-case the journalism guides imply: Islam — Arabic for submission to God's
-will — is a 1,400-year-old faith of more than a billion diverse adherents
-that teaches justice, peace, and tolerance, and the guide spends most of its
-pages on the vocabulary that gets that wrong (*jihad* is not "holy war";
-*fatwa* is a legal opinion).
+CAIR's guide, written from inside the community, states the affirmative case
+the journalism guides imply: Islam — Arabic for submission to God's will — is
+a 1,400-year-old faith of more than a billion diverse adherents that teaches
+justice, peace, and tolerance, and the guide spends most of its pages on the
+vocabulary that gets that wrong (*jihad* is not "holy war"; *fatwa* is a
+legal opinion).
 
 A sourcing note: the Diversity Style Guide's definitional entry follows the
 Religion Stylebook's (the DSG aggregates specialist stylebooks); its

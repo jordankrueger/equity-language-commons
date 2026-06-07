@@ -124,9 +124,9 @@ boundary: neither term applies when a minor is involved.
 Chronologically the position is stable rather than evolving. SumOfUs already
 flagged the term in 2016, citing the campaign to have the AP replace
 "prostitute" with "sex worker," and every later guide lands in the same place.
-The throughline is a shift away from a label that names a person by a
+The guides move away from a label that names a person by a
 criminalized status and toward language that frames the activity as work and
-defers to how people describe themselves — with a firm line that none of this
+defers to how people describe themselves, with a firm line that none of this
 framing extends to minors.
 
 ## Audience notes

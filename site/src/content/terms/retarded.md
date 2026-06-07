@@ -77,7 +77,7 @@ contributors:
 
 The law moved with the language. In 2010, [Rosa's Law](https://en.wikipedia.org/wiki/Rosa%27s_Law) replaced "mental retardation" with "intellectual disability" across much of U.S. federal statute — both NCDJ and the Diversity Style Guide cite it. That shift marks the clinical term's retirement, not merely a stylistic preference.
 
-The exception the sources allow is the narrowest in the chapter. NCDJ asks writers to weigh even quoted use carefully, "as the word is particularly charged"; the Diversity Style Guide treats any historical use as something to attribute and contextualize, never to reproduce in one's own voice. The guidance is consistent from 2016 through 2023. This page pairs with [disability](/terms/disability/).
+The exception the sources allow is narrow. NCDJ asks writers to weigh even quoted use carefully, "as the word is particularly charged"; the Diversity Style Guide treats any historical use as something to attribute and contextualize, never to reproduce in one's own voice. The guidance is consistent from 2016 through 2023. This page pairs with [disability](/terms/disability/).
 
 ## Audience notes
 

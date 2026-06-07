@@ -115,34 +115,33 @@ contributors:
 ## Synthesis
 
 The corpus is unanimous: every source treats **"hermaphrodite" as a term to
-avoid, with "intersex" as the replacement.** Seven guides spanning equity
-stylebooks (SumOfUs, DCFPI, Movement Strategy Center), a professional
-psychological association (APA), an identity-journalism reference (Diversity
-Style Guide), an LGBTQ+ journalists' stylebook (NLGJA), and an intersex-led
-advocacy organization (interACT) all reach the same recommendation from
-different starting points. interACT, writing from inside the community,
-states the rationale most plainly — the term is medically inaccurate and
-considered derogatory — and the journalism and equity guides converge on the
-same avoid-and-replace pairing.
+avoid, with "intersex" as the replacement.** Seven guides reach the same
+recommendation — equity stylebooks (SumOfUs, DCFPI, Movement Strategy Center),
+a professional psychological association (APA), an identity-journalism
+reference (Diversity Style Guide), an LGBTQ+ journalists' stylebook (NLGJA),
+and an intersex-led advocacy organization (interACT). interACT, writing from
+inside the community, gives the reason most plainly: the term is medically
+inaccurate and considered derogatory. The journalism and equity guides arrive
+at the same avoid-and-replace pairing.
 
-Where the sources differ is only in degree, not direction. Most list the term
-flatly in an avoid/instead table or words-to-avoid list. NLGJA carries the one
-documented exception: its "intersex" entry allows "hermaphrodite" when a
-specific person identifies with it, and then asks writers to explain that it
-is that person's preference — the self-identification carve-out that runs
-through the whole commons. Several sources also add a second, distinct
-caution that travels with this term: do not conflate being intersex with being
-transgender or nonbinary (DSG, NLGJA). That pairing reflects how often the two
-get collapsed in coverage, not anything the two identities share.
+The sources differ in degree, not direction. Most list the term flatly in an
+avoid/instead table or words-to-avoid list. NLGJA carries the one documented
+exception: its "intersex" entry allows "hermaphrodite" when a specific person
+identifies with it, and then asks writers to explain that it is that person's
+preference. That is the same self-identification carve-out the commons applies
+elsewhere. Several sources also add a second caution that travels with this
+term: do not conflate being intersex with being transgender or nonbinary (DSG,
+NLGJA). The two get collapsed in coverage often, though the identities share
+nothing that would justify it.
 
-Chronologically, the treatment is settled rather than shifting. The 2016
-SumOfUs guide already grouped "hermaphrodite" with terms that label people as
-disordered, and the 2017 (DCFPI, interACT), 2023 (APA, DSG), 2024 (MSC), and
-2025 (NLGJA) sources carry the same position forward without softening it. The
-durable arc here is the rise of "intersex" as the umbrella term of choice and
-the movement, noted by interACT, away from clinical "disorders of sex
-development" language as well — the present page captures the avoidance rule;
-the affirmative term lives on the [intersex](/terms/intersex/) page.
+The position has held steady over time. The 2016 SumOfUs guide already
+grouped "hermaphrodite" with terms that label people as disordered, and the
+2017 (DCFPI, interACT), 2023 (APA, DSG), 2024 (MSC), and 2025 (NLGJA) sources
+carry it forward without softening. Over the same period
+"intersex" rose as the umbrella term of choice, and interACT notes a parallel
+move away from clinical "disorders of sex development" language. This page
+captures the avoidance rule; the affirmative term lives on the
+[intersex](/terms/intersex/) page.
 
 ## Audience notes
 

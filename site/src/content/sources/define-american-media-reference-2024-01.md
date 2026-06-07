@@ -19,7 +19,7 @@ format: "PDF"
 
 **Define American** is an immigration-narrative nonprofit founded in 2011 by Pulitzer Prize–winning journalist Jose Antonio Vargas. Its mission is "humanizing the immigrant narrative, one story at a time," working "across mediums and industries through research, partnerships, and storyteller engagement." Its *Telling Authentic Immigrant Stories: Media Reference Guide* (3rd ed., 2024) gives journalists concrete guidance on covering immigrants and immigration.
 
-In the commons it anchors much of the Immigration & Citizenship chapter — behind terms such as *immigrant*, *undocumented immigrant*, and *illegal alien*.
+In the commons it is a primary source for much of the Immigration & Citizenship chapter, behind terms such as *immigrant*, *undocumented immigrant*, and *illegal alien*.
 
 ## Access
 

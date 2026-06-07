@@ -64,9 +64,9 @@ contributors:
 
 ## Synthesis
 
-**"Depression" names a clinical diagnosis, and the guidance is to reserve it for that — not to borrow it as a casual intensifier.** The three sources share the same two-part rule. First, precision about the condition: NCDJ says to refer to someone "as having depression only if the information is relevant to the story and you are confident there is a medical diagnosis," and GCJT cites the clinical definition (the U.S. National Institute of Mental Health's "common but serious mood disorder with severe symptoms"). Second, restraint about the colloquial drift: Sierra Club flags it directly, advising "disheartening" or "sad" instead of "depressing" for things that are merely a letdown.
+"Depression" names a clinical diagnosis, and the guidance is to reserve it for that. The three sources share the same two-part rule. First, precision about the condition: NCDJ says to refer to someone "as having depression only if the information is relevant to the story and you are confident there is a medical diagnosis," and GCJT cites the clinical definition (the U.S. National Institute of Mental Health's "common but serious mood disorder with severe symptoms"). Second, restraint about the colloquial drift: Sierra Club advises "disheartening" or "sad" instead of "depressing" for things that are merely a letdown.
 
-The teaching is precision. "Depression" is a medical condition, so applying it to the weather, the economy, or a bad afternoon both trivializes the diagnosis and muddies it. Mention a person's depression only when it is relevant and verified. Pairs with [mental health](/terms/mental-health/) and [mental illness](/terms/mental-illness/).
+Because "depression" is a medical condition, applying it to the weather, the economy, or a bad afternoon both trivializes the diagnosis and muddies it. Mention a person's depression only when it is relevant and verified.
 
 ## Audience notes
 

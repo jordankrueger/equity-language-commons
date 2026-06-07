@@ -26,17 +26,16 @@ the District. Its *Style Guide for Inclusive Language* (December 2017) was
 written to align the organization's own publications with its equity mission,
 and was shared publicly for other organizations to adapt.
 
-On the commons' source spectrum this is a **progressive equity guide**, and a
-particularly valuable one: it is among the few guides in the corpus written by
-an economic-policy organization, which makes it the commons' anchor for Class
-& Economic Status terminology. Its avoid/instead tables on poverty language
-(*disadvantaged*, *the poor*, *low-income*) sit alongside thorough sections on
-race, disability (people-first language), gender, and criminal-justice
-terminology — including the corpus' crispest statement of the
-racism-equals-prejudice-plus-power frame.
+On the commons' source spectrum this is a **progressive equity guide**. It is
+among the few guides in the corpus written by an economic-policy organization,
+which makes it the commons' main source for Class & Economic Status
+terminology. Its avoid/instead tables on poverty language (*disadvantaged*,
+*the poor*, *low-income*) sit alongside sections on race, disability
+(people-first language), gender, and criminal-justice terminology, including a
+direct statement of the racism-equals-prejudice-plus-power frame.
 
-In the commons it stands behind a wide range of terms across five chapters,
-from *poor* and *disadvantaged* to *trans-woman* and *sex-change*.
+In the commons it is a source for terms across five chapters, from *poor* and
+*disadvantaged* to *trans-woman* and *sex-change*.
 
 ## Access
 

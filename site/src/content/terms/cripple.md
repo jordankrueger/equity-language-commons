@@ -84,31 +84,31 @@ contributors:
 
 ## Synthesis
 
-All four sources land in the same place on the surface — "cripple" is not a
-word to reach for — but two of them refuse to call it a simple avoid. The
-National Center on Disability and Journalism and the Movement Strategy Center
-both record that disability activists have reclaimed "crip," and both draw the
-line at who is doing the using rather than at the word itself: the NCDJ allows
-it for the "crip" movement and in direct quotes, and the Movement Strategy
-Center spells out that "allies and those without disabilities should not use
-them." Sierra Club and the APA frame it more flatly as a slur to avoid — the
-APA filing it under "pictorial metaphors, negativistic terms, and slurs" with
-"person with a physical disability" as the replacement, Sierra Club pairing the
-slur judgment with practical metaphor swaps ("held back," not "crippled").
+All four sources agree on the surface — "cripple" is not a word to reach for —
+but two of them decline to call it a simple avoid. The National Center on
+Disability and Journalism and the Movement Strategy Center both record that
+disability activists have reclaimed "crip," and both draw the line at who is
+doing the using rather than at the word itself. The NCDJ allows it for the
+"crip" movement and in direct quotes; the Movement Strategy Center spells out
+that "allies and those without disabilities should not use them." Sierra Club
+and the APA treat it more flatly as a slur to avoid. The APA files it under
+"pictorial metaphors, negativistic terms, and slurs" with "person with a
+physical disability" as the replacement; Sierra Club pairs the slur judgment
+with practical metaphor swaps ("held back," not "crippled").
 
-The live divergence, then, is not whether to avoid the word but how much room
-to leave for reclamation. The journalism-facing and movement-facing guides
-(NCDJ, MSC) center the in-community reclamation explicitly; the broader equity
-guides (Sierra Club, APA) write for a general audience and don't carve it out.
-That difference is about audience, not disagreement: every source agrees that a
-non-disabled writer using "cripple" in their own voice is doing something
-wrong, and every source defers, implicitly or explicitly, to how disabled
-people identify themselves.
+The divergence is over how much room to leave for reclamation. The
+journalism-facing and movement-facing guides (NCDJ, MSC) center the
+in-community reclamation explicitly; the broader equity guides (Sierra Club,
+APA) write for a general audience and don't carve it out. The difference is
+about audience, not disagreement. Every source agrees that a non-disabled
+writer using "cripple" in their own voice is doing something wrong, and every
+source defers, implicitly or explicitly, to how disabled people identify
+themselves.
 
-Chronologically the treatment is stable across the corpus's range. The NCDJ
-(2021) already documents the reclamation alongside the slur judgment Sierra
-Club (2021) renders; the APA (2023) and Movement Strategy Center (2024) carry
-the same shape forward. The NCDJ's background note traces the longer arc — the word
+The treatment is stable across the corpus's range. The NCDJ (2021) already
+documents the reclamation alongside the slur judgment Sierra Club (2021)
+renders; the APA (2023) and Movement Strategy Center (2024) carry the same
+shape forward. The NCDJ's background note traces the longer arc: the word
 turned offensive in the early 20th century, was displaced by "handicapped" and
 then "disabled," and has more recently been partially reclaimed under "crip."
 

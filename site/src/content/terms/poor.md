@@ -107,18 +107,18 @@ contributors:
 
 ## Synthesis
 
-Six equity guides converge on the same correction, and it is remarkably consistent
-across nearly a decade. None treats poverty as unspeakable; what they retire is **the
+Six equity guides converge on the same correction, holding steady across nearly a
+decade. None treats poverty as unspeakable; what they retire is **the
 bare noun "the poor" (and "poor people") as a way of naming people by a single
 economic condition.** The Opportunity Agenda (2015) states the underlying grammar
-move plainly: put personhood first and use the condition as a modifier — "people
+move plainly: put personhood first and use the condition as a modifier, "people
 living in poverty" rather than "poor people," the same construction it applies to
 disability and homelessness. APA (2023) lands in the same place from a clinical-style
 table, swapping "the poor" for "people whose incomes are below the federal poverty
 threshold" and urging specific income brackets where possible. DCFPI (2017) and
 Movement Strategy Center (2024) supply the activist-facing versions of the same swap
 ("Poor/poorest" → "people with low incomes" / "low income"), and SumOfUs (2016) and
-Sierra Club (2021) sort it into a wider retirement of the charity register —
+Sierra Club (2021) sort it into a wider retirement of the charity register:
 "the needy," "less fortunate," "underprivileged," "welfare queen."
 
 Where the sources go beyond word-swaps, they agree on **framing over vocabulary**.
@@ -126,16 +126,16 @@ DCFPI's "empowering language" principle and Movement Strategy Center's "transfor
 movement" framing both insist on an agency lens: keep affected people as the agents in
 their own story, name the structural causes (low wages, disinvestment, generational
 wealth gaps), and avoid casting advocates or institutions as saviors. Sierra Club ties
-its do-not-use list directly to anti-classism — don't let language bind a person's
-worth to their economic output. This is the spine of the class chapter: the problem is
+its do-not-use list directly to anti-classism: don't let language bind a person's
+worth to their economic output. The problem is
 not the word "poverty" but deficit-and-pity framing that locates the failure in
 individuals rather than in systems.
 
-The one place the guides explicitly hold space for tension is self-identification, and
-APA names it best: many people find "poor" pejorative, yet "class solidarity exists in
+The one place the guides explicitly hold space for tension is self-identification.
+APA names it: many people find "poor" pejorative, yet "class solidarity exists in
 'poor people's movements,'" and many individuals proudly identify as "working class."
-That nuance is the chronology's through-line rather than a divergence — the rules
-target outsider labeling, not the language communities choose for themselves. Across
+The rules target outsider labeling, not the language communities choose for
+themselves. Across
 2015 to 2024 the recommendation never inverts; it only gets more specific, moving from
 "put people first" toward "name the income level and the structural cause." Adjacent
 terms carry the neighboring cases: "disadvantaged" for the deficit-descriptor cluster,

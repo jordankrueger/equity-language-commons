@@ -102,22 +102,22 @@ it in their avoid / terms-questioned columns alongside other rejected labels,
 pointing toward "transgender person" or "transgender people" instead. None of
 the corpus sources treats the word as neutral or acceptable for general use.
 
-Where the sources add nuance is reclamation. The APA and the Diversity Style
+The sources add one point about reclamation. The APA and the Diversity Style
 Guide both note that some transgender people have reclaimed the term and use it
-for themselves as empowering — the APA pairing it with "queer" as an example of
-a term that is pejorative to some and reclaimed by others. The shared rule that
-emerges is a self-identification carve-out: the term may appear in direct
+for themselves as empowering, the APA pairing it with "queer" as an example of
+a term that is pejorative to some and reclaimed by others. The shared rule is
+a self-identification carve-out: the term may appear in direct
 quotation, or when a specific person uses it about themselves, but reclamation
 is internal to the community and never extends to outsiders. The Diversity
-Style Guide draws this line most explicitly ("avoided except in quotes or as
+Style Guide states this most plainly ("avoided except in quotes or as
 someone's self-identified term"), and NLGJA's slurs entry reaches the same
 result from the journalism side.
 
-Chronologically the treatment is stable rather than shifting. The 2016 SumOfUs
+Chronologically the treatment is stable. The 2016 SumOfUs
 guide and the 2017 DCFPI guide already list it among terms to avoid; the 2023
 APA guide and the 2025 NLGJA stylebook keep the avoid posture while making the
-reclamation exception explicit. The arc is one of added precision around the
-self-identified-use exception, not a change in the underlying judgment that the
+reclamation exception explicit. What changes is the precision around the
+self-identified-use exception, not the underlying judgment that the
 word functions as a slur when used by outsiders.
 
 ## Audience notes

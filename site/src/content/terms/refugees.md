@@ -78,7 +78,7 @@ contributors:
 
 The trauma-informed and identity layers are what the later sources add. GCJT pairs the precision rule with a caution against reducing a person to the legal label: convey their humanity "beyond the legal definition of their status," rather than framing them only as victims or heroes. The Trans Journalists Association adds a self-identification and safety layer for trans or gender-expansive refugees and asylum seekers — ask which terms and gendered language a person uses, recognize that this varies across cultures, and protect identifying details (including last names) that could jeopardize an asylum claim or endanger family in the home country.
 
-The guidance is stable across the corpus; the 2021–2026 sources refine rather than dispute. The legal definition has not moved, and what accretes around it is a duty of care: precision about the category, protection of the person, and deference to how each person describes themselves.
+The guidance is stable across the corpus; the 2021–2026 sources refine rather than dispute. The legal definition has not moved, and what the later sources add is a duty of care: be precise about the category, protect the person, and defer to how each person describes themselves.
 
 ## Audience notes
 

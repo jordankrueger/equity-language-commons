@@ -62,11 +62,11 @@ contributors:
 
 ## Synthesis
 
-**The term is standard; the care is in the reporting around it.** All three sources define transition the same way: the social, legal, and/or medical process of affirming — in the Trans Journalists Association's phrasing, aligning one's life with — one's gender. The definitional core every source insists on is plurality: "There is no one way to transition" (APA, quoting PFLAG); people may take some of these steps, all of them, or none (TJA). The word itself is the prescribed vocabulary — what it replaces is the obsolete "sex change," which NLGJA bars by name, along with the assumption that transition means surgery.
+**The term is standard; the care is in the reporting around it.** All three sources define transition the same way: the social, legal, and/or medical process of affirming — in the Trans Journalists Association's phrasing, aligning one's life with — one's gender. Every source insists on plurality: "There is no one way to transition" (APA, quoting PFLAG); people may take some of these steps, all of them, or none (TJA). The word itself is the prescribed vocabulary. What it replaces is the obsolete "sex change," which NLGJA bars by name, along with the assumption that transition means surgery.
 
-The journalism-side guidance adds the relevance test that gives this page its use-with-care edge. NLGJA: transitions are very personal and unfold over time; report a person's transition, or its details, only when it is actually relevant to the story — health-care access, legal documentation. A profile subject's transition history is not background color; it's private medical and legal information that earns its place in copy only by bearing on the story.
+The journalism-side guidance adds a relevance test. NLGJA says transitions are very personal and unfold over time, and that a person's transition or its details should be reported only when it is actually relevant to the story, such as health-care access or legal documentation. A profile subject's transition history is private medical and legal information; it belongs in copy only when it bears on the story.
 
-The plurality point has a grammatical consequence the sources flag: because transition has no fixed endpoint or checklist, constructions like "pre-op," "post-op," "fully transitioned," or "completed her transition" misdescribe the process. Transition language should follow the person's own framing of where they are.
+Because transition has no fixed endpoint or checklist, constructions like "pre-op," "post-op," "fully transitioned," or "completed her transition" misdescribe the process. Transition language should follow the person's own framing of where they are.
 
 ## Audience notes
 

@@ -80,22 +80,21 @@ contributors:
 
 ## Synthesis
 
-The sources agree from different directions: **"Jew" is the correct, standard
-noun** — capitalized always (SumOfUs lists it among proper-name identities),
-used for men and women alike (Religion Stylebook, Diversity Style Guide).
-None of the corpus sources treats the noun itself as a term to avoid. The
-hard lines sit around its edges: the verb form is an antisemitic slur, full
-stop (Diversity Style Guide), and qualifying labels that grade someone's
-Jewishness — "half-Jew," "patrilineal Jew," conversion-status terms — are out
-(18Doors).
+The sources agree: **"Jew" is the correct, standard noun** — always
+capitalized (SumOfUs lists it among proper-name identities), used for men and
+women alike (Religion Stylebook, Diversity Style Guide). None of the corpus
+sources treats the noun itself as a term to avoid. The firm rules are about
+its edges: the verb form is an antisemitic slur (Diversity Style Guide), and
+qualifying labels that grade someone's Jewishness — "half-Jew," "patrilineal
+Jew," conversion-status terms — are out (18Doors).
 
 Who counts as a Jew is, by the sources' own account, internally contested in
-ways a style guide can describe but not settle: the Religion Stylebook notes
+ways a style guide can describe but not settle. The Religion Stylebook notes
 the traditional matrilineal-descent-or-conversion definition alongside more
-liberal views, and both it and the Diversity Style Guide flag that many
-people identify as secular Jews whose connection to Judaism is cultural or
-ethnic rather than religious. 18Doors resolves the practical question the way
-the corpus usually does: ask people how they want to identify.
+liberal views, and both it and the Diversity Style Guide note that many people
+identify as secular Jews whose connection to Judaism is cultural or ethnic
+rather than religious. 18Doors answers the practical question the way the
+corpus usually does: ask people how they want to identify.
 
 A sourcing note: the Diversity Style Guide's definitional text follows the
 Religion Stylebook's entry (the DSG aggregates specialist stylebooks), so the
@@ -105,7 +104,7 @@ Stylebook, SumOfUs, and 18Doors.
 
 ## Audience notes
 
-See the structured audience notes above: journalists should treat the noun as
-standard and the verb as a slur; Jewish-organization communicators should
-follow 18Doors on never qualifying anyone's Jewishness; and writers weighing
+See the structured audience notes above. Journalists should treat the noun as
+standard and the verb as a slur. Jewish-organization communicators should
+follow 18Doors on never qualifying anyone's Jewishness. Writers weighing
 noun versus adjective should know both are correct.

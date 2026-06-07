@@ -93,10 +93,10 @@ The sources converge on two rules and rarely disagree. The first is **don't borr
 
 The second rule is a **discipline around diagnosis and relevance.** NCDJ and the Diversity Style Guide both insist that you not speculate about a person's mental health without a clinical diagnosis; that when a diagnosis is confirmed you name the specific condition rather than the catch-all "mental illness"; that you reference it only when it's relevant to the story; and that you keep the person first. Color of Change extends the relevance rule into survivor coverage from a different angle — a survivor's mental health history is exactly the kind of detail that gets surfaced to discredit them, so it warrants "extreme caution and discernment."
 
-There is little chronological drift in this entry: from 2016 through 2023 the guidance holds steady. What varies is the **vantage point.** Language advocates (SumOfUs, Sierra Club) come at it from "don't use it as an insult," newsroom guides (NCDJ, DSG) from "don't speculate, and be specific," and intersectional survivor guidance (Color of Change) from "don't weaponize it." The three reinforce one another.
+There is little chronological drift in this entry: from 2016 through 2023 the guidance holds steady. What varies is the **vantage point.** Language advocates (SumOfUs, Sierra Club) come at it from "don't use it as an insult," newsroom guides (NCDJ, DSG) from "don't speculate, and be specific," and intersectional survivor guidance (Color of Change) from "don't weaponize it."
 
 ## Audience notes
 
 - **Journalists and editors.** Don't speculate about a subject's mental health without a clinical diagnosis. When one is confirmed, name the specific condition rather than "mental illness," reference it only when relevant, and write people-first.
-- **Communicators and advocates.** Drop "crazy," "insane," and similar terms used as pejoratives. The point isn't politeness — it's that the metaphor equates a medical condition with everything that's gone wrong.
+- **Communicators and advocates.** Drop "crazy," "insane," and similar terms used as pejoratives. The objection isn't about politeness; the metaphor equates a medical condition with everything that's gone wrong.
 - **Survivor and violence coverage.** Treat a survivor's mental-health history as weaponizable. Color of Change's standard is extreme caution before it appears in a story at all.

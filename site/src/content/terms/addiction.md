@@ -62,11 +62,11 @@ contributors:
 
 ## Synthesis
 
-**"Addiction" the condition is accepted; "addict" the label is not.** All three sources treat "addiction" as a usable term while rejecting the noun "addict": GCJT prefers "she had a heroin addiction" over "she was a heroin addict," and both NCDJ — the chapter's anchor — and the Diversity Style Guide prefer "someone with a drug addiction" to "an addict." The move is person-first. Name the condition a person has, rather than collapsing the person into it.
+**"Addiction" the condition is accepted; "addict" the label is not.** All three sources treat "addiction" as a usable term while rejecting the noun "addict": GCJT prefers "she had a heroin addiction" over "she was a heroin addict," and both NCDJ — the chapter's anchor — and the Diversity Style Guide prefer "someone with a drug addiction" to "an addict." All three use person-first phrasing: name the condition a person has, rather than collapsing the person into it.
 
-Two refinements run through the corpus. NCDJ notes that some prefer "substance abuse disorder," and both NCDJ and the Diversity Style Guide distinguish addiction from dependence — a physical dependence on a prescribed medication is not the same as an addiction. The Diversity Style Guide adds the adjacent rejections that travel with this vocabulary: "junkie," and the recovery-context "clean" and "dirty," which moralize a medical condition. The guidance is stable across the 2021–2023 sources, trending toward person-first and clinical framing.
+Two refinements run through the corpus. NCDJ notes that some prefer "substance abuse disorder," and both NCDJ and the Diversity Style Guide distinguish addiction from dependence — a physical dependence on a prescribed medication is not the same as an addiction. The Diversity Style Guide adds the related rejections: "junkie," and the recovery-context "clean" and "dirty," which moralize a medical condition. The guidance is stable across the 2021–2023 sources.
 
-One scoping note: most of the cross-source energy on this topic sits on the rejected labels for people — "addict," "junkie" — which belong on their own entries. This page covers the condition-term itself, which the sources accept. It pairs with [mental health](/terms/mental-health/).
+One scoping note: most of the cross-source guidance on this topic is about the rejected labels for people — "addict," "junkie" — which belong on their own entries. This page covers the condition-term itself, which the sources accept. It pairs with [mental health](/terms/mental-health/).
 
 ## Audience notes
 

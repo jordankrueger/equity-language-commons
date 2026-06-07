@@ -81,7 +81,7 @@ contributors:
 
 The contested edge is grammatical, and it is about not collapsing a person into a condition. APA avoids the adjective "mentally ill" (alongside "crazy" and "insane") and prescribes the person-first noun "person living with a mental illness" — so the term itself is endorsed, while the adjective-as-identity is not. The Diversity Style Guide records that some advocates would retire the umbrella term entirely in favor of always naming the specific condition.
 
-The guidance is stable across the 2021–2023 sources; the movement is toward specificity and person-first construction rather than any reversal. One distinction the sources guard carefully: "mental illness" is not "mental health." Mental health is a universal state of well-being; mental illness names a condition, and treating the two as synonyms is itself a common error. This page pairs with [mental health](/terms/mental-health/).
+The guidance is stable across the 2021–2023 sources, moving toward specificity and person-first construction. One distinction the sources guard carefully: "mental illness" is not "mental health." Mental health is a universal state of well-being; mental illness names a condition, and treating the two as synonyms is a common error. This page pairs with [mental health](/terms/mental-health/).
 
 ## Audience notes
 

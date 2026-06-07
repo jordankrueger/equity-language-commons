@@ -113,25 +113,24 @@ TJA allows the term inside a reproduced direct quote, and DCFPI's broader
 self-identification rule — use the terms preferred by the people affected,
 when known — covers a subject who describes their own experience that way.
 
-Where the sources diverge is on what to use instead, and that divergence
-tracks the chronology of how the surrounding vocabulary settled. The 2016–2017
+The sources differ on what to use instead, and the difference follows the
+chronology of how the surrounding vocabulary settled. The 2016–2017
 progressive guides (SumOfUs, DCFPI) and the 2024 Movement Strategy Center
 glossary route writers toward "transition," "transitioning," "trans woman /
-trans man," or "gender affirmation" — they replace the term with the process or
+trans man," or "gender affirmation." They replace the term with the process or
 the person, not with another surgical label. The journalism-focused guides
-(NLGJA 2025, TJA 2026, and the Diversity Style Guide) go further on the surgery
-question specifically: NLGJA and the DSG both caution against overemphasizing
+(NLGJA 2025, TJA 2026, and the Diversity Style Guide) say more about surgery
+specifically: NLGJA and the DSG both caution against overemphasizing
 surgery in a transition at all, and when surgery genuinely is the subject they
 point to "gender-affirming surgery," specific procedure names, or "transgender
 medical care" (TJA) rather than any blanket operation term.
 
-One usage note runs through the newer sources. TJA separates "sex change"
+The newer sources add one usage note. TJA separates "sex change"
 (widely offensive, avoid entirely) from "sex reassignment" (offensive to some,
 but still current in medical literature), and NLGJA likewise treats "sex
 reassignment / gender affirmation" as the live medical descriptors while
-retiring "sex change." So the consensus to drop "sex change" is firmer than the
-consensus on its single replacement — which is itself a sign that the underlying
-guidance has shifted from naming a surgery to describing a personal process.
+retiring "sex change." The consensus to drop "sex change" is firmer than the
+consensus on its single replacement.
 
 ## Audience notes
 

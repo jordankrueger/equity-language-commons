@@ -95,11 +95,11 @@ contributors:
 
 ## Synthesis
 
-All five sources converge on a single instruction: avoid the metaphorical "lame." The word's literal sense — difficulty walking from a leg injury — is the root the guides return to, and the objection is to its colloquial drift into a catch-all for "weak," "boring," or "uncool." NCDJ, the Diversity Style Guide, APA, Sierra Club, and SumOfUs all place "lame" in the avoid column, with no dissent across the set.
+All five sources say the same thing: avoid the metaphorical "lame." The word's literal sense is difficulty walking from a leg injury, and the objection is to its colloquial drift into a catch-all for "weak," "boring," or "uncool." NCDJ, the Diversity Style Guide, APA, Sierra Club, and SumOfUs all place "lame" in the avoid column.
 
-Where the sources differ is in force and framing. APA treats it as a replace-table row, pairing "lame" with plain alternatives — "boring," "mundane," "uncool" — that say what the writer actually means. NCDJ and the Diversity Style Guide describe the objection and then carve out an explicit exception for direct quotation: avoid it in your own voice, but you may quote a source who uses it. Sierra Club is the most categorical, calling the word a slur and extending the caution to the political idiom "lame duck," for which it and SumOfUs both supply substitutes ("transitional period," "final session"). SumOfUs, the earliest entry (2016), states the rule most tersely: never use it to refer to a person.
+Where the sources differ is in force and framing. APA treats it as a replace-table row, pairing "lame" with plain alternatives — "boring," "mundane," "uncool." NCDJ and the Diversity Style Guide describe the objection and then carve out an exception for direct quotation: avoid it in your own voice, but you may quote a source who uses it. Sierra Club is the most categorical, calling the word a slur and extending the caution to the political idiom "lame duck," for which it and SumOfUs both supply substitutes ("transitional period," "final session"). SumOfUs, the earliest entry (2016), states the rule most tersely: never use it to refer to a person.
 
-For a communicator, the practical rule is straightforward. Replace metaphorical "lame" with the specific quality you mean. Keep the quotation exception in mind when reporting others' words. And note that "lame duck," though a fixed political term, falls under the same guidance for the guides that address it — a distinct idiom worth flagging rather than treating as a separate identity label.
+The working rule for a communicator: replace metaphorical "lame" with the specific quality you mean, and keep the quotation exception in mind when reporting others' words. "Lame duck," though a fixed political term, falls under the same guidance for the guides that address it.
 
 ## History note
 
