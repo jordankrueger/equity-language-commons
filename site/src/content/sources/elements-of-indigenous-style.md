@@ -9,7 +9,7 @@ source_url: "https://brusheducation.ca/brush-catalogue/p/elements-of-indigenous-
 local_archive: null
 host_posture: "link-out-only"
 live_status: "live"
-last_checked: 2026-05-30
+last_checked: 2026-06-07
 added: 2026-05-17
 ---
 

@@ -8,6 +8,7 @@
 #
 # Usage:
 #   ./scripts/extract-pdfs.sh           # convert missing siblings (text-only)
+#   ./scripts/extract-pdfs.sh path/to/file.pdf
 #   ./scripts/extract-pdfs.sh --force   # re-extract even if sibling exists
 #   ./scripts/extract-pdfs.sh --dry-run # show what would be done
 #   ./scripts/extract-pdfs.sh --layout  # preserve column layout (default: reading order)
@@ -26,6 +27,7 @@ FORCE=0
 DRY_RUN=0
 LAYOUT_FLAG=""
 OCR=0
+TARGETS=()
 
 for arg in "$@"; do
   case "$arg" in
@@ -34,7 +36,8 @@ for arg in "$@"; do
     --layout)   LAYOUT_FLAG="-layout" ;;
     --ocr)      OCR=1 ;;
     -h|--help)  sed -n '2,20p' "$0"; exit 0 ;;
-    *)          echo "unknown flag: $arg" >&2; exit 2 ;;
+    --*)        echo "unknown flag: $arg" >&2; exit 2 ;;
+    *)          TARGETS+=("$arg") ;;
   esac
 done
 
@@ -178,16 +181,29 @@ extract_one() {
 
 echo "scanning ${SOURCE_DIR}…"
 
-# Walk root + discovered/ only (avoid surprises in any future subdirs).
-shopt -s nullglob
-for dir in "$SOURCE_DIR" "$SOURCE_DIR/discovered"; do
-  [[ -d "$dir" ]] || continue
+if [[ ${#TARGETS[@]} -gt 0 ]]; then
   echo
-  echo "${dir#$PROJECT_ROOT/}:"
-  for pdf in "$dir"/*.pdf "$dir"/*.PDF; do
-    [[ -f "$pdf" ]] && extract_one "$pdf"
+  echo "explicit targets:"
+  for pdf in "${TARGETS[@]}"; do
+    if [[ ! -f "$pdf" ]]; then
+      printf "  FAIL   %s (not found)\n" "$pdf" >&2
+      ((failed++)) || true
+      continue
+    fi
+    extract_one "$pdf"
   done
-done
+else
+  # Walk root + discovered/ only (avoid surprises in any future subdirs).
+  shopt -s nullglob
+  for dir in "$SOURCE_DIR" "$SOURCE_DIR/discovered"; do
+    [[ -d "$dir" ]] || continue
+    echo
+    echo "${dir#$PROJECT_ROOT/}:"
+    for pdf in "$dir"/*.pdf "$dir"/*.PDF; do
+      [[ -f "$pdf" ]] && extract_one "$pdf"
+    done
+  done
+fi
 
 echo
 printf "summary: %d converted, %d skipped, %d failed\n" "$converted" "$skipped" "$failed"

@@ -7,12 +7,38 @@ related_terms:
     relation: "related-concept"
   - slug: "islamophobia"
     relation: "related-concept"
+  - slug: "nation-of-islam"
+    relation: "overlapping-but-distinct"
 categories:
   - "faith-and-religious-identity"
 tags:
   - "identity-term"
   - "do-not-conflate"
 guidance:
+  - org: "Religion News Association"
+    org_slug: "religion"
+    year: 2026
+    entry_updated: null
+    source_url: "https://religionstylebook.com/entries/category/islam"
+    local_archive: "source-guides/discovered/religion-stylebook-2026-06.md"
+    recommendation: "use"
+    derived_from: []
+    quote: "Religion founded in seventh-century Mecca by the Prophet Muhammad, who said Allah (God), through the Angel Gabriel, revealed the Quran to him between 610 and 632, the year of his death. Followers of Islam are called Muslims …"
+    quote_loc: "\"Islam\" entry, Islam category"
+    paraphrase: "The Religion Stylebook's baseline entry: Islam is the religion founded in seventh-century Mecca by the Prophet Muhammad; its followers are called Muslims, it is the world's second-largest religion, and it divides principally into Sunni and Shiite branches."
+    confidence: "VERIFIED-ARCHIVED"
+  - org: "CAIR"
+    org_slug: "cair"
+    year: 2021
+    entry_updated: null
+    source_url: "https://www.cair.com/wp-content/uploads/2021/08/MediaGuide.pdf"
+    local_archive: "source-guides/discovered/cair-journalists-guide-2021-08.pdf"
+    recommendation: "use"
+    derived_from: []
+    quote: "Islam - a 1,400-year-old religion practiced by more than a billion people worldwide - has a diverse following and is a faith that teaches justice, peace and tolerance."
+    quote_loc: "Understanding Islam (opening section)"
+    paraphrase: "CAIR's journalist guide opens by countering the misunderstanding it sees as most common: Islam — an Arabic word meaning submission to God's will — is a 1,400-year-old faith with more than a billion diverse adherents, and its teachings center justice, peace, and tolerance."
+    confidence: "VERIFIED-ARCHIVED"
   - org: "NABJ"
     org_slug: "nabj"
     year: 2022
@@ -32,10 +58,10 @@ guidance:
     source_url: "https://www.diversitystyleguide.com/glossary/islam/"
     local_archive: "source-guides/discovered/diversity-style-guide-2023-11.md"
     recommendation: "use"
-    derived_from: []
+    derived_from: ["religion"]
     quote: "Religion founded in seventh-century Mecca by the Prophet Muhammad … Followers of Islam are called Muslims. … Because the Quran is in Arabic, it is a common misconception that all Arabs are Muslim and all Muslims are Arab; neither is true."
     quote_loc: "Glossary entry, \"Islam\""
-    paraphrase: "The Diversity Style Guide defines Islam as the religion founded in seventh-century Mecca whose followers are called Muslims, and closes the entry by correcting the common misconception that all Arabs are Muslim and all Muslims are Arab."
+    paraphrase: "The Diversity Style Guide defines Islam as the religion founded in seventh-century Mecca whose followers are called Muslims, and closes the entry by correcting the common misconception that all Arabs are Muslim and all Muslims are Arab. Its definitional text follows the Religion Stylebook's."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Diversity Style Guide"
     org_slug: "diversity-style-guide"
@@ -47,7 +73,7 @@ guidance:
     derived_from: []
     quote: "Follow AP style, which defines the term as an \"advocate or supporter of a political movement that favors reordering government and society in accordance with laws prescribed by Islam\" … \"Do not use as a synonym for Islamic fighters, militants, extremists or radicals, who may or may not be Islamists.\""
     quote_loc: "Glossary entry, \"Islamist\""
-    paraphrase: "The Diversity Style Guide, following AP, defines an Islamist as an advocate of a political movement to reorder government according to Islamic law — and cautions that \"Islamist\" must not be used as a synonym for fighters, militants, extremists, or radicals, who may or may not be Islamists. Those who view the Quran as a political model span mainstream politicians to militants."
+    paraphrase: "The Diversity Style Guide, following AP, defines an Islamist as an advocate of a political movement to reorder government according to Islamic law — and cautions that \"Islamist\" must not be used as a synonym for fighters, militants, extremists, or radicals, who may or may not be Islamists."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Diversity Style Guide"
     org_slug: "diversity-style-guide"
@@ -64,21 +90,46 @@ guidance:
 context_data: []
 external_references: []
 methodological_context: []
-audience_notes: []  # TODO: 1-2 audience-specific notes (journalist vs activist vs internal-comms framing)
-last_reviewed: 2026-06-03
+audience_notes:
+  - audience: "Journalists and editors"
+    note: "Attribute political actions to the group or party responsible, never to the religion (Diversity Style Guide). \"Islamist\" has a precise AP definition and is not a synonym for militant or extremist. \"Jihad\" does not mean \"holy war\" (CAIR). Capital I, always."
+  - audience: "Advocates and campaign comms"
+    note: "The most common error in progressive copy is the Arab/Muslim conflation — not all Arabs are Muslim, not all Muslims are Arab (NABJ, Diversity Style Guide). Most American Muslims are not Arab."
+  - audience: "Don't conflate with Nation of Islam"
+    note: "The Nation of Islam is a distinct American religious movement, not a branch of Islam; see its own entry."
+last_reviewed: 2026-06-07
 created: 2026-06-03
 contributors:
   - "jordan"
-stub: true  # TODO: remove once synthesis + audience_notes are written
 ---
 
 ## Synthesis
 
-<!-- TODO: 2-3 paragraphs distilling the cross-source picture. Where do
-sources agree? Where do they diverge? What's the chronology of the term's
-treatment? Lead with the consensus where one exists, then map the dissent. -->
+No source treats "Islam" as anything but the standard, capitalized proper
+noun for the world's second-largest religion. The guidance weight sits
+entirely on **what gets wrongly attached to it**. Three failure modes recur
+across the corpus: conflating Arab with Muslim (NABJ and the Diversity Style
+Guide both correct it explicitly — Arabic is the Quran's language, but most
+Muslims are not Arab); conflating Islam with political movements ("Islamist"
+has a precise definition — an advocate of reordering government according to
+Islamic law — and is not a synonym for militant or extremist); and
+attributing political violence to the religion rather than the responsible
+group, the Diversity Style Guide's "Muslim bomb" warning.
+
+CAIR's guide, written from inside the community, frames the affirmative
+case the journalism guides imply: Islam — Arabic for submission to God's
+will — is a 1,400-year-old faith of more than a billion diverse adherents
+that teaches justice, peace, and tolerance, and the guide spends most of its
+pages on the vocabulary that gets that wrong (*jihad* is not "holy war";
+*fatwa* is a legal opinion).
+
+A sourcing note: the Diversity Style Guide's definitional entry follows the
+Religion Stylebook's (the DSG aggregates specialist stylebooks); its
+Islamist and Islamic-fundamentalist entries are independent treatments. The
+independent legs of this page are the Religion Stylebook, CAIR, and NABJ.
 
 ## Audience notes
 
-<!-- TODO: 1-2 audience-specific cautions. E.g., journalist-vs-activist
-framing, geographic variations, generational shifts in usage. -->
+See the structured audience notes above: attribution discipline for
+journalists, the Arab/Muslim conflation for campaign communicators, and the
+Nation of Islam distinction for everyone.

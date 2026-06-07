@@ -8,9 +8,9 @@ license: "© Immigrant Defense Project. Original URL now 404; archived as an orp
 source_url: "https://www.immigrantdefenseproject.org/"
 local_archive: "source-guides/discovered/idp-journalist-style-guide-2020.pdf"
 host_posture: "host-publicly"
-live_status: "live"
+live_status: "offline"
 added: 2026-05-17
-last_checked: 2026-05-18
+last_checked: 2026-06-07
 length_pages: 12
 format: "PDF"
 ---

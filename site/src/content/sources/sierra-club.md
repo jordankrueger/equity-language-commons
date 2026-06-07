@@ -13,7 +13,7 @@ local_archive: "source-guides/Equity Language Guide Sierra Club 2021.pdf"
 host_posture: "private-mirror-link-out"
 live_status: "live"
 added: 2026-04-23
-last_checked: 2026-05-26
+last_checked: 2026-06-07
 version_history:
   - year: 2021
     note: "Current canonical edition."

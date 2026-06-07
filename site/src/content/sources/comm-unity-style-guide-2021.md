@@ -8,9 +8,9 @@ license: "© Immigrant Defense Project. Excerpted under fair use; original linke
 source_url: "https://www.immigrantdefenseproject.org/"
 local_archive: "source-guides/discovered/comm-unity-style-guide-2021.pdf"
 host_posture: "private-mirror-link-out"
-live_status: "live"
+live_status: "offline"
 added: 2026-05-17
-last_checked: 2026-05-18
+last_checked: 2026-06-07
 length_pages: 13
 format: "PDF"
 ---
