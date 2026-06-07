@@ -196,7 +196,8 @@ entries:
     verified: 2026-06-05
   - page: "native-american"
     org_slug: "ngc"
-    verified: 2026-06-04
+    verified: 2026-06-07
+    note: "trimmed span is substring of prior verified quote"
   - page: "native-american"
     org_slug: "sierra-club"
     verified: 2026-06-04
@@ -265,7 +266,8 @@ entries:
     verified: 2026-06-05
   - page: "tribe"
     org_slug: "ngc"
-    verified: 2026-06-04
+    verified: 2026-06-07
+    note: "trimmed span is substring of prior verified quote"
   - page: "tribe"
     org_slug: "sierra-club"
     verified: 2026-06-04

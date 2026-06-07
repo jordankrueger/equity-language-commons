@@ -29,7 +29,7 @@ guidance:
     quote_loc: "Injury/injuries entry, NCDJ Recommendation"
     paraphrase: "NCDJ — the chapter's anchor — names the core rule: write that a person \"sustained\" or \"received\" an injury, not that they \"suffered\" one, because \"suffer\" frames the injured person as a victim or as diminished. The neutral verbs remove the implied judgment about a reduced quality of life."
     confidence: "VERIFIED-ARCHIVED"
-  - org: "Global Consortium for Journalism & Trauma"
+  - org: "Global Center for Journalism & Trauma"
     org_slug: "gcjt"
     year: 2021
     entry_updated: null

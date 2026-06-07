@@ -35,7 +35,7 @@ guidance:
     source_url: "https://nativegov.org/resources/style-guide/"
     local_archive: "source-guides/Native-Governance-Center-Style-Guide-published-2021-02.pdf"
     recommendation: "use-with-care"
-    quote: "Refer to the nations we serve as Native nations. Use Tribal nations or Tribes in special circumstances, if necessary. … Capitalize the words Tribe and Tribal, regardless of whether they appear as part of a proper noun. Example: 'The United States is home to 574 federally-recognized Tribes.'"
+    quote: "Refer to the nations we serve as Native nations. Use Tribal nations or Tribes in special circumstances, if necessary."
     quote_loc: "p. 6, The People and Nations We Serve → Native nations / Other terminology related to Native nations and lands"
     paraphrase: "NGC prefers 'Native nations' as the default collective term; 'Tribal nations' or 'Tribes' are reserved for special circumstances. When 'Tribe' or 'Tribal' is used, it is always capitalized — regardless of whether it appears in a proper noun. NGC names this as an intentional respect convention rooted in Indigenous-style practice."
     confidence: "VERIFIED-ARCHIVED"
@@ -88,7 +88,7 @@ guidance:
     paraphrase: "NAJA's editorial position is that generic 'Tribe' framing in headlines and copy is a journalistic accuracy failure, not just a courtesy issue. The accurate practice is to name the specific tribe or nation — the same standard reporters apply when covering any other place or group. NAJA does not lead with a capitalization rule; the priority is specificity."
     confidence: "VERIFIED-ARCHIVED"
 
-  - org: "Global Consortium for Journalism & Trauma"
+  - org: "Global Center for Journalism & Trauma"
     org_slug: "gcjt"
     year: 2021
     entry_updated: null

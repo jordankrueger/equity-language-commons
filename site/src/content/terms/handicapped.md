@@ -28,7 +28,7 @@ guidance:
     quote_loc: "Disability language two-column list, \"Terms avoided/questioned by disability rights activists\""
     paraphrase: "SumOfUs lists \"handicapped\" and \"handi-capable\" among the terms avoided or questioned by disability rights activists, contrasting them with preferred forms such as \"disabled person\" and \"person with a disability.\""
     confidence: "VERIFIED-ARCHIVED"
-  - org: "Global Consortium for Journalism & Trauma"
+  - org: "Global Center for Journalism & Trauma"
     org_slug: "gcjt"
     year: 2021
     entry_updated: null

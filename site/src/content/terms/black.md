@@ -43,7 +43,7 @@ guidance:
     source_url: "https://nativegov.org/resources/style-guide/"
     local_archive: "source-guides/Native-Governance-Center-Style-Guide-published-2021-02.pdf"
     recommendation: "use"
-    quote: "DO capitalize the names of racial, ethnic, cultural (and for Native folks, political) identifiers: Capitalize Black. Capitalize Indigenous, Native, and American Indian. Capitalize other racial and ethnic identifiers, such as Asian and Latinx. … DO NOT capitalize the word white."
+    quote: "Capitalize Black. … DO NOT capitalize the word white."
     quote_loc: "p. 4, References to Racial, Ethnic, Cultural (and Political) Groups"
     paraphrase: "NGC's capitalization rule is asymmetric on purpose: capitalize Black (alongside Indigenous, Native, American Indian, Asian, Latinx) but do not capitalize white. The guide links to MPR's editor's note for the reasoning."
     confidence: "VERIFIED-ARCHIVED"

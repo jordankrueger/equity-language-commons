@@ -28,7 +28,7 @@ guidance:
     quote_loc: "Word Choice list, p. 6"
     paraphrase: "Sierra Club's word-choice list gives the colloquial-use rule in one line: reach for \"disheartening\" or \"sad\" rather than \"depressing\" in everyday writing, reserving clinical-mental-health vocabulary for the diagnosed condition."
     confidence: "VERIFIED-ARCHIVED"
-  - org: "Global Consortium for Journalism & Trauma"
+  - org: "Global Center for Journalism & Trauma"
     org_slug: "gcjt"
     year: 2021
     entry_updated: null

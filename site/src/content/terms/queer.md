@@ -65,7 +65,7 @@ guidance:
     source_url: "https://www.hrc.org/resources/glossary-of-terms"
     local_archive: "source-guides/discovered/hrc-glossary-2023-05.md"
     recommendation: "reclaimed-in-community"
-    quote: "Queer | A term people often use to express a spectrum of identities and orientations that are counter to the mainstream. … This term was previously used as a slur, but has been reclaimed by many parts of the LGBTQ+ movement."
+    quote: "This term was previously used as a slur, but has been reclaimed by many parts of the LGBTQ+ movement."
     quote_loc: "Glossary, Queer entry (updated 5/31/2023)"
     paraphrase: "HRC treats queer as a present-tense reclaimed umbrella term that includes both sexual orientation and gender-expansive identities. The entry names the slur history but presents the reclamation as a settled fact within much of the LGBTQ+ movement, without the cautionary frame that DSG and NLGJA pair theirs with."
     confidence: "VERIFIED-ARCHIVED"

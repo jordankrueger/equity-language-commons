@@ -49,7 +49,7 @@ guidance:
     local_archive: "source-guides/discovered/hrc-glossary-2023-05.md"
     recommendation: "use"
     derived_from: []
-    quote: "Often called \"ace\" for short, asexual refers to a complete or partial lack of sexual attraction or lack of interest in sexual activity with others. Asexuality exists on a spectrum, and asexual people may experience no, little or conditional sexual attraction."
+    quote: "Often called \"ace\" for short … Asexuality exists on a spectrum, and asexual people may experience no, little or conditional sexual attraction."
     quote_loc: "Glossary, Asexual entry (updated 5/31/2023)"
     paraphrase: "HRC names the community shorthand \"ace\" and frames asexuality as a spectrum rather than a single state: asexual people may experience no, little, or conditional sexual attraction. The entry treats asexual as a complete or partial lack of sexual attraction or interest in sexual activity with others."
     confidence: "VERIFIED-ARCHIVED"

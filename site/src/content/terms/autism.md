@@ -30,7 +30,7 @@ guidance:
     quote_loc: "Autism/autism spectrum disorder/autistic entry, NCDJ Recommendation"
     paraphrase: "NCDJ — the chapter's anchor — treats the identity-first/people-first choice as one the individual settles: many prefer \"autistic\" or \"an autistic person,\" others prefer \"a person with autism.\" It notes the 2013 DSM-5 folded subtypes like Asperger's into the single autism spectrum disorder diagnosis, points to the Autistic Self Advocacy Network's identity-first guidance, and advises naming a diagnosis only when relevant and confirmed."
     confidence: "VERIFIED-ARCHIVED"
-  - org: "Global Consortium for Journalism & Trauma"
+  - org: "Global Center for Journalism & Trauma"
     org_slug: "gcjt"
     year: 2021
     entry_updated: null

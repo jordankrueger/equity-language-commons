@@ -83,7 +83,7 @@ guidance:
     source_url: "https://nativegov.org/resources/style-guide/"
     local_archive: "source-guides/Native-Governance-Center-Style-Guide-published-2021-02.pdf"
     recommendation: "use"
-    quote: "Capitalize other racial and ethnic identifiers, such as Asian and Latinx. … Refer to individuals by their individual racial/ethnic/cultural/political identifier, rather than using BIPOC, whenever possible."
+    quote: "Capitalize other racial and ethnic identifiers, such as Asian and Latinx."
     quote_loc: "p. 4, References to Racial, Ethnic, Cultural (and Political) Groups"
     paraphrase: "NGC uses Latinx as its example of a capitalized ethnic identifier and recommends individual identifiers over BIPOC aggregation. The guide's focus is Indigenous terminology; Latinx appears in passing rather than as a primary topic, which is why the entry doesn't engage the surrounding debate (Latine, self-ID nuance)."
     confidence: "VERIFIED"

@@ -79,7 +79,7 @@ guidance:
     source_url: "https://www.hrc.org/resources/glossary-of-terms"
     local_archive: "source-guides/discovered/hrc-glossary-2023-05.md"
     recommendation: "use"
-    quote: "Sexual orientation | An inherent or immutable enduring emotional, romantic or sexual attraction to other people. Note: an individual's sexual orientation is independent of their gender identity."
+    quote: "An inherent or immutable enduring emotional, romantic or sexual attraction to other people. Note: an individual's sexual orientation is independent of their gender identity."
     quote_loc: "Glossary, Sexual orientation entry"
     paraphrase: "HRC defines sexual orientation as an inherent enduring attraction and pairs the definition with the cross-axis rule: sexual orientation is independent of gender identity. The companion transgender entry repeats the rule from the other direction — being transgender does not imply any specific sexual orientation."
     confidence: "VERIFIED-ARCHIVED"

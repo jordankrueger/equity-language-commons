@@ -67,7 +67,7 @@ guidance:
     source_url: "https://www.hrc.org/resources/glossary-of-terms"
     local_archive: "source-guides/discovered/hrc-glossary-2023-05.md"
     recommendation: "use"
-    quote: "Bisexual | A person emotionally, romantically or sexually attracted to more than one gender, though not necessarily simultaneously, in the same way or to the same degree. Sometimes used interchangeably with pansexual."
+    quote: "A person emotionally, romantically or sexually attracted to more than one gender, though not necessarily simultaneously, in the same way or to the same degree …"
     quote_loc: "Glossary, Bisexual entry"
     paraphrase: "HRC defines bisexual as attraction to more than one gender, and notes the attraction can vary in form and degree — same person, different periods of life, different intensities. The companion Biphobia entry names 'the fear and hatred of, or discomfort with, people who love and are sexually attracted to more than one gender,' framing bisexual erasure as its own form of prejudice distinct from homophobia."
     confidence: "VERIFIED-ARCHIVED"

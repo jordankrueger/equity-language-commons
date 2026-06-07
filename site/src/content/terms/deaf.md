@@ -30,7 +30,7 @@ guidance:
     quote_loc: "Disability language two-column list, \"Terms used by disability rights activists\""
     paraphrase: "SumOfUs places \"deaf,\" \"Deaf culture,\" and \"hard of hearing\" in its column of terms used by disability rights activists. The collective \"the deaf\" and figurative forms (\"deaf ears,\" \"dialogue of the deaf\") sit in its avoided column instead."
     confidence: "VERIFIED-ARCHIVED"
-  - org: "Global Consortium for Journalism & Trauma"
+  - org: "Global Center for Journalism & Trauma"
     org_slug: "gcjt"
     year: 2021
     entry_updated: null

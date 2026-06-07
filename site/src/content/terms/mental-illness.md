@@ -17,7 +17,7 @@ tags:
   - "don't-speculate"
   - "person-first-language"
 guidance:
-  - org: "Global Consortium for Journalism & Trauma"
+  - org: "Global Center for Journalism & Trauma"
     org_slug: "gcjt"
     year: 2021
     entry_updated: null

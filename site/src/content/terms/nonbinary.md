@@ -26,7 +26,7 @@ guidance:
     local_archive: "source-guides/discovered/hrc-glossary-2023-05.md"
     recommendation: "use"
     derived_from: []
-    quote: "An adjective describing a person who does not identify exclusively as a man or a woman. Non-binary people may identify as being both a man and a woman, somewhere in between, or as falling completely outside these categories. While many also identify as transgender, not all non-binary people do."
+    quote: "An adjective describing a person who does not identify exclusively as a man or a woman. … While many also identify as transgender, not all non-binary people do."
     quote_loc: "Glossary, Non-binary entry (updated 5/31/2023)"
     paraphrase: "HRC defines non-binary as an adjective for people who don't identify exclusively as a man or a woman, and draws a careful boundary with transgender: many non-binary people also identify as transgender, but not all do. The entry also notes non-binary can serve as an umbrella term covering agender, bigender, genderqueer, and gender-fluid identities."
     confidence: "VERIFIED-ARCHIVED"

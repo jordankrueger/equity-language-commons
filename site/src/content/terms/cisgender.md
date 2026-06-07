@@ -31,7 +31,7 @@ guidance:
     paraphrase: "SumOfUs lists 'cisgender' on its accepted-terms list for the Gender/Sex section, paired with 'non-cisgender' as a parallel construction. The guide treats cisgender as the standard term for people whose gender identity matches their sex assigned at birth, consistent with the broader rule to use specific terms tied to self-identification."
     confidence: "VERIFIED-ARCHIVED"
 
-  - org: "Global Consortium for Journalism & Trauma"
+  - org: "Global Center for Journalism & Trauma"
     org_slug: "gcjt"
     year: 2021
     entry_updated: null

@@ -59,7 +59,7 @@ guidance:
     paraphrase: "SEIU's stylebook treats transgender as the standard form and explicitly rejects transgendered. The entry is brief — a one-line preferred/avoided pair consistent with SEIU's alphabetical reference-book format — and pairs with SEIU's LGBT acronym entry under L: lesbian, gay, bisexual and transgender [LGBT]."
     confidence: "VERIFIED-ARCHIVED"
 
-  - org: "Global Consortium for Journalism & Trauma"
+  - org: "Global Center for Journalism & Trauma"
     org_slug: "gcjt"
     year: 2021
     entry_updated: null
@@ -102,7 +102,7 @@ guidance:
     source_url: "https://www.hrc.org/resources/glossary-of-terms"
     local_archive: "source-guides/discovered/hrc-glossary-2023-05.md"
     recommendation: "use"
-    quote: "Transgender | An umbrella term for people whose gender identity and/or expression is different from cultural expectations based on the sex they were assigned at birth. Being transgender does not imply any specific sexual orientation. Therefore, transgender people may identify as straight, gay, lesbian, bisexual, etc."
+    quote: "An umbrella term for people whose gender identity and/or expression is different from cultural expectations based on the sex they were assigned at birth. Being transgender does not imply any specific sexual orientation …"
     quote_loc: "Glossary, Transgender entry (updated 5/31/2023)"
     paraphrase: "HRC defines transgender as an umbrella term and draws the line between gender identity and sexual orientation explicitly: being transgender does not predict sexual orientation. The glossary's companion entry on transitioning (covering social, medical, and legal aspects) frames transition as something a transgender person 'may' undergo — not a requirement of the identity."
     confidence: "VERIFIED-ARCHIVED"

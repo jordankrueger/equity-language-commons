@@ -59,7 +59,7 @@ guidance:
     local_archive: "source-guides/discovered/diversity-style-guide-2023-11.md"
     recommendation: "use"
     derived_from: ["religion"]
-    quote: "Religion founded in seventh-century Mecca by the Prophet Muhammad … Followers of Islam are called Muslims. … Because the Quran is in Arabic, it is a common misconception that all Arabs are Muslim and all Muslims are Arab; neither is true."
+    quote: "Religion founded in seventh-century Mecca by the Prophet Muhammad … Followers of Islam are called Muslims. … Because the Quran is in Arabic, it is a common misconception that all Arabs are Muslim and all Muslims are Arab …"
     quote_loc: "Glossary entry, \"Islam\""
     paraphrase: "The Diversity Style Guide defines Islam as the religion founded in seventh-century Mecca whose followers are called Muslims, and closes the entry by correcting the common misconception that all Arabs are Muslim and all Muslims are Arab. Its definitional text follows the Religion Stylebook's."
     confidence: "VERIFIED-ARCHIVED"

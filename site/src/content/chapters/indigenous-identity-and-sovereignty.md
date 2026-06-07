@@ -46,7 +46,7 @@ Source coverage in this chapter spans:
 - **Native Governance Center Style Guide (2021)** — Indigenous-led US; the operational style reference for Native-led nonprofit communicators. Source of the Tribe / Tribal capitalization convention and the reservation-versus-nation distinction.
 - **Sierra Club Equity Language Guide (2021)** — Substantial Tribal Sovereignty and Public Lands section; the etymological framing of "reservation" and the bans on "tribalism" and "rez" as outsider language.
 - **Diversity Style Guide (2023, entries updated through 2024)** — Peer aggregator; richest historical and legal context across the chapter. Source for HR 4238 (2016) and the federal-tribe membership definition.
-- **Global Consortium for Journalism & Trauma (2021)** — Adopts NAJA's framing into trauma-informed journalism context; cited as bridge between Native-led editorial standards and mainstream journalism style.
+- **Global Center for Journalism & Trauma (2021)** — Adopts NAJA's framing into trauma-informed journalism context; cited as bridge between Native-led editorial standards and mainstream journalism style.
 - **SumOfUs Progressive Style Guide (2016)** — Pre-2020 framing; First Nations section is strong on geographic scope and possessive-construction caution. Predates the broader capital-T Tribe convention; useful as a chronology marker.
 - **Racial Equity Tools (2023)** — Academic and training context; treats the choices as audience-dependent. The "nations within" framing of tribal sovereignty.
 - **APA (2023)** — Academic / clinical guide. Strongest position on preferring "peoples" or "nations" over "tribes" in generic descriptors.

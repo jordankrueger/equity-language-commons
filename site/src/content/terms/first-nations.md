@@ -57,7 +57,7 @@ guidance:
     source_url: "https://nativegov.org/resources/style-guide/"
     local_archive: "source-guides/Native-Governance-Center-Style-Guide-published-2021-02.pdf"
     recommendation: "use"
-    quote: "Elements of Indigenous Style recommends capitalizing the following terms: Creator, First Nations, Métis, Elder, Sundance, Sweat Lodge, Traditional Knowledge."
+    quote: "Elements of Indigenous Style recommends capitalizing the following terms: Creator, First Nations …"
     quote_loc: "p. 7, Other Miscellaneous Terminology"
     paraphrase: "NGC follows Elements of Indigenous Style on capitalization: First Nations is always capitalized, alongside other Indigenous identity, governance, and ceremony terms (Creator, Métis, Elder, Sundance, Sweat Lodge, Traditional Knowledge). NGC is a US-focused guide and does not treat First Nations as its primary collective term, but capitalizes it consistently when used."
     confidence: "VERIFIED-ARCHIVED"

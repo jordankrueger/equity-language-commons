@@ -49,7 +49,7 @@ guidance:
     source_url: "https://nativegov.org/resources/style-guide/"
     local_archive: "source-guides/Native-Governance-Center-Style-Guide-published-2021-02.pdf"
     recommendation: "non-preferred"
-    quote: "Use Black, Indigenous, People of Color (BIPOC) rather than People of Color (POC) if referring to a group that includes Black and/or Indigenous folks. Refer to individuals by their individual racial/ethnic/cultural/political identifier, rather than using BIPOC, whenever possible."
+    quote: "Use Black, Indigenous, People of Color (BIPOC) rather than People of Color (POC) …"
     quote_loc: "p. 4, References to Racial, Ethnic, Cultural (and Political) Groups"
     paraphrase: "NGC's rule is sharper than Sierra Club's — BIPOC over POC whenever Black or Indigenous people are in the group. POC is implicitly reserved for groups that include neither. Same individual-specificity caveat applies."
     confidence: "VERIFIED-ARCHIVED"

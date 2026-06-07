@@ -39,7 +39,7 @@ guidance:
     local_archive: "source-guides/Native-Governance-Center-Style-Guide-published-2021-02.pdf"
     recommendation: "use-with-care"
     derived_from: []
-    quote: "Refer to the people we serve as: Native people, Native, or Indigenous. Use American Indian or Indian when requested by a particular interview subject or when quoting another work."
+    quote: "Use American Indian or Indian when requested by a particular interview subject …"
     quote_loc: "The People and Nations We Serve → Other terminology related to Native nations and lands"
     paraphrase: "NGC does not use “Indian” as a default. Its preferred general terms are Native people, Native, or Indigenous; “Indian” (or American Indian) is reserved for when an individual self-identifies that way or when quoting another work. The default is self-identification."
     confidence: "VERIFIED-ARCHIVED"

@@ -1,6 +1,6 @@
 # Layer 1 verification report
 
-- V1 quote-in-archive: 459 OK, 0 MISS, 0 truncated, 38 loose-match, 21 gapped(extraction noise), 102 human-verified, 0 no-archive
+- V1 quote-in-archive: 461 OK, 0 MISS, 0 truncated, 38 loose-match, 21 gapped(extraction noise), 100 human-verified, 0 no-archive
 - V2 confidence: 0 FAIL, 0 upgrade suggestions
 - V3 urls: 533 OK, 1 dead
 - V4 cross-ref: 0 FAIL, 0 year mismatches

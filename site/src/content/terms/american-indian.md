@@ -46,7 +46,7 @@ guidance:
     source_url: "https://nativegov.org/resources/style-guide/"
     local_archive: "source-guides/Native-Governance-Center-Style-Guide-published-2021-02.pdf"
     recommendation: "use-with-care"
-    quote: "Capitalize Indigenous, Native, and American Indian. … Refer to the people we serve as: Native people, Native, or Indigenous. Use American Indian or Indian when requested by a particular interview subject or when quoting another work."
+    quote: "Use American Indian or Indian when requested by a particular interview subject …"
     quote_loc: "p. 4 (capitalization rule) and p. 6 (The People and Nations We Serve)"
     paraphrase: "NGC capitalizes American Indian as a racial/ethnic/cultural identifier, but does not use it as a default. The organization's preferred general terms are Native people, Native, or Indigenous; American Indian (or Indian) is reserved for cases where an individual self-identifies that way or when the term appears in a direct quote. The default is self-identification."
     confidence: "VERIFIED-ARCHIVED"

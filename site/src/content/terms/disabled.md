@@ -30,7 +30,7 @@ guidance:
     quote_loc: "D entries, alphabetical stylebook"
     paraphrase: "SEIU's 2020 stylebook prescribes the people-first \"people with disabilities\" in place of the bare adjective \"disabled.\" This reflects the people-first default common in earlier guides; the more recent disability-led sources have since moved toward accepting identity-first \"disabled\" alongside it, governed by self-identification."
     confidence: "VERIFIED-ARCHIVED"
-  - org: "Global Consortium for Journalism & Trauma"
+  - org: "Global Center for Journalism & Trauma"
     org_slug: "gcjt"
     year: 2021
     entry_updated: null

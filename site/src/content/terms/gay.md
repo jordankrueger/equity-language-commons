@@ -76,7 +76,7 @@ guidance:
     source_url: "https://www.hrc.org/resources/glossary-of-terms"
     local_archive: "source-guides/discovered/hrc-glossary-2023-05.md"
     recommendation: "use"
-    quote: "Gay | A person who is emotionally, romantically or sexually attracted to members of the same gender. Men, women and non-binary people may use this term to describe themselves."
+    quote: "Men, women and non-binary people may use this term to describe themselves."
     quote_loc: "Glossary, Gay entry (updated 5/31/2023)"
     paraphrase: "HRC defines gay as a same-gender attraction descriptor open to men, women, and non-binary people — broader than the men-only default found in older journalism style guides. The companion lesbian entry treats lesbian as the term for women (and non-binary people) attracted to women."
     confidence: "VERIFIED-ARCHIVED"

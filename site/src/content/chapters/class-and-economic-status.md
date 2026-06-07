@@ -35,7 +35,7 @@ This chapter gathers the language of poverty, social class, and economic status:
 - **SumOfUs Progressive Style Guide (2016)** — the earliest source, built around an explicit anti-classist framework; supplies the "questioned by economic justice activists" lists for both the descriptors and the coded place terms.
 - **Racial Equity Tools (2023)** — the structural definition of classism, drawn from Class Action; the systemic-oppression lens.
 - **Color of Change (2020, Black Families narrative guide)** — the "Ghetto" entry, and the antiracist-protest guide's critique of "vulnerable / at risk / charity" framing as blame-shifting.
-- **Global Consortium for Journalism & Trauma (GCJT, 2021)** — the "Ghetto" entry that names coded geography as a euphemism for race.
+- **Global Center for Journalism & Trauma (GCJT, 2021)** — the "Ghetto" entry that names coded geography as a euphemism for race.
 - **NABJ (2022) and the Diversity Style Guide (2023)** — peer-aggregator entries that pair "ghetto" and "inner city" and supply the neutral alternatives.
 
 ## Chronology

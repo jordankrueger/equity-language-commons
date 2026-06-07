@@ -26,7 +26,7 @@ guidance:
     quote_loc: "Sexual and Domestic Violence section, Specific Recommendations"
     paraphrase: "In its sexual and domestic violence guidance, SumOfUs notes that many people who have experienced sexual violence prefer “survivor” to “victim,” while deferring to the individual's own choice of word."
     confidence: "VERIFIED-ARCHIVED"
-  - org: "Global Consortium for Journalism & Trauma"
+  - org: "Global Center for Journalism & Trauma"
     org_slug: "gcjt"
     year: 2021
     entry_updated: null

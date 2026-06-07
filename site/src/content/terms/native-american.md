@@ -59,7 +59,7 @@ guidance:
     source_url: "https://nativegov.org/resources/style-guide/"
     local_archive: "source-guides/Native-Governance-Center-Style-Guide-published-2021-02.pdf"
     recommendation: "use-with-care"
-    quote: "Refer to our organization as Native-led, rather than Native American-led. For example, 'Native Governance Center is a Native-led nonprofit organization.' … Refer to the people we serve as: Native people, Native, or Indigenous. Use American Indian or Indian when requested by a particular interview subject or when quoting another work."
+    quote: "Refer to our organization as Native-led, rather than Native American-led."
     quote_loc: "p. 5 (Our Work) and p. 6 (The People and Nations We Serve)"
     paraphrase: "NGC explicitly prefers 'Native' or 'Native-led' over 'Native American' in collective and organizational descriptors — 'Native American' does not appear in NGC's capitalized identifier set, which names Indigenous, Native, and American Indian. The hierarchy of preferred terms is: Native people, Native, or Indigenous first; American Indian or Indian only when an individual self-identifies that way or when quoting."
     confidence: "VERIFIED-ARCHIVED"
@@ -76,7 +76,7 @@ guidance:
     paraphrase: "Sierra Club's preferred terms map a context-by-context rule: Tribal for governments, Tribal or Native for US communities, Indigenous in international contexts — with the specific nation name always preferred over any umbrella term. Native American is treated as an acceptable collective term but not the default. Capitalization is consistent across Native, Tribal, Tribal, and Indigenous."
     confidence: "VERIFIED-ARCHIVED"
 
-  - org: "Global Consortium for Journalism & Trauma"
+  - org: "Global Center for Journalism & Trauma"
     org_slug: "gcjt"
     year: 2021
     entry_updated: null

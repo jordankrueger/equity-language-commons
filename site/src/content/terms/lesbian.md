@@ -67,7 +67,7 @@ guidance:
     source_url: "https://www.hrc.org/resources/glossary-of-terms"
     local_archive: "source-guides/discovered/hrc-glossary-2023-05.md"
     recommendation: "use"
-    quote: "Lesbian | A woman who is emotionally, romantically or sexually attracted to other women. Women and non-binary people may use this term to describe themselves."
+    quote: "Women and non-binary people may use this term to describe themselves."
     quote_loc: "Glossary, Lesbian entry"
     paraphrase: "HRC defines lesbian as a woman attracted to other women, and explicitly extends the term to non-binary people who use it for themselves — a broader opening than the women-only default in older journalism style guides. HRC defers throughout to how the subject describes themselves."
     confidence: "VERIFIED-ARCHIVED"

@@ -42,7 +42,7 @@ guidance:
     recommendation: "use"
     derived_from:
       - "elements-of-indigenous-style"    # Younging 2018, see methodological_context
-    quote: "Refer to the people we serve as: Native people, Native, or Indigenous. Use American Indian or Indian when requested by a particular interview subject or when quoting another work."
+    quote: "Refer to the people we serve as: Native people, Native, or Indigenous."
     quote_loc: "p. 6, The People and Nations We Serve"
     paraphrase: "NGC treats Native, Native people, and Indigenous as effectively interchangeable house-style terms, with American Indian and Indian reserved for self-ID and quotations. Capitalization is required: Indigenous, Native, Tribe, Tribal, Indian Country. Sovereignty, self-determination, and self-governance are intentionally lowercase; Treaty Right is capitalized. Style is deliberately decolonial — capitalization is framed as redress, not just respect."
     confidence: "VERIFIED"
@@ -56,7 +56,7 @@ guidance:
     recommendation: "use"
     derived_from:
       - "elements-of-indigenous-style"
-    quote: "Indigenous style uses capitals where conventional style does not. It is a deliberate decision that redresses mainstream society's history of regarding Indigenous peoples as having no legitimate national identities; governmental, social, spiritual, or religious institutions; or collective rights."
+    quote: "Indigenous style uses capitals where conventional style does not."
     quote_loc: "Opening framing, quoting Elements of Indigenous Style (Younging 2018)"
     paraphrase: "The guide's opening posture: Indigenous style is a standalone editorial system, not a modifier to mainstream style. When Indigenous style and conventional style disagree, Indigenous style wins. Capitalization is political redress, not typographic choice."
     confidence: "VERIFIED"
@@ -138,7 +138,7 @@ guidance:
     paraphrase: "RET carries three relevant entries: Indigenous populations (UN Cobo 1972 definition), Indigenous Sovereignty, and Tribal Sovereignty. RET's distinctive contribution is the explicit split between Indigenous Sovereignty (inherent, pre-colonial, independent of state recognition) and Tribal Sovereignty (legal recognition within US law). No other corpus source names this conceptual distinction so cleanly. The Cobo report (1972) is the canonical UN-level definition."
     confidence: "VERIFIED"
 
-  - org: "Global Consortium for Journalism & Trauma"
+  - org: "Global Center for Journalism & Trauma"
     org_slug: "gcjt"
     year: 2021
     entry_updated: null

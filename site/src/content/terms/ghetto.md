@@ -41,7 +41,7 @@ guidance:
     quote_loc: "\"Ghetto\" entry, Words and Phrases to Reconsider"
     paraphrase: "Color of Change calls \"ghetto\" a racist and classist term that has become shorthand for a poor, Black neighborhood — one that lets society neglect or punish Black families. It says the word should not be used by people who do not live in those communities, even ironically."
     confidence: "VERIFIED-ARCHIVED"
-  - org: "Global Consortium for Journalism & Trauma"
+  - org: "Global Center for Journalism & Trauma"
     org_slug: "gcjt"
     year: 2021
     entry_updated: null
@@ -51,7 +51,7 @@ guidance:
     derived_from: []
     quote: "In general, do not use \"ghetto\", or related adjectives such as \"notorious\", \"urban\" and \"gritty,\" to describe a geographic area. These cliches are often euphemisms for race. Avoid perpetuating negative stereotypes by describing a neighborhood or other area with precision. …"
     quote_loc: "\"Ghetto\" entry"
-    paraphrase: "The Global Consortium for Journalism & Trauma traces \"ghetto\" from sixteenth-century Venice through the Holocaust to today's segregated, low-income U.S. neighborhoods, and directs writers not to use it — or related cliches like \"notorious,\" \"urban,\" and \"gritty\" — because they are often euphemisms for race."
+    paraphrase: "The Global Center for Journalism & Trauma traces \"ghetto\" from sixteenth-century Venice through the Holocaust to today's segregated, low-income U.S. neighborhoods, and directs writers not to use it — or related cliches like \"notorious,\" \"urban,\" and \"gritty\" — because they are often euphemisms for race."
     confidence: "VERIFIED-ARCHIVED"
   - org: "NABJ"
     org_slug: "nabj"

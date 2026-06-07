@@ -34,7 +34,7 @@ guidance:
     local_archive: "source-guides/discovered/hrc-glossary-2023-05.md"
     recommendation: "use-with-care"
     derived_from: []
-    quote: "Genderqueer people typically reject notions of static categories of gender and embrace a fluidity of gender identity and often, though not always, sexual orientation. People who identify as “genderqueer” may see themselves as being both male and female, neither male nor female or as falling completely outside these categories."
+    quote: "Genderqueer people typically reject notions of static categories of gender and embrace a fluidity of gender identity and often, though not always, sexual orientation …"
     quote_loc: "Glossary entry: Genderqueer"
     paraphrase: "HRC presents genderqueer as a rejection of fixed gender categories in favor of fluidity, noting that people who use it may identify as both male and female, neither, or wholly outside those categories."
     confidence: "VERIFIED-ARCHIVED"

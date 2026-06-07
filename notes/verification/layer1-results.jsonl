@@ -761,7 +761,7 @@
 {"page": "native-american", "org_slug": "aecf", "year": "2013", "check": "V1", "verdict": "LOOSE", "detail": "casey-editorial-guide-2013-04.md :: For nouns: African American, Asian American, black, Hispanic"}
 {"page": "native-american", "org_slug": "naja", "year": "2023", "check": "V1", "verdict": "LOOSE", "detail": "naja-indigenous-terminology-2023-06.md :: Native American and American Indian can be used interchangea"}
 {"page": "native-american", "org_slug": "naja", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://indigenousjournalists.org/ap-style-insert/"}
-{"page": "native-american", "org_slug": "ngc", "year": "2021", "check": "V1", "verdict": "HUMAN-VERIFIED", "detail": "native-governance-center-style-guide-2021-02.md"}
+{"page": "native-american", "org_slug": "ngc", "year": "2021", "check": "V1", "verdict": "OK", "detail": "native-governance-center-style-guide-2021-02.md"}
 {"page": "native-american", "org_slug": "ngc", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://nativegov.org/resources/style-guide/"}
 {"page": "native-american", "org_slug": "sierra-club", "year": "2021", "check": "V1", "verdict": "HUMAN-VERIFIED", "detail": "sierra-club-equity-language-guide-2021.md"}
 {"page": "native-american", "org_slug": "sierra-club", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf"}
@@ -1064,7 +1064,7 @@
 {"page": "transvestite", "org_slug": "diversity-style-guide", "year": "2023", "check": "V3", "verdict": "OK", "detail": "200 https://www.diversitystyleguide.com/glossary/transvestite/"}
 {"page": "transvestite", "org_slug": "tja", "year": "2026", "check": "V1", "verdict": "OK", "detail": "tja-stylebook-2026-01.md"}
 {"page": "transvestite", "org_slug": "tja", "year": "2026", "check": "V3", "verdict": "OK", "detail": "200 https://transjournalists.org/style-guide/"}
-{"page": "tribe", "org_slug": "ngc", "year": "2021", "check": "V1", "verdict": "HUMAN-VERIFIED", "detail": "native-governance-center-style-guide-2021-02.md"}
+{"page": "tribe", "org_slug": "ngc", "year": "2021", "check": "V1", "verdict": "OK", "detail": "native-governance-center-style-guide-2021-02.md"}
 {"page": "tribe", "org_slug": "ngc", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://nativegov.org/resources/style-guide/"}
 {"page": "tribe", "org_slug": "sierra-club", "year": "2021", "check": "V1", "verdict": "HUMAN-VERIFIED", "detail": "sierra-club-equity-language-guide-2021.md"}
 {"page": "tribe", "org_slug": "sierra-club", "year": "2021", "check": "V3", "verdict": "OK", "detail": "200 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf"}

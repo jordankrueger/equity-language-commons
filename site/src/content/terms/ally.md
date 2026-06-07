@@ -22,7 +22,7 @@ guidance:
     local_archive: "source-guides/discovered/hrc-glossary-2023-05.md"
     recommendation: "use"
     derived_from: []
-    quote: "A term used to describe someone who is actively supportive of LGBTQ+ people. It encompasses straight and cisgender allies, as well as those within the LGBTQ+ community who support each other (e.g., a lesbian who is an ally to the bisexual community)."
+    quote: "It encompasses straight and cisgender allies, as well as those within the LGBTQ+ community who support each other (e.g., a lesbian who is an ally to the bisexual community)."
     quote_loc: "Glossary of Terms, \"Ally\" entry"
     paraphrase: "HRC defines an ally as anyone actively supportive of LGBTQ+ people, and explicitly extends the term beyond straight and cisgender outsiders to include in-community allyship — for example, a lesbian who is an ally to the bisexual community."
     confidence: "VERIFIED-ARCHIVED"

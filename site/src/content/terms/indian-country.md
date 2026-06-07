@@ -25,7 +25,7 @@ guidance:
     local_archive: "source-guides/Native-Governance-Center-Style-Guide-published-2021-02.pdf"
     recommendation: "use-with-care"
     derived_from: []
-    quote: "Capitalize the term Indian Country. … A reservation is not the same thing as a Native nation. A reservation refers to a Native nation’s current land base as defined by the federal government. A Native nation is a sovereign political entity."
+    quote: "Capitalize the term Indian Country."
     quote_loc: "The People and Nations We Serve → Other terminology related to Native nations and lands"
     paraphrase: "NGC's only rule on the phrase is orthographic: capitalize Indian Country. It pairs this with a distinction worth carrying — a reservation (lowercase) is a federally defined land base, not the same thing as a Native nation, which is a sovereign political entity."
     confidence: "VERIFIED-ARCHIVED"

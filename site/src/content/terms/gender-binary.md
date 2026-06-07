@@ -45,7 +45,7 @@ guidance:
     local_archive: "source-guides/discovered/hrc-glossary-2023-05.md"
     recommendation: "use-with-care"
     derived_from: []
-    quote: "A system in which gender is constructed into two strict categories of male or female. Gender identity is expected to align with the sex assigned at birth and gender expressions and roles fit traditional expectations."
+    quote: "A system in which gender is constructed into two strict categories of male or female …"
     quote_loc: "Glossary entry: Gender binary"
     paraphrase: "HRC describes the gender binary as a system of two strict categories, male and female, in which gender identity, expression, and roles are expected to align with sex assigned at birth."
     confidence: "VERIFIED-ARCHIVED"

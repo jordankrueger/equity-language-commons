@@ -15,7 +15,7 @@ cross_cutting_principles:
   - title: "Don't borrow this vocabulary as metaphor or insult"
     body: "Sierra Club names the most common everyday ableism — 'crazy' and 'insane' as throwaway pejoratives — and SumOfUs folds the same rule into its framework: use disability and mental-health terms accurately, never flippantly or as an insult. The accountability sits with the writer's own word choices, not only with how subjects are described. The same instinct underlies NCDJ's caution that the 'battle' and 'survivor' framing for illness can imply that those who died simply didn't fight hard enough."
   - title: "Coverage of trauma and illness is itself an ethical act"
-    body: "For survivors of violence, the Global Consortium for Journalism & Trauma and Color of Change treat terminology as inseparable from coverage practice — content warnings, caution with weaponizable words like 'alleged' and 'accuser,' and protection of a survivor's mental-health history, which can be surfaced to discredit them. The word you choose ('victim,' 'survivor,' 'victim/survivor') is one decision inside a larger duty of care."
+    body: "For survivors of violence, the Global Center for Journalism & Trauma and Color of Change treat terminology as inseparable from coverage practice — content warnings, caution with weaponizable words like 'alleged' and 'accuser,' and protection of a survivor's mental-health history, which can be surfaced to discredit them. The word you choose ('victim,' 'survivor,' 'victim/survivor') is one decision inside a larger duty of care."
 term_slugs:
   - "ableism"
   - "abnormal"
