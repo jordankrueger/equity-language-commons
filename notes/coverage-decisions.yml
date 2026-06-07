@@ -37,3 +37,47 @@ decisions:
     decision: "fold"
     decided: 2026-06-05
     reason: "Bare-form matrix hits are all about 'biological sex/male/female' framing — covered by the biological-sex page (its aliases carry the phrasal forms; the bare adjective alone isn't a headword)."
+  - term: "accountability"
+    decision: "drop"
+    decided: 2026-06-07
+    reason: "Movement-concept definition (Casey/DCFPI/MSC/SumOfUs) — no what-to-call-people or framing guidance, just definitions of the practice. Out of locked scope. Glossary long tail. (2026-06-07 W6 triage.)"
+  - term: "culture"
+    decision: "drop"
+    decided: 2026-06-07
+    reason: "Too broad — sources define or discuss culture generally (CAIR/GCJT/MSC/SEIU); no naming or framing guidance attaches to the bare word. Glossary long tail. (2026-06-07 W6 triage.)"
+  - term: "economy"
+    decision: "drop"
+    decided: 2026-06-07
+    reason: "Too broad — hits are narrative discussion (CoC narrative framing, MSC definition, Sierra/SumOfUs incidental-adjacent), not headword guidance on the term itself. Glossary long tail. (2026-06-07 W6 triage.)"
+  - term: "oppression"
+    decision: "drop"
+    decided: 2026-06-07
+    reason: "Concept definition only (CoC/GCJT/MSC/NAJA) — no usage guidance. Out of locked scope. Glossary long tail. (2026-06-07 W6 triage.)"
+  - term: "social justice"
+    decision: "drop"
+    decided: 2026-06-07
+    reason: "Concept definition only (APA/MSC/RET/SEIU) — sources define the field, none give guidance on using the phrase. Glossary long tail. (2026-06-07 W6 triage.)"
+  - term: "rosh hashanah"
+    decision: "drop"
+    decided: 2026-06-07
+    reason: "Religious-literacy holiday entry (DSG/Religion Stylebook/Sierra capitalization hit) — accuracy/encyclopedic, not equity language about people. Glossary long tail. (2026-06-07 W6 triage.)"
+  - term: "cultural appropriation"
+    decision: "drop"
+    decided: 2026-06-07
+    reason: "Defensible page but concept-heavy (APA/MSC/Sierra define the practice; thin usage guidance). Long tail for now; revisit if Race & Ethnicity goes deeper. (2026-06-07 W6 triage.)"
+  - term: "decolonization"
+    decision: "drop"
+    decided: 2026-06-07
+    reason: "Concept-heavy (APA/MSC/SumOfUs definitions). Long tail for now; revisit alongside cultural-appropriation if Race & Ethnicity goes deeper. (2026-06-07 W6 triage.)"
+  - term: "violence"
+    decision: "drop"
+    decided: 2026-06-07
+    reason: "SEED NOTE: 5 sources incl. both Words About War works, which carry real framing guidance on violence vocabulary — this is the anchor candidate for a future Conflict & War chapter (WaW-anchored). Premature to force into an existing chapter now. (2026-06-07 W6 triage, Jordan call.)"
+  - term: "special"
+    decision: "fold"
+    decided: 2026-06-07
+    reason: "Bare-form hits (DSG/MSC/NCDJ) are all the 'special needs/special education' euphemism cluster — covered by the special-needs page; 'special' added as its alias. (2026-06-07, post-avoid-table extraction.)"
+  - term: "normal"
+    decision: "fold"
+    decided: 2026-06-07
+    reason: "Hits (CoC/MSC/SEIU) are the flip side of abnormal-labeling guidance (MSC: use 'normal' only in medical/scientific context) — covered by the abnormal page; 'normal' added as its alias. (2026-06-07, post-avoid-table extraction.)"

@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-06-07T14:21:22+00:00",
+  "generated_at": "2026-06-07T14:48:41+00:00",
   "stats": {
-    "total_terms": 1196,
-    "commons_terms": 166,
+    "total_terms": 1224,
+    "commons_terms": 169,
     "verified_hold_terms": 3,
-    "curated_terms": 970,
-    "listed_terms": 57,
-    "long_tail_terms": 1030,
+    "curated_terms": 997,
+    "listed_terms": 55,
+    "long_tail_terms": 1055,
     "by_coverage": {
-      "1": 816,
-      "2": 258,
-      "3": 75,
-      "4": 34,
+      "1": 827,
+      "2": 267,
+      "3": 78,
+      "4": 39,
       "5": 8,
-      "6": 3,
-      "8": 2
+      "6": 4,
+      "8": 1
     }
   },
   "by_letter": {
@@ -267,6 +267,7 @@
       "creole",
       "cretin",
       "cretinism",
+      "crip",
       "cripple",
       "critical race theory",
       "cross dresser",
@@ -303,6 +304,7 @@
       "decouple anatomy from identity",
       "deep democracy",
       "defect",
+      "defective",
       "defense of marriage act",
       "deformed",
       "deformity",
@@ -345,6 +347,7 @@
       "disorders of sexual development",
       "dissociative identity disorder",
       "distinguish trans from intersex",
+      "distressed",
       "diversability",
       "diversabled",
       "diverse hire",
@@ -382,7 +385,7 @@
       "eastern orthodox",
       "ebonics",
       "ecclesiastes",
-      "economy",
+      "economic independence",
       "ecosystem",
       "eid al adha",
       "eid al fitr",
@@ -434,6 +437,7 @@
       "freak",
       "freak show",
       "frontline communities",
+      "full blood",
       "functional needs",
       "fundamentalism",
       "fundamentalist"
@@ -442,7 +446,6 @@
       "gay",
       "gay agenda",
       "gay bar",
-      "gender",
       "gender affirming care",
       "gender assigned at birth",
       "gender based",
@@ -500,6 +503,8 @@
       "hair",
       "halakhah",
       "halal",
+      "half breed",
+      "half caste",
       "hamas",
       "handicap",
       "handicapable",
@@ -529,6 +534,7 @@
       "high holy days",
       "hijab",
       "hijrah",
+      "hillbilly",
       "hindu",
       "hinduism",
       "hip hop",
@@ -632,6 +638,7 @@
       "jim crow",
       "jummah",
       "juneteenth",
+      "junkie",
       "just transition"
     ],
     "k": [
@@ -678,6 +685,7 @@
       "loony",
       "lover",
       "low functioning",
+      "low opportunity",
       "low vision",
       "lubavitch",
       "lubavitcher",
@@ -685,6 +693,7 @@
       "lupus"
     ],
     "m": [
+      "mad",
       "madhhab",
       "madrassa",
       "magen david",
@@ -732,6 +741,7 @@
       "mikvah",
       "million man march",
       "million woman march",
+      "minorities",
       "minority",
       "minority stress model",
       "minyan",
@@ -803,16 +813,19 @@
       "non binary pronouns",
       "non disabled",
       "non response",
+      "non straight",
       "nonbinary",
       "noncitizen",
       "nondenominational",
       "nonspeaking",
       "nonverbal",
       "nonviolent communication",
+      "normal",
       "north african",
       "not a condition",
       "not preferred",
       "not sexual orientation",
+      "not straight",
       "nuts"
     ],
     "o": [
@@ -872,10 +885,12 @@
       "polio",
       "poliomyelitis",
       "politically charged terms",
+      "poor",
+      "poorest",
+      "post operative",
       "post polio syndrome",
       "post traumatic stress disorder",
       "postlingually deaf",
-      "poverty",
       "poverty line",
       "poverty threshold",
       "poverty violations",
@@ -883,6 +898,7 @@
       "powwow",
       "practicing trauma informed reporting",
       "pre lingually deaf",
+      "pre operative",
       "preferred pronouns",
       "pregnant people",
       "prejudice",
@@ -898,6 +914,8 @@
       "pronouns",
       "pronouns are required",
       "prophet",
+      "prostitute",
+      "prostitution",
       "psychiatric hospital",
       "psycho",
       "psychopathology",
@@ -1011,6 +1029,7 @@
       "sex based",
       "sex change",
       "sex reassignment",
+      "sexual change operation",
       "sexual orientation",
       "sexual preference",
       "sexual reassignment",
@@ -1019,10 +1038,12 @@
       "shahada",
       "shariah",
       "shavuot",
+      "she male",
       "sheikh",
       "shema",
       "shiism",
       "shiite",
+      "shim transsexual",
       "shiva",
       "shmini atseret",
       "shoah",
@@ -1070,6 +1091,8 @@
       "stonewall",
       "straight",
       "structural urbanism",
+      "struggling",
+      "struggling to make ends meet",
       "stuttering",
       "substance abuse",
       "sufism",
@@ -1077,6 +1100,7 @@
       "suicide bombing",
       "sukkot",
       "sunni",
+      "supporting families",
       "survivor",
       "swastika",
       "synagogue",
@@ -1110,6 +1134,7 @@
       "totem",
       "tourette syndrome",
       "tourette's syndrome",
+      "trailer trash",
       "tranny",
       "trans",
       "trans activists",
@@ -1202,12 +1227,14 @@
       "vatican",
       "vatican city",
       "vegetative state",
+      "vertically challenged",
       "victim",
       "vietnamese names",
       "violence",
       "visibility and authenticity",
       "visually impaired",
-      "voting rights act"
+      "voting rights act",
+      "vulnerable"
     ],
     "w": [
       "w. deen",
@@ -1238,6 +1265,7 @@
       "wokeness",
       "wokism",
       "working class",
+      "working poor",
       "worship",
       "worshipped",
       "worshipper",
@@ -1416,7 +1444,7 @@
     "able bodied": {
       "term": "able bodied",
       "display": "Able Bodied",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -1432,6 +1460,14 @@
       "excerpt": null,
       "note": null,
       "sources": [
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        },
         {
           "source_slug": "ncdj",
           "org": "National Center on Disability and Journalism",
@@ -1534,7 +1570,7 @@
     "abnormal": {
       "term": "abnormal",
       "display": "Abnormal",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -1555,6 +1591,14 @@
           "org": "Diversity Style Guide",
           "year": "2023",
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
           "excerpt": "",
           "extraction_method": "glossary"
         },
@@ -1839,7 +1883,7 @@
     "addict": {
       "term": "addict",
       "display": "Addict",
-      "source_count": 3,
+      "source_count": 4,
       "commons_slug": "addict",
       "tier": "full",
       "provenance": null,
@@ -1861,6 +1905,14 @@
           "org": "Diversity Style Guide",
           "year": "2023",
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
           "excerpt": "",
           "extraction_method": "glossary"
         },
@@ -2691,7 +2743,7 @@
     "alcoholic": {
       "term": "alcoholic",
       "display": "Alcoholic",
-      "source_count": 3,
+      "source_count": 4,
       "commons_slug": "alcoholic",
       "tier": "full",
       "provenance": null,
@@ -2713,6 +2765,14 @@
           "org": "Diversity Style Guide",
           "year": "2023",
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
           "excerpt": "",
           "extraction_method": "glossary"
         },
@@ -4901,7 +4961,7 @@
     "bathroom bill": {
       "term": "bathroom bill",
       "display": "Bathroom Bill",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -4924,6 +4984,14 @@
           "source_url": "",
           "excerpt": "",
           "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "glossary"
         },
         {
           "source_slug": "nlgja",
@@ -6138,7 +6206,7 @@
     "blind": {
       "term": "blind",
       "display": "Blind",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -6160,6 +6228,14 @@
           "year": "2023",
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "blind/limited vision/low vision/partially sighted/visually impaired(https://www/glossary/bli",
+          "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
           "extraction_method": "glossary"
         },
         {
@@ -8868,10 +8944,47 @@
         }
       ]
     },
+    "crip": {
+      "term": "crip",
+      "display": "Crip",
+      "source_count": 2,
+      "commons_slug": null,
+      "tier": "curated",
+      "provenance": "machine-extracted",
+      "canonical_source": {
+        "source_slug": "ncdj",
+        "page_slug": "ncdj",
+        "org": "National Center on Disability and Journalism",
+        "year": "2021",
+        "source_page_url": "/sources/ncdj/",
+        "live_status": "live"
+      },
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "ncdj",
+          "org": "National Center on Disability and Journalism",
+          "year": "2021",
+          "source_url": "https://ncdj.org/style-guide/",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        }
+      ]
+    },
     "cripple": {
       "term": "cripple",
       "display": "Cripple",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -8894,6 +9007,14 @@
           "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
           "excerpt": "",
           "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "glossary"
         },
         {
           "source_slug": "ncdj",
@@ -9620,7 +9741,7 @@
     "deaf": {
       "term": "deaf",
       "display": "Deaf",
-      "source_count": 5,
+      "source_count": 2,
       "commons_slug": "deaf",
       "tier": "full",
       "provenance": null,
@@ -9628,7 +9749,24 @@
       "canonical_archived": false,
       "excerpt": null,
       "note": null,
-      "sources": []
+      "sources": [
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "ncdj",
+          "org": "National Center on Disability and Journalism",
+          "year": "2021",
+          "source_url": "https://ncdj.org/style-guide/",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        }
+      ]
     },
     "deaf and dumb": {
       "term": "deaf and dumb",
@@ -9890,7 +10028,7 @@
     "defect": {
       "term": "defect",
       "display": "Defect",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -9907,10 +10045,55 @@
       "note": null,
       "sources": [
         {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        },
+        {
           "source_slug": "ncdj",
           "org": "National Center on Disability and Journalism",
           "year": "2021",
           "source_url": "https://ncdj.org/style-guide/",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        }
+      ]
+    },
+    "defective": {
+      "term": "defective",
+      "display": "Defective",
+      "source_count": 2,
+      "commons_slug": null,
+      "tier": "curated",
+      "provenance": "machine-extracted",
+      "canonical_source": {
+        "source_slug": "movement-strategy-center-glossary-2024",
+        "page_slug": "movement-strategy-center-glossary-2024",
+        "org": "Movement Strategy Center",
+        "year": "2024",
+        "source_page_url": "/sources/movement-strategy-center-glossary-2024/",
+        "live_status": "live"
+      },
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
           "excerpt": "",
           "extraction_method": "glossary"
         }
@@ -10152,7 +10335,7 @@
     "deranged": {
       "term": "deranged",
       "display": "Crazy",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": "crazy",
       "tier": "full",
       "provenance": null,
@@ -10167,6 +10350,14 @@
           "year": "2023",
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "crazy/crazed, psycho, nuts, lunatic, deranged, wacko(https://www/glossary/crazycrazed-psycho",
+          "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
           "extraction_method": "glossary"
         },
         {
@@ -10751,7 +10942,7 @@
     "differently abled": {
       "term": "differently abled",
       "display": "Differently Abled",
-      "source_count": 3,
+      "source_count": 4,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -10782,6 +10973,14 @@
           "source_url": "",
           "excerpt": "",
           "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "glossary"
         },
         {
           "source_slug": "ncdj",
@@ -11220,6 +11419,43 @@
           "year": "",
           "source_url": "",
           "excerpt": "Distinguish trans from intersex: These are separate populations with different needs, though they overlap. Don't con",
+          "extraction_method": "glossary"
+        }
+      ]
+    },
+    "distressed": {
+      "term": "distressed",
+      "display": "Distressed",
+      "source_count": 2,
+      "commons_slug": null,
+      "tier": "curated",
+      "provenance": "machine-extracted",
+      "canonical_source": {
+        "source_slug": "movement-strategy-center-glossary-2024",
+        "page_slug": "movement-strategy-center-glossary-2024",
+        "org": "Movement Strategy Center",
+        "year": "2024",
+        "source_page_url": "/sources/movement-strategy-center-glossary-2024/",
+        "live_status": "live"
+      },
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
           "extraction_method": "glossary"
         }
       ]
@@ -12300,10 +12536,10 @@
         }
       ]
     },
-    "economy": {
-      "term": "economy",
-      "display": "Economy",
-      "source_count": 4,
+    "economic independence": {
+      "term": "economic independence",
+      "display": "Economic Independence",
+      "source_count": 1,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -12320,36 +12556,12 @@
       "note": null,
       "sources": [
         {
-          "source_slug": "color-of-change-black-families-narrative-2020",
-          "org": "Color of Change",
-          "year": "2020",
-          "source_url": "https://colorofchange.org/resources/",
-          "excerpt": "economy and do not deserve self-determination in politics or social life.",
-          "extraction_method": "keyword"
-        },
-        {
           "source_slug": "movement-strategy-center-glossary-2024",
           "org": "Movement Strategy Center",
           "year": "2024",
           "source_url": "",
           "excerpt": "",
           "extraction_method": "glossary"
-        },
-        {
-          "source_slug": "sierra-club",
-          "org": "Sierra Club",
-          "year": "2021",
-          "source_url": "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf",
-          "excerpt": "economy that creates good, family-supporting union",
-          "extraction_method": "keyword"
-        },
-        {
-          "source_slug": "sumofus",
-          "org": "SumOfUs",
-          "year": "2016",
-          "source_url": "",
-          "excerpt": "",
-          "extraction_method": "keyword"
         }
       ]
     },
@@ -13898,6 +14110,35 @@
         }
       ]
     },
+    "full blood": {
+      "term": "full blood",
+      "display": "Full Blood",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "curated",
+      "provenance": "machine-extracted",
+      "canonical_source": {
+        "source_slug": "movement-strategy-center-glossary-2024",
+        "page_slug": "movement-strategy-center-glossary-2024",
+        "org": "Movement Strategy Center",
+        "year": "2024",
+        "source_page_url": "/sources/movement-strategy-center-glossary-2024/",
+        "live_status": "live"
+      },
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        }
+      ]
+    },
     "functional needs": {
       "term": "functional needs",
       "display": "Functional Needs",
@@ -14097,91 +14338,6 @@
         }
       ]
     },
-    "gender": {
-      "term": "gender",
-      "display": "Gender",
-      "source_count": 8,
-      "commons_slug": null,
-      "tier": "curated",
-      "provenance": "machine-extracted",
-      "canonical_source": {
-        "source_slug": "movement-strategy-center-glossary-2024",
-        "page_slug": "movement-strategy-center-glossary-2024",
-        "org": "Movement Strategy Center",
-        "year": "2024",
-        "source_page_url": "/sources/movement-strategy-center-glossary-2024/",
-        "live_status": "live"
-      },
-      "canonical_archived": false,
-      "excerpt": null,
-      "note": null,
-      "sources": [
-        {
-          "source_slug": "apa",
-          "org": "American Psychological Association",
-          "year": "2023",
-          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
-          "excerpt": "gender-inclusive pregnancy-related language, neurodiversity, religious discrimination, and",
-          "extraction_method": "keyword"
-        },
-        {
-          "source_slug": "color-of-change-antiracist-protest-reporting-2020",
-          "org": "Color of Change",
-          "year": "2020",
-          "source_url": "https://colorofchange.org/resources/",
-          "excerpt": "gender identity. Has beliefs or practices that attack",
-          "extraction_method": "keyword"
-        },
-        {
-          "source_slug": "color-of-change-black-survivors-styleguide-2022",
-          "org": "Color of Change",
-          "year": "2022",
-          "source_url": "https://colorofchange.org/resources/",
-          "excerpt": "gender-based violence. Words hold weight, and irresponsible",
-          "extraction_method": "keyword"
-        },
-        {
-          "source_slug": "dcfpi-inclusive-language-2017-12",
-          "org": "DC Fiscal Policy Institute",
-          "year": "2017",
-          "source_url": "",
-          "excerpt": "",
-          "extraction_method": "keyword"
-        },
-        {
-          "source_slug": "interact-intersex-media-guide-2017",
-          "org": "interACT Advocates for Intersex Youth",
-          "year": "2017",
-          "source_url": "https://interactadvocates.org/",
-          "excerpt": "gender in a set way. Don’t make",
-          "extraction_method": "keyword"
-        },
-        {
-          "source_slug": "movement-strategy-center-glossary-2024",
-          "org": "Movement Strategy Center",
-          "year": "2024",
-          "source_url": "",
-          "excerpt": "",
-          "extraction_method": "glossary"
-        },
-        {
-          "source_slug": "sierra-club",
-          "org": "Sierra Club",
-          "year": "2021",
-          "source_url": "https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf",
-          "excerpt": "",
-          "extraction_method": "keyword"
-        },
-        {
-          "source_slug": "sumofus",
-          "org": "SumOfUs",
-          "year": "2016",
-          "source_url": "",
-          "excerpt": "",
-          "extraction_method": "keyword"
-        }
-      ]
-    },
     "gender affirming care": {
       "term": "gender affirming care",
       "display": "Gender Affirming Care",
@@ -14281,7 +14437,7 @@
     "gender bender": {
       "term": "gender bender",
       "display": "Gender Bender",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -14303,6 +14459,14 @@
           "year": "2023",
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "gender-bender, gender-bending{",
+          "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
           "extraction_method": "glossary"
         }
       ]
@@ -14658,7 +14822,7 @@
     "gender identity disorder": {
       "term": "gender identity disorder",
       "display": "Gender Identity Disorder",
-      "source_count": 3,
+      "source_count": 4,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -14687,6 +14851,14 @@
           "org": "Diversity Style Guide",
           "year": "2023",
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
           "excerpt": "",
           "extraction_method": "glossary"
         },
@@ -15398,7 +15570,7 @@
     "gifted": {
       "term": "gifted",
       "display": "Gifted",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -15414,6 +15586,14 @@
       "excerpt": null,
       "note": null,
       "sources": [
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        },
         {
           "source_slug": "ncdj",
           "org": "National Center on Disability and Journalism",
@@ -15996,6 +16176,64 @@
         }
       ]
     },
+    "half breed": {
+      "term": "half breed",
+      "display": "Half Breed",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "curated",
+      "provenance": "machine-extracted",
+      "canonical_source": {
+        "source_slug": "movement-strategy-center-glossary-2024",
+        "page_slug": "movement-strategy-center-glossary-2024",
+        "org": "Movement Strategy Center",
+        "year": "2024",
+        "source_page_url": "/sources/movement-strategy-center-glossary-2024/",
+        "live_status": "live"
+      },
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        }
+      ]
+    },
+    "half caste": {
+      "term": "half caste",
+      "display": "Half Caste",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "curated",
+      "provenance": "machine-extracted",
+      "canonical_source": {
+        "source_slug": "movement-strategy-center-glossary-2024",
+        "page_slug": "movement-strategy-center-glossary-2024",
+        "org": "Movement Strategy Center",
+        "year": "2024",
+        "source_page_url": "/sources/movement-strategy-center-glossary-2024/",
+        "live_status": "live"
+      },
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        }
+      ]
+    },
     "hamas": {
       "term": "hamas",
       "display": "Hamas",
@@ -16563,7 +16801,7 @@
     "hermaphrodite": {
       "term": "hermaphrodite",
       "display": "Hermaphrodite",
-      "source_count": 3,
+      "source_count": 4,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -16594,6 +16832,14 @@
           "source_url": "",
           "excerpt": "",
           "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "glossary"
         },
         {
           "source_slug": "nlgja",
@@ -16877,6 +17123,35 @@
           "source_slug": "religion-stylebook-2026-06",
           "org": "Religion Stylebook",
           "year": "2026",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        }
+      ]
+    },
+    "hillbilly": {
+      "term": "hillbilly",
+      "display": "Hillbilly",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "curated",
+      "provenance": "machine-extracted",
+      "canonical_source": {
+        "source_slug": "movement-strategy-center-glossary-2024",
+        "page_slug": "movement-strategy-center-glossary-2024",
+        "org": "Movement Strategy Center",
+        "year": "2024",
+        "source_page_url": "/sources/movement-strategy-center-glossary-2024/",
+        "live_status": "live"
+      },
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
           "source_url": "",
           "excerpt": "",
           "extraction_method": "glossary"
@@ -18284,7 +18559,7 @@
     "indian": {
       "term": "indian",
       "display": "Indian",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": "indian",
       "tier": "full",
       "provenance": null,
@@ -18299,6 +18574,14 @@
           "year": "2023",
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "",
+          "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "Indian _(unless it is a quote or referring to an already established name)_",
           "extraction_method": "glossary"
         },
         {
@@ -18675,7 +18958,7 @@
     "inner city": {
       "term": "inner city",
       "display": "Ghetto",
-      "source_count": 3,
+      "source_count": 4,
       "commons_slug": "ghetto",
       "tier": "full",
       "provenance": null,
@@ -18697,6 +18980,14 @@
           "org": "Diversity Style Guide",
           "year": "2023",
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
           "excerpt": "",
           "extraction_method": "glossary"
         },
@@ -19968,6 +20259,28 @@
           "source_url": "https://www.nabj.org/page/styleguide",
           "excerpt": "",
           "extraction_method": "keyword"
+        }
+      ]
+    },
+    "junkie": {
+      "term": "junkie",
+      "display": "Addict",
+      "source_count": 1,
+      "commons_slug": "addict",
+      "tier": "full",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "glossary"
         }
       ]
     },
@@ -21272,6 +21585,35 @@
         }
       ]
     },
+    "low opportunity": {
+      "term": "low opportunity",
+      "display": "Low Opportunity",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "curated",
+      "provenance": "machine-extracted",
+      "canonical_source": {
+        "source_slug": "movement-strategy-center-glossary-2024",
+        "page_slug": "movement-strategy-center-glossary-2024",
+        "org": "Movement Strategy Center",
+        "year": "2024",
+        "source_page_url": "/sources/movement-strategy-center-glossary-2024/",
+        "live_status": "live"
+      },
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        }
+      ]
+    },
     "low vision": {
       "term": "low vision",
       "display": "Low Vision",
@@ -21446,6 +21788,36 @@
           "source_url": "https://www.nabj.org/page/styleguide",
           "excerpt": "lupus: Chronic disease that affects immunity. Normally, the body\\'s immune system",
           "extraction_method": "keyword"
+        }
+      ]
+    },
+    "mad": {
+      "term": "mad",
+      "display": "Crazy",
+      "source_count": 2,
+      "commons_slug": "crazy",
+      "tier": "full",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "ncdj",
+          "org": "National Center on Disability and Journalism",
+          "year": "2021",
+          "source_url": "https://ncdj.org/style-guide/",
+          "excerpt": "",
+          "extraction_method": "glossary"
         }
       ]
     },
@@ -22778,7 +23150,7 @@
     "midget": {
       "term": "midget",
       "display": "Little Person",
-      "source_count": 3,
+      "source_count": 4,
       "commons_slug": "little-person",
       "tier": "full",
       "provenance": null,
@@ -22801,6 +23173,14 @@
           "year": "2023",
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "dwarf, little person, midget, short stature(https://www/glossary/dwarf-little-person-midget-",
+          "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
           "extraction_method": "glossary"
         },
         {
@@ -22900,8 +23280,8 @@
         }
       ]
     },
-    "minority": {
-      "term": "minority",
+    "minorities": {
+      "term": "minorities",
       "display": "minority",
       "source_count": 1,
       "commons_slug": "minority",
@@ -22912,6 +23292,36 @@
       "excerpt": null,
       "note": null,
       "sources": [
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        }
+      ]
+    },
+    "minority": {
+      "term": "minority",
+      "display": "minority",
+      "source_count": 2,
+      "commons_slug": "minority",
+      "tier": "full",
+      "provenance": null,
+      "canonical_source": null,
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        },
         {
           "source_slug": "sierra-club",
           "org": "Sierra Club",
@@ -24353,7 +24763,7 @@
     "negro": {
       "term": "negro",
       "display": "Negro",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": "negro",
       "tier": "full",
       "provenance": null,
@@ -24362,6 +24772,14 @@
       "excerpt": null,
       "note": null,
       "sources": [
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        },
         {
           "source_slug": "seiu",
           "org": "SEIU",
@@ -24978,6 +25396,35 @@
         }
       ]
     },
+    "non straight": {
+      "term": "non straight",
+      "display": "Non Straight",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "curated",
+      "provenance": "machine-extracted",
+      "canonical_source": {
+        "source_slug": "movement-strategy-center-glossary-2024",
+        "page_slug": "movement-strategy-center-glossary-2024",
+        "org": "Movement Strategy Center",
+        "year": "2024",
+        "source_page_url": "/sources/movement-strategy-center-glossary-2024/",
+        "live_status": "live"
+      },
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        }
+      ]
+    },
     "nonbinary": {
       "term": "nonbinary",
       "display": "Nonbinary",
@@ -25153,6 +25600,51 @@
         }
       ]
     },
+    "normal": {
+      "term": "normal",
+      "display": "Normal",
+      "source_count": 3,
+      "commons_slug": null,
+      "tier": "curated",
+      "provenance": "machine-extracted",
+      "canonical_source": {
+        "source_slug": "movement-strategy-center-glossary-2024",
+        "page_slug": "movement-strategy-center-glossary-2024",
+        "org": "Movement Strategy Center",
+        "year": "2024",
+        "source_page_url": "/sources/movement-strategy-center-glossary-2024/",
+        "live_status": "live"
+      },
+      "canonical_archived": false,
+      "excerpt": "Normal _(use “normal” only in medical/scientific context such as “normal test result” or “normal growth”)_",
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "color-of-change-antiracist-protest-reporting-2020",
+          "org": "Color of Change",
+          "year": "2020",
+          "source_url": "https://colorofchange.org/resources/",
+          "excerpt": "normal, it’s often worth remembering that people on the front lines are there because they feel attacked, and that their",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "Normal _(use “normal” only in medical/scientific context such as “normal test result” or “normal growth”)_",
+          "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "seiu",
+          "org": "SEIU",
+          "year": "2020",
+          "source_url": "",
+          "excerpt": "normal text and correspondence, such words are always lower case.",
+          "extraction_method": "keyword"
+        }
+      ]
+    },
     "north african": {
       "term": "north african",
       "display": "North African",
@@ -25244,6 +25736,35 @@
           "year": "",
           "source_url": "",
           "excerpt": "Not sexual orientation: \"Transgender\" describes gender identity, not sexuality. These are distinct categories.",
+          "extraction_method": "glossary"
+        }
+      ]
+    },
+    "not straight": {
+      "term": "not straight",
+      "display": "Not Straight",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "curated",
+      "provenance": "machine-extracted",
+      "canonical_source": {
+        "source_slug": "movement-strategy-center-glossary-2024",
+        "page_slug": "movement-strategy-center-glossary-2024",
+        "org": "Movement Strategy Center",
+        "year": "2024",
+        "source_page_url": "/sources/movement-strategy-center-glossary-2024/",
+        "live_status": "live"
+      },
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
           "extraction_method": "glossary"
         }
       ]
@@ -27010,6 +27531,109 @@
         }
       ]
     },
+    "poor": {
+      "term": "poor",
+      "display": "Poor",
+      "source_count": 3,
+      "commons_slug": null,
+      "tier": "curated",
+      "provenance": "machine-extracted",
+      "canonical_source": {
+        "source_slug": "movement-strategy-center-glossary-2024",
+        "page_slug": "movement-strategy-center-glossary-2024",
+        "org": "Movement Strategy Center",
+        "year": "2024",
+        "source_page_url": "/sources/movement-strategy-center-glossary-2024/",
+        "live_status": "live"
+      },
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "gcjt",
+          "org": "Global Center for Journalism & Trauma",
+          "year": "2021",
+          "source_url": "https://dartcenter.org/resources/style-guide-trauma-informed-journalism",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        }
+      ]
+    },
+    "poorest": {
+      "term": "poorest",
+      "display": "Poorest",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "curated",
+      "provenance": "machine-extracted",
+      "canonical_source": {
+        "source_slug": "movement-strategy-center-glossary-2024",
+        "page_slug": "movement-strategy-center-glossary-2024",
+        "org": "Movement Strategy Center",
+        "year": "2024",
+        "source_page_url": "/sources/movement-strategy-center-glossary-2024/",
+        "live_status": "live"
+      },
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        }
+      ]
+    },
+    "post operative": {
+      "term": "post operative",
+      "display": "Post Operative",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "curated",
+      "provenance": "machine-extracted",
+      "canonical_source": {
+        "source_slug": "movement-strategy-center-glossary-2024",
+        "page_slug": "movement-strategy-center-glossary-2024",
+        "org": "Movement Strategy Center",
+        "year": "2024",
+        "source_page_url": "/sources/movement-strategy-center-glossary-2024/",
+        "live_status": "live"
+      },
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        }
+      ]
+    },
     "post polio syndrome": {
       "term": "post polio syndrome",
       "display": "Post Polio Syndrome",
@@ -27110,51 +27734,6 @@
           "source_url": "https://ncdj.org/style-guide/",
           "excerpt": "",
           "extraction_method": "glossary"
-        }
-      ]
-    },
-    "poverty": {
-      "term": "poverty",
-      "display": "Poverty",
-      "source_count": 3,
-      "commons_slug": null,
-      "tier": "curated",
-      "provenance": "machine-extracted",
-      "canonical_source": {
-        "source_slug": "movement-strategy-center-glossary-2024",
-        "page_slug": "movement-strategy-center-glossary-2024",
-        "org": "Movement Strategy Center",
-        "year": "2024",
-        "source_page_url": "/sources/movement-strategy-center-glossary-2024/",
-        "live_status": "live"
-      },
-      "canonical_archived": false,
-      "excerpt": null,
-      "note": null,
-      "sources": [
-        {
-          "source_slug": "casey-editorial-guide-2013-04",
-          "org": "casey-editorial-guide-2013-04",
-          "year": "",
-          "source_url": "",
-          "excerpt": "¥ ÒWhen we say, Ôconcentrated poverty,Õ we are referring to communities where poverty rates are at",
-          "extraction_method": "keyword"
-        },
-        {
-          "source_slug": "movement-strategy-center-glossary-2024",
-          "org": "Movement Strategy Center",
-          "year": "2024",
-          "source_url": "",
-          "excerpt": "",
-          "extraction_method": "glossary"
-        },
-        {
-          "source_slug": "seiu",
-          "org": "SEIU",
-          "year": "2020",
-          "source_url": "",
-          "excerpt": "poverty wages ungrammatical, but too widely used to argue about",
-          "extraction_method": "keyword"
         }
       ]
     },
@@ -27373,6 +27952,35 @@
           "year": "2023",
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "pre-lingually deaf/postlingually deaf/late-deafened(https://www/glossary/pre-lingually-deafp",
+          "extraction_method": "glossary"
+        }
+      ]
+    },
+    "pre operative": {
+      "term": "pre operative",
+      "display": "Pre Operative",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "curated",
+      "provenance": "machine-extracted",
+      "canonical_source": {
+        "source_slug": "movement-strategy-center-glossary-2024",
+        "page_slug": "movement-strategy-center-glossary-2024",
+        "org": "Movement Strategy Center",
+        "year": "2024",
+        "source_page_url": "/sources/movement-strategy-center-glossary-2024/",
+        "live_status": "live"
+      },
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
           "extraction_method": "glossary"
         }
       ]
@@ -27882,6 +28490,80 @@
         }
       ]
     },
+    "prostitute": {
+      "term": "prostitute",
+      "display": "Prostitute",
+      "source_count": 3,
+      "commons_slug": null,
+      "tier": "curated",
+      "provenance": "machine-extracted",
+      "canonical_source": {
+        "source_slug": "movement-strategy-center-glossary-2024",
+        "page_slug": "movement-strategy-center-glossary-2024",
+        "org": "Movement Strategy Center",
+        "year": "2024",
+        "source_page_url": "/sources/movement-strategy-center-glossary-2024/",
+        "live_status": "live"
+      },
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "apa",
+          "org": "American Psychological Association",
+          "year": "2023",
+          "source_url": "https://www.apa.org/about/apa/equity-diversity-inclusion/language-guide.pdf",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        }
+      ]
+    },
+    "prostitution": {
+      "term": "prostitution",
+      "display": "Prostitution",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "curated",
+      "provenance": "machine-extracted",
+      "canonical_source": {
+        "source_slug": "movement-strategy-center-glossary-2024",
+        "page_slug": "movement-strategy-center-glossary-2024",
+        "org": "Movement Strategy Center",
+        "year": "2024",
+        "source_page_url": "/sources/movement-strategy-center-glossary-2024/",
+        "live_status": "live"
+      },
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        }
+      ]
+    },
     "psychiatric hospital": {
       "term": "psychiatric hospital",
       "display": "Psychiatric Hospital",
@@ -27923,7 +28605,7 @@
     "psycho": {
       "term": "psycho",
       "display": "Crazy",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": "crazy",
       "tier": "full",
       "provenance": null,
@@ -27938,6 +28620,14 @@
           "year": "2023",
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "crazy/crazed, psycho, nuts, lunatic, deranged, wacko(https://www/glossary/crazycrazed-psycho",
+          "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
           "extraction_method": "glossary"
         },
         {
@@ -28978,15 +29668,30 @@
     "redneck": {
       "term": "redneck",
       "display": "Redneck",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": null,
-      "tier": "listed",
-      "provenance": null,
-      "canonical_source": null,
+      "tier": "curated",
+      "provenance": "machine-extracted",
+      "canonical_source": {
+        "source_slug": "movement-strategy-center-glossary-2024",
+        "page_slug": "movement-strategy-center-glossary-2024",
+        "org": "Movement Strategy Center",
+        "year": "2024",
+        "source_page_url": "/sources/movement-strategy-center-glossary-2024/",
+        "live_status": "live"
+      },
       "canonical_archived": false,
       "excerpt": null,
       "note": null,
       "sources": [
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        },
         {
           "source_slug": "nabj-style-guide-2022-10",
           "org": "NABJ",
@@ -29867,7 +30572,7 @@
     "retarded": {
       "term": "retarded",
       "display": "Retarded",
-      "source_count": 1,
+      "source_count": 2,
       "commons_slug": "retarded",
       "tier": "full",
       "provenance": null,
@@ -29876,6 +30581,14 @@
       "excerpt": null,
       "note": null,
       "sources": [
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        },
         {
           "source_slug": "ncdj",
           "org": "National Center on Disability and Journalism",
@@ -31039,7 +31752,7 @@
     "sex": {
       "term": "sex",
       "display": "Sex",
-      "source_count": 3,
+      "source_count": 2,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -31055,14 +31768,6 @@
       "excerpt": null,
       "note": null,
       "sources": [
-        {
-          "source_slug": "movement-strategy-center-glossary-2024",
-          "org": "Movement Strategy Center",
-          "year": "2024",
-          "source_url": "",
-          "excerpt": "",
-          "extraction_method": "glossary"
-        },
         {
           "source_slug": "nlgja",
           "org": "NLGJA: The Association of LGBTQ+ Journalists",
@@ -31113,7 +31818,7 @@
     "sex change": {
       "term": "sex change",
       "display": "Sex Change",
-      "source_count": 3,
+      "source_count": 4,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -31136,6 +31841,14 @@
           "source_url": "",
           "excerpt": "",
           "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "glossary"
         },
         {
           "source_slug": "nlgja",
@@ -31192,6 +31905,35 @@
         }
       ]
     },
+    "sexual change operation": {
+      "term": "sexual change operation",
+      "display": "Sexual Change Operation",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "curated",
+      "provenance": "machine-extracted",
+      "canonical_source": {
+        "source_slug": "movement-strategy-center-glossary-2024",
+        "page_slug": "movement-strategy-center-glossary-2024",
+        "org": "Movement Strategy Center",
+        "year": "2024",
+        "source_page_url": "/sources/movement-strategy-center-glossary-2024/",
+        "live_status": "live"
+      },
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        }
+      ]
+    },
     "sexual orientation": {
       "term": "sexual orientation",
       "display": "Sexual Orientation",
@@ -31225,11 +31967,18 @@
     "sexual preference": {
       "term": "sexual preference",
       "display": "Sexual Preference",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": null,
-      "tier": "listed",
-      "provenance": null,
-      "canonical_source": null,
+      "tier": "curated",
+      "provenance": "machine-extracted",
+      "canonical_source": {
+        "source_slug": "movement-strategy-center-glossary-2024",
+        "page_slug": "movement-strategy-center-glossary-2024",
+        "org": "Movement Strategy Center",
+        "year": "2024",
+        "source_page_url": "/sources/movement-strategy-center-glossary-2024/",
+        "live_status": "live"
+      },
       "canonical_archived": false,
       "excerpt": null,
       "note": null,
@@ -31241,6 +31990,14 @@
           "source_url": "",
           "excerpt": "",
           "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "glossary"
         },
         {
           "source_slug": "seiu",
@@ -31442,6 +32199,35 @@
         }
       ]
     },
+    "she male": {
+      "term": "she male",
+      "display": "She Male",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "curated",
+      "provenance": "machine-extracted",
+      "canonical_source": {
+        "source_slug": "movement-strategy-center-glossary-2024",
+        "page_slug": "movement-strategy-center-glossary-2024",
+        "org": "Movement Strategy Center",
+        "year": "2024",
+        "source_page_url": "/sources/movement-strategy-center-glossary-2024/",
+        "live_status": "live"
+      },
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        }
+      ]
+    },
     "sheikh": {
       "term": "sheikh",
       "display": "Sheikh",
@@ -31578,6 +32364,35 @@
           "year": "2026",
           "source_url": "",
           "excerpt": "",
+          "extraction_method": "glossary"
+        }
+      ]
+    },
+    "shim transsexual": {
+      "term": "shim transsexual",
+      "display": "Shim Transsexual",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "curated",
+      "provenance": "machine-extracted",
+      "canonical_source": {
+        "source_slug": "movement-strategy-center-glossary-2024",
+        "page_slug": "movement-strategy-center-glossary-2024",
+        "org": "Movement Strategy Center",
+        "year": "2024",
+        "source_page_url": "/sources/movement-strategy-center-glossary-2024/",
+        "live_status": "live"
+      },
+      "canonical_archived": false,
+      "excerpt": "Shim Transsexual _(unless that is how the person identifies)_",
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "Shim Transsexual _(unless that is how the person identifies)_",
           "extraction_method": "glossary"
         }
       ]
@@ -32606,7 +33421,7 @@
     "special": {
       "term": "special",
       "display": "Special",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": null,
       "tier": "curated",
       "provenance": "machine-extracted",
@@ -32631,6 +33446,14 @@
           "extraction_method": "glossary"
         },
         {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        },
+        {
           "source_slug": "ncdj",
           "org": "National Center on Disability and Journalism",
           "year": "2021",
@@ -32643,7 +33466,7 @@
     "special needs": {
       "term": "special needs",
       "display": "Special Needs",
-      "source_count": 5,
+      "source_count": 6,
       "commons_slug": "special-needs",
       "tier": "full",
       "provenance": null,
@@ -32674,6 +33497,14 @@
           "year": "2023",
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "special/special needs/functional needs(https://www/glossary/specialspecial-needsfunctional-n",
+          "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
           "extraction_method": "glossary"
         },
         {
@@ -33133,6 +33964,80 @@
         }
       ]
     },
+    "struggling": {
+      "term": "struggling",
+      "display": "Struggling",
+      "source_count": 2,
+      "commons_slug": null,
+      "tier": "curated",
+      "provenance": "machine-extracted",
+      "canonical_source": {
+        "source_slug": "movement-strategy-center-glossary-2024",
+        "page_slug": "movement-strategy-center-glossary-2024",
+        "org": "Movement Strategy Center",
+        "year": "2024",
+        "source_page_url": "/sources/movement-strategy-center-glossary-2024/",
+        "live_status": "live"
+      },
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        }
+      ]
+    },
+    "struggling to make ends meet": {
+      "term": "struggling to make ends meet",
+      "display": "Struggling To Make Ends Meet",
+      "source_count": 2,
+      "commons_slug": null,
+      "tier": "curated",
+      "provenance": "machine-extracted",
+      "canonical_source": {
+        "source_slug": "movement-strategy-center-glossary-2024",
+        "page_slug": "movement-strategy-center-glossary-2024",
+        "org": "Movement Strategy Center",
+        "year": "2024",
+        "source_page_url": "/sources/movement-strategy-center-glossary-2024/",
+        "live_status": "live"
+      },
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        }
+      ]
+    },
     "stuttering": {
       "term": "stuttering",
       "display": "Stuttering",
@@ -33363,6 +34268,43 @@
           "source_slug": "religion-stylebook-2026-06",
           "org": "Religion Stylebook",
           "year": "2026",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        }
+      ]
+    },
+    "supporting families": {
+      "term": "supporting families",
+      "display": "Supporting Families",
+      "source_count": 2,
+      "commons_slug": null,
+      "tier": "curated",
+      "provenance": "machine-extracted",
+      "canonical_source": {
+        "source_slug": "movement-strategy-center-glossary-2024",
+        "page_slug": "movement-strategy-center-glossary-2024",
+        "org": "Movement Strategy Center",
+        "year": "2024",
+        "source_page_url": "/sources/movement-strategy-center-glossary-2024/",
+        "live_status": "live"
+      },
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
           "source_url": "",
           "excerpt": "",
           "extraction_method": "glossary"
@@ -34299,6 +35241,35 @@
           "year": "2021",
           "source_url": "https://ncdj.org/style-guide/",
           "excerpt": "Tourette syndrome/Tourette's syndrome",
+          "extraction_method": "glossary"
+        }
+      ]
+    },
+    "trailer trash": {
+      "term": "trailer trash",
+      "display": "Trailer Trash",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "curated",
+      "provenance": "machine-extracted",
+      "canonical_source": {
+        "source_slug": "movement-strategy-center-glossary-2024",
+        "page_slug": "movement-strategy-center-glossary-2024",
+        "org": "Movement Strategy Center",
+        "year": "2024",
+        "source_page_url": "/sources/movement-strategy-center-glossary-2024/",
+        "live_status": "live"
+      },
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
           "extraction_method": "glossary"
         }
       ]
@@ -35293,7 +36264,7 @@
     "transgendered": {
       "term": "transgendered",
       "display": "Transgendered",
-      "source_count": 4,
+      "source_count": 5,
       "commons_slug": "transgendered",
       "tier": "full",
       "provenance": null,
@@ -35317,6 +36288,14 @@
           "source_url": "",
           "excerpt": "",
           "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "glossary"
         },
         {
           "source_slug": "nlgja",
@@ -35715,7 +36694,7 @@
     "transvestite": {
       "term": "transvestite",
       "display": "Transvestite",
-      "source_count": 4,
+      "source_count": 5,
       "commons_slug": "transvestite",
       "tier": "full",
       "provenance": null,
@@ -35746,6 +36725,14 @@
           "year": "2023",
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "",
+          "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "Transvestite _(unless that is how the person identifies)_",
           "extraction_method": "glossary"
         },
         {
@@ -37021,6 +38008,35 @@
         }
       ]
     },
+    "vertically challenged": {
+      "term": "vertically challenged",
+      "display": "Vertically Challenged",
+      "source_count": 1,
+      "commons_slug": null,
+      "tier": "curated",
+      "provenance": "machine-extracted",
+      "canonical_source": {
+        "source_slug": "movement-strategy-center-glossary-2024",
+        "page_slug": "movement-strategy-center-glossary-2024",
+        "org": "Movement Strategy Center",
+        "year": "2024",
+        "source_page_url": "/sources/movement-strategy-center-glossary-2024/",
+        "live_status": "live"
+      },
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "glossary"
+        }
+      ]
+    },
     "victim": {
       "term": "victim",
       "display": "Victim",
@@ -37241,6 +38257,43 @@
           "year": "2023",
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "",
+          "extraction_method": "glossary"
+        }
+      ]
+    },
+    "vulnerable": {
+      "term": "vulnerable",
+      "display": "Vulnerable",
+      "source_count": 2,
+      "commons_slug": null,
+      "tier": "curated",
+      "provenance": "machine-extracted",
+      "canonical_source": {
+        "source_slug": "movement-strategy-center-glossary-2024",
+        "page_slug": "movement-strategy-center-glossary-2024",
+        "org": "Movement Strategy Center",
+        "year": "2024",
+        "source_page_url": "/sources/movement-strategy-center-glossary-2024/",
+        "live_status": "live"
+      },
+      "canonical_archived": false,
+      "excerpt": "Vulnerable _(except for homelessness)_",
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "Vulnerable _(except for homelessness)_",
           "extraction_method": "glossary"
         }
       ]
@@ -37605,7 +38658,7 @@
     "wheelchair bound": {
       "term": "wheelchair bound",
       "display": "Wheelchair",
-      "source_count": 2,
+      "source_count": 3,
       "commons_slug": "wheelchair",
       "tier": "full",
       "provenance": null,
@@ -37628,6 +38681,14 @@
           "year": "2023",
           "source_url": "https://www.diversitystyleguide.com/glossary/indigenous/",
           "excerpt": "wheelchair/wheelchair-bound/confined to a wheelchair(https://www/glossary/wheelchairwheelcha",
+          "extraction_method": "glossary"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
           "extraction_method": "glossary"
         }
       ]
@@ -38067,6 +39128,43 @@
           "source_url": "",
           "excerpt": "working class (n.), working-class (adj.)",
           "extraction_method": "keyword"
+        }
+      ]
+    },
+    "working poor": {
+      "term": "working poor",
+      "display": "Working Poor",
+      "source_count": 2,
+      "commons_slug": null,
+      "tier": "curated",
+      "provenance": "machine-extracted",
+      "canonical_source": {
+        "source_slug": "movement-strategy-center-glossary-2024",
+        "page_slug": "movement-strategy-center-glossary-2024",
+        "org": "Movement Strategy Center",
+        "year": "2024",
+        "source_page_url": "/sources/movement-strategy-center-glossary-2024/",
+        "live_status": "live"
+      },
+      "canonical_archived": false,
+      "excerpt": null,
+      "note": null,
+      "sources": [
+        {
+          "source_slug": "dcfpi-inclusive-language-2017-12",
+          "org": "DC Fiscal Policy Institute",
+          "year": "2017",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "keyword"
+        },
+        {
+          "source_slug": "movement-strategy-center-glossary-2024",
+          "org": "Movement Strategy Center",
+          "year": "2024",
+          "source_url": "",
+          "excerpt": "",
+          "extraction_method": "glossary"
         }
       ]
     },
