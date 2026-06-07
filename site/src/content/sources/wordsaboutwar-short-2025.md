@@ -10,7 +10,7 @@ local_archive: "source-guides/discovered/wordsaboutwar-short-2025.pdf"
 host_posture: "private-mirror-link-out"
 live_status: "live"
 added: 2026-05-17
-last_checked: 2026-06-06
+last_checked: 2026-06-07
 length_pages: 2
 format: "PDF"
 ---
