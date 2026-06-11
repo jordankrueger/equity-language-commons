@@ -1,0 +1,67 @@
+name: Deploy to Cloudflare Pages
+
+# Auto-deploy on push to main. Mirrors scripts/deploy.sh exactly:
+# Python preprocessing (lint gate -> coverage matrix -> glossary index ->
+# sqlite index) then Astro build, then wrangler pages deploy.
+# Replaces the manual ./scripts/deploy.sh run.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+# Avoid overlapping deploys if commits land quickly.
+concurrency:
+  group: pages-deploy
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+
+      # --- Refresh derived data (order matters: lint -> matrix -> glossary -> sqlite) ---
+      - name: Content lint (blocks deploy on authoring artifacts / broken links)
+        run: python3 scripts/lint-content.py
+
+      - name: Build coverage matrix
+        run: python3 scripts/build-coverage-matrix.py
+
+      - name: Build glossary index
+        run: python3 scripts/build-glossary-index.py
+
+      - name: Build sqlite index
+        run: python3 scripts/build-sqlite-index.py
+
+      # --- Astro build ---
+      - name: Install site dependencies
+        working-directory: site
+        run: npm ci
+
+      - name: Build site
+        working-directory: site
+        run: npm run build
+
+      # --- Deploy ---
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy site/dist --project-name=equity-language-commons --branch=main
