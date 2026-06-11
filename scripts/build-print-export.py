@@ -186,15 +186,19 @@ def main():
     if args.pdf:
         pdf = Path(args.pdf).resolve()
         pdf.parent.mkdir(parents=True, exist_ok=True)
-        subprocess.run([CHROME, "--headless", "--disable-gpu",
-                        "--user-data-dir=/tmp/chrome-pdf-render",
-                        "--no-pdf-header-footer",
-                        f"--print-to-pdf={pdf}", out.resolve().as_uri()],
-                       check=True, capture_output=True, timeout=600)
-        size = pdf.stat().st_size
-        print(f"wrote {pdf} ({size // 1024} KB)")
-        if size < 100_000:
-            sys.exit("PDF suspiciously small — Chrome stub-render gotcha? Check output.")
+        # check=False: Chrome can be OOM-killed (exit 137) AFTER writing a
+        # complete, valid PDF on big documents — judge by the artifact, not
+        # the exit code.
+        result = subprocess.run([CHROME, "--headless", "--disable-gpu",
+                                 "--user-data-dir=/tmp/chrome-pdf-render",
+                                 "--no-pdf-header-footer",
+                                 f"--print-to-pdf={pdf}", out.resolve().as_uri()],
+                                check=False, capture_output=True, timeout=600)
+        size = pdf.stat().st_size if pdf.exists() else 0
+        if size < 100_000 or b"%%EOF" not in pdf.read_bytes()[-1024:]:
+            sys.exit(f"PDF missing/truncated ({size // 1024} KB, Chrome exit "
+                     f"{result.returncode}) — stub-render or failed write.")
+        print(f"wrote {pdf} ({size // 1024} KB, Chrome exit {result.returncode})")
 
 
 if __name__ == "__main__":
