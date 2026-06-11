@@ -199,11 +199,13 @@ to frame issues*. Not brand identity (logos/fonts) or general editorial
 ## Deploy
 
 - **Production URL (preview-tier, not announced):** https://equity-language-commons.pages.dev/
-- **Deploy command:** `./scripts/deploy.sh` — runs `npm run build` in `site/` and pushes `dist/` to CF Pages via Wrangler using `PERSONAL_CLOUDFLARE_API_TOKEN`.
-- **GitHub repo:** https://github.com/jordankrueger/equity-language-commons (private)
-- **Wrangler CF Pages project:** `equity-language-commons` on Jordan's personal CF account, currently direct-upload.
-- **TODO (Jordan, one-time):** wire GitHub auto-deploy via the CF dashboard so pushes to `main` deploy automatically. Path: CF Dashboard → Workers & Pages → equity-language-commons → Settings → Build & deployments → Connect to Git. Until that's done, run `./scripts/deploy.sh` after each meaningful change.
+- **Deploy method: GitHub Actions (push to main auto-deploys).** `.github/workflows/deploy.yml` runs the full pipeline: lint-content.py → build-coverage-matrix.py → build-glossary-index.py → build-sqlite-index.py → npm ci → astro build → wrangler pages deploy. Triggered on push to `main` + workflow_dispatch. Manual deploy: `./scripts/deploy.sh` still works as a fallback (uses `PERSONAL_CLOUDFLARE_API_TOKEN`).
+- **GitHub repo:** https://github.com/jordankrueger/equity-language-commons (private; flips public at Phase 4 launch)
+- **Wrangler CF Pages project:** `equity-language-commons` on Jordan's personal CF account, Direct Upload type. NOTE: Direct Upload projects CANNOT be converted to native Git integration via the CF dashboard — the "Connect to Git" path is unavailable for direct-upload projects.
+- **Repo secrets (set 2026-06-11):** `CLOUDFLARE_API_TOKEN` (scoped to Pages:Edit) + `CLOUDFLARE_ACCOUNT_ID` (f00242a6a1d94ee54ad9a5792e722252).
+- **Email routing (live 2026-06-11):** hello@equitylanguagecommons.org → jordan@jordankrueger.com via Cloudflare Email Routing. MX/SPF/DKIM configured. Rule is specific hello@ only (not catch-all).
 - **Custom domain (equitylanguagecommons.org) is NOT pointed at the project yet.** DNS flip = public launch per ROADMAP Phase 4.
+- **Pick-up notes section above** has the item "Manual setup items Jordan owes" — hello@ routing and GH Discussions are now done. Update that list if it's stale.
 
 ## Tooling — Phase 2.5
 
