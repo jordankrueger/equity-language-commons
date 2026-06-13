@@ -105,7 +105,7 @@ methodological_context:
     note: "Index entry for Kapitan's essay 'On Person-First Language.' Argues that mechanical person-first constructions can fail the person. Not term-specific. Full essay pending Phase 2 acquisition."
 
 audience_notes:
-  - audience: "Regional — US West Coast (CA, WA, OR)"
+  - audience: "Regional — U.S. West Coast (CA, WA, OR)"
     note: "'Unhoused' has broader community adoption in West Coast policy and advocacy writing (2020+). DSG's 'some prefer unhoused' framing reflects this geography most strongly. Anecdotal among corpus sources; not empirically quantified here."
   - audience: "Self-identified individuals"
     note: "DSG (2023) and SumOfUs (2016) both put self-ID first. When a person tells you which term they use for themselves, use that — regardless of house style."

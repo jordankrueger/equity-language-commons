@@ -45,12 +45,12 @@ guidance:
     recommendation: "use"
     quote: "For nouns: African American, Asian American, black, Hispanic, Latino, Native American, non-Hispanic white, white (do not use Caucasian) …"
     quote_loc: "p. 14, Race and Ethnicity"
-    paraphrase: "Casey 2013 does not list multiracial or biracial in the approved-nouns list. Notable absence: the rapid growth of the multiracial US population through the 2010s — Census 2020 found that multiracial Americans grew 276% over the prior decade — makes Casey's list feel incomplete by 2026 standards. The omission is a date marker, not an objection."
+    paraphrase: "Casey 2013 does not list multiracial or biracial in the approved-nouns list. Notable absence: the rapid growth of the multiracial U.S. population through the 2010s — Census 2020 found that multiracial Americans grew 276% over the prior decade — makes Casey's list feel incomplete by 2026 standards. The omission is a date marker, not an objection."
     confidence: "VERIFIED-ARCHIVED"
 
 context_data:
-  - label: "US Census 2020 multiracial growth"
-    claim: "The 2020 US Census found that the multiracial population grew from 9.0 million (2010) to 33.8 million (2020) — a 276% increase. This was the fastest-growing US racial category."
+  - label: "U.S. Census 2020 multiracial growth"
+    claim: "The 2020 U.S. Census found that the multiracial population grew from 9.0 million (2010) to 33.8 million (2020) — a 276% increase. This was the fastest-growing U.S. racial category."
     url: "https://www.census.gov/library/stories/2021/08/2020-united-states-population-more-racially-ethnically-diverse-than-2010.html"
     relevance: "The growth context makes the multiracial cluster increasingly central to current R&E terminology. Pre-2010 style guides (Casey 2013, AAJA earlier editions) often treated multiracial as a niche edge case; current usage treats it as a primary category. Some of the growth reflects changes in Census methodology that allowed multiple-race selection more easily; some reflects genuine demographic change; both expand the population for which the multiracial terminology applies."
 
@@ -67,9 +67,9 @@ audience_notes:
   - audience: "Multiple identifications"
     note: "Many multiracial people identify with multiple racial categories simultaneously rather than as 'multiracial' singularly. 'She's Black and Korean,' 'they're Filipina and Mexican' may fit better than 'she's multiracial' for individual identification. The umbrella is most useful for collective references where individual identity isn't named."
   - audience: "Federal data context"
-    note: "US Census allows 'two or more races' as a category, and the 2020 Census data uses this construction. When citing Census data, match the source's terminology; 'multiracial' is generally acceptable in narrative writing about the same population."
+    note: "U.S. Census allows 'two or more races' as a category, and the 2020 Census data uses this construction. When citing Census data, match the source's terminology; 'multiracial' is generally acceptable in narrative writing about the same population."
   - audience: "Hyphenation"
-    note: "Biracial and multiracial are written without hyphens. Mixed-race takes a hyphen when used as an adjective ('mixed-race family') and typically also as a noun ('mixed-race'). DSG and most contemporary US guides converge on this."
+    note: "Biracial and multiracial are written without hyphens. Mixed-race takes a hyphen when used as an adjective ('mixed-race family') and typically also as a noun ('mixed-race'). DSG and most contemporary U.S. guides converge on this."
 
 last_reviewed: 2026-05-16
 created: 2026-05-16
@@ -92,4 +92,4 @@ The hyphenation is settled (biracial, multiracial, multiethnic = no hyphen; mixe
 
 ## History note
 
-US Census methodology changed in 2000 to allow respondents to select more than one race; the multiracial category as a federally-measured population dates to that change. The 2010 Census counted 9.0 million; the 2020 Census counted 33.8 million — a combination of genuine demographic change, methodological change, and shifts in racial self-identification. Most major style guides added or expanded multiracial entries in the 2010s and 2020s in response to the growing population and the corresponding rise in self-identification across multiple categories. The Mixed identity movement, the rise of organizations like the Mixed Marrow advocacy network and the Mixed in America Project, and the 2008–2024 visibility of multiracial public figures all contributed to the current institutional uptake.
+U.S. Census methodology changed in 2000 to allow respondents to select more than one race; the multiracial category as a federally-measured population dates to that change. The 2010 Census counted 9.0 million; the 2020 Census counted 33.8 million — a combination of genuine demographic change, methodological change, and shifts in racial self-identification. Most major style guides added or expanded multiracial entries in the 2010s and 2020s in response to the growing population and the corresponding rise in self-identification across multiple categories. The Mixed identity movement, the rise of organizations like the Mixed Marrow advocacy network and the Mixed in America Project, and the 2008–2024 visibility of multiracial public figures all contributed to the current institutional uptake.

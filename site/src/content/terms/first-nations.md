@@ -59,7 +59,7 @@ guidance:
     recommendation: "use"
     quote: "Elements of Indigenous Style recommends capitalizing the following terms: Creator, First Nations …"
     quote_loc: "p. 7, Other Miscellaneous Terminology"
-    paraphrase: "NGC follows Elements of Indigenous Style on capitalization: First Nations is always capitalized, alongside other Indigenous identity, governance, and ceremony terms (Creator, Métis, Elder, Sundance, Sweat Lodge, Traditional Knowledge). NGC is a US-focused guide and does not treat First Nations as its primary collective term, but capitalizes it consistently when used."
+    paraphrase: "NGC follows Elements of Indigenous Style on capitalization: First Nations is always capitalized, alongside other Indigenous identity, governance, and ceremony terms (Creator, Métis, Elder, Sundance, Sweat Lodge, Traditional Knowledge). NGC is a U.S.-focused guide and does not treat First Nations as its primary collective term, but capitalizes it consistently when used."
     confidence: "VERIFIED-ARCHIVED"
 
   - org: "Diversity Style Guide"
@@ -71,7 +71,7 @@ guidance:
     recommendation: "use"
     quote: "First Nations is a term used to describe Aboriginal peoples of Canada who are ethnically neither Métis nor Inuit … This phrase came into common usage in the 1970s and '80s and generally replaced the term Indian to refer to Indigenous people of Canada."
     quote_loc: "Entry: First Nations (updated February 2021)"
-    paraphrase: "DSG's entry mirrors SumOfUs's framing: First Nations covers Aboriginal peoples of Canada who are neither Métis nor Inuit, replaced 'Indian' as common usage starting in the 1970s–80s, and is sourced to the First Nations Studies Program at UBC. The entry also flags that the term is not widely used in the US — a geographic-scope caution that matters when borrowing the term across the border."
+    paraphrase: "DSG's entry mirrors SumOfUs's framing: First Nations covers Aboriginal peoples of Canada who are neither Métis nor Inuit, replaced 'Indian' as common usage starting in the 1970s–80s, and is sourced to the First Nations Studies Program at UBC. The entry also flags that the term is not widely used in the U.S. — a geographic-scope caution that matters when borrowing the term across the border."
     confidence: "VERIFIED-ARCHIVED"
 
 context_data: []
@@ -86,14 +86,14 @@ contributors:
 
 ## Synthesis
 
-First Nations is geographically scoped in a way that the rest of this chapter's terms are not: it is the Canadian descriptor for Indigenous peoples who are ethnically neither Métis nor Inuit. SumOfUs and DSG share the same definition. First Nations entered common Canadian usage in the 1970s–80s and largely replaced "Indian" for that population, with the term scoped to Status and Non-Status Indian peoples in Canada and the proper nation name preferred whenever possible. DSG adds a boundary note: the term is not widely used in the US, where Native American, American Indian, and Indigenous remain the working umbrellas.
+First Nations is geographically scoped in a way that the rest of this chapter's terms are not: it is the Canadian descriptor for Indigenous peoples who are ethnically neither Métis nor Inuit. SumOfUs and DSG share the same definition. First Nations entered common Canadian usage in the 1970s–80s and largely replaced "Indian" for that population, with the term scoped to Status and Non-Status Indian peoples in Canada and the proper nation name preferred whenever possible. DSG adds a boundary note: the term is not widely used in the U.S., where Native American, American Indian, and Indigenous remain the working umbrellas.
 
 SumOfUs goes further than DSG and NGC on **how the term is constructed in sentences**, not just whether to use it. It draws a hard line against possessive framings ("Canadian First Nations," "Canada's Indigenous people") on the reasoning that Canada is the colonial power and many First Nations people do not identify as Canadian. The recommended construction puts the people first: "Indigenous peoples in Canada" rather than "Canada's Indigenous people." Here a syntactic rule, preposition choice, carries substantive political content.
 
-NGC supplies the capitalization rule: First Nations is always capitalized, alongside Métis, Elder, and other Indigenous identity, governance, and ceremony terms. NGC is a US-focused guide and does not treat First Nations as its primary collective term, but the rule is consistent with the broader convention of capitalizing Indigenous identifiers across the post-2020 corpus. Borrowing First Nations across the border (a US writer describing Canadian context, or vice versa) is acceptable when geographically accurate, but should not displace the descriptors the local guides use.
+NGC supplies the capitalization rule: First Nations is always capitalized, alongside Métis, Elder, and other Indigenous identity, governance, and ceremony terms. NGC is a U.S.-focused guide and does not treat First Nations as its primary collective term, but the rule is consistent with the broader convention of capitalizing Indigenous identifiers across the post-2020 corpus. Borrowing First Nations across the border (a U.S. writer describing Canadian context, or vice versa) is acceptable when geographically accurate, but should not displace the descriptors the local guides use.
 
 ## Audience notes
 
-- **Geographic scope.** First Nations is a Canadian term and should be used when describing Canadian context. US-based writers covering Canadian Indigenous nations, federal policy, treaty rights, or pipeline / land-defense organizing should use First Nations as the working descriptor; switching to "Native American" in a Canadian context is inaccurate. Conversely, calling US tribes "First Nations" is a common cross-border slip.
-- **Avoid the possessive construction.** "Canadian First Nations" and "Canada's Indigenous people" both frame Indigenous nations as belonging to the colonial state. The construction "Indigenous peoples in Canada" or "First Nations in Canada" — preposition, not possessive — is the corrective; the same rule applies to similar phrasings about the US, Australia, and other settler-colonial contexts.
+- **Geographic scope.** First Nations is a Canadian term and should be used when describing Canadian context. U.S.-based writers covering Canadian Indigenous nations, federal policy, treaty rights, or pipeline / land-defense organizing should use First Nations as the working descriptor; switching to "Native American" in a Canadian context is inaccurate. Conversely, calling U.S. tribes "First Nations" is a common cross-border slip.
+- **Avoid the possessive construction.** "Canadian First Nations" and "Canada's Indigenous people" both frame Indigenous nations as belonging to the colonial state. The construction "Indigenous peoples in Canada" or "First Nations in Canada" — preposition, not possessive — is the corrective; the same rule applies to similar phrasings about the U.S., Australia, and other settler-colonial contexts.
 - **Inuit and Métis are not First Nations.** The term is scoped to a specific population. When describing the wider Indigenous population of Canada, "Indigenous peoples" or "Aboriginal peoples" is the inclusive descriptor; "First Nations, Métis, and Inuit" is the standard expanded form.

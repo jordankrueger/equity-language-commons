@@ -60,9 +60,9 @@ context_data:
     relevance: "The political reclamation is the source of the term's current usage. Pre-1960s, 'Chicano' was largely a pejorative; the movement's reclamation is what makes it a self-identification of pride for many Mexican-Americans today. The political-pride framing distinguishes Chicano from Latino — Latino is largely a neutral descriptor; Chicano is a politicized self-identification."
 
   - label: "Geographic concentration"
-    claim: "Chicano/Chicana/Chicanx self-identification is concentrated in California, the Southwest US (Texas, New Mexico, Arizona), and the Pacific Northwest — communities with multi-generational Mexican-American history. Less common as self-identification among recent Mexican immigrants and outside the US Southwest."
+    claim: "Chicano/Chicana/Chicanx self-identification is concentrated in California, the Southwest U.S. (Texas, New Mexico, Arizona), and the Pacific Northwest — communities with multi-generational Mexican-American history. Less common as self-identification among recent Mexican immigrants and outside the U.S. Southwest."
     url: null
-    relevance: "Audience predictor — using Chicanx as a default for any Mexican-American audience misses that the term is specifically tied to a multi-generational US-Mexican-American political tradition. New immigrants or non-Southwest Mexican-Americans may not identify with it."
+    relevance: "Audience predictor — using Chicanx as a default for any Mexican-American audience misses that the term is specifically tied to a multi-generational U.S.-Mexican-American political tradition. New immigrants or non-Southwest Mexican-Americans may not identify with it."
 
 audience_notes:
   - audience: "When someone self-identifies as Chicano/Chicana/Chicanx"
@@ -88,9 +88,9 @@ The political-reclamation history is the distinction. Latino is largely a neutra
 
 The gender-neutral forms track the same evolution as the rest of the Latino cluster: Chicanx (English-rooted, parallel to Latinx), Chicane (Spanish-rooted, parallel to Latine), and Chican@ (an older post-internet construction, mostly in academic-department names now). They follow the same audience patterns too — gaining ground in academic, movement, LGBTQIA+, and younger contexts, less established in older or non-movement ones.
 
-Geography matters. Chicano/Chicana/Chicanx self-identification is largely a US Southwest and Pacific Northwest phenomenon with multi-generational community history. Recent Mexican immigrants and non-Southwest Mexican-American communities are less likely to use the term.
+Geography matters. Chicano/Chicana/Chicanx self-identification is largely a U.S. Southwest and Pacific Northwest phenomenon with multi-generational community history. Recent Mexican immigrants and non-Southwest Mexican-American communities are less likely to use the term.
 
 
 ## History note
 
-'Chicano' originated as a pejorative term in early 20th-century US usage. The Chicano Movement (El Movimiento) of the 1960s and 1970s — including United Farm Workers organizing under César Chávez and Dolores Huerta, the East LA Walkouts (1968), the Crusade for Justice in Denver, and the Brown Berets — reclaimed the term as a politically conscious self-identification for working-class Mexican-Americans foregrounding Indigenous ancestry and resistance to assimilation. The reclamation gave the term its current political content. The 2010s saw the rise of Chicanx and Chicane as gender-inclusive forms paralleling Latinx and Latine in the broader umbrella; uptake has been concentrated in academic, movement, and LGBTQIA+ contexts.
+'Chicano' originated as a pejorative term in early 20th-century U.S. usage. The Chicano Movement (El Movimiento) of the 1960s and 1970s — including United Farm Workers organizing under César Chávez and Dolores Huerta, the East LA Walkouts (1968), the Crusade for Justice in Denver, and the Brown Berets — reclaimed the term as a politically conscious self-identification for working-class Mexican-Americans foregrounding Indigenous ancestry and resistance to assimilation. The reclamation gave the term its current political content. The 2010s saw the rise of Chicanx and Chicane as gender-inclusive forms paralleling Latinx and Latine in the broader umbrella; uptake has been concentrated in academic, movement, and LGBTQIA+ contexts.

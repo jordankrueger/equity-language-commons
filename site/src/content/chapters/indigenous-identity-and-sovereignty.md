@@ -38,12 +38,12 @@ This chapter gathers terms that source guides frame through Indigenous identity,
 
 ## How sources position themselves
 
-Sources in this chapter divide along two axes: Indigenous-led versus ally-led, and US-focused versus cross-border. The Indigenous-led US guides (NAJA / Indigenous Journalists Association, Native Governance Center) push hardest on specificity, capitalization, and the sovereignty framing. The ally-led guides (Sierra Club, GCJT, SumOfUs) adopt those positions and add their own — Sierra Club's etymological framing of "reservation" as treaty-reserved land, SumOfUs's anti-possessive rule, GCJT's adoption of NAJA's precision rule into trauma-informed journalism. The aggregators (DSG, RET) treat the choices as audience-dependent and supply historical context.
+Sources in this chapter divide along two axes: Indigenous-led versus ally-led, and U.S.-focused versus cross-border. The Indigenous-led U.S. guides (NAJA / Indigenous Journalists Association, Native Governance Center) push hardest on specificity, capitalization, and the sovereignty framing. The ally-led guides (Sierra Club, GCJT, SumOfUs) adopt those positions and add their own — Sierra Club's etymological framing of "reservation" as treaty-reserved land, SumOfUs's anti-possessive rule, GCJT's adoption of NAJA's precision rule into trauma-informed journalism. The aggregators (DSG, RET) treat the choices as audience-dependent and supply historical context.
 
 Source coverage in this chapter spans:
 
 - **Indigenous Journalists Association / NAJA (2017)** — Indigenous-led primary source; the originating voice for the multi-tribal precision rule and the headline-specificity standard most other guides cite back to.
-- **Native Governance Center Style Guide (2021)** — Indigenous-led US; the operational style reference for Native-led nonprofit communicators. Source of the Tribe / Tribal capitalization convention and the reservation-versus-nation distinction.
+- **Native Governance Center Style Guide (2021)** — Indigenous-led U.S.; the operational style reference for Native-led nonprofit communicators. Source of the Tribe / Tribal capitalization convention and the reservation-versus-nation distinction.
 - **Sierra Club Equity Language Guide (2021)** — Substantial Tribal Sovereignty and Public Lands section; the etymological framing of "reservation" and the bans on "tribalism" and "rez" as outsider language.
 - **Diversity Style Guide (2023, entries updated through 2024)** — Peer aggregator; richest historical and legal context across the chapter. Source for HR 4238 (2016) and the federal-tribe membership definition.
 - **Global Center for Journalism & Trauma (2021)** — Adopts NAJA's framing into trauma-informed journalism context; cited as bridge between Native-led editorial standards and mainstream journalism style.

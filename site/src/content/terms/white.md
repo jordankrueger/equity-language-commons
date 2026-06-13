@@ -55,7 +55,7 @@ guidance:
     recommendation: "use"
     quote: "NABJ also recommends that whenever a color is used to appropriately describe race then it should be capitalized, including White and Brown."
     quote_loc: "NABJ Statement on Capitalizing Black and Other Racial Identifiers (June 2020)"
-    paraphrase: "NABJ's symmetric rule: if a color names a race, capitalize it. White and Brown both get the same treatment as Black. The reasoning is descriptive-integrity-based rather than political-identity-based — NABJ does not engage the 'aligning with white supremacy' concern that drives Sierra Club's opposite decision. The split between NABJ and AP on this question is the central US journalism style divergence on race capitalization since 2020."
+    paraphrase: "NABJ's symmetric rule: if a color names a race, capitalize it. White and Brown both get the same treatment as Black. The reasoning is descriptive-integrity-based rather than political-identity-based — NABJ does not engage the 'aligning with white supremacy' concern that drives Sierra Club's opposite decision. The split between NABJ and AP on this question is the central U.S. journalism style divergence on race capitalization since 2020."
     confidence: "VERIFIED"
 
   - org: "Diversity Style Guide"
@@ -67,7 +67,7 @@ guidance:
     recommendation: "use"
     quote: "Don't use Caucasian. … the National Association of Black Journalists wrote, 'NABJ also recommends that whenever a color is used to appropriately describe race then it should be capitalized, including White and Brown.' … The Diversity Style Guide has long advocated for the capitalization of White as well as Black."
     quote_loc: "Entry: White, white (lines 3941–3944 in archived markdown)"
-    paraphrase: "DSG's house position: capitalize White, parallel to Black. Documents the broader landscape — most US news still lowercases, with notable exceptions (Washington Post, NABJ, APA, Conscious Style Guide, Center for the Study of Social Policy). Cites the Center for the Study of Social Policy's argument that lowercase white 'allows White people to sit out of conversations about race and removes accountability from White people's and White institutions' involvement in racism.' Caucasian is non-preferred as a synonym."
+    paraphrase: "DSG's house position: capitalize White, parallel to Black. Documents the broader landscape — most U.S. news still lowercases, with notable exceptions (Washington Post, NABJ, APA, Conscious Style Guide, Center for the Study of Social Policy). Cites the Center for the Study of Social Policy's argument that lowercase white 'allows White people to sit out of conversations about race and removes accountability from White people's and White institutions' involvement in racism.' Caucasian is non-preferred as a synonym."
     confidence: "VERIFIED"
 
   - org: "Annie E. Casey Foundation"
@@ -86,17 +86,17 @@ context_data:
   - label: "AP Stylebook decision on White (July 20, 2020)"
     claim: "One month after announcing capitalization of Black, AP issued a separate decision NOT to capitalize White. Cited concerns about reinforcing white-supremacist usage of capital-W White as an organized racial identity, but acknowledged both directions of the argument."
     url: "https://blog.ap.org/announcements/why-we-will-lowercase-white"
-    relevance: "The asymmetric capital-B Black / lowercase white rule that Sierra Club, NGC, and most US news adopt traces directly to this AP decision. AP's reasoning is the substrate for the dominant US journalism convention."
+    relevance: "The asymmetric capital-B Black / lowercase white rule that Sierra Club, NGC, and most U.S. news adopt traces directly to this AP decision. AP's reasoning is the substrate for the dominant U.S. journalism convention."
 
   - label: "NABJ vs. AP divergence (June–July 2020)"
     claim: "NABJ's June 2020 statement and AP's July 2020 statement adopt opposite rules on the same question: NABJ capitalizes both Black and White (and Brown) for symmetry; AP capitalizes Black and lowercases white. The split has held since 2020."
     url: "https://www.nabj.org/news/512370/NABJ-Style-Guide-Update.htm"
-    relevance: "The single most consequential active disagreement in current US race capitalization. Choosing between the two rules is the editorial decision houses make — the choice signals which side of the political-vs-descriptive framing the house treats as primary."
+    relevance: "The single most consequential active disagreement in current U.S. race capitalization. Choosing between the two rules is the editorial decision houses make — the choice signals which side of the political-vs-descriptive framing the house treats as primary."
 
   - label: "Washington Post adoption of symmetric capitalization (July 29, 2020)"
     claim: "The Washington Post began capitalizing both Black and White on July 29, 2020, citing the same symmetry rationale as NABJ — both are color-based racial descriptors and should be treated identically."
     url: "https://www.washingtonpost.com/pr/2020/07/29/washington-post-announces-writing-style-changes-racial-ethnic-identifiers/"
-    relevance: "The most prominent mainstream US news adoption of the symmetric rule. Together with NABJ, APA, and DSG, defines the 'capitalize both' camp."
+    relevance: "The most prominent mainstream U.S. news adoption of the symmetric rule. Together with NABJ, APA, and DSG, defines the 'capitalize both' camp."
 
   - label: "Center for the Study of Social Policy argument"
     claim: "Lowercase 'white' allows White people to sit out of conversations about race and removes accountability from White people's and White institutions' involvement in racism."
@@ -104,10 +104,10 @@ context_data:
     relevance: "The clearest articulation of the 'White as default = White as exempt' argument. The strongest case for the symmetric rule on a political (rather than purely descriptive) basis."
 
 audience_notes:
-  - audience: "Mainstream US journalism / following AP"
-    note: "Lowercase white. This is the prevailing US news standard since July 2020. AP, NYT, LA Times, McClatchy, NBC-owned stations all follow. Sierra Club, NGC, and most progressive movement orgs match this convention for reasons of avoiding orthographic overlap with white-supremacist usage."
+  - audience: "Mainstream U.S. journalism / following AP"
+    note: "Lowercase white. This is the prevailing U.S. news standard since July 2020. AP, NYT, LA Times, McClatchy, NBC-owned stations all follow. Sierra Club, NGC, and most progressive movement orgs match this convention for reasons of avoiding orthographic overlap with white-supremacist usage."
   - audience: "Following NABJ / APA / Washington Post"
-    note: "Capitalize White as a race. Symmetric with Black. Reasoning is that color-based race descriptors should be treated identically, and that lowercase 'white' contributes to whiteness functioning as the unmarked default in US discourse. Adopted by The Washington Post, NABJ, APA, Conscious Style Guide, the Diversity Style Guide, and the Center for the Study of Social Policy."
+    note: "Capitalize White as a race. Symmetric with Black. Reasoning is that color-based race descriptors should be treated identically, and that lowercase 'white' contributes to whiteness functioning as the unmarked default in U.S. discourse. Adopted by The Washington Post, NABJ, APA, Conscious Style Guide, the Diversity Style Guide, and the Center for the Study of Social Policy."
   - audience: "Federal data / Census"
     note: "Census Bureau uses capital-W 'White' as a formal racial category, defined as 'a person having origins in any of the original peoples of Europe, the Middle East, or North Africa.' When citing Census or federal-data terminology directly, match the federal capitalization regardless of house style."
   - audience: "Caucasian usage"
@@ -123,11 +123,11 @@ contributors:
 
 ## Synthesis
 
-White is the most-divided term in the R&E corpus: five guides reviewed here, three distinct positions, all defensible, all currently in active use across major US institutions. The divergence is the substance of the entry.
+White is the most-divided term in the R&E corpus: five guides reviewed here, three distinct positions, all defensible, all currently in active use across major U.S. institutions. The divergence is the substance of the entry.
 
 **The two live capitalization rules**:
 
-1. **Asymmetric (lowercase white)** — Sierra Club, NGC, AP, NYT, LA Times, and most US mainstream news. Adopted in mid-2020 in tandem with the capital-B Black decision. Reasoning is risk-asymmetric: capital-W White is the orthography used by organized white-supremacist movements as a political identity, and these institutions decline to share it. The trade-off — leaving whiteness as the unmarked default — is acknowledged as a real cost, not a benefit.
+1. **Asymmetric (lowercase white)** — Sierra Club, NGC, AP, NYT, LA Times, and most U.S. mainstream news. Adopted in mid-2020 in tandem with the capital-B Black decision. Reasoning is risk-asymmetric: capital-W White is the orthography used by organized white-supremacist movements as a political identity, and these institutions decline to share it. The trade-off — leaving whiteness as the unmarked default — is acknowledged as a real cost, not a benefit.
 
 2. **Symmetric (capitalize both)** — NABJ, Washington Post, APA, Diversity Style Guide, Conscious Style Guide, Center for the Study of Social Policy. The reasoning runs the other direction: color-based race descriptors should be treated identically for descriptive integrity, and lowercase white concretely lets white readers exit conversations about race that capitalize the racial label for everyone else. The Center for the Study of Social Policy's framing — "the detachment of 'White' as a proper noun allows White people to sit out of conversations about race and removes accountability" — is the strongest articulation.
 
@@ -147,4 +147,4 @@ There is no third synthesis position in the corpus, and the split has remained s
 
 ## History note
 
-The lowercase 'white' convention was AP style for decades. Capital-W White appeared sporadically in Black-led publications and academic writing on whiteness studies through the late 20th century. The June 2020 AP decision to capitalize Black, followed one month later (July 20, 2020) by [AP's separate decision NOT to capitalize White](/sources/ap-stylebook/), created the asymmetric rule that became the US journalism mainstream. NABJ's June 2020 statement, Washington Post's July 29, 2020 adoption of symmetric capitalization, and the Center for the Study of Social Policy's March 2020 case all formed the opposing camp in the same window. The split has held since 2020 with no movement toward convergence.
+The lowercase 'white' convention was AP style for decades. Capital-W White appeared sporadically in Black-led publications and academic writing on whiteness studies through the late 20th century. The June 2020 AP decision to capitalize Black, followed one month later (July 20, 2020) by [AP's separate decision NOT to capitalize White](/sources/ap-stylebook/), created the asymmetric rule that became the U.S. journalism mainstream. NABJ's June 2020 statement, Washington Post's July 29, 2020 adoption of symmetric capitalization, and the Center for the Study of Social Policy's March 2020 case all formed the opposing camp in the same window. The split has held since 2020 with no movement toward convergence.

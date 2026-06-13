@@ -35,7 +35,7 @@ Diversity Style Guide:
   "Hispanic" and "Latino"; among all respondents, Hispanic was preferred
   33% to 15%; among Hispanic Texans the split was 46% to 8%.
   ([Pew, "Hispanic Identity," Oct 2013](https://www.pewresearch.org/race-and-ethnicity/2013/10/22/3-hispanic-identity/))
-- **2019 survey (published Aug 2020)** — 23% of US Hispanic/Latino adults
+- **2019 survey (published Aug 2020)** — 23% of U.S. Hispanic/Latino adults
   had heard of "Latinx"; just 3% used it to describe themselves. Awareness
   ran 42% among ages 18–29 vs 7% among 65+; usage 7% vs under 0.5%.
   ([Pew report PDF, Aug 11, 2020](https://www.pewresearch.org/hispanic/wp-content/uploads/sites/5/2020/08/PHGMD_2020.08.11_Latinx_FINAL.pdf))

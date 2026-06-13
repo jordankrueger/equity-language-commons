@@ -58,8 +58,8 @@ guidance:
     confidence: "VERIFIED"
 
 context_data:
-  - label: "US demographic shift"
-    claim: "The US Census Bureau projects that by approximately 2045, non-Hispanic White Americans will no longer constitute a majority of the US population. Several states (California, Texas, Hawaii, New Mexico) and many large metro areas are already 'majority-minority.'"
+  - label: "U.S. demographic shift"
+    claim: "The U.S. Census Bureau projects that by approximately 2045, non-Hispanic White Americans will no longer constitute a majority of the U.S. population. Several states (California, Texas, Hawaii, New Mexico) and many large metro areas are already 'majority-minority.'"
     url: "https://www.census.gov/library/stories/2018/03/jokes-aside-serious-implications-of-changing-demographics.html"
     relevance: "The numerical premise that 'minority' originally encoded is no longer reliably true. In California, Texas, NM, Hawaii, and dozens of major metros, the demographic situation makes 'racial minority' factually inaccurate even setting aside the connotation concerns."
 
@@ -88,7 +88,7 @@ contributors:
 
 Minority is one of the few terms in the R&E corpus where three independent guides (Sierra Club, DSG, RET) converge on the same recommendation with substantially the same reasoning. That reasoning has two parts, empirical and connotative, both tracing back to Race Forward.
 
-The empirical case: 'minority' encodes a numerical relationship (one group is smaller than the dominant group). That relationship is no longer reliably accurate. [Census Bureau projections from the late 2010s](/sources/us-census-bureau/) (the 2018 vintage) projected the crossover to a majority-nonwhite US around 2045, though the Bureau's 2023-vintage projections do not name a crossover year. California, Texas, New Mexico, Hawaii, and many large metros are already past that threshold. Using 'minority' as a default racial descriptor in these contexts is factually wrong before any connotative concern is engaged.
+The empirical case: 'minority' encodes a numerical relationship (one group is smaller than the dominant group). That relationship is no longer reliably accurate. [Census Bureau projections from the late 2010s](/sources/us-census-bureau/) (the 2018 vintage) projected the crossover to a majority-nonwhite U.S. around 2045, though the Bureau's 2023-vintage projections do not name a crossover year. California, Texas, New Mexico, Hawaii, and many large metros are already past that threshold. Using 'minority' as a default racial descriptor in these contexts is factually wrong before any connotative concern is engaged.
 
 The connotative case: 'minority' carries the implication of subordination — being the minor party in a numerical or status sense. The same word in other contexts (a minor partner, a minor consideration) does the same connotative work. Substituting people of color, BIPOC, or specific identifiers shifts the descriptive frame from 'numerically subordinate' to either positive identity (POC, BIPOC, specific group) or trajectory (emerging majority).
 
@@ -101,4 +101,4 @@ No guide in the corpus defends 'minority' as a preferred term outside the data-c
 
 ## History note
 
-'Minority' as a racial descriptor became institutionalized in US federal vocabulary through the 1960s civil-rights era — the Equal Employment Opportunity Commission (founded 1965) and various affirmative-action frameworks centered the term as a category for data collection and program eligibility. The term's empirical accuracy started eroding through the 1990s as US demographic trajectories made non-white populations majority in several states. Race Forward's reporting guidance (mid-2010s onward) is the most-cited contemporary source for the avoidance recommendation; the 2020 wave of style-guide updates incorporated Race Forward's framing across Sierra Club, DSG, and most other major progressive guides. The institutional 'minority' usages (minority contracting, MSIs) survive intact in formal program names because the data infrastructure still uses the category.
+'Minority' as a racial descriptor became institutionalized in U.S. federal vocabulary through the 1960s civil-rights era — the Equal Employment Opportunity Commission (founded 1965) and various affirmative-action frameworks centered the term as a category for data collection and program eligibility. The term's empirical accuracy started eroding through the 1990s as U.S. demographic trajectories made non-white populations majority in several states. Race Forward's reporting guidance (mid-2010s onward) is the most-cited contemporary source for the avoidance recommendation; the 2020 wave of style-guide updates incorporated Race Forward's framing across Sierra Club, DSG, and most other major progressive guides. The institutional 'minority' usages (minority contracting, MSIs) survive intact in formal program names because the data infrastructure still uses the category.

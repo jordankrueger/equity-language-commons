@@ -93,7 +93,7 @@ guidance:
     recommendation: "use"
     quote: "For nouns: African American, Asian American, black, Hispanic, Latino, Native American, non-Hispanic white, white (do not use Caucasian) …"
     quote_loc: "p. 14, Race and Ethnicity"
-    paraphrase: "Casey 2013 lists African American and lowercase 'black' as parallel acceptable nouns alongside Asian American, Hispanic, Latino, Native American, and lowercase white. The lowercase 'black' is the dominant convention pre-2020 — Casey's posture is contemporaneous with AP's pre-June-2020 rule, and pre-dates the post-George-Floyd shift across most US journalism style guides."
+    paraphrase: "Casey 2013 lists African American and lowercase 'black' as parallel acceptable nouns alongside Asian American, Hispanic, Latino, Native American, and lowercase white. The lowercase 'black' is the dominant convention pre-2020 — Casey's posture is contemporaneous with AP's pre-June-2020 rule, and pre-dates the post-George-Floyd shift across most U.S. journalism style guides."
     confidence: "VERIFIED-ARCHIVED"
 
 context_data:
@@ -105,12 +105,12 @@ context_data:
   - label: "AP Stylebook change (June 19, 2020)"
     claim: "Associated Press began capitalizing Black 'in a racial, ethnic, or cultural sense.' Did not capitalize white in the same release; revisited white separately."
     url: "https://blog.ap.org/announcements/the-decision-to-capitalize-black"
-    relevance: "Industry-wide inflection point. Most US guides converged to capital-B Black shortly after this announcement. The asymmetric capital-B / lowercase-w rule that NGC and Sierra Club adopt traces directly to AP's framing here."
+    relevance: "Industry-wide inflection point. Most U.S. guides converged to capital-B Black shortly after this announcement. The asymmetric capital-B / lowercase-w rule that NGC and Sierra Club adopt traces directly to AP's framing here."
 
   - label: "NABJ statement (June 2020)"
     claim: "NABJ adopted capitalization of Black and recommended that all color-based race descriptors be capitalized — Black, White, Brown — for symmetry."
     url: "https://www.nabj.org/news/512370/NABJ-Style-Guide-Update.htm"
-    relevance: "The principal alternative to the AP rule. Adopted by some progressive outlets (notably The Washington Post in July 2020 for both Black and White) and some style guides, but not the prevailing US journalism standard. Worth surfacing because the divergence is doctrinal, not accidental."
+    relevance: "The principal alternative to the AP rule. Adopted by some progressive outlets (notably The Washington Post in July 2020 for both Black and White) and some style guides, but not the prevailing U.S. journalism standard. Worth surfacing because the divergence is doctrinal, not accidental."
 
 audience_notes:
   - audience: "Recent African immigrants and their families"
@@ -120,7 +120,7 @@ audience_notes:
   - audience: "Journalism / news copy"
     note: "If race is relevant to the story and no individual preference is stated, NABJ advises using Black as an accurate racial descriptor. NABJ also advises using Black as an adjective ('Black voters') rather than a noun ('Blacks'), with the noun form acceptable only in headlines for length reasons."
   - audience: "Pre-2020 archival or republished content"
-    note: "Lowercase 'black' was the dominant US convention until the AP / NABJ / NYT changes in June 2020. Quoting or excerpting older material may preserve the lowercase; new editorial framing around it should still use capital-B Black."
+    note: "Lowercase 'black' was the dominant U.S. convention until the AP / NABJ / NYT changes in June 2020. Quoting or excerpting older material may preserve the lowercase; new editorial framing around it should still use capital-B Black."
 
 last_reviewed: 2026-05-16
 created: 2026-05-16
@@ -132,15 +132,15 @@ contributors:
 
 For the Black/African American cluster, the terminology itself is settled and the live decisions are about **capitalization** and **defaulting**.
 
-**Capitalization has converged on capital-B Black across every active US style guide reviewed here.** The shift moved together in mid-2020 — [AP (June 19)](/sources/ap-stylebook/), NABJ (June), NYT, Washington Post — and the post-2020 progressive style guides in this commons (Sierra Club 2021, NGC 2021, DSG entry updated Feb 2021) all reflect the new consensus. The only guide in the in-scope corpus that lowercases 'black' is Casey (2013), which matches AP's pre-June-2020 rule. Treat that as a chronology marker, not a divergence.
+**Capitalization has converged on capital-B Black across every active U.S. style guide reviewed here.** The shift moved together in mid-2020 — [AP (June 19)](/sources/ap-stylebook/), NABJ (June), NYT, Washington Post — and the post-2020 progressive style guides in this commons (Sierra Club 2021, NGC 2021, DSG entry updated Feb 2021) all reflect the new consensus. The only guide in the in-scope corpus that lowercases 'black' is Casey (2013), which matches AP's pre-June-2020 rule. Treat that as a chronology marker, not a divergence.
 
 **On capitalizing white, the corpus diverges along ideological lines.** Sierra Club and NGC follow AP's asymmetric rule: capital-B Black, lowercase white. Sierra Club's reasoning is explicit: capitalizing 'white' risks legitimizing white supremacy as a coherent racial identity in the way far-right movements want it framed. NABJ takes the opposite position with parallel reasoning: if color names a race, capitalize it consistently; the rule is about descriptive integrity, not about granting symbolic equivalence. Both positions are coherent and both have constituencies. Pick one with intent and document the reasoning in house style. See [white](/terms/white/) for the full debate.
 
-**Black and African American are not synonyms.** Five of six guides here name this distinction explicitly. Black is a racial descriptor; African American is a racial-plus-national-origin descriptor (US-rooted, often associated specifically with descent from enslaved people in the US). Recent African immigrants, Afro-Caribbean and Afro-Latino people, and many Black Americans who don't identify with the African-American label are erased when the terms are treated as interchangeable. The Gallup data (1991–2019) is the empirical anchor: most respondents have no preference, but the minority that does is split, so neither term can be defaulted-to without sometimes getting it wrong. Self-identification is primary; "ask if possible" is the operational rule across every guide.
+**Black and African American are not synonyms.** Five of six guides here name this distinction explicitly. Black is a racial descriptor; African American is a racial-plus-national-origin descriptor (U.S.-rooted, often associated specifically with descent from enslaved people in the U.S.). Recent African immigrants, Afro-Caribbean and Afro-Latino people, and many Black Americans who don't identify with the African-American label are erased when the terms are treated as interchangeable. The Gallup data (1991–2019) is the empirical anchor: most respondents have no preference, but the minority that does is split, so neither term can be defaulted-to without sometimes getting it wrong. Self-identification is primary; "ask if possible" is the operational rule across every guide.
 
 **Hyphenation:** every guide that addresses it (SEIU explicitly, AP/NABJ/DSG by usage) writes 'African American' without a hyphen. The hyphenated form ('African-American') is a stylistic legacy that AP retired in 2019.
 
 
 ## History note
 
-Lowercase 'black' was the dominant US journalism convention from the post-civil-rights era through the 1990s and 2000s, with 'African American' rising in parallel after Jesse Jackson popularized it in the 1980s. The capital-B Black usage existed in Black-led publications (The Chicago Defender, Essence, Ebony) for decades before mainstream adoption. The June 2020 AP / NABJ / NYT changes — in the weeks after George Floyd's killing in Minneapolis — moved the mainstream US standard from lowercase to capital-B. The asymmetric 'capitalize Black, lowercase white' rule that prevails in most current style guides traces to AP's framing in that 2020 announcement.
+Lowercase 'black' was the dominant U.S. journalism convention from the post-civil-rights era through the 1990s and 2000s, with 'African American' rising in parallel after Jesse Jackson popularized it in the 1980s. The capital-B Black usage existed in Black-led publications (The Chicago Defender, Essence, Ebony) for decades before mainstream adoption. The June 2020 AP / NABJ / NYT changes — in the weeks after George Floyd's killing in Minneapolis — moved the mainstream U.S. standard from lowercase to capital-B. The asymmetric 'capitalize Black, lowercase white' rule that prevails in most current style guides traces to AP's framing in that 2020 announcement.

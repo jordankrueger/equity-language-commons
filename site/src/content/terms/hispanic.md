@@ -69,7 +69,7 @@ guidance:
     recommendation: "use-with-care"
     quote: "An umbrella term referring to a person whose ethnic origin is in a Spanish-speaking country … except for those from Brazil, which is not a Spanish-speaking country. Federal policy defines 'Hispanic' not as a race, but as an ethnicity; it notes that Hispanics can be of any race."
     quote_loc: "Hispanic entry (lines 1736–1739 in archived markdown)"
-    paraphrase: "DSG defines Hispanic as the umbrella for Spanish-speaking origin (excludes Brazil specifically), clarifies the federal-policy 'ethnicity, not race' construction, and provides the Pew 2013 data that's load-bearing across the corpus: 50% no preference, of the 50% with a preference 2:1 Hispanic over Latino, with a sharp Texas skew at 46-to-8 Hispanic-preferred. Notes the Eastern US lean."
+    paraphrase: "DSG defines Hispanic as the umbrella for Spanish-speaking origin (excludes Brazil specifically), clarifies the federal-policy 'ethnicity, not race' construction, and provides the Pew 2013 data that's load-bearing across the corpus: 50% no preference, of the 50% with a preference 2:1 Hispanic over Latino, with a sharp Texas skew at 46-to-8 Hispanic-preferred. Notes the Eastern U.S. lean."
     confidence: "VERIFIED"
 
   - org: "Racial Equity Tools"
@@ -93,24 +93,24 @@ context_data:
   - label: "U.S. Census Bureau definition"
     claim: "Hispanic is defined federally as an ethnicity, not a race. Census surveys pair the question 'Hispanic or Latino?' separately from race questions; respondents identify as 'Hispanic or Latino' or 'non-Hispanic or Latino' independently of racial identification."
     url: "https://www.census.gov/topics/population/hispanic-origin/about.html"
-    relevance: "The 'ethnicity, not race' construction shapes a lot of US data infrastructure — surveys, demographic reporting, eligibility forms. Important when writing about data, because conflating Hispanic with a racial category misreads what the underlying numbers measure. Hispanic respondents can identify as any race (Black, white, Indigenous, Asian, multiracial)."
+    relevance: "The 'ethnicity, not race' construction shapes a lot of U.S. data infrastructure — surveys, demographic reporting, eligibility forms. Important when writing about data, because conflating Hispanic with a racial category misreads what the underlying numbers measure. Hispanic respondents can identify as any race (Black, white, Indigenous, Asian, multiracial)."
 
   - label: "Geographic distribution of preference"
-    claim: "Hispanic is more commonly used in the Eastern US — Caribbean and South American heritage clusters specifically (per DSG). Latino is more common in the Western US, especially Mexican-American heritage (Sierra Club, DSG, RET)."
+    claim: "Hispanic is more commonly used in the Eastern U.S. — Caribbean and South American heritage clusters specifically (per DSG). Latino is more common in the Western U.S., especially Mexican-American heritage (Sierra Club, DSG, RET)."
     url: null
     relevance: "Audience geography is one of the strongest predictors of which label fits. Defaulting to 'Latino' for Florida Cuban-American audiences or 'Hispanic' for Mexican-American Los Angeles audiences both miss the mark in similar ways."
 
 audience_notes:
-  - audience: "Texas / Southwestern US"
+  - audience: "Texas / Southwestern U.S."
     note: "Hispanic strongly preferred per Pew 2013 (46% Hispanic vs. 8% Latino in Texas specifically). Defaulting to 'Latino' in Texas-targeted communications mis-identifies the majority of readers who express a preference. Match the regional convention or follow the partner organization's style."
-  - audience: "Eastern US / Caribbean / South American heritage"
+  - audience: "Eastern U.S. / Caribbean / South American heritage"
     note: "Hispanic skews more common, partly because 'Hispanic' is generally read as foregrounding Spanish-language heritage (Cuba, Puerto Rico, Dominican Republic), whereas 'Latino' foregrounds geographic origin in a way that some Caribbean readers find less central to their self-description."
-  - audience: "Mexican-American / Chicano / Western US"
+  - audience: "Mexican-American / Chicano / Western U.S."
     note: "Latino tends to be more common; 'Chicano' is a politicized subset-identity for Mexican-American experience that some embrace and others don't (see Chicanx). 'Hispanic' is often perceived as a federal-government bureaucratic label in these communities and may be received as colder than 'Latino.'"
   - audience: "Spanish-speaking / bilingual"
     note: "'Latine' is rising as the in-Spanish gender-neutral form (see Latine and Latinx). Hispanic vs. Latino as an English-language question is largely orthogonal to the Latinx/Latine debate — but both decisions need to be made together when writing for Spanish-speaking audiences."
   - audience: "Federal data / Census / health and demographic research"
-    note: "Use Hispanic when matching federal-data conventions. The Census 'Hispanic or Latino' / 'non-Hispanic' construction is the standard frame for US demographic reporting; deviating from it when citing federal data invites confusion."
+    note: "Use Hispanic when matching federal-data conventions. The Census 'Hispanic or Latino' / 'non-Hispanic' construction is the standard frame for U.S. demographic reporting; deviating from it when citing federal data invites confusion."
   - audience: "Younger / college-age cohorts"
     note: "Often skew toward Latinx or Latine over Hispanic, especially in academic and movement contexts. Older cohorts skew Hispanic or Latino."
 
@@ -124,20 +124,20 @@ contributors:
 
 The most-recent guides treat Hispanic as **definitionally distinct, audience-dependent, and stable.** It is distinct from Latino/a/x because the two umbrellas don't enclose the same set of people. It is audience-dependent because regional preference varies by an order of magnitude. It is stable because, unlike Latinx, where adoption is still evolving, the Hispanic-vs-Latino preference data hasn't moved much across two decades of Pew surveys.
 
-**The definitional gap is the editorial decision the older guides skip.** Casey 2013 lists both as parallel approved nouns with no comment. SEIU 2020 does the same. Sierra Club 2021 and DSG 2023 spell out the line: Hispanic foregrounds Spanish-language heritage and includes Spain while excluding Brazil; Latino/a/x foregrounds Latin American geographic origin and includes Brazil while excluding Spain. A Brazilian writer is Latino but not Hispanic; a Spaniard is Hispanic but not Latino. For most US writing the distinction is invisible because the populations overlap heavily. But at the boundary cases, the guides that name the distinction handle them correctly and the guides that don't, can't.
+**The definitional gap is the editorial decision the older guides skip.** Casey 2013 lists both as parallel approved nouns with no comment. SEIU 2020 does the same. Sierra Club 2021 and DSG 2023 spell out the line: Hispanic foregrounds Spanish-language heritage and includes Spain while excluding Brazil; Latino/a/x foregrounds Latin American geographic origin and includes Brazil while excluding Spain. A Brazilian writer is Latino but not Hispanic; a Spaniard is Hispanic but not Latino. For most U.S. writing the distinction is invisible because the populations overlap heavily. But at the boundary cases, the guides that name the distinction handle them correctly and the guides that don't, can't.
 
 **Federal data uses Hispanic specifically.** The [Census Bureau's 'Hispanic or Latino' construction](/sources/us-census-bureau/) defines Hispanic as an ethnicity rather than a race: respondents identify as Hispanic or non-Hispanic independently of racial identification. Casey 2013's inclusion of 'non-Hispanic white' as a separate approved noun reflects that federal-data demographic frame, not just a stylistic choice. Writing about Census, ACS, HHS, or any federal-data source generally calls for 'Hispanic' to match the underlying terminology. Switching to 'Latino' mid-citation invites confusion about what the numbers measure.
 
 **Regional and generational preference is the live editorial question.** The [Pew 2013 finding](/sources/pew-research-center/) — 50% no preference, 2:1 Hispanic among the half that does prefer, with sharp regional skews — has held substantially stable across follow-up Pew surveys through 2020. Two practical anchors:
 
 - **Texas-focused content**: Hispanic strongly preferred (46% vs. 8% Latino). Defaulting to Latino in Texas mis-identifies most readers who express a preference.
-- **Eastern US / Caribbean / South American heritage**: Hispanic skews more common; Latino skews more common in the Western US and especially Mexican-American Western contexts.
+- **Eastern U.S. / Caribbean / South American heritage**: Hispanic skews more common; Latino skews more common in the Western U.S. and especially Mexican-American Western contexts.
 
-Sierra Club's house default of Latino over Hispanic makes sense for a Western-US-organized environmental org with strong Latino partner networks; it does not travel well to Texas, Florida, or federal-data writing. RET's 'audience-dependent' framing is the most accurate posture across the full US. There is no single right default; the right answer changes with geography, generation, and the data infrastructure being cited.
+Sierra Club's house default of Latino over Hispanic makes sense for a Western-U.S.-organized environmental org with strong Latino partner networks; it does not travel well to Texas, Florida, or federal-data writing. RET's 'audience-dependent' framing is the most accurate posture across the full U.S. There is no single right default; the right answer changes with geography, generation, and the data infrastructure being cited.
 
 **Capitalization is settled** — every guide that addresses it (SEIU 2020 most explicitly, AECF 2013 by usage, Sierra Club 2021, DSG 2023) treats Hispanic as always capitalized.
 
 
 ## History note
 
-'Hispanic' as a US federal-data category was formalized by the 1976 Public Law 94-311 and the Office of Management and Budget's 1977 Statistical Policy Directive No. 15, which required federal agencies to collect data on persons of 'Spanish origin or descent.' The 1980 Census was the first to use the Hispanic category. Latino entered widespread English-language US usage in the late 1970s through the 1990s as a community-preferred alternative that foregrounded Latin American geographic origin rather than Spanish-language descent. The Pew preference data has been substantially stable since the 2002 survey: roughly half of respondents have no preference, and the half that does has consistently skewed toward Hispanic by a 2:1 margin nationally with sharp regional variation.
+'Hispanic' as a U.S. federal-data category was formalized by the 1976 Public Law 94-311 and the Office of Management and Budget's 1977 Statistical Policy Directive No. 15, which required federal agencies to collect data on persons of 'Spanish origin or descent.' The 1980 Census was the first to use the Hispanic category. Latino entered widespread English-language U.S. usage in the late 1970s through the 1990s as a community-preferred alternative that foregrounded Latin American geographic origin rather than Spanish-language descent. The Pew preference data has been substantially stable since the 2002 survey: roughly half of respondents have no preference, and the half that does has consistently skewed toward Hispanic by a 2:1 margin nationally with sharp regional variation.

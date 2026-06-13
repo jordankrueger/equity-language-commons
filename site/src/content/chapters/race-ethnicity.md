@@ -9,7 +9,7 @@ cross_cutting_principles:
   - title: "Prefer specific identifiers over umbrella terms"
     body: "The umbrella terms in this chapter (BIPOC, people of color, AAPI, multiracial, Brown, minority) all carry the same caveat across the corpus: use a more specific identifier when one fits. 'Latinx small business owner' over 'BIPOC small business owner'; 'Korean American' over 'AAPI' when the specificity is available; 'Black communities' over 'urban communities' when that's the actual referent."
   - title: "Capitalization is political — and not yet settled"
-    body: "Black is settled as capital-B across every active style guide in the corpus since June 2020. White divides the corpus: Sierra Club, NGC, and most US news (following AP) lowercase white; NABJ, Washington Post, APA, and DSG capitalize White for symmetry. Brown tracks the same split. Both rules are coherent; both have constituencies. Pick one and document the reasoning."
+    body: "Black is settled as capital-B across every active style guide in the corpus since June 2020. White divides the corpus: Sierra Club, NGC, and most U.S. news (following AP) lowercase white; NABJ, Washington Post, APA, and DSG capitalize White for symmetry. Brown tracks the same split. Both rules are coherent; both have constituencies. Pick one and document the reasoning."
   - title: "Date matters — old guides aren't wrong, they're earlier"
     body: "Casey 2013's lowercase 'black' and absence of multiracial or BIPOC isn't doctrinal — it's pre-2020 AP convention plus pre-2020 demographic landscape. Read date markers as chronology, not as objection. The 2020 AP/NABJ capital-B Black shift and the 2020 BIPOC mainstreaming are the two inflection points that separate pre-2020 and post-2020 guides; most differences across the corpus collapse to that single break."
   - title: "Two acceptable terms are rarely fully interchangeable"
@@ -72,7 +72,7 @@ Sources differ more on *defaults* than on *acceptability*. Most terms in this ch
 
 Source coverage in this chapter spans:
 
-- **Sierra Club Equity Language Guide (2021)** — core, US progressive movement framing
+- **Sierra Club Equity Language Guide (2021)** — core, U.S. progressive movement framing
 - **Native Governance Center Style Guide (2021)** — Indigenous-led framing on capitalization and BIPOC
 - **Annie E. Casey Foundation Style Manual (2013)** — pre-2020 baseline; useful as chronology marker
 - **SEIU Stylebook (Jan 2020)** — labor movement; predates the June 2020 capital-B Black shift

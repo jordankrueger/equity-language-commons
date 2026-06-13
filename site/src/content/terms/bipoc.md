@@ -94,8 +94,8 @@ audience_notes:
     note: "Do not use BIPOC as a personal descriptor when a specific identifier exists. 'Natalia is BIPOC' flattens her Latinx identity into a collective frame; 'Natalia is a Latinx small business owner' is correct (NGC). The same logic applies to Black, Indigenous, Asian American, Pacific Islander, etc."
   - audience: "Groups that include neither Black nor Indigenous people"
     note: "Use POC, not BIPOC. The 'BI' prefix names a specific structural distinction; using it for a group that doesn't include Black or Indigenous people empties the distinction."
-  - audience: "Non-US contexts"
-    note: "BIPOC is a US-rooted term that names US structural racism specifically. It travels poorly to UK, EU, Latin American, or African contexts where racial categories and histories are constructed differently. Use local terminology or 'people of color' if a non-US frame is needed."
+  - audience: "Non-U.S. contexts"
+    note: "BIPOC is a U.S.-rooted term that names U.S. structural racism specifically. It travels poorly to UK, EU, Latin American, or African contexts where racial categories and histories are constructed differently. Use local terminology or 'people of color' if a non-U.S. frame is needed."
 
 last_reviewed: 2026-05-16
 created: 2026-05-16
@@ -107,7 +107,7 @@ contributors:
 
 Every guide that addresses BIPOC tells the same story, even when the surface recommendation varies: the term names a real structural distinction, and overusing it erases that distinction.
 
-The structural claim is consistent across all four sources. Black and Indigenous people in the US experience racism in a way that is distinct from, and frequently more severe than, what other people of color experience. BIPOC names that distinction by fronting it. Sierra Club, NGC, DSG, and RET all agree on this. Where the prior 'people of color' umbrella treats all non-white experience as interchangeable, BIPOC insists on the asymmetry.
+The structural claim is consistent across all four sources. Black and Indigenous people in the U.S. experience racism in a way that is distinct from, and frequently more severe than, what other people of color experience. BIPOC names that distinction by fronting it. Sierra Club, NGC, DSG, and RET all agree on this. Where the prior 'people of color' umbrella treats all non-white experience as interchangeable, BIPOC insists on the asymmetry.
 
 The over-use failure mode is the live editorial concern. Three of four guides (Sierra Club, NGC, DSG) flag the same trap: writers reach for BIPOC as a polite catch-all for 'non-white,' which is exactly the move BIPOC was coined to make harder. The remedy is shared:
 
@@ -124,4 +124,4 @@ The one-line rule: **be more specific whenever you can; reach for BIPOC when you
 
 ## History note
 
-BIPOC emerged from US activist usage in the early 2010s and remained relatively niche through the late 2010s. The May 2020 protests following the murder of George Floyd in Minneapolis pushed the term sharply into mainstream usage — Sandra E. Garcia's June 17, 2020 New York Times piece, "Where Did BIPOC Come From?", captured the moment when the term crossed the activist/mainstream threshold. The 2020–2021 wave of post-Floyd style-guide updates is when most current institutional positions on BIPOC were set. The 'use BIPOC only where the cross-cutting frame fits; otherwise be specific' guidance had stabilized across major progressive guides by mid-2021.
+BIPOC emerged from U.S. activist usage in the early 2010s and remained relatively niche through the late 2010s. The May 2020 protests following the murder of George Floyd in Minneapolis pushed the term sharply into mainstream usage — Sandra E. Garcia's June 17, 2020 New York Times piece, "Where Did BIPOC Come From?", captured the moment when the term crossed the activist/mainstream threshold. The 2020–2021 wave of post-Floyd style-guide updates is when most current institutional positions on BIPOC were set. The 'use BIPOC only where the cross-cutting frame fits; otherwise be specific' guidance had stabilized across major progressive guides by mid-2021.

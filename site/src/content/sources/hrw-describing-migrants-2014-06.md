@@ -25,14 +25,14 @@ itself describes people who cross borders without authorization — and why it
 rejects *illegal immigrant*, *illegal alien*, and *illegals*. The statement
 gives three reasons: the terms are dehumanizing, legally imprecise (unlawful
 presence is a civil, not criminal, matter in many countries including the
-US), and corrosive to the rights such people hold under international law. It
+U.S.), and corrosive to the rights such people hold under international law. It
 recommends *undocumented*, *unauthorized*, or *irregular* instead, and
 documents the media organizations that had already dropped "illegal" by 2014.
 
 On the commons' source spectrum this is a **progressive equity guide** in
 rights-organization form: institutional usage guidance with legal reasoning
 attached. With PICUM's *Words Matter!* it is one of the migration additions to
-the Immigration & Citizenship chapter, and it pre-dates much of the US style
+the Immigration & Citizenship chapter, and it pre-dates much of the U.S. style
 movement on the same terms. The *illegal-immigrant* and *illegal-alien* pages
 cite it for that chronology.
 

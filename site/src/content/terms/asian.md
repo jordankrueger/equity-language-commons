@@ -26,7 +26,7 @@ guidance:
     recommendation: "use"
     quote: "For nouns: African American, Asian American, black, Hispanic, Latino, Native American, non-Hispanic white, white (do not use Caucasian) …"
     quote_loc: "p. 14, Race and Ethnicity"
-    paraphrase: "Casey lists 'Asian American' (no hyphen) among approved racial/ethnic nouns, and gives the hyphenated 'Asian-American woman' as the adjective form. It does not address standalone 'Asian' directly; in US usage that bare term reads as broader than the American-context identity word."
+    paraphrase: "Casey lists 'Asian American' (no hyphen) among approved racial/ethnic nouns, and gives the hyphenated 'Asian-American woman' as the adjective form. It does not address standalone 'Asian' directly; in U.S. usage that bare term reads as broader than the American-context identity word."
     confidence: "VERIFIED-ARCHIVED"
 
   - org: "SumOfUs"
@@ -74,7 +74,7 @@ guidance:
     recommendation: "use-with-care"
     quote: "Caution. A term as broad as European. In some usage, chiefly British, Asian refers to Indians, Pakistanis, Bangladeshis and others. In the United States, such ethnic groups would be known as South Asians, while Chinese, Japanese, Vietnamese and others would be known as East Asians."
     quote_loc: "Asian glossary entry (line 464 in archived markdown)"
-    paraphrase: "DSG flags the standalone 'Asian' as broad as 'European' and notes the key geographic split: British usage centers South Asian (Indian, Pakistani, Bangladeshi), while US usage distinguishes South Asians from East Asians. The caution is about precision and regional reading, not avoidance."
+    paraphrase: "DSG flags the standalone 'Asian' as broad as 'European' and notes the key geographic split: British usage centers South Asian (Indian, Pakistani, Bangladeshi), while U.S. usage distinguishes South Asians from East Asians. The caution is about precision and regional reading, not avoidance."
     confidence: "VERIFIED"
 context_data: []
 external_references: []
@@ -90,11 +90,11 @@ contributors:
 
 **"Asian" is settled, standard language across the corpus: capitalized, and prescribed as the replacement for "Oriental."** Four of the five sources here treat it as an uncontested identifier. SumOfUs and the Native Governance Center both use it as their example in the rule to capitalize racial and ethnic identifiers, the Annie E. Casey Foundation lists the Asian American form among its approved nouns, and SEIU's stylebook makes the prescription explicit: "Oriental [Do not use.] Correct: Asian." Where the rejected form appears in the corpus, "Asian" is what every guide points to instead.
 
-The one caution comes from the Diversity Style Guide, and it's about breadth, not acceptability: "Asian" covers as much ground as "European." The entry maps the geographic split that trips up writers working across audiences. In chiefly British usage, "Asian" defaults to South Asians (Indian, Pakistani, Bangladeshi backgrounds), while US usage separates South Asians from East Asians (Chinese, Japanese, Vietnamese and other backgrounds). The same gradient the corpus applies to other umbrella terms applies here: the broad term is fine when the breadth is the point, and a more specific identity is better when it isn't.
+The one caution comes from the Diversity Style Guide, and it's about breadth, not acceptability: "Asian" covers as much ground as "European." The entry maps the geographic split that trips up writers working across audiences. In chiefly British usage, "Asian" defaults to South Asians (Indian, Pakistani, Bangladeshi backgrounds), while U.S. usage separates South Asians from East Asians (Chinese, Japanese, Vietnamese and other backgrounds). The same gradient the corpus applies to other umbrella terms applies here: the broad term is fine when the breadth is the point, and a more specific identity is better when it isn't.
 
 This page covers the standalone "Asian." The American-context identity term, including the no-hyphen rule and the AAPI umbrella, lives on the asian-american page, and the rejected predecessor form lives on its own page.
 
 ## Audience notes
 
 - **Journalists and editors.** Capitalize Asian, always. Prefer the most specific accurate identity (Korean American, South Asian, Hmong) when the subject's background is known and relevant — "Asian" alone spans most of the world's population.
-- **International and UK-facing writing.** The term reads differently by region: British "Asian" usually means South Asian; US "Asian" often defaults to East Asian in readers' minds. If your audience crosses that line, specify the region.
+- **International and UK-facing writing.** The term reads differently by region: British "Asian" usually means South Asian; U.S. "Asian" often defaults to East Asian in readers' minds. If your audience crosses that line, specify the region.

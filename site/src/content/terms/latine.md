@@ -67,7 +67,7 @@ audience_notes:
   - audience: "Spanish-speaking / bilingual audiences"
     note: "Latine often the stronger choice over Latinx in Spanish-language writing or for primarily Spanish-speaking audiences. Pronounceable, follows existing Spanish patterns, plurals cleanly (Latines)."
   - audience: "English-language writing"
-    note: "Latinx remains the more common form in US English writing. Latine is rising in academic, movement, and LGBTQIA+ contexts but has not displaced Latinx as the dominant English-language gender-neutral form. Both are acceptable; preference varies by audience."
+    note: "Latinx remains the more common form in U.S. English writing. Latine is rising in academic, movement, and LGBTQIA+ contexts but has not displaced Latinx as the dominant English-language gender-neutral form. Both are acceptable; preference varies by audience."
   - audience: "Plural form"
     note: "Latines (plural) reads cleanly and follows the Spanish '-e' pattern; DSG flags clean pluralization as one of Latine's advantages over Latinx. (DSG gives Latinx the plural 'Latinxs.')"
   - audience: "Individual self-identification"
@@ -89,9 +89,9 @@ The corpus on Latine is currently thin (only DSG 2023 and TJA 2023/2026 have ded
 
 **Self-identification is the operating rule, same as Latinx**: TJA's strict deferral — never apply either term to someone who doesn't use it — applies. Latine isn't a polite default override for someone who identifies as Latino, Latina, or Hispanic. Use what people use for themselves.
 
-**For Jordan's-voice / advocacy writing**: Latine over Latinx is increasingly defensible as a default for Spanish-language or bilingual audiences post-2023. For English-language US writing where Spanish-pronunciation isn't a primary concern, Latinx remains the more common form and reads as the standard institutional choice. Both work; the choice is audience-and-context-driven.
+**For Jordan's-voice / advocacy writing**: Latine over Latinx is increasingly defensible as a default for Spanish-language or bilingual audiences post-2023. For English-language U.S. writing where Spanish-pronunciation isn't a primary concern, Latinx remains the more common form and reads as the standard institutional choice. Both work; the choice is audience-and-context-driven.
 
 
 ## History note
 
-The '-e' suffix as a gender-neutral form in Spanish has linguistic precedent in non-gendered Spanish nouns (estudiante, paciente). Its application to Latino/Latina specifically — yielding Latine — emerged from LGBTQIA+, nonbinary, and feminist communities in Spanish-speaking countries in the 2010s. The term gained academic and institutional traction in 2020–2022 and has been moving into mainstream US progressive style-guide adoption since 2023 (DSG's Latine entry updated March 2024 marks the recent institutional uptake). The 'imposed-English-internet-construction' critique that has dogged Latinx since the [2019 Pew data](/sources/pew-research-center/) (only 3% adoption among US Hispanic adults) does not apply to Latine in the same way — Latine's origin is the opposite of Latinx's, and the structural fit with Spanish is its primary advantage rather than an accident.
+The '-e' suffix as a gender-neutral form in Spanish has linguistic precedent in non-gendered Spanish nouns (estudiante, paciente). Its application to Latino/Latina specifically — yielding Latine — emerged from LGBTQIA+, nonbinary, and feminist communities in Spanish-speaking countries in the 2010s. The term gained academic and institutional traction in 2020–2022 and has been moving into mainstream U.S. progressive style-guide adoption since 2023 (DSG's Latine entry updated March 2024 marks the recent institutional uptake). The 'imposed-English-internet-construction' critique that has dogged Latinx since the [2019 Pew data](/sources/pew-research-center/) (only 3% adoption among U.S. Hispanic adults) does not apply to Latine in the same way — Latine's origin is the opposite of Latinx's, and the structural fit with Spanish is its primary advantage rather than an accident.

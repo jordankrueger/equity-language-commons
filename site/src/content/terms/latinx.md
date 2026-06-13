@@ -133,9 +133,9 @@ context_data:
 audience_notes:
   - audience: "Spanish-speaking / bilingual"
     note: "'Latine' often preferred — pronounceable in Spanish, follows a grammatical gender-neutral pattern ('e' suffix), originated in Spanish-speaking LGBTQIA+ communities. 'Latinx' is harder to pronounce in Spanish and is sometimes perceived as an English-internet construction imposed on Spanish-speaking communities."
-  - audience: "Eastern US / Caribbean / South American heritage"
+  - audience: "Eastern U.S. / Caribbean / South American heritage"
     note: "'Hispanic' more common in self-identification (per DSG, RET). 'Hispanic' foregrounds Spanish-language heritage — includes Spain, excludes Brazil."
-  - audience: "Western US / Mexican-American heritage"
+  - audience: "Western U.S. / Mexican-American heritage"
     note: "'Latino' / 'Chicano' more common. 'Latino' foregrounds Latin American geographic origin — excludes Spain, includes Brazil."
   - audience: "Generational"
     note: "Younger cohorts more likely to use 'Latinx' or 'Latine.' Older cohorts more likely to use 'Latino' or 'Hispanic.' Age strongly correlates with adoption (per Pew 2019)."
@@ -167,4 +167,4 @@ The [Pew 3%/23% data](/sources/pew-research-center/), from a December 2019 surve
 
 ## History note
 
-"Latinx" entered mainstream English-language progressive discourse in the mid-2010s as an online coinage, gender-inclusive by design. Peak adoption by US progressive institutions was 2018–2022. In the same window, "Latine" emerged from Spanish-speaking LGBTQIA+ communities as a structurally better fit for Spanish — pronounceable, grammatically consistent with Spanish's existing patterns. Pew's finding that only 3% of U.S. Hispanic/Latino adults used "Latinx" for themselves — from a December 2019 survey published in August 2020 — crystallized the gap between institutional usage and community self-identification, and shaped how post-2020 style guides frame the term.
+"Latinx" entered mainstream English-language progressive discourse in the mid-2010s as an online coinage, gender-inclusive by design. Peak adoption by U.S. progressive institutions was 2018–2022. In the same window, "Latine" emerged from Spanish-speaking LGBTQIA+ communities as a structurally better fit for Spanish — pronounceable, grammatically consistent with Spanish's existing patterns. Pew's finding that only 3% of U.S. Hispanic/Latino adults used "Latinx" for themselves — from a December 2019 survey published in August 2020 — crystallized the gap between institutional usage and community self-identification, and shaped how post-2020 style guides frame the term.

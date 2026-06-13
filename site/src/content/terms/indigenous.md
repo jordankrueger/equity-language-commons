@@ -8,13 +8,13 @@ aliases:
 
 related_terms:
   - slug: "native-american"
-    relation: "geographic-variant"   # US-contextual term
+    relation: "geographic-variant"   # U.S.-contextual term
   - slug: "american-indian"
-    relation: "geographic-variant"   # US legal/census term
+    relation: "geographic-variant"   # U.S. legal/census term
   - slug: "first-nations"
     relation: "geographic-variant"   # Canadian term
   - slug: "alaska-native"
-    relation: "subset-identity"      # US regional umbrella
+    relation: "subset-identity"      # U.S. regional umbrella
   - slug: "tribal"
     relation: "overlapping-but-distinct"  # political-entity framing
   - slug: "indian"
@@ -106,7 +106,7 @@ guidance:
     recommendation: "use"
     quote: "'Indigenous' is internationally inclusive for all Indigenous peoples. … Whenever possible, use a specific name (e.g., Cherokee and Inuit). If you are not aware of the preferred name, whenever possible, ask."
     quote_loc: "p. 24, Indigeneity/Ancestry — Specific Recommendations"
-    paraphrase: "SumOfUs lands on 'Indigenous' as the global umbrella and First Nations / Native American / Aboriginal Peoples as the country-specific terms layered underneath (Canada / US / Australia respectively). The guide addresses colonial-caste terminology (Mestizo, Criollo, Pardo, Zambo) under the same heading — broader scope than any U.S.-journalism-focused guide. Frames the whole section as decolonization, citing Tuck and Yang's 'Decolonization Is Not a Metaphor.' 'Indian' is flagged as outdated except in direct quotes, book titles, historical context, legal/constitutional discussion, rights-and-benefits terminology, and census data."
+    paraphrase: "SumOfUs lands on 'Indigenous' as the global umbrella and First Nations / Native American / Aboriginal Peoples as the country-specific terms layered underneath (Canada / U.S. / Australia respectively). The guide addresses colonial-caste terminology (Mestizo, Criollo, Pardo, Zambo) under the same heading — broader scope than any U.S.-journalism-focused guide. Frames the whole section as decolonization, citing Tuck and Yang's 'Decolonization Is Not a Metaphor.' 'Indian' is flagged as outdated except in direct quotes, book titles, historical context, legal/constitutional discussion, rights-and-benefits terminology, and census data."
     confidence: "VERIFIED-ARCHIVED"
 
   - org: "Diversity Style Guide"
@@ -135,7 +135,7 @@ guidance:
       - "indigenous-environmental-network"
     quote: "[Indigenous Sovereignty] is distinguishable from Tribal Sovereignty in that it is not a nation-state recognition of inherent sovereignty under nation-state dominion. Rather, it arises from Indigenous Traditional Knowledge, belonging to each Indigenous nation, tribe, first nation, community, etc."
     quote_loc: "Entry 'Indigenous Sovereignty' (archived markdown line 2128), quoting Indigenous Environmental Network, June 2020"
-    paraphrase: "RET carries three relevant entries: Indigenous populations (UN Cobo 1972 definition), Indigenous Sovereignty, and Tribal Sovereignty. RET's distinctive contribution is the explicit split between Indigenous Sovereignty (inherent, pre-colonial, independent of state recognition) and Tribal Sovereignty (legal recognition within US law). No other corpus source names this conceptual distinction so cleanly. The Cobo report (1972) is the canonical UN-level definition."
+    paraphrase: "RET carries three relevant entries: Indigenous populations (UN Cobo 1972 definition), Indigenous Sovereignty, and Tribal Sovereignty. RET's distinctive contribution is the explicit split between Indigenous Sovereignty (inherent, pre-colonial, independent of state recognition) and Tribal Sovereignty (legal recognition within U.S. law). No other corpus source names this conceptual distinction so cleanly. The Cobo report (1972) is the canonical UN-level definition."
     confidence: "VERIFIED"
 
   - org: "Global Center for Journalism & Trauma"
@@ -226,13 +226,13 @@ methodological_context:
     note: "Kapitan's 'Thirty Everyday Phrases that Perpetuate the Oppression of Indigenous Peoples' (Oct 2020) is referenced in the Radical Copyeditor index but not captured in the archive. Phase 2 acquisition candidate. Overlap with Sierra Club's Common Phrases to Avoid expected."
 
 audience_notes:
-  - audience: "US-legal / statutory writing"
+  - audience: "U.S.-legal / statutory writing"
     note: "'American Indian' and 'Native American' are both federal terms; HR 4238 (2016) replaced 'American Indian' with 'Native American' (per DSG), though only within two 1970s statutes — it did not sweep the broader body of federal Indian law. For policy or statutory writing, use the term the cited statute or federal program uses. Title 18 of the U.S. Code uses 'Indian Country' — retain when referencing the statute."
-  - audience: "US-editorial / journalism"
+  - audience: "U.S.-editorial / journalism"
     note: "NAJA (now IJA) is the canonical reference. Capitalize Indigenous. Use tribal affiliation at the specific level whenever possible (Cherokee, Lakota, Diné, etc.) before the general term. 'American Indian' and 'Native American' both acceptable at the group level; self-ID wins at the individual level."
-  - audience: "US-org self-description (Native-led orgs)"
+  - audience: "U.S.-org self-description (Native-led orgs)"
     note: "NGC's style prevails: Native people, Native, Indigenous all acceptable house-style; American Indian / Indian on request. Native-led orgs may capitalize differently than mainstream style guides; follow the org's own style."
-  - audience: "US-coalition / environmental / public-lands advocacy"
+  - audience: "U.S.-coalition / environmental / public-lands advocacy"
     note: "Sierra Club's context-switching rule applies: Tribal for U.S.-governmental, Tribal/Native for U.S.-community, Indigenous for international. Tribal sovereignty and treaty-rights framing is load-bearing, not decorative — don't say rights were 'given' to Tribes."
   - audience: "Canadian context"
     note: "First Nations (general) / Métis / Inuit (specific). 'Aboriginal Peoples' covers all three collectively but is increasingly dated as a noun per SumOfUs. Do not say 'Canadian First Nations' — implies possession of Canada over Indigenous peoples (SumOfUs)."
@@ -257,11 +257,11 @@ Indigenous is the term the corpus handles most differently across sources. Every
 
 **Three postures emerge:**
 
-1. **Indigenous as universal umbrella (SumOfUs 2016, Sierra Club 2021).** Indigenous is the global-inclusive term; country-specific terms (Native American in the US, First Nations in Canada, Aboriginal in Australia) sit underneath it. Sierra Club operationalizes this as a context-switching rule — Tribal for U.S. governmental, Tribal/Native for U.S. community, Indigenous for international. Clear separation between legal-political terms and cultural-umbrella terms.
+1. **Indigenous as universal umbrella (SumOfUs 2016, Sierra Club 2021).** Indigenous is the global-inclusive term; country-specific terms (Native American in the U.S., First Nations in Canada, Aboriginal in Australia) sit underneath it. Sierra Club operationalizes this as a context-switching rule — Tribal for U.S. governmental, Tribal/Native for U.S. community, Indigenous for international. Clear separation between legal-political terms and cultural-umbrella terms.
 
-2. **Indigenous as US-editorial default (NGC 2021, NAJA 2017, DSG 2023, GCJT 2021).** Indigenous is one of the acceptable in-country U.S. terms, broadly interchangeable with Native / Native American at the general level, with American Indian / Indian / First Nations reserved for self-ID, legal context, or geographic specificity. Capitalization is the shared rule, always framed as rejecting the plants-and-animals equivalence (NAJA's phrasing, inherited by DSG and GCJT).
+2. **Indigenous as U.S.-editorial default (NGC 2021, NAJA 2017, DSG 2023, GCJT 2021).** Indigenous is one of the acceptable in-country U.S. terms, broadly interchangeable with Native / Native American at the general level, with American Indian / Indian / First Nations reserved for self-ID, legal context, or geographic specificity. Capitalization is the shared rule, always framed as rejecting the plants-and-animals equivalence (NAJA's phrasing, inherited by DSG and GCJT).
 
-3. **Indigenous as sovereignty-first framing (RET 2023, NGC 2021 via Younging 2018).** Indigenous refers less to a racial/ethnic category than to a political condition — pre-colonial continuity, inherent sovereignty, distinct institutional systems. RET's explicit split between Indigenous Sovereignty (inherent, independent of nation-state) and Tribal Sovereignty (legal recognition within US law) is the sharpest articulation in the corpus. NGC's "Indigenous style overrules other styles" posture is the editorial consequence of the same underlying premise.
+3. **Indigenous as sovereignty-first framing (RET 2023, NGC 2021 via Younging 2018).** Indigenous refers less to a racial/ethnic category than to a political condition — pre-colonial continuity, inherent sovereignty, distinct institutional systems. RET's explicit split between Indigenous Sovereignty (inherent, independent of nation-state) and Tribal Sovereignty (legal recognition within U.S. law) is the sharpest articulation in the corpus. NGC's "Indigenous style overrules other styles" posture is the editorial consequence of the same underlying premise.
 
 **The postures aren't contradictory — they're audience-sorted.** Newsroom guides (NAJA, DSG, GCJT) land on posture 2; advocacy guides (Sierra Club, SumOfUs) land on posture 1; Indigenous-led guides (NGC) and critical-theory-adjacent glossaries (RET) land on posture 3. Practitioners should pick the posture that matches their own publishing context rather than collapse the three into a single rule.
 
@@ -273,7 +273,7 @@ Indigenous is the term the corpus handles most differently across sources. Every
 
 **Specificity over aggregation is the other near-universal rule.** NAJA, NGC, DSG, GCJT, SumOfUs, and Sierra Club all state some version of the same point: whenever possible, use the specific tribal, national, or linguistic name rather than the umbrella term. "Lummi Nation" over "Tribe"; "Cherokee" over "Native American"; "Dine" over "Indigenous." The aggregation terms exist for when specifics aren't known or when writing at scale.
 
-**Geographic and subset variants carry their own operational rules.** In Australia, "Aboriginal" remains standard, with "Torres Strait Islander" named as a distinct identity and "Aboriginal Peoples" as the preferred plural — capitalize per the same plants-and-animals rule the US corpus applies to Indigenous. In Alaska, "Alaska Native" is the in-region umbrella, encompassing Inupiat, Yupik, Athabascan, Haida, Tlingit, Tsimshian, and Aleut peoples; many Alaska Native people prefer "Alaska Native" to being grouped under "American Indian" (DSG). "Inuit" has replaced "Eskimo" in most current usage across SumOfUs, DSG, and Sierra Club; "Eskimo" is retained only where communities self-identify that way (still common in some Alaska contexts). "Indian" is the dated/legal-retained form: use only per self-identification or when quoting, and flag as "self-identified" in outside-group writing (Sierra Club). "Two-Spirit" is an Indigenous-specific gender/identity term — NLGJA and TJA both capture it, with the same rule: do not apply it outside Indigenous contexts; treat as self-identification only.
+**Geographic and subset variants carry their own operational rules.** In Australia, "Aboriginal" remains standard, with "Torres Strait Islander" named as a distinct identity and "Aboriginal Peoples" as the preferred plural — capitalize per the same plants-and-animals rule the U.S. corpus applies to Indigenous. In Alaska, "Alaska Native" is the in-region umbrella, encompassing Inupiat, Yupik, Athabascan, Haida, Tlingit, Tsimshian, and Aleut peoples; many Alaska Native people prefer "Alaska Native" to being grouped under "American Indian" (DSG). "Inuit" has replaced "Eskimo" in most current usage across SumOfUs, DSG, and Sierra Club; "Eskimo" is retained only where communities self-identify that way (still common in some Alaska contexts). "Indian" is the dated/legal-retained form: use only per self-identification or when quoting, and flag as "self-identified" in outside-group writing (Sierra Club). "Two-Spirit" is an Indigenous-specific gender/identity term — NLGJA and TJA both capture it, with the same rule: do not apply it outside Indigenous contexts; treat as self-identification only.
 
 **Sovereignty is an editorial stance, not a terminology question.** Sierra Club dedicates a full chapter (pp. 16–18) to Tribal Sovereignty and Public Lands. NGC roots its style guide in Younging's Indigenous-style framework. RET gives Indigenous Sovereignty its own entry and distinguishes it from Tribal Sovereignty. Writers who engage Indigenous topics without engaging sovereignty drift toward terminology-only hygiene, which every engaged source in the corpus rejects. Treat Tribal Sovereignty as its own topic area, likely its own chapter on the commons site, not as an annotation on the Indigenous term page.
 

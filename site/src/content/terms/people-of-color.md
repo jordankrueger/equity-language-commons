@@ -92,7 +92,7 @@ guidance:
 
 context_data:
   - label: "The colored people / people of color distinction"
-    claim: "'Colored people' centers color as a defining characteristic and is associated with Jim Crow-era and earlier US racial vocabulary. 'People of color' is people-first construction that emerged in late-1970s racial-justice organizing as an explicit reversal."
+    claim: "'Colored people' centers color as a defining characteristic and is associated with Jim Crow-era and earlier U.S. racial vocabulary. 'People of color' is people-first construction that emerged in late-1970s racial-justice organizing as an explicit reversal."
     url: null
     relevance: "The two phrases are NOT interchangeable — and the syntactic difference (color-first vs. people-first) is the key. NAACP retains 'Colored People' in its proper name because of its historical 1909 founding; that does not generalize as license to use the construction outside of formal organization names."
 
@@ -138,4 +138,4 @@ POC predates BIPOC by roughly four decades — late-1970s racial-justice organiz
 
 ## History note
 
-'People of color' entered widespread US racial-justice usage in the late 1970s as a coalitional frame distinguishing itself sharply from the 19th- and early-20th-century 'colored people' construction. The syntactic reversal — people first, color as modifier — was the deliberate point. The term gained mainstream institutional adoption through the 1980s and 1990s and was the dominant racial-justice umbrella until the post-2020 BIPOC mainstreaming. The 2019–2020 wave of op-eds critiquing POC overlapped with the rise of BIPOC during the same window. Both terms now coexist, and usage is fragmenting along audience and tradition lines.
+'People of color' entered widespread U.S. racial-justice usage in the late 1970s as a coalitional frame distinguishing itself sharply from the 19th- and early-20th-century 'colored people' construction. The syntactic reversal — people first, color as modifier — was the deliberate point. The term gained mainstream institutional adoption through the 1980s and 1990s and was the dominant racial-justice umbrella until the post-2020 BIPOC mainstreaming. The 2019–2020 wave of op-eds critiquing POC overlapped with the rise of BIPOC during the same window. Both terms now coexist, and usage is fragmenting along audience and tradition lines.

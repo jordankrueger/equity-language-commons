@@ -25,7 +25,7 @@ version_history:
 
 ## About
 
-**The Associated Press Stylebook** is the dominant style reference for US
+**The Associated Press Stylebook** is the dominant style reference for U.S.
 news writing. It is not an equity-language guide and is not part of the
 commons corpus — it appears here as a **reference source** because the
 corpus guides constantly position themselves relative to AP decisions, and

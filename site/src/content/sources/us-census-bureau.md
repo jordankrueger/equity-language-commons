@@ -1,10 +1,10 @@
 ---
-org: "US Census Bureau"
+org: "U.S. Census Bureau"
 org_slug: "us-census-bureau"
 work_title: "Decennial census race categories and population projections"
 year: 2021
-copyright_holder: "US Census Bureau (public domain, US government work)"
-license: "US government work — public domain. Cited with attribution at canonical census.gov URLs."
+copyright_holder: "U.S. Census Bureau (public domain, U.S. government work)"
+license: "U.S. government work — public domain. Cited with attribution at canonical census.gov URLs."
 source_url: "https://www.census.gov/"
 local_archive: null
 host_posture: "link-out-only"
@@ -23,7 +23,7 @@ version_history:
 
 ## About
 
-The **US Census Bureau**'s decennial race categories and population
+The **U.S. Census Bureau**'s decennial race categories and population
 projections are referenced across the commons' Race & Ethnicity chapter.
 The Bureau is not an equity-language guide and is not part of the commons
 corpus — it appears here as a **reference source** for four facts the

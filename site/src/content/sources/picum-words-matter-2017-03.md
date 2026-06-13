@@ -34,7 +34,7 @@ On the commons' source spectrum this is a **progressive equity guide** —
 advocacy-organization guidance on what to call people — and, with Human Rights
 Watch's guidelines, one of the two migration anchors added to the corpus in
 June 2026. It is also the corpus' only European source, a counterweight to the
-otherwise US-centric corpus.
+otherwise U.S.-centric corpus.
 
 Readers consulting the archived extraction should know the original is a
 designed infographic: its multilingual word-map scatters country names through

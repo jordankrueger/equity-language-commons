@@ -41,24 +41,24 @@ guidance:
 
 context_data:
   - label: "Who 'Brown' describes"
-    claim: "'Brown' as a US racial descriptor has multiple, partially-overlapping referents: Latinx and Hispanic people in many usages; South Asian (Indian, Pakistani, Bangladeshi, Sri Lankan) people in many usages; Middle Eastern and North African (MENA) people in many usages; Indigenous people in some usages; people of mixed heritage in some usages."
+    claim: "'Brown' as a U.S. racial descriptor has multiple, partially-overlapping referents: Latinx and Hispanic people in many usages; South Asian (Indian, Pakistani, Bangladeshi, Sri Lankan) people in many usages; Middle Eastern and North African (MENA) people in many usages; Indigenous people in some usages; people of mixed heritage in some usages."
     url: null
     relevance: "The referent is unstable across contexts. 'Brown' in 'Black and Brown communities' often functions as a Latinx/Hispanic shorthand. 'Brown' in South Asian contexts often refers specifically to South Asian heritage. 'Brown' in MENA contexts often refers specifically to MENA heritage. The unstable referent is part of why guides outside NABJ tend not to engage Brown as a primary term — it's harder to pin down than Black or white."
 
   - label: "The 'Black and Brown' phrasing"
-    claim: "The construction 'Black and Brown communities' or 'Black and Brown people' is widespread in US movement and political vocabulary, often used as an alternative to 'BIPOC' or 'people of color' that specifically pairs Black and Latinx/Hispanic experience."
+    claim: "The construction 'Black and Brown communities' or 'Black and Brown people' is widespread in U.S. movement and political vocabulary, often used as an alternative to 'BIPOC' or 'people of color' that specifically pairs Black and Latinx/Hispanic experience."
     url: null
-    relevance: "The 'Black and Brown' construction is the most common context for 'Brown' usage in current US progressive language. When the phrasing is used, 'Brown' generally functions as Latinx/Hispanic shorthand rather than a broader umbrella. Sierra Club, NGC, and DSG don't have dedicated Brown entries but their broader frameworks (specificity preferred, individual self-identification primary) apply."
+    relevance: "The 'Black and Brown' construction is the most common context for 'Brown' usage in current U.S. progressive language. When the phrasing is used, 'Brown' generally functions as Latinx/Hispanic shorthand rather than a broader umbrella. Sierra Club, NGC, and DSG don't have dedicated Brown entries but their broader frameworks (specificity preferred, individual self-identification primary) apply."
 
 audience_notes:
   - audience: "When following NABJ / symmetric capitalization"
     note: "Brown is capitalized parallel to Black and White. 'Black and Brown communities,' 'Brown families,' 'Brown organizers.' NABJ, Washington Post, APA, DSG (by extension of their color-symmetric position) all support this."
   - audience: "When following AP / asymmetric capitalization"
-    note: "AP's June 2020 decision capitalized Black but did not include Brown. Most US news outlets following AP lowercase 'brown' or avoid the term entirely. Sierra Club and NGC are silent on Brown; their broader pattern (lowercase white) suggests lowercase brown by parallel logic — but neither guide explicitly addresses the term."
+    note: "AP's June 2020 decision capitalized Black but did not include Brown. Most U.S. news outlets following AP lowercase 'brown' or avoid the term entirely. Sierra Club and NGC are silent on Brown; their broader pattern (lowercase white) suggests lowercase brown by parallel logic — but neither guide explicitly addresses the term."
   - audience: "Referent ambiguity"
     note: "When using 'Brown,' the referent is often unclear without context. 'Black and Brown communities' usually reads as Latinx/Hispanic shorthand; 'Brown South Asian writers' specifies the referent; 'Brown people' alone can mean different communities to different readers. When a specific identifier fits better — Latinx, South Asian, MENA — the specificity preference applies."
   - audience: "South Asian / 'Brown' as community self-identification"
-    note: "Many South Asian people in the US, UK, and globally use 'Brown' as a community self-identification, often with deliberate political content (Brown solidarity, the 'Brown Pride' movement, the Desi diaspora's 'Brown community'). In these contexts, 'Brown' is the affirmed self-identification rather than a default racial descriptor; defer to community usage."
+    note: "Many South Asian people in the U.S., UK, and globally use 'Brown' as a community self-identification, often with deliberate political content (Brown solidarity, the 'Brown Pride' movement, the Desi diaspora's 'Brown community'). In these contexts, 'Brown' is the affirmed self-identification rather than a default racial descriptor; defer to community usage."
   - audience: "MENA / 'Brown' as identification"
     note: "Some Middle Eastern and North African (MENA) people use 'Brown' as a racial self-identification, particularly in contexts where the federal-data classification of MENA as 'White' is contested. MENA is the more specific identifier when applicable."
 
@@ -70,11 +70,11 @@ contributors:
 
 ## Synthesis
 
-Brown is the **third color-based race descriptor** in the US R&E vocabulary, and it sits in the same NABJ-vs-AP capitalization split as [white](/terms/white/), but with much thinner corpus engagement and a more unstable referent.
+Brown is the **third color-based race descriptor** in the U.S. R&E vocabulary, and it sits in the same NABJ-vs-AP capitalization split as [white](/terms/white/), but with much thinner corpus engagement and a more unstable referent.
 
-**Capitalization tracks the same split as White.** NABJ's symmetric rule capitalizes Black, White, and Brown for descriptive integrity. AP's asymmetric rule capitalizes only Black. Most US news follows AP. Most progressive movement vocabulary follows NABJ for Brown when it engages the term at all. There is no third position: houses that capitalize White generally capitalize Brown, and houses that lowercase white generally lowercase brown (when they engage the term, which Sierra Club, NGC, SEIU, and Casey do not).
+**Capitalization tracks the same split as White.** NABJ's symmetric rule capitalizes Black, White, and Brown for descriptive integrity. AP's asymmetric rule capitalizes only Black. Most U.S. news follows AP. Most progressive movement vocabulary follows NABJ for Brown when it engages the term at all. There is no third position: houses that capitalize White generally capitalize Brown, and houses that lowercase white generally lowercase brown (when they engage the term, which Sierra Club, NGC, SEIU, and Casey do not).
 
-**The referent is the unsettled part.** Brown in US usage doesn't have a stable single referent the way Black or White do. The most common contexts:
+**The referent is the unsettled part.** Brown in U.S. usage doesn't have a stable single referent the way Black or White do. The most common contexts:
 
 - **'Black and Brown communities'** as a movement-vocabulary pairing — usually Latinx/Hispanic shorthand.
 - **South Asian self-identification** — many South Asian people in the diaspora use Brown as community self-identification with deliberate political content.
@@ -90,4 +90,4 @@ When a more specific identifier fits — Latinx, South Asian, MENA, Indigenous, 
 
 ## History note
 
-'Brown' entered US racial vocabulary through multiple distinct movements with different referents: Brown Berets (1960s–70s, Mexican-American/Chicano), Brown Pride (1990s–2000s, broadly Latinx and South Asian movement uses), and the more recent 'Black and Brown solidarity' framing in 2010s–2020s racial-justice organizing. The June 2020 NABJ statement was the most prominent institutional capitalization decision; AP's separate July 2020 White decision left Brown's capitalization implicit (not addressed). The Latinx/South Asian/MENA referent-overlap problem has persisted across all of this; the term works in movement vocabulary precisely because the looseness allows multi-coalition framing, but the same looseness makes it harder to handle in editorial style.
+'Brown' entered U.S. racial vocabulary through multiple distinct movements with different referents: Brown Berets (1960s–70s, Mexican-American/Chicano), Brown Pride (1990s–2000s, broadly Latinx and South Asian movement uses), and the more recent 'Black and Brown solidarity' framing in 2010s–2020s racial-justice organizing. The June 2020 NABJ statement was the most prominent institutional capitalization decision; AP's separate July 2020 White decision left Brown's capitalization implicit (not addressed). The Latinx/South Asian/MENA referent-overlap problem has persisted across all of this; the term works in movement vocabulary precisely because the looseness allows multi-coalition framing, but the same looseness makes it harder to handle in editorial style.
