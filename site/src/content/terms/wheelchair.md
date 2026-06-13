@@ -28,7 +28,7 @@ guidance:
     derived_from: []
     quote: "Terms used by disability rights activists: … uses a wheelchair. Terms avoided/questioned by disability rights activists: … wheelchair-bound, confined to a wheelchair, in a wheelchair."
     quote_loc: "Disability language two-column list, \"Terms used\" vs. \"Terms avoided/questioned by disability rights activists\""
-    paraphrase: "SumOfUs's two-column disability list places \"uses a wheelchair\" among the terms used by disability rights activists, and \"wheelchair-bound,\" \"confined to a wheelchair,\" and \"in a wheelchair\" in its avoided/questioned column."
+    paraphrase: "Use \"uses a wheelchair.\" As the earliest source on the page and the one drawing directly from disability-rights activists rather than a newsroom, SumOfUs is also the only one to flag \"in a wheelchair\" — not just \"bound\" and \"confined\" — as a form to question."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Sierra Club"
     org_slug: "sierra-club"
@@ -52,7 +52,7 @@ guidance:
     derived_from: []
     quote: "TERM TO AVOID … SUGGESTED ALTERNATIVE … wheelchair-bound … person who uses a wheelchair … confined to a wheelchair … wheelchair user"
     quote_loc: "Disability section, \"Term to avoid / Suggested alternative\" table"
-    paraphrase: "APA's avoid/alternative table pairs \"wheelchair-bound\" and \"confined to a wheelchair\" with the suggested alternatives \"person who uses a wheelchair\" and \"wheelchair user.\""
+    paraphrase: "APA reaches the same place as the others by table rather than by argument — no rationale, just the avoid/use pairing — which makes it the clinical-style confirmation that the \"wheelchair user\" form is settled consensus, not one guide's preference."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Diversity Style Guide"
     org_slug: "diversity-style-guide"

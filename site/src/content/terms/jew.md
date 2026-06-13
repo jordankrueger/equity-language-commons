@@ -36,7 +36,7 @@ guidance:
     derived_from: []
     quote: "Capitalize the proper names of ancestral, national, place, and religious identities: Indigenous Peoples, Arab, French-Canadian, Inuit, Jew, Latin, Asian, Cree, etc."
     quote_loc: "\"Disability\" / capitalization section"
-    paraphrase: "SumOfUs lists \"Jew\" among the ancestral, national, place, and religious identities that should be capitalized as proper names — treating it as a correct, capitalized noun rather than a label to avoid."
+    paraphrase: "SumOfUs supplies the one rule the rest of the page rests on but doesn't state — the affirmative capitalization rule. While the Religion Stylebook and DSG work through who counts as a Jew and the verb-form slur, SumOfUs settles the plain mechanical point: \"Jew\" is a standard proper noun, capitalized like any other ancestral or religious identity, not a word to write around."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Diversity Style Guide"
     org_slug: "diversity-style-guide"

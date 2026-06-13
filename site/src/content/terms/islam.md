@@ -49,7 +49,7 @@ guidance:
     derived_from: []
     quote: "Islam: Youngest of the world's three major monotheistic religions. … Although Arabic is the language of the Koran, not all Arabs are Muslim and not all Muslims are Arabs."
     quote_loc: "\"Islam\" entry"
-    paraphrase: "NABJ defines Islam as the youngest of the three major monotheistic religions and explicitly warns against the common conflation: not all Arabs are Muslim, and not all Muslims are Arab."
+    paraphrase: "\"Youngest of the three\" places Islam relative to Judaism and Christianity rather than describing it on its own. NABJ is one of two independent legs on the page that correct the Arab/Muslim conflation outright — the error this entry exists to flag, and the one the audience notes single out as most common in progressive copy."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Diversity Style Guide"
     org_slug: "diversity-style-guide"
@@ -73,7 +73,7 @@ guidance:
     derived_from: []
     quote: "Follow AP style, which defines the term as an \"advocate or supporter of a political movement that favors reordering government and society in accordance with laws prescribed by Islam\" … \"Do not use as a synonym for Islamic fighters, militants, extremists or radicals, who may or may not be Islamists.\""
     quote_loc: "Glossary entry, \"Islamist\""
-    paraphrase: "The Diversity Style Guide, following AP, defines an Islamist as an advocate of a political movement to reorder government according to Islamic law — and cautions that \"Islamist\" must not be used as a synonym for fighters, militants, extremists, or radicals, who may or may not be Islamists."
+    paraphrase: "This is the page's \"don't fuse the religion with a political movement\" leg. The AP definition is deliberately narrow — a political program, not a faith — and the caution exists because \"Islamist\" gets routinely swapped in as a militancy synonym; the guide's point is that an Islamist may be neither violent nor an extremist, so the two words are not interchangeable."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Diversity Style Guide"
     org_slug: "diversity-style-guide"

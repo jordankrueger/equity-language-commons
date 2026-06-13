@@ -76,7 +76,7 @@ guidance:
     recommendation: "evolving"
     quote: "Whether to use the terms African American or Black, Hispanic American, Latinx or Latino, Native American or American Indian, and Pacific Islander or Asian American depends on a variety of conditions, including your intended audiences' geographic location, age, generation, and, sometimes, political orientation."
     quote_loc: "Introductory framing note (lines 91–95 in archived markdown)"
-    paraphrase: "RET groups the African American / Black choice with the other major U.S. racial-identity binaries (Hispanic American/Latino, Native American/American Indian, Pacific Islander/Asian American) and frames all of them as audience-dependent — geography, age, generation, political orientation. No house default."
+    paraphrase: "RET is the only source on this page that routes the choice to audience rather than to the individual: where Sierra Club and DSG say ask the person, RET frames it as an audience-segmentation call — geography, age, generation, sometimes political orientation. That, plus its \"evolving\" marking, is why it offers no house default, and it generalizes the same logic across the other racial-identity pairs (Latino/Hispanic, American Indian/Native American, Asian American/Pacific Islander)."
     confidence: "VERIFIED"
 
 context_data:

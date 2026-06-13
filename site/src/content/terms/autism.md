@@ -52,7 +52,7 @@ guidance:
     derived_from: []
     quote: "For example, some people prefer to identify as \"an autistic person\" rather than someone \"with autism\" because their autism is foundational to their sense of self. In all cases, ask people how they want to be identified, and remember that no community speaks with one voice."
     quote_loc: "Overall Recommendations, Use People-First Language, p. 1"
-    paraphrase: "Sierra Club uses autism as its worked example of identity-first language: some people prefer \"an autistic person\" because their autism is foundational to their sense of self. The governing rule is to ask each person how they want to be identified, with the reminder that the community does not speak with one voice."
+    paraphrase: "Sierra Club is the source that reaches autism from the general direction: it invokes autism to illustrate a broad people-first-versus-identity-first rule rather than as a disability-specific entry, which is why its takeaway is the meta-caution that \"no community speaks with one voice\" — a warning against applying any single naming convention across a group."
     confidence: "VERIFIED-ARCHIVED"
   - org: "American Psychological Association"
     org_slug: "apa"

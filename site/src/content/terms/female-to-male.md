@@ -39,7 +39,7 @@ guidance:
     derived_from: []
     quote: "Once common ways of describing a trans person based on their assigned sex at birth, these terms are generally seen as outdated now. Transfeminine and transmasculine are more modern equivalents."
     quote_loc: "Glossary entry: male-to-female (MtF), female-to-male (FtM) (adj.)"
-    paraphrase: "TJA describes both directional terms as once-common ways of naming a trans person by assigned sex at birth and points to transfeminine and transmasculine as the current equivalents."
+    paraphrase: "The three sources here agree the directional forms are earlier shorthand but split on the replacement; TJA's is transfeminine / transmasculine, which names a broader gender register rather than the assigned-at-birth axis (APA's AFAB / AMAB) or the gender itself (NLGJA's trans man / trans woman). Pick the framing the sentence actually needs."
     confidence: "VERIFIED-ARCHIVED"
   - org: "NLGJA - The Association of LGBTQ Journalists"
     org_slug: "nlgja"

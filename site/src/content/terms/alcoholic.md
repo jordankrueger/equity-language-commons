@@ -61,7 +61,7 @@ guidance:
     derived_from: []
     quote: "The Center for Substance Abuse Treatment recommends using people-first language such as someone with alcoholism or someone with an alcohol problem. Refer to someone who harmfully uses alcohol as someone with an alcohol problem… Use recovering…"
     quote_loc: "\"alcoholic, alcoholism\" glossary entry"
-    paraphrase: "The Diversity Style Guide's entry cites the Center for Substance Abuse Treatment's recommendation of people-first language — \"someone with alcoholism\" or \"someone with an alcohol problem\" — over \"alcoholic,\" and recommends \"recovering\" for someone in recovery."
+    paraphrase: "DSG and NCDJ run a nearly identical entry here — both trace the people-first recommendation to the same Center for Substance Abuse Treatment source and both prefer \"recovering\" over \"recovered.\" The convergence is the point: the two most detailed entries on the page agree on the replacement phrasing and its origin, so there is no contested split the way \"victim\" splits."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []

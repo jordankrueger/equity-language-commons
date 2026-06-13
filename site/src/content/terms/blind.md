@@ -53,7 +53,7 @@ guidance:
     derived_from: []
     quote: "Blind (for someone who has complete loss of sight) Legally blind (for someone who has almost complete loss of sight) Limited vision/Low vision/Partially sighted/Visually impaired (for someone who is neither legally or completely blind)"
     quote_loc: "\"Blind\" entry, suggested-language list"
-    paraphrase: "Movement Strategy Center's glossary maps the same three-tier scale onto a suggested-language list: \"blind\" for complete loss of sight, \"legally blind\" for almost complete loss, and \"limited vision,\" \"low vision,\" \"partially sighted,\" or \"visually impaired\" for someone who is neither legally nor completely blind."
+    paraphrase: "MSC carries the same AFB-derived scale as NCDJ and DSG but stops at the vocabulary — it's a bare suggested-language list with no ask-the-person or identity-first-vs-people-first layer. Its value here is chronological: a 2024 glossary repeating the framework verbatim shows the degree-of-loss scale had settled into general progressive practice, not just disability-beat style guides."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []

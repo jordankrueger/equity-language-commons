@@ -24,7 +24,7 @@ guidance:
     derived_from: []
     quote: "A term used by some people who experience their gender identity and/or gender expression as falling outside the categories of man and woman… The term is not a synonym for transgender or transsexual and should only be used if someone self-identifies as genderqueer."
     quote_loc: "Glossary entry: genderqueer"
-    paraphrase: "The Diversity Style Guide defines genderqueer as a self-identified gender outside the man/woman categories and warns that it is not a synonym for transgender or transsexual, so it should be applied only when a person uses it for themselves."
+    paraphrase: "DSG's contribution is the usage gate, not the definition: it is the only source here that explicitly blocks treating genderqueer as a stand-in for transgender or transsexual, and ties that to a self-identification rule — never apply the label to someone who hasn't claimed it. Where HRC describes the felt experience and TJA sorts the term's scope, DSG governs when a writer may use it at all."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Human Rights Campaign"
     org_slug: "hrc"
@@ -48,7 +48,7 @@ guidance:
     derived_from: []
     quote: "Similar to (though not synonymous with) nonbinary, genderqueer describes both a specific identity and a broad category of people who identify as neither men nor women."
     quote_loc: "Glossary entry: genderqueer (adj.)"
-    paraphrase: "The Trans Journalists Association frames genderqueer as both a specific identity and a broad category for people who identify as neither men nor women, distinct from but related to nonbinary."
+    paraphrase: "TJA's useful move is naming the term's double duty — genderqueer is both a particular identity a person claims and an umbrella for people outside the man/woman binary, which is why it can't be swapped one-for-one with nonbinary even though the two overlap. For a journalist, that ambiguity is the caution: it signals you may need to ask which sense a source means."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []

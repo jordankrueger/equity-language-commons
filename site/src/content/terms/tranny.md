@@ -51,7 +51,7 @@ guidance:
     derived_from: []
     quote: "Often a pejorative term for a transgender person, it is now being reclaimed by some transgender people. Offensive when used as an epithet and should be avoided except in quotes or as someone's self-identified term."
     quote_loc: "Glossary entry, \"tranny\""
-    paraphrase: "The Diversity Style Guide describes \"tranny\" as often pejorative but now being reclaimed by some transgender people. It frames the term as offensive as an epithet and to be avoided, with two carve-outs: direct quotation and a person's own self-identified use."
+    paraphrase: "Where DCFPI and SumOfUs only list the word and NLGJA states a bare prohibition, DSG is the source that spells out the full structure the page turns on: pejorative as an epithet, but reclaimed inside the community, with exactly two carve-outs — direct quotation and a person's own self-identified use. Reclamation is internal; it never licenses an outsider."
     confidence: "VERIFIED-ARCHIVED"
   - org: "NLGJA: The Association of LGBTQ+ Journalists"
     org_slug: "nlgja"

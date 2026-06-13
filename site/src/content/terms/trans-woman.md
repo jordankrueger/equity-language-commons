@@ -60,7 +60,7 @@ guidance:
     derived_from: []
     quote: "Terms used by sex and gender identity justice activists … trans woman, trans man … transgender (adj.) … transgender people"
     quote_loc: "\"Terms used by sex and gender identity justice activists\" list, p. 16"
-    paraphrase: "SumOfUs includes \"trans woman, trans man\" in its inventory of preferred terms used by sex and gender identity justice activists, treating the open two-word form as standard usage alongside \"transgender people.\""
+    paraphrase: "SumOfUs is the earliest source on the page (2016) and the one that treats \"trans woman\" as a plain in-group preferred term — no relevance test, no spelling caveat, no disclosure rule. Those refinements arrive later with the journalism stylebooks; here the term simply sits on a \"say this\" list."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []

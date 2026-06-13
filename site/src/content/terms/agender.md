@@ -49,7 +49,7 @@ guidance:
     derived_from: []
     quote: "Defined as not having a gender; not synonymous with asexual or genderqueer. Some agender people say they lack gender, while others say they are gender neutral. Agender people might identify as transgender, nonbinary, both or neither."
     quote_loc: "Gender, Gender Identity section, \"agender (adj.)\""
-    paraphrase: "NLGJA's stylebook defines agender as not having a gender, notes it is not synonymous with asexual or genderqueer, and observes that agender people may or may not also identify as transgender or nonbinary."
+    paraphrase: "NLGJA is the source here that draws the lateral lines — it warns agender is not interchangeable with asexual (a matter of attraction, not gender) or genderqueer, where APA and DSG focus instead on separating it from nonbinary. It also leaves the relationship to transgender and nonbinary open: an agender person might claim either, both, or neither."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Trans Journalists Association"
     org_slug: "tja"

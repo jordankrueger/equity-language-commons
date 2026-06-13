@@ -73,7 +73,7 @@ guidance:
     derived_from: []
     quote: "Stereotyping and prejudice against individuals or groups because of their age. … Dr. Butler defined ageism as a combination of three connected elements: prejudicial attitudes towards older people, old age and the aging process; discriminatory practices against older people; and institutional practices and policies that perpetuate stereotypes about older people."
     quote_loc: "Glossary entry, \"ageism\""
-    paraphrase: "The Diversity Style Guide defines ageism as stereotyping and prejudice based on age, citing Butler's three connected elements: prejudicial attitudes, discriminatory practices, and institutional policies that perpetuate stereotypes about older people."
+    paraphrase: "Alone among the sources here, the Diversity Style Guide carries Butler's full clinical structure forward — three connected layers rather than a single attitude — which is what pins the term to discriminatory practices and institutional policy, not the everyday assumptions Sierra Club describes."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []

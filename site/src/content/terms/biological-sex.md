@@ -27,7 +27,7 @@ guidance:
     derived_from: []
     quote: "Use \"assigned female/male at birth\" or \"sex assigned at birth.\" Avoid \"natal sex,\" \"biologically female/male,\" or \"born a woman/man.\""
     quote_loc: "Section 2: Bias-Free Language → Birth assignment language"
-    paraphrase: "Radical Copyeditor directs writers to \"assigned female/male at birth\" or \"sex assigned at birth\" and to avoid \"biologically female/male\" along with \"natal sex\" and \"born a woman/man.\""
+    paraphrase: "As the earliest entry on the page (2017), Radical Copyeditor sets the replacement the later guides inherit — \"assigned sex at birth\" — and notably rejects \"born a woman/man\" alongside the \"biological\" forms, closing off the verb-phrase workaround, not just the adjective."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Diversity Style Guide"
     org_slug: "diversity-style-guide"

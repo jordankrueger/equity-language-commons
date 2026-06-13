@@ -25,7 +25,7 @@ guidance:
     derived_from: []
     quote: "Terms such as \"addict\" or \"drug abuser\" should generally not be used as nouns. Avoid identifying individuals with their disease. \"She had a heroin addiction\" is preferable to \"she was a heroin addict.\""
     quote_loc: "\"Disease\" entry, drug-language guidance"
-    paraphrase: "GCJT advises against \"addict\" (and \"drug abuser\") as nouns, on the principle that people should not be identified with their disease — \"she had a heroin addiction\" rather than \"she was a heroin addict.\""
+    paraphrase: "Of the four sources, GCJT is the one that frames the rule as a disease-identity principle: the objection is to collapsing a person into their condition as a noun, which is why it keeps the condition (\"addiction\") while rejecting the label (\"addict\")."
     confidence: "VERIFIED-ARCHIVED"
   - org: "National Center on Disability and Journalism"
     org_slug: "ncdj"
@@ -37,7 +37,7 @@ guidance:
     derived_from: []
     quote: "It is preferable to refer to someone who harmfully uses drugs as \"someone with a drug addiction\" rather than an \"addict.\" … Avoid \"alcoholic\", \"addict\", \"user\" and \"abuser\" unless individuals prefer those terms for themselves or if they occur in quotations or names of organizations …"
     quote_loc: "\"Addict/addiction\" entry, NCDJ Recommendation + Conforms to AP style"
-    paraphrase: "NCDJ — the chapter's anchor source — prefers \"someone with a drug addiction\" to the noun \"addict,\" and following AP, advises avoiding \"alcoholic,\" \"addict,\" \"user,\" and \"abuser\" unless a person uses those terms for themselves, or they appear in quotations or organization names such as Alcoholics Anonymous."
+    paraphrase: "NCDJ — the chapter's anchor source — is the entry that carries the AP-aligned avoid list (\"alcoholic,\" \"user,\" and \"abuser\" alongside \"addict\") and the two carve-outs the other sources mostly omit: a person's own self-identification, and fixed proper names — the \"A\" in Alcoholics Anonymous is not edited out."
     confidence: "VERIFIED-ARCHIVED"
   - org: "American Psychological Association"
     org_slug: "apa"
@@ -61,7 +61,7 @@ guidance:
     derived_from: []
     quote: "The American Psychiatric Association recommends avoiding the term addict, suggesting instead the phrase \"someone experiencing a drug/alcohol problem.\" The association also discourages using the term junkie, which specifically refers to someone who misuses heroin."
     quote_loc: "Glossary entry, \"addict, addiction\""
-    paraphrase: "The Diversity Style Guide, citing the American Psychiatric Association, advises against the noun \"addict\" — preferring \"someone experiencing a drug/alcohol problem\" — and against \"junkie,\" while preferring \"someone with a drug addiction\" over the label."
+    paraphrase: "DSG is the only entry here citing the American Psychiatric Association (not the Psychological, the source most others lean on) and the only one that singles out \"junkie\" — flagging it as the narrower, harsher label specific to heroin use rather than addiction generally."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []

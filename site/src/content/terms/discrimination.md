@@ -34,7 +34,7 @@ guidance:
     derived_from: []
     quote: "The unequal treatment of members of various groups based on race, gender, social class, sexual orientation, physical ability, religion and other categories. … In the United States the law makes it illegal to discriminate against someone on the basis of race, color, religion, national origin, or sex."
     quote_loc: "Glossary: Discrimination"
-    paraphrase: "Racial Equity Tools defines discrimination as the unequal treatment of group members across categories including race, gender, class, sexual orientation, ability, and religion, and pairs the social definition with the U.S. legal frame protecting against discrimination on the basis of race, color, religion, national origin, and sex."
+    paraphrase: "The value here is the gap the two halves expose: RET's social definition sweeps in sexual orientation, class, and ability, but the federal list it cites covers only race, color, religion, national origin, and sex — so much of what the everyday word names is not federally actionable. Where APA stresses individual-vs-structural and TJA parses statutory \"gender-based discrimination,\" RET's contribution is marking that lived-vs-legal divide."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Trans Journalists Association"
     org_slug: "tja"

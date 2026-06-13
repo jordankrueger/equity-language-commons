@@ -24,7 +24,7 @@ guidance:
     derived_from: []
     quote: "Refers to “the process—social, legal, and/or medical—one goes through to affirm one’s gender identity”… “There is no one way to transition; the word means something unique to each individual” (PFLAG, 2022, Transition definition)."
     quote_loc: "Sexual orientation and gender diversity definitions: transition"
-    paraphrase: "The APA defines transition as the social, legal, and/or medical process of affirming one's gender identity, stressing that it varies for each person and has no single form."
+    paraphrase: "APA does not write its own definition here — it adopts PFLAG's, which is why the entry reads as a community source rather than a clinical one. The load-bearing clause is \"the word means something unique to each individual\": that individuality is the stated reason transition resists any checklist or fixed endpoint."
     confidence: "VERIFIED-ARCHIVED"
   - org: "NLGJA: The Association of LGBTQ+ Journalists"
     org_slug: "nlgja"
@@ -36,7 +36,7 @@ guidance:
     derived_from: []
     quote: "Transitions are very personal and occur over time. Mention a person's gender transition in a story, and its details, only when relevant, such as health care access or legal documentation issues. Avoid the obsolete term sex change."
     quote_loc: "Glossary entry: gender transition, transition"
-    paraphrase: "NLGJA treats gender transition as a personal process unfolding over time and instructs journalists to report a person's transition or its details only when relevant, while avoiding sex change."
+    paraphrase: "NLGJA is the source supplying the relevance test the other two don't: it doesn't just define transition, it sets a reporting threshold — mention it, and its details, only when germane to the story (health-care access, legal documentation). The premise underneath is that transition history is private medical and legal information, not background color."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Trans Journalists Association"
     org_slug: "tja"
@@ -48,7 +48,7 @@ guidance:
     derived_from: []
     quote: "The social, legal, and/or medical process of aligning one's life with one's gender… People may transition in a few of these ways, all of these ways, or none of these ways."
     quote_loc: "Glossary entry: transition (n., v.)"
-    paraphrase: "The Trans Journalists Association describes transition as aligning one's life with one's gender through social, legal, and/or medical steps, emphasizing that people may pursue some, all, or none of them."
+    paraphrase: "TJA's wording is the broadest in the corpus — \"aligning one's life with one's gender\" rather than affirming an identity, which folds in non-medical, everyday changes the clinical framings skip. The \"a few, all, or none\" clause is an explicit rejection of any required pathway, and it's what makes \"completed her transition\" and pre-op/post-op framings wrong by this source's logic."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []

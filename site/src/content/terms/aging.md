@@ -35,7 +35,7 @@ guidance:
     derived_from: []
     quote: "Remember that identities intersect, and ageism impacts people differently on the basis of their gender. Women tend to face harsher social penalties for aging visibly; when writing about an older woman's identity, ask yourself if you would mention her age if she were male."
     quote_loc: "\"Ageism\" section, p. 5"
-    paraphrase: "Sierra Club notes that aging intersects with gender, with women facing harsher social penalties for aging visibly. It advises writers to question whether a woman's age would be mentioned if she were a man."
+    paraphrase: "Alone among the three sources here, Sierra Club adds an intersectional angle rather than treating aging as a single universal process: it is read and policed differently along gender lines, and the penalty for visible aging falls hardest on women. The \"would you mention it if she were a man?\" test turns that observation into an editing check."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Diversity Style Guide"
     org_slug: "diversity-style-guide"
@@ -47,7 +47,7 @@ guidance:
     derived_from: []
     quote: "An ongoing, all-inclusive process rather than a label placed on older, frail adults."
     quote_loc: "Glossary entry, \"aging\""
-    paraphrase: "The Diversity Style Guide defines aging as an ongoing, all-inclusive process — explicitly not a label reserved for older or frail adults."
+    paraphrase: "This is the only source on the page that defines \"aging\" as a standalone headword — GCJT and Sierra Club reach the word through framing guidance instead. The recommendation is \"use\": aging is the neutral, usable term, and the one trap is letting it quietly stand in for \"old\" or \"frail.\""
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []

@@ -53,7 +53,7 @@ guidance:
     derived_from: []
     quote: "PROBLEMATIC TERM: “Illegal immigrant.” This term ignores the complexities of immigration status and has been widely rejected by news organizations over the last several years. ALTERNATIVES: Undocumented immigrant, Immigrant without current status."
     quote_loc: "Problematic Terms to Reconsider chart, p. 6"
-    paraphrase: "IDP lists 'illegal immigrant' as a problematic term in its chart of terms to reconsider, on the grounds that it ignores the complexities of immigration status and has been widely rejected by newsrooms. It directs writers to 'undocumented immigrant' or 'immigrant without current status' instead."
+    paraphrase: "IDP's case is empirical rather than moral: the term flattens a genuinely complicated legal status, and newsrooms have already abandoned it — so its avoidance is treated as settled professional practice, not an open argument. That sets it apart from the \"no person is illegal\" reasoning the other sources lead with."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Immigrant Defense Project"
     org_slug: "idp"
@@ -89,7 +89,7 @@ guidance:
     derived_from: []
     quote: "Avoid these terms when referring to immigration status. Use undocumented immigrant or undocumented worker instead… The term criminalizes the person rather than the actual act of illegally entering or residing in the United States… Never use illegal(s) as a noun."
     quote_loc: "Glossary entry: illegal immigrant, illegal alien, illegals"
-    paraphrase: "The Diversity Style Guide instructs writers to avoid 'illegal immigrant,' 'illegal alien,' and 'illegals' for immigration status and to use 'undocumented immigrant' or 'undocumented worker' instead. It explains that the term criminalizes the person rather than the act, and lays down a hard rule: never use illegal(s) as a noun."
+    paraphrase: "Where most sources argue from principle, the Diversity Style Guide draws a bright grammatical line: 'illegal' may attach to an act but never to a person, so 'illegal(s)' as a noun is barred outright. The rule is enforceable at the sentence level, which makes it the easiest of the corpus's positions to copy-edit against."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Define American"
     org_slug: "define-american"

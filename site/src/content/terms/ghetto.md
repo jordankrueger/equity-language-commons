@@ -63,7 +63,7 @@ guidance:
     derived_from: []
     quote: "ghetto, inner city: Terms used as synonyms for sections of cities inhabited by poor people or minorities. Avoid these descriptions because of their negative connotations. Often the name of the neighborhood is the best choice. Section, district or quarter may also be used."
     quote_loc: "Style guide, \"G\" entries, \"ghetto, inner city\""
-    paraphrase: "NABJ groups \"ghetto\" and \"inner city\" in a single entry as synonyms for sections of cities inhabited by poor people or minorities, and advises avoiding both because of their negative connotations. It suggests using the neighborhood's actual name, or \"section,\" \"district,\" or \"quarter.\""
+    paraphrase: "NABJ is the upstream entry DSG carries forward, and its distinctive move is yoking \"ghetto\" to \"inner city\" — flagging the polite-sounding substitute as the same euphemism, not a safe replacement. The constructive half is concrete: reach for the neighborhood's actual name first, with \"section,\" \"district,\" or \"quarter\" as neutral fallbacks."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Diversity Style Guide"
     org_slug: "diversity-style-guide"
@@ -75,7 +75,7 @@ guidance:
     derived_from: []
     quote: "Term used as a synonyms for sections of cities inhabited by poor people or minorities. Avoid this term because of its negative connotations. Often the name of the neighborhood is the best choice. Section, district or quarter may also be used."
     quote_loc: "\"ghetto\" glossary entry"
-    paraphrase: "The Diversity Style Guide treats \"ghetto\" as a synonym for sections of cities inhabited by poor people or minorities and advises avoiding it because of its negative connotations, recommending the neighborhood's name or neutral terms like \"section,\" \"district,\" or \"quarter\" instead."
+    paraphrase: "DSG reproduces NABJ's guidance nearly word-for-word but splits the paired \"ghetto, inner city\" entry into a single-term one (its source URL still reads ghetto-inner-city). The substance is identical — avoid for the negative connotations, prefer the neighborhood's name or \"section,\" \"district,\" \"quarter\" — so on this page it stands as the journalism-style consensus rather than a separate argument."
     confidence: "VERIFIED-ARCHIVED"
   - org: "SumOfUs"
     org_slug: "sumofus"

@@ -84,7 +84,7 @@ guidance:
     derived_from: []
     quote: "This is outdated and is now widely considered offensive. Do not use it in news copy. Refer instead to transgender identity, transness or simply being transgender."
     quote_loc: "Glossary entry: transgendered"
-    paraphrase: "The Trans Journalists Association calls transgendered outdated and offensive, directing reporters to transgender identity, transness, or being transgender instead."
+    paraphrase: "As the most recent source on the page, TJA marks the firmest position: where the earlier guides treat the -ed form as a usage error to correct, TJA bars it from news copy outright and supplies the noun-phrase replacements (transgender identity, transness) for the spots where writers reach for the broken adjective."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []

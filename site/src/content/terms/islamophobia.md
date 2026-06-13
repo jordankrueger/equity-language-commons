@@ -32,7 +32,7 @@ guidance:
     derived_from: []
     quote: "Prejudice, negative sentiments, and hostility toward Islam and Muslims. Islamophobia may be based on ideas about Islam as a religion and on ideas about Muslims as a cultural and ethnic group. Islamophobic ideas portray Islam and Muslims as a threat to non-Muslims. …"
     quote_loc: "Glossary entry, \"Islamophobia\" (citing Berntzen & Rambøl, 2020)"
-    paraphrase: "APA, citing Berntzen and Rambøl, defines Islamophobia as prejudice, negative sentiments, and hostility toward Islam and Muslims — grounded in ideas about Islam as a religion and Muslims as a cultural and ethnic group. It names Islamophobia as standard vocabulary."
+    paraphrase: "APA is the source that endorses \"Islamophobia\" without RET's structural reservation — plain \"use,\" anchored in a specific scholarly citation (Berntzen & Rambøl). Its definition also names the mechanism the others leave out: Islamophobic ideas construct Islam and Muslims as a threat to non-Muslims, and the prejudice attaches both to the religion and to Muslims as a cultural and ethnic group, which is why it shades into racism rather than staying purely religious."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Racial Equity Tools"
     org_slug: "racial-equity-tools"

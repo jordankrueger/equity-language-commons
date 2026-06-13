@@ -59,7 +59,7 @@ guidance:
     derived_from: []
     quote: "Once the dominant word to describe someone who wants or seeks transgender medical care, this is now a more niche and intracommunity term. Some consider it outdated or offensive. It may be appropriate to include the word if quoting historical materials, or if someone self-describes in this manner."
     quote_loc: "Politicized or Inaccurate Phrases → transsexual (n., adj.)"
-    paraphrase: "TJA gives the clearest chronology in the corpus: transsexual was once the dominant word for someone seeking transgender medical care and is now a more niche, intracommunity term. The guide names two cases where it remains appropriate — quoting historical materials and subject self-description — while noting some consider it offensive."
+    paraphrase: "TJA is the source that treats transsexual as a living word rather than only a dated one: where Sierra Club calls it a possible slur, TJA frames it as a niche, intracommunity term still in active self-description. Its neutral chronology — once dominant for someone seeking medical care, now narrowed — is what lets it name two specific licenses (historical quotation, self-description) instead of a blanket retire-it rule."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []

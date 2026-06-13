@@ -38,7 +38,7 @@ guidance:
     derived_from: []
     quote: "Disabled, Disability: Eschew outmoded terms that perpetuate negative stereotypes or evoke pity. … avoid terms like \"handicapped\" or \"the disabled.\" Instead, give precise references to specific conditions."
     quote_loc: "\"Disabled, Disability\" entry"
-    paraphrase: "GCJT advises against \"handicapped\" (and \"the disabled\") as terms that perpetuate negative stereotypes or evoke pity, directing writers toward specific conditions and people-first language."
+    paraphrase: "Where the other five sources mostly list \"handicapped\" as a term to drop, GCJT supplies the rationale the whole page shares: the word carries negative stereotypes and invites pity. Its preferred fix is also the most demanding — name the specific condition rather than reaching for a generic person-first substitute."
     confidence: "VERIFIED-ARCHIVED"
   - org: "National Center on Disability and Journalism"
     org_slug: "ncdj"

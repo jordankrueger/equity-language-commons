@@ -55,7 +55,7 @@ guidance:
     derived_from: []
     quote: "Social values that support personal and institutional discrimination. As a social concept, systemic racism explains how people of color must adapt to a society not built for them, while white people readily fit in. See institutional racism."
     quote_loc: "Glossary entry: systemic racism"
-    paraphrase: "The Diversity Style Guide frames systemic racism as the social values underwriting both personal and institutional discrimination, and as an explanation for why people of color must adapt to a society not built for them. It cross-references its institutional racism entry, treating the two as a linked pair."
+    paraphrase: "DSG locates the term one layer up from its neighbors: where APA and RET define systemic racism through policies and outcomes, DSG roots it in social values — the shared assumptions that make the discriminatory policies feel normal. Its \"see institutional racism\" pointer treats the two as a linked pair rather than synonyms, the structure underneath the surface."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Sierra Club"
     org_slug: "sierra-club"

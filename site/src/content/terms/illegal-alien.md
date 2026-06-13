@@ -64,7 +64,7 @@ guidance:
     derived_from: []
     quote: "Problematic Terms: illegals, illegal immigrant, alien, illegal alien. Preferred Terms: undocumented immigrant, unauthorized immigrant, immigrant without legal status. The bottom line: The term \"illegal\" is dehumanizing and unfairly replaces complex legal circumstances with an assumption of guilt."
     quote_loc: "Stereotypes and Language to Avoid, \"Problematic Terms\" table, p. 6"
-    paraphrase: "Define American's Problematic Terms table lists \"illegal alien\" (with \"illegals,\" \"alien,\" and \"illegal immigrant\") and prescribes \"undocumented immigrant,\" \"unauthorized immigrant,\" or \"immigrant without legal status\" instead, calling \"illegal\" dehumanizing."
+    paraphrase: "Where SumOfUs and Sierra Club only file the term on an avoid list, Define American offers the page's broadest set of replacements — three of them, down to \"immigrant without legal status\" — and states the reasoning the others leave implicit: \"illegal\" substitutes an assumption of guilt for the actual, complicated legal facts."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []

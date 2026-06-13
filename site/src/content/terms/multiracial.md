@@ -33,7 +33,7 @@ guidance:
     recommendation: "use"
     quote: "Biracial refers to people of two races; multiracial refers to people of two or more racial backgrounds. Preferred terms include multiracial, biracial, multiethnic, polyethnic. Use mixed and mixed-race with caution as some people find these terms offensive; however, others embrace them."
     quote_loc: "biracial, multiracial, mixed-race, two or more races entry (lines 616–619 in archived markdown)"
-    paraphrase: "DSG ranks the cluster: multiracial, biracial, multiethnic, polyethnic are all preferred. Mixed and mixed-race are use-with-care — some people embrace them as self-identification, others find them offensive. Biracial specifically denotes two races; multiracial covers two or more."
+    paraphrase: "DSG is the only source on the page that operationalizes the cluster — Casey 2013 simply omits it. The \"use with care\" flag on \"mixed\" / \"mixed-race\" turns on a genuine split: a real constituency claims them as self-identification (the 2010s mixed movement) while others read them as dismissive, so the terms are fine when someone chooses them but not a safe default for unknown-preference copy."
     confidence: "VERIFIED"
 
   - org: "Annie E. Casey Foundation"

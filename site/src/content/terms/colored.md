@@ -39,7 +39,7 @@ guidance:
     derived_from: []
     quote: "colored: An archaic term for black. In some African countries, colored denotes those of mixed racial ancestry. Do not use unless referring to official names, historical events or in quotes."
     quote_loc: "Glossary entry: colored"
-    paraphrase: "NABJ defines \"colored\" as an archaic term for Black (noting that in some African countries it denotes mixed racial ancestry) and directs writers not to use it except in official names, historical references, or direct quotations."
+    paraphrase: "NABJ is the upstream entry DSG reproduces almost verbatim, so the two share a definition. Its distinctive note is the South-Africa-era sense — in some African countries \"coloured\" denotes mixed ancestry, a separate racial category — which is exactly why NABJ carves out the exceptions for official names, historical events, and quotes rather than banning the word outright."
     confidence: "VERIFIED-ARCHIVED"
   - org: "American Psychological Association"
     org_slug: "apa"

@@ -39,7 +39,7 @@ guidance:
     derived_from: []
     quote: "Terms avoided/ questioned by economic justice activists … in need, the needy … less fortunate … the poor … Terms used by economic justice activists … low-income (as an adjective) … people experiencing material poverty"
     quote_loc: "\"Economy\" issue area, terms-used vs. terms-avoided columns"
-    paraphrase: "SumOfUs sorts economic vocabulary into two columns: terms economic-justice activists use versus terms they avoid or question. \"The poor,\" \"the needy,\" and \"less fortunate\" sit in the avoided column; \"low-income (as an adjective)\" and \"people experiencing material poverty\" are the prescribed alternatives."
+    paraphrase: "What groups \"the poor\" with \"the needy\" and \"less fortunate\" here is the charity-and-pity register they share — language that positions people as objects of sympathy rather than agents. SumOfUs's tell is the parenthetical \"(as an adjective)\": the fix is grammatical as much as lexical, keeping \"low-income\" a modifier and never the whole of a person."
     confidence: "VERIFIED-ARCHIVED"
   - org: "DC Fiscal Policy Institute"
     org_slug: "dcfpi"

@@ -51,7 +51,7 @@ guidance:
     derived_from: []
     quote: "One's internal, deeply held sense of one's gender. For transgender people, their own internal gender identity does not match the sex they were assigned at birth. … Unlike gender expression, gender identity is not visible to others."
     quote_loc: "Glossary entry, \"gender identity\""
-    paraphrase: "DSG frames gender identity as an internal, deeply held sense of one's own gender that is not visible to others, contrasting it with gender expression (the outward presentation). It notes most people have a gender identity of man or woman while some do not fit neatly into either."
+    paraphrase: "DSG's distinctive contribution on this page is the visibility line: gender identity is internal and not visible to others, where gender expression is the outward, observable presentation. That's the operational reason the two can't be read off each other — you can see expression, you cannot see identity — which is the error the corpus most often warns against here."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Racial Equity Tools"
     org_slug: "racial-equity-tools"

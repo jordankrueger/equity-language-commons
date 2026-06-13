@@ -24,7 +24,7 @@ guidance:
     derived_from: []
     quote: "Don't use geographic descriptors interchangeably with religious or other terms to describe specific groups of people. For example, \"Muslim\" is not synonymous with Arab; African American Muslims are the largest Muslim population in the United States."
     quote_loc: "\"Be specific\" section, p. 13"
-    paraphrase: "Sierra Club cautions against using geographic descriptors interchangeably with religious ones, naming \"Muslim\" as a religious identity that is not synonymous with the ethnicity Arab — and noting that African American Muslims are the largest Muslim population in the United States."
+    paraphrase: "Sierra Club's concern is specificity: collapsing \"Muslim\" into \"Arab\" doesn't just blur two categories, it erases the demographic reality that the largest U.S. Muslim population is African American. The rule guards against using a faith as a stand-in for an ethnicity it doesn't track."
     confidence: "VERIFIED-ARCHIVED"
   - org: "NABJ"
     org_slug: "nabj"
@@ -48,7 +48,7 @@ guidance:
     derived_from: []
     quote: "A Muslim is a follower of Muhammad and the tenets and practices of Islam. The word Muslim is a noun; use the adjective Islamic when referring to the Islamic faith or the Islamic world."
     quote_loc: "Glossary entry, \"Muslim, Muslims\""
-    paraphrase: "The Diversity Style Guide defines a Muslim as a follower of the tenets and practices of Islam, drawing the grammatical line that \"Muslim\" is a noun while \"Islamic\" is the adjective for the faith and the wider Islamic world."
+    paraphrase: "This is the only source on the page working the grammar rather than the conflation problem: \"Muslim\" is the noun for a person, \"Islamic\" the adjective reserved for the faith and the wider Islamic world — so \"Islamic\" should never modify people."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []

@@ -48,7 +48,7 @@ guidance:
     derived_from: []
     quote: "Avoid. Politically charged term implying that sexuality is the result of a conscious choice. Instead use sexual orientation."
     quote_loc: "Glossary entry, \"sexual preference\""
-    paraphrase: "The Diversity Style Guide marks \"sexual preference\" as a term to avoid, calling it politically charged for implying that sexuality is a conscious choice, and directs writers to \"sexual orientation\" instead."
+    paraphrase: "Where the other sources file \"sexual preference\" in an avoid/instead table, DSG is one of the two that supply a reason: it calls the term \"politically charged\" — the objection is substantive, not stylistic, since \"preference\" smuggles in the premise that orientation is a conscious choice."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Movement Strategy Center"
     org_slug: "movement"

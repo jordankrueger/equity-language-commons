@@ -23,7 +23,7 @@ guidance:
     derived_from: []
     quote: "The belief that sex is binary and that sex determines gender (Hyde et al., 2019)… Empirical evidence affirms that gender is a nonbinary spectrum (Hyde et al., 2019). Inclusive language should reflect and respect gender diversity."
     quote_loc: "Definitions entry: gender/sex binary"
-    paraphrase: "The APA defines the gender/sex binary as the belief that sex is binary and determines gender, then states that evidence affirms gender as a nonbinary spectrum and that inclusive language should respect that diversity."
+    paraphrase: "Alone among the four sources here, APA does not stop at describing the binary as a belief — it asserts the empirical evidence contradicts it, citing Hyde et al. (2019). That moves the entry from \"a system some contest\" to \"a claim the science rejects,\" which is why APA's marking carries more prescriptive weight than the journalism guides' descriptive framings."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Diversity Style Guide"
     org_slug: "diversity-style-guide"
@@ -35,7 +35,7 @@ guidance:
     derived_from: []
     quote: "The assumption that gender is binary -- that is, that there are two and only two genders -- male and female -- which are distinct and disconnected. Many have come to see this as a false dichotomy, given the existence of intersex, transgender people and agender people."
     quote_loc: "Glossary entry: gender binary"
-    paraphrase: "The Diversity Style Guide defines the gender binary as the assumption that only two distinct genders exist and notes that many regard it as a false dichotomy given intersex, transgender, and agender people."
+    paraphrase: "DSG's register is descriptive, not evidentiary: it names the binary an \"assumption\" and reports that \"many have come to see\" it as a false dichotomy, attributing the critique to others rather than asserting it. The intersex, transgender, and agender examples it cites are the standing counterexamples to the two-and-only-two claim."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Human Rights Campaign"
     org_slug: "hrc"
@@ -59,7 +59,7 @@ guidance:
     derived_from: []
     quote: "A cultural and societal classification system that sorts everyone into a male/female binary based on sex assigned at birth and equates male sex with masculinity and female sex with femininity."
     quote_loc: "Glossary entry: gender binary (n.)"
-    paraphrase: "The Trans Journalists Association defines the gender binary as a classification system that sorts everyone into male or female by sex assigned at birth and ties male sex to masculinity and female sex to femininity."
+    paraphrase: "TJA's definition is the one that names the mechanism the others leave implicit: the binary doesn't just sort people, it equates male sex with masculinity and female sex with femininity. That added clause is what makes the term analytic rather than descriptive — it identifies the rule the system enforces, not just the two boxes."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []

@@ -58,7 +58,7 @@ guidance:
     derived_from: []
     quote: "This is an outdated term. *Gender identity disorder* used to be the official psychiatric diagnosis from the American Psychological Association for trans people seeking transgender medical care in the U.S. In 2012, it was changed to *gender dysphoria* …"
     quote_loc: "Glossary entry, \"gender identity disorder (n.)\" (updated 2025-04-18)"
-    paraphrase: "The Trans Journalists Association calls the term dated and gives the history: it was the official psychiatric diagnosis required of trans people seeking transgender medical care in the U.S., changed to \"gender dysphoria\" in 2012."
+    paraphrase: "TJA's distinctive point is the gatekeeping history — the diagnosis was a precondition trans people had to clear to access care, not a neutral label. It dates the switch to gender dysphoria to 2012 (the DSM-5's finalization), where the Diversity Style Guide cites the 2013 publication; both mark the same revision cycle."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []

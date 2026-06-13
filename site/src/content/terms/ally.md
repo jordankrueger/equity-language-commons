@@ -36,7 +36,7 @@ guidance:
     derived_from: []
     quote: "A person who supports LGBTQ+ people and causes but does not personally identify as LGBTQ+. Some organizations use ally as part of the A in LGBTQIA, but be aware that some people and organizations strongly object to its inclusion."
     quote_loc: "Stylebook, \"ally\" entry"
-    paraphrase: "NLGJA frames an ally as a supporter of LGBTQ+ people and causes who does not personally identify as LGBTQ+, and flags the contested practice of reading the \"A\" in LGBTQIA as \"ally\" — noting that some people and organizations strongly object to that inclusion."
+    paraphrase: "NLGJA draws the boundary HRC explicitly rejects — it ties ally to someone outside the community (\"does not personally identify as LGBTQ+\"), where HRC extends the term to in-community allyship. The \"A\"-in-LGBTQIA caveat is the practical payoff for journalists: don't assume the letter means \"ally,\" since many read it as asexual and object to the substitution."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Diversity Style Guide"
     org_slug: "diversity-style-guide"
@@ -60,7 +60,7 @@ guidance:
     derived_from: []
     quote: "An action, not an identity. Members of the advantaged group recognize their privilege and work in solidarity with oppressed groups to dismantle the systems of oppression(s) from which they derive power, privilege, and acceptance."
     quote_loc: "Glossary, \"Ally\" entry, definition 2"
-    paraphrase: "Racial Equity Tools emphasizes that allyship is an action rather than an identity: members of an advantaged group recognize their privilege and work in solidarity to dismantle the systems of oppression from which they benefit. The framing centers ongoing action over a self-claimed label."
+    paraphrase: "The \"action, not an identity\" line is doing specific work: it rules out treating \"ally\" as a self-applied badge, the same concern APA addresses by saying allyship is conferred by the community. Racial Equity Tools adds the structural angle the LGBTQ+ sources omit — the advantaged group is dismantling the very systems that hand them power, not just lending support."
     confidence: "VERIFIED-ARCHIVED"
   - org: "American Psychological Association"
     org_slug: "apa"

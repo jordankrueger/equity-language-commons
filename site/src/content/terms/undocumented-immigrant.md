@@ -66,7 +66,7 @@ guidance:
     derived_from: []
     quote: "Never use the term “illegal” to describe a person. If a person lacks legal permission to live or work in the U.S., you can refer to them as an “undocumented” immigrant or someone with a complex immigration status."
     quote_loc: "p. 8–9, Immigrants and Refugees → Appropriate Terms For + Tips"
-    paraphrase: "Sierra Club lists 'undocumented immigrant' among its appropriate terms and prescribes it as the replacement for any 'illegal' framing: never call a person illegal; describe someone who lacks legal permission as an undocumented immigrant or as having a complex immigration status."
+    paraphrase: "Sierra Club's contribution to the page is a second alternative the journalism guides skip — \"someone with a complex immigration status\" — useful when a writer can't confirm a person is undocumented but wants to avoid \"illegal.\" Its \"never\" is the most absolute framing here, an editorial line rather than the newsroom-norm reasoning IDP and Define American lean on."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Diversity Style Guide"
     org_slug: "diversity-style-guide"

@@ -63,7 +63,7 @@ guidance:
     derived_from: []
     quote: "Prejudiced thoughts, attitudes and/or discriminatory actions based on differences in physical, mental and/or emotional ability. … It may also be referred to as disability discrimination, ablecentrism or disability oppression."
     quote_loc: "Ableism glossary entry"
-    paraphrase: "The Diversity Style Guide defines ableism as prejudiced attitudes or discriminatory actions based on differences in physical, mental, or emotional ability — encompassing mistreatment of people with disabilities, denial of access, and discrimination in housing and employment — and notes the near-synonyms disability discrimination, ablecentrism, and disability oppression."
+    paraphrase: "DSG is the source that pitches ableism at the interpersonal register — \"prejudiced thoughts, attitudes\" and discriminatory actions — rather than as a system, which is what distinguishes it from RET's and SumOfUs's structural definitions on this page. Its full entry extends those actions into concrete arenas (denial of access, housing, employment) and supplies the near-synonyms other guides omit: disability discrimination, ablecentrism, disability oppression."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Racial Equity Tools"
     org_slug: "racial-equity-tools"

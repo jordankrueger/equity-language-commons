@@ -36,7 +36,7 @@ guidance:
     derived_from: []
     quote: "Avoid the use of \"seniors\" and \"elderly\" to describe individuals or groups. Use medical terminology to describe common age-related medical conditions … only when supported by a diagnosis."
     quote_loc: "Age and aging section"
-    paraphrase: "GCJT advises against \"seniors\" and \"elderly\" to describe individuals or groups, and against medicalizing age-related conditions without a diagnosis or the subject's own framing."
+    paraphrase: "GCJT draws the hardest line of the four — it rejects \"elderly\" for individuals and groups alike, where DSG and SumOfUs allow narrow uses. As a trauma-journalism guide its second rule is the distinctive one: don't reach for clinical labels (frail, suffering from) as a euphemism for old; age-related medical terms belong in copy only when an actual diagnosis supports them."
     confidence: "VERIFIED-ARCHIVED"
   - org: "American Psychological Association"
     org_slug: "apa"
@@ -60,7 +60,7 @@ guidance:
     derived_from: []
     quote: "Use this word carefully and sparingly. The term is appropriate only in generic phrases that do not refer to specific individuals: concern for the elderly, a home for the elderly, etc."
     quote_loc: "Glossary entry, \"elderly\""
-    paraphrase: "The Diversity Style Guide says to use \"elderly\" carefully and sparingly — acceptable only in generic phrases like \"a home for the elderly,\" but not for describing a specific individual, where the guide considers it inappropriate."
+    paraphrase: "DSG's contribution is a grammatical test rather than a flat ban: the line falls between generic phrases and named people. \"Concern for the elderly\" passes because it points at a category; \"the elderly woman\" fails because it pins the label to an individual. That distinction is what keeps DSG at use-with-care while APA and GCJT land on avoid."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []

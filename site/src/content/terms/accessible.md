@@ -36,7 +36,7 @@ guidance:
     derived_from: []
     quote: "The opportunity to access programs, services and facilities for people with disabilities. The extent to which a facility is usable and approachable for people with disabilities."
     quote_loc: "Accessibility, accessible glossary entry"
-    paraphrase: "The Diversity Style Guide defines “accessibility” and “accessible” in disability-access terms — the opportunity to access programs, services, and facilities, and the degree to which a facility is usable and approachable for people with disabilities."
+    paraphrase: "Alone among these sources, DSG gives a bare definition rather than a usage rule — it does not pit “accessible” against “handicapped” the way Sierra Club and NCDJ do, but supplies the concept underneath that rule: accessibility as a measurable property, how usable and approachable a facility actually is for people with disabilities."
     confidence: "VERIFIED-ARCHIVED"
   - org: "National Center on Disability and Journalism"
     org_slug: "ncdj"

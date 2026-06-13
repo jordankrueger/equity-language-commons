@@ -71,7 +71,7 @@ guidance:
     derived_from: []
     quote: "\"Commit\" implies crime or sin. Do not describe suicide attempts as \"successful,\" \"unsuccessful,\" or \"failed.\" Instead, say \"survived a suicide attempt\"…"
     quote_loc: "Bias-free language table, Suicide row"
-    paraphrase: "APA lists \"committed suicide/suicided\" and \"failed/successful/completed suicide\" as terms to avoid because \"commit\" implies crime or sin. It suggests \"died by suicide,\" \"killed themselves,\" and \"survived a suicide attempt\" instead."
+    paraphrase: "APA is the source that adds the moral-religious register the others omit: it objects to \"commit\" not only for the criminal-law echo the journalism guides cite but because it implies sin. It also stays at the word-substitution level rather than extending into reporting practice, and contributes the survivor-centered alternative \"survived a suicide attempt\" for non-fatal attempts."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []

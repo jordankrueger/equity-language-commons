@@ -24,7 +24,7 @@ guidance:
     derived_from: []
     quote: "Terms avoided/questioned by disability rights activists: … afflicted by … crippled by … suffering from . . . … victim of . . ."
     quote_loc: "Disability language two-column list, \"Terms avoided/questioned by disability rights activists\""
-    paraphrase: "SumOfUs places \"victim of …\" in its column of terms avoided or questioned by disability rights activists, alongside other framings (\"afflicted by,\" \"suffering from\") that cast a person as passive or pitiable."
+    paraphrase: "As the earliest source here (2016), SumOfUs reaches \"victim\" only through the disability frame — grouping \"victim of\" with \"afflicted by\" and \"suffering from\" as passivity language — and never touches the violence-and-trauma debate where \"victim\" versus \"survivor\" is genuinely contested. It marks one of the page's two cases, not both."
     confidence: "VERIFIED-ARCHIVED"
   - org: "SEIU"
     org_slug: "seiu"

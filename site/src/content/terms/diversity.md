@@ -44,7 +44,7 @@ guidance:
     derived_from: []
     quote: "Catchall term to describe a condition or environment that is multiracial and multicultural; being representative or reflective of the multiethnic society. Diversity is not synonymous with affirmative action, is not limited to race and is not government-mandated."
     quote_loc: "Glossary, \"diversity\" entry"
-    paraphrase: "NABJ defines and accepts diversity as a catchall for a multiracial, multicultural environment that reflects a multiethnic society. It draws explicit boundaries: diversity is not synonymous with affirmative action, is not limited to race, and is not government-mandated."
+    paraphrase: "NABJ holds the firmest accept-and-define stance on the page, and its three disclaimers read as pre-emptions of specific political misreadings — that diversity is a quota program, a race-only concern, or a federal mandate. The boundaries exist to keep the word usable against those charges."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Annie E. Casey Foundation"
     org_slug: "aecf"

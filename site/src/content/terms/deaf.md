@@ -64,7 +64,7 @@ guidance:
     derived_from: []
     quote: "Identity-first language is often used as an expression of cultural pride … In some cases, as with the Deaf community and autistic community, it is appropriate to use the preferred identity-first language of the community until you can learn an individual's preference. …"
     quote_loc: "Disability section, person-first vs. identity-first language"
-    paraphrase: "APA frames identity-first language as an expression of cultural pride and names the Deaf community as a case where it is appropriate to default to identity-first language until an individual's own preference is known."
+    paraphrase: "APA supplies the why the other entries assume: identity-first language reads as cultural pride, which is what makes the Deaf community an exception to the usual people-first default. The exception is scoped, not blanket — it's a provisional starting point that yields the moment you learn the individual's own preference."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Diversity Style Guide"
     org_slug: "diversity-style-guide"
