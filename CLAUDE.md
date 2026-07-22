@@ -63,6 +63,15 @@ plus glossary index + SQLite build-time index + Contribute page.
 
 ## Pick-up notes for next ELC session
 
+**Done 2026-06-13 — house-style lock + paraphrase de-dup + fresh export:**
+- **House style now locked (AP):** U.S. (not US), % (not "percent" in prose), toward (not towards). All three applied via `scripts/standardize-prose.py` across 32 content files. Rule: any bulk prose edit must skip verbatim `quote:` fields — the script enforces this line-by-line; verbatim quotes are Layer 1 / fair-use locked and must never be touched by automation.
+- **New utility scripts:**
+  - `scripts/standardize-prose.py` — idempotent prose standardizer; skips `quote:` lines; safe to re-run
+  - `scripts/score-paraphrase-echo.py` — deterministic lexical-overlap scorer for quote/paraphrase pairs; outputs candidates grouped by overlap tier
+  - `scripts/dump-paraphrase-candidates.py` — dumps candidates ≥0.45 overlap grouped by file for subagent dispatch
+- **Paraphrase de-dup pass complete:** scored 620 quote/paraphrase pairs; 97 candidates dispatched to 5 parallel subagents (sliced by file, no collisions); 61 paraphrases rewritten to pivot to org reasoning/scope/jargon decoding; 36 left as already-additive; echoes 20→3 (3 are intentional keeps carrying distinct material the heuristic can't see). Neutral chronological voice maintained throughout; no blame-leaning language.
+- **Fresh proofing export** (gitignored): `print-export/elc-print-2026-06-13.html` + `.pdf` (766pp, 9.8M). Rebuild after content changes with `python3 scripts/build-print-export.py`. Jordan proofing in progress.
+
 **NEXT SESSION PLAN (updated 2026-06-06, after source-discovery research):**
 1. **Source discovery DONE (2026-06-06).** Research run + audited (`research/source-discovery-2026-06/research-notes.md`). Jordan locked **8 new corpus sources + 2 reference-tier** (UNHCR, IOM): DCFPI (Class anchor), PICUM + HRW (Migration), Opportunity Agenda + Movement Strategy Center (Movement anchor), Religion Stylebook RNA + 18Doors + CAIR (Faith — Religion Stylebook graduates `jew`/`islam`). Skipped: ADL, AJC, ISPU, Momentum, COF, Blanchet, MIRA, Race Forward, Urban Institute; APA SES page = deepen existing APA citations instead. Posture rule established: legal-definitional sources (UNHCR/IOM) go reference-tier, never guidance tables — corpus sources must be equity guides or identity-journalism guides.
 2. **Codex ingestion slices DONE (2026-06-06).** Then 2026-06-07: Codex built `scripts/diagnose-term-coverage.py` (W6 counting-chain tracer) + structured-glossary extractors for Religion Stylebook (183 headwords) and MSC (108) — 18Doors/PICUM stay keyword-scan (no reliable headword structure). Matrix/index rebuilt; W6 now 27 terms. **Gotcha:** giving a source a structured extractor removes its keyword-scan hits — 8 of the original 17 W6 terms dropped to 2 sources (their 3rd was an MSC/RS in-body mention). Reports: `notes/source-discovery-2026-06-w6-report-v2.md`, diagnosis in `notes/term-coverage-diagnosis-2026-06.md` (asylum-seeker/migrant/poor have NO headword anywhere; activist/equality/tolerance at 1–2 — Movement still needs another source).
