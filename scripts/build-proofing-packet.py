@@ -75,8 +75,7 @@ GROUPS = [
         "why": "Your voice, not the corpus. Each one frames every term page beneath it, "
                "so an error here propagates. Also the most likely place for stale status "
                "claims about what's covered.",
-        "kind": "chapter",
-        "slugs": None,  # all of them
+        "kind": "chapter",  # every chapter, discovered from the content dir
     },
     {
         "id": "D",
@@ -279,14 +278,25 @@ def build_astro(name):
     path = PAGES / f"{name}.astro"
     chunks = astro_prose(path)
     parts = []
+    in_list = False
     for tag, txt in chunks:
+        if tag != "li" and in_list:
+            parts.append("</ul>")
+            in_list = False
         if tag in ("h1", "h2", "h3"):
-            parts.append(f"<h{'2' if tag == 'h1' else '3'}>{inline(txt)}</h{'2' if tag == 'h1' else '3'}>")
+            lvl = 2 if tag == "h1" else 3
+            parts.append(f"<h{lvl}>{inline(txt)}</h{lvl}>")
         elif tag == "li":
-            parts.append(f"<ul><li>{inline(txt)}</li></ul>")
+            if not in_list:
+                parts.append("<ul>")
+                in_list = True
+            parts.append(f"<li>{inline(txt)}</li>")
         else:
             parts.append(f"<p>{inline(txt)}</p>")
-    label = {"index": "Homepage", "about": "About", "methodology": "Methodology"}.get(name, name)
+    if in_list:
+        parts.append("</ul>")
+    # first <h1> is the page's own title; fall back to the filename
+    label = next((t for tag, t in chunks if tag == "h1"), name)
     return {
         "id": f"page:{name}",
         "label": label,
