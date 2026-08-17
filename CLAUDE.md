@@ -334,3 +334,15 @@ Attribution clarity is the primary design constraint — a reader should never h
 ### Placeholder content during build-out
 
 Terms, chapters, and sources that don't yet have content are OK to show during development as visually-dimmed "planned" stubs. This signals scope and invites contributors. Pre-launch (Phase 4), we'll decide whether to hide stubs or keep the "roadmap-visible" posture — not a constraint during Phase 1–3.
+
+## Roadmap (migrated from Drift 2026-08-17)
+
+- **Phase 4 — Quiet build → public launch** (In progress) - Rewritten 2026-05-14 from "Soft launch (private)" to a quiet-build-then-public-launch model. No friends-and-family preview round. Build until launch-ready (~50 terms, 3-4 chapters, all source pages real), then flip DNS to equitylanguagecommons.org in one motion.
+
+Launch readiness criteria: ~50 terms, all source pages fleshed out, 2+ chapters with real intros, legal pass, Pagefind wired, CF Pages live.
+
+Domain equitylanguagecommons.org secured 2026-05-14.
+- **Phase 5 — Post-launch outreach + community** (Planned) - Renamed 2026-05-14. Outreach happens AFTER the public site is live -- source orgs and peers see the finished work, not a preview link.
+
+Includes: Hanna Thomas courtesy, source-org notifications (not permission-seeking), peer-project courtesy to CSG/DSG maintainers, RadComms + GameChanger Salon announcement, personal LinkedIn post, opening to community submissions.
+- **Phase 6 — Maintenance rhythm** (Planned) - Quarterly source-edition checks, ongoing term/source additions, community PRs, last_reviewed per term.
