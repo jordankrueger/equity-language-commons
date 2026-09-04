@@ -33,11 +33,18 @@ from dataclasses import dataclass, field
 from datetime import date
 from pathlib import Path
 
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
+from lib import (
+    PROJECT_ROOT,
+    build_pdf_to_md_index,
+    normalize_term,
+    parse_frontmatter_scalars,
+    strip_yaml_string,
+    yaml_escape,
+)
+
 MATRIX_CSV = PROJECT_ROOT / "notes" / "term-coverage-matrix.csv"
 SOURCES_DIR = PROJECT_ROOT / "site" / "src" / "content" / "sources"
 TERMS_DIR = PROJECT_ROOT / "site" / "src" / "content" / "terms"
-SOURCE_ROOTS = [PROJECT_ROOT / "source-guides", PROJECT_ROOT / "source-guides" / "discovered"]
 
 # Context window read around each hit line, before truncation.
 CONTEXT_LINES = 10
@@ -92,21 +99,7 @@ REC_PATTERNS = [
 ]
 DEFAULT_REC = "use-with-care"
 
-# ---------- normalization (must mirror build-coverage-matrix.py) ----------
-
-_LEADING_ARTICLES = re.compile(r"^(?:the|a|an)\s+", re.IGNORECASE)
-_SURROUNDING_QUOTES = re.compile(r'^["“”\'‘’\\]+|["“”\'‘’\\]+$')
-_MULTISPACE = re.compile(r"\s+")
-_NON_WORD_TRAIL = re.compile(r"[\s,;:.!?]+$")
-
-
-def normalize_term(raw: str) -> str:
-    t = raw.strip()
-    t = _SURROUNDING_QUOTES.sub("", t)
-    t = t.lower().replace("-", " ")
-    t = _LEADING_ARTICLES.sub("", t)
-    t = _NON_WORD_TRAIL.sub("", t)
-    return _MULTISPACE.sub(" ", t).strip()
+_MULTISPACE = re.compile(r'\s+')
 
 
 def slugify(term: str) -> str:
@@ -132,48 +125,6 @@ class SourcePage:
     archive_md_path: Path | None      # the .md file the matrix scanned
 
 
-def _strip_yaml_string(s: str) -> str:
-    s = s.strip()
-    if s in ("null", ""):
-        return ""
-    if (s.startswith('"') and s.endswith('"')) or (s.startswith("'") and s.endswith("'")):
-        return s[1:-1]
-    return s
-
-
-def parse_frontmatter_scalars(text: str) -> dict[str, str]:
-    if not text.startswith("---\n"):
-        return {}
-    end = text.find("\n---\n", 4)
-    if end < 0:
-        return {}
-    out: dict[str, str] = {}
-    for line in text[4:end].splitlines():
-        if not line or line.startswith((" ", "\t")):
-            continue
-        m = re.match(r"^([a-zA-Z_]+):(?:\s+(.*))?$", line)
-        if m and m.group(2) is not None:
-            out[m.group(1)] = m.group(2).strip()
-    return out
-
-
-def build_pdf_to_md_index() -> dict[str, Path]:
-    """For every extracted .md sibling in source-guides/, parse the header
-    comment to find which PDF it came from. Returns: pdf_basename → md path."""
-    idx: dict[str, Path] = {}
-    for root in SOURCE_ROOTS:
-        if not root.exists():
-            continue
-        for md in root.glob("*.md"):
-            if md.name == "MANIFEST.md":
-                continue
-            head = md.read_text(encoding="utf-8", errors="replace")[:400]
-            m = re.search(r"^extracted_from:\s+(.+)$", head, re.MULTILINE)
-            if m:
-                idx[m.group(1).strip()] = md
-    return idx
-
-
 def load_source_pages() -> dict[str, SourcePage]:
     """Returns: matrix_source_slug → SourcePage.
     Builds the .md ↔ source-page mapping by reading the extract-pdfs.sh header
@@ -182,7 +133,7 @@ def load_source_pages() -> dict[str, SourcePage]:
     pages: dict[str, SourcePage] = {}
     for f in sorted(SOURCES_DIR.glob("*.md")):
         fm = parse_frontmatter_scalars(f.read_text(encoding="utf-8"))
-        archive = _strip_yaml_string(fm.get("local_archive", ""))
+        archive = strip_yaml_string(fm.get("local_archive", ""))
         if not archive:
             continue
         arch_path = Path(archive)
@@ -196,13 +147,13 @@ def load_source_pages() -> dict[str, SourcePage]:
         if not md_path or not md_path.exists():
             continue
         matrix_slug = md_path.stem
-        year_raw = _strip_yaml_string(fm.get("year", "0"))
+        year_raw = strip_yaml_string(fm.get("year", "0"))
         page = SourcePage(
             page_slug=f.stem,
-            org=_strip_yaml_string(fm.get("org", "")),
-            org_slug=_strip_yaml_string(fm.get("org_slug", "")),
+            org=strip_yaml_string(fm.get("org", "")),
+            org_slug=strip_yaml_string(fm.get("org_slug", "")),
             year=int(year_raw) if year_raw.isdigit() else 0,
-            source_url=_strip_yaml_string(fm.get("source_url", "")) or None,
+            source_url=strip_yaml_string(fm.get("source_url", "")) or None,
             local_archive=archive,
             archive_md_path=md_path,
         )
@@ -286,13 +237,6 @@ def extract_excerpt(source: SourcePage, matrix_row: dict) -> Excerpt | None:
 
 
 # ---------- YAML emitter ----------
-
-def yaml_escape(s: str) -> str:
-    """Conservative: always double-quote, escape backslashes and double quotes."""
-    if s == "":
-        return '""'
-    return '"' + s.replace("\\", "\\\\").replace('"', '\\"') + '"'
-
 
 def render_guidance_entries(excerpts: list[Excerpt]) -> str:
     out = []
