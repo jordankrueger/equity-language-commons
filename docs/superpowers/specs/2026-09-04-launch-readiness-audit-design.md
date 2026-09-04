@@ -25,9 +25,13 @@ Reuse: `scripts/build-glossary-index.py`, term frontmatter aliases, `site/src/da
 
 Add: a canonical-row view without removing the evidence index. `entries` remains the complete matrix-term dictionary consumed by `lint-content.py` and `diagnose-term-coverage.py`. A new `rows` dictionary contains published canonical rows plus unresolved long-tail rows. A new `aliases_by_commons_slug` mapping attaches de-duplicated alias objects to each published row; each alias object retains its matrix key, display form, source count, and source pointers. `by_letter` references `rows`, not `entries`. Published term pages contribute one primary row keyed by their own slug and displayed with their `term` value. Its data comes from the exact normalized matrix term matching the page term or slug. If that record is absent, the primary row keeps the page identity and aggregates unique source pointers from its aliases while marking the count as aggregate. The exact page term never becomes its own alias. Row construction rejects key collisions between a page slug and an unrelated long-tail key.
 
+If neither an exact matrix record nor alias evidence exists, retain the existing final fallback: synthesize the displayed source count from the term page's guidance entries and leave inline source details to the term page. In all glossary source and canonical links, `org_slug` is the route target; the source file stem remains available only for source selection and provenance.
+
 The letter bucket is computed from the primary display value, never the matrix term or alias, and rows sort by that display value. Alphabetic terms must match their A–Z bucket; nonalphabetic terms go in `#`. The generator will exit non-zero on duplicate page-backed primary slugs, duplicate page-backed visible labels, or wrong bucket placement so CI/deploy cannot publish bad output. Long-tail display collisions emit a warning and retain both entries. The glossary template will render aliases beneath the primary label in subdued text that remains part of the indexed page content.
 
 Visible counts will distinguish primary rows from aliases. `stats.total_terms`, coverage data used by W6, and diagnostic inputs retain every matrix term. New `stats.visible_rows`, `stats.visible_commons_rows`, and `stats.visible_long_tail_rows` drive the page counters and filters, so the DOM count and labels agree. The page introduction will say that every corpus term appears either as a primary entry or as an alias beneath one. Alias source details remain expandable beneath the canonical row rather than being discarded or merged into the canonical term's own source count.
+
+The headline and All terms chip use `visible_rows`; Commons entries uses `visible_commons_rows`; Long tail uses `visible_long_tail_rows`. Verification asserts the static chip text before the inline script runs, not the script's self-corrected headline alone.
 
 This removes the current failure mode: alias keys such as `deranged`, `psycho`, and `loony` all inherit the display “Crazy,” creating duplicate “Crazy” rows under several letters. The same error creates multiple “Little Person” rows.
 
@@ -36,6 +40,8 @@ This removes the current failure mode: alias keys such as `deranged`, `psycho`, 
 Reuse: the existing `host_posture`, `live_status`, and `local_archive` fields. These remain intact because source detail pages and archival policy use them.
 
 Add: organization grouping by `org_slug` on both the Sources index and source detail route. `sources/[slug].astro` will create one route per organization and render shared organization prose followed by every distinct cited work and that work's publication/access details. The index links once to that truthful combined page and lists its works beneath the organization. Add a display-only availability mapper derived from `host_posture`, `live_status`, and archive presence together, with this precedence:
+
+`getStaticPaths` groups the source collection by distinct `org_slug` and passes one `{ organizationSource, works[], citing[] }` object per route. The Sources index count is the number of distinct organizations, not source files. Multi-work prose is trimmed where it already repeats the generated works list.
 
 - Available online: the original source is live and does not require access.
 - Access restricted; reference copy held: the original is login-gated or paywalled and a private verification copy exists.
@@ -103,7 +109,7 @@ Generated glossary and SQLite outputs may change during verification. They will 
 2. Rebuild the matrix, glossary index, and SQLite index using the normal order.
 3. Run strict content lint and quote verification without changing verified quotations.
 4. Run the production Astro/Pagefind build.
-5. Use the existing computer-control browser tooling for assertions against representative local rendered pages; do not add a browser-test dependency. Check glossary C and L sections, Sources, homepage, chapter index/detail, source detail, and a term with former contributor metadata. Assert expected row counts/text, verify glossary fallback anchors still resolve, and exercise glossary filters from the keyboard.
+5. Use the existing computer-control browser tooling for keyboard interaction and visual inspection; do not add a browser-test dependency. Use `--dump-dom` or direct parsing of `site/dist` for deterministic row counts, chip text, labels, and fallback-anchor checks. Check glossary C and L sections, Sources, homepage, chapter index/detail, source detail, and a term with former contributor metadata.
 6. Complete all local must-pass launch checks and review the complete diff before commit.
 7. Push and deploy only after Jordan authorizes those steps. Then repeat the content, header, interaction, and deployment checks against the live Pages URL; production verification cannot pass against the pre-deploy site.
 
@@ -116,6 +122,8 @@ Generated glossary and SQLite outputs may change during verification. They will 
 - Remove Jordan’s name from rendered content except the footer.
 - Audit the Direct Upload Pages project and safely fix Pages-level settings, but do not flip custom-domain DNS or change zone-level launch settings.
 - Keep the preview host out of search indexes until launch while retaining the real-domain canonical URL. The launch checklist requires removing `noindex`, rebuilding, and deploying before the DNS flip.
+
+After launch, the shared Pages artifact makes the `pages.dev` hostname indexable too; canonical tags point crawlers to the custom domain. Host-specific blocking would require a Worker and is not justified for this static launch.
 
 ## Open questions
 
