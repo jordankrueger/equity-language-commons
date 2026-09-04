@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for suggesting a source. We're interested in progressive equity-language guides specifically — style references that focus on what to call people and how to frame identity-related issues. Brand identity guides, AP-grammar references, and clinical terminology references are usually out of scope unless they substantially intersect with equity language.
+        Thanks for suggesting a source. We're interested in progressive equity-language guides specifically: style references that focus on what to call people and how to frame identity-related issues. Brand identity guides, AP-grammar references, and clinical terminology references are usually out of scope unless they substantially intersect with equity language.
 
         For host posture (whether the commons can mirror the PDF, link out, etc.), see [ROADMAP.md](https://github.com/jordankrueger/equity-language-commons/blob/main/ROADMAP.md). We'll figure out the posture during intake.
 
@@ -48,8 +48,8 @@ body:
     id: scope
     attributes:
       label: What does it cover?
-      description: A sentence or two about the guide's scope — which identity areas it addresses, what its angle is.
-      placeholder: "GLAAD's media reference guide covers LGBTQ+ identity, gender, and sexual orientation terminology, with a strong journalism focus. Long-running — first edition was 1992."
+      description: A sentence or two about the guide's scope, which identity areas it addresses, what its angle is.
+      placeholder: "GLAAD's media reference guide covers LGBTQ+ identity, gender, and sexual orientation terminology, with a strong journalism focus. Long-running: first edition was 1992."
     validations:
       required: true
 

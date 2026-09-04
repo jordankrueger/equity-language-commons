@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for catching this. The commons cites under fair use, and a misquoted or mis-attributed source is a real problem — not a nit. Errors are taken seriously.
+        Thanks for catching this. The commons cites under fair use, and a misquoted or mis-attributed source is a real problem: not a nit. Errors are taken seriously.
 
   - type: input
     id: where

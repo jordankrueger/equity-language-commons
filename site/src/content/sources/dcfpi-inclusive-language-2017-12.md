@@ -15,7 +15,7 @@ length_pages: 15
 format: "PDF"
 version_history:
   - year: 2017
-    note: "December 2017 edition — the only edition published."
+    note: "December 2017 edition: the only edition published."
 ---
 
 ## About
@@ -40,7 +40,7 @@ In the commons it is a source for terms across five chapters, from *poor* and
 ## Access
 
 The guide is a free public PDF on DCFPI's site (linked above) and was live as
-of the last check — the archived copy is byte-identical to the live file.
+of the last check: the archived copy is byte-identical to the live file.
 Host posture is **private-mirror-link-out**: the commons keeps a private
 preservation copy for citation verification and links readers to DCFPI's
 authoritative version. Quotes are held within fair-use limits.

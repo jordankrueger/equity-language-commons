@@ -66,7 +66,7 @@ guidance:
     derived_from: []
     quote: "Never use the term “illegal” to describe a person. If a person lacks legal permission to live or work in the U.S., you can refer to them as an “undocumented” immigrant or someone with a complex immigration status."
     quote_loc: "p. 8–9, Immigrants and Refugees → Appropriate Terms For + Tips"
-    paraphrase: "Sierra Club's contribution to the page is a second alternative the journalism guides skip — \"someone with a complex immigration status\" — useful when a writer can't confirm a person is undocumented but wants to avoid \"illegal.\" Its \"never\" is the most absolute framing here, an editorial line rather than the newsroom-norm reasoning IDP and Define American lean on."
+    paraphrase: "Sierra Club's contribution to the page is a second alternative the journalism guides skip: \"someone with a complex immigration status\": useful when a writer can't confirm a person is undocumented but wants to avoid \"illegal.\" Its \"never\" is the most absolute framing here, an editorial line rather than the newsroom-norm reasoning IDP and Define American lean on."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Diversity Style Guide"
     org_slug: "diversity-style-guide"
@@ -104,14 +104,14 @@ contributors:
 
 ## Synthesis
 
-**"Undocumented immigrant" is the corpus's prescribed term** — the agreed replacement for the "illegal" family of words. All six sources here recommend it, and most name it explicitly as the alternative to "illegal immigrant" and "illegal alien." The shared rationale is that it describes a person's documentation status without converting the person into a crime: "a person is never illegal" (SumOfUs); it "does not dehumanize them in the manner that such terms as aliens and illegals do" (Diversity Style Guide); the "illegal" framing "unfairly replaces complex legal circumstances with an assumption of guilt" (Define American). The Immigrant Defense Project, in both its 2020 Journalist Style Guide and its later Comm/Unity revision (third edition, March 2022), lists it as the direct alternative on a chart of problematic terms to reconsider.
+**"Undocumented immigrant" is the corpus's prescribed term**: the agreed replacement for the "illegal" family of words. All six sources here recommend it, and most name it explicitly as the alternative to "illegal immigrant" and "illegal alien." The shared rationale is that it describes a person's documentation status without converting the person into a crime: "a person is never illegal" (SumOfUs); it "does not dehumanize them in the manner that such terms as aliens and illegals do" (Diversity Style Guide); the "illegal" framing "unfairly replaces complex legal circumstances with an assumption of guilt" (Define American). The Immigrant Defense Project, in both its 2020 Journalist Style Guide and its later Comm/Unity revision (third edition, March 2022), lists it as the direct alternative on a chart of problematic terms to reconsider.
 
 The sources also define the term tightly: "undocumented" describes a current lack of legal status, not a permanent identity. SumOfUs notes that an asylum seeker becomes undocumented only after failing to respond to a removal notice. Define American widens the menu slightly to "unauthorized immigrant" and "immigrant without legal status," but "undocumented" is the common core every source returns to.
 
-The term moved from movement language into institutional practice. It predates these guides — the [AP Stylebook dropped "illegal immigrant" in 2013](/sources/ap-stylebook/) — but the change the later sources cite is February 2021, when USCIS itself shifted to "noncitizen," "undocumented noncitizen," or "undocumented individual" (Diversity Style Guide). By 2023–2024, the preferred-term consensus ran from progressive style guides through the federal agency's own register, rather than dividing along advocacy lines.
+The term moved from movement language into institutional practice. It predates these guides: the [AP Stylebook dropped "illegal immigrant" in 2013](/sources/ap-stylebook/), but the change the later sources cite is February 2021, when USCIS itself shifted to "noncitizen," "undocumented noncitizen," or "undocumented individual" (Diversity Style Guide). By 2023–2024, the preferred-term consensus ran from progressive style guides through the federal agency's own register, rather than dividing along advocacy lines.
 
 ## Audience notes
 
 - **Journalists and editors.** "Undocumented immigrant" or "undocumented" is the standard; "noncitizen" and "undocumented individual" entered the federal register through the 2021 USCIS update (since reversed in 2025, when "alien" was reinstated). Never use "illegal" as a noun for a person.
-- **Advocates and internal comms.** Pair the term with the person's story. "Undocumented" is a status someone is in, not a label for who they are — and status can change.
+- **Advocates and internal comms.** Pair the term with the person's story. "Undocumented" is a status someone is in, not a label for who they are, and status can change.
 - **Precision.** Undocumented is not interchangeable with asylum seeker or refugee. Use the accurate status, and confirm it before publishing given the disclosure risk.

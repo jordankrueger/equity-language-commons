@@ -28,7 +28,7 @@ guidance:
     derived_from: []
     quote: "Terms used by disability rights activists: … uses a wheelchair. Terms avoided/questioned by disability rights activists: … wheelchair-bound, confined to a wheelchair, in a wheelchair."
     quote_loc: "Disability language two-column list, \"Terms used\" vs. \"Terms avoided/questioned by disability rights activists\""
-    paraphrase: "Use \"uses a wheelchair.\" As the earliest source on the page and the one drawing directly from disability-rights activists rather than a newsroom, SumOfUs is also the only one to flag \"in a wheelchair\" — not just \"bound\" and \"confined\" — as a form to question."
+    paraphrase: "Use \"uses a wheelchair.\" As the earliest source on the page and the one drawing directly from disability-rights activists rather than a newsroom, SumOfUs is also the only one to flag \"in a wheelchair\": not just \"bound\" and \"confined\": as a form to question."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Sierra Club"
     org_slug: "sierra-club"
@@ -52,7 +52,7 @@ guidance:
     derived_from: []
     quote: "TERM TO AVOID … SUGGESTED ALTERNATIVE … wheelchair-bound … person who uses a wheelchair … confined to a wheelchair … wheelchair user"
     quote_loc: "Disability section, \"Term to avoid / Suggested alternative\" table"
-    paraphrase: "APA reaches the same place as the others by table rather than by argument — no rationale, just the avoid/use pairing — which makes it the clinical-style confirmation that the \"wheelchair user\" form is settled consensus, not one guide's preference."
+    paraphrase: "APA reaches the same place as the others by table rather than by argument: no rationale, just the avoid/use pairing, which makes it the clinical-style confirmation that the \"wheelchair user\" form is settled consensus, not one guide's preference."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Diversity Style Guide"
     org_slug: "diversity-style-guide"
@@ -64,7 +64,7 @@ guidance:
     derived_from: []
     quote: "It is acceptable to describe a person as someone who uses a wheelchair… Avoid confined to a wheelchair or wheelchair-bound as these terms describe a person only in relationship to a piece of equipment."
     quote_loc: "Glossary entry: wheelchair/wheelchair-bound/confined to a wheelchair"
-    paraphrase: "The Diversity Style Guide accepts describing a person as someone who uses a wheelchair, and advises avoiding \"confined to a wheelchair\" or \"wheelchair-bound\" because those forms describe a person only in relationship to a piece of equipment — and are inaccurate, since wheelchairs are mobility aids people transfer in and out of."
+    paraphrase: "The Diversity Style Guide accepts describing a person as someone who uses a wheelchair, and advises avoiding \"confined to a wheelchair\" or \"wheelchair-bound\" because those forms describe a person only in relationship to a piece of equipment, and are inaccurate, since wheelchairs are mobility aids people transfer in and out of."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []
@@ -73,7 +73,7 @@ audience_notes:
   - audience: "Journalists and editors"
     note: "use \"wheelchair user\" or \"a person who uses a wheelchair,\" and where it matters, follow with why the equipment is needed. Drop \"wheelchair-bound,\" \"confined to a wheelchair,\" and \"in a wheelchair.\""
   - audience: "Advocates and internal comms"
-    note: "the framing rationale travels — name the person, not their relationship to a device. The Diversity Style Guide's point is that a wheelchair liberates movement rather than confining it."
+    note: "the framing rationale travels: name the person, not their relationship to a device. The Diversity Style Guide's point is that a wheelchair liberates movement rather than confining it."
   - audience: "Self-identification governs"
     note: "some people describe themselves with forms a style guide would avoid. A person's own usage settles the question for that person."
 last_reviewed: 2026-06-05
@@ -92,4 +92,4 @@ For a communicator, the rule is to lead with the person and treat the wheelchair
 
 ## History note
 
-The preferred-form guidance is consistent across the corpus's full span — the earliest guide here (SumOfUs, 2016) and the most recent (APA and the Diversity Style Guide, 2023) prescribe the same "wheelchair user / person who uses a wheelchair" language and reject the same "bound / confined / in a wheelchair" forms. There is no documented shift in recommendation over this period to trace.
+The preferred-form guidance is consistent across the corpus's full span: the earliest guide here (SumOfUs, 2016) and the most recent (APA and the Diversity Style Guide, 2023) prescribe the same "wheelchair user / person who uses a wheelchair" language and reject the same "bound / confined / in a wheelchair" forms. There is no documented shift in recommendation over this period to trace.

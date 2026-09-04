@@ -20,7 +20,7 @@ version_history:
 
 ## About
 
-The **Indigenous Journalists Association (IJA)** — known as the **Native American Journalists Association (NAJA)** until its 2023 rebrand — supports Native American and other Indigenous peoples in journalism and hosts the annual National Native Media Awards. Its *Reporting and Indigenous Terminology Guide* offers concise, AP-style guidance for covering Native American, Alaska Native, and Native Hawaiian communities.
+The **Indigenous Journalists Association (IJA)**: known as the **Native American Journalists Association (NAJA)** until its 2023 rebrand: supports Native American and other Indigenous peoples in journalism and hosts the annual National Native Media Awards. Its *Reporting and Indigenous Terminology Guide* offers concise, AP-style guidance for covering Native American, Alaska Native, and Native Hawaiian communities.
 
 In the commons it is a source for the Indigenous & Tribal Sovereignty chapter.
 

@@ -36,7 +36,7 @@ guidance:
     derived_from: []
     quote: "Bathroom Bill … Non-discrimination law/ordinance"
     quote_loc: "Gender/Sex table, \"Avoid This / Use This Instead\""
-    paraphrase: "Movement Strategy Center's Gender/Sex avoid-table lists \"Bathroom Bill\" in the \"Avoid This\" column and substitutes \"Non-discrimination law/ordinance\" — relabeling the measure by what it regulates rather than by the restroom-access framing."
+    paraphrase: "Movement Strategy Center's Gender/Sex avoid-table lists \"Bathroom Bill\" in the \"Avoid This\" column and substitutes \"Non-discrimination law/ordinance\": relabeling the measure by what it regulates rather than by the restroom-access framing."
     confidence: "VERIFIED-ARCHIVED"
   - org: "DC Fiscal Policy Institute"
     org_slug: "dcfpi"
@@ -67,9 +67,9 @@ external_references: []
 methodological_context: []
 audience_notes:
   - audience: "Journalists and editors"
-    note: "NLGJA is the operative guide here: describe what the measure actually does — restrict or expand public accommodations for transgender people — rather than calling it a \"bathroom bill.\" The term is acceptable only inside a direct quote, where you're reporting how a source framed it, not adopting the frame yourself."
+    note: "NLGJA is the operative guide here: describe what the measure actually does: restrict or expand public accommodations for transgender people: rather than calling it a \"bathroom bill.\" The term is acceptable only inside a direct quote, where you're reporting how a source framed it, not adopting the frame yourself."
   - audience: "Campaigners and advocacy communicators"
-    note: "Both SumOfUs and Movement Strategy Center flag the term because it carries opponents' framing — narrowing a broad question of nondiscrimination down to restroom access. The recommended substitute is \"non-discrimination law/ordinance,\" which names what is actually at stake."
+    note: "Both SumOfUs and Movement Strategy Center flag the term because it carries opponents' framing: narrowing a broad question of nondiscrimination down to restroom access. The recommended substitute is \"non-discrimination law/ordinance,\" which names what is actually at stake."
   - audience: "When the term appears in source material"
     note: "Quoting an opponent or a piece of legislation that uses \"bathroom bill\" is different from using it in your own voice. Reproduce it in quotation marks or attribute it; don't let a contested label migrate into neutral description."
 last_reviewed: 2026-06-07

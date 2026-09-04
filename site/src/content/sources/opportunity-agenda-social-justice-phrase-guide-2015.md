@@ -27,7 +27,7 @@ phrase-level framing advice for advocates: use identity terms as adjectives
 rather than nouns ("Black people," not "Blacks"), watch loaded frames like
 *reform* and "on welfare," and choose precise terms over euphemism.
 
-On the commons' source spectrum this is a **progressive equity guide** — and
+On the commons' source spectrum this is a **progressive equity guide**: and
 together with the Movement Strategy Center glossary, one of the two
 movement-communications anchors added to the corpus in June 2026. It works at
 the phrase level (how a sentence positions people) rather than by headword
@@ -37,7 +37,7 @@ elsewhere.
 ## Access
 
 The guide is a free public PDF on The Opportunity Agenda's site (linked
-above) and was live as of the last check — the archived copy is
+above) and was live as of the last check: the archived copy is
 byte-identical to the live file. Host posture is
 **private-mirror-link-out**: the commons keeps a private preservation copy
 for citation verification and links readers to the authoritative version.

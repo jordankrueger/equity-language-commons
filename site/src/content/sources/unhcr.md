@@ -1,7 +1,7 @@
 ---
 org: "UNHCR"
 org_slug: "unhcr"
-work_title: "'Refugees' and 'Migrants' — Frequently Asked Questions"
+work_title: "'Refugees' and 'Migrants': Frequently Asked Questions"
 year: 2024
 copyright_holder: "UNHCR"
 license: "© UNHCR. Referenced as a legal-definitional source; no FAQ content reproduced."

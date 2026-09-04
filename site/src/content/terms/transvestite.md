@@ -69,7 +69,7 @@ audience_notes:
   - audience: "General note"
     note: "Journalists and editors. Don't use \"transvestite\" in your own copy. For gender identity, use \"transgender\" (APA, DSG); for the clothing-not-identity sense, use \"cross-dresser\" (DSG and TJA both redirect here). Keep the word only inside a direct quote from historical material or from someone who self-describes that way."
   - audience: "General note"
-    note: "Advocates and internal comms. The cross-source read is avoid. SumOfUs frames the same caution as a self-identification exception rather than a flat ban — the practical effect is the same: don't apply the label to someone who hasn't claimed it."
+    note: "Advocates and internal comms. The cross-source read is avoid. SumOfUs frames the same caution as a self-identification exception rather than a flat ban: the practical effect is the same: don't apply the label to someone who hasn't claimed it."
   - audience: "General note"
     note: "When the historical record uses it. TJA and SumOfUs both leave room for the term in historical quotation and self-description. When sourcing older clinical or legal material that uses \"transvestite,\" quote it as-is rather than substituting a modern term, and let context carry the difference."
 last_reviewed: 2026-06-05

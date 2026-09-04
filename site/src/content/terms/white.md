@@ -43,7 +43,7 @@ guidance:
     recommendation: "use"
     quote: "DO NOT capitalize the word white."
     quote_loc: "p. 4, References to Racial, Ethnic, Cultural (and Political) Groups"
-    paraphrase: "NGC's rule is set against the surrounding 'DO capitalize Black, Indigenous, Native, American Indian, Asian, Latinx' list — the asymmetry is the point. Links to the MPR editor's note ('Why we now capitalize Black but continue to lowercase white') for the reasoning."
+    paraphrase: "NGC's rule is set against the surrounding 'DO capitalize Black, Indigenous, Native, American Indian, Asian, Latinx' list: the asymmetry is the point. Links to the MPR editor's note ('Why we now capitalize Black but continue to lowercase white') for the reasoning."
     confidence: "VERIFIED-ARCHIVED"
 
   - org: "National Association of Black Journalists"
@@ -55,7 +55,7 @@ guidance:
     recommendation: "use"
     quote: "NABJ also recommends that whenever a color is used to appropriately describe race then it should be capitalized, including White and Brown."
     quote_loc: "NABJ Statement on Capitalizing Black and Other Racial Identifiers (June 2020)"
-    paraphrase: "NABJ's symmetric rule: if a color names a race, capitalize it. White and Brown both get the same treatment as Black. The reasoning is descriptive-integrity-based rather than political-identity-based — NABJ does not engage the 'aligning with white supremacy' concern that drives Sierra Club's opposite decision. The split between NABJ and AP on this question is the central U.S. journalism style divergence on race capitalization since 2020."
+    paraphrase: "NABJ's symmetric rule: if a color names a race, capitalize it. White and Brown both get the same treatment as Black. The reasoning is descriptive-integrity-based rather than political-identity-based: NABJ does not engage the 'aligning with white supremacy' concern that drives Sierra Club's opposite decision. The split between NABJ and AP on this question is the central U.S. journalism style divergence on race capitalization since 2020."
     confidence: "VERIFIED"
 
   - org: "Diversity Style Guide"
@@ -67,7 +67,7 @@ guidance:
     recommendation: "use"
     quote: "Don't use Caucasian. … the National Association of Black Journalists wrote, 'NABJ also recommends that whenever a color is used to appropriately describe race then it should be capitalized, including White and Brown.' … The Diversity Style Guide has long advocated for the capitalization of White as well as Black."
     quote_loc: "Entry: White, white (lines 3941–3944 in archived markdown)"
-    paraphrase: "DSG's house position: capitalize White, parallel to Black. Documents the broader landscape — most U.S. news still lowercases, with notable exceptions (Washington Post, NABJ, APA, Conscious Style Guide, Center for the Study of Social Policy). Cites the Center for the Study of Social Policy's argument that lowercase white 'allows White people to sit out of conversations about race and removes accountability from White people's and White institutions' involvement in racism.' Caucasian is non-preferred as a synonym."
+    paraphrase: "DSG's house position: capitalize White, parallel to Black. Documents the broader landscape: most U.S. news still lowercases, with notable exceptions (Washington Post, NABJ, APA, Conscious Style Guide, Center for the Study of Social Policy). Cites the Center for the Study of Social Policy's argument that lowercase white 'allows White people to sit out of conversations about race and removes accountability from White people's and White institutions' involvement in racism.' Caucasian is non-preferred as a synonym."
     confidence: "VERIFIED"
 
   - org: "Annie E. Casey Foundation"
@@ -79,7 +79,7 @@ guidance:
     recommendation: "use"
     quote: "For nouns: African American, Asian American, black, Hispanic, Latino, Native American, non-Hispanic white, white (do not use Caucasian) …"
     quote_loc: "p. 14, Race and Ethnicity"
-    paraphrase: "Casey 2013 lists lowercase 'white' and 'non-Hispanic white' as approved nouns, parallel to lowercase 'black' — both reflecting AP's pre-June-2020 convention. The 'do not use Caucasian' instruction is the only explicit avoidance, and matches every later guide that addresses it (DSG 2023 echoes the same posture)."
+    paraphrase: "Casey 2013 lists lowercase 'white' and 'non-Hispanic white' as approved nouns, parallel to lowercase 'black': both reflecting AP's pre-June-2020 convention. The 'do not use Caucasian' instruction is the only explicit avoidance, and matches every later guide that addresses it (DSG 2023 echoes the same posture)."
     confidence: "VERIFIED-ARCHIVED"
 
 context_data:
@@ -91,10 +91,10 @@ context_data:
   - label: "NABJ vs. AP divergence (June–July 2020)"
     claim: "NABJ's June 2020 statement and AP's July 2020 statement adopt opposite rules on the same question: NABJ capitalizes both Black and White (and Brown) for symmetry; AP capitalizes Black and lowercases white. The split has held since 2020."
     url: "https://www.nabj.org/news/512370/NABJ-Style-Guide-Update.htm"
-    relevance: "The single most consequential active disagreement in current U.S. race capitalization. Choosing between the two rules is the editorial decision houses make — the choice signals which side of the political-vs-descriptive framing the house treats as primary."
+    relevance: "The single most consequential active disagreement in current U.S. race capitalization. Choosing between the two rules is the editorial decision houses make: the choice signals which side of the political-vs-descriptive framing the house treats as primary."
 
   - label: "Washington Post adoption of symmetric capitalization (July 29, 2020)"
-    claim: "The Washington Post began capitalizing both Black and White on July 29, 2020, citing the same symmetry rationale as NABJ — both are color-based racial descriptors and should be treated identically."
+    claim: "The Washington Post began capitalizing both Black and White on July 29, 2020, citing the same symmetry rationale as NABJ: both are color-based racial descriptors and should be treated identically."
     url: "https://www.washingtonpost.com/pr/2020/07/29/washington-post-announces-writing-style-changes-racial-ethnic-identifiers/"
     relevance: "The most prominent mainstream U.S. news adoption of the symmetric rule. Together with NABJ, APA, and DSG, defines the 'capitalize both' camp."
 
@@ -111,7 +111,7 @@ audience_notes:
   - audience: "Federal data / Census"
     note: "Census Bureau uses capital-W 'White' as a formal racial category, defined as 'a person having origins in any of the original peoples of Europe, the Middle East, or North Africa.' When citing Census or federal-data terminology directly, match the federal capitalization regardless of house style."
   - audience: "Caucasian usage"
-    note: "Avoid as a synonym for 'white' in identity contexts — both Casey 2013 and DSG 2023 are explicit. DSG allows the term in demographic-data contexts where it is the formal label being cited. The pseudo-scientific origins (Blumenbach's 18th-century racial typology) make 'Caucasian' a poor descriptor in current usage."
+    note: "Avoid as a synonym for 'white' in identity contexts: both Casey 2013 and DSG 2023 are explicit. DSG allows the term in demographic-data contexts where it is the formal label being cited. The pseudo-scientific origins (Blumenbach's 18th-century racial typology) make 'Caucasian' a poor descriptor in current usage."
   - audience: "Writing about white supremacy / white nationalism"
     note: "Distinct vocabulary applies regardless of house capitalization rule. Sierra Club's reasoning for lowercase 'white' is rooted specifically in not sharing orthography with the capital-W White used by organized white-supremacist movements as a political identity. See white supremacy."
 
@@ -127,13 +127,13 @@ White is the most-divided term in the R&E corpus: five guides reviewed here, thr
 
 **The two live capitalization rules**:
 
-1. **Asymmetric (lowercase white)** — Sierra Club, NGC, AP, NYT, LA Times, and most U.S. mainstream news. Adopted in mid-2020 in tandem with the capital-B Black decision. Reasoning is risk-asymmetric: capital-W White is the orthography used by organized white-supremacist movements as a political identity, and these institutions decline to share it. The trade-off — leaving whiteness as the unmarked default — is acknowledged as a real cost, not a benefit.
+1. **Asymmetric (lowercase white)**: Sierra Club, NGC, AP, NYT, LA Times, and most U.S. mainstream news. Adopted in mid-2020 in tandem with the capital-B Black decision. Reasoning is risk-asymmetric: capital-W White is the orthography used by organized white-supremacist movements as a political identity, and these institutions decline to share it. The trade-off: leaving whiteness as the unmarked default: is acknowledged as a real cost, not a benefit.
 
-2. **Symmetric (capitalize both)** — NABJ, Washington Post, APA, Diversity Style Guide, Conscious Style Guide, Center for the Study of Social Policy. The reasoning runs the other direction: color-based race descriptors should be treated identically for descriptive integrity, and lowercase white concretely lets white readers exit conversations about race that capitalize the racial label for everyone else. The Center for the Study of Social Policy's framing — "the detachment of 'White' as a proper noun allows White people to sit out of conversations about race and removes accountability" — is the strongest articulation.
+2. **Symmetric (capitalize both)**: NABJ, Washington Post, APA, Diversity Style Guide, Conscious Style Guide, Center for the Study of Social Policy. The reasoning runs the other direction: color-based race descriptors should be treated identically for descriptive integrity, and lowercase white concretely lets white readers exit conversations about race that capitalize the racial label for everyone else. The Center for the Study of Social Policy's framing: "the detachment of 'White' as a proper noun allows White people to sit out of conversations about race and removes accountability": is the strongest articulation.
 
-3. **Pre-2020 lowercase (chronological, not doctrinal)** — Casey 2013. Both white and black lowercase, matching AP's pre-June-2020 rule. Read this as a date marker — Casey is not taking a position against the 2020 capital-B Black shift; it predates it.
+3. **Pre-2020 lowercase (chronological, not doctrinal)**: Casey 2013. Both white and black lowercase, matching AP's pre-June-2020 rule. Read this as a date marker: Casey is not taking a position against the 2020 capital-B Black shift; it predates it.
 
-Both active rules are coherent. Both work out the same problem — how to write about whiteness in a way that surfaces rather than naturalizes it — and reach opposite tactical answers. The choice is doctrinal: which failure mode is treated as worse?
+Both active rules are coherent. Both work out the same problem: how to write about whiteness in a way that surfaces rather than naturalizes it, and reach opposite tactical answers. The choice is doctrinal: which failure mode is treated as worse?
 
 - **If sharing capital-W orthography with white-nationalist usage is the worse risk**, lowercase white (Sierra Club, AP).
 - **If leaving white as the unmarked racial default is the worse risk**, capitalize White (NABJ, WaPo, APA).
@@ -142,7 +142,7 @@ There is no third synthesis position in the corpus, and the split has remained s
 
 **Caucasian is the one settled call.** Every guide that addresses it (Casey 2013, DSG 2023) directs writers away from Caucasian as a synonym for white in identity contexts. DSG carves out demographic-data usage where 'Caucasian' is the formal label being cited; everywhere else, 'white' or 'White' per house style.
 
-**Non-Hispanic white** appears in Casey 2013's approved-noun list. This is federal-data terminology — the standard Census/HHS construction for separating racial and ethnic identification. Use it when citing federal data; in narrative writing, 'white' (or 'White') generally communicates the same thing more cleanly.
+**Non-Hispanic white** appears in Casey 2013's approved-noun list. This is federal-data terminology: the standard Census/HHS construction for separating racial and ethnic identification. Use it when citing federal data; in narrative writing, 'white' (or 'White') generally communicates the same thing more cleanly.
 
 
 ## History note

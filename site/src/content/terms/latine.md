@@ -37,7 +37,7 @@ guidance:
     recommendation: "use"
     quote: "Latine is a gender-neutral or non-binary alternative to Latino and Latina. This term originated from LGBTQIA+, gender non-binary and feminist communities in Spanish-speaking countries. … Latine is increasingly used among Spanish speakers as it's more easily pronounced than Latinx and can be used in plural forms."
     quote_loc: "Latine entry (lines 2201–2204 in archived markdown)"
-    paraphrase: "DSG's Latine entry (updated March 2024, the most recent of any DSG entry on this cluster) frames Latine as structurally better than Latinx for Spanish speakers: pronounceable, follows the existing 'e' gender-neutral pattern in Spanish, pluralizes cleanly. Origins are LGBTQIA+ and feminist communities in Spanish-speaking countries — the term was constructed inside Spanish, not imported to it."
+    paraphrase: "DSG's Latine entry (updated March 2024, the most recent of any DSG entry on this cluster) frames Latine as structurally better than Latinx for Spanish speakers: pronounceable, follows the existing 'e' gender-neutral pattern in Spanish, pluralizes cleanly. Origins are LGBTQIA+ and feminist communities in Spanish-speaking countries: the term was constructed inside Spanish, not imported to it."
     confidence: "VERIFIED"
 
   - org: "Trans Journalists Association"
@@ -48,20 +48,20 @@ guidance:
     local_archive: "source-guides/discovered/tja-stylebook-2026-01.md"
     recommendation: "use"
     quote: "Terms used by some as gender-neutral alternatives to Latino or Latina. Some prefer *Latine* — or less commonly, *Latin@* — to *Latinx*. Defer to an individual's use and do not apply it to those who do not self-describe with it."
-    quote_loc: "Glossary entry: Latinx, Latine (adj.) — anchor #def-latinx"
-    paraphrase: "TJA groups Latinx and Latine under one shared entry, notes that some prefer Latine (or, less commonly, Latin@) to Latinx, and applies strict self-identification deferral — never apply either to someone who doesn't use it for themselves."
+    quote_loc: "Glossary entry: Latinx, Latine (adj.): anchor #def-latinx"
+    paraphrase: "TJA groups Latinx and Latine under one shared entry, notes that some prefer Latine (or, less commonly, Latin@) to Latinx, and applies strict self-identification deferral: never apply either to someone who doesn't use it for themselves."
     confidence: "VERIFIED"
 
 context_data:
   - label: "Latine as Spanish-native construction"
-    claim: "The '-e' suffix as a gender-neutral form in Spanish is structurally consistent with existing non-gendered Spanish nouns like 'estudiante' (student), 'paciente' (patient), 'cliente' (client). This is what distinguishes Latine from Latinx grammatically — Latinx adds a letter that doesn't function as a gender-neutral marker in Spanish, while Latine uses one that does."
+    claim: "The '-e' suffix as a gender-neutral form in Spanish is structurally consistent with existing non-gendered Spanish nouns like 'estudiante' (student), 'paciente' (patient), 'cliente' (client). This is what distinguishes Latine from Latinx grammatically: Latinx adds a letter that doesn't function as a gender-neutral marker in Spanish, while Latine uses one that does."
     url: null
     relevance: "The strongest structural case for Latine over Latinx in Spanish-language contexts. Latinx works in English-language writing because English doesn't grammatically gender nouns; Latine works in Spanish-language writing because it follows Spanish's own existing pattern. Both can coexist as the bilingual choice."
 
   - label: "Origin in LGBTQIA+ Spanish-speaking communities"
-    claim: "Latine emerged from LGBTQIA+, gender-nonbinary, and feminist communities in Spanish-speaking countries — that is, the term was constructed inside Spanish by Spanish speakers rather than imported."
+    claim: "Latine emerged from LGBTQIA+, gender-nonbinary, and feminist communities in Spanish-speaking countries: that is, the term was constructed inside Spanish by Spanish speakers rather than imported."
     url: "https://www.diversitystyleguide.com/glossary/latine/"
-    relevance: "Addresses the most common Latinx critique — that it's an English-internet construction imposed on Spanish-speaking communities. Latine doesn't carry the same criticism because its origin is the opposite."
+    relevance: "Addresses the most common Latinx critique: that it's an English-internet construction imposed on Spanish-speaking communities. Latine doesn't carry the same criticism because its origin is the opposite."
 
 audience_notes:
   - audience: "Spanish-speaking / bilingual audiences"
@@ -71,7 +71,7 @@ audience_notes:
   - audience: "Plural form"
     note: "Latines (plural) reads cleanly and follows the Spanish '-e' pattern; DSG flags clean pluralization as one of Latine's advantages over Latinx. (DSG gives Latinx the plural 'Latinxs.')"
   - audience: "Individual self-identification"
-    note: "Same rule as Latinx (TJA explicit) — never apply either term to someone who doesn't self-describe with it. Latine is not a polite default override for someone who identifies as Latino, Latina, or Hispanic."
+    note: "Same rule as Latinx (TJA explicit): never apply either term to someone who doesn't self-describe with it. Latine is not a polite default override for someone who identifies as Latino, Latina, or Hispanic."
   - audience: "Compared to Latin@"
     note: "Latin@ (with the '@' meant to overlay 'a' and 'o' visually) is an older post-internet construction. Less common in current usage than either Latinx or Latine. Some academic departments still use it in formal names (University of Wisconsin-Madison Department of Chican@ and Latin@ Studies); rarely seen in current general usage."
 
@@ -87,11 +87,11 @@ DSG, the most recent guide in this cluster (updated March 2024), treats Latine a
 
 The corpus on Latine is currently thin (only DSG 2023 and TJA 2023/2026 have dedicated entries; Sierra Club 2021, SEIU 2020, Casey 2013, and NGC 2021 all predate the Latine institutional uptake). DSG's March 2024 Latine entry update is one of the most recent updates in the entire corpus, and as of mid-2026 the term's dedicated coverage still rests mainly on DSG and TJA.
 
-**Self-identification is the operating rule, same as Latinx**: TJA's strict deferral — never apply either term to someone who doesn't use it — applies. Latine isn't a polite default override for someone who identifies as Latino, Latina, or Hispanic. Use what people use for themselves.
+**Self-identification is the operating rule, same as Latinx**: TJA's strict deferral: never apply either term to someone who doesn't use it: applies. Latine isn't a polite default override for someone who identifies as Latino, Latina, or Hispanic. Use what people use for themselves.
 
 **For Jordan's-voice / advocacy writing**: Latine over Latinx is increasingly defensible as a default for Spanish-language or bilingual audiences post-2023. For English-language U.S. writing where Spanish-pronunciation isn't a primary concern, Latinx remains the more common form and reads as the standard institutional choice. Both work; the choice is audience-and-context-driven.
 
 
 ## History note
 
-The '-e' suffix as a gender-neutral form in Spanish has linguistic precedent in non-gendered Spanish nouns (estudiante, paciente). Its application to Latino/Latina specifically — yielding Latine — emerged from LGBTQIA+, nonbinary, and feminist communities in Spanish-speaking countries in the 2010s. The term gained academic and institutional traction in 2020–2022 and has been moving into mainstream U.S. progressive style-guide adoption since 2023 (DSG's Latine entry updated March 2024 marks the recent institutional uptake). The 'imposed-English-internet-construction' critique that has dogged Latinx since the [2019 Pew data](/sources/pew-research-center/) (only 3% adoption among U.S. Hispanic adults) does not apply to Latine in the same way — Latine's origin is the opposite of Latinx's, and the structural fit with Spanish is its primary advantage rather than an accident.
+The '-e' suffix as a gender-neutral form in Spanish has linguistic precedent in non-gendered Spanish nouns (estudiante, paciente). Its application to Latino/Latina specifically: yielding Latine: emerged from LGBTQIA+, nonbinary, and feminist communities in Spanish-speaking countries in the 2010s. The term gained academic and institutional traction in 2020–2022 and has been moving into mainstream U.S. progressive style-guide adoption since 2023 (DSG's Latine entry updated March 2024 marks the recent institutional uptake). The 'imposed-English-internet-construction' critique that has dogged Latinx since the [2019 Pew data](/sources/pew-research-center/) (only 3% adoption among U.S. Hispanic adults) does not apply to Latine in the same way: Latine's origin is the opposite of Latinx's, and the structural fit with Spanish is its primary advantage rather than an accident.

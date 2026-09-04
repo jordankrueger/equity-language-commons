@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        For open-ended conversations (chapter organization, methodology, framing, "have you considered..."), a [Discussion](https://github.com/jordankrueger/equity-language-commons/discussions) might be a better fit than an issue — discussions support back-and-forth better than the issue tracker.
+        For open-ended conversations (chapter organization, methodology, framing, "have you considered..."), a [Discussion](https://github.com/jordankrueger/equity-language-commons/discussions) might be a better fit than an issue: discussions support back-and-forth better than the issue tracker.
 
         Use this template if you have feedback that you want tracked as actionable.
 
@@ -29,10 +29,10 @@ body:
     attributes:
       label: What kind of feedback is this?
       options:
-        - "Editorial — voice, framing, tone"
-        - "Usability — navigation, search, mobile experience"
-        - "Methodology — source selection, criteria, scope"
-        - "Substance — agreement, disagreement, addition to a synthesis"
+        - "Editorial: voice, framing, tone"
+        - "Usability: navigation, search, mobile experience"
+        - "Methodology: source selection, criteria, scope"
+        - "Substance: agreement, disagreement, addition to a synthesis"
         - "Other"
     validations:
       required: true

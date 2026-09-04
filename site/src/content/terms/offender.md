@@ -89,7 +89,7 @@ contributors:
 
 ## Synthesis
 
-**"Offender" (and "ex-offender") is an avoid across all five sources — the alternatives are "incarcerated person," "formerly incarcerated person," or "person with a conviction."** The Immigrant Defense Project / Comm/Unity chart groups it with felon, convict, and ex-con as stigmatizing. Sierra Club and SumOfUs both list "offender or ex-offender" explicitly in their phrases-to-avoid tables, set against people-first replacements. The Diversity Style Guide's combined "felon, offender" entry gives the reasoning: the term "defines or labels people based on the crime."
+**"Offender" (and "ex-offender") is an avoid across all five sources: the alternatives are "incarcerated person," "formerly incarcerated person," or "person with a conviction."** The Immigrant Defense Project / Comm/Unity chart groups it with felon, convict, and ex-con as stigmatizing. Sierra Club and SumOfUs both list "offender or ex-offender" explicitly in their phrases-to-avoid tables, set against people-first replacements. The Diversity Style Guide's combined "felon, offender" entry gives the reasoning: the term "defines or labels people based on the crime."
 
 The agreement here is total. Unlike [inmate](/terms/inmate/), no source preserves "offender" as acceptable usage. The one usage note is generational: "ex-offender" remains common in older reentry-program language, where current guidance favors "formerly incarcerated person." Pairs with [convict](/terms/convict/), [felon](/terms/felon/), and [inmate](/terms/inmate/); offender and felon share the Diversity Style Guide's single combined entry.
 

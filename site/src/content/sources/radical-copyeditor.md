@@ -14,12 +14,12 @@ last_checked: 2026-06-07
 added: 2026-05-17
 version_history:
   - year: 2020
-    note: "“Thirty Everyday Phrases That Perpetuate the Oppression of Indigenous Peoples” (Oct 2020) — a separate RCE article cited by the indigenous term entry."
+    note: "“Thirty Everyday Phrases That Perpetuate the Oppression of Indigenous Peoples” (Oct 2020): a separate RCE article cited by the indigenous term entry."
 ---
 
 ## About
 
-**Radical Copyeditor** is the project of editor and educator **Alex Kapitan**, who writes and trains on "liberatory language" — the premise that language is not simply violent or neutral but sits on a spectrum, and that careful word choice is part of justice work. Its *Transgender Style Guide* (2017) is a widely cited, community-grounded reference on respectful language for and about transgender people.
+**Radical Copyeditor** is the project of editor and educator **Alex Kapitan**, who writes and trains on "liberatory language": the premise that language is not simply violent or neutral but sits on a spectrum, and that careful word choice is part of justice work. Its *Transgender Style Guide* (2017) is a widely cited, community-grounded reference on respectful language for and about transgender people.
 
 In the commons it is a source for the Sexuality & Gender Identity chapter.
 

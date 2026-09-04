@@ -17,9 +17,9 @@ format: "PDF"
 
 ## About
 
-The **Immigrant Defense Project (IDP)** is a U.S. legal-advocacy organization working at the intersection of the immigration and criminal legal systems — defending the rights of immigrants facing detention and deportation, especially where policing and incarceration co-mingle with immigration enforcement. *(This description draws on IDP's own website rather than an independent encyclopedic source.)*
+The **Immigrant Defense Project (IDP)** is a U.S. legal-advocacy organization working at the intersection of the immigration and criminal legal systems: defending the rights of immigrants facing detention and deportation, especially where policing and incarceration co-mingle with immigration enforcement. *(This description draws on IDP's own website rather than an independent encyclopedic source.)*
 
-The commons cites IDP's journalist guidance in two editions, both "Prepared by the Comm/Unity Network": the first edition — *Journalist Style Guide: Covering Immigrants with Convictions* (July 2020), released "at a pivotal moment to defend Black lives in the United States" — and the expanded *Comm/Unity Style Guide* that succeeded it. They are primary sources for the Immigration & Citizenship chapter, behind terms such as *undocumented immigrant*, *illegal immigrant*, and *illegal alien*.
+The commons cites IDP's journalist guidance in two editions, both "Prepared by the Comm/Unity Network": the July 2020 first edition, *Journalist Style Guide: Covering Immigrants with Convictions*, and the expanded *Comm/Unity Style Guide* that succeeded it. They are primary sources for the Immigration & Citizenship chapter, behind terms such as *undocumented immigrant*, *illegal immigrant*, and *illegal alien*.
 
 ## Access
 

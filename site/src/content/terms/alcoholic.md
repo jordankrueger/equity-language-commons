@@ -37,7 +37,7 @@ guidance:
     derived_from: []
     quote: "Refer to someone who harmfully uses alcohol as \"a person with alcoholism\" rather than an \"alcoholic,\" which tends to identify someone solely by their disease. Use \"recovering\" to refer to someone with the disease of addiction…"
     quote_loc: "Alcoholic/alcoholism entry, NCDJ Recommendation"
-    paraphrase: "NCDJ — the chapter's anchor — recommends \"a person with alcoholism\" over \"alcoholic,\" on the ground that the label identifies someone solely by their disease. It suggests \"recovering\" for someone in recovery and notes the guidance conforms to AP style."
+    paraphrase: "NCDJ: the chapter's anchor: recommends \"a person with alcoholism\" over \"alcoholic,\" on the ground that the label identifies someone solely by their disease. It suggests \"recovering\" for someone in recovery and notes the guidance conforms to AP style."
     confidence: "VERIFIED-ARCHIVED"
   - org: "American Psychological Association"
     org_slug: "apa"
@@ -61,7 +61,7 @@ guidance:
     derived_from: []
     quote: "The Center for Substance Abuse Treatment recommends using people-first language such as someone with alcoholism or someone with an alcohol problem. Refer to someone who harmfully uses alcohol as someone with an alcohol problem… Use recovering…"
     quote_loc: "\"alcoholic, alcoholism\" glossary entry"
-    paraphrase: "DSG and NCDJ run a nearly identical entry here — both trace the people-first recommendation to the same Center for Substance Abuse Treatment source and both prefer \"recovering\" over \"recovered.\" The convergence is the point: the two most detailed entries on the page agree on the replacement phrasing and its origin, so there is no contested split the way \"victim\" splits."
+    paraphrase: "DSG and NCDJ run a nearly identical entry here: both trace the people-first recommendation to the same Center for Substance Abuse Treatment source and both prefer \"recovering\" over \"recovered.\" The convergence is the point: the two most detailed entries on the page agree on the replacement phrasing and its origin, so there is no contested split the way \"victim\" splits."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []
@@ -70,9 +70,9 @@ audience_notes:
   - audience: "General note"
     note: "Journalists and editors. The default is \"a person with alcoholism\" or \"a person with alcohol use disorder,\" not \"alcoholic.\" NCDJ and DSG both keep \"alcoholic\" available in org names (Alcoholics Anonymous), direct quotes, and when the individual uses it about themselves."
   - audience: "General note"
-    note: "Advocates and internal comms. The objection is reduction — \"alcoholic\" identifies a person solely by their disease. Use \"recovering\" (\"someone recovering from alcoholism\") rather than \"recovered\" or \"former alcoholic\" when describing recovery."
+    note: "Advocates and internal comms. The objection is reduction: \"alcoholic\" identifies a person solely by their disease. Use \"recovering\" (\"someone recovering from alcoholism\") rather than \"recovered\" or \"former alcoholic\" when describing recovery."
   - audience: "General note"
-    note: "Self-identification governs. Where a person describes themselves as an alcoholic — including in recovery communities where the word carries specific meaning — defer to their own usage rather than imposing the person-first form."
+    note: "Self-identification governs. Where a person describes themselves as an alcoholic: including in recovery communities where the word carries specific meaning: defer to their own usage rather than imposing the person-first form."
 last_reviewed: 2026-06-05
 created: 2026-06-05
 contributors:
@@ -81,8 +81,8 @@ contributors:
 
 ## Synthesis
 
-The four sources converge cleanly. Each treats "alcoholic" as a label that reduces a person to their disease, and each recommends a people-first alternative: "a person with alcoholism" (NCDJ, DSG), "a person with alcohol use disorder" (APA), or "someone with an alcohol problem" (DSG). NCDJ and DSG share a nearly identical entry — both trace their recommendation to the Center for Substance Abuse Treatment and both add "recovering" as the preferred word for someone in recovery ("someone recovering from alcoholism"). There is no contested split here in the way "victim" splits across frames; the sources differ only in the exact replacement phrase, not in whether to drop the label.
+The four sources converge cleanly. Each treats "alcoholic" as a label that reduces a person to their disease, and each recommends a people-first alternative: "a person with alcoholism" (NCDJ, DSG), "a person with alcohol use disorder" (APA), or "someone with an alcohol problem" (DSG). NCDJ and DSG share a nearly identical entry: both trace their recommendation to the Center for Substance Abuse Treatment and both add "recovering" as the preferred word for someone in recovery ("someone recovering from alcoholism"). There is no contested split here in the way "victim" splits across frames; the sources differ only in the exact replacement phrase, not in whether to drop the label.
 
-The sources also address self-identification. NCDJ and DSG both keep "alcoholic" usable in organization names (Alcoholics Anonymous), in direct quotes, and — by extension of the commons' self-id principle — when an individual uses it about themselves. Recovery communities in particular attach specific meaning to the word, so the person-first rule is a default for writers describing others, not a correction to apply to how someone names their own experience.
+The sources also address self-identification. NCDJ and DSG both keep "alcoholic" usable in organization names (Alcoholics Anonymous), in direct quotes, and: by extension of the commons' self-id principle: when an individual uses it about themselves. Recovery communities in particular attach specific meaning to the word, so the person-first rule is a default for writers describing others, not a correction to apply to how someone names their own experience.
 
 The guidance accumulates rather than reverses. SumOfUs (2016) reaches the word through a broad disability-language table, listing "alcoholic" among terms that disability rights activists avoid or question, without a standalone entry. The 2021–2023 guides (NCDJ, APA, DSG) supply the dedicated entries and the person-first alternatives, adding the substance-use-disorder framing and the self-identification caution. This page sits alongside [addict](/terms/addict/) and [addiction](/terms/addiction/), which the sources treat as parallel substance-use language.

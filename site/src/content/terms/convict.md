@@ -76,7 +76,7 @@ guidance:
     derived_from: []
     quote: "Avoid this term when referring to a person who is incarcerated or has been convicted of a crime. Instead, use people-first language. The Marshall Project … recommends … constructions that include \"person\" or \"people,\" a subject's name and/or fixed biographical characteristics like age or state."
     quote_loc: "Glossary entry, “convict”"
-    paraphrase: "The Diversity Style Guide advises against \"convict,\" citing the Marshall Project's recommendation to use people-first constructions — \"incarcerated people,\" a subject's name, or fixed biographical details — rather than a crime-based label."
+    paraphrase: "The Diversity Style Guide advises against \"convict,\" citing the Marshall Project's recommendation to use people-first constructions: \"incarcerated people,\" a subject's name, or fixed biographical details: rather than a crime-based label."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []
@@ -90,11 +90,11 @@ contributors:
 
 ## Synthesis
 
-Across all five sources, "convict" is a label to avoid; the people-first alternative is "person who is/has been incarcerated" or "person with a felony conviction." APA's term-to-avoid table pairs "prisoner / convict" directly with "person who is/has been incarcerated." The Immigrant Defense Project's Journalist Style Guide and its Comm/Unity edition group "felon, convict, ex-con, offender" in a single "Problematic Terms to Reconsider" chart, flag the stigma these carry, and offer "person with a felony conviction." The Diversity Style Guide gives the same instruction through The Marshall Project's people-first constructions — a subject's name, age, or facility rather than a crime-based noun.
+Across all five sources, "convict" is a label to avoid; the people-first alternative is "person who is/has been incarcerated" or "person with a felony conviction." APA's term-to-avoid table pairs "prisoner / convict" directly with "person who is/has been incarcerated." The Immigrant Defense Project's Journalist Style Guide and its Comm/Unity edition group "felon, convict, ex-con, offender" in a single "Problematic Terms to Reconsider" chart, flag the stigma these carry, and offer "person with a felony conviction." The Diversity Style Guide gives the same instruction through The Marshall Project's people-first constructions: a subject's name, age, or facility rather than a crime-based noun.
 
 GCJT is the softest voice, at use-with-care, and only because it is quoting a journalist (Bill Drummond) reflecting on the choice: "I purposely avoided 'convict.' That term is right out of Humphrey Bogart movies and carries a lot of baggage." Even that entry lands on avoidance; the difference is one of register, not direction. "Convict" sits beside [felon](/terms/felon/), [inmate](/terms/inmate/), and [offender](/terms/offender/) as the crime-as-identity labels this chapter replaces with people-first language.
 
 ## Audience notes
 
-- **Journalists and editors.** Replace "convict" with a person-first construction — the subject's name plus the conviction, or "a person who was incarcerated at X" — rather than a standing label. The Marshall Project's examples are the working model the guides point to.
+- **Journalists and editors.** Replace "convict" with a person-first construction: the subject's name plus the conviction, or "a person who was incarcerated at X": rather than a standing label. The Marshall Project's examples are the working model the guides point to.
 - **Advocates and internal comms.** The objection is to defining a person by a single past act. "Person with a felony conviction" keeps the fact without making it the identity.

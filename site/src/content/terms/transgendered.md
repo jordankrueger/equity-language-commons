@@ -98,7 +98,7 @@ contributors:
 
 ## Synthesis
 
-**Unanimous avoid — six sources spanning 2016 to 2026, no dissent.** The replacement is simply "transgender." The reason is grammatical: transgender is an adjective describing who someone is, while the -ed suffix makes it read like a past-tense verb, something that happened to a person. The APA (quoting NIH) puts it precisely: the form "suggests a point in time when a person 'became' transgender, which diverges from the lived experiences of most transgender people." NLGJA names the second implication the suffix carries: that being transgender is a choice, or the result of some external event.
+**Unanimous avoid: six sources spanning 2016 to 2026, no dissent.** The replacement is simply "transgender." The reason is grammatical: transgender is an adjective describing who someone is, while the -ed suffix makes it read like a past-tense verb, something that happened to a person. The APA (quoting NIH) puts it precisely: the form "suggests a point in time when a person 'became' transgender, which diverges from the lived experiences of most transgender people." NLGJA names the second implication the suffix carries: that being transgender is a choice, or the result of some external event.
 
 The sources treat the term with increasing firmness. The earlier entries treat it as a usage error to correct: SumOfUs lists the form among avoided terms, SEIU runs the one-line pair "transgender [not transgendered]," Sierra Club folds the rule into its check-with-the-person guidance. The later journalism sources go further: NLGJA (2025) calls it offensive outright, and the Trans Journalists Association (2026) bars it from news copy as "widely considered offensive."
 
@@ -107,4 +107,4 @@ The same logic covers the sibling mistakes the guides flag in passing: "transgen
 ## Audience notes
 
 - **Journalists and editors.** Copy-edit reflex: any "-ed" on transgender is wrong, as is any noun use. Transgender person, never "transgendered person" or "a transgender."
-- **Internal comms and HR.** This form persists in older policy documents and trainings; updating it is a low-cost credibility fix. Pair the correction with the self-id rule — the person's own terms (trans, transgender) govern.
+- **Internal comms and HR.** This form persists in older policy documents and trainings; updating it is a low-cost credibility fix. Pair the correction with the self-id rule: the person's own terms (trans, transgender) govern.

@@ -52,7 +52,7 @@ external_references: []
 methodological_context: []
 audience_notes:
   - audience: "Journalists and editors"
-    note: "When the phrase appears in a source's quote or in coverage of an affirmative-action lawsuit, attribute it rather than adopting it in your own voice. The Diversity Style Guide notes the claim that affirmative action disadvantages men and non-minorities scarcely holds up in litigation — its 1995 Brandeis example found relief ordered in six of about 100 reverse-discrimination charges."
+    note: "When the phrase appears in a source's quote or in coverage of an affirmative-action lawsuit, attribute it rather than adopting it in your own voice. The Diversity Style Guide notes the claim that affirmative action disadvantages men and non-minorities scarcely holds up in litigation: its 1995 Brandeis example found relief ordered in six of about 100 reverse-discrimination charges."
   - audience: "Activists and internal comms"
     note: "The sources turn on a definition: if racism requires systemic power (Sierra Club, Movement Strategy Center), \"reverse racism\" is a category error, and what's being described is prejudice or individual bias. Naming that distinction is usually more useful than arguing the phrase head-on."
   - audience: "When the term comes up in good faith"
@@ -66,8 +66,8 @@ contributors:
 ## Synthesis
 
 For the Sierra Club and the Movement Strategy Center, whether "reverse
-racism" is a coherent idea depends on how racism is defined: both start from a structural definition — racism
-as systemic relationships of power that elevate one racial group over others —
+racism" is a coherent idea depends on how racism is defined: both start from a structural definition: racism
+as systemic relationships of power that elevate one racial group over others :
 and from that starting point the frame doesn't hold. The Sierra Club calls the
 assumption behind it (that white people experience racism on a level playing
 field) inaccurate; the Movement Strategy Center says situations labeled
@@ -94,7 +94,7 @@ The chronology is short and consistent: across the Diversity Style Guide's
 Center) progressive equity guides, the treatment doesn't shift. None of the
 sources presents "reverse racism" as a neutral descriptive term, and none
 endorses it; the live question in each is how to respond when the phrase
-appears — by reframing toward the structural definition (Sierra Club, MSC) or
+appears: by reframing toward the structural definition (Sierra Club, MSC) or
 by noting how rarely the underlying legal claim holds up (Diversity Style
 Guide).
 
@@ -105,5 +105,5 @@ phrase rather than adopt it and can cite the Diversity Style Guide's evidence
 that the legal claim rarely succeeds; activists and communicators should lead
 with the systemic-power definition that makes the frame a category error; and
 when the term comes up in good faith, the Movement Strategy Center's both-and
-reply — the experience can be real, the label is the problem — tends to land
+reply: the experience can be real, the label is the problem: tends to land
 better than arguing the word alone.

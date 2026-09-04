@@ -26,7 +26,7 @@ guidance:
     derived_from: []
     quote: "A broad term for health care transgender people may pursue, including counseling, hormone replacement therapy, and surgical treatments.…When writing about medical care is appropriate and not objectifying, terms like gender-affirming medical care or transition-related medical care will usually suffice."
     quote_loc: "Glossary entry, \"gender-affirming care/transition-related medical care\""
-    paraphrase: "The Diversity Style Guide presents gender-affirming care as the broad umbrella for the range of care transgender people may pursue. In its entry, last updated March 2021, it counsels using general language — \"gender-affirming medical care\" or \"transition-related medical care\" — rather than terms that draw unnecessary attention to trans bodies and procedures."
+    paraphrase: "The Diversity Style Guide presents gender-affirming care as the broad umbrella for the range of care transgender people may pursue. In its entry, last updated March 2021, it counsels using general language: \"gender-affirming medical care\" or \"transition-related medical care\": rather than terms that draw unnecessary attention to trans bodies and procedures."
     confidence: "VERIFIED-ARCHIVED"
   - org: "NLGJA: The Association of LGBTQ+ Journalists"
     org_slug: "nlgja"
@@ -50,14 +50,14 @@ guidance:
     derived_from: []
     quote: "Health care that trans people seek out as part of their gender transition is, simply, a type of medical care. Longer phrases like gender-affirming care are acceptable, as they may provide needed specificity and are widely used by medical providers."
     quote_loc: "\"Language around transgender health care\" entry (updated 2025-04-22)"
-    paraphrase: "TJA's preference is for the plainest accurate language — \"medical care,\" \"transgender medical care,\" or \"transgender health care\" — but it accepts \"gender-affirming care\" as a longer phrase that can supply needed specificity and is widely used by medical providers. It adds that, when describing a specific person, communicators should use the language that person uses for themself."
+    paraphrase: "TJA's preference is for the plainest accurate language: \"medical care,\" \"transgender medical care,\" or \"transgender health care\", but it accepts \"gender-affirming care\" as a longer phrase that can supply needed specificity and is widely used by medical providers. It adds that, when describing a specific person, communicators should use the language that person uses for themself."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []
 methodological_context: []
 audience_notes:
   - audience: "Journalists"
-    note: "gender-affirming care is the accepted umbrella and the phrase used by major medical groups (AMA, AAP). For lay audiences, plainer phrasings — \"transgender health care,\" \"medical care\" — often read more clearly. Avoid overemphasizing surgery."
+    note: "gender-affirming care is the accepted umbrella and the phrase used by major medical groups (AMA, AAP). For lay audiences, plainer phrasings: \"transgender health care,\" \"medical care\": often read more clearly. Avoid overemphasizing surgery."
   - audience: "Advocates and internal comms"
     note: "the term carries clinical register and may read as jargon. It's the right term for accuracy and medical legitimacy; pair it with plain language when the goal is accessibility."
   - audience: "General note"

@@ -21,7 +21,7 @@ guidance:
     derived_from: []
     quote: "Grooming[:] The process in which an abuser/predator gains the trust of the child (and their family members) with the intention to later violate that trust and harm the child sexually."
     quote_loc: "Glossary, \"Grooming\" entry (cited to RAINN)"
-    paraphrase: "Color of Change's #ProtectBlackSurvivors guide defines \"grooming\" in its literal, clinical sense — the trust-building process an abuser uses to access and later sexually harm a child — within a sexual-violence survivor-support context. This is the abuse-dynamics meaning, distinct from the political smear the journalism guides address."
+    paraphrase: "Color of Change's #ProtectBlackSurvivors guide defines \"grooming\" in its literal, clinical sense: the trust-building process an abuser uses to access and later sexually harm a child: within a sexual-violence survivor-support context. This is the abuse-dynamics meaning, distinct from the political smear the journalism guides address."
     confidence: "VERIFIED-ARCHIVED"
   - org: "NLGJA: The Association of LGBTQ+ Journalists"
     org_slug: "nlgja"
@@ -33,7 +33,7 @@ guidance:
     derived_from: []
     quote: "Refers to the practice of building trust and eroding boundaries to facilitate the sexual abuse of a child or vulnerable adult. Avoid using these terms, even in quotes, to portray LGBTQ+ people broadly as predators or as \"recruiting\" people, particularly children."
     quote_loc: "Glossary entry, \"groomer, grooming\""
-    paraphrase: "NLGJA defines the literal meaning, then directs journalists to avoid \"groomer\"/\"grooming\" — even inside quotations — when used to cast LGBTQ+ people broadly as predators or as \"recruiting\" children. Its companion \"misleading associations\" entry lists \"grooming\" among terms that are likely false or defamatory in coverage of LGBTQ+ communities, and advises paraphrasing or fact-checking such quotes."
+    paraphrase: "NLGJA defines the literal meaning, then directs journalists to avoid \"groomer\"/\"grooming\": even inside quotations: when used to cast LGBTQ+ people broadly as predators or as \"recruiting\" children. Its companion \"misleading associations\" entry lists \"grooming\" among terms that are likely false or defamatory in coverage of LGBTQ+ communities, and advises paraphrasing or fact-checking such quotes."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Trans Journalists Association"
     org_slug: "tja"
@@ -52,7 +52,7 @@ external_references: []
 methodological_context: []
 audience_notes:
   - audience: "Journalists and editors"
-    note: "\"grooming\" and \"groomer\" have a precise meaning — the trust-building stage of child sexual abuse. NLGJA and TJA both treat the term as a criminal allegation, not an epithet. When a source applies it to LGBTQ+ people as a class, don't reproduce it unchecked: paraphrase, or quote only with an immediate fact-check, per NLGJA's \"misleading associations\" guidance."
+    note: "\"grooming\" and \"groomer\" have a precise meaning: the trust-building stage of child sexual abuse. NLGJA and TJA both treat the term as a criminal allegation, not an epithet. When a source applies it to LGBTQ+ people as a class, don't reproduce it unchecked: paraphrase, or quote only with an immediate fact-check, per NLGJA's \"misleading associations\" guidance."
   - audience: "Advocates and internal comms"
     note: "name the smear's history rather than treating \"groomer\" as a generic insult. TJA points to the long record of casting queer and trans people as categorically dangerous to children; treating the word as mere name-calling can airbrush that history and obscure that it is a false accusation of a crime."
   - audience: "Survivor-support and anti-violence contexts"

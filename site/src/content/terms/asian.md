@@ -49,8 +49,8 @@ guidance:
     local_archive: "source-guides/SEIU Stylebook Jan 2020.pdf"
     recommendation: "use"
     quote: "Oriental [Do not use.] Correct: Asian"
-    quote_loc: "p. 22 — A-to-Z word style"
-    paraphrase: "SEIU prescribes 'Asian' as the correct term and rejects 'Oriental.' The 'Do not use' applies to Oriental, not Asian — SEIU is endorsing Asian as the preferred form. The avoid guidance for Oriental lives on that term's separate page."
+    quote_loc: "p. 22: A-to-Z word style"
+    paraphrase: "SEIU prescribes 'Asian' as the correct term and rejects 'Oriental.' The 'Do not use' applies to Oriental, not Asian: SEIU is endorsing Asian as the preferred form. The avoid guidance for Oriental lives on that term's separate page."
     confidence: "VERIFIED-ARCHIVED"
 
   - org: "Native Governance Center"
@@ -96,5 +96,5 @@ This page covers the standalone "Asian." The American-context identity term, inc
 
 ## Audience notes
 
-- **Journalists and editors.** Capitalize Asian, always. Prefer the most specific accurate identity (Korean American, South Asian, Hmong) when the subject's background is known and relevant — "Asian" alone spans most of the world's population.
+- **Journalists and editors.** Capitalize Asian, always. Prefer the most specific accurate identity (Korean American, South Asian, Hmong) when the subject's background is known and relevant: "Asian" alone spans most of the world's population.
 - **International and UK-facing writing.** The term reads differently by region: British "Asian" usually means South Asian; U.S. "Asian" often defaults to East Asian in readers' minds. If your audience crosses that line, specify the region.

@@ -24,7 +24,7 @@ guidance:
     derived_from: []
     quote: "Umbrella term for individuals with gender identities outside the man–woman binary … or who do not follow gender stereotypes. Use the terms people use to call themselves … the preferred term in the LGBTQ+ community is usually “gender nonconforming” (but check with the individuals …)."
     quote_loc: "Glossary entry: gender nonconforming (GNC)/gender expansive"
-    paraphrase: "APA frames the term as an umbrella for gender identities outside the man–woman binary or outside gender stereotypes, and defers to self-identification. It notes that while some parents and allies say \"gender expansive,\" the LGBTQ+ community usually prefers \"gender nonconforming\" — with the caveat to check with the individuals involved."
+    paraphrase: "APA frames the term as an umbrella for gender identities outside the man–woman binary or outside gender stereotypes, and defers to self-identification. It notes that while some parents and allies say \"gender expansive,\" the LGBTQ+ community usually prefers \"gender nonconforming\", with the caveat to check with the individuals involved."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Diversity Style Guide"
     org_slug: "diversity-style-guide"
@@ -57,9 +57,9 @@ audience_notes:
   - audience: "Journalists and editors"
     note: "treat \"gender nonconforming\" (or GNC) as a description of how someone presents or expresses gender, not as a stand-in for transgender or nonbinary. Apply it only to people who use it for themselves, and confirm pronouns separately."
   - audience: "Advocates and internal comms"
-    note: "the label can describe cisgender people too — a cis person who departs from gendered presentation is not thereby trans. Don't fold the term into a list of trans/nonbinary identities as if it were one."
+    note: "the label can describe cisgender people too: a cis person who departs from gendered presentation is not thereby trans. Don't fold the term into a list of trans/nonbinary identities as if it were one."
   - audience: "Self-identification governs"
-    note: "all three sources cap usage at the person's own description. \"Gender expansive\" is an adjacent term some use, but APA notes the LGBTQ+ community usually prefers \"gender nonconforming\" — when in doubt, ask."
+    note: "all three sources cap usage at the person's own description. \"Gender expansive\" is an adjacent term some use, but APA notes the LGBTQ+ community usually prefers \"gender nonconforming\": when in doubt, ask."
 last_reviewed: 2026-06-05
 created: 2026-06-05
 contributors:

@@ -19,7 +19,7 @@ const { Content } = await render(term);
 
 // Cross-reference resolution: a related_terms slug links to its page when
 // one exists, to the page whose alias it is, or falls back to the term's
-// glossary entry — never a dead /terms/ link.
+// glossary entry: never a dead /terms/ link.
 const slugify = (s) =>
   s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/-+/g, "-").replace(/^-|-$/g, "");
 const allTerms = await getCollection("terms");
@@ -43,7 +43,7 @@ const xrefIsGlossary = (slug) => !pageSlugs.has(slug) && !aliasTo.has(slug);
 const guidance = [...(data.guidance ?? [])].sort((a, b) => a.year - b.year);
 ---
 
-<BaseLayout title={data.term} description={`${data.term} — equity-language guidance across ${guidance.length} sources.`} pagefind>
+<BaseLayout title={data.term} description={`${data.term}: equity-language guidance across ${guidance.length} sources.`} pagefind>
   <Breadcrumb
     trail={[
       { href: "/", label: "Home" },
@@ -166,7 +166,7 @@ const guidance = [...(data.guidance ?? [])].sort((a, b) => a.year - b.year);
             <a href={xrefHref(r.slug)} class="xref-term">{r.slug}</a>
             <span class="xref-relation">{r.relation}</span>
             {xrefIsGlossary(r.slug) && (
-              <span class="xref-glossary-tag" title="No dedicated page yet — links to the glossary index">glossary</span>
+              <span class="xref-glossary-tag" title="No dedicated page yet: links to the glossary index">glossary</span>
             )}
           </li>
         ))}

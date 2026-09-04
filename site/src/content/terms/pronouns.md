@@ -29,7 +29,7 @@ guidance:
     recommendation: "use-with-care"
     quote: "Some intersex people may choose to use gender pronouns other than 'he' or 'she,' like 'they' or 'them' or 'zie' or 'hir.' Always ask intersex people what pronouns they would like you to use."
     quote_loc: "Media guide, pronouns guidance"
-    paraphrase: "interACT's guidance is the earliest in this corpus to name neopronouns like zie/hir alongside they/them as legitimate options, and centers the ask-first rule. The entry is written for intersex people specifically — always ask which pronouns they use — and the same ask-don't-assume logic carries across to any subject."
+    paraphrase: "interACT's guidance is the earliest in this corpus to name neopronouns like zie/hir alongside they/them as legitimate options, and centers the ask-first rule. The entry is written for intersex people specifically: always ask which pronouns they use, and the same ask-don't-assume logic carries across to any subject."
     confidence: "VERIFIED-ARCHIVED"
 
   - org: "Sierra Club"
@@ -53,7 +53,7 @@ guidance:
     recommendation: "use"
     quote: "Ask survivors for their preferred pronouns and other identifiers."
     quote_loc: "Black Survivors style guide, survivor-interview rules"
-    paraphrase: "Color of Change's pronouns rule lives inside its broader survivor-interview ethics: ask, don't assume — and ask before any physical contact or identifier is recorded. The guide pairs the pronoun ask with name, identifier, and consent rules as a single interview standard. The 2022 'preferred pronouns' phrasing predates the post-2023 consensus rejecting that phrase (see APA, DSG, NLGJA, TJA)."
+    paraphrase: "Color of Change's pronouns rule lives inside its broader survivor-interview ethics: ask, don't assume, and ask before any physical contact or identifier is recorded. The guide pairs the pronoun ask with name, identifier, and consent rules as a single interview standard. The 2022 'preferred pronouns' phrasing predates the post-2023 consensus rejecting that phrase (see APA, DSG, NLGJA, TJA)."
     confidence: "VERIFIED-ARCHIVED"
 
   - org: "American Psychological Association"
@@ -77,7 +77,7 @@ guidance:
     recommendation: "use"
     quote: "They/them/their are acceptable as nonbinary, singular pronouns if the subject uses them. … Avoid references to preferred pronouns because doing so implies that calling people other than what they want to be called is a viable alternative. Avoid references to chosen pronouns because they are not always chosen."
     quote_loc: "Pronouns entry (updated March 2023)"
-    paraphrase: "DSG rejects both 'preferred pronouns' and 'chosen pronouns' on the same logic: 'preferred' falsely implies an alternative exists, and 'chosen' falsely implies they are always chosen. The entry accepts neopronouns like zie/zim/zis if requested and notes some people use rolling pronouns (he/they, she/they). When a passage is genuinely ambiguous, recast — don't avoid the pronoun."
+    paraphrase: "DSG rejects both 'preferred pronouns' and 'chosen pronouns' on the same logic: 'preferred' falsely implies an alternative exists, and 'chosen' falsely implies they are always chosen. The entry accepts neopronouns like zie/zim/zis if requested and notes some people use rolling pronouns (he/they, she/they). When a passage is genuinely ambiguous, recast: don't avoid the pronoun."
     confidence: "VERIFIED-ARCHIVED"
 
   - org: "NLGJA: The Association of LGBTQ+ Journalists"
@@ -101,7 +101,7 @@ guidance:
     recommendation: "use"
     quote: "When interviewing a trans source, ask what pronouns they want published. Some sources may request that you use different pronouns for publication than in person. … Avoid the phrase preferred pronouns. Someone's pronouns are not a preference, but rather the only appropriate way to refer to that person."
     quote_loc: "Pronouns → pronoun basics, preferred pronouns"
-    paraphrase: "TJA's guidance distinguishes between in-person and published pronouns — sometimes a safety distinction — and treats respect for that distinction as non-negotiable. The 'preferred spelling of a name' analogy is TJA's sharpest framing of why 'preferred pronouns' fails: pronouns are simply the correct form, not an option. TJA also explicitly bars writing around someone's pronouns and treats singular they as standard, citing AP Stylebook 56th edition."
+    paraphrase: "TJA's guidance distinguishes between in-person and published pronouns: sometimes a safety distinction, and treats respect for that distinction as non-negotiable. The 'preferred spelling of a name' analogy is TJA's sharpest framing of why 'preferred pronouns' fails: pronouns are simply the correct form, not an option. TJA also explicitly bars writing around someone's pronouns and treats singular they as standard, citing AP Stylebook 56th edition."
     confidence: "VERIFIED-ARCHIVED"
 
 context_data: []
@@ -126,8 +126,8 @@ Where the corpus shows the most evolution is in pace, not direction. **The earli
 
 ## Audience notes
 
-- **Journalists and editors.** Don't write "preferred pronouns" or "chosen pronouns." Use "pronouns" or, when adding context, "the pronouns she/he/they uses for themself" — NLGJA and TJA's preferred constructions. Don't write around someone's pronouns as a workaround; if a passage is genuinely ambiguous, recast the sentence per DSG. Singular they is standard usage and doesn't require parenthetical explanation.
-- **Default for unknown pronouns.** Singular they (Sierra Club, NLGJA, TJA, AP-aligned). Do not default to "he/she" or "he or she" — both DSG and NLGJA reject these as the unknown-pronoun fallback. Don't assume from name or appearance.
-- **Neopronouns.** Zie/hir/hirs and zie/zim/zis are legitimate when requested; DSG and NLGJA accept them with a brief explanation when needed for readability. interACT's earlier guidance (2017) is the same on substance — these aren't fringe edges of the rule, they're tail cases of the same self-ID principle.
+- **Journalists and editors.** Don't write "preferred pronouns" or "chosen pronouns." Use "pronouns" or, when adding context, "the pronouns she/he/they uses for themself": NLGJA and TJA's preferred constructions. Don't write around someone's pronouns as a workaround; if a passage is genuinely ambiguous, recast the sentence per DSG. Singular they is standard usage and doesn't require parenthetical explanation.
+- **Default for unknown pronouns.** Singular they (Sierra Club, NLGJA, TJA, AP-aligned). Do not default to "he/she" or "he or she": both DSG and NLGJA reject these as the unknown-pronoun fallback. Don't assume from name or appearance.
+- **Neopronouns.** Zie/hir/hirs and zie/zim/zis are legitimate when requested; DSG and NLGJA accept them with a brief explanation when needed for readability. interACT's earlier guidance (2017) is the same on substance: these aren't fringe edges of the rule, they're tail cases of the same self-ID principle.
 - **In-person vs. publication pronouns.** TJA's safety-aware rule: a source may use different pronouns in different contexts (often a safety distinction). When interviewing a trans source, ask which pronouns to use in print; if different, respect both contexts.
-- **The "ask first" rule extends past pronouns.** interACT, Color of Change, Sierra Club, and TJA all pair the pronoun-ask with the broader ask-don't-assume principle — name, identifier, contact, and consent for physical description. Pronouns are the canonical case but not the only one.
+- **The "ask first" rule extends past pronouns.** interACT, Color of Change, Sierra Club, and TJA all pair the pronoun-ask with the broader ask-don't-assume principle: name, identifier, contact, and consent for physical description. Pronouns are the canonical case but not the only one.

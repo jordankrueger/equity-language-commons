@@ -34,7 +34,7 @@ guidance:
     derived_from: []
     quote: "Outdated, avoid. See gender dysphoria."
     quote_loc: "Glossary entry, \"Gender Identity Disorder\""
-    paraphrase: "The Diversity Style Guide's dedicated entry is a one-line redirect: the term is dated; avoid it and see \"gender dysphoria.\" Its \"transgender\" entry adds the chronology — the 2013 DSM-5 replaced the Gender Identity Disorder entry with Gender Dysphoria and revised the diagnostic criteria."
+    paraphrase: "The Diversity Style Guide's dedicated entry is a one-line redirect: the term is dated; avoid it and see \"gender dysphoria.\" Its \"transgender\" entry adds the chronology: the 2013 DSM-5 replaced the Gender Identity Disorder entry with Gender Dysphoria and revised the diagnostic criteria."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Movement Strategy Center"
     org_slug: "movement"
@@ -45,7 +45,7 @@ guidance:
     recommendation: "avoid"
     derived_from: []
     quote: "Gender Identity Disorder … Sex Change … Gender affirmation"
-    quote_loc: "\"Gender/Sex — Avoid This / Use This Instead\" table"
+    quote_loc: "\"Gender/Sex: Avoid This / Use This Instead\" table"
     paraphrase: "Movement Strategy Center's gender/sex avoid-table pairs \"Gender Identity Disorder\" and \"Sex Change\" together in the avoid column, directing writers to \"gender affirmation\" instead."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Trans Journalists Association"
@@ -58,7 +58,7 @@ guidance:
     derived_from: []
     quote: "This is an outdated term. *Gender identity disorder* used to be the official psychiatric diagnosis from the American Psychological Association for trans people seeking transgender medical care in the U.S. In 2012, it was changed to *gender dysphoria* …"
     quote_loc: "Glossary entry, \"gender identity disorder (n.)\" (updated 2025-04-18)"
-    paraphrase: "TJA's distinctive point is the gatekeeping history — the diagnosis was a precondition trans people had to clear to access care, not a neutral label. It dates the switch to gender dysphoria to 2012 (the DSM-5's finalization), where the Diversity Style Guide cites the 2013 publication; both mark the same revision cycle."
+    paraphrase: "TJA's distinctive point is the gatekeeping history: the diagnosis was a precondition trans people had to clear to access care, not a neutral label. It dates the switch to gender dysphoria to 2012 (the DSM-5's finalization), where the Diversity Style Guide cites the 2013 publication; both mark the same revision cycle."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []
@@ -67,9 +67,9 @@ audience_notes:
   - audience: "Journalists and editors"
     note: "Treat \"Gender Identity Disorder\" as a dated clinical term. Use \"gender dysphoria\" when referring to the current diagnosis (renamed in the DSM-5, published 2013), and \"gender-affirming care\" for the treatment. Reserve \"Gender Identity Disorder\" for direct historical or quoted references to the pre-2013 diagnosis."
   - audience: "Advocates and campaigners"
-    note: "Every corpus source pairs the avoided term with affirmative replacements — DCFPI and Movement Strategy Center map both \"Gender Identity Disorder\" and \"sex change\" to \"gender affirmation.\" When describing a person, lead with how they identify rather than any diagnostic label."
+    note: "Every corpus source pairs the avoided term with affirmative replacements: DCFPI and Movement Strategy Center map both \"Gender Identity Disorder\" and \"sex change\" to \"gender affirmation.\" When describing a person, lead with how they identify rather than any diagnostic label."
   - audience: "Internal comms and clinical/health contexts"
-    note: "If a diagnosis must be named (e.g., insurance, medical records), \"gender dysphoria\" is the current term. The Diversity Style Guide notes the necessity of a psychiatric diagnosis at all remains contested even as it enables insurance coverage — frame the diagnosis as a coverage mechanism, not a description of the person."
+    note: "If a diagnosis must be named (e.g., insurance, medical records), \"gender dysphoria\" is the current term. The Diversity Style Guide notes the necessity of a psychiatric diagnosis at all remains contested even as it enables insurance coverage: frame the diagnosis as a coverage mechanism, not a description of the person."
 last_reviewed: 2026-06-07
 created: 2026-06-07
 contributors:

@@ -1,11 +1,11 @@
 # Contributing to the Equity Language Commons
 
-Thank you for considering a contribution. This document is for people who want to submit a change directly via a pull request. If you're looking for the friendlier "how do I suggest something" version, start at the [Contribute page on the live site](https://equitylanguagecommons.org/contribute/) — it covers Issues, Discussions, and email as alternatives to PRs.
+Thank you for considering a contribution. This document is for people who want to submit a change directly via a pull request. If you're looking for the friendlier "how do I suggest something" version, start at the [Contribute page on the live site](https://equitylanguagecommons.org/contribute/): it covers Issues, Discussions, and email as alternatives to PRs.
 
 This guide covers:
 
 1. [What the commons is, briefly](#what-the-commons-is-briefly)
-2. [Before you start — open an issue or discussion first](#before-you-start)
+2. [Before you start: open an issue or discussion first](#before-you-start)
 3. [Setting up locally](#setting-up-locally)
 4. [Project structure](#project-structure)
 5. [Editorial voice and quoting rules](#editorial-voice-and-quoting-rules)
@@ -19,7 +19,7 @@ This guide covers:
 
 ## What the commons is, briefly
 
-The Equity Language Commons is a cross-referenced omnibus of progressive equity-language guidance. Each term page shows every source organization's rule side-by-side — short fair-use quote, year, page reference, recommendation badge — with a synthesis paragraph identifying cross-source patterns. The commons does not issue its own rulings; it surfaces what the source guides say.
+The Equity Language Commons is a cross-referenced omnibus of progressive equity-language guidance. Each term page shows every source organization's rule side-by-side: short fair-use quote, year, page reference, recommendation badge, with a synthesis paragraph identifying cross-source patterns. The commons does not issue its own rulings; it surfaces what the source guides say.
 
 The full project context lives in [CLAUDE.md](CLAUDE.md) and [ROADMAP.md](ROADMAP.md).
 
@@ -32,16 +32,16 @@ For anything beyond a typo fix, **open an issue or discussion first** so we can 
 - Methodology, framing, chapter organization questions → [start a Discussion](https://github.com/jordankrueger/equity-language-commons/discussions)
 - Editorial voice questions → Discussion
 
-For typo fixes, broken-link fixes, and obvious factual corrections, a direct PR is fine — no issue needed.
+For typo fixes, broken-link fixes, and obvious factual corrections, a direct PR is fine: no issue needed.
 
 ## Setting up locally
 
 You'll need:
 
 - **Node 20+** (Astro 5 requirement)
-- **Python 3.11+** for the build pipeline scripts (stdlib only — no Python dependencies to install)
+- **Python 3.11+** for the build pipeline scripts (stdlib only: no Python dependencies to install)
 - **poppler** for PDF→text extraction (`brew install poppler` on macOS)
-- **tesseract** for OCR on image-only PDFs (`brew install tesseract` on macOS) — only needed if you're adding a scanned PDF source
+- **tesseract** for OCR on image-only PDFs (`brew install tesseract` on macOS): only needed if you're adding a scanned PDF source
 
 Clone, install Node deps, and start the dev server:
 
@@ -95,19 +95,19 @@ The commons enforces editorial voice rules that go beyond ordinary style. Read t
 
 **No blame-leaning language about source-guide authors.** Every style-guide author was doing the best they could with what was available at the time. Describe what each guide does, name dates and context, and let chronology speak for itself. Use neutral chronological framing: "pre-dates X," "earlier than," "written before Y settled into practice." Never use "outdated," "hasn't aged well," "behind," or any phrasing that reads as judgment of the author. The full rule lives in [CLAUDE.md](CLAUDE.md).
 
-**Editorial synthesis is welcome — editorial judgment of individual authors is not.** Synthesis identifies patterns, positions, and trends across the corpus. It does not characterize older guides as failures.
+**Editorial synthesis is welcome: editorial judgment of individual authors is not.** Synthesis identifies patterns, positions, and trends across the corpus. It does not characterize older guides as failures.
 
 **Quote attribution is non-negotiable.** Every direct quote must include:
 
 - Org name and `org_slug`
 - Publication year
-- `source_url` (current canonical URL — verify with a live HEAD check)
+- `source_url` (current canonical URL: verify with a live HEAD check)
 - `local_archive` path (relative to repo root)
-- `quote_loc` — a real page/section name, not just a line number
-- `paraphrase` — 1-3 sentence contextualization in your own words
+- `quote_loc`: a real page/section name, not just a line number
+- `paraphrase`: 1-3 sentence contextualization in your own words
 - `confidence: "VERIFIED-ARCHIVED"` only if you confirmed the quote against the local archived file
 
-**Fair-use limit: every direct quote must be under 50 words.** This is a safety margin, not the actual fair-use ceiling — but staying inside it keeps the commons defensible without per-source negotiation.
+**Fair-use limit: every direct quote must be under 50 words.** This is a safety margin, not the actual fair-use ceiling, but staying inside it keeps the commons defensible without per-source negotiation.
 
 **Self-identification is primary** across every term in the commons. When a guide's rule or the commons's synthesis touches on personal identification, defer to how the subject identifies. Never override stated preference with a "default."
 
@@ -120,7 +120,7 @@ The fast path uses the existing pipeline:
 ./scripts/build-coverage-matrix.py
 
 # 2. Pick a term from notes/term-coverage-matrix.md "Top 50 candidates"
-#    (or pick your own — verify it has at least 3 source citations first)
+#    (or pick your own: verify it has at least 3 source citations first)
 
 # 3. Scaffold the term file from matrix data
 ./scripts/scaffold-term.py <slug>
@@ -171,7 +171,7 @@ Model your work on existing high-quality term pages: `site/src/content/terms/bla
 #    rationale at site/src/content/sources/<slug>.md
 ```
 
-Host posture must be picked thoughtfully — see [ROADMAP.md](ROADMAP.md#host-posture-per-source-locked-2026-04-24) for the three-tier system.
+Host posture must be picked thoughtfully: see [ROADMAP.md](ROADMAP.md#host-posture-per-source-locked-2026-04-24) for the three-tier system.
 
 ## Running the pipeline
 
@@ -203,7 +203,7 @@ The deploy script runs steps 2, 5 (glossary), 6 (sqlite), and the npm build auto
    - A clear title describing the change
    - A short description of what changed and why
    - A reference to the originating issue or discussion (if one exists)
-4. The PR will be reviewed by Jordan Krueger. Expect editorial feedback on synthesis paragraphs — voice and tone matter as much as factual accuracy.
+4. The PR will be reviewed by Jordan Krueger. Expect editorial feedback on synthesis paragraphs: voice and tone matter as much as factual accuracy.
 5. Once approved, the PR will be squash-merged and the change will deploy automatically on the next push.
 
 ## What we can't accept
@@ -214,8 +214,8 @@ The deploy script runs steps 2, 5 (glossary), 6 (sqlite), and the npm build auto
 - **Promotional content for non-style-guide projects.** The commons is a reference, not a directory.
 - **Anything that breaks the fair-use margin** (≥50-word quotes without permission, full-text mirrors without explicit grant).
 
-If you're unsure whether something would be accepted, open a Discussion first — it's lower-friction than learning during PR review.
+If you're unsure whether something would be accepted, open a Discussion first: it's lower-friction than learning during PR review.
 
 ---
 
-By contributing, you agree that your contributions will be licensed under the same terms as the rest of the commons (CC BY 4.0 for content, MIT for code) — see [LICENSE](LICENSE).
+By contributing, you agree that your contributions will be licensed under the same terms as the rest of the commons (CC BY 4.0 for content, MIT for code): see [LICENSE](LICENSE).

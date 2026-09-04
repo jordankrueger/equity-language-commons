@@ -60,8 +60,8 @@ guidance:
     local_archive: "source-guides/discovered/tja-stylebook-2026-01.md"
     recommendation: "use-with-care"
     quote: "Terms used by some as gender-neutral alternatives to Latino or Latina. Some prefer *Latine* — or less commonly, *Latin@* — to *Latinx*. Defer to an individual's use and do not apply it to those who do not self-describe with it."
-    quote_loc: "Glossary entry: Latinx, Latine (adj.) — anchor #def-latinx"
-    paraphrase: "TJA groups Latinx and Latine under one entry, notes that some prefer Latine (or, less commonly, Latin@) to Latinx, and applies strict self-identification deferral — never apply either to someone who doesn't use it for themselves."
+    quote_loc: "Glossary entry: Latinx, Latine (adj.): anchor #def-latinx"
+    paraphrase: "TJA groups Latinx and Latine under one entry, notes that some prefer Latine (or, less commonly, Latin@) to Latinx, and applies strict self-identification deferral: never apply either to someone who doesn't use it for themselves."
     confidence: "VERIFIED"
 
   - org: "Diversity Style Guide"
@@ -96,8 +96,8 @@ guidance:
     local_archive: "source-guides/SEIU Stylebook Jan 2020.pdf"
     recommendation: "use"
     quote: "Latino [always capitalized], Latina [if we know the person is female] … Hispanic [always capitalized]"
-    quote_loc: "pp. 17, 19 — A-to-Z word style"
-    paraphrase: "SEIU's 2020 stylebook accepts both Hispanic and Latino/Latina as house terms, both capitalized, with Latina used only when gender is known. No mention of Latinx or Latine — the stylebook predates the peak Latinx debate and the rise of Latine."
+    quote_loc: "pp. 17, 19: A-to-Z word style"
+    paraphrase: "SEIU's 2020 stylebook accepts both Hispanic and Latino/Latina as house terms, both capitalized, with Latina used only when gender is known. No mention of Latinx or Latine: the stylebook predates the peak Latinx debate and the rise of Latine."
     confidence: "VERIFIED-ARCHIVED"
 
   - org: "Annie E. Casey Foundation"
@@ -121,26 +121,26 @@ guidance:
     recommendation: "evolving"
     quote: "Whether to use the terms African American or Black, Hispanic American, Latinx or Latino, Native American or American Indian, and Pacific Islander or Asian American depends on a variety of conditions, including your intended audiences' geographic location, age, generation, and, sometimes, political orientation."
     quote_loc: "Introductory framing note (lines 91–95 in archived markdown)"
-    paraphrase: "RET doesn't define Latinx individually. Instead it names the whole cluster (Latinx/Latino, Hispanic, African American/Black, etc.) as audience-dependent — geography, generation, political orientation all affect which term fits. Meta-framing rather than term-level guidance."
+    paraphrase: "RET doesn't define Latinx individually. Instead it names the whole cluster (Latinx/Latino, Hispanic, African American/Black, etc.) as audience-dependent: geography, generation, political orientation all affect which term fits. Meta-framing rather than term-level guidance."
     confidence: "VERIFIED"
 
 context_data:
   - label: "Pew Research Center (Dec 2019)"
     claim: "Only 3% of U.S. Hispanic/Latino adults use 'Latinx' to describe themselves; 23% have heard of the term."
     url: "https://www.pewresearch.org/hispanic/2020/08/11/about-one-in-four-u-s-hispanics-have-heard-of-latinx-but-just-3-use-it/"
-    relevance: "Most-cited adoption data point in this space. Frequently grounds style guides' 'use-with-care' posture — gap between progressive institutional usage and community self-identification is load-bearing for contextual guidance."
+    relevance: "Most-cited adoption data point in this space. Frequently grounds style guides' 'use-with-care' posture: gap between progressive institutional usage and community self-identification is load-bearing for contextual guidance."
 
 audience_notes:
   - audience: "Spanish-speaking / bilingual"
-    note: "'Latine' often preferred — pronounceable in Spanish, follows a grammatical gender-neutral pattern ('e' suffix), originated in Spanish-speaking LGBTQIA+ communities. 'Latinx' is harder to pronounce in Spanish and is sometimes perceived as an English-internet construction imposed on Spanish-speaking communities."
+    note: "'Latine' often preferred: pronounceable in Spanish, follows a grammatical gender-neutral pattern ('e' suffix), originated in Spanish-speaking LGBTQIA+ communities. 'Latinx' is harder to pronounce in Spanish and is sometimes perceived as an English-internet construction imposed on Spanish-speaking communities."
   - audience: "Eastern U.S. / Caribbean / South American heritage"
-    note: "'Hispanic' more common in self-identification (per DSG, RET). 'Hispanic' foregrounds Spanish-language heritage — includes Spain, excludes Brazil."
+    note: "'Hispanic' more common in self-identification (per DSG, RET). 'Hispanic' foregrounds Spanish-language heritage: includes Spain, excludes Brazil."
   - audience: "Western U.S. / Mexican-American heritage"
-    note: "'Latino' / 'Chicano' more common. 'Latino' foregrounds Latin American geographic origin — excludes Spain, includes Brazil."
+    note: "'Latino' / 'Chicano' more common. 'Latino' foregrounds Latin American geographic origin: excludes Spain, includes Brazil."
   - audience: "Generational"
     note: "Younger cohorts more likely to use 'Latinx' or 'Latine.' Older cohorts more likely to use 'Latino' or 'Hispanic.' Age strongly correlates with adoption (per Pew 2019)."
   - audience: "Partner organizations / coalition work"
-    note: "Defer to the partner org's own style — don't impose Latinx on an org that uses Latino, or vice versa (per Sierra Club 2021)."
+    note: "Defer to the partner org's own style: don't impose Latinx on an org that uses Latino, or vice versa (per Sierra Club 2021)."
 
 last_reviewed: 2026-04-24
 created: 2026-04-24
@@ -150,13 +150,13 @@ contributors:
 
 ## Synthesis
 
-"Latinx" is one of the most actively contested terms in progressive style guidance, but the contest is narrower than it looks. Among the sources that take a position on usage, self-identification is the recurring floor — Sierra Club and TJA both make it explicit. Where guides diverge is on the **default** — the term to use when individual preference is unknown or when writing about a group in the aggregate.
+"Latinx" is one of the most actively contested terms in progressive style guidance, but the contest is narrower than it looks. Among the sources that take a position on usage, self-identification is the recurring floor: Sierra Club and TJA both make it explicit. Where guides diverge is on the **default**: the term to use when individual preference is unknown or when writing about a group in the aggregate.
 
 Three patterns appear in the corpus:
 
-1. **Latino-default with Latinx on request** — Sierra Club (2021) accepts Latinx but defaults to Latino/Latina, using Latinx on self-ID or partner-org usage. SEIU (2020) shares the Latino-default but predates Latinx and doesn't address it.
-2. **Latinx used without qualification** — Native Governance Center (2021) uses Latinx as its example capitalized identifier (in passing, not as a worked-out position); Casey (2013) predates the debate.
-3. **Defer / audience-dependent** — TJA applies strict self-ID deferral; Racial Equity Tools frames the whole cluster as audience-dependent. DSG (whose recommendation here is "evolving") describes Latinx as "increasingly used" and maintains separate entries rather than setting a house default.
+1. **Latino-default with Latinx on request**: Sierra Club (2021) accepts Latinx but defaults to Latino/Latina, using Latinx on self-ID or partner-org usage. SEIU (2020) shares the Latino-default but predates Latinx and doesn't address it.
+2. **Latinx used without qualification**: Native Governance Center (2021) uses Latinx as its example capitalized identifier (in passing, not as a worked-out position); Casey (2013) predates the debate.
+3. **Defer / audience-dependent**: TJA applies strict self-ID deferral; Racial Equity Tools frames the whole cluster as audience-dependent. DSG (whose recommendation here is "evolving") describes Latinx as "increasingly used" and maintains separate entries rather than setting a house default.
 
 There is a time trend in the data: **Latine is rising, Latinx is settling into a "use with care" / "evolving" posture.** The 2021 guides (Sierra Club, NGC) show no awareness of Latine. Among the 2023–2024 sources, DSG's Latine entry treats it as the more Spanish-usable form ("more easily pronounced than Latinx"), and TJA notes that some prefer Latine to Latinx. Latine's advantage is structural: it's pronounceable in Spanish, it follows the "e" gender-neutral pattern that Spanish speakers actually use, and it originated in Spanish-speaking LGBTQIA+ communities rather than as an English-internet coinage. Writing for Spanish-speaking or bilingual audiences is increasingly likely to call for Latine over Latinx, though self-identification still governs.
 
@@ -167,4 +167,4 @@ The [Pew 3%/23% data](/sources/pew-research-center/), from a December 2019 surve
 
 ## History note
 
-"Latinx" entered mainstream English-language progressive discourse in the mid-2010s as an online coinage, gender-inclusive by design. Peak adoption by U.S. progressive institutions was 2018–2022. In the same window, "Latine" emerged from Spanish-speaking LGBTQIA+ communities as a structurally better fit for Spanish — pronounceable, grammatically consistent with Spanish's existing patterns. Pew's finding that only 3% of U.S. Hispanic/Latino adults used "Latinx" for themselves — from a December 2019 survey published in August 2020 — crystallized the gap between institutional usage and community self-identification, and shaped how post-2020 style guides frame the term.
+"Latinx" entered mainstream English-language progressive discourse in the mid-2010s as an online coinage, gender-inclusive by design. Peak adoption by U.S. progressive institutions was 2018–2022. In the same window, "Latine" emerged from Spanish-speaking LGBTQIA+ communities as a structurally better fit for Spanish: pronounceable, grammatically consistent with Spanish's existing patterns. Pew's finding that only 3% of U.S. Hispanic/Latino adults used "Latinx" for themselves: from a December 2019 survey published in August 2020: crystallized the gap between institutional usage and community self-identification, and shaped how post-2020 style guides frame the term.

@@ -34,7 +34,7 @@ guidance:
     derived_from: []
     quote: "Use clear, people-first language when describing a condition and its symptoms. For example, \"she is living with schizophrenia\" rather than \"she is schizophrenic.\""
     quote_loc: "Mental health / people-first language section"
-    paraphrase: "The Dart Center / GCJT trauma-informed guide directs writers toward people-first phrasing — \"living with schizophrenia\" rather than \"schizophrenic\" as a label for the person."
+    paraphrase: "The Dart Center / GCJT trauma-informed guide directs writers toward people-first phrasing: \"living with schizophrenia\" rather than \"schizophrenic\" as a label for the person."
     confidence: "VERIFIED-ARCHIVED"
   - org: "National Center on Disability and Journalism"
     org_slug: "ncdj"
@@ -46,7 +46,7 @@ guidance:
     derived_from: []
     quote: "Many people prefer people-first language, such as \"a person with schizophrenia\"… rather than a \"schizophrenic\"… Do not use the word \"schizophrenic\" colloquially as a synonym for something inconsistent or contradictory."
     quote_loc: "Schizophrenia/schizophrenic entry → NCDJ Recommendation"
-    paraphrase: "NCDJ — the chapter's anchor source — recommends people-first phrasing (\"a person with schizophrenia\") over \"schizophrenic\" as a noun label, and separately rules out the colloquial use of the word to mean something inconsistent or contradictory."
+    paraphrase: "NCDJ: the chapter's anchor source: recommends people-first phrasing (\"a person with schizophrenia\") over \"schizophrenic\" as a noun label, and separately rules out the colloquial use of the word to mean something inconsistent or contradictory."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Diversity Style Guide"
     org_slug: "diversity-style-guide"
@@ -58,7 +58,7 @@ guidance:
     derived_from: []
     quote: "Avoid. Slang words derived from schizophrenic and generally used inaccurately, to mean \"of two minds.\"… find other words. A person who can't make up his mind is indecisive. A situation that keeps changing is unsettled."
     quote_loc: "Glossary entry: schizo, schizoid"
-    paraphrase: "The Diversity Style Guide's glossary entry flags the metaphorical misuse — \"schizophrenic\" used to mean \"of two minds\" — and points writers to plainer, more accurate words (\"indecisive,\" \"unsettled\") for the thing they actually mean."
+    paraphrase: "The Diversity Style Guide's glossary entry flags the metaphorical misuse: \"schizophrenic\" used to mean \"of two minds\", and points writers to plainer, more accurate words (\"indecisive,\" \"unsettled\") for the thing they actually mean."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []
@@ -67,7 +67,7 @@ audience_notes:
   - audience: "General note"
     note: "Journalists and editors. Refer to a person as having schizophrenia only when it is relevant and medically confirmed; use people-first phrasing (\"a person with schizophrenia\") rather than \"schizophrenic\" as a noun. Never reach for the word to describe a policy, market, awards show, or anything that simply keeps changing."
   - audience: "General note"
-    note: "Advocates and internal comms. \"Schizophrenic\" carries two distinct problems — it reduces a person to a diagnosis, and as a metaphor for \"of two minds\" it borrows a serious illness as a casual insult. Both uses are worth catching in review."
+    note: "Advocates and internal comms. \"Schizophrenic\" carries two distinct problems: it reduces a person to a diagnosis, and as a metaphor for \"of two minds\" it borrows a serious illness as a casual insult. Both uses are worth catching in review."
   - audience: "General note"
     note: "When you mean \"contradictory,\" say so. The DSG offers the swap: an indecisive person is indecisive; a changing situation is unsettled. Reaching for the medical term adds nothing but the borrowed stigma."
 last_reviewed: 2026-06-05

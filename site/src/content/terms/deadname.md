@@ -23,7 +23,7 @@ guidance:
     derived_from: []
     quote: "A deadname is a name that a trans person no longer uses. Don't publish deadnames in a story unless specifically relevant, and don't ask for this information unless it's necessary for background checks."
     quote_loc: "Glossary entry, \"Deadname\""
-    paraphrase: "GCJT defines a deadname and instructs journalists not to publish it absent specific relevance, nor to solicit it unless a background check requires it — and to explain the need and reassure the source if they must ask."
+    paraphrase: "GCJT defines a deadname and instructs journalists not to publish it absent specific relevance, nor to solicit it unless a background check requires it, and to explain the need and reassure the source if they must ask."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Diversity Style Guide"
     org_slug: "diversity-style-guide"
@@ -58,7 +58,7 @@ audience_notes:
   - audience: "Advocates and internal comms"
     note: "Use a person's current name; using a deadname without express permission is widely experienced as deeply offensive. Self-identification governs which name applies."
   - audience: "Watch the legal-name distinction"
-    note: "\"Deadname\" is not a synonym for \"legal name\" — many trans people have legally changed their name, so the current name may also be the legal one."
+    note: "\"Deadname\" is not a synonym for \"legal name\": many trans people have legally changed their name, so the current name may also be the legal one."
 last_reviewed: 2026-06-05
 created: 2026-06-05
 contributors:
@@ -67,7 +67,7 @@ contributors:
 
 ## Synthesis
 
-A deadname is the name a trans person was given — often at birth — and no longer uses. All three sources agree on that definition, and on the core rule that follows from it: do not use, publish, or solicit a person's deadname without their express permission, and let self-identification govern which name applies. The Diversity Style Guide also records the two accepted spellings ("deadname" and "dead name") and the verb form, "to deadname."
+A deadname is the name a trans person was given: often at birth, and no longer uses. All three sources agree on that definition, and on the core rule that follows from it: do not use, publish, or solicit a person's deadname without their express permission, and let self-identification govern which name applies. The Diversity Style Guide also records the two accepted spellings ("deadname" and "dead name") and the verb form, "to deadname."
 
 The sources differ in emphasis. GCJT (2021) and the Diversity Style Guide (2023) treat the word as one a communicator may need to define and handle with care: GCJT gives a handling rule for journalists (don't publish absent relevance, don't ask absent necessity), while the Diversity Style Guide documents the noun and verb. NLGJA (2025) states the strongest position: using someone's deadname without their express permission is "considered deeply offensive to most trans people."
 

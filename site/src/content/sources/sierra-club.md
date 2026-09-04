@@ -25,16 +25,16 @@ version_history:
 
 ## About
 
-The **Sierra Club** is the oldest and one of the largest grassroots environmental organizations in the United States, founded in 1892. In recent decades it has engaged publicly with the relationship between environmentalism and equity — including acknowledgment of its own founder John Muir's documented racist views — and the 2021 Equity Language Guide was part of that broader internal reckoning.
+The **Sierra Club** is the oldest and one of the largest grassroots environmental organizations in the United States, founded in 1892. In recent decades it has engaged publicly with the relationship between environmentalism and equity: including acknowledgment of its own founder John Muir's documented racist views, and the 2021 Equity Language Guide was part of that broader internal reckoning.
 
 The *Equity Language Guide* (2021) is an internal-facing communications resource that covers terminology across 17 topic areas, including ableism, ageism, race and ethnicity, gender and sexuality, immigrants and refugees, tribal sovereignty and public lands, and the organization's own history on issues like immigration and conservation. It includes an explicit "On Our Opposition" section and a "Visual Imagery" chapter covering photo selection and tokenization.
 
-The guide's scope extends beyond environmental communications — much of its guidance on race, gender, disability, and immigration is general-purpose and usable across progressive communications work.
+The guide's scope extends beyond environmental communications: much of its guidance on race, gender, disability, and immigration is general-purpose and usable across progressive communications work.
 
 ## Access
 
 The short URL `sierraclub.org/equity-language-guide` that once hosted the guide now returns a 404, but the 2021 edition remains available on the Sierra Club's site as a directly-hosted PDF (linked above). An earlier 2018 edition also remains online.
 
-The commons holds a **private preservation copy** for citation verification — so that quotes cited here stay verifiable even if the hosted PDF moves or is withdrawn. The full PDF is not publicly redistributed from this site. The Sierra Club holds copyright and has not granted reuse permission.
+The commons holds a **private preservation copy** for citation verification, so that quotes cited here stay verifiable even if the hosted PDF moves or is withdrawn. The full PDF is not publicly redistributed from this site. The Sierra Club holds copyright and has not granted reuse permission.
 
 For reuse beyond fair-use citation, contact the Sierra Club directly via [sierraclub.org/contact-us](https://www.sierraclub.org/contact-us).

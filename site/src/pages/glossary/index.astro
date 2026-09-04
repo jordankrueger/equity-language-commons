@@ -64,7 +64,7 @@ const navLetters = [...A_TO_Z, "#"];
   <Breadcrumb trail={[{ href: "/", label: "Home" }, { label: "Glossary" }]} />
   <h1>Glossary</h1>
   <p class="subtitle">
-    Every term that appears in any source guide in the commons, A–Z. Terms with cross-source treatment in <strong>three or more</strong> guides have full commons entries — click to open. Terms with at least one real source-guide definition point to a <strong>canonical source</strong> to consult. The rest are listed so the corpus's long tail stays discoverable.
+    Every term that appears in any source guide in the commons, A–Z. Terms with cross-source treatment in <strong>three or more</strong> guides have full commons entries: click to open. Terms with at least one real source-guide definition point to a <strong>canonical source</strong> to consult. The rest are listed so the corpus's long tail stays discoverable.
   </p>
 
   <div class="stats-row" role="presentation">
@@ -200,9 +200,9 @@ const navLetters = [...A_TO_Z, "#"];
                         </a>
                         {src.year && <span class="source-year"> ({src.year})</span>}
                         {src.excerpt ? (
-                          <span class="source-excerpt"> — “{src.excerpt}”</span>
+                          <span class="source-excerpt">: “{src.excerpt}”</span>
                         ) : (
-                          <span class="source-excerpt-missing"> — see source page for the full entry</span>
+                          <span class="source-excerpt-missing">: see source page for the full entry</span>
                         )}
                       </li>
                     ))}

@@ -30,7 +30,7 @@ guidance:
     recommendation: "use-with-care"
     quote: "Never reduce queer identity to a punchline. Homophobia of this type is unfortunately common — for example, jokes about male politicians that rely on the implication that they have a sexual relationship."
     quote_loc: "Tips for Writing About Gender and Sexuality, p. 7"
-    paraphrase: "Sierra Club names a specific journalistic pattern as homophobia even when no slur is used: jokes that rely on the implication that two male politicians are in a sexual relationship. The guide treats this as a writer-side accountability rule — the homophobia is in the writing choice, not just in overt anti-LGBTQ language."
+    paraphrase: "Sierra Club names a specific journalistic pattern as homophobia even when no slur is used: jokes that rely on the implication that two male politicians are in a sexual relationship. The guide treats this as a writer-side accountability rule: the homophobia is in the writing choice, not just in overt anti-LGBTQ language."
     confidence: "VERIFIED-ARCHIVED"
 
   - org: "Color of Change"
@@ -42,7 +42,7 @@ guidance:
     recommendation: "use-with-care"
     quote: "Rape culture often works in tandem with sexism, homophobia, and transphobia. Adopt gender-inclusive language and refrain from the use of demeaning descriptors when referring to victims/survivors."
     quote_loc: "Gender-Inclusive Language, p. 7"
-    paraphrase: "Color of Change positions homophobia as one of three interlocking systems — alongside sexism and transphobia — that rape culture operates through. The guide treats gender-inclusive survivor language as the practical counter, rather than treating homophobia as an isolated topic."
+    paraphrase: "Color of Change positions homophobia as one of three interlocking systems: alongside sexism and transphobia: that rape culture operates through. The guide treats gender-inclusive survivor language as the practical counter, rather than treating homophobia as an isolated topic."
     confidence: "VERIFIED-ARCHIVED"
 
   - org: "Diversity Style Guide"
@@ -54,7 +54,7 @@ guidance:
     recommendation: "use-with-care"
     quote: "Fear, hatred or dislike of homosexuality, gay men and lesbians. Restrict to germane usage, such as in quotations or opinions. Use LGBT right opponents or a similar phrase instead of homophobes when describing people who disagree with LGBT rights activism."
     quote_loc: "Homophobia entry"
-    paraphrase: "DSG accepts 'homophobia' as a concept but recommends restricting it to relevant contexts — quotations, opinion writing, or explicit reference to the concept. The entry specifically advises against labeling people as 'homophobes' in news copy, preferring descriptive constructions like 'LGBT rights opponents' that name the position rather than the person."
+    paraphrase: "DSG accepts 'homophobia' as a concept but recommends restricting it to relevant contexts: quotations, opinion writing, or explicit reference to the concept. The entry specifically advises against labeling people as 'homophobes' in news copy, preferring descriptive constructions like 'LGBT rights opponents' that name the position rather than the person."
     confidence: "VERIFIED-ARCHIVED"
 
   - org: "Human Rights Campaign"
@@ -66,7 +66,7 @@ guidance:
     recommendation: "use"
     quote: "Homophobia | The fear and hatred of or discomfort with people who are attracted to members of the same sex."
     quote_loc: "Glossary, Homophobia entry (updated 5/31/2023)"
-    paraphrase: "HRC defines homophobia plainly and pairs it in the glossary with biphobia ('The fear and hatred of, or discomfort with, people who love and are sexually attracted to more than one gender'). The companion structure treats fear, hatred, and discomfort as a spectrum — not requiring overt hostility to qualify."
+    paraphrase: "HRC defines homophobia plainly and pairs it in the glossary with biphobia ('The fear and hatred of, or discomfort with, people who love and are sexually attracted to more than one gender'). The companion structure treats fear, hatred, and discomfort as a spectrum: not requiring overt hostility to qualify."
     confidence: "VERIFIED-ARCHIVED"
 
   - org: "NLGJA: The Association of LGBTQ+ Journalists"
@@ -95,7 +95,7 @@ contributors:
 
 The corpus agrees on the **concept** and splits on the **application.** Every source accepts homophobia as a real and useful concept; Sierra Club, Color of Change, DSG, HRC, and NLGJA all use it without scare quotes or hedging. HRC's definition is the baseline: "the fear and hatred of or discomfort with people who are attracted to members of the same sex." The "discomfort" inclusion does work here: homophobia in the corpus runs from overt hostility through ambient discomfort, and does not require active animus to qualify. Color of Change positions homophobia as one of three interlocking systems alongside sexism and transphobia.
 
-The corpus agrees most sharply on a **journalistic restriction**: don't call individual people "homophobes" in news copy. DSG and NLGJA give nearly identical guidance — "Use LGBTQ+ rights opponents or a similar phrase instead of homophobes when describing people who oppose LGBTQ+ people, rights or activism." The reasoning is precision and verifiability: "homophobe" labels a person's internal state (fear, hatred), which is hard to prove and easy to dispute, while "LGBTQ+ rights opponents" names the verifiable position. Both guides restrict "homophobia" itself to relevant usage (quotations, opinion writing, or broad references to the concept) rather than barring it from news copy entirely. Sierra Club goes further: name homophobic *patterns in writing*, such as jokes that rely on the implication that male politicians are in a sexual relationship, as homophobia even when no slur appears. That writer-side accountability frame is unusual in this corpus.
+The corpus agrees most sharply on a **journalistic restriction**: don't call individual people "homophobes" in news copy. DSG and NLGJA give nearly identical guidance: "Use LGBTQ+ rights opponents or a similar phrase instead of homophobes when describing people who oppose LGBTQ+ people, rights or activism." The reasoning is precision and verifiability: "homophobe" labels a person's internal state (fear, hatred), which is hard to prove and easy to dispute, while "LGBTQ+ rights opponents" names the verifiable position. Both guides restrict "homophobia" itself to relevant usage (quotations, opinion writing, or broad references to the concept) rather than barring it from news copy entirely. Sierra Club goes further: name homophobic *patterns in writing*, such as jokes that rely on the implication that male politicians are in a sexual relationship, as homophobia even when no slur appears. That writer-side accountability frame is unusual in this corpus.
 
 The corpus also treats **biphobia and transphobia as a related family.** NLGJA names them as parallel formations of homophobia; HRC's biphobia entry mirrors the homophobia definition exactly. A criticism sometimes raised against "-phobia" constructions is that these are systemic prejudices rather than clinical phobias, but the in-corpus guides keep the formations as standard usage. None of the eight sources scanned offers an alternative like "heterosexism" or "anti-gay prejudice" as a replacement. APA and academic guides sometimes do; the in-scope corpus does not.
 
@@ -103,7 +103,7 @@ The chronology is short and consistent: **post-2020 LGBTQ+-led journalism guides
 
 ## Audience notes
 
-- **Journalists and editors.** Use "homophobia" in quotations, opinion writing, or when describing the concept itself. Don't label individual people as "homophobes" in news copy — DSG and NLGJA both prefer "LGBTQ+ rights opponents," "people who oppose same-sex marriage," or similar descriptive constructions. Name positions, not internal states.
+- **Journalists and editors.** Use "homophobia" in quotations, opinion writing, or when describing the concept itself. Don't label individual people as "homophobes" in news copy: DSG and NLGJA both prefer "LGBTQ+ rights opponents," "people who oppose same-sex marriage," or similar descriptive constructions. Name positions, not internal states.
 - **Patterns versus instances.** Sierra Club's writer-side frame is useful: homophobia can show up in writing choices (jokes, implications, dismissive framings) even when no slur appears. Naming those patterns as homophobic is a different move from labeling a person as a homophobe; the former is editorial accountability, the latter is contested attribution.
 - **Related family of terms.** Biphobia (for bisexual people), transphobia (for transgender people), and lesbophobia (sometimes used for lesbians specifically) are parallel formations and standard usage in the corpus. NLGJA and HRC treat them as a related family; use the specific term when the specific community is the referent.
-- **Internal-comms and movement writing.** Movement writing uses "homophobia" more freely than news copy — naming systemic patterns is closer to its purpose. News copy and external-facing communication should follow DSG and NLGJA: name positions and patterns; don't label persons.
+- **Internal-comms and movement writing.** Movement writing uses "homophobia" more freely than news copy: naming systemic patterns is closer to its purpose. News copy and external-facing communication should follow DSG and NLGJA: name positions and patterns; don't label persons.

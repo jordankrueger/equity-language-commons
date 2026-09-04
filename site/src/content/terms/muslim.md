@@ -48,7 +48,7 @@ guidance:
     derived_from: []
     quote: "A Muslim is a follower of Muhammad and the tenets and practices of Islam. The word Muslim is a noun; use the adjective Islamic when referring to the Islamic faith or the Islamic world."
     quote_loc: "Glossary entry, \"Muslim, Muslims\""
-    paraphrase: "This is the only source on the page working the grammar rather than the conflation problem: \"Muslim\" is the noun for a person, \"Islamic\" the adjective reserved for the faith and the wider Islamic world — so \"Islamic\" should never modify people."
+    paraphrase: "This is the only source on the page working the grammar rather than the conflation problem: \"Muslim\" is the noun for a person, \"Islamic\" the adjective reserved for the faith and the wider Islamic world, so \"Islamic\" should never modify people."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []
@@ -62,11 +62,11 @@ contributors:
 
 ## Synthesis
 
-**"Muslim" is the term to use — capitalized, as a noun, and not as a synonym for an ethnicity.** The three sources agree on a small set of precise rules. Sierra Club states the chapter's central caution: "Muslim" is a religious identity that is "not synonymous with Arab," and African American Muslims are in fact the largest Muslim population in the United States — a reminder that conflating the religion with Arab or Middle Eastern ethnicity is both inaccurate and erasing. The Diversity Style Guide draws the grammatical line: "Muslim" is the noun, "Islamic" the adjective for the faith and the wider Islamic world. NABJ adds that plain "Muslim" is sufficient, flagging the compound "Black Muslim" as an archaic label once tied to a specific organization.
+**"Muslim" is the term to use: capitalized, as a noun, and not as a synonym for an ethnicity.** The three sources agree on a small set of precise rules. Sierra Club states the chapter's central caution: "Muslim" is a religious identity that is "not synonymous with Arab," and African American Muslims are in fact the largest Muslim population in the United States: a reminder that conflating the religion with Arab or Middle Eastern ethnicity is both inaccurate and erasing. The Diversity Style Guide draws the grammatical line: "Muslim" is the noun, "Islamic" the adjective for the faith and the wider Islamic world. NABJ adds that plain "Muslim" is sufficient, flagging the compound "Black Muslim" as an archaic label once tied to a specific organization.
 
-The throughline is specificity. None of the guides treats "Muslim" as sensitive in itself; the cautions are all about not letting it stand in for something it doesn't mean — an ethnicity, a nationality, a politics. The prejudice directed at this identity is covered on the [Islamophobia](/terms/islamophobia/) page. Pages for the religion itself ("Islam," with the cautions around "Islamist" and "Islamic fundamentalist") are in progress as the commons gathers more sources.
+The throughline is specificity. None of the guides treats "Muslim" as sensitive in itself; the cautions are all about not letting it stand in for something it doesn't mean: an ethnicity, a nationality, a politics. The prejudice directed at this identity is covered on the [Islamophobia](/terms/islamophobia/) page. Pages for the religion itself ("Islam," with the cautions around "Islamist" and "Islamic fundamentalist") are in progress as the commons gathers more sources.
 
 ## Audience notes
 
-- **Journalists and editors.** "Muslim" is a noun; use "Islamic" as the adjective for the faith ("Islamic art"), not for people. Don't swap "Muslim" with "Arab" or "Middle Eastern" — they describe different things.
+- **Journalists and editors.** "Muslim" is a noun; use "Islamic" as the adjective for the faith ("Islamic art"), not for people. Don't swap "Muslim" with "Arab" or "Middle Eastern": they describe different things.
 - **Advocates and internal comms.** Be specific about who you mean. The largest U.S. Muslim population is African American; "Muslim" defaults in many people's minds to Arab, which the data doesn't support.

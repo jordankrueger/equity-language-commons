@@ -2,7 +2,7 @@ blank_issues_enabled: false
 contact_links:
   - name: Methodology, framing, or open-ended discussion
     url: https://github.com/jordankrueger/equity-language-commons/discussions
-    about: For conversations without a single right answer — chapter organization, methodology questions, how a term should be framed. Start a Discussion instead of opening an Issue.
+    about: For conversations without a single right answer: chapter organization, methodology questions, how a term should be framed. Start a Discussion instead of opening an Issue.
   - name: Read the Contribute guide first
     url: https://equitylanguagecommons.org/contribute/
     about: Not sure which path fits? The Contribute page walks through Issues, Discussions, PRs, and email options.

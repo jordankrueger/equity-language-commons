@@ -39,7 +39,7 @@ guidance:
     derived_from: []
     quote: "Ghetto is a racist and classist term that has become shorthand for a poor and Black neighborhood that white people should disparage, dismiss and fear. … It should not be used by people who do not live in those communities, not even in jest or for \"ironic\" effect."
     quote_loc: "\"Ghetto\" entry, Words and Phrases to Reconsider"
-    paraphrase: "Color of Change calls \"ghetto\" a racist and classist term that has become shorthand for a poor, Black neighborhood — one that lets society neglect or punish Black families. It says the word should not be used by people who do not live in those communities, even ironically."
+    paraphrase: "Color of Change calls \"ghetto\" a racist and classist term that has become shorthand for a poor, Black neighborhood: one that lets society neglect or punish Black families. It says the word should not be used by people who do not live in those communities, even ironically."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Global Center for Journalism & Trauma"
     org_slug: "gcjt"
@@ -51,7 +51,7 @@ guidance:
     derived_from: []
     quote: "In general, do not use \"ghetto\", or related adjectives such as \"notorious\", \"urban\" and \"gritty,\" to describe a geographic area. These cliches are often euphemisms for race. Avoid perpetuating negative stereotypes by describing a neighborhood or other area with precision. …"
     quote_loc: "\"Ghetto\" entry"
-    paraphrase: "The Global Center for Journalism & Trauma traces \"ghetto\" from sixteenth-century Venice through the Holocaust to today's segregated, low-income U.S. neighborhoods, and directs writers not to use it — or related cliches like \"notorious,\" \"urban,\" and \"gritty\" — because they are often euphemisms for race."
+    paraphrase: "The Global Center for Journalism & Trauma traces \"ghetto\" from sixteenth-century Venice through the Holocaust to today's segregated, low-income U.S. neighborhoods, and directs writers not to use it, or related cliches like \"notorious,\" \"urban,\" and \"gritty\", because they are often euphemisms for race."
     confidence: "VERIFIED-ARCHIVED"
   - org: "NABJ"
     org_slug: "nabj"
@@ -63,7 +63,7 @@ guidance:
     derived_from: []
     quote: "ghetto, inner city: Terms used as synonyms for sections of cities inhabited by poor people or minorities. Avoid these descriptions because of their negative connotations. Often the name of the neighborhood is the best choice. Section, district or quarter may also be used."
     quote_loc: "Style guide, \"G\" entries, \"ghetto, inner city\""
-    paraphrase: "NABJ is the upstream entry DSG carries forward, and its distinctive move is yoking \"ghetto\" to \"inner city\" — flagging the polite-sounding substitute as the same euphemism, not a safe replacement. The constructive half is concrete: reach for the neighborhood's actual name first, with \"section,\" \"district,\" or \"quarter\" as neutral fallbacks."
+    paraphrase: "NABJ is the upstream entry DSG carries forward, and its distinctive move is yoking \"ghetto\" to \"inner city\": flagging the polite-sounding substitute as the same euphemism, not a safe replacement. The constructive half is concrete: reach for the neighborhood's actual name first, with \"section,\" \"district,\" or \"quarter\" as neutral fallbacks."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Diversity Style Guide"
     org_slug: "diversity-style-guide"
@@ -75,7 +75,7 @@ guidance:
     derived_from: []
     quote: "Term used as a synonyms for sections of cities inhabited by poor people or minorities. Avoid this term because of its negative connotations. Often the name of the neighborhood is the best choice. Section, district or quarter may also be used."
     quote_loc: "\"ghetto\" glossary entry"
-    paraphrase: "DSG reproduces NABJ's guidance nearly word-for-word but splits the paired \"ghetto, inner city\" entry into a single-term one (its source URL still reads ghetto-inner-city). The substance is identical — avoid for the negative connotations, prefer the neighborhood's name or \"section,\" \"district,\" \"quarter\" — so on this page it stands as the journalism-style consensus rather than a separate argument."
+    paraphrase: "DSG reproduces NABJ's guidance nearly word-for-word but splits the paired \"ghetto, inner city\" entry into a single-term one (its source URL still reads ghetto-inner-city). The substance is identical: avoid for the negative connotations, prefer the neighborhood's name or \"section,\" \"district,\" \"quarter\", so on this page it reflects the journalism-style consensus rather than a separate argument."
     confidence: "VERIFIED-ARCHIVED"
   - org: "SumOfUs"
     org_slug: "sumofus"
@@ -87,7 +87,7 @@ guidance:
     derived_from: []
     quote: "Terms avoided/questioned by racial justice activists: … ghetto (especially as an adv. or adj.) …"
     quote_loc: "Race section, \"Terms avoided/questioned by racial justice activists\" column"
-    paraphrase: "SumOfUs lists \"ghetto\" among terms avoided or questioned by racial justice activists, flagging it especially as an adverb or adjective. Its housing section draws a finer line — historical and identity-claiming uses can illuminate injustice, while adjectival use is the questioned form."
+    paraphrase: "SumOfUs lists \"ghetto\" among terms avoided or questioned by racial justice activists, flagging it especially as an adverb or adjective. Its housing section draws a finer line: historical and identity-claiming uses can illuminate injustice, while adjectival use is the questioned form."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []
@@ -109,6 +109,6 @@ The corpus does mark a boundary around reclamation and history. APA notes the wo
 
 ## Audience notes
 
-- **Journalists and editors.** Don't use "ghetto" or "inner city" as descriptors. Name the actual neighborhood, or use "section," "district," or "quarter"; "under-resourced area" carries the socioeconomic point. Watch the adjacent code — "urban," "gritty," "notorious" — which GCJT flags as the same euphemism.
+- **Journalists and editors.** Don't use "ghetto" or "inner city" as descriptors. Name the actual neighborhood, or use "section," "district," or "quarter"; "under-resourced area" carries the socioeconomic point. Watch the adjacent code: "urban," "gritty," "notorious", which GCJT flags as the same euphemism.
 - **Advocates and internal comms.** Color of Change is explicit about who is speaking: outsiders shouldn't use "ghetto" at all, "not even in jest or for 'ironic' effect."
 - **Reclamation is community-internal.** Within communities, "ghetto" carries reclaimed and historical uses; the rejection is strongest for outsiders and for the adjectival, pejorative use.

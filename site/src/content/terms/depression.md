@@ -50,7 +50,7 @@ guidance:
     derived_from: []
     quote: "Refer to someone as having depression only if the information is relevant to the story and you are confident there is a medical diagnosis. … The terms \"depressed,\" \"depressing\" and \"depressive\" are acceptable in other contexts when the person being referenced does not have a medically diagnosed condition."
     quote_loc: "Depression entry, NCDJ Recommendation"
-    paraphrase: "NCDJ — the chapter's anchor — reserves \"depression\" for a confirmed medical diagnosis and relevant context, advising quotation marks when a diagnosis is unconfirmed. It explicitly permits the colloquial forms \"depressed,\" \"depressing,\" and \"depressive\" only when no diagnosed condition is involved (\"They found the election results depressing\"), and notes the proper clinical name is major depressive disorder."
+    paraphrase: "NCDJ: the chapter's anchor: reserves \"depression\" for a confirmed medical diagnosis and relevant context, advising quotation marks when a diagnosis is unconfirmed. It explicitly permits the colloquial forms \"depressed,\" \"depressing,\" and \"depressive\" only when no diagnosed condition is involved (\"They found the election results depressing\"), and notes the proper clinical name is major depressive disorder."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []
@@ -71,4 +71,4 @@ Because "depression" is a medical condition, applying it to the weather, the eco
 ## Audience notes
 
 - **Journalists and editors.** Reserve "depression" for a confirmed, relevant diagnosis; use "disheartening" or "discouraging" for the everyday letdown sense.
-- **Advocates and internal comms.** Don't use "depressing" loosely — it blurs a clinical condition into a passing mood.
+- **Advocates and internal comms.** Don't use "depressing" loosely: it blurs a clinical condition into a passing mood.

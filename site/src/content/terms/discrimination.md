@@ -22,7 +22,7 @@ guidance:
     derived_from: []
     quote: "The unjust and differential treatment of members of different identities … and other groups at the individual and institutional or structural level. … Identities can be actual or perceived; for example, a person may be discriminated against for a perception of disability or other marginalized status."
     quote_loc: "Glossary: discrimination"
-    paraphrase: "APA defines discrimination as unjust, differential treatment across many identity axes — age, gender, race, religion, immigration status, disability, sexual orientation, class — operating at both the individual and the institutional or structural level. It notes the targeted identity can be actual or merely perceived, distinguishing interpersonal prejudice from structural policy."
+    paraphrase: "APA defines discrimination as unjust, differential treatment across many identity axes: age, gender, race, religion, immigration status, disability, sexual orientation, class: operating at both the individual and the institutional or structural level. It notes the targeted identity can be actual or merely perceived, distinguishing interpersonal prejudice from structural policy."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Racial Equity Tools"
     org_slug: "racial-equity-tools"
@@ -34,7 +34,7 @@ guidance:
     derived_from: []
     quote: "The unequal treatment of members of various groups based on race, gender, social class, sexual orientation, physical ability, religion and other categories. … In the United States the law makes it illegal to discriminate against someone on the basis of race, color, religion, national origin, or sex."
     quote_loc: "Glossary: Discrimination"
-    paraphrase: "The value here is the gap the two halves expose: RET's social definition sweeps in sexual orientation, class, and ability, but the federal list it cites covers only race, color, religion, national origin, and sex — so much of what the everyday word names is not federally actionable. Where APA stresses individual-vs-structural and TJA parses statutory \"gender-based discrimination,\" RET's contribution is marking that lived-vs-legal divide."
+    paraphrase: "The value here is the gap the two halves expose: RET's social definition sweeps in sexual orientation, class, and ability, but the federal list it cites covers only race, color, religion, national origin, and sex, so much of what the everyday word names is not federally actionable. Where APA stresses individual-vs-structural and TJA parses statutory \"gender-based discrimination,\" RET's contribution is marking that lived-vs-legal divide."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Trans Journalists Association"
     org_slug: "tja"
@@ -66,5 +66,5 @@ The one specialized entry is the Trans Journalists Association's, which treats "
 
 ## Audience notes
 
-- **Journalists and editors.** Fine as a general term; when the legal sense matters — a protected category, an unlawful act — be specific rather than using "discrimination" loosely.
+- **Journalists and editors.** Fine as a general term; when the legal sense matters: a protected category, an unlawful act: be specific rather than using "discrimination" loosely.
 - **Advocates and internal comms.** Pair it with the level: interpersonal versus institutional. The same word covers both, but the remedy and the evidence differ.

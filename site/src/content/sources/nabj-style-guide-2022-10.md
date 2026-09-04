@@ -14,7 +14,7 @@ last_checked: 2026-06-07
 format: "markdown"
 version_history:
   - year: 2020
-    note: "June 2020 NABJ statement on capitalizing Black (and related racial identifiers) — republished within the 2022 style guide; several term entries cite the statement's original year."
+    note: "June 2020 NABJ statement on capitalizing Black (and related racial identifiers): republished within the 2022 style guide; several term entries cite the statement's original year."
 ---
 
 ## About
@@ -25,4 +25,4 @@ In the commons it is a source for the Race & Ethnicity chapter.
 
 ## Access
 
-Host posture is **private-mirror-link-out**, but the live stylebook is **members-gated** on nabj.org — readers without a login cannot reach it. The commons therefore keeps a private preservation copy for citation verification and links to the (gated) original. Quotes are held within fair-use limits and attributed to NABJ.
+Host posture is **private-mirror-link-out**, but the live stylebook is **members-gated** on nabj.org: readers without a login cannot reach it. The commons therefore keeps a private preservation copy for citation verification and links to the (gated) original. Quotes are held within fair-use limits and attributed to NABJ.

@@ -95,4 +95,4 @@ The replacements are the everyday identity terms: gay, lesbian, or, for breadth,
 ## Audience notes
 
 - **Journalists and editors.** Never "a homosexual" or "homosexuals" as a noun for people. "Homosexuality" is acceptable when reporting on research that uses the term; in all other copy, use gay, lesbian, or the person's own identity language.
-- **Health and policy writers.** Older medical literature, statutes, and court opinions use the term as a category label — quote the record when fidelity matters, but use current terms in your own prose. Many style guides suggest "same-sex" constructions (same-sex attraction, same-sex marriage) for precision without the dated label.
+- **Health and policy writers.** Older medical literature, statutes, and court opinions use the term as a category label: quote the record when fidelity matters, but use current terms in your own prose. Many style guides suggest "same-sex" constructions (same-sex attraction, same-sex marriage) for precision without the dated label.

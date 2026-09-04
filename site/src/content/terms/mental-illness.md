@@ -39,7 +39,7 @@ guidance:
     derived_from: []
     quote: "Refer to an individual's mental illness only when it is relevant to the story and you're confident there is a medical diagnosis. Whenever possible, specify the specific illness a person has rather than mental illness in general. Always refer to someone with a mental illness as a person first."
     quote_loc: "\"Mental illness/mental disorder\" entry, NCDJ Recommendation"
-    paraphrase: "NCDJ — the chapter's anchor — treats \"mental illness\" as a usable umbrella term but bounds it: reference it only when relevant and a diagnosis is confirmed, name the specific condition where possible, use people-first language, and avoid linking mental illness to violent crime."
+    paraphrase: "NCDJ: the chapter's anchor: treats \"mental illness\" as a usable umbrella term but bounds it: reference it only when relevant and a diagnosis is confirmed, name the specific condition where possible, use people-first language, and avoid linking mental illness to violent crime."
     confidence: "VERIFIED-ARCHIVED"
   - org: "American Psychological Association"
     org_slug: "apa"
@@ -51,7 +51,7 @@ guidance:
     derived_from: []
     quote: "Term to avoid: mentally ill. Suggested alternative: person living with a mental illness."
     quote_loc: "Disability terms table, \"Term to Avoid / Suggested Alternative\""
-    paraphrase: "APA's table avoids the adjective \"mentally ill\" (and \"crazy,\" \"insane\") and prescribes the person-first noun construction \"person living with a mental illness\" — endorsing \"mental illness\" itself when framed person-first."
+    paraphrase: "APA's table avoids the adjective \"mentally ill\" (and \"crazy,\" \"insane\") and prescribes the person-first noun construction \"person living with a mental illness\": endorsing \"mental illness\" itself when framed person-first."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Diversity Style Guide"
     org_slug: "diversity-style-guide"
@@ -77,14 +77,14 @@ contributors:
 
 ## Synthesis
 
-**"Mental illness" is an accepted umbrella term, but a heavily bounded one.** NCDJ — the chapter's anchor — and the Diversity Style Guide both treat it as usable while setting the same conditions: name the specific diagnosis where possible, reference a condition only when it is relevant to the story and a diagnosis is confirmed, and use people-first language. GCJT adds the two cautions that recur whenever this term appears in reporting: do not speculate about a diagnosis, and do not conflate mental illness with violence.
+**"Mental illness" is an accepted umbrella term, but a heavily bounded one.** NCDJ: the chapter's anchor, and the Diversity Style Guide both treat it as usable while setting the same conditions: name the specific diagnosis where possible, reference a condition only when it is relevant to the story and a diagnosis is confirmed, and use people-first language. GCJT adds the two cautions that recur whenever this term appears in reporting: do not speculate about a diagnosis, and do not conflate mental illness with violence.
 
-The contested edge is grammatical, and it is about not collapsing a person into a condition. APA avoids the adjective "mentally ill" (alongside "crazy" and "insane") and prescribes the person-first noun "person living with a mental illness" — so the term itself is endorsed, while the adjective-as-identity is not. The Diversity Style Guide records that some advocates would retire the umbrella term entirely in favor of always naming the specific condition.
+The contested edge is grammatical, and it is about not collapsing a person into a condition. APA avoids the adjective "mentally ill" (alongside "crazy" and "insane") and prescribes the person-first noun "person living with a mental illness", so the term itself is endorsed, while the adjective-as-identity is not. The Diversity Style Guide records that some advocates would retire the umbrella term entirely in favor of always naming the specific condition.
 
 The guidance is stable across the 2021–2023 sources, moving toward specificity and person-first construction. One distinction the sources guard carefully: "mental illness" is not "mental health." Mental health is a universal state of well-being; mental illness names a condition, and treating the two as synonyms is a common error. This page pairs with [mental health](/terms/mental-health/).
 
 ## Audience notes
 
 - **Journalists and editors.** Name the specific, confirmed diagnosis rather than "mental illness" in general; reference it only when relevant; never speculate about a diagnosis or link mental illness to violent crime (NCDJ, GCJT).
-- **Advocates and internal comms.** Use the person-first noun — "person living with a mental illness" — not the adjective collective "the mentally ill."
+- **Advocates and internal comms.** Use the person-first noun: "person living with a mental illness": not the adjective collective "the mentally ill."
 - **Keep the two terms distinct.** Everyone has mental health; mental illness is a specific condition. Don't use "mental health" as a polite stand-in for "mental illness."

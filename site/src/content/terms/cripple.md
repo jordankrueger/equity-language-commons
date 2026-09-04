@@ -28,7 +28,7 @@ guidance:
     derived_from: []
     quote: "Avoid using \"cripple\" as either a noun or verb unless you are describing the \"crip\" movement or if it's in a direct quote."
     quote_loc: "\"Cripple/crip\" entry, NCDJ Recommendation"
-    paraphrase: "The NCDJ advises against using \"cripple\" as noun or verb, with two exceptions: describing the \"crip\" movement and direct quotation. Its background note records that some disability activists have reclaimed the word — adopting hashtags like #criplit and #cripthevote — while others reject it outright, so the recommendation tracks self-identification within the community rather than a blanket ban."
+    paraphrase: "The NCDJ advises against using \"cripple\" as noun or verb, with two exceptions: describing the \"crip\" movement and direct quotation. Its background note records that some disability activists have reclaimed the word: adopting hashtags like #criplit and #cripthevote, while others reject it outright, so the recommendation tracks self-identification within the community rather than a blanket ban."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Sierra Club"
     org_slug: "sierra-club"
@@ -71,9 +71,9 @@ external_references: []
 methodological_context: []
 audience_notes:
   - audience: "Journalists and editors"
-    note: "Treat \"cripple\" (noun or verb) as a slur in copy and headlines. The NCDJ carves out two exceptions: direct quotes and coverage of the reclaimed \"crip\" movement. Watch the metaphorical use most of all — \"crippled by debt,\" \"a crippling blow\" — which Sierra Club flags as the easiest slip; rewrite to \"held back\" or something more specific."
+    note: "Treat \"cripple\" (noun or verb) as a slur in copy and headlines. The NCDJ carves out two exceptions: direct quotes and coverage of the reclaimed \"crip\" movement. Watch the metaphorical use most of all: \"crippled by debt,\" \"a crippling blow\", which Sierra Club flags as the easiest slip; rewrite to \"held back\" or something more specific."
   - audience: "Allies and people without disabilities"
-    note: "Both the NCDJ and the Movement Strategy Center make the same call: \"crip\" has been reclaimed inside the disability community, but reclamation is for members, not allies. If you don't identify as disabled, don't use the term — including in solidarity contexts — unless you are quoting or naming someone's own self-description."
+    note: "Both the NCDJ and the Movement Strategy Center make the same call: \"crip\" has been reclaimed inside the disability community, but reclamation is for members, not allies. If you don't identify as disabled, don't use the term: including in solidarity contexts: unless you are quoting or naming someone's own self-description."
   - audience: "Disability activists and community writers"
     note: "Self-identification governs. The corpus records active reclamation (#criplit, #cripthevote, \"crip linguist\") alongside writers who reject the word for themselves. None of the sources tells community members how to identify; the avoid guidance is aimed outward at non-disabled use."
 last_reviewed: 2026-06-07
@@ -84,7 +84,7 @@ contributors:
 
 ## Synthesis
 
-All four sources agree on the surface — "cripple" is not a word to reach for —
+All four sources agree on the surface: "cripple" is not a word to reach for :
 but two of them decline to call it a simple avoid. The National Center on
 Disability and Journalism and the Movement Strategy Center both record that
 disability activists have reclaimed "crip," and both draw the line at who is

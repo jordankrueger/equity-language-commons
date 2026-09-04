@@ -49,7 +49,7 @@ guidance:
     recommendation: "use-with-care"
     quote: "Use Black, Indigenous, People of Color (BIPOC) rather than People of Color (POC) …"
     quote_loc: "p. 4, References to Racial, Ethnic, Cultural (and Political) Groups"
-    paraphrase: "NGC's rule matches Sierra Club's at the structural level — BIPOC over POC when Black or Indigenous people are in the group; specific identifier over BIPOC for individuals. The Natalia example is the cleanest articulation of the failure mode the rule guards against: a Latinx small business owner is not 'a BIPOC small business owner' as an identity label; BIPOC is a collective frame, not a personal descriptor."
+    paraphrase: "NGC's rule matches Sierra Club's at the structural level: BIPOC over POC when Black or Indigenous people are in the group; specific identifier over BIPOC for individuals. The Natalia example is the cleanest articulation of the failure mode the rule guards against: a Latinx small business owner is not 'a BIPOC small business owner' as an identity label; BIPOC is a collective frame, not a personal descriptor."
     confidence: "VERIFIED-ARCHIVED"
 
   - org: "Diversity Style Guide"
@@ -61,7 +61,7 @@ guidance:
     recommendation: "use-with-care"
     quote: "It is a noun and since it includes the word 'people' it would be redundant to say 'BIPOC people.' It is pronounced 'buy-pock' as opposed to saying each letter individually. … While BIPOC is commonly used by activists, it is not universally embraced. Some consider it redundant."
     quote_loc: "BIPOC entry (lines 606–609 in archived markdown)"
-    paraphrase: "DSG locates BIPOC historically (early-2010s origin, May 2020 inflection point with the murder of George Floyd) and flags both the construction rules ('BIPOC people' is redundant; the word is a single noun pronounced 'buy-pock') and the live debate — adoption is concentrated in activist usage and not universal. References both the NYT Garcia article and The BIPOC Project as further reading."
+    paraphrase: "DSG locates BIPOC historically (early-2010s origin, May 2020 inflection point with the murder of George Floyd) and flags both the construction rules ('BIPOC people' is redundant; the word is a single noun pronounced 'buy-pock') and the live debate: adoption is concentrated in activist usage and not universal. References both the NYT Garcia article and The BIPOC Project as further reading."
     confidence: "VERIFIED"
 
   - org: "Racial Equity Tools"
@@ -73,7 +73,7 @@ guidance:
     recommendation: "use"
     quote: "A term referring to 'Black and/or Indigenous People of Color.' While 'POC' or People of Color is often used as well, BIPOC explicitly leads with Black and Indigenous identities, which helps to counter anti-Black racism and invisibilization of Native communities."
     quote_loc: "BIPOC entry (lines 650–654 in archived markdown)"
-    paraphrase: "RET's framing emphasizes the structural purpose — explicitly leading with Black and Indigenous identities counters two specific failure modes that POC alone doesn't: anti-Black racism and Native invisibilization. RET reads the term as a fronting choice, not a redundancy."
+    paraphrase: "RET's framing emphasizes the structural purpose: explicitly leading with Black and Indigenous identities counters two specific failure modes that POC alone doesn't: anti-Black racism and Native invisibilization. RET reads the term as a fronting choice, not a redundancy."
     confidence: "VERIFIED"
 
 context_data:
@@ -89,7 +89,7 @@ context_data:
 
 audience_notes:
   - audience: "Journalism / news copy"
-    note: "DSG-aligned guidance: spell out 'Black, Indigenous, and people of color' on first use; use BIPOC on subsequent reference. 'BIPOC people' is redundant — the P in BIPOC already means 'people.' Use as a noun ('BIPOC voters,' 'support for BIPOC entrepreneurs'), not as an individual descriptor."
+    note: "DSG-aligned guidance: spell out 'Black, Indigenous, and people of color' on first use; use BIPOC on subsequent reference. 'BIPOC people' is redundant: the P in BIPOC already means 'people.' Use as a noun ('BIPOC voters,' 'support for BIPOC entrepreneurs'), not as an individual descriptor."
   - audience: "Individual identification"
     note: "Do not use BIPOC as a personal descriptor when a specific identifier exists. 'Natalia is BIPOC' flattens her Latinx identity into a collective frame; 'Natalia is a Latinx small business owner' is correct (NGC). The same logic applies to Black, Indigenous, Asian American, Pacific Islander, etc."
   - audience: "Groups that include neither Black nor Indigenous people"
@@ -112,8 +112,8 @@ The structural claim is consistent across all four sources. Black and Indigenous
 The over-use failure mode is the live editorial concern. Three of four guides (Sierra Club, NGC, DSG) flag the same trap: writers reach for BIPOC as a polite catch-all for 'non-white,' which is exactly the move BIPOC was coined to make harder. The remedy is shared:
 
 1. **Use a more specific identifier when one fits.** "Latinx small business owner," not "BIPOC small business owner" (NGC). "Black voters" or "Indigenous communities," not "BIPOC voters" when those are the actual referents (Sierra Club).
-2. **Reserve BIPOC for genuinely cross-cutting solidarity contexts** where the structural Black-and-Indigenous-front-and-center framing is what you mean to invoke. "BIPOC-led coalitions," "BIPOC mutual aid networks" — collective frames where the asymmetry is being deliberately named.
-3. **Use BIPOC as a noun, not an individual descriptor.** The P already means 'people' — 'BIPOC people' is redundant (DSG). BIPOC works as a group label, not as a personal identity term.
+2. **Reserve BIPOC for genuinely cross-cutting solidarity contexts** where the structural Black-and-Indigenous-front-and-center framing is what you mean to invoke. "BIPOC-led coalitions," "BIPOC mutual aid networks": collective frames where the asymmetry is being deliberately named.
+3. **Use BIPOC as a noun, not an individual descriptor.** The P already means 'people': 'BIPOC people' is redundant (DSG). BIPOC works as a group label, not as a personal identity term.
 
 The Sierra Club position, "either term, PoC or BIPOC, is acceptable," is the most permissive in the corpus, but the surrounding text still pushes toward specificity over the umbrella. No guide in the in-scope corpus prefers BIPOC for individual identification or treats it as fully interchangeable with POC.
 
@@ -124,4 +124,4 @@ The one-line rule: **be more specific whenever you can; reach for BIPOC when you
 
 ## History note
 
-BIPOC emerged from U.S. activist usage in the early 2010s and remained relatively niche through the late 2010s. The May 2020 protests following the murder of George Floyd in Minneapolis pushed the term sharply into mainstream usage — Sandra E. Garcia's June 17, 2020 New York Times piece, "Where Did BIPOC Come From?", captured the moment when the term crossed the activist/mainstream threshold. The 2020–2021 wave of post-Floyd style-guide updates is when most current institutional positions on BIPOC were set. The 'use BIPOC only where the cross-cutting frame fits; otherwise be specific' guidance had stabilized across major progressive guides by mid-2021.
+BIPOC emerged from U.S. activist usage in the early 2010s and remained relatively niche through the late 2010s. The May 2020 protests following the murder of George Floyd in Minneapolis pushed the term sharply into mainstream usage: Sandra E. Garcia's June 17, 2020 New York Times piece, "Where Did BIPOC Come From?", captured the moment when the term crossed the activist/mainstream threshold. The 2020–2021 wave of post-Floyd style-guide updates is when most current institutional positions on BIPOC were set. The 'use BIPOC only where the cross-cutting frame fits; otherwise be specific' guidance had stabilized across major progressive guides by mid-2021.

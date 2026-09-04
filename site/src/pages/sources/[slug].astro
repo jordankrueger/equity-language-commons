@@ -60,7 +60,7 @@ const postureChips = posturePills(data.host_posture);
 
 <BaseLayout
   title={data.org}
-  description={`${data.org} — ${data.work_title} (${data.year})`}
+  description={`${data.org}: ${data.work_title} (${data.year})`}
   pagefind
 >
   <Breadcrumb
@@ -100,7 +100,7 @@ const postureChips = posturePills(data.host_posture);
     <dd>{data.year}</dd>
     {data.format && (<><dt>Format</dt><dd>{data.format}</dd></>)}
     {data.length_pages && (<><dt>Length</dt><dd>{data.length_pages} pages{data.length_sections ? `, ${data.length_sections} sections` : ""}</dd></>)}
-    {data.copyright_holder && (<><dt>Copyright</dt><dd>&copy; {data.copyright_holder}{data.license ? ` — ${data.license}` : ". No reuse license stated."}</dd></>)}
+    {data.copyright_holder && (<><dt>Copyright</dt><dd>&copy; {data.copyright_holder}{data.license ? `: ${data.license}` : ". No reuse license stated."}</dd></>)}
     {data.source_url && (
       <>
         <dt>Original URL</dt>
@@ -148,7 +148,7 @@ const postureChips = posturePills(data.host_posture);
             <RecBadge value={c.recommendation} />
           </div>
           {c.quote && <blockquote class="citing-quote">&ldquo;{c.quote}&rdquo;</blockquote>}
-          <p class="citing-loc">— {c.quote_loc}</p>
+          <p class="citing-loc">: {c.quote_loc}</p>
         </li>
       ))}
     </ul>

@@ -39,7 +39,7 @@ guidance:
     derived_from: []
     quote: "A person who does not experience sexual attraction. Asexuals can and do experience other forms of attraction and intimacy, such as aesthetic, emotional, platonic, or romantic, and they can describe their romantic attraction in terms of hetero/homo/bi/pan, etc."
     quote_loc: "Glossary entry, \"asexual\""
-    paraphrase: "DSG defines asexual as not experiencing sexual attraction while stressing that asexual people can and do experience other forms of attraction and intimacy — aesthetic, emotional, platonic, romantic. The guide treats asexual and aromantic as distinct: an aromantic person may or may not be asexual."
+    paraphrase: "DSG defines asexual as not experiencing sexual attraction while stressing that asexual people can and do experience other forms of attraction and intimacy: aesthetic, emotional, platonic, romantic. The guide treats asexual and aromantic as distinct: an aromantic person may or may not be asexual."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Human Rights Campaign"
     org_slug: "hrc"
@@ -84,4 +84,4 @@ The governing principle is the same self-identification rule that runs through t
 ## Audience notes
 
 - **Journalists and editors.** "Asexual" / "ace" describes sexual attraction specifically; don't assume it rules out romantic relationships. Use it when the person does.
-- **Advocates and internal comms.** Treat romantic and sexual orientation as separate axes — someone can be asexual and biromantic, for instance.
+- **Advocates and internal comms.** Treat romantic and sexual orientation as separate axes: someone can be asexual and biromantic, for instance.

@@ -48,7 +48,7 @@ guidance:
     derived_from: []
     quote: "Terms such as “battle” and “survivor” are still widely accepted and understood, but the user should be aware that they could offend some people."
     quote_loc: "Survivor/battle entry, NCDJ Recommendation"
-    paraphrase: "In the health-condition context (“cancer survivor,” “stroke survivor”), NCDJ treats “survivor” as widely accepted but flags that some find it — and the related “battle” framing — objectionable, since it can imply that those who died simply did not fight hard enough. AP advises using “survivor” with care for imprecision."
+    paraphrase: "In the health-condition context (“cancer survivor,” “stroke survivor”), NCDJ treats “survivor” as widely accepted but flags that some find it, and the related “battle” framing: objectionable, since it can imply that those who died simply did not fight hard enough. AP advises using “survivor” with care for imprecision."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Color of Change"
     org_slug: "color-of-change"
@@ -60,7 +60,7 @@ guidance:
     derived_from: []
     quote: "Beyond specific language and terminology to use when addressing sexual violence, putting practices in place that affirm survivors and center their narratives is extremely impactful."
     quote_loc: "Victim/Survivor-Affirming Coverage Best Practices, p. 6"
-    paraphrase: "Color of Change's dedicated Black survivors guide centers a survivor-affirming, narrative-centering approach, using the paired form “victim/survivor” throughout and pairing terminology choices with coverage practices — content warnings, condemnation of sexual violence, and caution around words like “alleged” and “accuser” that can be weaponized against survivors."
+    paraphrase: "Color of Change's dedicated Black survivors guide centers a survivor-affirming, narrative-centering approach, using the paired form “victim/survivor” throughout and pairing terminology choices with coverage practices: content warnings, condemnation of sexual violence, and caution around words like “alleged” and “accuser” that can be weaponized against survivors."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Diversity Style Guide"
     org_slug: "diversity-style-guide"
@@ -86,14 +86,14 @@ contributors:
 
 ## Synthesis
 
-"Survivor" carries two separate conversations in this corpus, and the guides handle both the same way: **ask, don't assume.** In the **sexual and domestic violence** context, the contest is "victim" versus "survivor." SumOfUs notes that many people who have experienced sexual violence prefer "survivor," but defers to whether the person chooses the word themselves. The Diversity Style Guide frames it as a genuine debate — "victim" can imply passivity, "survivor" can convey agency but is still one-dimensional — and recommends asking sources their preference. The trauma-journalism guide (GCJT) goes furthest: it advises against "victim," but it also cautions against assuming "survivor" is automatically the better word, recommending instead that journalists follow the language each person uses to define themselves. Color of Change's dedicated Black survivors guide adopts the paired form "victim/survivor" throughout and ties the terminology to survivor-affirming coverage practices.
+"Survivor" carries two separate conversations in this corpus, and the guides handle both the same way: **ask, don't assume.** In the **sexual and domestic violence** context, the contest is "victim" versus "survivor." SumOfUs notes that many people who have experienced sexual violence prefer "survivor," but defers to whether the person chooses the word themselves. The Diversity Style Guide frames it as a genuine debate: "victim" can imply passivity, "survivor" can convey agency but is still one-dimensional, and recommends asking sources their preference. The trauma-journalism guide (GCJT) goes furthest: it advises against "victim," but it also cautions against assuming "survivor" is automatically the better word, recommending instead that journalists follow the language each person uses to define themselves. Color of Change's dedicated Black survivors guide adopts the paired form "victim/survivor" throughout and ties the terminology to survivor-affirming coverage practices.
 
-The second conversation is about **health conditions** — "cancer survivor," "stroke survivor." Here NCDJ records that "survivor" and the related "battle" framing are widely accepted and understood, but flags that they can offend, since the language of fighting and surviving can imply that those who died simply did not fight hard enough.
+The second conversation is about **health conditions**: "cancer survivor," "stroke survivor." Here NCDJ records that "survivor" and the related "battle" framing are widely accepted and understood, but flags that they can offend, since the language of fighting and surviving can imply that those who died simply did not fight hard enough.
 
-Both contexts share a **rejection of the imposed binary.** No source tells you to default to either "victim" or "survivor." SumOfUs, DSG, and GCJT route the decision back to the person being described — follow the language each source uses for themselves. Color of Change comes at it from the coverage-practice side (affirming survivors, centering their narratives), and NCDJ from acceptance-with-caution in illness framing; neither contradicts the self-identification approach. Violence coverage and illness coverage raise different sensitivities, but the guides that prescribe a term-choice rule land in the same place, on self-identification.
+Both contexts share a **rejection of the imposed binary.** No source tells you to default to either "victim" or "survivor." SumOfUs, DSG, and GCJT route the decision back to the person being described: follow the language each source uses for themselves. Color of Change comes at it from the coverage-practice side (affirming survivors, centering their narratives), and NCDJ from acceptance-with-caution in illness framing; neither contradicts the self-identification approach. Violence coverage and illness coverage raise different sensitivities, but the guides that prescribe a term-choice rule land in the same place, on self-identification.
 
 ## Audience notes
 
-- **Journalists covering violence.** Ask which term the person prefers. When you can't, "victim/survivor" is the safest paired form. Per Color of Change, also watch the words around it — "alleged," "accuser" — that can be turned against the person.
+- **Journalists covering violence.** Ask which term the person prefers. When you can't, "victim/survivor" is the safest paired form. Per Color of Change, also watch the words around it: "alleged," "accuser": that can be turned against the person.
 - **Health and science writers.** "Cancer survivor" is widely accepted, but the "battle/survivor" frame can wound the families of those who died of the same condition. Use it with awareness, and follow the patient's own language.
-- **Self-identification governs.** Neither "victim" nor "survivor" is a safe universal default — both are choices the subject gets to make.
+- **Self-identification governs.** Neither "victim" nor "survivor" is a safe universal default: both are choices the subject gets to make.

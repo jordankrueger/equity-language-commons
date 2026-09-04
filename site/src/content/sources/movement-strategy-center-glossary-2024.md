@@ -22,8 +22,8 @@ version_history:
 The **Movement Strategy Center (MSC)** is an Oakland-based movement-building
 organization that supports grassroots groups working toward what it calls
 Beloved Community. Its online glossary defines roughly a hundred movement
-concepts — *abolition*, *ally*, *intersectionality*, *transformative justice*
-— and closes with four **Terms to Avoid** tables (Disability,
+concepts: *abolition*, *ally*, *intersectionality*, *transformative justice*
+: and closes with four **Terms to Avoid** tables (Disability,
 Economy/Poverty, Gender/Sex, Race/Indigeneity) pairing each avoided term with
 suggested alternatives.
 

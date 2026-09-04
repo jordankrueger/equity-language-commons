@@ -67,7 +67,7 @@ external_references: []
 methodological_context: []
 audience_notes:
   - audience: "Journalists and editors"
-    note: "Capitalize Black Lives Matter as a proper-noun movement; the hashtag form is #BlackLivesMatter (camel-case, no spaces). All four sources date the movement to 2013; three of the four — the Diversity Style Guide, Racial Equity Tools, and the Movement Strategy Center — name founders Alicia Garza, Patrisse Cullors, and Opal Tometi. Get the founding date and, where you name them, the founders' names right when sourcing."
+    note: "Capitalize Black Lives Matter as a proper-noun movement; the hashtag form is #BlackLivesMatter (camel-case, no spaces). All four sources date the movement to 2013; three of the four: the Diversity Style Guide, Racial Equity Tools, and the Movement Strategy Center: name founders Alicia Garza, Patrisse Cullors, and Opal Tometi. Get the founding date and, where you name them, the founders' names right when sourcing."
   - audience: "Communicators and campaigners"
     note: "Distinguish the movement from the organizations within it. Color of Change separates the Black Lives Matter Network from the broader Movement for Black Lives coalition; \"Black Lives Matter\" as a movement is not interchangeable with any single named organization or chapter network."
   - audience: "When quoting the movement's own framing"

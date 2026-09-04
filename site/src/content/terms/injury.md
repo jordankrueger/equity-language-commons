@@ -27,7 +27,7 @@ guidance:
     derived_from: []
     quote: "Refer to injuries as being \"sustained\" or \"received\" rather than \"suffered,\" as \"suffer\" implies that an injured person is a victim or somehow less than a person who has not been injured. Use of \"sustain\" or \"receive\" removes the implied judgment."
     quote_loc: "Injury/injuries entry, NCDJ Recommendation"
-    paraphrase: "NCDJ — the chapter's anchor — names the core rule: write that a person \"sustained\" or \"received\" an injury, not that they \"suffered\" one, because \"suffer\" frames the injured person as a victim or as diminished. The neutral verbs remove the implied judgment about a reduced quality of life."
+    paraphrase: "NCDJ: the chapter's anchor: names the core rule: write that a person \"sustained\" or \"received\" an injury, not that they \"suffered\" one, because \"suffer\" frames the injured person as a victim or as diminished. The neutral verbs remove the implied judgment about a reduced quality of life."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Global Center for Journalism & Trauma"
     org_slug: "gcjt"
@@ -39,7 +39,7 @@ guidance:
     derived_from: []
     quote: "Don't use language that reinforces stigma, or implies helplessness or victimhood. For example, describe \"people living with AIDS\" rather than people \"suffering from AIDS.\""
     quote_loc: "Disease entry"
-    paraphrase: "GCJT's disease entry states the same anti-suffering rule: avoid language that implies helplessness or victimhood. Its worked example — \"people living with AIDS\" rather than \"suffering from AIDS\" — models the \"lives with\" construction as the neutral alternative to the suffering frame, a pattern that carries over to injury language."
+    paraphrase: "GCJT's disease entry states the same anti-suffering rule: avoid language that implies helplessness or victimhood. Its worked example: \"people living with AIDS\" rather than \"suffering from AIDS\": models the \"lives with\" construction as the neutral alternative to the suffering frame, a pattern that carries over to injury language."
     confidence: "VERIFIED-ARCHIVED"
   - org: "American Psychological Association"
     org_slug: "apa"
@@ -83,5 +83,5 @@ The shared move is to strip the editorializing out of injury and illness languag
 
 ## Audience notes
 
-- **Journalists and editors.** Use "sustained," "received," "has," or "lives with" — not "suffers from," "afflicted with," "stricken," or "victim of." The same rule applies to war reporting: name the killed and wounded rather than "casualties."
+- **Journalists and editors.** Use "sustained," "received," "has," or "lives with": not "suffers from," "afflicted with," "stricken," or "victim of." The same rule applies to war reporting: name the killed and wounded rather than "casualties."
 - **Advocates and internal comms.** The suffering frame presumes a reduced life; let people characterize their own experience rather than narrating tragedy into it.

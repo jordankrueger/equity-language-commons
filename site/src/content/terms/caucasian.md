@@ -25,7 +25,7 @@ guidance:
     recommendation: "avoid"
     quote: "For nouns: African American, Asian American, black, Hispanic, Latino, Native American, non-Hispanic white, white (do not use Caucasian) …"
     quote_loc: "p. 14, Race and Ethnicity"
-    paraphrase: "Casey 2013's only Caucasian guidance is the parenthetical 'do not use Caucasian' inside the approved-nouns list. Compact but absolute — Caucasian is not on the approved list and is explicitly named as unacceptable. Notable that even Casey, the oldest guide in the in-scope corpus, treats this as a settled call."
+    paraphrase: "Casey 2013's only Caucasian guidance is the parenthetical 'do not use Caucasian' inside the approved-nouns list. Compact but absolute: Caucasian is not on the approved list and is explicitly named as unacceptable. Notable that even Casey, the oldest guide in the in-scope corpus, treats this as a settled call."
     confidence: "VERIFIED-ARCHIVED"
 
   - org: "Diversity Style Guide"
@@ -48,7 +48,7 @@ context_data:
 
 audience_notes:
   - audience: "Formal demographic data / institutional category names"
-    note: "Acceptable when citing a legacy instrument that uses 'Caucasian' as its formal label. Current federal standards do not — OMB standards and the FBI UCR use 'White.' 'Caucasian' survives in older instruments (the FBI UCR before its 2013 overhaul; some HHS-affiliated surveys like the Health and Retirement Study used 'White/Caucasian') and in medical-research writing. Match the source's terminology when citing such data; otherwise use White or white per house style."
+    note: "Acceptable when citing a legacy instrument that uses 'Caucasian' as its formal label. Current federal standards do not: OMB standards and the FBI UCR use 'White.' 'Caucasian' survives in older instruments (the FBI UCR before its 2013 overhaul; some HHS-affiliated surveys like the Health and Retirement Study used 'White/Caucasian') and in medical-research writing. Match the source's terminology when citing such data; otherwise use White or white per house style."
   - audience: "Identity contexts / general writing"
     note: "Avoid. Use white or White (per house style on capitalization). 'Caucasian' carries the pseudo-scientific 18th-century racial-typology baggage that the more direct 'white' doesn't."
   - audience: "Quoting sources"
@@ -71,4 +71,4 @@ The corpus says avoid Caucasian. The two guides that address it (Casey 2013, DSG
 
 ## History note
 
-Caucasian entered U.S. racial vocabulary through 19th-century borrowing of Blumenbach's typology and appeared in 20th-century immigration, census, and law-enforcement records. Most major U.S. institutional vocabularies shifted from Caucasian to white during the second half of the 20th century — current OMB standards and the FBI UCR use 'White' — and the term's residue in legacy survey instruments and casual usage persists. The current style-guide consensus that emerged in the 2000s–2010s — avoid Caucasian in identity contexts, allow only when citing data using the formal label — has held without significant dissent.
+Caucasian entered U.S. racial vocabulary through 19th-century borrowing of Blumenbach's typology and appeared in 20th-century immigration, census, and law-enforcement records. Most major U.S. institutional vocabularies shifted from Caucasian to white during the second half of the 20th century: current OMB standards and the FBI UCR use 'White', and the term's residue in legacy survey instruments and casual usage persists. The current style-guide consensus that emerged in the 2000s–2010s: avoid Caucasian in identity contexts, allow only when citing data using the formal label: has held without significant dissent.

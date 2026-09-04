@@ -39,7 +39,7 @@ guidance:
     derived_from: []
     quote: "A person's psychological sense of their gender. … Gender identity applies to all individuals and is not a characteristic of only transgender or nonbinary individuals. Gender identity is distinct from sexual orientation…"
     quote_loc: "Gender identity definition"
-    paraphrase: "APA defines gender identity as a person's psychological, deeply felt sense of their own gender, and stresses two boundaries: it applies to everyone, not only transgender or nonbinary people, and it is distinct from sexual orientation — the two must not be conflated. Identities may or may not correspond to sex assigned at birth."
+    paraphrase: "APA defines gender identity as a person's psychological, deeply felt sense of their own gender, and stresses two boundaries: it applies to everyone, not only transgender or nonbinary people, and it is distinct from sexual orientation: the two must not be conflated. Identities may or may not correspond to sex assigned at birth."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Diversity Style Guide"
     org_slug: "diversity-style-guide"
@@ -51,7 +51,7 @@ guidance:
     derived_from: []
     quote: "One's internal, deeply held sense of one's gender. For transgender people, their own internal gender identity does not match the sex they were assigned at birth. … Unlike gender expression, gender identity is not visible to others."
     quote_loc: "Glossary entry, \"gender identity\""
-    paraphrase: "DSG's distinctive contribution on this page is the visibility line: gender identity is internal and not visible to others, where gender expression is the outward, observable presentation. That's the operational reason the two can't be read off each other — you can see expression, you cannot see identity — which is the error the corpus most often warns against here."
+    paraphrase: "DSG's distinctive contribution on this page is the visibility line: gender identity is internal and not visible to others, where gender expression is the outward, observable presentation. That's the operational reason the two can't be read off each other: you can see expression, you cannot see identity, which is the error the corpus most often warns against here."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Racial Equity Tools"
     org_slug: "racial-equity-tools"

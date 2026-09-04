@@ -27,7 +27,7 @@ guidance:
     derived_from: []
     quote: "TERM TO AVOID … SUGGESTED ALTERNATIVE … tranny … transgender person … Some people may use terms to describe themselves and others that may be perceived as pejorative but are empowering for those individuals and their communities. \"Tranny\" or \"queer\" are examples …"
     quote_loc: "Sexual Orientation and Gender Diversity section, avoid/alternative table, \"tranny\" row"
-    paraphrase: "The APA's avoid/alternative table lists \"tranny\" among terms to avoid, with \"transgender person\" as the suggested alternative. Its comment notes that some people use such terms for themselves as empowering and that some community members have reclaimed them, while others consider them offensive — leaving self-identified use as the exception."
+    paraphrase: "The APA's avoid/alternative table lists \"tranny\" among terms to avoid, with \"transgender person\" as the suggested alternative. Its comment notes that some people use such terms for themselves as empowering and that some community members have reclaimed them, while others consider them offensive: leaving self-identified use as the exception."
     confidence: "VERIFIED-ARCHIVED"
   - org: "DC Fiscal Policy Institute"
     org_slug: "dcfpi"
@@ -51,7 +51,7 @@ guidance:
     derived_from: []
     quote: "Often a pejorative term for a transgender person, it is now being reclaimed by some transgender people. Offensive when used as an epithet and should be avoided except in quotes or as someone's self-identified term."
     quote_loc: "Glossary entry, \"tranny\""
-    paraphrase: "Where DCFPI and SumOfUs only list the word and NLGJA states a bare prohibition, DSG is the source that spells out the full structure the page turns on: pejorative as an epithet, but reclaimed inside the community, with exactly two carve-outs — direct quotation and a person's own self-identified use. Reclamation is internal; it never licenses an outsider."
+    paraphrase: "Where DCFPI and SumOfUs only list the word and NLGJA states a bare prohibition, DSG is the source that spells out the full structure the page turns on: pejorative as an epithet, but reclaimed inside the community, with exactly two carve-outs: direct quotation and a person's own self-identified use. Reclamation is internal; it never licenses an outsider."
     confidence: "VERIFIED-ARCHIVED"
   - org: "NLGJA: The Association of LGBTQ+ Journalists"
     org_slug: "nlgja"
@@ -63,7 +63,7 @@ guidance:
     derived_from: []
     quote: "Do not use this derogatory slang for a transgender person."
     quote_loc: "Stylebook entry, \"tranny\""
-    paraphrase: "NLGJA's dedicated entry directs writers not to use \"tranny,\" calling it derogatory slang for a transgender person and cross-referencing its \"slang\" and \"slurs\" entries. The slurs entry allows such terms only rarely — in quotations with a compelling reason, or when subjects use them for themselves."
+    paraphrase: "NLGJA's dedicated entry directs writers not to use \"tranny,\" calling it derogatory slang for a transgender person and cross-referencing its \"slang\" and \"slurs\" entries. The slurs entry allows such terms only rarely: in quotations with a compelling reason, or when subjects use them for themselves."
     confidence: "VERIFIED-ARCHIVED"
   - org: "SumOfUs"
     org_slug: "sumofus"
@@ -84,9 +84,9 @@ audience_notes:
   - audience: "Journalists and editors"
     note: "Don't use \"tranny\" in your own voice. NLGJA and APA treat it as a slur; the narrow exceptions across the sources are direct quotation where there's a compelling reason, and a subject referring to themselves with the term. When quoting, follow your outlet's policy on slurs (NLGJA notes some use hyphens for all but the first letter)."
   - audience: "Activists and internal comms"
-    note: "Some transgender people have reclaimed \"tranny\" within community (APA, Diversity Style Guide). Reclamation is for community members about themselves — it does not license outsiders to use it. Default to \"transgender person\" / \"transgender people\" unless someone has told you they use the term for themselves."
+    note: "Some transgender people have reclaimed \"tranny\" within community (APA, Diversity Style Guide). Reclamation is for community members about themselves: it does not license outsiders to use it. Default to \"transgender person\" / \"transgender people\" unless someone has told you they use the term for themselves."
   - audience: "When someone self-identifies with the term"
-    note: "Self-identification is the governing exception. If a person uses \"tranny\" for themselves, you can reflect that in describing them — but it stays specific to that person and doesn't generalize to others or to the group."
+    note: "Self-identification is the governing exception. If a person uses \"tranny\" for themselves, you can reflect that in describing them, but it stays specific to that person and doesn't generalize to others or to the group."
 last_reviewed: 2026-06-07
 created: 2026-06-07
 contributors:

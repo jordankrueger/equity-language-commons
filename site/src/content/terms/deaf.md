@@ -52,7 +52,7 @@ guidance:
     derived_from: []
     quote: "\"Deaf\" or \"hard of hearing\" are the preferred terms. Uppercase when referring to the \"Deaf\" community and lowercase when referring to the condition. … The National Association of the Deaf supports the identity-first approach."
     quote_loc: "\"Deaf\" entry, NCDJ Recommendation"
-    paraphrase: "NCDJ — the chapter's anchor — endorses \"Deaf\" and \"hard of hearing,\" with the capitalization rule at its center: capital \"D\" for the cultural community, lowercase \"d\" for the audiological condition. It notes many do not regard deafness as a disability, and that the NAD supports identity-first language."
+    paraphrase: "NCDJ: the chapter's anchor: endorses \"Deaf\" and \"hard of hearing,\" with the capitalization rule at its center: capital \"D\" for the cultural community, lowercase \"d\" for the audiological condition. It notes many do not regard deafness as a disability, and that the NAD supports identity-first language."
     confidence: "VERIFIED-ARCHIVED"
   - org: "American Psychological Association"
     org_slug: "apa"
@@ -64,7 +64,7 @@ guidance:
     derived_from: []
     quote: "Identity-first language is often used as an expression of cultural pride … In some cases, as with the Deaf community and autistic community, it is appropriate to use the preferred identity-first language of the community until you can learn an individual's preference. …"
     quote_loc: "Disability section, person-first vs. identity-first language"
-    paraphrase: "APA supplies the why the other entries assume: identity-first language reads as cultural pride, which is what makes the Deaf community an exception to the usual people-first default. The exception is scoped, not blanket — it's a provisional starting point that yields the moment you learn the individual's own preference."
+    paraphrase: "APA supplies the why the other entries assume: identity-first language reads as cultural pride, which is what makes the Deaf community an exception to the usual people-first default. The exception is scoped, not blanket: it's a provisional starting point that yields the moment you learn the individual's own preference."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Diversity Style Guide"
     org_slug: "diversity-style-guide"
@@ -76,7 +76,7 @@ guidance:
     derived_from: []
     quote: "Lowercase when referring to a hearing-loss condition or to a deaf person who prefers lowercase. Capitalize for those who identify as members of the Deaf community or when they capitalize Deaf when describing themselves. Deaf should be used as an adjective, not as a noun…"
     quote_loc: "Glossary entry, \"Deaf, deaf\""
-    paraphrase: "The Diversity Style Guide sets out the capitalization rule — lowercase \"deaf\" for the condition, capital \"Deaf\" for the cultural community — and adds that \"Deaf\" should be used as an adjective, not a noun (\"woman who is deaf,\" not \"a deaf\")."
+    paraphrase: "The Diversity Style Guide sets out the capitalization rule: lowercase \"deaf\" for the condition, capital \"Deaf\" for the cultural community, and adds that \"Deaf\" should be used as an adjective, not a noun (\"woman who is deaf,\" not \"a deaf\")."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []
@@ -90,7 +90,7 @@ contributors:
 
 ## Synthesis
 
-"Deaf" is accepted across the corpus; the work is in the capital letter. NCDJ — the chapter's anchor — along with SumOfUs and the Diversity Style Guide treat "deaf" and "hard of hearing" as preferred terms, and the rule they share is capitalization: capital "D" for the cultural-linguistic Deaf community, lowercase "d" for the audiological condition. The Diversity Style Guide adds that "Deaf" is an adjective, not a noun — "a woman who is deaf," not "a deaf."
+"Deaf" is accepted across the corpus; the work is in the capital letter. NCDJ: the chapter's anchor: along with SumOfUs and the Diversity Style Guide treat "deaf" and "hard of hearing" as preferred terms, and the rule they share is capitalization: capital "D" for the cultural-linguistic Deaf community, lowercase "d" for the audiological condition. The Diversity Style Guide adds that "Deaf" is an adjective, not a noun: "a woman who is deaf," not "a deaf."
 
 The Deaf community is the corpus's main example of identity-first language. GCJT and APA both single it out: where the general default elsewhere is people-first, the Deaf community prefers identity-first language as an expression of cultural pride, and the guidance is to default to it until you learn an individual's preference. NCDJ notes the National Association of the Deaf supports the identity-first approach, and that many Deaf people do not regard deafness as a disability at all, which is why this entry sits beside the chapter's disability terms rather than under them.
 
@@ -99,5 +99,5 @@ Self-identification governs throughout: both the capitalization and the identity
 ## Audience notes
 
 - **Journalists and editors.** Capital "Deaf" for the cultural identity, lowercase "deaf" for the condition; use it as an adjective ("a person who is deaf," "a Deaf woman"), never the collective "the deaf." Default to identity-first for the Deaf community, then follow the individual.
-- **Advocates and internal comms.** Don't assume the "disability" frame — many Deaf people don't use it — and avoid disability metaphors like "fell on deaf ears."
+- **Advocates and internal comms.** Don't assume the "disability" frame: many Deaf people don't use it, and avoid disability metaphors like "fell on deaf ears."
 - **Self-identification governs.** Ask whether a person uses capital-D "Deaf" and identity-first language; their own usage settles both questions.

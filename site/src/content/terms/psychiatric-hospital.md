@@ -56,7 +56,7 @@ audience_notes:
   - audience: "Journalists and editors"
     note: "\"Psychiatric hospital\" is the AP-conforming default; NCDJ and DSG both name it (and \"behavioral health hospital\" / \"mental health hospital\") as preferred. Reserve \"insane asylum\" for direct quotes or historical references to a named institution."
   - audience: "Advocates and internal comms"
-    note: "All three guides land on the same neutral, clinical term, so there is no contested call to navigate here — \"psychiatric hospital\" is safe across audiences. \"Behavioral health\" reads slightly broader and is common in U.S. care-system language."
+    note: "All three guides land on the same neutral, clinical term, so there is no contested call to navigate here: \"psychiatric hospital\" is safe across audiences. \"Behavioral health\" reads slightly broader and is common in U.S. care-system language."
   - audience: "Watch the variants"
     note: "APA's table offers \"psychiatric hospital/facility,\" and DSG/NCDJ add \"behavioral health hospital\" and \"mental health hospital.\" These are co-preferred rather than ranked; pick the one that fits the facility being described."
 last_reviewed: 2026-06-05
@@ -69,7 +69,7 @@ contributors:
 
 **This is a settled, use-this-term page.** All three sources prescribe the same form: "psychiatric hospital" is the neutral, preferred clinical term for a facility devoted to treating people with mental health conditions. The form these guides reject is "insane asylum," which NCDJ and DSG both describe as having largely gone out of use as objectionable and inaccurate. There is no dissent in the corpus.
 
-The sources reach that agreement by two routes. NCDJ — the chapter's disability anchor — and the Diversity Style Guide share near-identical wording, since DSG aggregates NCDJ's disability entries; both name "psychiatric hospital" alongside "behavioral health hospital" (NCDJ) or "mental health hospital" (DSG) as co-preferred, and both note AP conformance. The American Psychological Association arrives at the same place independently: its avoid/alternative table simply pairs "asylum" with "psychiatric hospital/facility," with no shared lineage to the journalism guides.
+The sources reach that agreement by two routes. NCDJ: the chapter's disability anchor, and the Diversity Style Guide share near-identical wording, since DSG aggregates NCDJ's disability entries; both name "psychiatric hospital" alongside "behavioral health hospital" (NCDJ) or "mental health hospital" (DSG) as co-preferred, and both note AP conformance. The American Psychological Association arrives at the same place independently: its avoid/alternative table simply pairs "asylum" with "psychiatric hospital/facility," with no shared lineage to the journalism guides.
 
 The remaining differences are wording, not substance. APA adds the more clinical "facility" variant; DSG's older phrasing says "mental disabilities" where NCDJ says "mental health conditions." Neither changes the recommendation. Use "psychiatric hospital" (or one of its co-preferred siblings) as the default and keep "insane asylum" for quotation or for naming a specific historical institution. This page pairs with the rejected form discussed at [insane](/terms/insane/).
 

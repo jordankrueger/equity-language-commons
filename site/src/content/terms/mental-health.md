@@ -27,7 +27,7 @@ guidance:
     derived_from: []
     quote: "it is therefore paramount to use people-first language, to reject a purely “medical” framing of disability, to always use disability and mental health terminology accurately, and to use narratives that support people with disabilities in building power …"
     quote_loc: "Disability section, Anti-ableism framework"
-    paraphrase: "SumOfUs treats mental health alongside disability under one anti-ableism framework: use people-first language, use mental health terminology accurately, and avoid deploying it metaphorically — especially as an insult or flippantly."
+    paraphrase: "SumOfUs treats mental health alongside disability under one anti-ableism framework: use people-first language, use mental health terminology accurately, and avoid deploying it metaphorically: especially as an insult or flippantly."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Sierra Club"
     org_slug: "sierra-club"
@@ -63,7 +63,7 @@ guidance:
     derived_from: []
     quote: "Unless you have a determination by a psychiatrist or psychologist that the subject of a story has been clinically diagnosed with a mental disorder, avoid speculating about the issue. … When a diagnosis is confirmed, specify the condition rather than referring to general “mental illness.”"
     quote_loc: "Diagnosis, mental health glossary entry"
-    paraphrase: "The Diversity Style Guide cautions against speculating about a subject's mental health absent a clinical diagnosis, and — where one is confirmed — prefers naming the specific condition over the general label “mental illness.”"
+    paraphrase: "The Diversity Style Guide cautions against speculating about a subject's mental health absent a clinical diagnosis, and, where one is confirmed: prefers naming the specific condition over the general label “mental illness.”"
     confidence: "VERIFIED-ARCHIVED"
   - org: "National Center on Disability and Journalism"
     org_slug: "ncdj"
@@ -89,9 +89,9 @@ contributors:
 
 ## Synthesis
 
-The sources converge on two rules and rarely disagree. The first is **don't borrow mental-health words as metaphors or insults.** Sierra Club names the most common case — "crazy" and "insane" as throwaway pejoratives — and observes that for people living with mental health conditions it is "exhausting to hear a medical issue be used as shorthand for every piece of bad news." SumOfUs folds the same rule into its anti-ableism framework: use mental health terminology accurately, and don't deploy it flippantly or as an insult.
+The sources converge on two rules and rarely disagree. The first is **don't borrow mental-health words as metaphors or insults.** Sierra Club names the most common case: "crazy" and "insane" as throwaway pejoratives, and observes that for people living with mental health conditions it is "exhausting to hear a medical issue be used as shorthand for every piece of bad news." SumOfUs folds the same rule into its anti-ableism framework: use mental health terminology accurately, and don't deploy it flippantly or as an insult.
 
-The second rule is a **discipline around diagnosis and relevance.** NCDJ and the Diversity Style Guide both insist that you not speculate about a person's mental health without a clinical diagnosis; that when a diagnosis is confirmed you name the specific condition rather than the catch-all "mental illness"; that you reference it only when it's relevant to the story; and that you keep the person first. Color of Change extends the relevance rule into survivor coverage from a different angle — a survivor's mental health history is exactly the kind of detail that gets surfaced to discredit them, so it warrants "extreme caution and discernment."
+The second rule is a **discipline around diagnosis and relevance.** NCDJ and the Diversity Style Guide both insist that you not speculate about a person's mental health without a clinical diagnosis; that when a diagnosis is confirmed you name the specific condition rather than the catch-all "mental illness"; that you reference it only when it's relevant to the story; and that you keep the person first. Color of Change extends the relevance rule into survivor coverage from a different angle: a survivor's mental health history is exactly the kind of detail that gets surfaced to discredit them, so it warrants "extreme caution and discernment."
 
 There is little chronological drift in this entry: from 2016 through 2023 the guidance holds steady. What varies is the **vantage point.** Language advocates (SumOfUs, Sierra Club) come at it from "don't use it as an insult," newsroom guides (NCDJ, DSG) from "don't speculate, and be specific," and intersectional survivor guidance (Color of Change) from "don't weaponize it."
 

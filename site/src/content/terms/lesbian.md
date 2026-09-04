@@ -57,7 +57,7 @@ guidance:
     recommendation: "use"
     quote: "Preferred term, both as a noun and adjective, for women who are attracted to other women. Some women prefer to be called gay rather than lesbian; when possible, ask the subject which term she prefers."
     quote_loc: "Lesbian entry"
-    paraphrase: "DSG treats lesbian as the preferred term for women attracted to women and accepts both noun and adjective forms — distinct from the adjective-only rule that holds for transgender or gay. The guide's override is self-identification: ask the subject if she prefers 'gay' over 'lesbian.'"
+    paraphrase: "DSG treats lesbian as the preferred term for women attracted to women and accepts both noun and adjective forms: distinct from the adjective-only rule that holds for transgender or gay. The guide's override is self-identification: ask the subject if she prefers 'gay' over 'lesbian.'"
     confidence: "VERIFIED-ARCHIVED"
 
   - org: "Human Rights Campaign"
@@ -69,7 +69,7 @@ guidance:
     recommendation: "use"
     quote: "Women and non-binary people may use this term to describe themselves."
     quote_loc: "Glossary, Lesbian entry"
-    paraphrase: "HRC defines lesbian as a woman attracted to other women, and explicitly extends the term to non-binary people who use it for themselves — a broader opening than the women-only default in older journalism style guides. HRC defers throughout to how the subject describes themselves."
+    paraphrase: "HRC defines lesbian as a woman attracted to other women, and explicitly extends the term to non-binary people who use it for themselves: a broader opening than the women-only default in older journalism style guides. HRC defers throughout to how the subject describes themselves."
     confidence: "VERIFIED-ARCHIVED"
 
 context_data: []

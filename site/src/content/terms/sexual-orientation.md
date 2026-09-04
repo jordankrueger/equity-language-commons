@@ -45,7 +45,7 @@ guidance:
     recommendation: "use"
     quote: "sexual orientation [Not: sexual preference]"
     quote_loc: "S entries, alphabetical stylebook"
-    paraphrase: "SEIU prescribes 'sexual orientation' and explicitly rejects 'sexual preference' on the same line. The entry is a paired preferred/avoided pattern typical of the SEIU stylebook — 'preference' implies choice and is treated as the obsolete form. The companion entry under L lists 'lesbian, gay, bisexual and transgender [LGBT]' as the accepted acronym form."
+    paraphrase: "SEIU prescribes 'sexual orientation' and explicitly rejects 'sexual preference' on the same line. The entry is a paired preferred/avoided pattern typical of the SEIU stylebook: 'preference' implies choice and is treated as the obsolete form. The companion entry under L lists 'lesbian, gay, bisexual and transgender [LGBT]' as the accepted acronym form."
     confidence: "VERIFIED-ARCHIVED"
 
   - org: "American Psychological Association"
@@ -57,7 +57,7 @@ guidance:
     recommendation: "use"
     quote: "Refer 'to an enduring disposition to experience sexual, affectional, or romantic attractions to nonbinary people, women, or men…' The term 'homosexual' is outdated and should not be used to describe a person's sexual orientation."
     quote_loc: "Sexual Orientation glossary, 'sexual orientation and identity' definition"
-    paraphrase: "APA treats sexual orientation as one of the seven identity categories its inclusive-language guide covers, paired with gender diversity as a companion topic. The guide's broader principles for the category center self-identification and intersectionality — choose specific terms over umbrella categories, defer to how the subject identifies, and recognize that orientation interacts with race, disability, and other identities."
+    paraphrase: "APA treats sexual orientation as one of the seven identity categories its inclusive-language guide covers, paired with gender diversity as a companion topic. The guide's broader principles for the category center self-identification and intersectionality: choose specific terms over umbrella categories, defer to how the subject identifies, and recognize that orientation interacts with race, disability, and other identities."
     confidence: "SUMMARY-ONLY"
 
   - org: "Diversity Style Guide"
@@ -81,7 +81,7 @@ guidance:
     recommendation: "use"
     quote: "An inherent or immutable enduring emotional, romantic or sexual attraction to other people. Note: an individual's sexual orientation is independent of their gender identity."
     quote_loc: "Glossary, Sexual orientation entry"
-    paraphrase: "HRC defines sexual orientation as an inherent enduring attraction and pairs the definition with the cross-axis rule: sexual orientation is independent of gender identity. The companion transgender entry repeats the rule from the other direction — being transgender does not imply any specific sexual orientation."
+    paraphrase: "HRC defines sexual orientation as an inherent enduring attraction and pairs the definition with the cross-axis rule: sexual orientation is independent of gender identity. The companion transgender entry repeats the rule from the other direction: being transgender does not imply any specific sexual orientation."
     confidence: "VERIFIED-ARCHIVED"
 
   - org: "Racial Equity Tools"
@@ -93,7 +93,7 @@ guidance:
     recommendation: "use"
     quote: "The sexual attraction toward other people or no people. While sexual activity involves the choices one makes regarding behavior, one's sexual activity does not define one's sexual orientation. Sexual orientation is part of the human condition, and all people have one."
     quote_loc: "Sexual Orientation entry"
-    paraphrase: "RET (sourcing PFLAG's June 2022 glossary) defines sexual orientation as attraction toward other people or no people and explicitly notes everyone has one — framing orientation as a universal category rather than a minority-group attribute. The entry separates behavior from orientation: what someone does sexually doesn't define what their orientation is."
+    paraphrase: "RET (sourcing PFLAG's June 2022 glossary) defines sexual orientation as attraction toward other people or no people and explicitly notes everyone has one: framing orientation as a universal category rather than a minority-group attribute. The entry separates behavior from orientation: what someone does sexually doesn't define what their orientation is."
     confidence: "VERIFIED-ARCHIVED"
 
   - org: "NLGJA: The Association of LGBTQ+ Journalists"
@@ -105,7 +105,7 @@ guidance:
     recommendation: "use"
     quote: "Sexual orientation refers to sexual, emotional or romantic attraction to another person, which can manifest through self-identification, behavior or social affiliation. Broadly, sexual orientation includes sexual attraction to those of the same sex/gender (homosexual), a different sex/gender (heterosexual), any sex/gender (pansexual, bisexual) and no attraction to others (asexual)."
     quote_loc: "Sexual Orientation section, head entry"
-    paraphrase: "NLGJA's 2025 stylebook treats sexual orientation as the umbrella category for its second major section, covering homosexual, heterosexual, pansexual, bisexual, asexual, and the surrounding terminology. The entry names self-identification, behavior, and social affiliation as the three ways orientation manifests — useful for journalists deciding what to base coverage on. The companion entry rejects 'sexual preference' as implying choice."
+    paraphrase: "NLGJA's 2025 stylebook treats sexual orientation as the umbrella category for its second major section, covering homosexual, heterosexual, pansexual, bisexual, asexual, and the surrounding terminology. The entry names self-identification, behavior, and social affiliation as the three ways orientation manifests: useful for journalists deciding what to base coverage on. The companion entry rejects 'sexual preference' as implying choice."
     confidence: "VERIFIED-ARCHIVED"
 
 context_data: []
@@ -120,14 +120,14 @@ contributors:
 
 ## Synthesis
 
-The corpus agrees on a single definition: **sexual orientation is enduring attraction.** DSG, HRC, RET, and NLGJA all give nearly interchangeable definitions — "enduring physical, romantic and/or emotional attraction" (DSG), "inherent or immutable enduring emotional, romantic or sexual attraction" (HRC), "sexual attraction toward other people or no people" (RET). NLGJA adds that orientation manifests through self-identification, behavior, or social affiliation, which gives a journalist three ways to ground a sourcing decision. RET goes furthest: everyone has a sexual orientation. Most of this corpus treats orientation as a universal category rather than a minority-group attribute.
+The corpus agrees on a single definition: **sexual orientation is enduring attraction.** DSG, HRC, RET, and NLGJA all give nearly interchangeable definitions: "enduring physical, romantic and/or emotional attraction" (DSG), "inherent or immutable enduring emotional, romantic or sexual attraction" (HRC), "sexual attraction toward other people or no people" (RET). NLGJA adds that orientation manifests through self-identification, behavior, or social affiliation, which gives a journalist three ways to ground a sourcing decision. RET goes furthest: everyone has a sexual orientation. Most of this corpus treats orientation as a universal category rather than a minority-group attribute.
 
 Sources agree most explicitly on the **cross-axis rule** with [Transgender](/terms/transgender/) and [Gender Identity](/terms/gender-identity/): sexual orientation and gender identity are different axes, and transgender people may hold any sexual orientation. DSG and HRC both state this directly inside the sexual-orientation entry, not as a footnote; NLGJA draws the same independence between the two axes elsewhere in its gender-identity coverage. The pairing carries enough corpus consensus that it is surfaced as a chapter-level principle.
 
-The most consistent **avoid** is "sexual preference." SEIU and DSG both have explicit paired entries — "sexual orientation [Not: sexual preference]" — and the reasoning is the same in both: "preference" implies choice in a way "orientation" does not. The pre-2010 mainstream usage of "sexual preference" had largely dropped out of the post-2020 progressive corpus.
+The most consistent **avoid** is "sexual preference." SEIU and DSG both have explicit paired entries: "sexual orientation [Not: sexual preference]", and the reasoning is the same in both: "preference" implies choice in a way "orientation" does not. The pre-2010 mainstream usage of "sexual preference" had largely dropped out of the post-2020 progressive corpus.
 
 ## Audience notes
 
 - **Journalists.** NLGJA names three modes for sourcing decisions: self-identification, behavior, social affiliation. A subject may be sexually active in one way, identify in another, and be socially affiliated in a third; reporting that conflates the three flattens the actual category. Default to self-identification when it's known; use behavior or affiliation only when the story requires it and the source is comfortable with it.
-- **Communicators and movement writing.** Don't replace "sexual orientation" with "sexual preference" anywhere in copy — even in older quotations, flag the substitution rather than silently modernizing. The corpus treats "preference" as substantively wrong, not just dated.
+- **Communicators and movement writing.** Don't replace "sexual orientation" with "sexual preference" anywhere in copy: even in older quotations, flag the substitution rather than silently modernizing. The corpus treats "preference" as substantively wrong, not just dated.
 - **Cross-axis precision.** Don't pair "sexual orientation" with "gender" or "gender identity" as if they're synonyms. The two-axis rule is one of the central distinctions in this chapter; sources that get it wrong tend to get downstream details wrong too (assuming a transgender source is gay, treating intersex as a sexual orientation). Check every paragraph that references one axis to see whether the other is being collapsed into it.

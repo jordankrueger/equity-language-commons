@@ -45,7 +45,7 @@ guidance:
     recommendation: "use"
     quote: "Institutional racism refers specifically to the ways in which institutional policies and practices create different outcomes for different racial groups. The institutional policies may never mention any racial group, but their effect is to create advantages for whites and … disadvantage for people … of color."
     quote_loc: "Glossary → Institutional Racism (Fundamentals / Core Concepts)"
-    paraphrase: "Racial Equity Tools stresses that institutional racism operates through effects rather than explicit racial language — policies that never name a racial group can still produce advantage for white people and disadvantage for people of color. It situates the term within its broader Fundamentals/Core Concepts framing of racism."
+    paraphrase: "Racial Equity Tools stresses that institutional racism operates through effects rather than explicit racial language: policies that never name a racial group can still produce advantage for white people and disadvantage for people of color. It situates the term within its broader Fundamentals/Core Concepts framing of racism."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []
@@ -59,7 +59,7 @@ contributors:
 
 ## Synthesis
 
-"Institutional racism" is standard, defined vocabulary, and the guides exist to help writers use it precisely, not to warn them off it. All three sources carry definitional entries and converge on the same core: racism that operates through the policies, practices, and procedures of institutions — schools, government, health care, employers, housing, finance, media — rather than through individual attitudes. Two emphases recur. First, intent is not the test: Racial Equity Tools stresses that policies which never mention any racial group can still produce racial advantage and disadvantage, and the Diversity Style Guide notes that calling an institution racist usually refers to its structures, not its motives. Second, the term points at identifiable institutions, which is what makes it useful for analysis.
+"Institutional racism" is standard, defined vocabulary, and the guides exist to help writers use it precisely, not to warn them off it. All three sources carry definitional entries and converge on the same core: racism that operates through the policies, practices, and procedures of institutions: schools, government, health care, employers, housing, finance, media: rather than through individual attitudes. Two emphases recur. First, intent is not the test: Racial Equity Tools stresses that policies which never mention any racial group can still produce racial advantage and disadvantage, and the Diversity Style Guide notes that calling an institution racist usually refers to its structures, not its motives. Second, the term points at identifiable institutions, which is what makes it useful for analysis.
 
 The precision question is institutional versus systemic (and structural) racism. APA notes that disciplines are beginning to distinguish the institutional form from the structural form after a period when the terms circulated interchangeably. The working distinction across the corpus is scale: institutional racism names what specific institutions do; systemic racism names how those effects compound across institutions and history. The commons keeps separate pages for each, matching the sources' cross-references.
 
@@ -67,5 +67,5 @@ The term carries its own history: [coined by Stokely Carmichael (Kwame Ture) and
 
 ## Audience notes
 
-- **Journalists and editors.** The term is precise, not pejorative — but it makes a factual claim. Pair it with the policy or practice that produces the disparate outcome (school discipline rates, lending denials, hiring screens) rather than using it as a free-floating intensifier.
+- **Journalists and editors.** The term is precise, not pejorative, but it makes a factual claim. Pair it with the policy or practice that produces the disparate outcome (school discipline rates, lending denials, hiring screens) rather than using it as a free-floating intensifier.
 - **Advocates and internal comms.** Choose the right scale word: a named agency's policy is institutional; patterns that span sectors and generations are systemic or structural. Using the institutional term for system-wide claims invites the "which institution?" rebuttal.

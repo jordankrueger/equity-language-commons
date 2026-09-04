@@ -27,7 +27,7 @@ guidance:
     derived_from: []
     quote: "Use \"assigned female/male at birth\" or \"sex assigned at birth.\" Avoid \"natal sex,\" \"biologically female/male,\" or \"born a woman/man.\""
     quote_loc: "Section 2: Bias-Free Language → Birth assignment language"
-    paraphrase: "As the earliest entry on the page (2017), Radical Copyeditor sets the replacement the later guides inherit — \"assigned sex at birth\" — and notably rejects \"born a woman/man\" alongside the \"biological\" forms, closing off the verb-phrase workaround, not just the adjective."
+    paraphrase: "As the earliest entry on the page (2017), Radical Copyeditor sets the replacement the later guides inherit: \"assigned sex at birth\", and notably rejects \"born a woman/man\" alongside the \"biological\" forms, closing off the verb-phrase workaround, not just the adjective."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Diversity Style Guide"
     org_slug: "diversity-style-guide"
@@ -70,11 +70,11 @@ external_references: []
 methodological_context: []
 audience_notes:
   - audience: "Journalists and editors"
-    note: "Outside of quoted scientific or legal language, prefer \"assigned sex at birth\" (AFAB/AMAB), and first ask whether birth-assignment information is relevant to the story at all. When a law or quotation uses \"biological sex,\" quote it directly, explain how that source defines it, and add context — including that it can mean different things in different policies."
+    note: "Outside of quoted scientific or legal language, prefer \"assigned sex at birth\" (AFAB/AMAB), and first ask whether birth-assignment information is relevant to the story at all. When a law or quotation uses \"biological sex,\" quote it directly, explain how that source defines it, and add context: including that it can mean different things in different policies."
   - audience: "\"Biological man/woman\" is the harder line"
     note: "The corpus rejects \"biological male/female\" and \"biological man/woman\" near-universally, especially when applied to trans people. \"Biological sex\" as a clinical synonym has narrow, contextualized uses; the personal labels do not."
   - audience: "Advocates and internal comms"
-    note: "Treat \"biological sex\" as politicized framing when it surfaces in opposition messaging — sources describe it as a branding tool used to imply a person's \"real\" sex is fixed and binary. Self-identification is primary; lead with how a person identifies."
+    note: "Treat \"biological sex\" as politicized framing when it surfaces in opposition messaging: sources describe it as a branding tool used to imply a person's \"real\" sex is fixed and binary. Self-identification is primary; lead with how a person identifies."
 last_reviewed: 2026-06-05
 created: 2026-06-05
 contributors:

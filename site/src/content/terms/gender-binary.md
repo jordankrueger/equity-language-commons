@@ -23,7 +23,7 @@ guidance:
     derived_from: []
     quote: "The belief that sex is binary and that sex determines gender (Hyde et al., 2019)… Empirical evidence affirms that gender is a nonbinary spectrum (Hyde et al., 2019). Inclusive language should reflect and respect gender diversity."
     quote_loc: "Definitions entry: gender/sex binary"
-    paraphrase: "Alone among the four sources here, APA does not stop at describing the binary as a belief — it asserts the empirical evidence contradicts it, citing Hyde et al. (2019). That moves the entry from \"a system some contest\" to \"a claim the science rejects,\" which is why APA's marking carries more prescriptive weight than the journalism guides' descriptive framings."
+    paraphrase: "Alone among the four sources here, APA does not stop at describing the binary as a belief: it asserts the empirical evidence contradicts it, citing Hyde et al. (2019). That moves the entry from \"a system some contest\" to \"a claim the science rejects,\" which is why APA's marking carries more prescriptive weight than the journalism guides' descriptive framings."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Diversity Style Guide"
     org_slug: "diversity-style-guide"
@@ -59,7 +59,7 @@ guidance:
     derived_from: []
     quote: "A cultural and societal classification system that sorts everyone into a male/female binary based on sex assigned at birth and equates male sex with masculinity and female sex with femininity."
     quote_loc: "Glossary entry: gender binary (n.)"
-    paraphrase: "TJA's definition is the one that names the mechanism the others leave implicit: the binary doesn't just sort people, it equates male sex with masculinity and female sex with femininity. That added clause is what makes the term analytic rather than descriptive — it identifies the rule the system enforces, not just the two boxes."
+    paraphrase: "TJA's definition is the one that names the mechanism the others leave implicit: the binary doesn't just sort people, it equates male sex with masculinity and female sex with femininity. That added clause is what makes the term analytic rather than descriptive: it identifies the rule the system enforces, not just the two boxes."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []
@@ -81,5 +81,5 @@ The term's day-to-day editorial work is mostly indirect. It is the concept behin
 
 ## Audience notes
 
-- **Journalists and editors.** The phrase is analysis, not decoration — "the gender binary" in copy asserts that a two-category system exists and is doing something. Make sure that's the claim you intend, then support it with the concrete practice at issue.
+- **Journalists and editors.** The phrase is analysis, not decoration: "the gender binary" in copy asserts that a two-category system exists and is doing something. Make sure that's the claim you intend, then support it with the concrete practice at issue.
 - **Survey and form designers.** The binary shows up most often as an artifact: M/F-only fields, "both genders," "opposite sex." Fixing those is usually the substantive change the concept term is pointing at.

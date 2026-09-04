@@ -29,7 +29,7 @@ guidance:
     derived_from: []
     quote: "Terms avoided/questioned by disability rights activists: … crazy … loony … maniac … nut, nut job, nutter, nutso … psycho"
     quote_loc: "Disability language two-column list, \"Terms avoided/questioned by disability rights activists\""
-    paraphrase: "SumOfUs lists \"crazy\" — along with \"loony,\" \"maniac,\" \"nut,\" and \"psycho\" — among the terms avoided or questioned by disability rights activists, contrasting them with person-first forms such as \"person who has [schizophrenia, etc.].\""
+    paraphrase: "SumOfUs lists \"crazy\": along with \"loony,\" \"maniac,\" \"nut,\" and \"psycho\": among the terms avoided or questioned by disability rights activists, contrasting them with person-first forms such as \"person who has [schizophrenia, etc.].\""
     confidence: "VERIFIED-ARCHIVED"
   - org: "National Center on Disability and Journalism"
     org_slug: "ncdj"
@@ -41,7 +41,7 @@ guidance:
     derived_from: []
     quote: "These words were once commonly used to describe people with mental illness but are now considered offensive. … Do not use these words, particularly when reporting on mental illness, unless they are part of a quote that is essential to the story."
     quote_loc: "\"Crazy/loony/mad/psycho/nuts/deranged\" entry, Background + NCDJ Recommendation"
-    paraphrase: "NCDJ — the chapter's anchor source — groups \"crazy,\" \"loony,\" \"mad,\" \"psycho,\" \"nuts,\" and \"deranged\" as former descriptions of people with mental illness that are now offensive, and advises against using them, particularly in mental-illness reporting, except in an essential quote."
+    paraphrase: "NCDJ: the chapter's anchor source: groups \"crazy,\" \"loony,\" \"mad,\" \"psycho,\" \"nuts,\" and \"deranged\" as former descriptions of people with mental illness that are now offensive, and advises against using them, particularly in mental-illness reporting, except in an essential quote."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Sierra Club"
     org_slug: "sierra-club"
@@ -53,7 +53,7 @@ guidance:
     derived_from: []
     quote: "Instead of saying something is \"crazy,\" just be more specific! Is it bizarre, unprecedented, or extremist? We should never use \"crazy\" or other terms about mental health to pejoratively refer to a specific person."
     quote_loc: "Ableism in everyday language section"
-    paraphrase: "Sierra Club calls the pejorative use of \"crazy\" (and \"insane\") one of the most common forms of unconscious ableism, instructing writers to never apply it to a person and to reach for specific words — \"bizarre,\" \"unprecedented,\" \"extremist\" — for actions or events instead."
+    paraphrase: "Sierra Club calls the pejorative use of \"crazy\" (and \"insane\") one of the most common forms of unconscious ableism, instructing writers to never apply it to a person and to reach for specific words: \"bizarre,\" \"unprecedented,\" \"extremist\": for actions or events instead."
     confidence: "VERIFIED-ARCHIVED"
   - org: "American Psychological Association"
     org_slug: "apa"
@@ -90,7 +90,7 @@ contributors:
 ---
 ## Synthesis
 
-"Crazy" is rejected across the corpus, most pointedly as a casual metaphor and not only as a description of a person. All five sources reject it, and those that characterize it tie it directly to mental-illness stigma. NCDJ — the chapter's anchor — groups "crazy" with "loony," "mad," "psycho," "nuts," and "deranged" as former descriptions of people with mental illness that are now offensive; the Diversity Style Guide files it with "crazed," "lunatic," and "wacko" as language that reinforces stigma; APA's term-to-avoid table prescribes "person living with a mental illness"; and SumOfUs lists it among terms avoided or questioned by disability rights activists. What the sources point at is the writer's own throwaway usage. Sierra Club calls the pejorative "crazy"/"insane" the single most common form of unconscious ableism, instructing writers never to apply it to a person and, for an event or idea, to reach for a specific word: "bizarre," "unprecedented," "extremist."
+"Crazy" is rejected across the corpus, most pointedly as a casual metaphor and not only as a description of a person. All five sources reject it, and those that characterize it tie it directly to mental-illness stigma. NCDJ: the chapter's anchor: groups "crazy" with "loony," "mad," "psycho," "nuts," and "deranged" as former descriptions of people with mental illness that are now offensive; the Diversity Style Guide files it with "crazed," "lunatic," and "wacko" as language that reinforces stigma; APA's term-to-avoid table prescribes "person living with a mental illness"; and SumOfUs lists it among terms avoided or questioned by disability rights activists. What the sources point at is the writer's own throwaway usage. Sierra Club calls the pejorative "crazy"/"insane" the single most common form of unconscious ableism, instructing writers never to apply it to a person and, for an event or idea, to reach for a specific word: "bizarre," "unprecedented," "extremist."
 
 The shared exception is narrow. NCDJ and the Diversity Style Guide preserve "crazy" only inside a quote that is essential to the story, handled with care, never in the publication's own voice.
 
@@ -98,6 +98,6 @@ The guidance is stable from SumOfUs (2016) through the 2021–2023 guides, and u
 
 ## Audience notes
 
-- **Journalists and editors.** Don't use "crazy," "psycho," "nuts," or "deranged" in your own voice — quote-only, and only when the quote is essential. For events or ideas, name what you actually mean ("unprecedented," "reckless," "baffling").
-- **Advocates and internal comms.** This is a self-audit term. The common slip isn't labeling a person — it's "that's crazy" as filler. Catch it in your own copy.
+- **Journalists and editors.** Don't use "crazy," "psycho," "nuts," or "deranged" in your own voice: quote-only, and only when the quote is essential. For events or ideas, name what you actually mean ("unprecedented," "reckless," "baffling").
+- **Advocates and internal comms.** This is a self-audit term. The common slip isn't labeling a person: it's "that's crazy" as filler. Catch it in your own copy.
 - **Specificity helps.** "Crazy" is almost always a vague intensifier; the precise word is usually the stronger choice anyway.

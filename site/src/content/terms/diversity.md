@@ -20,7 +20,7 @@ guidance:
     derived_from: []
     quote: "There are many kinds of diversity, based on race, gender, gender identity/expression, sexual orientation, class, age, country of origin, education… Valuing diversity means recognizing differences among people, acknowledging that these differences are a valued asset, and striving for diverse representation as a critical step toward equity."
     quote_loc: "Glossary, \"diversity\" entry"
-    paraphrase: "The Diversity Style Guide defines diversity broadly — across race, gender, sexual orientation, class, age, ability and more — and frames valuing it as a step toward equity. Its companion \"diverse hire / diversity hire\" entry cautions that an individual should never be described as \"diverse.\""
+    paraphrase: "The Diversity Style Guide defines diversity broadly: across race, gender, sexual orientation, class, age, ability and more, and frames valuing it as a step toward equity. Its companion \"diverse hire / diversity hire\" entry cautions that an individual should never be described as \"diverse.\""
     confidence: "VERIFIED-ARCHIVED"
   - org: "Racial Equity Tools"
     org_slug: "racial-equity-tools"
@@ -44,7 +44,7 @@ guidance:
     derived_from: []
     quote: "Catchall term to describe a condition or environment that is multiracial and multicultural; being representative or reflective of the multiethnic society. Diversity is not synonymous with affirmative action, is not limited to race and is not government-mandated."
     quote_loc: "Glossary, \"diversity\" entry"
-    paraphrase: "NABJ holds the firmest accept-and-define stance on the page, and its three disclaimers read as pre-emptions of specific political misreadings — that diversity is a quota program, a race-only concern, or a federal mandate. The boundaries exist to keep the word usable against those charges."
+    paraphrase: "NABJ holds the firmest accept-and-define stance on the page, and its three disclaimers read as pre-emptions of specific political misreadings: that diversity is a quota program, a race-only concern, or a federal mandate. The boundaries exist to keep the word usable against those charges."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Annie E. Casey Foundation"
     org_slug: "aecf"
@@ -63,11 +63,11 @@ external_references: []
 methodological_context: []
 audience_notes:
   - audience: "Journalists and editors"
-    note: "NABJ and the Diversity Style Guide both supply working definitions, so the word is usable — but DSG's companion rule is firm that you describe a group or a pipeline as diverse, never an individual person (\"a diverse hire\" is out). Casey's guidance is to name the specific dimension (racial, linguistic, geographic) rather than letting \"diversity\" stand alone."
+    note: "NABJ and the Diversity Style Guide both supply working definitions, so the word is usable, but DSG's companion rule is firm that you describe a group or a pipeline as diverse, never an individual person (\"a diverse hire\" is out). Casey's guidance is to name the specific dimension (racial, linguistic, geographic) rather than letting \"diversity\" stand alone."
   - audience: "Advocates and internal comms"
-    note: "Racial Equity Tools and the Baltimore Racial Justice Action critique it cites are the caution to absorb — \"diversity\" can describe representation without committing to redistributing power or improving outcomes. Where you mean equity, say equity."
+    note: "Racial Equity Tools and the Baltimore Racial Justice Action critique it cites are the caution to absorb: \"diversity\" can describe representation without committing to redistributing power or improving outcomes. Where you mean equity, say equity."
   - audience: "Editorial style"
-    note: "Casey treats \"diversity\" as a vague-word flag, not a banned word. The practical move across sources is the same — keep it when you mean representation across difference, swap in a more precise word when you mean something narrower or stronger."
+    note: "Casey treats \"diversity\" as a vague-word flag, not a banned word. The practical move across sources is the same: keep it when you mean representation across difference, swap in a more precise word when you mean something narrower or stronger."
 last_reviewed: 2026-06-05
 created: 2026-06-05
 contributors:
@@ -78,7 +78,7 @@ contributors:
 
 The four guides split into two stances on a single word. NABJ and the Diversity Style Guide define and accept it: "diversity" is a valid catchall for a multiracial and multicultural environment. NABJ draws explicit limits (it is not affirmative action, not limited to race, not government-mandated), and DSG lists the many axes diversity can run along while framing it as a step toward equity. On this reading the term is usable and useful.
 
-The other two sources do not reject the word but push on its limits. The Annie E. Casey Foundation flags "diversity" as vague and overused and tells writers to be specific. Racial Equity Tools goes further, citing the Baltimore Racial Justice Action critique that "diversity is silent on the subject of equity — the issue is not diversity, but rather equity." The worry is that the word can let an institution look progressive, representation across difference, without committing to the redistribution of power or the change in outcomes that equity names.
+The other two sources do not reject the word but push on its limits. The Annie E. Casey Foundation flags "diversity" as vague and overused and tells writers to be specific. Racial Equity Tools goes further, citing the Baltimore Racial Justice Action critique that "diversity is silent on the subject of equity: the issue is not diversity, but rather equity." The worry is that the word can let an institution look progressive, representation across difference, without committing to the redistribution of power or the change in outcomes that equity names.
 
 The two stances run parallel rather than colliding. The 2013 Casey flag and the 2023 equity critique both qualify the word's acceptance, and the emphasis shifts over the window from diversity-as-representation toward equity-as-outcome. The practical guidance is consistent across all four: use "diversity" when you mean a range of difference, name the specific dimension when a narrower word is more accurate, describe groups and pipelines rather than individuals as diverse, and reach for "equity" when you mean an outcome rather than a mix.
 

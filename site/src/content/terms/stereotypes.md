@@ -32,7 +32,7 @@ guidance:
     recommendation: "avoid"
     derived_from: []
     quote: "\"Out of wedlock\" … is a dog-whistle that elicits racist \"welfare queen\" stereotypes. … \"Thug\" is used to elicit stereotypes of dangerous Black male criminality and to blame Black people for social unrest and violence. …"
-    quote_loc: "Language to avoid — \"Out of wedlock,\" \"Thug\""
+    quote_loc: "Language to avoid: \"Out of wedlock,\" \"Thug\""
     paraphrase: "Color of Change identifies specific coded terms as stereotype triggers: \"out of wedlock\" as a dog-whistle for the \"welfare queen\" stereotype, and \"thug\" as a term that elicits stereotypes of Black male criminality. The guidance is to avoid words whose function is to activate a racist stereotype."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Color of Change"
@@ -95,11 +95,11 @@ contributors:
 
 ## Synthesis
 
-**Unlike the structural-concept pages, "stereotypes" is mostly an action page — the word itself is fine; the guidance is a catalogue of specific patterns to avoid.** The Diversity Style Guide supplies the definition, tracing the term to Walter Lippmann's "picture in our heads." The other five sources are all prescriptions against concrete stereotype-reinforcing moves: Color of Change flags "out of wedlock" and "thug" as dog-whistles that elicit "welfare queen" and Black-criminality stereotypes, and warns against framing that perpetuates "anti-Black or misogynist stereotypes"; the Immigrant Defense Project names the "lone wolf" double standard that pathologizes white shooters while criminalizing others; Sierra Club flags the disability "inspiration" stereotype; GCJT cautions against reinforcing stereotypes of Indigenous people.
+**Unlike the structural-concept pages, "stereotypes" is mostly an action page: the word itself is fine; the guidance is a catalogue of specific patterns to avoid.** The Diversity Style Guide supplies the definition, tracing the term to Walter Lippmann's "picture in our heads." The other five sources are all prescriptions against concrete stereotype-reinforcing moves: Color of Change flags "out of wedlock" and "thug" as dog-whistles that elicit "welfare queen" and Black-criminality stereotypes, and warns against framing that perpetuates "anti-Black or misogynist stereotypes"; the Immigrant Defense Project names the "lone wolf" double standard that pathologizes white shooters while criminalizing others; Sierra Club flags the disability "inspiration" stereotype; GCJT cautions against reinforcing stereotypes of Indigenous people.
 
 The common instruction is to watch for the coded shorthand: the word, image, or frame that does the stereotyping without naming it. This is not a "say X, not Y" rule. Stereotypes usually travel in euphemism and selective framing, which is why this page sits next to [discrimination](/terms/discrimination/) and the coded-language entries elsewhere in the commons ([ghetto](/terms/ghetto/), [urban](/terms/urban/)). The sources agree almost entirely; they vary only in which group's stereotype each guide foregrounds.
 
 ## Audience notes
 
-- **Journalists and editors.** The danger is rarely an explicit slur — it's the loaded shorthand ("thug," "lone wolf," "inspiring") and selective framing. Apply the same scrutiny across every group.
+- **Journalists and editors.** The danger is rarely an explicit slur: it's the loaded shorthand ("thug," "lone wolf," "inspiring") and selective framing. Apply the same scrutiny across every group.
 - **Advocates and internal comms.** Name the specific stereotype you're resisting rather than the abstract category; it's more concrete and harder to wave off.

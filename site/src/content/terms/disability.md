@@ -41,7 +41,7 @@ guidance:
     derived_from: []
     quote: "While it is usually acceptable to use these terms, keep in mind that disability and people who have disabilities are not monolithic. Avoid referring to “the disabled” … When describing individuals, do not reference disabilities unless it is clearly pertinent to the story."
     quote_loc: "Disabled/disability entry, NCDJ Recommendation"
-    paraphrase: "NCDJ, the corpus's dedicated disability source, treats “disability” and “disabled” as generally acceptable while cautioning that the community is not monolithic. It advises against the collective “the disabled,” against referencing a disability unless pertinent, and — in its companion entry on disabled people vs. people with disabilities — defers to the individual's stated preference between identity-first and people-first language."
+    paraphrase: "NCDJ, the corpus's dedicated disability source, treats “disability” and “disabled” as generally acceptable while cautioning that the community is not monolithic. It advises against the collective “the disabled,” against referencing a disability unless pertinent, and: in its companion entry on disabled people vs. people with disabilities: defers to the individual's stated preference between identity-first and people-first language."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Sierra Club"
     org_slug: "sierra-club"
@@ -100,5 +100,5 @@ The chronology runs toward identity-first parity. SumOfUs (2016) and Sierra Club
 ## Audience notes
 
 - **Journalists and editors.** Don't mention a person's disability unless it's pertinent to the story, and avoid the collective "the disabled." When it is relevant, name the specific condition and ask the person (or an organizational spokesperson) whether they use identity-first or people-first language. Default to people-first only when a preference genuinely can't be determined.
-- **Advocates and internal comms.** Reject a purely medical framing of disability, and don't use disability or mental-health words metaphorically — especially as insults. SumOfUs's caution against narratives that villainize, sentimentalize, or heroize disabled people is the operative test for campaign storytelling.
-- **Self-identification governs.** Identity-first ("disabled person," "autistic," "blind") is the stated preference of many disability-led communities; people-first ("person with a disability") is many others'. Neither is universally correct — follow the person.
+- **Advocates and internal comms.** Reject a purely medical framing of disability, and don't use disability or mental-health words metaphorically: especially as insults. SumOfUs's caution against narratives that villainize, sentimentalize, or heroize disabled people is the operative test for campaign storytelling.
+- **Self-identification governs.** Identity-first ("disabled person," "autistic," "blind") is the stated preference of many disability-led communities; people-first ("person with a disability") is many others'. Neither is universally correct: follow the person.

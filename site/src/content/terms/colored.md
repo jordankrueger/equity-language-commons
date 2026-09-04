@@ -27,7 +27,7 @@ guidance:
     derived_from: []
     quote: "color, persons of, workers of Never: colored persons"
     quote_loc: "Alphabetical entry: color, persons of / workers of"
-    paraphrase: "SEIU's stylebook lists \"persons of color\" and \"workers of color\" as the forms to use and marks \"colored persons\" as a construction never to be used. It is a paired prescribe/reject entry — the preferred form lives on the people-of-color page; on this page the rejected form, \"colored persons,\" is the avoided one."
+    paraphrase: "SEIU's stylebook lists \"persons of color\" and \"workers of color\" as the forms to use and marks \"colored persons\" as a construction never to be used. It is a paired prescribe/reject entry: the preferred form lives on the people-of-color page; on this page the rejected form, \"colored persons,\" is the avoided one."
     confidence: "VERIFIED-ARCHIVED"
   - org: "NABJ"
     org_slug: "nabj"
@@ -39,7 +39,7 @@ guidance:
     derived_from: []
     quote: "colored: An archaic term for black. In some African countries, colored denotes those of mixed racial ancestry. Do not use unless referring to official names, historical events or in quotes."
     quote_loc: "Glossary entry: colored"
-    paraphrase: "NABJ is the upstream entry DSG reproduces almost verbatim, so the two share a definition. Its distinctive note is the South-Africa-era sense — in some African countries \"coloured\" denotes mixed ancestry, a separate racial category — which is exactly why NABJ carves out the exceptions for official names, historical events, and quotes rather than banning the word outright."
+    paraphrase: "NABJ is the upstream entry DSG reproduces almost verbatim, so the two share a definition. Its distinctive note is the South-Africa-era sense: in some African countries \"coloured\" denotes mixed ancestry, a separate racial category, which is exactly why NABJ carves out the exceptions for official names, historical events, and quotes rather than banning the word outright."
     confidence: "VERIFIED-ARCHIVED"
   - org: "American Psychological Association"
     org_slug: "apa"
@@ -63,14 +63,14 @@ guidance:
     derived_from: []
     quote: "An archaic term for Black. In some African countries, colored denotes those of mixed racial ancestry. Do not use unless referring to official names, historical events or in quotes."
     quote_loc: "Glossary entry: colored"
-    paraphrase: "The Diversity Style Guide gives a near-identical definition to NABJ's — \"colored\" as an archaic term for Black, used in some African countries for mixed racial ancestry — and directs writers away from it except in official names, historical references, or quotations. The DSG aggregates NABJ's glossary, so the two entries share a lineage."
+    paraphrase: "The Diversity Style Guide gives a near-identical definition to NABJ's: \"colored\" as an archaic term for Black, used in some African countries for mixed racial ancestry, and directs writers away from it except in official names, historical references, or quotations. The DSG aggregates NABJ's glossary, so the two entries share a lineage."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []
 methodological_context: []
 audience_notes:
   - audience: "Journalists and editors"
-    note: "Treat \"colored\" as a do-not-use descriptor for people. The three exceptions every guide names are narrow and concrete: official or proper names (the NAACP — National Association for the Advancement of Colored People), direct quotations, and historical references. Outside those, use \"Black\" — or, when the wider non-white group is meant, \"people of color.\""
+    note: "Treat \"colored\" as a do-not-use descriptor for people. The three exceptions every guide names are narrow and concrete: official or proper names (the NAACP: National Association for the Advancement of Colored People), direct quotations, and historical references. Outside those, use \"Black\": or, when the wider non-white group is meant, \"people of color.\""
   - audience: "Advocates and internal comms"
     note: "Do not let \"colored\" stand in for \"people of color.\" They describe an overlapping group but carry opposite valence: \"colored people\" is a label earlier usage imposed, while \"people of color\" is a self-chosen frame. Reaching for the historic noun undercuts the self-identification the newer term was built to assert."
   - audience: "International context"
@@ -83,7 +83,7 @@ contributors:
 
 ## Synthesis
 
-All four guides agree: as a descriptor of people, "colored" is a term to avoid, with one narrow carve-out. NABJ and the Diversity Style Guide share almost the same definition — an archaic term for Black, denoting mixed racial ancestry in some African countries — and the same rule: do not use it "unless referring to official names, historical events or in quotes." The DSG aggregates NABJ's glossary, so the wording overlaps by lineage rather than by coincidence. APA reaches the same conclusion by folding "colored" into its broader African American/Black entry and grouping it with "Negro" and "Afro-American" as terms to set aside in favor of "Black." SEIU treats it as a prescribe-and-reject pair: use "persons of color" or "workers of color," never "colored persons."
+All four guides agree: as a descriptor of people, "colored" is a term to avoid, with one narrow carve-out. NABJ and the Diversity Style Guide share almost the same definition: an archaic term for Black, denoting mixed racial ancestry in some African countries, and the same rule: do not use it "unless referring to official names, historical events or in quotes." The DSG aggregates NABJ's glossary, so the wording overlaps by lineage rather than by coincidence. APA reaches the same conclusion by folding "colored" into its broader African American/Black entry and grouping it with "Negro" and "Afro-American" as terms to set aside in favor of "Black." SEIU treats it as a prescribe-and-reject pair: use "persons of color" or "workers of color," never "colored persons."
 
 There is no real dissent across the corpus, on either the avoidance or the shape of the exception. The carve-out is consistent and small: proper names (the NAACP keeps "Colored" in its full name), direct quotations, and historical references. Outside of those, the guides point writers to "Black" for the racial group and, where the wider non-white population is meant, to "people of color."
 
@@ -91,4 +91,4 @@ The contrast that does the teaching is with that newer term. "Colored people" an
 
 ## History note
 
-"Colored" has a documented arc in U.S. usage, and the surviving proper names mark its stages. It carries forward in institutional names from an earlier era — the NAACP, founded in 1909, retains "Colored People" in its full title — which is why every guide preserves the official-name exception even as it directs writers away from the term in running prose. The cross-link to [people of color](/terms/people-of-color/) captures the later shift: racial-justice advocates adopted "people of color" as a self-chosen, unifying frame, deliberately distinct from the older noun. Separately, "Coloured" remains a recognized mixed-ancestry identity in parts of southern Africa, a usage NABJ and DSG both note and one governed by local self-identification rather than by this page's U.S.-focused guidance.
+"Colored" has a documented arc in U.S. usage, and the surviving proper names mark its stages. It carries forward in institutional names from an earlier era: the NAACP, founded in 1909, retains "Colored People" in its full title, which is why every guide preserves the official-name exception even as it directs writers away from the term in running prose. The cross-link to [people of color](/terms/people-of-color/) captures the later shift: racial-justice advocates adopted "people of color" as a self-chosen, unifying frame, deliberately distinct from the older noun. Separately, "Coloured" remains a recognized mixed-ancestry identity in parts of southern Africa, a usage NABJ and DSG both note and one governed by local self-identification rather than by this page's U.S.-focused guidance.

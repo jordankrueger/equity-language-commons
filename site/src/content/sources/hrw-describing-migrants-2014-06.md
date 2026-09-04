@@ -21,7 +21,7 @@ version_history:
 
 **Human Rights Watch (HRW)** is one of the world's largest international
 human-rights organizations. These guidelines (June 2014) set out how HRW
-itself describes people who cross borders without authorization — and why it
+itself describes people who cross borders without authorization, and why it
 rejects *illegal immigrant*, *illegal alien*, and *illegals*. The statement
 gives three reasons: the terms are dehumanizing, legally imprecise (unlawful
 presence is a civil, not criminal, matter in many countries including the

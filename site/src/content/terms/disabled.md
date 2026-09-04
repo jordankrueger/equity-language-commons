@@ -52,7 +52,7 @@ guidance:
     derived_from: []
     quote: "While it is usually acceptable to use these terms, keep in mind that disability and people who have disabilities are not monolithic. Avoid referring to \"the disabled\" … When describing individuals, do not reference disabilities unless it is clearly pertinent to the story."
     quote_loc: "Disabled/disability entry, NCDJ Recommendation"
-    paraphrase: "NCDJ — the chapter's anchor — calls \"disabled\" usually acceptable while cautioning against the collective \"the disabled\" and against referencing a disability unless pertinent. NCDJ no longer offers a people-first default: its companion entry notes \"disabled people\" is identity-first language widely embraced by U.S. and British disability activists and the Deaf and autistic communities, and directs writers to ask the person their preferred terminology."
+    paraphrase: "NCDJ: the chapter's anchor: calls \"disabled\" usually acceptable while cautioning against the collective \"the disabled\" and against referencing a disability unless pertinent. NCDJ no longer offers a people-first default: its companion entry notes \"disabled people\" is identity-first language widely embraced by U.S. and British disability activists and the Deaf and autistic communities, and directs writers to ask the person their preferred terminology."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []
@@ -73,4 +73,4 @@ Two points stay stable through the person-first/identity-first debate: avoid "th
 ## Audience notes
 
 - **Journalists and editors.** Ask how a person wants to be described. Avoid "the disabled"; both "disabled person" and "person with a disability" are acceptable depending on preference.
-- **Advocates and internal comms.** Don't enforce person-first as the only correct form — identity-first "disabled" is a claimed identity for many.
+- **Advocates and internal comms.** Don't enforce person-first as the only correct form: identity-first "disabled" is a claimed identity for many.

@@ -34,7 +34,7 @@ guidance:
     derived_from: []
     quote: "A social construct that divides people into smaller social groups based on characteristics such as shared sense of group membership, values, behavioral patterns, language, political and economic interests, history, and ancestral geographical base."
     quote_loc: "Glossary entry: Ethnicity"
-    paraphrase: "Racial Equity Tools, drawing on Adams, Bell, and Griffin's Teaching for Diversity and Social Justice, defines ethnicity as a social construct rooted in shared culture, language, history, and ancestry — the cleanest statement of the distinction the page turns on, where ethnicity describes a cultural grouping rather than a racialized category."
+    paraphrase: "Racial Equity Tools, drawing on Adams, Bell, and Griffin's Teaching for Diversity and Social Justice, defines ethnicity as a social construct rooted in shared culture, language, history, and ancestry: the cleanest statement of the distinction the page turns on, where ethnicity describes a cultural grouping rather than a racialized category."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Global Center for Journalism & Trauma"
     org_slug: "gcjt"
@@ -70,7 +70,7 @@ guidance:
     derived_from: []
     quote: "Familiarize yourself with the key terms and concepts of race and ethnicity, and how categories that describe these can intersect (\"white Argentine,\" \"a person of mixed Choctaw and African American descent,\" Latinos who identify as \"some other race\")."
     quote_loc: "p. 12, Preferred Terms for Racial Identity"
-    paraphrase: "Sierra Club asks communicators to learn how race and ethnicity categories intersect — illustrating with combinations like \"white Argentine\" — and, in the same section, to ask the person or group how they identify whenever possible."
+    paraphrase: "Sierra Club asks communicators to learn how race and ethnicity categories intersect: illustrating with combinations like \"white Argentine\": and, in the same section, to ask the person or group how they identify whenever possible."
     confidence: "VERIFIED-ARCHIVED"
   - org: "NABJ"
     org_slug: "nabj"
@@ -93,7 +93,7 @@ guidance:
     recommendation: "use-with-care"
     derived_from: []
     quote: "African American and Black are not always interchangeable; African American refers to the ethnicity, whereas Black is a racial group/category."
-    quote_loc: "Race, Ethnicity, and Culture chapter — African American/Black entry"
+    quote_loc: "Race, Ethnicity, and Culture chapter: African American/Black entry"
     paraphrase: "The American Psychological Association draws the race-versus-ethnicity line concretely: \"African American\" names an ethnicity, while \"Black\" names a racial category, so the two are not always interchangeable. It cautions against using \"African American\" as a worldwide umbrella that would obscure other national origins."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
@@ -101,7 +101,7 @@ external_references: []
 methodological_context: []
 audience_notes:
   - audience: "Journalists and editors"
-    note: "the dominant rule is restraint — name ethnicity only when it is relevant to the story, then ask the source how they identify and be as specific as possible (\"Honduran,\" not \"Latino\"; the person's own term, not \"minority\")."
+    note: "the dominant rule is restraint: name ethnicity only when it is relevant to the story, then ask the source how they identify and be as specific as possible (\"Honduran,\" not \"Latino\"; the person's own term, not \"minority\")."
   - audience: "Communicators working across race and ethnicity"
     note: "the two are not interchangeable. \"African American\" is an ethnicity; \"Black\" is a racial category. The same person may be described by both, but the words mean different things."
   - audience: "Anyone quoting older guides"

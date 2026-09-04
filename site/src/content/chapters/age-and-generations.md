@@ -2,18 +2,18 @@
 title: "Age & Generations"
 slug: "age-and-generations"
 order: 7
-lede: "Ageism, elderly, aging — how source guides handle the language of age and older adults. The chapter is small but consistent: name the structure (ageism) as the parallel to racism and sexism, default to 'older adults' over 'the elderly,' and treat aging as a lifelong process rather than a synonym for decline. The longest single treatment is the American Psychological Association's Age section."
+lede: "Ageism, elderly, aging: how source guides handle the language of age and older adults. The chapter is small but consistent: name the structure (ageism) as the parallel to racism and sexism, default to 'older adults' over 'the elderly,' and treat aging as a lifelong process rather than a synonym for decline. The longest single treatment is the American Psychological Association's Age section."
 cross_cutting_principles:
   - title: "Ageism is a structural concept, parallel to racism and sexism"
-    body: "Every source treats 'ageism' as standard, usable vocabulary rather than a word to soften. The parallel is built into the term's origin: GCJT and the Diversity Style Guide both trace it to Robert N. Butler's 1969 coinage, which defined ageism as discrimination against people for being old 'just as racism and sexism accomplish with skin color and gender.' Like classism and ableism, it names a system — prejudicial attitudes, discriminatory practices, and institutional policies — not merely individual rudeness."
+    body: "Every source treats 'ageism' as standard, usable vocabulary rather than a word to soften. The parallel is built into the term's origin: GCJT and the Diversity Style Guide both trace it to Robert N. Butler's 1969 coinage, which defined ageism as discrimination against people for being old 'just as racism and sexism accomplish with skin color and gender.' Like classism and ableism, it names a system: prejudicial attitudes, discriminatory practices, and institutional policies: not merely individual rudeness."
   - title: "Ageism runs in both directions"
     body: "The guides are explicit that age discrimination targets the young as well as the old. APA defines ageism as bias based on age 'regardless of whether the targeted individual or group is younger or older,' and Sierra Club names both poles: older people facing workplace discrimination and young people treated as less than full members of a community. SumOfUs frames it most broadly as a system that oppresses 'all people at all ages.'"
   - title: "Default to 'older adults'; handle 'elderly' with care"
     body: "The consensus preferred term for older people is 'older adults' or 'older people.' APA lists 'the elderly' on its term-to-avoid table because the blanket noun 'others' people into one undifferentiated category, and GCJT advises avoiding 'seniors' and 'elderly' for individuals altogether. The Diversity Style Guide and SumOfUs land softer, at use-with-care: 'elderly' is tolerable in generic phrases ('a home for the elderly') but not as a descriptor pinned to a named person."
   - title: "Self-identification governs, and 'Elder' can be an honorific"
-    body: "As across the commons, how a person wants to be described takes priority over a blanket rule — SumOfUs directs writers to ask, because one person may prefer 'senior' while another the same age prefers 'older adult.' One cross-cultural caution recurs: APA notes that capitalized 'Elder' is 'considered an honorific' in certain cultures, most notably Indigenous ones, where it is a title of standing rather than a euphemism for old. Don't flatten Elder-as-honorific into 'elderly.'"
+    body: "As across the commons, how a person wants to be described takes priority over a blanket rule: SumOfUs directs writers to ask, because one person may prefer 'senior' while another the same age prefers 'older adult.' One cross-cultural caution recurs: APA notes that capitalized 'Elder' is 'considered an honorific' in certain cultures, most notably Indigenous ones, where it is a title of standing rather than a euphemism for old. Don't flatten Elder-as-honorific into 'elderly.'"
   - title: "Aging is a process, not a label"
-    body: "The guides that treat 'aging' agree it is a neutral, lifelong process — the Diversity Style Guide calls it 'an ongoing, all-inclusive process rather than a label placed on older, frail adults,' and GCJT notes it 'begins at conception.' The rule is to keep 'aging' descriptive rather than letting it slide into a synonym for decline. Sierra Club adds an intersectional caution: aging is policed unevenly, with women facing harsher penalties for aging visibly."
+    body: "The guides that treat 'aging' agree it is a neutral, lifelong process: the Diversity Style Guide calls it 'an ongoing, all-inclusive process rather than a label placed on older, frail adults,' and GCJT notes it 'begins at conception.' The rule is to keep 'aging' descriptive rather than letting it slide into a synonym for decline. Sierra Club adds an intersectional caution: aging is policed unevenly, with women facing harsher penalties for aging visibly."
 term_slugs:
   - "ageism"
   - "elderly"
@@ -28,11 +28,11 @@ The chapter's organizing move is the same one that runs through class and disabi
 
 ## How sources position themselves
 
-- **American Psychological Association (APA, 2023)** — the chapter's anchor. Its second-edition Age section defines ageism and runs a "Term to Avoid / Suggested Alternative" table prescribing "older adults" over "the elderly," with the cross-cultural note that "Elder" is an honorific in some cultures.
-- **Diversity Style Guide (2023)** — peer-aggregator glossary entries for all three terms: the Butler three-element definition of ageism, the grammar-based rule for "elderly," and the "ongoing, all-inclusive process" definition of aging.
-- **Global Center for Journalism & Trauma (GCJT, 2021)** — the Butler-lineage ageism entry and the strongest "avoid 'seniors' and 'elderly'" guidance, framed for trauma-informed coverage.
-- **SumOfUs Progressive Style Guide (2016)** — the earliest source, built around an explicit anti-ageism framework; supplies the self-identification rule ("ask the preferred terminology").
-- **Sierra Club Equity Language Guide (2021)** — the "Ageism" section that names the bi-directional nature of age bias and the gendered penalty for visible aging.
+- **American Psychological Association (APA, 2023)**: the chapter's anchor. Its second-edition Age section defines ageism and runs a "Term to Avoid / Suggested Alternative" table prescribing "older adults" over "the elderly," with the cross-cultural note that "Elder" is an honorific in some cultures.
+- **Diversity Style Guide (2023)**: peer-aggregator glossary entries for all three terms: the Butler three-element definition of ageism, the grammar-based rule for "elderly," and the "ongoing, all-inclusive process" definition of aging.
+- **Global Center for Journalism & Trauma (GCJT, 2021)**: the Butler-lineage ageism entry and the strongest "avoid 'seniors' and 'elderly'" guidance, framed for trauma-informed coverage.
+- **SumOfUs Progressive Style Guide (2016)**: the earliest source, built around an explicit anti-ageism framework; supplies the self-identification rule ("ask the preferred terminology").
+- **Sierra Club Equity Language Guide (2021)**: the "Ageism" section that names the bi-directional nature of age bias and the gendered penalty for visible aging.
 
 ## Chronology
 

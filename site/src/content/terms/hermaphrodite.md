@@ -22,7 +22,7 @@ guidance:
     derived_from: []
     quote: "gender-bender … he-she … hermaphrodite … homosexual … it … lifestyle choice … mankind … non-straight"
     quote_loc: "\"Words to avoid\" list, gender and sexuality section"
-    paraphrase: "SumOfUs places \"hermaphrodite\" on its list of words to avoid, grouped with other terms — \"he-she,\" \"it,\" \"homosexual\" — that label people in ways the guide treats as dehumanizing or pathologizing."
+    paraphrase: "SumOfUs places \"hermaphrodite\" on its list of words to avoid, grouped with other terms: \"he-she,\" \"it,\" \"homosexual\": that label people in ways the guide treats as dehumanizing or pathologizing."
     confidence: "VERIFIED-ARCHIVED"
   - org: "DC Fiscal Policy Institute"
     org_slug: "dcfpi"
@@ -101,11 +101,11 @@ external_references: []
 methodological_context: []
 audience_notes:
   - audience: "Journalists and editors"
-    note: "Treat \"hermaphrodite\" as a term to avoid; use \"intersex\" instead (APA, DCFPI, NLGJA, MSC, DSG). NLGJA carries the lone exception: use it only if a specific person identifies with it, and then explain it is their preference. Don't conflate intersex with transgender — the sources flag this as a distinct error."
+    note: "Treat \"hermaphrodite\" as a term to avoid; use \"intersex\" instead (APA, DCFPI, NLGJA, MSC, DSG). NLGJA carries the lone exception: use it only if a specific person identifies with it, and then explain it is their preference. Don't conflate intersex with transgender: the sources flag this as a distinct error."
   - audience: "Intersex-serving organizations and advocates"
     note: "interACT, an intersex-led group, is the sharpest source: \"hermaphrodite\" is medically inaccurate and considered derogatory. Pair avoidance with letting people share their own stories rather than assuming or disclosing anyone's intersex status."
   - audience: "Campaign and advocacy communicators"
-    note: "Every corpus source lands on avoid — there is no progressive use case for the term as a label. Where a source/subject self-identifies with it, attribute and explain rather than adopting it editorially."
+    note: "Every corpus source lands on avoid: there is no progressive use case for the term as a label. Where a source/subject self-identifies with it, attribute and explain rather than adopting it editorially."
 last_reviewed: 2026-06-07
 created: 2026-06-07
 contributors:
@@ -116,7 +116,7 @@ contributors:
 
 The corpus is unanimous: every source treats **"hermaphrodite" as a term to
 avoid, with "intersex" as the replacement.** Seven guides reach the same
-recommendation — equity stylebooks (SumOfUs, DCFPI, Movement Strategy Center),
+recommendation: equity stylebooks (SumOfUs, DCFPI, Movement Strategy Center),
 a professional psychological association (APA), an identity-journalism
 reference (Diversity Style Guide), an LGBTQ+ journalists' stylebook (NLGJA),
 and an intersex-led advocacy organization (interACT). interACT, writing from

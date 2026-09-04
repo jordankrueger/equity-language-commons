@@ -49,8 +49,8 @@ guidance:
     local_archive: "source-guides/SEIU Stylebook Jan 2020.pdf"
     recommendation: "use"
     quote: "Latino [always capitalized], Latina [if we know the person is female]"
-    quote_loc: "p. 19 — A-to-Z word style"
-    paraphrase: "SEIU's compact entry: Latino is the default form and is always capitalized; Latina is used when the person's gender is known. Matches Sierra Club's masculine-default-for-mixed-groups convention. No mention of Latinx or Latine — the 2020 stylebook predates major institutional uptake of either gender-neutral form."
+    quote_loc: "p. 19: A-to-Z word style"
+    paraphrase: "SEIU's compact entry: Latino is the default form and is always capitalized; Latina is used when the person's gender is known. Matches Sierra Club's masculine-default-for-mixed-groups convention. No mention of Latinx or Latine: the 2020 stylebook predates major institutional uptake of either gender-neutral form."
     confidence: "VERIFIED-ARCHIVED"
 
   - org: "Annie E. Casey Foundation"
@@ -74,7 +74,7 @@ guidance:
     recommendation: "use"
     quote: "Latino is principally used west of the Mississippi, where it has displaced Chicano and Mexican American. In 2011, the Los Angeles Times amended its style guide to advise journalists to use Latino over Hispanic in virtually all circumstances 'in keeping with the practices and sensibilities of residents of our region.'"
     quote_loc: "Latina/Latino entry (lines 2196–2199 in archived markdown)"
-    paraphrase: "DSG provides the geographic anchor — Latino is principally Western U.S. and has displaced Chicano and Mexican American in many Western contexts. Cites the LA Times 2011 stylebook change as the institutional inflection point. Confirms the federal-policy 'ethnicity not race' construction (parallel to the Hispanic entry)."
+    paraphrase: "DSG provides the geographic anchor: Latino is principally Western U.S. and has displaced Chicano and Mexican American in many Western contexts. Cites the LA Times 2011 stylebook change as the institutional inflection point. Confirms the federal-policy 'ethnicity not race' construction (parallel to the Hispanic entry)."
     confidence: "VERIFIED"
 
   - org: "Racial Equity Tools"
@@ -86,24 +86,24 @@ guidance:
     recommendation: "evolving"
     quote: "Whether to use the terms African American or Black, Hispanic American, Latinx or Latino, Native American or American Indian, and Pacific Islander or Asian American depends on a variety of conditions, including your intended audiences' geographic location, age, generation, and, sometimes, political orientation."
     quote_loc: "Introductory framing note (lines 91–95 in archived markdown)"
-    paraphrase: "RET names Latino as one term in the audience-dependent cluster — the choice between Latino and Latinx (and by extension Latine) is driven by geography, age, generation, and political orientation. No house default."
+    paraphrase: "RET names Latino as one term in the audience-dependent cluster: the choice between Latino and Latinx (and by extension Latine) is driven by geography, age, generation, and political orientation. No house default."
     confidence: "VERIFIED"
 
 context_data:
   - label: "LA Times 2011 stylebook change"
     claim: "In 2011, the Los Angeles Times amended its style guide to advise journalists to use Latino over Hispanic in virtually all circumstances, citing 'the practices and sensibilities of residents of our region.'"
     url: "https://www.latimes.com/about/sm-la-times-style-and-usage-guide-20180227-story.html"
-    relevance: "The institutional anchor for the Western U.S. Latino-default convention. LA Times' 2011 decision pre-dated and shaped Sierra Club's later (2021) house default. DSG cites it as the documented decision point. Notable that this is a regional convention — it doesn't generalize to national or Eastern-U.S. usage."
+    relevance: "The institutional anchor for the Western U.S. Latino-default convention. LA Times' 2011 decision pre-dated and shaped Sierra Club's later (2021) house default. DSG cites it as the documented decision point. Notable that this is a regional convention: it doesn't generalize to national or Eastern-U.S. usage."
 
   - label: "Pew 2013 / 2019 preference data"
-    claim: "Among U.S. Hispanic/Latino adults expressing a preference between Hispanic and Latino, Hispanic is preferred 2:1 nationally. Regional variation is sharp — Texas 46% Hispanic vs. 8% Latino; the Western U.S. flips toward Latino."
+    claim: "Among U.S. Hispanic/Latino adults expressing a preference between Hispanic and Latino, Hispanic is preferred 2:1 nationally. Regional variation is sharp: Texas 46% Hispanic vs. 8% Latino; the Western U.S. flips toward Latino."
     url: "https://www.pewresearch.org/hispanic/2013/10/22/three-fourths-of-hispanics-say-their-community-needs-a-leader/"
     relevance: "Same data underpinning the Hispanic entry. Sierra Club's Latino default works for Western U.S. audiences and partner orgs; it works against the data for Eastern U.S., Caribbean, South American, and (especially) Texas-focused contexts."
 
   - label: "U.S. Census Bureau federal definition"
     claim: "Latino is defined federally as an ethnicity, not a race. Census surveys pair 'Hispanic or Latino?' separately from race; respondents identify as 'Hispanic or Latino' or 'non-Hispanic or Latino' independently of racial identification."
     url: "https://www.census.gov/topics/population/hispanic-origin/about.html"
-    relevance: "Latinos can be of any race — Black Latino, white Latino, Indigenous Latino, multiracial Latino are all standard self-identifications in Census data. Important when writing about demographic data; the umbrella does not specify race."
+    relevance: "Latinos can be of any race: Black Latino, white Latino, Indigenous Latino, multiracial Latino are all standard self-identifications in Census data. Important when writing about demographic data; the umbrella does not specify race."
 
 audience_notes:
   - audience: "Western U.S. / California / New Mexico / Arizona"
@@ -111,13 +111,13 @@ audience_notes:
   - audience: "Texas / Eastern U.S. / Caribbean / South American heritage"
     note: "Hispanic often preferred. Defaulting to Latino in these contexts mis-matches the regional preference data. See Hispanic for the data."
   - audience: "Gender-neutral collective"
-    note: "Latinos (masculine plural) traditionally functions as the mixed-group default in Spanish. Sierra Club codifies this explicitly for mixed-gender groups; SEIU and AECF use the masculine form as the base but don't spell out the mixed-group rule. In contemporary U.S. usage, Latinx (English-rooted) or Latine (Spanish-rooted) are increasingly preferred as gender-neutral collective forms — both avoid the masculine-default-for-mixed problem. The choice between traditional 'Latinos' and gender-neutral 'Latinx/Latine' is audience- and context-dependent."
+    note: "Latinos (masculine plural) traditionally functions as the mixed-group default in Spanish. Sierra Club codifies this explicitly for mixed-gender groups; SEIU and AECF use the masculine form as the base but don't spell out the mixed-group rule. In contemporary U.S. usage, Latinx (English-rooted) or Latine (Spanish-rooted) are increasingly preferred as gender-neutral collective forms: both avoid the masculine-default-for-mixed problem. The choice between traditional 'Latinos' and gender-neutral 'Latinx/Latine' is audience- and context-dependent."
   - audience: "Latina (feminine)"
-    note: "Use specifically for women and women-only groups — Sierra Club is explicit on both individual women and women-only groups; SEIU directs Latina when the person is known to be female. Latina is the right form for an individual woman who identifies as Latina; Latino is the right form for an individual man who identifies as Latino. Do not default to Latina for unknown-gender individuals."
+    note: "Use specifically for women and women-only groups: Sierra Club is explicit on both individual women and women-only groups; SEIU directs Latina when the person is known to be female. Latina is the right form for an individual woman who identifies as Latina; Latino is the right form for an individual man who identifies as Latino. Do not default to Latina for unknown-gender individuals."
   - audience: "Capitalization"
     note: "Always capitalized. Latino, Latina, Latinos, Latinas all capitalized whether at start of sentence or mid-sentence. Every guide that addresses it agrees."
   - audience: "Chicano / Chicana / Chicanx"
-    note: "Subset identity for Mexican-American experience, particularly in California, Texas, and the Southwest. See Chicanx. DSG flags that Latino has 'displaced Chicano and Mexican American' in Western U.S. contexts — true at the institutional default level, but Chicano remains a politicized self-identification many embrace."
+    note: "Subset identity for Mexican-American experience, particularly in California, Texas, and the Southwest. See Chicanx. DSG flags that Latino has 'displaced Chicano and Mexican American' in Western U.S. contexts: true at the institutional default level, but Chicano remains a politicized self-identification many embrace."
 
 last_reviewed: 2026-05-16
 created: 2026-05-16
@@ -129,17 +129,17 @@ contributors:
 
 Latino is the **Western U.S. default** that the major progressive guides treat as house-acceptable. It doesn't fully overlap with Hispanic; Latinx and Latine provide gender-neutral alternatives to it; and its Spanish-grammar masculine default is the part most actively contested.
 
-**The Latino vs. Hispanic call is regional, not national.** The 2011 LA Times decision is the documented institutional anchor for the Western U.S. Latino-default; Sierra Club's 2021 adoption follows the same reasoning. Both reflect the dominant regional convention in California, New Mexico, Arizona, and the broader Western U.S., where Latino has displaced Chicano and Mexican American in many institutional contexts. The same default does not generalize. Texas-focused content, Eastern U.S. content, and Caribbean / South American heritage content all skew toward Hispanic preference per [Pew](/sources/pew-research-center/). Choosing Latino over Hispanic is a regional editorial choice — defensible on its own terms, problematic when applied beyond the region the rule was built for.
+**The Latino vs. Hispanic call is regional, not national.** The 2011 LA Times decision is the documented institutional anchor for the Western U.S. Latino-default; Sierra Club's 2021 adoption follows the same reasoning. Both reflect the dominant regional convention in California, New Mexico, Arizona, and the broader Western U.S., where Latino has displaced Chicano and Mexican American in many institutional contexts. The same default does not generalize. Texas-focused content, Eastern U.S. content, and Caribbean / South American heritage content all skew toward Hispanic preference per [Pew](/sources/pew-research-center/). Choosing Latino over Hispanic is a regional editorial choice: defensible on its own terms, problematic when applied beyond the region the rule was built for.
 
-**The gendered-default question is where the term is most actively contested.** Spanish-grammar convention defaults the masculine plural ('Latinos') as the mixed-group form. Sierra Club codifies this explicitly (Latino "can also be used to describe a group of people of mixed genders"); SEIU and AECF use the masculine "Latino" as the base form but address the gendered question more narrowly (SEIU: "Latina if we know the person is female"; AECF lists Latino as an approved noun). The gender-neutral alternatives — Latinx in English-language contexts, Latine in Spanish-language contexts — both displace this default and are gaining ground. None of the 2020-or-earlier guides in the corpus engage Latine; among the corpus, Sierra Club 2021, DSG, and RET engage Latinx substantively while SEIU and Casey predate its uptake. The cluster is in active institutional motion.
+**The gendered-default question is where the term is most actively contested.** Spanish-grammar convention defaults the masculine plural ('Latinos') as the mixed-group form. Sierra Club codifies this explicitly (Latino "can also be used to describe a group of people of mixed genders"); SEIU and AECF use the masculine "Latino" as the base form but address the gendered question more narrowly (SEIU: "Latina if we know the person is female"; AECF lists Latino as an approved noun). The gender-neutral alternatives: Latinx in English-language contexts, Latine in Spanish-language contexts: both displace this default and are gaining ground. None of the 2020-or-earlier guides in the corpus engage Latine; among the corpus, Sierra Club 2021, DSG, and RET engage Latinx substantively while SEIU and Casey predate its uptake. The cluster is in active institutional motion.
 
-**The federal-data construction matters.** Census and federal demographic surveys define Latino as an ethnicity, not a race — Latino respondents identify as Latino independently of their racial identification (Black Latino, white Latino, Indigenous Latino, multiracial Latino are all standard). Writing that conflates Latino with a racial category misreads what the underlying data measures. This is identical to the Hispanic federal construction (the Census frame is 'Hispanic or Latino' as a single ethnicity question).
+**The federal-data construction matters.** Census and federal demographic surveys define Latino as an ethnicity, not a race: Latino respondents identify as Latino independently of their racial identification (Black Latino, white Latino, Indigenous Latino, multiracial Latino are all standard). Writing that conflates Latino with a racial category misreads what the underlying data measures. This is identical to the Hispanic federal construction (the Census frame is 'Hispanic or Latino' as a single ethnicity question).
 
 **Latina is the feminine form, used specifically for women and women-only groups** (Sierra Club explicit on individual women and women-only groups; SEIU directs Latina when the person is known to be female; DSG by usage). Not interchangeable with Latino for an individual woman; do not default Latino to mean Latina absent information.
 
-**Capitalization is settled** — Latino, Latina, Latinos, Latinas all always capitalized across every guide.
+**Capitalization is settled**: Latino, Latina, Latinos, Latinas all always capitalized across every guide.
 
-For the broader cross-cluster picture (Latinx, Latine, Hispanic, Chicanx), see the individual entries — each carries the parts of the debate that are specific to it.
+For the broader cross-cluster picture (Latinx, Latine, Hispanic, Chicanx), see the individual entries: each carries the parts of the debate that are specific to it.
 
 
 ## History note

@@ -55,11 +55,11 @@ external_references: []
 methodological_context: []
 audience_notes:
   - audience: "Journalists and editors"
-    note: "\"Nation of Islam\" is a proper noun — capitalize all three words on every reference. Spell out the full organization name in news copy rather than the community shorthand \"the Nation\" (NABJ). Refer to adherents as \"members of the Nation of Islam,\" and capitalize the clergy title \"minister\" before a name on first reference (Religion Stylebook)."
-  - audience: "All communicators — the conflation trap"
+    note: "\"Nation of Islam\" is a proper noun: capitalize all three words on every reference. Spell out the full organization name in news copy rather than the community shorthand \"the Nation\" (NABJ). Refer to adherents as \"members of the Nation of Islam,\" and capitalize the clergy title \"minister\" before a name on first reference (Religion Stylebook)."
+  - audience: "All communicators: the conflation trap"
     note: "Never treat the Nation of Islam as interchangeable with Islam or with Muslims generally. All three sources stress its tenets differ markedly from traditional/orthodox Islam (NABJ, Diversity Style Guide, Religion Stylebook). \"Black Muslim\" is now considered derogatory and should be avoided, and should never be used to describe African-Americans who practice traditional Islam."
   - audience: "Writers covering history or named figures"
-    note: "The organization's leadership history involves easy-to-confuse names and spellings — Wallace Fard Muhammad (founder), Elijah Muhammad, his son W. Deen Mohammed (note the spelling change), and Louis Farrakhan. Verify the spelling against the named individual rather than assuming a house style applies."
+    note: "The organization's leadership history involves easy-to-confuse names and spellings: Wallace Fard Muhammad (founder), Elijah Muhammad, his son W. Deen Mohammed (note the spelling change), and Louis Farrakhan. Verify the spelling against the named individual rather than assuming a house style applies."
 last_reviewed: 2026-06-07
 created: 2026-06-07
 contributors:
@@ -71,8 +71,8 @@ contributors:
 All three sources agree on the core editorial point: **"Nation of Islam" is a
 proper-noun organization name, not a description of a faith.** Each guide
 treats it as a specific American religious and political movement founded in
-1930s Detroit — by Wallace Fard Muhammad (the Diversity Style Guide and
-Religion Stylebook) or "Wallace D. Fard, a salesman" (NABJ) — and each draws
+1930s Detroit: by Wallace Fard Muhammad (the Diversity Style Guide and
+Religion Stylebook) or "Wallace D. Fard, a salesman" (NABJ), and each draws
 the same hard line that its tenets differ markedly from those of traditional,
 orthodox Islam. The practical consensus is to capitalize all three words on
 every reference, refer to adherents as "members of the Nation of Islam," and
@@ -83,7 +83,7 @@ Religion Stylebook state the term became associated with the organization but
 is now considered derogatory and should be avoided, and that it should never be
 applied to African-Americans who practice traditional Islam. From there the
 guides differ in operational depth. The Religion Stylebook is the most
-hands-on — it adds the clergy-title rule (capitalize "minister" before a name
+hands-on: it adds the clergy-title rule (capitalize "minister" before a name
 on first reference, last name only after). NABJ adds a usage note for
 newsrooms: the organization is "commonly known in the black community as simply
 The Nation," but writers should use the full organization name in news copy.
@@ -94,7 +94,7 @@ its definitional text follows the Religion Stylebook's entry, so those two read
 nearly word-for-word the same; the independent reading here comes from NABJ,
 whose Black-press framing emphasizes Black Nationalism, the Fruit of Islam, and
 the organization's own newspaper, *The Final Call*. The leadership history all
-three reference — Fard, Elijah Muhammad, W. Deen Mohammed, Louis Farrakhan —
+three reference: Fard, Elijah Muhammad, W. Deen Mohammed, Louis Farrakhan :
 carries the recurring spelling and naming pitfalls that make individual-name
 verification, rather than blanket house style, the safer practice.
 

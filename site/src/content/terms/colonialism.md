@@ -31,7 +31,7 @@ guidance:
     derived_from: []
     quote: "Colonization can be defined as some form of invasion, dispossession, and subjugation of a people. … The colonizer/colonized relationship is by nature an unequal one that benefits the colonizer at the expense of the colonized."
     quote_loc: "Glossary: Colonization"
-    paraphrase: "Racial Equity Tools defines colonization as the invasion, dispossession, and subjugation of a people — not necessarily military, often beginning as geographic or economic encroachment and producing institutionalized inequality. It links \"ongoing and legacy colonialism\" to present-day power relations and to the development of white supremacy as a justifying philosophy."
+    paraphrase: "Racial Equity Tools defines colonization as the invasion, dispossession, and subjugation of a people: not necessarily military, often beginning as geographic or economic encroachment and producing institutionalized inequality. It links \"ongoing and legacy colonialism\" to present-day power relations and to the development of white supremacy as a justifying philosophy."
     confidence: "VERIFIED-ARCHIVED"
   - org: "American Psychological Association"
     org_slug: "apa"
@@ -69,11 +69,11 @@ contributors:
 
 ## Synthesis
 
-"Colonialism" (and "colonization") is usable structural vocabulary, defined as invasion, dispossession, and subjugation — and as an ongoing relationship, not only a historical era. Racial Equity Tools defines colonization as "some form of invasion, dispossession, and subjugation of a people," with a "colonizer/colonized relationship... by nature an unequal one that benefits the colonizer at the expense of" the colonized. APA gives the Indigenous-specific mechanism: colonization "requires the dehumanization of peoples who are Indigenous to an area so that their land is stolen, their culture is erased," and it names settler-colonialism. The Diversity Style Guide adds a historical reference frame.
+"Colonialism" (and "colonization") is usable structural vocabulary, defined as invasion, dispossession, and subjugation, and as an ongoing relationship, not only a historical era. Racial Equity Tools defines colonization as "some form of invasion, dispossession, and subjugation of a people," with a "colonizer/colonized relationship... by nature an unequal one that benefits the colonizer at the expense of" the colonized. APA gives the Indigenous-specific mechanism: colonization "requires the dehumanization of peoples who are Indigenous to an area so that their land is stolen, their culture is erased," and it names settler-colonialism. The Diversity Style Guide adds a historical reference frame.
 
 Racial Equity Tools and APA treat colonialism as a present-tense structure with living consequences, which is why it cross-links to the [Indigenous](/terms/indigenous/) chapter and to the other structural concepts ([systemic racism](/terms/systemic-racism/), [classism](/terms/classism/)). The Diversity Style Guide instead frames colonialism as a historical period: the European Age of Exploration from the 16th century through mid-20th-century decolonization. It supplies chronology, not a present-tense reading.
 
 ## Audience notes
 
-- **Journalists and editors.** "Colonialism" and "settler-colonialism" are precise terms — use them for the structure, and be specific about who dispossessed whom rather than a passive "colonization happened."
+- **Journalists and editors.** "Colonialism" and "settler-colonialism" are precise terms: use them for the structure, and be specific about who dispossessed whom rather than a passive "colonization happened."
 - **Advocates and internal comms.** Racial Equity Tools and APA frame colonialism in the present tense: name continuing dispossession and land/culture impacts, not just 16th-century history. (The Diversity Style Guide, by contrast, treats it as a historical period.)

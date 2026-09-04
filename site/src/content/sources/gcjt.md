@@ -16,11 +16,11 @@ added: 2026-05-17
 
 ## About
 
-The **Global Center for Journalism & Trauma (GCJT)** carries forward the work of the former Dart Center for Journalism and Trauma, a long-running resource center for journalists covering violence, conflict, and tragedy. (The Dart Center, latterly a project of Columbia Journalism School, was sunset in 2025; GCJT, an independent nonprofit, adopted its mission.) Its *GCJT Style Guide for Trauma-Informed Journalism* — originally compiled in 2020–2021 as the Dart Center Style Guide — is "a living document," organized thematically with guidance on covering trauma, sexual and gender-based violence, identity, and community and social issues.
+The **Global Center for Journalism & Trauma (GCJT)** carries forward the work of the former Dart Center for Journalism and Trauma, a long-running resource center for journalists covering violence, conflict, and tragedy. (The Dart Center, latterly a project of Columbia Journalism School, was sunset in 2025; GCJT, an independent nonprofit, adopted its mission.) Its *GCJT Style Guide for Trauma-Informed Journalism*: originally compiled in 2020–2021 as the Dart Center Style Guide: is "a living document," organized thematically with guidance on covering trauma, sexual and gender-based violence, identity, and community and social issues.
 
 In the commons it is a source for trauma- and violence-related framing terms, including the survivor/victim distinction.
 
-*Data note: this page's organization name (previously "Global Consortium for Journalism & Trauma") and work title (previously "Gender-Capable Journalism Toolkit") were corrected to match the guide's own masthead and title page — "Global Center for Journalism & Trauma" and "GCJT Style Guide for Trauma-Informed Journalism."*
+*Data note: this page's organization name (previously "Global Consortium for Journalism & Trauma") and work title (previously "Gender-Capable Journalism Toolkit") were corrected to match the guide's own masthead and title page: "Global Center for Journalism & Trauma" and "GCJT Style Guide for Trauma-Informed Journalism."*
 
 ## Access
 

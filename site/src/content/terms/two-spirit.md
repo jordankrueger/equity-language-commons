@@ -29,7 +29,7 @@ guidance:
     derived_from: []
     quote: "Two-Spirit is an umbrella pan-Native American term. It describes gender identity, gender expression, and/or sexual orientation. … keep in mind that Two-Spirit is not for non-Native people. You can't appropriate our culture because our identities as Two-Spirits on Turtle Island have always been."
     quote_loc: "Glossary entry: Two Spirit"
-    paraphrase: "RET presents Two-Spirit as a pan-Native American umbrella term spanning gender identity, expression, and sexual orientation, coined in 1990 in Winnipeg but rooted in identities that predate LGBTQ terminology. The entry is explicit that Two-Spirit is not available to non-Native people — applying it to oneself outside Native community is cultural appropriation."
+    paraphrase: "RET presents Two-Spirit as a pan-Native American umbrella term spanning gender identity, expression, and sexual orientation, coined in 1990 in Winnipeg but rooted in identities that predate LGBTQ terminology. The entry is explicit that Two-Spirit is not available to non-Native people: applying it to oneself outside Native community is cultural appropriation."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Trans Journalists Association"
     org_slug: "tja"
@@ -53,7 +53,7 @@ guidance:
     derived_from: []
     quote: "An Indigenous person in North America believed to possess a mixture of masculine and feminine spirits. … Its use and meaning can vary by tribe and individual. Use only in broad references or if an individual uses it. … Do not use the adjective two-spirited, which can carry disrespectful connotations."
     quote_loc: "Glossary entry: two-spirit (Gender, Gender Identity section)"
-    paraphrase: "NLGJA defines two-spirit as an Indigenous North American identity that is not directly synonymous with any community under the LGBTQ+ umbrella, though two-spirits may also consider themselves LGBTQ+. Its rule mirrors the corpus: use only in broad references or when an individual uses it — and never the adjective 'two-spirited.' NLGJA styles the term lowercase and hyphenated, diverging from other sources' capitalization."
+    paraphrase: "NLGJA defines two-spirit as an Indigenous North American identity that is not directly synonymous with any community under the LGBTQ+ umbrella, though two-spirits may also consider themselves LGBTQ+. Its rule mirrors the corpus: use only in broad references or when an individual uses it, and never the adjective 'two-spirited.' NLGJA styles the term lowercase and hyphenated, diverging from other sources' capitalization."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []
@@ -67,7 +67,7 @@ contributors:
 
 ## Synthesis
 
-**A Native-only identity term — every source agrees the boundary is who can use it, not whether it's valid.** Two-Spirit is a pan-Native umbrella term spanning gender identity, gender expression, and sexual orientation, [adopted at a 1990 gathering in Winnipeg](https://en.wikipedia.org/wiki/Two-spirit) — the culmination of a series of inter-tribal conferences — as an English-language container for identities that long predate LGBTQ terminology in many tribal traditions. All three sources state the same two rules. First, the term belongs to Native people: Racial Equity Tools states flatly that "Two-Spirit is not for non-Native people" and names non-Native use as cultural appropriation. Second, its meaning is not uniform — it varies by tribe, nation, and individual, so the Trans Journalists Association tells writers to ask a self-identified Two-Spirit person how they define it and to include their specific tribal or national identity.
+**A Native-only identity term: every source agrees the boundary is who can use it, not whether it's valid.** Two-Spirit is a pan-Native umbrella term spanning gender identity, gender expression, and sexual orientation, [adopted at a 1990 gathering in Winnipeg](https://en.wikipedia.org/wiki/Two-spirit): the culmination of a series of inter-tribal conferences: as an English-language container for identities that long predate LGBTQ terminology in many tribal traditions. All three sources state the same two rules. First, the term belongs to Native people: Racial Equity Tools states flatly that "Two-Spirit is not for non-Native people" and names non-Native use as cultural appropriation. Second, its meaning is not uniform: it varies by tribe, nation, and individual, so the Trans Journalists Association tells writers to ask a self-identified Two-Spirit person how they define it and to include their specific tribal or national identity.
 
 The term is also not a synonym for gay, transgender, or any single community under the LGBTQ+ umbrella. NLGJA is explicit that two-spirit is "not directly synonymous" with those communities, even though Two-Spirit people may also identify as LGBTQ+. The acronym extensions that include it (LGBTQIA2S+) treat it as its own category, not a regional flavor of an existing one.
 
@@ -75,5 +75,5 @@ The sources diverge on styling. TJA says always capitalized; Racial Equity Tools
 
 ## Audience notes
 
-- **Non-Native writers and organizations.** Use the term only to describe people who use it themselves — never as a general synonym for LGBTQ+ Native people, and never for non-Native people. When in doubt, name the person's own identity language.
+- **Non-Native writers and organizations.** Use the term only to describe people who use it themselves: never as a general synonym for LGBTQ+ Native people, and never for non-Native people. When in doubt, name the person's own identity language.
 - **Journalists and editors.** Ask the individual what Two-Spirit means to them and identify their tribe or nation. Style: capitalize (majority of this corpus) or follow your house guide; avoid "two-spirited" in all styles.

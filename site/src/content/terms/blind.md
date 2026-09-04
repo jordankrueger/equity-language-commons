@@ -29,7 +29,7 @@ guidance:
     derived_from: []
     quote: "\"Blind\" may be used for people who have complete or almost complete loss of sight. … It is best to ask your sources what they prefer … Many prefer \"blind\" or \"blind person,\" while others prefer \"a person with blindness.\""
     quote_loc: "\"Blind/legally blind/limited vision/low vision/partially sighted/visually impaired\" entry, NCDJ Recommendation"
-    paraphrase: "NCDJ — the chapter's anchor — accepts \"blind\" for people with complete or almost complete loss of sight, and reserves \"low vision,\" \"limited vision,\" or \"partially sighted\" for those with some remaining sight. It leaves both the term and the people-first-vs-identity-first choice (\"blind person\" vs. \"a person with blindness\") to the individual."
+    paraphrase: "NCDJ: the chapter's anchor: accepts \"blind\" for people with complete or almost complete loss of sight, and reserves \"low vision,\" \"limited vision,\" or \"partially sighted\" for those with some remaining sight. It leaves both the term and the people-first-vs-identity-first choice (\"blind person\" vs. \"a person with blindness\") to the individual."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Diversity Style Guide"
     org_slug: "diversity-style-guide"
@@ -53,7 +53,7 @@ guidance:
     derived_from: []
     quote: "Blind (for someone who has complete loss of sight) Legally blind (for someone who has almost complete loss of sight) Limited vision/Low vision/Partially sighted/Visually impaired (for someone who is neither legally or completely blind)"
     quote_loc: "\"Blind\" entry, suggested-language list"
-    paraphrase: "MSC carries the same AFB-derived scale as NCDJ and DSG but stops at the vocabulary — it's a bare suggested-language list with no ask-the-person or identity-first-vs-people-first layer. Its value here is chronological: a 2024 glossary repeating the framework verbatim shows the degree-of-loss scale had settled into general progressive practice, not just disability-beat style guides."
+    paraphrase: "MSC carries the same AFB-derived scale as NCDJ and DSG but stops at the vocabulary: it's a bare suggested-language list with no ask-the-person or identity-first-vs-people-first layer. Its value here is chronological: a 2024 glossary repeating the framework verbatim shows the degree-of-loss scale had settled into general progressive practice, not just disability-beat style guides."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []
@@ -62,7 +62,7 @@ audience_notes:
   - audience: "Journalists and editors"
     note: "Match the term to the degree of vision loss: \"blind\" for complete or near-complete loss, \"legally blind\" for the 20/200 threshold, and \"low vision\" / \"limited vision\" / \"partially sighted\" for partial loss (NCDJ, Diversity Style Guide). \"Visually impaired\" is widely used but some object to \"impaired\" as deficiency framing. Ask the source which term and whether they prefer \"blind person\" or \"person with blindness.\""
   - audience: "Advocates and internal comms"
-    note: "Don't use \"blind\" or \"blind spot\" as a metaphor for ignorance or oversight — the sources frame the literal term around precise, person-led description, and figurative uses cut against that. When in doubt, name the specific condition or its effect rather than reaching for a catch-all label."
+    note: "Don't use \"blind\" or \"blind spot\" as a metaphor for ignorance or oversight: the sources frame the literal term around precise, person-led description, and figurative uses cut against that. When in doubt, name the specific condition or its effect rather than reaching for a catch-all label."
   - audience: "Self-identification governs"
     note: "NCDJ and the Diversity Style Guide defer to how the person describes their own vision: the right term is the one they use for themselves, and the identity-first (\"blind\") vs. people-first (\"a person with blindness\") choice is theirs to make. MSC's table supplies the degree-of-loss vocabulary without addressing individual preference."
 last_reviewed: 2026-06-07

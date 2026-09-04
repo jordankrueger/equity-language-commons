@@ -29,7 +29,7 @@ guidance:
     derived_from: []
     quote: "By definition, a person is never illegal; an “illegal immigrant” makes as much a sense as saying an “illegal accountant,” were they accused of tax fraud."
     quote_loc: "Immigration/Refugees, Writing Guidelines + Terms Avoided/Questioned by Immigrants Rights Activists"
-    paraphrase: "SumOfUs places 'illegal immigrant' (and 'an illegal') on its list of terms avoided or questioned by immigrant-rights activists, arguing that no person is illegal — calling someone an illegal immigrant makes as little sense as calling an accused accountant an 'illegal accountant.' It treats presuming innocence as a central principle."
+    paraphrase: "SumOfUs places 'illegal immigrant' (and 'an illegal') on its list of terms avoided or questioned by immigrant-rights activists, arguing that no person is illegal: calling someone an illegal immigrant makes as little sense as calling an accused accountant an 'illegal accountant.' It treats presuming innocence as a central principle."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Color of Change"
     org_slug: "color-of-change"
@@ -53,7 +53,7 @@ guidance:
     derived_from: []
     quote: "PROBLEMATIC TERM: “Illegal immigrant.” This term ignores the complexities of immigration status and has been widely rejected by news organizations over the last several years. ALTERNATIVES: Undocumented immigrant, Immigrant without current status."
     quote_loc: "Problematic Terms to Reconsider chart, p. 6"
-    paraphrase: "IDP's case is empirical rather than moral: the term flattens a genuinely complicated legal status, and newsrooms have already abandoned it — so its avoidance is treated as settled professional practice, not an open argument. That sets it apart from the \"no person is illegal\" reasoning the other sources lead with."
+    paraphrase: "IDP's case is empirical rather than moral: the term flattens a genuinely complicated legal status, and newsrooms have already abandoned it, so its avoidance is treated as settled professional practice, not an open argument. That sets it apart from the \"no person is illegal\" reasoning the other sources lead with."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Immigrant Defense Project"
     org_slug: "idp"
@@ -65,7 +65,7 @@ guidance:
     derived_from: []
     quote: "PROBLEMATIC TERM: “Illegal immigrant.” This term ignores the complexities of immigration status and has been widely rejected by news organizations over the last several years."
     quote_loc: "Problematic Terms to Reconsider chart, Comm/Unity Style Guide R4"
-    paraphrase: "The 2021 Comm/Unity revision keeps 'illegal immigrant' on its problematic-terms chart with the same reasoning as the 2020 guide and the same prescribed alternatives — undocumented immigrant or immigrant without current status."
+    paraphrase: "The 2021 Comm/Unity revision keeps 'illegal immigrant' on its problematic-terms chart with the same reasoning as the 2020 guide and the same prescribed alternatives: undocumented immigrant or immigrant without current status."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Sierra Club"
     org_slug: "sierra-club"

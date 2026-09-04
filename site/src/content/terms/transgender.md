@@ -56,7 +56,7 @@ guidance:
     recommendation: "use"
     quote: "transgender [not transgendered]"
     quote_loc: "T entries, alphabetical stylebook"
-    paraphrase: "SEIU's stylebook treats transgender as the standard form and explicitly rejects transgendered. The entry is brief — a one-line preferred/avoided pair consistent with SEIU's alphabetical reference-book format — and pairs with SEIU's LGBT acronym entry under L: lesbian, gay, bisexual and transgender [LGBT]."
+    paraphrase: "SEIU's stylebook treats transgender as the standard form and explicitly rejects transgendered. The entry is brief: a one-line preferred/avoided pair consistent with SEIU's alphabetical reference-book format, and pairs with SEIU's LGBT acronym entry under L: lesbian, gay, bisexual and transgender [LGBT]."
     confidence: "VERIFIED-ARCHIVED"
 
   - org: "Global Center for Journalism & Trauma"
@@ -68,7 +68,7 @@ guidance:
     recommendation: "use-with-care"
     quote: "Be careful not to out a source without their consent, and be conscious that some trans people may be out in certain areas of their lives and not others. … When writing about a trans person, don't describe them as 'identifying' with a specific gender. Just say 'is' instead."
     quote_loc: "Transgender, Trans entry"
-    paraphrase: "GCJT defines transgender as an umbrella term and pairs the definition with three trauma-informed practice rules: don't out a source, don't disclose deadnames without explicit consent, and don't use 'identifies as' framing — say 'is.' The entry defers to TJA's style guide for deeper terminology guidance."
+    paraphrase: "GCJT defines transgender as an umbrella term and pairs the definition with three trauma-informed practice rules: don't out a source, don't disclose deadnames without explicit consent, and don't use 'identifies as' framing: say 'is.' The entry defers to TJA's style guide for deeper terminology guidance."
     confidence: "VERIFIED-ARCHIVED"
 
   - org: "Sierra Club"
@@ -92,7 +92,7 @@ guidance:
     recommendation: "use-with-care"
     quote: "Refers to individuals whose gender identity and/or expression may not match their physical, sexual characteristics or sex assigned at birth. … Do not use transgendered. Offensive when used as a noun; use transgender people, transgender man or transgender woman."
     quote_loc: "Transgender entry"
-    paraphrase: "DSG treats transgender as an adjective only — never a noun — and operationalizes that with the constructions transgender people / transgender man / transgender woman. It directs writers to use the name and pronouns consistent with how the person lives publicly and to ask which term the source prefers. The guide accepts 'trans' as a shorthand adjective in tight spaces like headlines, points readers to NLGJA and GLAAD's deeper resources, and notes some intersex people and drag performers may also identify as transgender."
+    paraphrase: "DSG treats transgender as an adjective only: never a noun, and operationalizes that with the constructions transgender people / transgender man / transgender woman. It directs writers to use the name and pronouns consistent with how the person lives publicly and to ask which term the source prefers. The guide accepts 'trans' as a shorthand adjective in tight spaces like headlines, points readers to NLGJA and GLAAD's deeper resources, and notes some intersex people and drag performers may also identify as transgender."
     confidence: "VERIFIED-ARCHIVED"
 
   - org: "Human Rights Campaign"
@@ -104,7 +104,7 @@ guidance:
     recommendation: "use"
     quote: "An umbrella term for people whose gender identity and/or expression is different from cultural expectations based on the sex they were assigned at birth. Being transgender does not imply any specific sexual orientation …"
     quote_loc: "Glossary, Transgender entry (updated 5/31/2023)"
-    paraphrase: "HRC defines transgender as an umbrella term and draws the line between gender identity and sexual orientation explicitly: being transgender does not predict sexual orientation. The glossary's companion entry on transitioning (covering social, medical, and legal aspects) frames transition as something a transgender person 'may' undergo — not a requirement of the identity."
+    paraphrase: "HRC defines transgender as an umbrella term and draws the line between gender identity and sexual orientation explicitly: being transgender does not predict sexual orientation. The glossary's companion entry on transitioning (covering social, medical, and legal aspects) frames transition as something a transgender person 'may' undergo: not a requirement of the identity."
     confidence: "VERIFIED-ARCHIVED"
 
   - org: "Racial Equity Tools"
@@ -140,7 +140,7 @@ guidance:
     recommendation: "use"
     quote: "Someone whose gender is not exclusively the one they were assigned at birth. Used as an adjective, it is a neutral descriptive term, often abbreviated to trans. Do not use transgender as a noun."
     quote_loc: "Politicized or Inaccurate Phrases → transgender (adj.)"
-    paraphrase: "TJA's definition is the tightest in the corpus: transgender is an adjective, abbreviated to trans, and is never a noun. The accompanying TJA guidance rejects 'identifies as' framing in favor of 'is,' treats deadnaming as a separate enforceable rule, and centers self-identification as paramount — coverage should reflect the gender the source has stated, full stop."
+    paraphrase: "TJA's definition is the tightest in the corpus: transgender is an adjective, abbreviated to trans, and is never a noun. The accompanying TJA guidance rejects 'identifies as' framing in favor of 'is,' treats deadnaming as a separate enforceable rule, and centers self-identification as paramount: coverage should reflect the gender the source has stated, full stop."
     confidence: "VERIFIED-ARCHIVED"
 
 context_data: []
@@ -155,17 +155,17 @@ contributors:
 
 ## Synthesis
 
-The strongest cross-source consensus in this entry is grammatical: **transgender is an adjective, not a noun.** TJA states this most tightly — "Used as an adjective, it is a neutral descriptive term, often abbreviated to trans. Do not use transgender as a noun." DSG, NLGJA, and SumOfUs reach the same rule from different angles: write "transgender people," "transgender man," "transgender woman" — never "a transgender" or "transgenders." Every active LGBTQ+-led source in the corpus (TJA, NLGJA, HRC) plus the journalism aggregators (DSG) and progressive guides (Sierra Club, GCJT, SumOfUs) converge on this. The accompanying ban on "transgendered" is equally universal: TJA, NLGJA, DSG, SEIU, Sierra Club, SumOfUs all explicitly reject it. NLGJA's framing carries the reasoning: "transgendered … implies something must have happened to make a person transgender."
+The strongest cross-source consensus in this entry is grammatical: **transgender is an adjective, not a noun.** TJA states this most tightly: "Used as an adjective, it is a neutral descriptive term, often abbreviated to trans. Do not use transgender as a noun." DSG, NLGJA, and SumOfUs reach the same rule from different angles: write "transgender people," "transgender man," "transgender woman": never "a transgender" or "transgenders." Every active LGBTQ+-led source in the corpus (TJA, NLGJA, HRC) plus the journalism aggregators (DSG) and progressive guides (Sierra Club, GCJT, SumOfUs) converge on this. The accompanying ban on "transgendered" is equally universal: TJA, NLGJA, DSG, SEIU, Sierra Club, SumOfUs all explicitly reject it. NLGJA's framing carries the reasoning: "transgendered … implies something must have happened to make a person transgender."
 
 A second consensus, newer but settled across the post-2020 set, is that **transgender people should be referred to with the "is" construction, not "identifies as."** TJA and GCJT both call this out: write "she is a transgender woman," not "she identifies as a transgender woman." The "identifies as" framing implies the identity is a claim or a feeling rather than a fact. NLGJA, TJA, and SumOfUs treat the related deadnaming and gender-history rules as non-negotiable: do not publish a transgender person's prior name without explicit consent, and do not narrate their gender history retrospectively.
 
-Where the corpus diverges is on **relevance — when transgender identity should appear in coverage at all.** The two LGBTQ+-led journalism guides state the rule most sharply. NLGJA: "identify people as transgender only when relevant to the subject matter and if they are widely known or describe themselves as such. Otherwise, refer to trans men as men and trans women as women." TJA matches it: "Do not identify someone as transgender unless it provides necessary and relevant clarity or context." HRC and DSG carry the principle in softer form. The older guides (Sierra Club 2021, SumOfUs 2016) treat transgender as a default identifier when discussing LGBTQ+ identity, without the NLGJA/TJA-level relevance filter; the 2025–2026 LGBTQ+-led journalism guides have moved further toward the relevance rule. In the post-2020 set, the more recent the guide, the tighter the relevance filter.
+Where the corpus diverges is on **relevance: when transgender identity should appear in coverage at all.** The two LGBTQ+-led journalism guides state the rule most sharply. NLGJA: "identify people as transgender only when relevant to the subject matter and if they are widely known or describe themselves as such. Otherwise, refer to trans men as men and trans women as women." TJA matches it: "Do not identify someone as transgender unless it provides necessary and relevant clarity or context." HRC and DSG carry the principle in softer form. The older guides (Sierra Club 2021, SumOfUs 2016) treat transgender as a default identifier when discussing LGBTQ+ identity, without the NLGJA/TJA-level relevance filter; the 2025–2026 LGBTQ+-led journalism guides have moved further toward the relevance rule. In the post-2020 set, the more recent the guide, the tighter the relevance filter.
 
 HRC and RET add a definitional point: **being transgender does not predict sexual orientation.** Transgender people may identify as straight, gay, lesbian, bisexual, or any other orientation. Related terms like gay, lesbian, and bisexual sit on a different axis from transgender, and conflating gender identity with sexual orientation is one of the most common cross-axis errors in non-LGBTQ+ writing about LGBTQ+ communities. interACT extends the rule to intersex: intersex and transgender are distinct, even when an individual holds both identities.
 
 ## Audience notes
 
 - **Journalists and editors.** The NLGJA relevance rule is the operational standard for 2025+ news copy: identify a person as transgender only when it materially matters to the story and the person has publicly identified that way. Otherwise default to man/woman. "Trans man," "trans woman," and "transgender person" are the acceptable constructions when the identifier is needed; "trans" is acceptable shorthand in tight headlines per DSG and NLGJA.
-- **Trauma-informed and survivor coverage.** GCJT's three rules carry the most weight: don't out a source, don't disclose deadnames without explicit consent, and don't use "identifies as" framing — say "is." These apply even when the source is comfortable being identified as transgender on the record; the question is about which historical details are disclosed.
+- **Trauma-informed and survivor coverage.** GCJT's three rules carry the most weight: don't out a source, don't disclose deadnames without explicit consent, and don't use "identifies as" framing: say "is." These apply even when the source is comfortable being identified as transgender on the record; the question is about which historical details are disclosed.
 - **Internal-comms and movement writing.** If your audience is LGBTQ+-led organizations or movement publications, "trans" is increasingly the broader-inclusive form (RET notes it captures transmasc, transfem, transsexual identities the suffix-form doesn't). For external-facing copy, "transgender" remains the more universally understood term.
-- **Don't conflate gender identity with sexual orientation.** Being transgender does not predict whether someone is gay, straight, lesbian, or bisexual — they are separate axes. The most common cross-axis error in non-LGBTQ+ writing is treating transgender as a sexual orientation category.
+- **Don't conflate gender identity with sexual orientation.** Being transgender does not predict whether someone is gay, straight, lesbian, or bisexual: they are separate axes. The most common cross-axis error in non-LGBTQ+ writing is treating transgender as a sexual orientation category.

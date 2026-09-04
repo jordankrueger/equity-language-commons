@@ -93,7 +93,7 @@ audience_notes:
   - audience: "Journalists and editors"
     note: "Treat \"sex change\" as obsolete. NLGJA and the Diversity Style Guide both give it a dedicated avoid entry; NLGJA and TJA both warn against overemphasizing surgery at all. When surgery is relevant, name the specific procedure or use \"gender-affirming\"/\"gender-affirmation surgery\" rather than a blanket \"sex change operation.\""
   - audience: "Campaigners and advocacy communicators"
-    note: "The progressive-guide sources (DCFPI, MSC, SumOfUs) put \"sex change\" in avoid/instead tables and point to \"transition\" or \"gender affirmation.\" These describe a personal process, not a single surgical event — and not everyone who transitions has surgery, so framing transition around \"the operation\" misrepresents most people's experience."
+    note: "The progressive-guide sources (DCFPI, MSC, SumOfUs) put \"sex change\" in avoid/instead tables and point to \"transition\" or \"gender affirmation.\" These describe a personal process, not a single surgical event, and not everyone who transitions has surgery, so framing transition around \"the operation\" misrepresents most people's experience."
   - audience: "When a person uses the term themselves"
     note: "Self-identification governs. If a source describes their own experience as a \"sex change,\" that wording can stand in a direct quote (TJA explicitly carves this out); the guidance is about the writer's own voice, not about overriding how someone refers to themselves."
 last_reviewed: 2026-06-07
@@ -105,13 +105,13 @@ contributors:
 ## Synthesis
 
 The sources are unanimous: **"sex change" is a dated term to avoid.** All six
-corpus sources that have a real entry — DCFPI, the Movement Strategy Center,
+corpus sources that have a real entry: DCFPI, the Movement Strategy Center,
 NLGJA, the Trans Journalists Association, the Diversity Style Guide, and
-SumOfUs — place it in an avoid column or label it obsolete, antiquated, or
+SumOfUs: place it in an avoid column or label it obsolete, antiquated, or
 outdated. There is no dissent. The exceptions the sources name are narrow:
 TJA allows the term inside a reproduced direct quote, and DCFPI's broader
-self-identification rule — use the terms preferred by the people affected,
-when known — covers a subject who describes their own experience that way.
+self-identification rule: use the terms preferred by the people affected,
+when known: covers a subject who describes their own experience that way.
 
 The sources differ on what to use instead, and the difference follows the
 chronology of how the surrounding vocabulary settled. The 2016–2017

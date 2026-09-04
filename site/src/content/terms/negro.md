@@ -24,7 +24,7 @@ guidance:
     recommendation: "avoid"
     quote: "Negro"
     quote_loc: "Indigeneity/Ancestry section, 'Terms avoided/questioned by decolonization activists' table"
-    paraphrase: "SumOfUs lists 'Negro' in the avoided/questioned column of its decolonization-terminology table, alongside Mestizo, Pardo, and part-Indian — terms its Indigeneity/Ancestry section records as avoided or questioned by decolonization activists. The entry is a bare listing; SumOfUs offers no elaboration or historical-context exceptions for it."
+    paraphrase: "SumOfUs lists 'Negro' in the avoided/questioned column of its decolonization-terminology table, alongside Mestizo, Pardo, and part-Indian: terms its Indigeneity/Ancestry section records as avoided or questioned by decolonization activists. The entry is a bare listing; SumOfUs offers no elaboration or historical-context exceptions for it."
     confidence: "VERIFIED-ARCHIVED"
 
   - org: "American Psychological Association"
@@ -48,7 +48,7 @@ guidance:
     recommendation: "avoid"
     quote: "Use African American or black. Do not use to describe a person of African descent. Do not use Negress. … Term acceptable in organization names and historical references, for example, National Council of Negro Women or Negro National Anthem."
     quote_loc: "Negro glossary entry (lines 2629–2631 in archived markdown)"
-    paraphrase: "DSG directs writers to African American or black, and bars 'Negro' and 'Negress' as descriptors for living people — while preserving the term in proper organization names (National Council of Negro Women) and historical references (Negro National Anthem). The entry traces the term's arc from the standard 17th–19th-century usage of DuBois and Booker T. Washington to its decline after the 1960s Black Power movement."
+    paraphrase: "DSG directs writers to African American or black, and bars 'Negro' and 'Negress' as descriptors for living people, while preserving the term in proper organization names (National Council of Negro Women) and historical references (Negro National Anthem). The entry traces the term's arc from the standard 17th–19th-century usage of DuBois and Booker T. Washington to its decline after the 1960s Black Power movement."
     confidence: "VERIFIED"
 context_data: []
 external_references: []
@@ -62,11 +62,11 @@ contributors:
 
 ## Synthesis
 
-**Unanimous avoid as a descriptor for living people — with a carve-out every source that elaborates agrees on: proper names and historical references.** SumOfUs records "Negro" in the avoided/questioned column of its decolonization-terminology table, alongside other colonial-era ancestry labels. APA groups it with "colored" and "Afro-American" as terms whose use is "generally inappropriate." The Diversity Style Guide gives the operative instruction: use African American or Black instead, never "Negro" (or "Negress") to describe a person — while keeping the term intact where it is part of a proper name or a historical reference, such as the National Council of Negro Women, the Negro National Anthem, or the United Negro College Fund.
+**Unanimous avoid as a descriptor for living people, with a carve-out every source that elaborates agrees on: proper names and historical references.** SumOfUs records "Negro" in the avoided/questioned column of its decolonization-terminology table, alongside other colonial-era ancestry labels. APA groups it with "colored" and "Afro-American" as terms whose use is "generally inappropriate." The Diversity Style Guide gives the operative instruction: use African American or Black instead, never "Negro" (or "Negress") to describe a person, while keeping the term intact where it is part of a proper name or a historical reference, such as the National Council of Negro Women, the Negro National Anthem, or the United Negro College Fund.
 
-The term's arc is unusually well documented. It was the prevailing respectful term from the late 19th through the mid-20th century — the word of W.E.B. DuBois and Booker T. Washington, and of the civil-rights era's own institutions — before the Black Power movement of the late 1960s shifted preferred usage to "Black." That history is why the carve-out exists: organization names and primary-source quotations carry the term forward as a matter of record, not of current usage. Writers quoting King's speeches or naming historic institutions are using the record's language, which the guides distinguish from choosing the word today.
+The term's arc is unusually well documented. It was the prevailing respectful term from the late 19th through the mid-20th century: the word of W.E.B. DuBois and Booker T. Washington, and of the civil-rights era's own institutions: before the Black Power movement of the late 1960s shifted preferred usage to "Black." That history is why the carve-out exists: organization names and primary-source quotations carry the term forward as a matter of record, not of current usage. Writers quoting King's speeches or naming historic institutions are using the record's language, which the guides distinguish from choosing the word today.
 
 ## Audience notes
 
-- **Journalists and editors.** The replacement is Black or African American. Keep "Negro" only inside proper names, titles, and direct quotation — and when quoting, the historical context should be evident to the reader.
+- **Journalists and editors.** The replacement is Black or African American. Keep "Negro" only inside proper names, titles, and direct quotation, and when quoting, the historical context should be evident to the reader.
 - **Researchers and data workers.** Older datasets, court records, and the [U.S. Census (which carried the term as late as 2010)](/sources/us-census-bureau/) use it as a category label. Quote the label when fidelity to the source matters; don't carry it into your own prose.

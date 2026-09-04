@@ -40,7 +40,7 @@ guidance:
     derived_from: []
     quote: "“Felon;” “convict;” “ex-con;” “offender” … As health experts have noted, this carries a significant amount of stigma. These terms may paint an overly simplistic picture to readers. … Alternatives: Person with a felony conviction."
     quote_loc: "Problematic Terms to Reconsider chart, Comm/Unity Style Guide R4 (2021)"
-    paraphrase: "The Comm/Unity Style Guide — prepared by the Comm/Unity Network, anchored by IDP — carries the same combined entry, flagging \"felon\" as stigmatizing and preferring \"person with a felony conviction.\""
+    paraphrase: "The Comm/Unity Style Guide: prepared by the Comm/Unity Network, anchored by IDP: carries the same combined entry, flagging \"felon\" as stigmatizing and preferring \"person with a felony conviction.\""
     confidence: "VERIFIED-ARCHIVED"
   - org: "Sierra Club"
     org_slug: "sierra-club"
@@ -80,7 +80,7 @@ contributors:
 
 **"Felon" is an avoid across every source that treats it. The prescribed move is people-first language that names the conviction without making it the person.** The Immigrant Defense Project / Comm/Unity "Problematic Terms to Reconsider" chart groups felon with convict, ex-con, and offender as stigmatizing, offering "person with a felony conviction." Sierra Club names felon and inmate together as "reductive terms," set against "formerly incarcerated person." The Diversity Style Guide's combined "felon, offender" entry gives the rationale most directly: these terms label "people based on the crime."
 
-On the advocacy side, SumOfUs's incarceration guidance is built around the decriminalizing-language slogan "Felons, not families" — "felon" is the word organizers push against. The page pairs with [convict](/terms/convict/), [inmate](/terms/inmate/), and [offender](/terms/offender/); felon and offender share the Diversity Style Guide's single combined entry.
+On the advocacy side, SumOfUs's incarceration guidance is built around the decriminalizing-language slogan "Felons, not families": "felon" is the word organizers push against. The page pairs with [convict](/terms/convict/), [inmate](/terms/inmate/), and [offender](/terms/offender/); felon and offender share the Diversity Style Guide's single combined entry.
 
 ## Audience notes
 

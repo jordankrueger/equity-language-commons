@@ -1,7 +1,7 @@
 ---
 org: "International Organization for Migration"
 org_slug: "iom"
-work_title: "Glossary on Migration — International Migration Law No. 34"
+work_title: "Glossary on Migration: International Migration Law No. 34"
 year: 2019
 copyright_holder: "International Organization for Migration"
 license: "© International Organization for Migration. Referenced as a legal-definitional source; no glossary content reproduced."

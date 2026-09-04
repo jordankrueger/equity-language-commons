@@ -33,7 +33,7 @@ guidance:
     derived_from: []
     quote: "An attitude, of which one is not consciously aware, against a specific social group, also known as implicit prejudice or implicit attitude. Implicit bias is thought to be shaped by experience and based on learned associations between particular qualities and social categories, including race and/or gender."
     quote_loc: "Glossary, \"implicit bias\" entry"
-    paraphrase: "The APA defines implicit bias as an attitude against a social group that one is not consciously aware of — also called implicit prejudice or implicit attitude — shaped by experience and learned associations between qualities and social categories such as race and gender. It frames the concept as part of implicit social cognition rather than as a label for people."
+    paraphrase: "The APA defines implicit bias as an attitude against a social group that one is not consciously aware of: also called implicit prejudice or implicit attitude: shaped by experience and learned associations between qualities and social categories such as race and gender. It frames the concept as part of implicit social cognition rather than as a label for people."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Diversity Style Guide"
     org_slug: "diversity-style-guide"
@@ -76,11 +76,11 @@ external_references: []
 methodological_context: []
 audience_notes:
   - audience: "Journalists and editors"
-    note: "\"Implicit bias\" is an established term of art, not a slur or a label for a person — it names an unconscious attitude, not an intent. The Diversity Style Guide treats it as the useful frame for racist acts that aren't overt or intentional. Attribute the concept to the research literature (Kirwan Institute, APA) rather than asserting bias in a specific individual."
+    note: "\"Implicit bias\" is an established term of art, not a slur or a label for a person: it names an unconscious attitude, not an intent. The Diversity Style Guide treats it as the useful frame for racist acts that aren't overt or intentional. Attribute the concept to the research literature (Kirwan Institute, APA) rather than asserting bias in a specific individual."
   - audience: "Advocates and internal equity work"
     note: "The corpus uses implicit bias as a foundational concept to understand systemic inequity, not as preferred public-facing vocabulary. DCFPI explicitly groups it among ideas staff should keep in mind rather than terms to deploy externally. Pair it with structural framing (Racial Equity Tools, DSG) so the conversation moves from individual attitudes to the institutional steps that interrupt them."
   - audience: "When precision matters"
-    note: "\"Unconscious bias\" and \"hidden bias\" are treated as synonyms by DCFPI and Racial Equity Tools. The APA also offers \"implicit prejudice\" and \"implicit attitude.\" The defining feature across all sources is the absence of conscious awareness — distinguish it from explicit, intentional bias."
+    note: "\"Unconscious bias\" and \"hidden bias\" are treated as synonyms by DCFPI and Racial Equity Tools. The APA also offers \"implicit prejudice\" and \"implicit attitude.\" The defining feature across all sources is the absence of conscious awareness: distinguish it from explicit, intentional bias."
 last_reviewed: 2026-06-07
 created: 2026-06-07
 contributors:
@@ -92,8 +92,8 @@ contributors:
 The five sources agree on the definition. Implicit bias is a set of negative
 associations or attitudes that people hold and express without conscious awareness,
 shaping their decisions and actions even when they do not know they hold them. DCFPI
-and Racial Equity Tools both open with the same gloss — "also known as unconscious or
-hidden bias" — and the APA adds the parallel terms "implicit prejudice" and "implicit
+and Racial Equity Tools both open with the same gloss: "also known as unconscious or
+hidden bias", and the APA adds the parallel terms "implicit prejudice" and "implicit
 attitude." None of the sources treats the term itself as one to avoid. The question is
 how to use it well, not whether to use it.
 

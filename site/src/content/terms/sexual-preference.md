@@ -48,7 +48,7 @@ guidance:
     derived_from: []
     quote: "Avoid. Politically charged term implying that sexuality is the result of a conscious choice. Instead use sexual orientation."
     quote_loc: "Glossary entry, \"sexual preference\""
-    paraphrase: "Where the other sources file \"sexual preference\" in an avoid/instead table, DSG is one of the two that supply a reason: it calls the term \"politically charged\" — the objection is substantive, not stylistic, since \"preference\" smuggles in the premise that orientation is a conscious choice."
+    paraphrase: "Where the other sources file \"sexual preference\" in an avoid/instead table, DSG is one of the two that supply a reason: it calls the term \"politically charged\": the objection is substantive, not stylistic, since \"preference\" smuggles in the premise that orientation is a conscious choice."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Movement Strategy Center"
     org_slug: "movement"
@@ -79,7 +79,7 @@ external_references: []
 methodological_context: []
 audience_notes:
   - audience: "Journalists and editors"
-    note: "Use \"sexual orientation,\" not \"sexual preference.\" NLGJA's reasoning is the operative one for newsrooms: \"preference\" implies a choice and is imprecise. \"Sexual identity\" is a related but distinct concept (a person's perception of their own sexuality), and \"sexuality\" refers to sexual activity generally — don't substitute either as a synonym."
+    note: "Use \"sexual orientation,\" not \"sexual preference.\" NLGJA's reasoning is the operative one for newsrooms: \"preference\" implies a choice and is imprecise. \"Sexual identity\" is a related but distinct concept (a person's perception of their own sexuality), and \"sexuality\" refers to sexual activity generally: don't substitute either as a synonym."
   - audience: "Campaigners and advocacy communicators"
     note: "The objection is substantive, not just stylistic: \"preference\" frames orientation as a choice, which is the same premise anti-LGBTQ arguments rely on. \"Sexual orientation\" is the consensus replacement across every source here. Self-identification still governs the specific labels a person uses."
   - audience: "Internal comms and HR"
@@ -94,9 +94,9 @@ contributors:
 
 The corpus is unanimous: **"sexual preference" is a term to avoid, and "sexual
 orientation" is the replacement.** All five sources land on the same side, and
-several pair the terms directly — DCFPI and Movement Strategy Center in
+several pair the terms directly: DCFPI and Movement Strategy Center in
 avoid/instead tables, SEIU in an alphabetical "sexual orientation / Not:
-sexual preference" entry — while the Diversity Style Guide and NLGJA spell out
+sexual preference" entry, while the Diversity Style Guide and NLGJA spell out
 the reasoning in prose. There is no dissent and no carve-out anywhere in the
 corpus.
 

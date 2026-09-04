@@ -47,7 +47,7 @@ guidance:
     recommendation: "avoid"
     quote: "Avoid vocabulary and usage that carries hierarchical valuation, describes Indigenous peoples as 'belonging' to Canada, the United States, or Australia, etc. … do not say 'Canadian First Nations' as Canada is the colonial power and many Indigenous people do not identify as Canadian."
     quote_loc: "Indigeneity / Ancestry section → Specific Recommendations"
-    paraphrase: "SumOfUs draws a sharp line against possessive constructions like 'Canadian First Nations' or 'Canada's Indigenous people' — the framing erases that Canada is the colonial power and that many First Nations people do not identify as Canadian. The recommended construction puts the people first: 'Indigenous peoples in Canada' rather than 'Canada's Indigenous people.'"
+    paraphrase: "SumOfUs draws a sharp line against possessive constructions like 'Canadian First Nations' or 'Canada's Indigenous people': the framing erases that Canada is the colonial power and that many First Nations people do not identify as Canadian. The recommended construction puts the people first: 'Indigenous peoples in Canada' rather than 'Canada's Indigenous people.'"
     confidence: "VERIFIED-ARCHIVED"
 
   - org: "Native Governance Center"
@@ -71,7 +71,7 @@ guidance:
     recommendation: "use"
     quote: "First Nations is a term used to describe Aboriginal peoples of Canada who are ethnically neither Métis nor Inuit … This phrase came into common usage in the 1970s and '80s and generally replaced the term Indian to refer to Indigenous people of Canada."
     quote_loc: "Entry: First Nations (updated February 2021)"
-    paraphrase: "DSG's entry mirrors SumOfUs's framing: First Nations covers Aboriginal peoples of Canada who are neither Métis nor Inuit, replaced 'Indian' as common usage starting in the 1970s–80s, and is sourced to the First Nations Studies Program at UBC. The entry also flags that the term is not widely used in the U.S. — a geographic-scope caution that matters when borrowing the term across the border."
+    paraphrase: "DSG's entry mirrors SumOfUs's framing: First Nations covers Aboriginal peoples of Canada who are neither Métis nor Inuit, replaced 'Indian' as common usage starting in the 1970s–80s, and is sourced to the First Nations Studies Program at UBC. The entry also flags that the term is not widely used in the U.S.: a geographic-scope caution that matters when borrowing the term across the border."
     confidence: "VERIFIED-ARCHIVED"
 
 context_data: []
@@ -95,5 +95,5 @@ NGC supplies the capitalization rule: First Nations is always capitalized, along
 ## Audience notes
 
 - **Geographic scope.** First Nations is a Canadian term and should be used when describing Canadian context. U.S.-based writers covering Canadian Indigenous nations, federal policy, treaty rights, or pipeline / land-defense organizing should use First Nations as the working descriptor; switching to "Native American" in a Canadian context is inaccurate. Conversely, calling U.S. tribes "First Nations" is a common cross-border slip.
-- **Avoid the possessive construction.** "Canadian First Nations" and "Canada's Indigenous people" both frame Indigenous nations as belonging to the colonial state. The construction "Indigenous peoples in Canada" or "First Nations in Canada" — preposition, not possessive — is the corrective; the same rule applies to similar phrasings about the U.S., Australia, and other settler-colonial contexts.
+- **Avoid the possessive construction.** "Canadian First Nations" and "Canada's Indigenous people" both frame Indigenous nations as belonging to the colonial state. The construction "Indigenous peoples in Canada" or "First Nations in Canada": preposition, not possessive: is the corrective; the same rule applies to similar phrasings about the U.S., Australia, and other settler-colonial contexts.
 - **Inuit and Métis are not First Nations.** The term is scoped to a specific population. When describing the wider Indigenous population of Canada, "Indigenous peoples" or "Aboriginal peoples" is the inclusive descriptor; "First Nations, Métis, and Inuit" is the standard expanded form.

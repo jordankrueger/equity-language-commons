@@ -24,7 +24,7 @@ guidance:
     derived_from: []
     quote: "Refers to “the process—social, legal, and/or medical—one goes through to affirm one’s gender identity”… “There is no one way to transition; the word means something unique to each individual” (PFLAG, 2022, Transition definition)."
     quote_loc: "Sexual orientation and gender diversity definitions: transition"
-    paraphrase: "APA does not write its own definition here — it adopts PFLAG's, which is why the entry reads as a community source rather than a clinical one. The load-bearing clause is \"the word means something unique to each individual\": that individuality is the stated reason transition resists any checklist or fixed endpoint."
+    paraphrase: "APA does not write its own definition here: it adopts PFLAG's, which is why the entry reads as a community source rather than a clinical one. The load-bearing clause is \"the word means something unique to each individual\": that individuality is the stated reason transition resists any checklist or fixed endpoint."
     confidence: "VERIFIED-ARCHIVED"
   - org: "NLGJA: The Association of LGBTQ+ Journalists"
     org_slug: "nlgja"
@@ -36,7 +36,7 @@ guidance:
     derived_from: []
     quote: "Transitions are very personal and occur over time. Mention a person's gender transition in a story, and its details, only when relevant, such as health care access or legal documentation issues. Avoid the obsolete term sex change."
     quote_loc: "Glossary entry: gender transition, transition"
-    paraphrase: "NLGJA is the source supplying the relevance test the other two don't: it doesn't just define transition, it sets a reporting threshold — mention it, and its details, only when germane to the story (health-care access, legal documentation). The premise underneath is that transition history is private medical and legal information, not background color."
+    paraphrase: "NLGJA is the source supplying the relevance test the other two don't: it doesn't just define transition, it sets a reporting threshold: mention it, and its details, only when germane to the story (health-care access, legal documentation). The premise underneath is that transition history is private medical and legal information, not background color."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Trans Journalists Association"
     org_slug: "tja"
@@ -48,7 +48,7 @@ guidance:
     derived_from: []
     quote: "The social, legal, and/or medical process of aligning one's life with one's gender… People may transition in a few of these ways, all of these ways, or none of these ways."
     quote_loc: "Glossary entry: transition (n., v.)"
-    paraphrase: "TJA's wording is the broadest in the corpus — \"aligning one's life with one's gender\" rather than affirming an identity, which folds in non-medical, everyday changes the clinical framings skip. The \"a few, all, or none\" clause is an explicit rejection of any required pathway, and it's what makes \"completed her transition\" and pre-op/post-op framings wrong by this source's logic."
+    paraphrase: "TJA's wording is the broadest in the corpus: \"aligning one's life with one's gender\" rather than affirming an identity, which folds in non-medical, everyday changes the clinical framings skip. The \"a few, all, or none\" clause is an explicit rejection of any required pathway, and it's what makes \"completed her transition\" and pre-op/post-op framings wrong by this source's logic."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []
@@ -62,7 +62,7 @@ contributors:
 
 ## Synthesis
 
-**The term is standard; the care is in the reporting around it.** All three sources define transition the same way: the social, legal, and/or medical process of affirming — in the Trans Journalists Association's phrasing, aligning one's life with — one's gender. Every source insists on plurality: "There is no one way to transition" (APA, quoting PFLAG); people may take some of these steps, all of them, or none (TJA). The word itself is the prescribed vocabulary. What it replaces is the obsolete "sex change," which NLGJA bars by name, along with the assumption that transition means surgery.
+**The term is standard; the care is in the reporting around it.** All three sources define transition the same way: the social, legal, and/or medical process of affirming: in the Trans Journalists Association's phrasing, aligning one's life with: one's gender. Every source insists on plurality: "There is no one way to transition" (APA, quoting PFLAG); people may take some of these steps, all of them, or none (TJA). The word itself is the prescribed vocabulary. What it replaces is the obsolete "sex change," which NLGJA bars by name, along with the assumption that transition means surgery.
 
 The journalism-side guidance adds a relevance test. NLGJA says transitions are very personal and unfold over time, and that a person's transition or its details should be reported only when it is actually relevant to the story, such as health-care access or legal documentation. A profile subject's transition history is private medical and legal information; it belongs in copy only when it bears on the story.
 
@@ -71,4 +71,4 @@ Because transition has no fixed endpoint or checklist, constructions like "pre-o
 ## Audience notes
 
 - **Journalists and editors.** Apply the relevance test before mentioning transition at all, and again before each detail. Never "sex change," and avoid surgical-status framings (pre-op/post-op) unless the person raises them and they're germane.
-- **HR and internal comms.** Transition steps differ per person — policies written around a single medical pathway (surgery letters, fixed timelines) won't match many employees' actual transitions. Mirror the person's language and let them set disclosure scope.
+- **HR and internal comms.** Transition steps differ per person: policies written around a single medical pathway (surgery letters, fixed timelines) won't match many employees' actual transitions. Mirror the person's language and let them set disclosure scope.

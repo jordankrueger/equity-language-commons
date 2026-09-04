@@ -37,7 +37,7 @@ guidance:
     derived_from: []
     quote: "Islam - a 1,400-year-old religion practiced by more than a billion people worldwide - has a diverse following and is a faith that teaches justice, peace and tolerance."
     quote_loc: "Understanding Islam (opening section)"
-    paraphrase: "CAIR's journalist guide opens by countering the misunderstanding it sees as most common: Islam — an Arabic word meaning submission to God's will — is a 1,400-year-old faith with more than a billion diverse adherents, and its teachings center justice, peace, and tolerance."
+    paraphrase: "CAIR's journalist guide opens by countering the misunderstanding it sees as most common: Islam: an Arabic word meaning submission to God's will: is a 1,400-year-old faith with more than a billion diverse adherents, and its teachings center justice, peace, and tolerance."
     confidence: "VERIFIED-ARCHIVED"
   - org: "NABJ"
     org_slug: "nabj"
@@ -49,7 +49,7 @@ guidance:
     derived_from: []
     quote: "Islam: Youngest of the world's three major monotheistic religions. … Although Arabic is the language of the Koran, not all Arabs are Muslim and not all Muslims are Arabs."
     quote_loc: "\"Islam\" entry"
-    paraphrase: "\"Youngest of the three\" places Islam relative to Judaism and Christianity rather than describing it on its own. NABJ is one of two independent legs on the page that correct the Arab/Muslim conflation outright — the error this entry exists to flag, and the one the audience notes single out as most common in progressive copy."
+    paraphrase: "\"Youngest of the three\" places Islam relative to Judaism and Christianity rather than describing it on its own. NABJ is one of two independent legs on the page that correct the Arab/Muslim conflation outright: the error this entry exists to flag, and the one the audience notes single out as most common in progressive copy."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Diversity Style Guide"
     org_slug: "diversity-style-guide"
@@ -73,7 +73,7 @@ guidance:
     derived_from: []
     quote: "Follow AP style, which defines the term as an \"advocate or supporter of a political movement that favors reordering government and society in accordance with laws prescribed by Islam\" … \"Do not use as a synonym for Islamic fighters, militants, extremists or radicals, who may or may not be Islamists.\""
     quote_loc: "Glossary entry, \"Islamist\""
-    paraphrase: "This is the page's \"don't fuse the religion with a political movement\" leg. The AP definition is deliberately narrow — a political program, not a faith — and the caution exists because \"Islamist\" gets routinely swapped in as a militancy synonym; the guide's point is that an Islamist may be neither violent nor an extremist, so the two words are not interchangeable."
+    paraphrase: "This is the page's \"don't fuse the religion with a political movement\" leg. The AP definition is deliberately narrow: a political program, not a faith, and the caution exists because \"Islamist\" gets routinely swapped in as a militancy synonym; the guide's point is that an Islamist may be neither violent nor an extremist, so the two words are not interchangeable."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Diversity Style Guide"
     org_slug: "diversity-style-guide"
@@ -94,7 +94,7 @@ audience_notes:
   - audience: "Journalists and editors"
     note: "Attribute political actions to the group or party responsible, never to the religion (Diversity Style Guide). \"Islamist\" has a precise AP definition and is not a synonym for militant or extremist. \"Jihad\" does not mean \"holy war\" (CAIR). Capital I, always."
   - audience: "Advocates and campaign comms"
-    note: "The most common error in progressive copy is the Arab/Muslim conflation — not all Arabs are Muslim, not all Muslims are Arab (NABJ, Diversity Style Guide). Most American Muslims are not Arab."
+    note: "The most common error in progressive copy is the Arab/Muslim conflation: not all Arabs are Muslim, not all Muslims are Arab (NABJ, Diversity Style Guide). Most American Muslims are not Arab."
   - audience: "Don't conflate with Nation of Islam"
     note: "The Nation of Islam is a distinct American religious movement, not a branch of Islam; see its own entry."
 last_reviewed: 2026-06-07
@@ -109,7 +109,7 @@ No source treats "Islam" as anything but the standard, capitalized proper
 noun for the world's second-largest religion. The guidance is about **what
 gets wrongly attached to it**. Three errors recur across the corpus:
 conflating Arab with Muslim (NABJ and the Diversity Style Guide both correct
-it explicitly — Arabic is the Quran's language, but most Muslims are not
+it explicitly: Arabic is the Quran's language, but most Muslims are not
 Arab); conflating Islam with political movements ("Islamist" has a precise
 definition, an advocate of reordering government according to Islamic law,
 and is not a synonym for militant or extremist); and attributing political
@@ -117,7 +117,7 @@ violence to the religion rather than the responsible group, the Diversity
 Style Guide's "Muslim bomb" warning.
 
 CAIR's guide, written from inside the community, states the affirmative case
-the journalism guides imply: Islam — Arabic for submission to God's will — is
+the journalism guides imply: Islam: Arabic for submission to God's will: is
 a 1,400-year-old faith of more than a billion diverse adherents that teaches
 justice, peace, and tolerance, and the guide spends most of its pages on the
 vocabulary that gets that wrong (*jihad* is not "holy war"; *fatwa* is a

@@ -16,7 +16,7 @@ added: 2026-05-17
 
 ## About
 
-**Racial Equity Tools** is an online resource hub that gathers research, tipsheets, curricula, and frameworks for people working toward racial justice at the individual, organizational, community, and systemic levels. Its **Glossary** (2023) defines core racial-equity concepts — structural racism, the system of white supremacy and white privilege, intersectionality, decolonization, internalized racism, and related terms — with attributed definitions drawn from the field.
+**Racial Equity Tools** is an online resource hub that gathers research, tipsheets, curricula, and frameworks for people working toward racial justice at the individual, organizational, community, and systemic levels. Its **Glossary** (2023) defines core racial-equity concepts: structural racism, the system of white supremacy and white privilege, intersectionality, decolonization, internalized racism, and related terms, with attributed definitions drawn from the field.
 
 In the commons it is a source for the Race & Ethnicity chapter, especially structural and conceptual terms.
 

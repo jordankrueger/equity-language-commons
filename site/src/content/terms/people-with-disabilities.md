@@ -30,7 +30,7 @@ guidance:
     derived_from: []
     quote: "disabled\nCorrect:\npeople with disabilities"
     quote_loc: "Stylebook A–Z entry: disabled"
-    paraphrase: "SEIU's stylebook, which alphabetizes entries by the avoided form, lists “disabled” as the headword and prescribes “people with disabilities” as the correct alternative — a person-first preference. The recommendation here is to use people with disabilities; the avoid applies to the bare adjective “disabled.”"
+    paraphrase: "SEIU's stylebook, which alphabetizes entries by the avoided form, lists “disabled” as the headword and prescribes “people with disabilities” as the correct alternative: a person-first preference. The recommendation here is to use people with disabilities; the avoid applies to the bare adjective “disabled.”"
     confidence: "VERIFIED-ARCHIVED"
   - org: "National Center on Disability and Journalism"
     org_slug: "ncdj"
@@ -42,7 +42,7 @@ guidance:
     derived_from: []
     quote: "“Disabled people” is an example of identity-first language (in contrast to people-first language). … NCDJ Recommendation: Ask the disabled person or disability organizational spokesperson about their preferred terminology. Conforms to AP style, which adds that in describing groups of people, or when individual preferences cannot be determined, use person-first language."
     quote_loc: "Entry: Disabled people/people with disabilities"
-    paraphrase: "NCDJ — the anchor source — treats people-first (“people with disabilities”) and identity-first (“disabled people”) as both legitimate, with the individual's stated preference controlling. Its default when preference is unknown follows AP: use person-first language for groups. So people with disabilities is the safe default, but never an override of how a person describes themselves."
+    paraphrase: "NCDJ: the anchor source: treats people-first (“people with disabilities”) and identity-first (“disabled people”) as both legitimate, with the individual's stated preference controlling. Its default when preference is unknown follows AP: use person-first language for groups. So people with disabilities is the safe default, but never an override of how a person describes themselves."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Sierra Club"
     org_slug: "sierra-club"
@@ -79,13 +79,13 @@ contributors:
 ---
 ## Synthesis
 
-**The corpus's default group term — and the canonical home of the person-first vs. identity-first debate.** "People with disabilities" is person-first language: the person before the condition. SEIU prescribes it flatly as the correct form. Sierra Club uses person-first constructions throughout its ableism section. And NCDJ — the anchor source for this chapter — encodes the AP-aligned default: when describing groups, or when individual preferences can't be determined, use person-first language. As a safe default for organizational and group-level writing, this is the settled answer.
+**The corpus's default group term, and the canonical home of the person-first vs. identity-first debate.** "People with disabilities" is person-first language: the person before the condition. SEIU prescribes it flatly as the correct form. Sierra Club uses person-first constructions throughout its ableism section. And NCDJ: the anchor source for this chapter: encodes the AP-aligned default: when describing groups, or when individual preferences can't be determined, use person-first language. As a safe default for organizational and group-level writing, this is the settled answer.
 
-What keeps the page at use-with-care is that the default is only a default. NCDJ and the APA both treat identity-first language ("disabled people") as equally legitimate, and both give the same governing rule: the individual's preference supersedes matters of style — when uncertain, ask. The APA notes the debate originated in exactly this context, and that some communities run the other way: Deaf and autistic communities widely prefer identity-first language, where the person-first form can read as distancing the person from an identity they claim. A writer who applies "people with disabilities" uniformly, over a subject's stated preference, has followed the style guide into the exact error the style guides warn against.
+What keeps the page at use-with-care is that the default is only a default. NCDJ and the APA both treat identity-first language ("disabled people") as equally legitimate, and both give the same governing rule: the individual's preference supersedes matters of style: when uncertain, ask. The APA notes the debate originated in exactly this context, and that some communities run the other way: Deaf and autistic communities widely prefer identity-first language, where the person-first form can read as distancing the person from an identity they claim. A writer who applies "people with disabilities" uniformly, over a subject's stated preference, has followed the style guide into the exact error the style guides warn against.
 
 What was once a sharper rule has flattened. Person-first language was taught for years as the single respectful form; the current sources (NCDJ 2021, APA 2023) describe two valid forms with preference as the tiebreaker. The neighboring pages carry the rest of the picture: "disabled" (the identity-first adjective, with its own community standing), "handicapped" (dated, avoid), and the chapter's identity-first exemplar, capital-D "Deaf."
 
 ## Audience notes
 
-- **Journalists and editors.** Groups and unknown preferences: person-first ("people with disabilities"), per NCDJ/AP. Individuals: ask, and use what they use — including identity-first if that's their term.
-- **Organizations and internal comms.** Fine as the default in policy and web copy, but don't "correct" employees or community members who identify as disabled people — the override runs the other way.
+- **Journalists and editors.** Groups and unknown preferences: person-first ("people with disabilities"), per NCDJ/AP. Individuals: ask, and use what they use: including identity-first if that's their term.
+- **Organizations and internal comms.** Fine as the default in policy and web copy, but don't "correct" employees or community members who identify as disabled people: the override runs the other way.

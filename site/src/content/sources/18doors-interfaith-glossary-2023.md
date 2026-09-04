@@ -23,7 +23,7 @@ focused specifically on interfaith families.
 
 On the commons' source spectrum this is a **progressive equity guide** in the
 classic sense: guidance written by a community-serving organization about how
-to talk about its own community. It is also unusual in form — rather than a
+to talk about its own community. It is also unusual in form: rather than a
 headword glossary, it is a discussion guide built around DO/DON'T guidance
 (use *interfaith*, *intercultural*, *multi-heritage*; never *shiksa*, *goy*,
 *half-Jew*, or conversion-status labels) with the reasoning spelled out, and

@@ -22,7 +22,7 @@ guidance:
     derived_from: []
     quote: "If it is necessary to refer to a couple or family’s religious identity, use descriptive terms like Interfaith, Intercultural, Multi-heritage, Multi-faith. Many interfaith families consider themselves to be simply Jewish families! If you’re unsure …"
     quote_loc: "Dos and Don'ts section"
-    paraphrase: "Writing for Jewish organizations, 18Doors treats \"interfaith\" as the best available umbrella term for families whose partners come from different religious backgrounds, while noting it is imprecise. When religious identity must be named, it recommends descriptive terms — Interfaith, Intercultural, Multi-heritage, Multi-faith — over labels that define people by what they are not (it specifically discourages \"non-Jew\"). The governing rule is to ask people how they want to identify; many interfaith families consider themselves simply Jewish families."
+    paraphrase: "Writing for Jewish organizations, 18Doors treats \"interfaith\" as the best available umbrella term for families whose partners come from different religious backgrounds, while noting it is imprecise. When religious identity must be named, it recommends descriptive terms: Interfaith, Intercultural, Multi-heritage, Multi-faith: over labels that define people by what they are not (it specifically discourages \"non-Jew\"). The governing rule is to ask people how they want to identify; many interfaith families consider themselves simply Jewish families."
     confidence: "VERIFIED-ARCHIVED"
   - org: "18Doors"
     org_slug: "18doors"
@@ -53,9 +53,9 @@ external_references: []
 methodological_context: []
 audience_notes:
   - audience: "Jewish organizations and internal comms"
-    note: "18Doors is the authority here. Use \"interfaith\" (or Intercultural / Multi-heritage / Multi-faith) as a descriptive term, never frame anyone as a \"non-Jew,\" and don't qualify a family member's Jewishness. When in doubt, ask how people want to identify — many interfaith families consider themselves simply Jewish families."
+    note: "18Doors is the authority here. Use \"interfaith\" (or Intercultural / Multi-heritage / Multi-faith) as a descriptive term, never frame anyone as a \"non-Jew,\" and don't qualify a family member's Jewishness. When in doubt, ask how people want to identify: many interfaith families consider themselves simply Jewish families."
   - audience: "Journalists and editors"
-    note: "Per the Diversity Style Guide, keep \"interfaith\" distinct from \"ecumenical\" (within Christianity) and \"interdenominational\" (one faith, several denominations). \"Interfaith\" specifically means more than one religious tradition — Christians, Jews, Buddhists, Muslims and so on."
+    note: "Per the Diversity Style Guide, keep \"interfaith\" distinct from \"ecumenical\" (within Christianity) and \"interdenominational\" (one faith, several denominations). \"Interfaith\" specifically means more than one religious tradition: Christians, Jews, Buddhists, Muslims and so on."
   - audience: "When someone self-describes differently"
     note: "If a person uses a term you'd otherwise avoid to describe their own family, don't correct them. Self-identification is primary; 18Doors advises respecting the words people choose while continuing to model inclusive language yourself."
 last_reviewed: 2026-06-07
@@ -82,8 +82,8 @@ They differ in how much caution they carry, which tracks their audiences. The
 Diversity Style Guide cares about taxonomic accuracy and issues no warning about
 the term itself. 18Doors adds a relational caution that a newsroom glossary has
 no reason to carry: avoid defining anyone by what they are not (its argument
-against "non-Jew"), prefer affirming descriptors — Interfaith, Intercultural,
-Multi-heritage, Multi-faith — and never grade a person's religious identity.
+against "non-Jew"), prefer affirming descriptors: Interfaith, Intercultural,
+Multi-heritage, Multi-faith, and never grade a person's religious identity.
 18Doors treats self-identification as the tiebreaker: ask people how they want
 to identify and respect the words they choose even when those differ from the
 guide's own recommendations.
@@ -92,9 +92,9 @@ The two entries are contemporaneous (both captured in 2023) and not in tension.
 The Diversity Style Guide settles what the word denotes; 18Doors settles how to
 use it with care inside the communities it most often describes. A sourcing
 note: this page rests on two organizations. CAIR, SEIU, and the Immigrant
-Defense Project surfaced in the keyword scan but were incidental — a theological
+Defense Project surfaced in the keyword scan but were incidental: a theological
 passage on relations with other faiths, bilingual translation-table entries, and
-an organization's name in a contact list, respectively — none of them a guidance
+an organization's name in a contact list, respectively: none of them a guidance
 position on the term.
 
 ## Audience notes

@@ -64,7 +64,7 @@ guidance:
     derived_from: []
     quote: "Refers to a person whose gender identity and/or expression is not strictly male or female. … Use if a person self-identifies as nonbinary, or in quotations or names of organizations. Some nonbinary individuals identify as trans."
     quote_loc: "Gender, Gender Identity → nonbinary (adj.)"
-    paraphrase: "NLGJA's 2025 stylebook treats nonbinary as an adjective and ties its use to self-identification: apply it when a person identifies that way, in quotations, or in organization names. The entry repeats the partial trans-overlap rule — some nonbinary people identify as trans, some do not — and the singular \"they\" is treated as standard, needing no explanation."
+    paraphrase: "NLGJA's 2025 stylebook treats nonbinary as an adjective and ties its use to self-identification: apply it when a person identifies that way, in quotations, or in organization names. The entry repeats the partial trans-overlap rule: some nonbinary people identify as trans, some do not, and the singular \"they\" is treated as standard, needing no explanation."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Trans Journalists Association"
     org_slug: "tja"
@@ -90,11 +90,11 @@ contributors:
 
 ## Synthesis
 
-**The corpus is unanimous: "nonbinary" is the term to use for gender identities outside the man/woman binary.** Five sources — HRC, the Diversity Style Guide, Racial Equity Tools, NLGJA, and the Trans Journalists Association — define it the same way: an umbrella, and sometimes a specific gender, for people who "do not identify exclusively as a man or a woman." TJA is the most precise: nonbinary is both "an umbrella term for genders other than man and woman" and "a term for a specific gender," and nonbinary people "are generally not considered cisgender," though not all consider themselves transgender either.
+**The corpus is unanimous: "nonbinary" is the term to use for gender identities outside the man/woman binary.** Five sources: HRC, the Diversity Style Guide, Racial Equity Tools, NLGJA, and the Trans Journalists Association: define it the same way: an umbrella, and sometimes a specific gender, for people who "do not identify exclusively as a man or a woman." TJA is the most precise: nonbinary is both "an umbrella term for genders other than man and woman" and "a term for a specific gender," and nonbinary people "are generally not considered cisgender," though not all consider themselves transgender either.
 
 The agreement extends to mechanics. It's an adjective ("a nonbinary person," not "a nonbinary"), and it's lowercase except at the start of a sentence. On pronouns, the corpus says ask first rather than assume: DSG advises consulting the source, NLGJA and TJA tie usage to self-identification, and TJA notes not all nonbinary people use they/them. Singular "they" is the common default only when a person's own pronouns are unknown. Sources diverge on two edges. One is how firmly nonbinary sits under the trans umbrella: HRC and DSG note many but not all nonbinary people identify as trans, and TJA frames it as "generally not cisgender" but not automatically trans. The other is spelling, where the closed "nonbinary" is now dominant but hyphenated "non-binary" still appears in some entries. An individual's own term governs. Pairs with [gender identity](/terms/gender-identity/) and [transgender](/terms/transgender/).
 
 ## Audience notes
 
-- **Journalists and editors.** "Nonbinary" is the standard term; ask a person which pronouns they use rather than assuming they/them — not all nonbinary people use it. It's an adjective — don't write "a nonbinary."
+- **Journalists and editors.** "Nonbinary" is the standard term; ask a person which pronouns they use rather than assuming they/them: not all nonbinary people use it. It's an adjective: don't write "a nonbinary."
 - **Advocates and internal comms.** Don't assume nonbinary people are (or aren't) transgender; the categories overlap but aren't identical.

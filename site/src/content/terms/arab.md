@@ -24,7 +24,7 @@ guidance:
     derived_from: []
     quote: "Refers to nation or people from an Arabic-speaking country. Not synonymous with Muslim. … Do not imply in headlines or text that Arab equals Muslim, holy war or terrorist. Note: Iran is not an Arab country. The majority of Iranian people are Persian and the language is Farsi."
     quote_loc: "Glossary entry: Arab"
-    paraphrase: "The Diversity Style Guide defines Arab as a person from an Arabic-speaking country — a national/ethnic grouping, explicitly \"not synonymous with Muslim.\" It tells writers to name the specific country rather than generalizing, never to equate Arab with Muslim or terrorism, and notes that Iran is Persian (Farsi-speaking), not Arab."
+    paraphrase: "The Diversity Style Guide defines Arab as a person from an Arabic-speaking country: a national/ethnic grouping, explicitly \"not synonymous with Muslim.\" It tells writers to name the specific country rather than generalizing, never to equate Arab with Muslim or terrorism, and notes that Iran is Persian (Farsi-speaking), not Arab."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Sierra Club"
     org_slug: "sierra-club"
@@ -36,7 +36,7 @@ guidance:
     derived_from: []
     quote: "\"Muslim\" is not synonymous with Arab; African American Muslims are the largest Muslim population in the United States."
     quote_loc: "Religious and other terms, p. 13"
-    paraphrase: "Sierra Club draws the same do-not-conflate line from the religion side: \"Muslim\" is not synonymous with Arab, and it notes that African American Muslims are the largest Muslim population in the United States — a reminder that an ethnicity (Arab) and a faith (Muslim) are separate axes that routinely fail to line up."
+    paraphrase: "Sierra Club draws the same do-not-conflate line from the religion side: \"Muslim\" is not synonymous with Arab, and it notes that African American Muslims are the largest Muslim population in the United States: a reminder that an ethnicity (Arab) and a faith (Muslim) are separate axes that routinely fail to line up."
     confidence: "VERIFIED-ARCHIVED"
   - org: "American Psychological Association"
     org_slug: "apa"
@@ -48,7 +48,7 @@ guidance:
     derived_from: []
     quote: "When writing about people of MENA descent, state the nation of origin … In all cases, it is best to allow individuals to self-identify…"
     quote_loc: "Glossary: American Arab, Middle Eastern, and North African (AMENA)"
-    paraphrase: "APA places Arab within the broader AMENA category — which it spells out as American Arab, Middle Eastern, and North African — defined by nationality and ethnic origin in Arabia, the Middle East, and North Africa. It advises naming the specific nation of origin where possible — and, above all, deferring to how individuals self-identify."
+    paraphrase: "APA places Arab within the broader AMENA category, which it spells out as American Arab, Middle Eastern, and North African: defined by nationality and ethnic origin in Arabia, the Middle East, and North Africa. It advises naming the specific nation of origin where possible: and, above all, deferring to how individuals self-identify."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []

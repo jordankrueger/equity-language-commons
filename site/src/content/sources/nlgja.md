@@ -16,7 +16,7 @@ added: 2026-05-17
 
 ## About
 
-**NLGJA: The Association of LGBTQ+ Journalists** is an American professional association, based in Washington, D.C., dedicated to fair and accurate coverage of LGBTQ+ issues. Founded as the National Lesbian and Gay Journalists Association, it has updated its name as the communities it represents have — adding a "Q" in 2016 and a "+" in 2023. Its *Stylebook on LGBTQ+ Terminology* (2025) is a journalist-facing reference on LGBTQ+ language.
+**NLGJA: The Association of LGBTQ+ Journalists** is an American professional association, based in Washington, D.C., dedicated to fair and accurate coverage of LGBTQ+ issues. Founded as the National Lesbian and Gay Journalists Association, it has updated its name as the communities it represents have: adding a "Q" in 2016 and a "+" in 2023. Its *Stylebook on LGBTQ+ Terminology* (2025) is a journalist-facing reference on LGBTQ+ language.
 
 In the commons it is a source for the Sexuality & Gender Identity chapter.
 

@@ -25,7 +25,7 @@ guidance:
     derived_from: []
     quote: "In U.S. criminal law, insanity is a legal question, not a medical one. … Use the term \"mental illness\" instead of \"insane\" or \"mentally deranged,\" except in a quote or when referring to a criminal defense."
     quote_loc: "\"Insane/insanity/mentally deranged/psychopathology\" entry, Background + NCDJ Recommendation"
-    paraphrase: "NCDJ — the chapter's anchor source — treats \"insane,\" \"insanity,\" and \"mentally deranged\" as informal, potentially offensive stand-ins for mental illness, advising \"mental illness\" instead — with two exceptions: a quote, or the legal sense, since in U.S. criminal law insanity is a legal rather than medical question."
+    paraphrase: "NCDJ: the chapter's anchor source: treats \"insane,\" \"insanity,\" and \"mentally deranged\" as informal, potentially offensive stand-ins for mental illness, advising \"mental illness\" instead, with two exceptions: a quote, or the legal sense, since in U.S. criminal law insanity is a legal rather than medical question."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Sierra Club"
     org_slug: "sierra-club"
@@ -61,7 +61,7 @@ guidance:
     derived_from: []
     quote: "The terms insane, insanity and mentally deranged are commonly used informally to denote mental instability or mental illness but can be considered offensive. … Use mental illness or mental disorder instead of insane or mentally deranged, except in a quote or when referring to a criminal defense."
     quote_loc: "Glossary entry, \"insane, incompetent\""
-    paraphrase: "The Diversity Style Guide treats \"insane,\" \"insanity,\" and \"mentally deranged\" as informal and potentially offensive terms for mental instability, preferring \"mental illness\" or \"mental disorder,\" and — echoing NCDJ — preserves the exceptions for quotes and the legal criminal-defense sense."
+    paraphrase: "The Diversity Style Guide treats \"insane,\" \"insanity,\" and \"mentally deranged\" as informal and potentially offensive terms for mental instability, preferring \"mental illness\" or \"mental disorder,\" and: echoing NCDJ: preserves the exceptions for quotes and the legal criminal-defense sense."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []
@@ -82,6 +82,6 @@ The guidance is stable across the 2021–2023 sources. This page pairs with [men
 
 ## Audience notes
 
-- **Journalists and editors.** Replace "insane" with "mental illness" or "mental disorder" in your own voice. Keep it only for the legal sense — "the insanity defense," "found not guilty by reason of insanity" — or inside an essential quote.
+- **Journalists and editors.** Replace "insane" with "mental illness" or "mental disorder" in your own voice. Keep it only for the legal sense: "the insanity defense," "found not guilty by reason of insanity", or inside an essential quote.
 - **Advocates and internal comms.** As with "crazy," the usual slip is the casual intensifier ("this is insane"). Name the specific thing instead.
-- **Watch the legal context.** When writing about a court case, "insanity" may be the accurate legal term — that is the one place it stays.
+- **Watch the legal context.** When writing about a court case, "insanity" may be the accurate legal term: that is the one place it stays.

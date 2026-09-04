@@ -56,7 +56,7 @@ guidance:
     derived_from: []
     quote: "Child prostitute, child sex worker … Commercially exploited child … Children cannot give consent to engage in sex, transactional or otherwise."
     quote_loc: "\"Survivor-Affirming Alternatives\" table, child sexual exploitation row"
-    paraphrase: "Color of Change, writing for coverage of Black survivors of sexual violence, treats \"child prostitute\" — and equally \"child sex worker\" — as inappropriate, offering \"commercially exploited child\" instead, on the grounds that children cannot consent. Its concern is the child context specifically rather than the adult term."
+    paraphrase: "Color of Change, writing for coverage of Black survivors of sexual violence, treats \"child prostitute\", and equally \"child sex worker\": as inappropriate, offering \"commercially exploited child\" instead, on the grounds that children cannot consent. Its concern is the child context specifically rather than the adult term."
     confidence: "VERIFIED-ARCHIVED"
   - org: "American Psychological Association"
     org_slug: "apa"
@@ -68,7 +68,7 @@ guidance:
     derived_from: []
     quote: "TERM TO AVOID … SUGGESTED ALTERNATIVE … prostitute … person who engages in sex work … sex worker (abbreviated as SWer)"
     quote_loc: "\"Socioeconomic status\" table, \"Term to Avoid / Suggested Alternative\""
-    paraphrase: "APA's inclusive-language guide lists \"prostitute\" as a term to avoid, with \"person who engages in sex work\" and \"sex worker (abbreviated as SWer)\" as the suggested alternatives — pairing both a person-first construction and the work-first noun."
+    paraphrase: "APA's inclusive-language guide lists \"prostitute\" as a term to avoid, with \"person who engages in sex work\" and \"sex worker (abbreviated as SWer)\" as the suggested alternatives: pairing both a person-first construction and the work-first noun."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Movement Strategy Center"
     org_slug: "movement"
@@ -80,14 +80,14 @@ guidance:
     derived_from: []
     quote: "Avoid This … Use This Instead … Prostitute Prostitution … Sex worker Sex work"
     quote_loc: "Gender & sexuality \"Avoid This / Use This Instead\" table"
-    paraphrase: "Movement Strategy Center's glossary places \"Prostitute\" and \"Prostitution\" in its \"Avoid This\" column and \"Sex worker\" / \"Sex work\" in \"Use This Instead\" — a clean substitution toward the work-first framing."
+    paraphrase: "Movement Strategy Center's glossary places \"Prostitute\" and \"Prostitution\" in its \"Avoid This\" column and \"Sex worker\" / \"Sex work\" in \"Use This Instead\": a clean substitution toward the work-first framing."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []
 methodological_context: []
 audience_notes:
   - audience: "Journalists and editors"
-    note: "Default to \"sex worker\" or \"person who engages in sex work.\" Reserve \"prostitute\" for a specific historic or legal reference (GCJT), and center the voices of sex workers themselves rather than only outside observers. Never apply \"sex worker\" or \"prostitute\" to a minor — that is exploitation and abuse, not work (GCJT, Color of Change)."
+    note: "Default to \"sex worker\" or \"person who engages in sex work.\" Reserve \"prostitute\" for a specific historic or legal reference (GCJT), and center the voices of sex workers themselves rather than only outside observers. Never apply \"sex worker\" or \"prostitute\" to a minor: that is exploitation and abuse, not work (GCJT, Color of Change)."
   - audience: "Advocates and campaigners"
     note: "The substitution carries a frame: \"sex work\" treats the activity as labor and locates dignity in the person, not the act. APA pairs a person-first option (\"person who engages in sex work\") with the work-first noun (\"sex worker\"); DCFPI endorses \"sex worker\" and \"sex work.\" Where someone self-identifies with a particular term, self-identification governs."
   - audience: "Internal comms and style-guide maintainers"
@@ -110,12 +110,12 @@ tells journalists it "should not be used" outside a specific historic or legal
 reference. No source in the corpus defends the term or treats it as neutral.
 
 Where the guides differ is in emphasis rather than direction. The APA offers
-two endorsed forms side by side — a person-first construction ("person who
-engages in sex work") and the work-first noun ("sex worker") — while DCFPI
+two endorsed forms side by side: a person-first construction ("person who
+engages in sex work") and the work-first noun ("sex worker"), while DCFPI
 endorses "sex worker" and "sex work"; between them, both the
 dignity-of-the-person and the labor-framing arguments are in play. GCJT adds a procedural layer aimed at reporters: beyond the word
 choice, include the perspectives of sex workers themselves rather than only
-those with no direct experience. Color of Change addresses a narrower case —
+those with no direct experience. Color of Change addresses a narrower case :
 it rejects "child prostitute" (and, pointedly, "child sex worker" too) in
 favor of "commercially exploited child," because children cannot consent.
 That entry is about the child context specifically, and GCJT echoes the same

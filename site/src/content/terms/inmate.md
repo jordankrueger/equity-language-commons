@@ -74,7 +74,7 @@ guidance:
     derived_from: []
     quote: "Avoid this term when referring to a person who is incarcerated. The Marshall Project … recommends referring to people who are confined in correctional facilities with constructions that include \"person\" or \"people,\" a subject's name and/or fixed biographical characteristics like age or state."
     quote_loc: "Glossary entry, “inmate”"
-    paraphrase: "The Diversity Style Guide advises against \"inmate,\" citing the Marshall Project's recommendation to use people-first constructions — \"incarcerated people,\" a subject's name, or fixed biographical details."
+    paraphrase: "The Diversity Style Guide advises against \"inmate,\" citing the Marshall Project's recommendation to use people-first constructions: \"incarcerated people,\" a subject's name, or fixed biographical details."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []
@@ -95,4 +95,4 @@ That split is worth keeping visible. The 2020s consensus moved firmly toward "in
 ## Audience notes
 
 - **Journalists and editors.** Default to "incarcerated person" or "person in jail/prison." Reserve "inmate" for direct quotation or specific institutional contexts, and ask when you can.
-- **Advocates and internal comms.** The term is contested even inside the movement — some reform groups have used "inmate" as administratively neutral, while the current consensus treats it as reductive.
+- **Advocates and internal comms.** The term is contested even inside the movement: some reform groups have used "inmate" as administratively neutral, while the current consensus treats it as reductive.

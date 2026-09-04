@@ -37,7 +37,7 @@ guidance:
     derived_from: []
     quote: "Ageism: This term was coined in 1969 by Robert N. Butler … and defined it as \"[a] process of systematic stereotyping or discrimination against people because they are old, just as racism and sexism accomplish with skin color and gender.\""
     quote_loc: "\"Ageism\" entry"
-    paraphrase: "GCJT traces ageism to Robert N. Butler's 1969 coinage, defining it as systematic stereotyping or discrimination against people because they are old, operating at both individual and institutional levels — explicitly paralleled to racism and sexism."
+    paraphrase: "GCJT traces ageism to Robert N. Butler's 1969 coinage, defining it as systematic stereotyping or discrimination against people because they are old, operating at both individual and institutional levels: explicitly paralleled to racism and sexism."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Sierra Club"
     org_slug: "sierra-club"
@@ -49,7 +49,7 @@ guidance:
     derived_from: []
     quote: "Ageism shows up in our lives when we make assumptions about people based on their perceived or actual age. These kind of generalizations point both ways — older people often experience workplace discrimination, the most commonly understood form of ageism."
     quote_loc: "\"Ageism\" section, p. 5"
-    paraphrase: "Sierra Club frames ageism as assumptions made about people based on perceived or actual age, noting it cuts both ways — affecting older people through workplace discrimination and young people treated as less than full community members. It treats ageism as a concept writers should understand and avoid enacting."
+    paraphrase: "Sierra Club frames ageism as assumptions made about people based on perceived or actual age, noting it cuts both ways: affecting older people through workplace discrimination and young people treated as less than full community members. It treats ageism as a concept writers should understand and avoid enacting."
     confidence: "VERIFIED-ARCHIVED"
   - org: "American Psychological Association"
     org_slug: "apa"
@@ -61,7 +61,7 @@ guidance:
     derived_from: []
     quote: "Stereotyping and discrimination against individuals or groups based on their age, regardless of whether the targeted individual or group is younger or older. Ageism may take many forms, including prejudicial attitudes, discriminatory practices, or some institutional policies and practices that perpetuate stereotypical beliefs. …"
     quote_loc: "Age glossary, \"ageism\" definition"
-    paraphrase: "APA defines ageism in its Age glossary as stereotyping and discrimination based on age — younger or older — taking forms from prejudicial attitudes to institutional policy. It names ageism as standard vocabulary, parallel to its definitions of classism and other structural concepts."
+    paraphrase: "APA defines ageism in its Age glossary as stereotyping and discrimination based on age: younger or older: taking forms from prejudicial attitudes to institutional policy. It names ageism as standard vocabulary, parallel to its definitions of classism and other structural concepts."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Diversity Style Guide"
     org_slug: "diversity-style-guide"
@@ -73,7 +73,7 @@ guidance:
     derived_from: []
     quote: "Stereotyping and prejudice against individuals or groups because of their age. … Dr. Butler defined ageism as a combination of three connected elements: prejudicial attitudes towards older people, old age and the aging process; discriminatory practices against older people; and institutional practices and policies that perpetuate stereotypes about older people."
     quote_loc: "Glossary entry, \"ageism\""
-    paraphrase: "Alone among the sources here, the Diversity Style Guide carries Butler's full clinical structure forward — three connected layers rather than a single attitude — which is what pins the term to discriminatory practices and institutional policy, not the everyday assumptions Sierra Club describes."
+    paraphrase: "Alone among the sources here, the Diversity Style Guide carries Butler's full clinical structure forward: three connected layers rather than a single attitude, which is what pins the term to discriminatory practices and institutional policy, not the everyday assumptions Sierra Club describes."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []
@@ -87,14 +87,14 @@ contributors:
 
 ## Synthesis
 
-**"Ageism" is the word to use, not avoid — it is this chapter's structural concept, the parallel to [ableism](/terms/ableism/), [classism](/terms/classism/), racism, and sexism.** All five sources define it the same way and prescribe it as standard vocabulary. The lineage is unusually explicit: GCJT and the Diversity Style Guide both trace the term to Robert N. Butler's 1969 coinage, and Butler built the parallel into the definition itself — ageism does to age "just as racism and sexism accomplish with skin color and gender." APA and the Diversity Style Guide carry Butler's three-part structure: prejudicial attitudes, discriminatory practices, and institutional policies that perpetuate stereotypes. SumOfUs names ageism a system "fueled by institutional power," while Sierra Club stays at the everyday level of the assumptions writers make about people's age.
+**"Ageism" is the word to use, not avoid: it is this chapter's structural concept, the parallel to [ableism](/terms/ableism/), [classism](/terms/classism/), racism, and sexism.** All five sources define it the same way and prescribe it as standard vocabulary. The lineage is unusually explicit: GCJT and the Diversity Style Guide both trace the term to Robert N. Butler's 1969 coinage, and Butler built the parallel into the definition itself: ageism does to age "just as racism and sexism accomplish with skin color and gender." APA and the Diversity Style Guide carry Butler's three-part structure: prejudicial attitudes, discriminatory practices, and institutional policies that perpetuate stereotypes. SumOfUs names ageism a system "fueled by institutional power," while Sierra Club stays at the everyday level of the assumptions writers make about people's age.
 
-The one distinction worth keeping visible is that ageism runs in both directions. APA defines it as discrimination based on age "regardless of whether the targeted individual or group is younger or older," and Sierra Club spells out both poles — older people facing workplace discrimination (the most commonly understood form) and young people treated as less than full members of a community. SumOfUs frames it most broadly, as a system that oppresses "all people at all ages." This bi-directionality separates ageism from the age descriptors it sits beside: [elderly](/terms/elderly/) and [aging](/terms/aging/) are about how to refer to older people, while ageism names the structure that makes those word choices matter.
+The one distinction worth keeping visible is that ageism runs in both directions. APA defines it as discrimination based on age "regardless of whether the targeted individual or group is younger or older," and Sierra Club spells out both poles: older people facing workplace discrimination (the most commonly understood form) and young people treated as less than full members of a community. SumOfUs frames it most broadly, as a system that oppresses "all people at all ages." This bi-directionality separates ageism from the age descriptors it sits beside: [elderly](/terms/elderly/) and [aging](/terms/aging/) are about how to refer to older people, while ageism names the structure that makes those word choices matter.
 
 The guidance is stable from SumOfUs (2016) through APA (2023). As with classism, ageism is less reflexively recognized than racism or sexism, so the sources tend to define it on use rather than assume it.
 
 ## Audience notes
 
-- **Journalists and editors.** Ageism is standard, usable vocabulary. Name the specific form — workplace discrimination, medical dismissal, "too old to learn" framing — rather than letting the word float abstractly, and remember it applies to the young as well as the old.
+- **Journalists and editors.** Ageism is standard, usable vocabulary. Name the specific form: workplace discrimination, medical dismissal, "too old to learn" framing: rather than letting the word float abstractly, and remember it applies to the young as well as the old.
 - **Advocates and internal comms.** Pair it with the structural frame the sources share: ageism is policies and institutions, not just rude remarks. It is the concept that makes the [elderly](/terms/elderly/) descriptor choice consequential.
-- **It cuts both ways.** Several sources stress that ageism targets younger people too — useful when writing about youth leadership or "not ready yet" framing.
+- **It cuts both ways.** Several sources stress that ageism targets younger people too: useful when writing about youth leadership or "not ready yet" framing.

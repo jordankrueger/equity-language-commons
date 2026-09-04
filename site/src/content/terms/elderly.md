@@ -36,7 +36,7 @@ guidance:
     derived_from: []
     quote: "Avoid the use of \"seniors\" and \"elderly\" to describe individuals or groups. Use medical terminology to describe common age-related medical conditions … only when supported by a diagnosis."
     quote_loc: "Age and aging section"
-    paraphrase: "GCJT draws the hardest line of the four — it rejects \"elderly\" for individuals and groups alike, where DSG and SumOfUs allow narrow uses. As a trauma-journalism guide its second rule is the distinctive one: don't reach for clinical labels (frail, suffering from) as a euphemism for old; age-related medical terms belong in copy only when an actual diagnosis supports them."
+    paraphrase: "GCJT draws the hardest line of the four: it rejects \"elderly\" for individuals and groups alike, where DSG and SumOfUs allow narrow uses. As a trauma-journalism guide its second rule is the distinctive one: don't reach for clinical labels (frail, suffering from) as a euphemism for old; age-related medical terms belong in copy only when an actual diagnosis supports them."
     confidence: "VERIFIED-ARCHIVED"
   - org: "American Psychological Association"
     org_slug: "apa"
@@ -74,7 +74,7 @@ contributors:
 
 ## Synthesis
 
-**Across all four sources, "older adults" is the preferred term and "the elderly" is the form to move away from — though the guides split on how hard a line to draw.** APA is the most direct: its term-to-avoid table lists "the elderly" and "elderly people" and prescribes "older adults" or "older people," on the reasoning that the blanket noun "others" older adults into a single undifferentiated category. GCJT goes furthest, advising writers to avoid "seniors" and "elderly" for individuals or groups altogether.
+**Across all four sources, "older adults" is the preferred term and "the elderly" is the form to move away from, though the guides split on how hard a line to draw.** APA is the most direct: its term-to-avoid table lists "the elderly" and "elderly people" and prescribes "older adults" or "older people," on the reasoning that the blanket noun "others" older adults into a single undifferentiated category. GCJT goes furthest, advising writers to avoid "seniors" and "elderly" for individuals or groups altogether.
 
 The Diversity Style Guide and SumOfUs land a step softer, at use-with-care rather than avoid. DSG draws the line by grammar: "elderly" is acceptable in generic phrases that don't name a person ("concern for the elderly," "a home for the elderly"), but "describing a person as elderly is bad form." SumOfUs lists "older person" and "elderly person" among acceptable terms but routes the decision back to the individual: ask the preferred term, because one person may prefer "senior" while another the same age prefers "older adult." That deference to self-identification connects the softer and harder positions. None of the guides wants a writer assigning an age label the subject wouldn't choose.
 
@@ -83,5 +83,5 @@ APA adds a cross-cultural caveat: "Elder," capitalized, "is considered an honori
 ## Audience notes
 
 - **Journalists and editors.** Default to "older adults" or "older people." If you reach for "elderly," make sure it's a generic phrase ("services for the elderly"), never a descriptor pinned to a named individual.
-- **Advocates and internal comms.** Ask people how they want to be described — "senior," "older adult," and "older person" are not interchangeable to everyone who fits them.
+- **Advocates and internal comms.** Ask people how they want to be described: "senior," "older adult," and "older person" are not interchangeable to everyone who fits them.
 - **Watch the honorific.** Capitalized "Elder" is a position of respect in many Indigenous and other communities; don't lowercase or genericize it into "elderly."

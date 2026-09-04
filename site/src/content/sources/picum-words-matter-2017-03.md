@@ -30,8 +30,8 @@ recommends *undocumented* or *irregular* instead, traces institutional usage
 back to a 1975 UN General Assembly resolution, and renders the terminology in
 all official EU languages.
 
-On the commons' source spectrum this is a **progressive equity guide** —
-advocacy-organization guidance on what to call people — and, with Human Rights
+On the commons' source spectrum this is a **progressive equity guide** :
+advocacy-organization guidance on what to call people: and, with Human Rights
 Watch's guidelines, one of the two migration anchors added to the corpus in
 June 2026. It is also the corpus' only European source, a counterweight to the
 otherwise U.S.-centric corpus.

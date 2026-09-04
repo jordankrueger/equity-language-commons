@@ -31,21 +31,21 @@ here as a **reference source** because its findings sit behind several
 syntheses, and are quoted secondhand inside corpus guides like the
 Diversity Style Guide:
 
-- **2013 survey** — 50% of Hispanic adults expressed no preference between
+- **2013 survey**: 50% of Hispanic adults expressed no preference between
   "Hispanic" and "Latino"; among all respondents, Hispanic was preferred
   33% to 15%; among Hispanic Texans the split was 46% to 8%.
   ([Pew, "Hispanic Identity," Oct 2013](https://www.pewresearch.org/race-and-ethnicity/2013/10/22/3-hispanic-identity/))
-- **2019 survey (published Aug 2020)** — 23% of U.S. Hispanic/Latino adults
+- **2019 survey (published Aug 2020)**: 23% of U.S. Hispanic/Latino adults
   had heard of "Latinx"; just 3% used it to describe themselves. Awareness
   ran 42% among ages 18–29 vs 7% among 65+; usage 7% vs under 0.5%.
   ([Pew report PDF, Aug 11, 2020](https://www.pewresearch.org/hispanic/wp-content/uploads/sites/5/2020/08/PHGMD_2020.08.11_Latinx_FINAL.pdf))
-- **Stability** — "In more than 15 years of polling by Pew Research Center,
+- **Stability**: "In more than 15 years of polling by Pew Research Center,
   half of Americans who trace their roots to Spanish-speaking Latin America
   and Spain have consistently said they have no preference for either
   Hispanic or Latino." A
   [2024 follow-up](https://www.pewresearch.org/race-and-ethnicity/2024/09/12/u-s-hispanics-preferences-among-pan-ethnic-terms/)
   shows the same pattern under a revised question framing (52% Hispanic /
-  29% Latino among expressed preferences — not directly comparable to the
+  29% Latino among expressed preferences: not directly comparable to the
   2013 percentages).
 
 ## Access

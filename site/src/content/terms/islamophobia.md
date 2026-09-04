@@ -32,7 +32,7 @@ guidance:
     derived_from: []
     quote: "Prejudice, negative sentiments, and hostility toward Islam and Muslims. Islamophobia may be based on ideas about Islam as a religion and on ideas about Muslims as a cultural and ethnic group. Islamophobic ideas portray Islam and Muslims as a threat to non-Muslims. …"
     quote_loc: "Glossary entry, \"Islamophobia\" (citing Berntzen & Rambøl, 2020)"
-    paraphrase: "APA is the source that endorses \"Islamophobia\" without RET's structural reservation — plain \"use,\" anchored in a specific scholarly citation (Berntzen & Rambøl). Its definition also names the mechanism the others leave out: Islamophobic ideas construct Islam and Muslims as a threat to non-Muslims, and the prejudice attaches both to the religion and to Muslims as a cultural and ethnic group, which is why it shades into racism rather than staying purely religious."
+    paraphrase: "APA is the source that endorses \"Islamophobia\" without RET's structural reservation: plain \"use,\" anchored in a specific scholarly citation (Berntzen & Rambøl). Its definition also names the mechanism the others leave out: Islamophobic ideas construct Islam and Muslims as a threat to non-Muslims, and the prejudice attaches both to the religion and to Muslims as a cultural and ethnic group, which is why it shades into racism rather than staying purely religious."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Racial Equity Tools"
     org_slug: "racial-equity-tools"
@@ -72,9 +72,9 @@ contributors:
 
 "Islamophobia" is usable vocabulary, but one source prefers "anti-Muslim." APA and the Diversity Style Guide both define Islamophobia as prejudice, fear, and hostility toward Islam and Muslims, with DSG noting it predates September 11, 2001, even as attacks grew afterward. Racial Equity Tools, drawing on Political Research Associates, adds the caveat: because the "-phobia" suffix "tends to suggest individual bigotry to the exclusion of systemic and structural forces," the form "anti-Muslim is generally preferred" when the point is the structure rather than a personal fear.
 
-That is the practical takeaway. "Islamophobia" is in common usage and well understood; "anti-Muslim" is the more precise choice when naming policy, institutions, or systemic bias rather than individual prejudice. The two are not in conflict, just calibrated to different points. Islamophobia parallels [antisemitism](/terms/antisemitism/) — Racial Equity Tools treats them as entangled prejudices rooted in the same systems — and it is the prejudice that targets the identity covered on the [Muslim](/terms/muslim/) page.
+That is the practical takeaway. "Islamophobia" is in common usage and well understood; "anti-Muslim" is the more precise choice when naming policy, institutions, or systemic bias rather than individual prejudice. The two are not in conflict, just calibrated to different points. Islamophobia parallels [antisemitism](/terms/antisemitism/): Racial Equity Tools treats them as entangled prejudices rooted in the same systems, and it is the prejudice that targets the identity covered on the [Muslim](/terms/muslim/) page.
 
 ## Audience notes
 
-- **Journalists and editors.** "Islamophobia" is fine for general use. Reach for "anti-Muslim" when you mean systemic or institutional bias — policy, surveillance, hiring — rather than an individual's fear or hatred.
+- **Journalists and editors.** "Islamophobia" is fine for general use. Reach for "anti-Muslim" when you mean systemic or institutional bias: policy, surveillance, hiring: rather than an individual's fear or hatred.
 - **Advocates and internal comms.** The "-phobia" framing can read as a personal pathology; "anti-Muslim bias" or "anti-Muslim racism" keeps the focus on structures and choices.

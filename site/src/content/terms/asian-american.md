@@ -36,7 +36,7 @@ guidance:
     recommendation: "use"
     quote: "Asian American/Pacific Islander, AAPI — Ideally refer to a more specific identity when that information is available."
     quote_loc: "p. 12, Racial and Ethnic Identity → Preferred Terms for Racial Identity (AAPI entry)"
-    paraphrase: "Sierra Club's only stated rule on AAPI is the specificity preference — when a more specific identity is available (Korean American, Vietnamese American, Hmong American, Native Hawaiian, Samoan, Filipino American, etc.), use it. The AAPI umbrella is acceptable as a collective frame but not as a substitute for available individual or national-origin identification. Sits inside the broader 'capitalize racial/ethnic identifiers out of respect' rule from the section intro."
+    paraphrase: "Sierra Club's only stated rule on AAPI is the specificity preference: when a more specific identity is available (Korean American, Vietnamese American, Hmong American, Native Hawaiian, Samoan, Filipino American, etc.), use it. The AAPI umbrella is acceptable as a collective frame but not as a substitute for available individual or national-origin identification. Sits inside the broader 'capitalize racial/ethnic identifiers out of respect' rule from the section intro."
     confidence: "VERIFIED-ARCHIVED"
 
   - org: "Native Governance Center"
@@ -48,7 +48,7 @@ guidance:
     recommendation: "use"
     quote: "Capitalize other racial and ethnic identifiers, such as Asian and Latinx."
     quote_loc: "p. 4, References to Racial, Ethnic, Cultural (and Political) Groups"
-    paraphrase: "NGC uses 'Asian' as its example of a capitalized ethnic identifier alongside Latinx. The guide doesn't engage Asian American as a term separately — its focus is Indigenous terminology, and Asian appears in the capitalization rule as a parallel category, not as a primary topic."
+    paraphrase: "NGC uses 'Asian' as its example of a capitalized ethnic identifier alongside Latinx. The guide doesn't engage Asian American as a term separately: its focus is Indigenous terminology, and Asian appears in the capitalization rule as a parallel category, not as a primary topic."
     confidence: "VERIFIED-ARCHIVED"
 
   - org: "Diversity Style Guide"
@@ -60,7 +60,7 @@ guidance:
     recommendation: "use"
     quote: "Asian American is the proper term for people who come from Asia or descend from people who lived in Asia. Do not hyphenate. … You may use the umbrella term South Asian to refer to Indians, Pakistanis and Bangladeshis."
     quote_loc: "Asian American entry (lines 466–469 in archived markdown)"
-    paraphrase: "DSG's rule is tight: 'Asian American' is the proper term, no hyphen, ask for self-ID when possible. Provides the sub-umbrella structure used across the U.S. — South Asian (India, Pakistan, Bangladesh), East Asian (China, Japan, Korea, Vietnam). The separate 'Asian' entry flags 'Caution. A term as broad as European.' — useful for distinguishing U.S. 'Asian American' usage from UK 'Asian' usage (which centers South Asian)."
+    paraphrase: "DSG's rule is tight: 'Asian American' is the proper term, no hyphen, ask for self-ID when possible. Provides the sub-umbrella structure used across the U.S.: South Asian (India, Pakistan, Bangladesh), East Asian (China, Japan, Korea, Vietnam). The separate 'Asian' entry flags 'Caution. A term as broad as European.': useful for distinguishing U.S. 'Asian American' usage from UK 'Asian' usage (which centers South Asian)."
     confidence: "VERIFIED"
 
   - org: "Annie E. Casey Foundation"
@@ -72,7 +72,7 @@ guidance:
     recommendation: "use"
     quote: "For nouns: African American, Asian American, black, Hispanic, Latino, Native American, non-Hispanic white, white (do not use Caucasian) …"
     quote_loc: "p. 14, Race and Ethnicity"
-    paraphrase: "Casey 2013 lists 'Asian American' (no hyphen) in the approved-nouns list. Pre-dates the major contested-terminology debates around AAPI, AANHPI, and the post-2020 Stop AAPI Hate-era reframing — Casey's posture is the stable baseline; later guides build on top of it."
+    paraphrase: "Casey 2013 lists 'Asian American' (no hyphen) in the approved-nouns list. Pre-dates the major contested-terminology debates around AAPI, AANHPI, and the post-2020 Stop AAPI Hate-era reframing: Casey's posture is the stable baseline; later guides build on top of it."
     confidence: "VERIFIED-ARCHIVED"
 
   - org: "SEIU"
@@ -83,8 +83,8 @@ guidance:
     local_archive: "source-guides/SEIU Stylebook Jan 2020.pdf"
     recommendation: "use"
     quote: "Oriental [Do not use.] Correct: Asian"
-    quote_loc: "p. 22 — A-to-Z word style"
-    paraphrase: "SEIU prescribes 'Asian' as the correct term and explicitly rejects 'Oriental.' Compact but matches every other guide in the corpus that addresses the pair — DSG, AECF, AAJA, and the 1976 Department of Education prohibition all converge on Asian as the prescribed form. SEIU does not separately address 'Asian American' as distinct from 'Asian'; the 2020 entry assumes the umbrella default."
+    quote_loc: "p. 22: A-to-Z word style"
+    paraphrase: "SEIU prescribes 'Asian' as the correct term and explicitly rejects 'Oriental.' Compact but matches every other guide in the corpus that addresses the pair: DSG, AECF, AAJA, and the 1976 Department of Education prohibition all converge on Asian as the prescribed form. SEIU does not separately address 'Asian American' as distinct from 'Asian'; the 2020 entry assumes the umbrella default."
     confidence: "VERIFIED-ARCHIVED"
 
 context_data:
@@ -96,7 +96,7 @@ context_data:
   - label: "AAJA stylebook update (August 2024)"
     claim: "Asian American Journalists Association released updated style guide guidance, including the rule that 'incarceration' (not 'internment') is the accurate term for what happened to Japanese Americans during WWII."
     url: "https://www.aaja.org/2024/08/07/incarceration-not-internment-aaja-launches-new-style-guide/"
-    relevance: "AAJA is the authoritative U.S. source on Asian American terminology in journalism, parallel to NABJ for Black/African American coverage. Their 2024 update sharpens several long-standing terminology decisions — particularly around WWII historical framing — that other guides have lagged on."
+    relevance: "AAJA is the authoritative U.S. source on Asian American terminology in journalism, parallel to NABJ for Black/African American coverage. Their 2024 update sharpens several long-standing terminology decisions: particularly around WWII historical framing: that other guides have lagged on."
 
   - label: "Federal prohibition of 'Oriental' (May 2016)"
     claim: "President Obama signed H.R. 4238 removing 'Oriental' and other outdated racial terms from federal law, replacing 'Oriental' with 'Asian American' in federal statute."
@@ -109,7 +109,7 @@ audience_notes:
   - audience: "AAPI vs. AANHPI vs. APIA"
     note: "AAPI (Asian American and Pacific Islander) is the most common contemporary umbrella. AANHPI (Asian American, Native Hawaiian, and Pacific Islander) makes the Census distinction visible and is preferred by some Pacific Islander advocates because AAPI can read as Asian-American-dominant. APIA (Asian Pacific Islander American) is an older form, less common in current usage but still seen in established organization names."
   - audience: "South Asian / Brown identity"
-    note: "South Asian (Indian, Pakistani, Bangladeshi, Sri Lankan, Nepalese, Bhutanese, Maldivian) is a U.S. sub-umbrella that some South Asian Americans use and others find inadequate — particularly when 'Brown' is the operative identity category. In UK usage, 'Asian' centers South Asian by default, which differs from U.S. 'Asian American' centering East Asian by default."
+    note: "South Asian (Indian, Pakistani, Bangladeshi, Sri Lankan, Nepalese, Bhutanese, Maldivian) is a U.S. sub-umbrella that some South Asian Americans use and others find inadequate: particularly when 'Brown' is the operative identity category. In UK usage, 'Asian' centers South Asian by default, which differs from U.S. 'Asian American' centering East Asian by default."
   - audience: "Pacific Islander / Native Hawaiian distinction"
     note: "Native Hawaiian is a distinct racial category federally and a distinct political category as an Indigenous people of the United States with sovereignty claims tied to the overthrow of the Hawaiian Kingdom in 1893. Use 'Native Hawaiian' specifically when applicable; don't fold under 'Pacific Islander' or AAPI when Hawaiian sovereignty or Indigenous status is the relevant frame. See also Sierra Club's 'Hawai'ian Native' entry."
   - audience: "Oriental"

@@ -26,8 +26,8 @@ guidance:
     recommendation: "avoid"
     derived_from: []
     quote: "female to male… assigned female at birth (AFAB)… male to female… assigned male at birth (AMAB)"
-    quote_loc: "p. 33, table — Term to Avoid / Suggested Alternative"
-    paraphrase: "APA lists both directional forms among terms to avoid, pointing instead to the assigned-sex-at-birth framing — \"assigned female at birth (AFAB)\" for female to male and \"assigned male at birth (AMAB)\" for male to female."
+    quote_loc: "p. 33, table: Term to Avoid / Suggested Alternative"
+    paraphrase: "APA lists both directional forms among terms to avoid, pointing instead to the assigned-sex-at-birth framing: \"assigned female at birth (AFAB)\" for female to male and \"assigned male at birth (AMAB)\" for male to female."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Trans Journalists Association"
     org_slug: "tja"
@@ -60,7 +60,7 @@ audience_notes:
   - audience: "Journalists and editors"
     note: "default to trans man / trans woman, and identify a news subject simply as a man or a woman unless transgender status is relevant to the story. NLGJA and TJA both treat FTM/MTF as forms to retire in current copy."
   - audience: "When the person uses the term"
-    note: "self-identification is primary. If someone describes themselves as FTM or MTF, use their word — the guidance to retire these forms governs the writer's framing, not the subject's own language."
+    note: "self-identification is primary. If someone describes themselves as FTM or MTF, use their word: the guidance to retire these forms governs the writer's framing, not the subject's own language."
   - audience: "Choosing a replacement"
     note: "trans man / trans woman name the gender a person is; AFAB / AMAB (APA's preference) and transmasculine / transfeminine (TJA's) name the assigned-at-birth axis. Pick the framing the context actually needs rather than swapping one directional shorthand for another."
 last_reviewed: 2026-06-05
@@ -71,7 +71,7 @@ contributors:
 
 ## Synthesis
 
-The two paired directional terms — FTM / female-to-male and MTF / male-to-female — both name a trans person by their sex assigned at birth, and the three kept sources agree closely on how to treat them. The Trans Journalists Association (updated 2023-08-25), the American Psychological Association (2023), and NLGJA — The Association of LGBTQ Journalists (2025) all place the forms in the "avoid" column. None treats the construction as wrong to understand; each points past it to a now-standard alternative.
+The two paired directional terms: FTM / female-to-male and MTF / male-to-female: both name a trans person by their sex assigned at birth, and the three kept sources agree closely on how to treat them. The Trans Journalists Association (updated 2023-08-25), the American Psychological Association (2023), and NLGJA: The Association of LGBTQ Journalists (2025) all place the forms in the "avoid" column. None treats the construction as wrong to understand; each points past it to a now-standard alternative.
 
 The sources differ only in which replacement they foreground. APA pairs the directional terms with the assigned-sex-at-birth framing, "assigned female at birth (AFAB)" and "assigned male at birth (AMAB)." TJA points to transfeminine and transmasculine as the current equivalents. NLGJA routes writers to trans man and trans woman, folding the note about FTM/MTF into those preferred entries. These are three angles on the same identity rather than competing positions: AFAB/AMAB names the assigned axis, transmasculine/transfeminine names a broader gender register, and trans man / trans woman names the gender itself.
 

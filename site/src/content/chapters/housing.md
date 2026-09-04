@@ -5,4 +5,4 @@ lede: "Terms around homelessness, unhoused experience, and housing insecurity. P
 stub: true
 ---
 
-*Chapter stub — content pending.* This page exists so terms categorized under `housing` can resolve to a chapter. Lede, cross-cutting principles, and term list will be filled in as the chapter is populated.
+*Chapter stub: content pending.* This page exists so terms categorized under `housing` can resolve to a chapter. Lede, cross-cutting principles, and term list will be filled in as the chapter is populated.

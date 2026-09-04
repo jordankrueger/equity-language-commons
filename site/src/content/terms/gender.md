@@ -27,7 +27,7 @@ guidance:
     derived_from: []
     quote: "Gender is a social and psychological experience of self, distinct from sex, which refers to biological characteristics. Both are typically assigned at birth, based on visible anatomy, but that assignment may not align with a person's actual gender identity."
     quote_loc: "Gender, Gender Identity section → \"Gender and gender identity are distinct concepts\""
-    paraphrase: "NLGJA's distinctive move is operational: it explains that both sex and gender are typically assigned at birth from visible anatomy, then flags that this single anatomy-based assignment can split — the assigned sex and the actual gender identity need not align. Its companion \"sex\" entry (male, female, or intersex) carries the matching rule that sex is \"not synonymous with gender.\""
+    paraphrase: "NLGJA's distinctive move is operational: it explains that both sex and gender are typically assigned at birth from visible anatomy, then flags that this single anatomy-based assignment can split: the assigned sex and the actual gender identity need not align. Its companion \"sex\" entry (male, female, or intersex) carries the matching rule that sex is \"not synonymous with gender.\""
     confidence: "VERIFIED-ARCHIVED"
   - org: "Trans Journalists Association"
     org_slug: "tja"
@@ -39,7 +39,7 @@ guidance:
     derived_from: []
     quote: "A person's sex is a biological condition determined by primary and secondary sex characteristics, and may be male, female, or neither (see intersex). Sex is not synonymous with gender, which is a social and personal identity."
     quote_loc: "Glossary → \"sex (n.)\" (updated 2023-08-25)"
-    paraphrase: "TJA is the entry that approaches the distinction from the sex side and admits a third value — sex may be \"male, female, or neither\" (intersex), not a clean binary. Rather than dwell on defining gender, it routes readers to \"assigned sex at birth,\" the framing it prefers over \"biological sex.\""
+    paraphrase: "TJA is the entry that approaches the distinction from the sex side and admits a third value: sex may be \"male, female, or neither\" (intersex), not a clean binary. Rather than dwell on defining gender, it routes readers to \"assigned sex at birth,\" the framing it prefers over \"biological sex.\""
     confidence: "VERIFIED-ARCHIVED"
   - org: "American Psychological Association"
     org_slug: "apa"
@@ -51,7 +51,7 @@ guidance:
     derived_from: []
     quote: "The spectrum of masculinity, femininity, gender expansive, and nonbinary status that includes expression, identity, behavior, and sociocultural constructions. … Sex usually refers to biological features … whereas gender is \"a set of socially constructed roles, behaviors, activities, and attributes that a given society considers appropriate\" …"
     quote_loc: "Sexual Orientation and Gender Diversity → \"gender\" entry, p. 29"
-    paraphrase: "APA goes further than the other two: where they call gender \"distinct from sex,\" APA models it as a spectrum (masculinity, femininity, gender-expansive, nonbinary) rather than a pair of options, and casts it as socially constructed roles a given society deems appropriate. Its worked example decodes the difference in practice — \"I am a cisgender woman\" (gender) versus \"I was born a female\" (sex)."
+    paraphrase: "APA goes further than the other two: where they call gender \"distinct from sex,\" APA models it as a spectrum (masculinity, femininity, gender-expansive, nonbinary) rather than a pair of options, and casts it as socially constructed roles a given society deems appropriate. Its worked example decodes the difference in practice: \"I am a cisgender woman\" (gender) versus \"I was born a female\" (sex)."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []
@@ -60,9 +60,9 @@ audience_notes:
   - audience: "Journalists and editors"
     note: "Gender and sex are not the same thing, and the sources ask writers to be precise about which one a story is addressing. Use \"gender\" for the social and personal experience of self; reserve sex terms for biological characteristics, and prefer \"assigned sex at birth\" over \"biological sex\" outside quoted scientific or legal language."
   - audience: "When a story conflates the two"
-    note: "NLGJA's rule is to be precise — \"same-sex/different-sex\" and \"same-gender/different-gender\" can carry different meanings in stories about marriage or relationships. When the distinction matters, separate sex assigned at birth, gender identity, and gender expression rather than collapsing them into one word."
+    note: "NLGJA's rule is to be precise: \"same-sex/different-sex\" and \"same-gender/different-gender\" can carry different meanings in stories about marriage or relationships. When the distinction matters, separate sex assigned at birth, gender identity, and gender expression rather than collapsing them into one word."
   - audience: "Advocates and internal comms"
-    note: "Treat \"gender\" as an evolving, contested concept the way the sources do — APA frames it as a spectrum, not a binary, and recommends affirming how communities and individuals describe themselves. Self-identification is primary; lead with how a person identifies rather than with an assigned category."
+    note: "Treat \"gender\" as an evolving, contested concept the way the sources do: APA frames it as a spectrum, not a binary, and recommends affirming how communities and individuals describe themselves. Self-identification is primary; lead with how a person identifies rather than with an assigned category."
 last_reviewed: 2026-06-07
 created: 2026-06-07
 contributors:

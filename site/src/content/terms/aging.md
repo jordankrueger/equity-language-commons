@@ -47,7 +47,7 @@ guidance:
     derived_from: []
     quote: "An ongoing, all-inclusive process rather than a label placed on older, frail adults."
     quote_loc: "Glossary entry, \"aging\""
-    paraphrase: "This is the only source on the page that defines \"aging\" as a standalone headword — GCJT and Sierra Club reach the word through framing guidance instead. The recommendation is \"use\": aging is the neutral, usable term, and the one trap is letting it quietly stand in for \"old\" or \"frail.\""
+    paraphrase: "This is the only source on the page that defines \"aging\" as a standalone headword: GCJT and Sierra Club reach the word through framing guidance instead. The recommendation is \"use\": aging is the neutral, usable term, and the one trap is letting it quietly stand in for \"old\" or \"frail.\""
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []
@@ -61,13 +61,13 @@ contributors:
 
 ## Synthesis
 
-**The three sources that treat "aging" agree: it is a process, not a label.** The Diversity Style Guide puts it most plainly — aging is "an ongoing, all-inclusive process rather than a label placed on older, frail adults." GCJT says the same in coverage guidance: aging "is a natural process and begins at conception," so writing about it should distinguish chronological from biological age and recognize that people age "at different rates in different contexts" rather than as one undifferentiated group.
+**The three sources that treat "aging" agree: it is a process, not a label.** The Diversity Style Guide puts it most plainly: aging is "an ongoing, all-inclusive process rather than a label placed on older, frail adults." GCJT says the same in coverage guidance: aging "is a natural process and begins at conception," so writing about it should distinguish chronological from biological age and recognize that people age "at different rates in different contexts" rather than as one undifferentiated group.
 
-Where [elderly](/terms/elderly/) is a descriptor the guides want handled carefully and [ageism](/terms/ageism/) is the structure they want named, "aging" is the neutral, usable word for the thing itself — as long as it isn't quietly turned into a synonym for decline. Sierra Club adds an intersectional caution: aging is read differently along gender lines, with women facing "harsher social penalties for aging visibly." Its test for writers is to ask whether you would mention a woman's age if she were a man.
+Where [elderly](/terms/elderly/) is a descriptor the guides want handled carefully and [ageism](/terms/ageism/) is the structure they want named, "aging" is the neutral, usable word for the thing itself: as long as it isn't quietly turned into a synonym for decline. Sierra Club adds an intersectional caution: aging is read differently along gender lines, with women facing "harsher social penalties for aging visibly." Its test for writers is to ask whether you would mention a woman's age if she were a man.
 
-This is the thinnest page in the chapter — only the Diversity Style Guide defines "aging" as a headword, while GCJT and Sierra Club reach it through framing guidance rather than a standalone entry. The three converge: aging is a lifelong, universal process, and the equity guidance is not to collapse it into "old," "frail," or "declining."
+This is the thinnest page in the chapter: only the Diversity Style Guide defines "aging" as a headword, while GCJT and Sierra Club reach it through framing guidance rather than a standalone entry. The three converge: aging is a lifelong, universal process, and the equity guidance is not to collapse it into "old," "frail," or "declining."
 
 ## Audience notes
 
-- **Journalists and editors.** "Aging" is fine as a neutral process word. The trap is using it to mean decline — keep it descriptive ("an aging population") rather than evaluative.
+- **Journalists and editors.** "Aging" is fine as a neutral process word. The trap is using it to mean decline: keep it descriptive ("an aging population") rather than evaluative.
 - **Advocates and internal comms.** Apply Sierra Club's gender test: would you note this person's age if their gender were different? Aging is policed unevenly, and visibly-aging women bear most of the penalty.

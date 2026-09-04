@@ -69,7 +69,7 @@ guidance:
     recommendation: "use"
     quote: "A person emotionally, romantically or sexually attracted to more than one gender, though not necessarily simultaneously, in the same way or to the same degree …"
     quote_loc: "Glossary, Bisexual entry"
-    paraphrase: "HRC defines bisexual as attraction to more than one gender, and notes the attraction can vary in form and degree — same person, different periods of life, different intensities. The companion Biphobia entry names 'the fear and hatred of, or discomfort with, people who love and are sexually attracted to more than one gender,' framing bisexual erasure as its own form of prejudice distinct from homophobia."
+    paraphrase: "HRC defines bisexual as attraction to more than one gender, and notes the attraction can vary in form and degree: same person, different periods of life, different intensities. The companion Biphobia entry names 'the fear and hatred of, or discomfort with, people who love and are sexually attracted to more than one gender,' framing bisexual erasure as its own form of prejudice distinct from homophobia."
     confidence: "VERIFIED-ARCHIVED"
 
   - org: "NLGJA: The Association of LGBTQ+ Journalists"
@@ -104,6 +104,6 @@ SumOfUs's framing on **bisexual erasure** is the strongest activist-side claim i
 
 ## Audience notes
 
-- **Journalists.** Don't switch between "gay" and "bisexual" based on a subject's current relationship. A bisexual woman in a relationship with a woman is bisexual, not lesbian; a bisexual man in a relationship with a woman is bisexual, not straight. Use the term the subject uses for themselves. Apply NLGJA's "no hyphen" rule consistently — "bisexual," not "bi-sexual."
-- **Movement writing and coalition language.** Bisexual erasure is the specific framing the corpus offers: when LGBTQ+ communities are described in coalition-style language, ensure "B" isn't dropped from acronyms or collapsed into "gay." SumOfUs's rule extends across coalition writing — name the specific identities being referred to rather than the umbrella when the specifics matter.
+- **Journalists.** Don't switch between "gay" and "bisexual" based on a subject's current relationship. A bisexual woman in a relationship with a woman is bisexual, not lesbian; a bisexual man in a relationship with a woman is bisexual, not straight. Use the term the subject uses for themselves. Apply NLGJA's "no hyphen" rule consistently: "bisexual," not "bi-sexual."
+- **Movement writing and coalition language.** Bisexual erasure is the specific framing the corpus offers: when LGBTQ+ communities are described in coalition-style language, ensure "B" isn't dropped from acronyms or collapsed into "gay." SumOfUs's rule extends across coalition writing: name the specific identities being referred to rather than the umbrella when the specifics matter.
 - **Adjective default; "bi" is acceptable shorthand.** NLGJA accepts both noun and adjective forms; DSG uses adjective primarily ("bisexual people"). "Bi" as a self-description is widely accepted in the corpus and in current usage. Don't expand "bi" to "bisexual" inside a direct quote without preserving the original.

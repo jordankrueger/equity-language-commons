@@ -48,7 +48,7 @@ guidance:
     derived_from: []
     quote: "Trans woman, trans man"
     quote_loc: "\"Avoid / Instead\" table, p. 10 (Instead column)"
-    paraphrase: "DCFPI's inclusive-language table lists \"trans woman, trans man\" in its \"Instead\" (preferred) column, opposite avoided forms such as \"Transgendered\" and \"Tranny\" — endorsing the open two-word construction as the term to use."
+    paraphrase: "DCFPI's inclusive-language table lists \"trans woman, trans man\" in its \"Instead\" (preferred) column, opposite avoided forms such as \"Transgendered\" and \"Tranny\": endorsing the open two-word construction as the term to use."
     confidence: "VERIFIED-ARCHIVED"
   - org: "SumOfUs"
     org_slug: "sumofus"
@@ -60,16 +60,16 @@ guidance:
     derived_from: []
     quote: "Terms used by sex and gender identity justice activists … trans woman, trans man … transgender (adj.) … transgender people"
     quote_loc: "\"Terms used by sex and gender identity justice activists\" list, p. 16"
-    paraphrase: "SumOfUs is the earliest source on the page (2016) and the one that treats \"trans woman\" as a plain in-group preferred term — no relevance test, no spelling caveat, no disclosure rule. Those refinements arrive later with the journalism stylebooks; here the term simply sits on a \"say this\" list."
+    paraphrase: "SumOfUs is the earliest source on the page (2016) and the one that treats \"trans woman\" as a plain in-group preferred term: no relevance test, no spelling caveat, no disclosure rule. Those refinements arrive later with the journalism stylebooks; here the term simply sits on a \"say this\" list."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []
 methodological_context: []
 audience_notes:
   - audience: "Journalists and editors"
-    note: "Spell it as two words — \"trans woman\" — never the closed compound \"transwoman,\" which TJA flags as recently adopted by anti-trans groups. Per NLGJA, name a subject's trans status only when it is relevant to the story and the subject prefers it; otherwise just \"woman.\" \"MTF\" / \"male-to-female\" is dated."
+    note: "Spell it as two words: \"trans woman\": never the closed compound \"transwoman,\" which TJA flags as recently adopted by anti-trans groups. Per NLGJA, name a subject's trans status only when it is relevant to the story and the subject prefers it; otherwise just \"woman.\" \"MTF\" / \"male-to-female\" is dated."
   - audience: "Activists and movement communicators"
-    note: "The progressive guides (SumOfUs, DCFPI) list \"trans woman\" plainly among preferred, in-group terms — no hedging on the term itself. Self-identification governs: use it for someone who identifies this way."
+    note: "The progressive guides (SumOfUs, DCFPI) list \"trans woman\" plainly among preferred, in-group terms: no hedging on the term itself. Self-identification governs: use it for someone who identifies this way."
   - audience: "When trans status isn't the story"
     note: "All four sources point the same way: a trans woman is a woman. Unless being trans is materially relevant to what you're writing, the right word is simply \"woman.\""
 last_reviewed: 2026-06-07
@@ -82,7 +82,7 @@ contributors:
 
 All four sources land in the same place on the term itself: **"trans woman" is
 the standard, preferred construction, and it is two words.** TJA defines it
-simply — "a woman who is trans" — with *trans* modifying the broader category
+simply: "a woman who is trans", with *trans* modifying the broader category
 of *woman*. SumOfUs and DCFPI both list "trans woman, trans man" in their
 preferred-terms columns, and NLGJA enters the same term under its
 "transgender woman" headword, noting it is usually shortened to "trans woman."
@@ -93,7 +93,7 @@ and should not appear in news copy.
 
 The sources differ in register, not substance. The two progressive
 equity guides (SumOfUs 2016, DCFPI 2017) treat "trans woman" as an unqualified
-in-group preferred term — it sits on a "say this" list with no caveats. NLGJA
+in-group preferred term: it sits on a "say this" list with no caveats. NLGJA
 adds a newsroom relevance test: it advises naming someone as a trans woman only when she prefers it
 *and* her transgender status is relevant to the story, otherwise identifying
 her simply as a woman. That is a difference of audience, an activist

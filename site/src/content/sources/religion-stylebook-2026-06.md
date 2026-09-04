@@ -33,7 +33,7 @@ guide agree on usage (as they do on *anti-Semitism* and on distinguishing
 *Islam* from *Islamist*), the agreement carries weight because the
 two kinds of source reach it from different starting points.
 
-The commons archives the **Judaism and Islam category entries** specifically —
+The commons archives the **Judaism and Islam category entries** specifically :
 they anchor the Faith & Religious Identity chapter and stand behind terms such
 as *jew*, *islam*, *muslim*, and *nation-of-islam*. The stylebook's other
 categories (Christianity, Eastern religions, and general religion) are outside

@@ -16,7 +16,7 @@ format: "markdown"
 
 ## About
 
-**World Food Program USA (WFP USA)** is the U.S.-based nonprofit that supports the United Nations World Food Programme's work fighting global hunger. Its 2022 article *Writing with Dignity* is not a standalone style guide but a piece of guidance on portraying the people WFP serves — refugees, families, and communities facing hunger — with dignity rather than as objects of pity.
+**World Food Program USA (WFP USA)** is the U.S.-based nonprofit that supports the United Nations World Food Programme's work fighting global hunger. Its 2022 article *Writing with Dignity* is not a standalone style guide but a piece of guidance on portraying the people WFP serves: refugees, families, and communities facing hunger, with dignity rather than as objects of pity.
 
 In the commons it is a partial-scope source, contributing dignity-in-framing guidance.
 

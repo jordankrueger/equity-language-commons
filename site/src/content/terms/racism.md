@@ -26,7 +26,7 @@ guidance:
     derived_from: []
     quote: "Racism, in order to be dismantled, must be uprooted at every level, from the foundations of institutions that dictate the practices and policies enacted by personnel to the attitudes and beliefs that we reinforce through repeated social interactions and deeply internalized messages."
     quote_loc: "Race & Ethnicity, \"Structural and cultural anti-racism framework\""
-    paraphrase: "SumOfUs frames racism as operating at every level at once — institutional practices and policies down to individual attitudes and internalized messages — and treats the writer's job as language that helps dismantle it at all of those levels rather than naming it only as personal bias."
+    paraphrase: "SumOfUs frames racism as operating at every level at once: institutional practices and policies down to individual attitudes and internalized messages, and treats the writer's job as language that helps dismantle it at all of those levels rather than naming it only as personal bias."
     confidence: "VERIFIED-ARCHIVED"
   - org: "DC Fiscal Policy Institute"
     org_slug: "dcfpi"
@@ -38,7 +38,7 @@ guidance:
     derived_from: []
     quote: "These beliefs and behaviors are conscious and unconscious, personal and institutional, and result in the oppression or people of color and benefit the dominant group, white people. A simple definition is: Racism= racial prejudice + power"
     quote_loc: "Empowering Language glossary, \"Racism\" entry"
-    paraphrase: "DCFPI defines racism as a system spanning conscious and unconscious, personal and institutional levels, and offers the compact formula \"Racism = racial prejudice + power.\" Its separate \"Prejudice\" entry defines prejudice as an unjustifiable negative attitude — making clear, by contrast, that racism is prejudice plus the structural power to enforce it."
+    paraphrase: "DCFPI defines racism as a system spanning conscious and unconscious, personal and institutional levels, and offers the compact formula \"Racism = racial prejudice + power.\" Its separate \"Prejudice\" entry defines prejudice as an unjustifiable negative attitude: making clear, by contrast, that racism is prejudice plus the structural power to enforce it."
     confidence: "VERIFIED-ARCHIVED"
   - org: "SEIU"
     org_slug: "seiu"
@@ -50,7 +50,7 @@ guidance:
     derived_from: []
     quote: "interpersonal racism [Interactions and behaviors with other people that are influenced by our private beliefs about race. It's when people act upon their prejudice or unconscious bias, with or without intent.]"
     quote_loc: "Bilingual glossary, \"interpersonal racism\" entry"
-    paraphrase: "SEIU's bilingual stylebook gives short definitional entries for the forms of racism. Its \"interpersonal racism\" entry ties the term to acting on private beliefs, prejudice, or unconscious bias \"with or without intent\" — locating racism in behavior and effect rather than only in conscious hostility."
+    paraphrase: "SEIU's bilingual stylebook gives short definitional entries for the forms of racism. Its \"interpersonal racism\" entry ties the term to acting on private beliefs, prejudice, or unconscious bias \"with or without intent\": locating racism in behavior and effect rather than only in conscious hostility."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Sierra Club"
     org_slug: "sierra-club"
@@ -74,7 +74,7 @@ guidance:
     derived_from: []
     quote: "A system of power that structures opportunity and assigns value to people based on their ancestry and phenotypic properties … It encompasses interpersonal interactions involving racial discrimination, cultural imagery, and harmful stereotypes of people of color and macrolevel policies and practices that systematically disadvantage people of color …"
     quote_loc: "Glossary, \"racism\" entry"
-    paraphrase: "APA defines racism as \"a system of power\" expressed at multiple levels — interpersonal discrimination through macrolevel policy — and catalogs cultural, institutional, structural, interpersonal, and internalized forms. Its separate \"prejudice\" entry states that \"prejudice based on racial grouping is racism,\" keeping the two terms distinct but linked."
+    paraphrase: "APA defines racism as \"a system of power\" expressed at multiple levels: interpersonal discrimination through macrolevel policy, and catalogs cultural, institutional, structural, interpersonal, and internalized forms. Its separate \"prejudice\" entry states that \"prejudice based on racial grouping is racism,\" keeping the two terms distinct but linked."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Racial Equity Tools"
     org_slug: "racial-equity-tools"
@@ -86,7 +86,7 @@ guidance:
     derived_from: []
     quote: "universally agreed upon language on issues relating to racism is nonexistent. We discovered that even the most frequently used words in any discussion on race can easily cause confusion, which leads to controversy and hostility. It is essential to achieve some degree of shared understanding …"
     quote_loc: "Glossary introduction"
-    paraphrase: "Racial Equity Tools opens its glossary by stating that there is no universally agreed-upon language on racism, and that even common terms cause confusion. It urges groups to build shared definitions deliberately while leaving room to disagree — treating the vocabulary of racism as contested rather than settled."
+    paraphrase: "Racial Equity Tools opens its glossary by stating that there is no universally agreed-upon language on racism, and that even common terms cause confusion. It urges groups to build shared definitions deliberately while leaving room to disagree: treating the vocabulary of racism as contested rather than settled."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Movement Strategy Center"
     org_slug: "movement"
@@ -105,7 +105,7 @@ external_references: []
 methodological_context: []
 audience_notes:
   - audience: "Journalists and editors"
-    note: "When sources disagree, name the level you mean. Most guides here define racism structurally (a system of power), so a one-off interpersonal slight is more precisely \"prejudice\" or \"bias.\" Reserve \"reverse racism\" with care — Sierra Club and Movement Strategy Center both reject it because the structural power dimension is absent."
+    note: "When sources disagree, name the level you mean. Most guides here define racism structurally (a system of power), so a one-off interpersonal slight is more precisely \"prejudice\" or \"bias.\" Reserve \"reverse racism\" with care: Sierra Club and Movement Strategy Center both reject it because the structural power dimension is absent."
   - audience: "Campaigners and organizers"
     note: "DCFPI's formula \"Racism = racial prejudice + power\" is a useful shorthand for the distinction these guides share. Use it to keep \"racism\" pointed at systems and outcomes rather than narrowing it to individual intent; SEIU is explicit that interpersonal racism operates \"with or without intent.\""
   - audience: "Internal comms and DEI writers"
@@ -119,7 +119,7 @@ contributors:
 ## Synthesis
 
 The sources converge on a structural definition of racism. DCFPI and Movement
-Strategy Center share near-identical language — racism as "a complex system of
+Strategy Center share near-identical language: racism as "a complex system of
 beliefs and behaviors, grounded in a presumed superiority of the white race,"
 conscious and unconscious, personal and institutional. APA frames it as "a
 system of power that structures opportunity," and Sierra Club anchors it to
@@ -142,7 +142,7 @@ bias "with or without intent."
 
 The divergence is about settledness rather than substance. Racial Equity Tools
 opens its glossary by stating that "universally agreed upon language on issues
-relating to racism is nonexistent" and that even common terms cause confusion —
+relating to racism is nonexistent" and that even common terms cause confusion :
 a deliberate caution against treating any single definition as final. The
 chronology runs from SumOfUs's 2016 movement-framing and DCFPI's 2017
 prejudice-plus-power formula through APA's 2023 multi-level taxonomy and

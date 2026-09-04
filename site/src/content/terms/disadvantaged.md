@@ -40,7 +40,7 @@ guidance:
     derived_from: []
     quote: "we've repeatedly seen language that refers to Black people as \"vulnerable,\" \"at risk,\" or in need of \"charity.\" This language, while well-meaning, portrays those being harmed as powerless, and shifts blame from the real actors"
     quote_loc: "Tip: Avoid language that deflects attention from the systems, structures, and leaders inflicting harm"
-    paraphrase: "Color of Change cautions that well-meaning labels like \"vulnerable,\" \"at risk,\" and in need of \"charity\" portray harmed Black people as powerless and shift blame away from the actors — corporations and leaders — actually causing the harm. It urges coverage that keeps the focus on those in power."
+    paraphrase: "Color of Change cautions that well-meaning labels like \"vulnerable,\" \"at risk,\" and in need of \"charity\" portray harmed Black people as powerless and shift blame away from the actors: corporations and leaders: actually causing the harm. It urges coverage that keeps the focus on those in power."
     confidence: "VERIFIED-ARCHIVED"
   - org: "SumOfUs"
     org_slug: "sumofus"
@@ -52,7 +52,7 @@ guidance:
     derived_from: []
     quote: "questioned by economic justice activists … at-risk … basic … classy … culture of poverty … disadvantaged"
     quote_loc: "Class section, two-column list, \"Terms avoided/questioned by economic justice activists\""
-    paraphrase: "SumOfUs places \"disadvantaged\" — alongside \"at-risk,\" \"basic,\" \"classy,\" and \"culture of poverty\" — in the column of terms avoided or questioned by economic justice activists, opposite preferred framings like \"low-income,\" \"economic opportunity,\" and \"people experiencing\" a given condition."
+    paraphrase: "SumOfUs places \"disadvantaged\": alongside \"at-risk,\" \"basic,\" \"classy,\" and \"culture of poverty\": in the column of terms avoided or questioned by economic justice activists, opposite preferred framings like \"low-income,\" \"economic opportunity,\" and \"people experiencing\" a given condition."
     confidence: "VERIFIED-ARCHIVED"
   - org: "American Psychological Association"
     org_slug: "apa"
@@ -78,7 +78,7 @@ contributors:
 
 ## Synthesis
 
-**The deficit descriptors — "disadvantaged," "underprivileged," "at-risk," "the poor," "the needy" — are rejected for locating the problem in the person rather than the system.** Sierra Club groups them on a single "do not use" list, treating them as framings that tie a person's worth to economic status. Color of Change says the same thing about the mechanism: well-meaning labels like "vulnerable," "at risk," and "in need of charity" "portray those being harmed as powerless, and shift blame from the real actors," the corporations and leaders actually causing harm. SumOfUs puts "disadvantaged" and "at-risk" among the terms "questioned by economic justice activists," opposite preferred framings like "low-income" and "people experiencing" a given condition.
+**The deficit descriptors: "disadvantaged," "underprivileged," "at-risk," "the poor," "the needy": are rejected for locating the problem in the person rather than the system.** Sierra Club groups them on a single "do not use" list, treating them as framings that tie a person's worth to economic status. Color of Change says the same thing about the mechanism: well-meaning labels like "vulnerable," "at risk," and "in need of charity" "portray those being harmed as powerless, and shift blame from the real actors," the corporations and leaders actually causing harm. SumOfUs puts "disadvantaged" and "at-risk" among the terms "questioned by economic justice activists," opposite preferred framings like "low-income" and "people experiencing" a given condition.
 
 The shared point is agency. Prefer specific, neutral economic descriptors ("low-income," "under-resourced," "people whose income is below the poverty line") and keep the blame on the systems and actors rather than the people affected. These terms are the adjective-level version of what "[classism](/terms/classism/)" names structurally.
 
@@ -86,6 +86,6 @@ APA marks the one boundary worth holding onto. It suggests replacing "the poor" 
 
 ## Audience notes
 
-- **Journalists and editors.** Replace "disadvantaged," "underprivileged," and "at-risk" with specific, neutral descriptors — "low-income," "under-resourced," "people whose income is below the poverty line." Keep the blame on the actors and systems, not the people harmed.
+- **Journalists and editors.** Replace "disadvantaged," "underprivileged," and "at-risk" with specific, neutral descriptors: "low-income," "under-resourced," "people whose income is below the poverty line." Keep the blame on the actors and systems, not the people harmed.
 - **Advocates and internal comms.** Charity framing ("vulnerable," "in need") portrays people as powerless; lead with their agency and name who holds the power.
-- **Self-identification governs.** "Poor" and "working class" are claimed with pride in organizing contexts — APA flags this directly. Follow how a community describes itself; the caution is about outsiders' deficit framing, not the words themselves.
+- **Self-identification governs.** "Poor" and "working class" are claimed with pride in organizing contexts: APA flags this directly. Follow how a community describes itself; the caution is about outsiders' deficit framing, not the words themselves.

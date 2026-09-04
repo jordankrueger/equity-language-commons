@@ -28,7 +28,7 @@ opinion, not a death sentence), myths about Islam, and practical etiquette for
 interacting with Muslim communities.
 
 On the commons' source spectrum this is an **identity-journalism accuracy
-guide** written by a community advocacy organization — closer in purpose to
+guide** written by a community advocacy organization: closer in purpose to
 the Religion Stylebook than to a progressive equity guide, but with the
 community's own voice on which mischaracterizations matter most. Readers
 should note that the guide quotes scripture and third-party sources (the AP
@@ -41,7 +41,7 @@ source for *muslim*, *islam*, *islamophobia*, and *nation-of-islam*.
 ## Access
 
 The guide is a free public PDF on CAIR's site (linked above) and was live as
-of the last check — the archived copy is byte-identical to the live file.
+of the last check: the archived copy is byte-identical to the live file.
 Host posture is **private-mirror-link-out**: the commons keeps a private
 preservation copy for citation verification and links readers to CAIR's
 authoritative version. Quotes are held within fair-use limits.

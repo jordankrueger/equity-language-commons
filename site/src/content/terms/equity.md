@@ -24,7 +24,7 @@ guidance:
     derived_from: []
     quote: "Equality … Approaching each individual with uniform treatment, often overlooking historical and structural imbalances that have favored some while disadvantaging others. … Equity … Recognizing each person has different circumstances and allocating the exact resources and opportunities needed to reach an equally positive outcome."
     quote_loc: "Glossary entries, \"Equality\" and \"Equity\""
-    paraphrase: "Movement Strategy Center defines the two side by side, which is what makes the distinction usable: equality is uniform treatment that can overlook historical and structural imbalance, while equity recognizes that people start from different circumstances and allocates the specific resources and opportunities each needs to reach an equally positive outcome. The contrast — same input vs. proportionate-to-need input — is the heart of the term."
+    paraphrase: "Movement Strategy Center defines the two side by side, which is what makes the distinction usable: equality is uniform treatment that can overlook historical and structural imbalance, while equity recognizes that people start from different circumstances and allocates the specific resources and opportunities each needs to reach an equally positive outcome. The contrast: same input vs. proportionate-to-need input: is the heart of the term."
     confidence: "VERIFIED-ARCHIVED"
   - org: "American Psychological Association"
     org_slug: "apa"
@@ -55,11 +55,11 @@ external_references: []
 methodological_context: []
 audience_notes:
   - audience: "Campaigners and advocacy writers"
-    note: "\"Equity\" and \"equality\" are not synonyms, and the sources are unanimous that the distinction matters. Equality = same treatment for everyone; equity = resources allocated to need so outcomes can be equal. Use the word that matches your actual claim — promising \"equality\" when you mean need-based allocation undersells the work."
+    note: "\"Equity\" and \"equality\" are not synonyms, and the sources are unanimous that the distinction matters. Equality = same treatment for everyone; equity = resources allocated to need so outcomes can be equal. Use the word that matches your actual claim: promising \"equality\" when you mean need-based allocation undersells the work."
   - audience: "Journalists and editors"
     note: "When a source uses \"equity\" and \"equality\" interchangeably, that's worth a clarifying question rather than a silent edit. SEIU's stylebook treats the two as distinct terms; if a quoted speaker means proportionate-to-need resourcing, \"equity\" is the precise word."
   - audience: "Internal comms and DEI/EDI work"
-    note: "The APA frames equity as an ongoing process — assessing needs, correcting historical inequalities, removing barriers — not a one-time fix or a destination. Avoid language that treats equity as a box to check; the source definitions describe continuous practice."
+    note: "The APA frames equity as an ongoing process: assessing needs, correcting historical inequalities, removing barriers: not a one-time fix or a destination. Avoid language that treats equity as a box to check; the source definitions describe continuous practice."
 last_reviewed: 2026-06-07
 created: 2026-06-07
 contributors:

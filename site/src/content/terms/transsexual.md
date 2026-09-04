@@ -47,7 +47,7 @@ guidance:
     derived_from: []
     quote: "Avoid this obsolete term for transgender unless the subject prefers it. Consider paraphrasing quotes containing the term, which may inaccurately imply a person has undergone gender-affirming surgery."
     quote_loc: "Gender, Gender Identity → transsexual"
-    paraphrase: "NLGJA's 2025 stylebook directs writers to transgender as the current term and notes that transsexual can wrongly imply a person has had gender-affirming surgery — recommending paraphrase of quotes that use it. The self-identification exception holds: use it when the subject prefers it."
+    paraphrase: "NLGJA's 2025 stylebook directs writers to transgender as the current term and notes that transsexual can wrongly imply a person has had gender-affirming surgery: recommending paraphrase of quotes that use it. The self-identification exception holds: use it when the subject prefers it."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Trans Journalists Association"
     org_slug: "tja"
@@ -59,7 +59,7 @@ guidance:
     derived_from: []
     quote: "Once the dominant word to describe someone who wants or seeks transgender medical care, this is now a more niche and intracommunity term. Some consider it outdated or offensive. It may be appropriate to include the word if quoting historical materials, or if someone self-describes in this manner."
     quote_loc: "Politicized or Inaccurate Phrases → transsexual (n., adj.)"
-    paraphrase: "TJA is the source that treats transsexual as a living word rather than only a dated one: where Sierra Club calls it a possible slur, TJA frames it as a niche, intracommunity term still in active self-description. Its neutral chronology — once dominant for someone seeking medical care, now narrowed — is what lets it name two specific licenses (historical quotation, self-description) instead of a blanket retire-it rule."
+    paraphrase: "TJA is the source that treats transsexual as a living word rather than only a dated one: where Sierra Club calls it a possible slur, TJA frames it as a niche, intracommunity term still in active self-description. Its neutral chronology: once dominant for someone seeking medical care, now narrowed: is what lets it name two specific licenses (historical quotation, self-description) instead of a blanket retire-it rule."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []
@@ -73,11 +73,11 @@ contributors:
 
 ## Synthesis
 
-**"Transsexual" is an older, clinically-rooted term that the current consensus has moved past in favor of "transgender" — use it only when a person uses it for themselves.** All four sources agree. The Trans Journalists Association gives the neutral chronology: it was "once the dominant word to describe someone who wants or seeks transgender medical care" and "is now a more niche and intracommunity term." NLGJA and the Diversity Style Guide both default to "transgender" unless the subject prefers "transsexual," noting it can carry "misleading medical connotations," the implication that transition is defined by surgery. Sierra Club takes the strongest position: it "may be considered a slur" and should never be used "unless specifically requested as a self-description."
+**"Transsexual" is an older, clinically-rooted term that the current consensus has moved past in favor of "transgender": use it only when a person uses it for themselves.** All four sources agree. The Trans Journalists Association gives the neutral chronology: it was "once the dominant word to describe someone who wants or seeks transgender medical care" and "is now a more niche and intracommunity term." NLGJA and the Diversity Style Guide both default to "transgender" unless the subject prefers "transsexual," noting it can carry "misleading medical connotations," the implication that transition is defined by surgery. Sierra Club takes the strongest position: it "may be considered a slur" and should never be used "unless specifically requested as a self-description."
 
 Two things drive the consensus. The term predates the current convention in which "transgender" is the umbrella and medical transition is neither required nor the defining feature, and it carries enough charge that self-identification is the only safe license. Where a quote uses it about someone who doesn't claim it, the guides suggest paraphrasing. It overlaps with [transgender](/terms/transgender/) but is not interchangeable with it.
 
 ## Audience notes
 
 - **Journalists and editors.** Default to "transgender." Use "transsexual" only in direct quotation or when the person self-identifies that way; consider paraphrasing quotes that apply it to someone who doesn't.
-- **Advocates and internal comms.** The term can read as reducing trans identity to medical procedures — "transgender" avoids that implication.
+- **Advocates and internal comms.** The term can read as reducing trans identity to medical procedures: "transgender" avoids that implication.

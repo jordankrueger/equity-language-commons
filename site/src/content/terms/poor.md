@@ -39,7 +39,7 @@ guidance:
     derived_from: []
     quote: "Terms avoided/ questioned by economic justice activists … in need, the needy … less fortunate … the poor … Terms used by economic justice activists … low-income (as an adjective) … people experiencing material poverty"
     quote_loc: "\"Economy\" issue area, terms-used vs. terms-avoided columns"
-    paraphrase: "What groups \"the poor\" with \"the needy\" and \"less fortunate\" here is the charity-and-pity register they share — language that positions people as objects of sympathy rather than agents. SumOfUs's tell is the parenthetical \"(as an adjective)\": the fix is grammatical as much as lexical, keeping \"low-income\" a modifier and never the whole of a person."
+    paraphrase: "What groups \"the poor\" with \"the needy\" and \"less fortunate\" here is the charity-and-pity register they share: language that positions people as objects of sympathy rather than agents. SumOfUs's tell is the parenthetical \"(as an adjective)\": the fix is grammatical as much as lexical, keeping \"low-income\" a modifier and never the whole of a person."
     confidence: "VERIFIED-ARCHIVED"
   - org: "DC Fiscal Policy Institute"
     org_slug: "dcfpi"
@@ -51,7 +51,7 @@ guidance:
     derived_from: []
     quote: "Our work and writing about poverty should always seek to frame issues with an agency lens, rather than depicting people living in poverty as helpless. We should always maintain affected people as the agents in their own story …"
     quote_loc: "\"Empowering Language\" principle + \"Poverty & Economic Justice\" avoid/instead table"
-    paraphrase: "DCFPI's guide pairs an avoid/instead table — \"Poor/poorest\" maps to \"People with low incomes,\" \"Low-income,\" or \"People with incomes below the poverty line\" — with an over-arching empowering-language principle: write about poverty with an agency lens, keep affected people as agents in their own story, and don't cast advocates as saviors."
+    paraphrase: "DCFPI's guide pairs an avoid/instead table: \"Poor/poorest\" maps to \"People with low incomes,\" \"Low-income,\" or \"People with incomes below the poverty line\", with an over-arching empowering-language principle: write about poverty with an agency lens, keep affected people as agents in their own story, and don't cast advocates as saviors."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Sierra Club"
     org_slug: "sierra-club"
@@ -87,18 +87,18 @@ guidance:
     derived_from: []
     quote: "Economy/Poverty … Avoid … Use This Instead … Poor/Poorest … Low income"
     quote_loc: "\"Economy/Poverty\" avoid/use table (\"Poor/Poorest\" row)"
-    paraphrase: "Movement Strategy Center's Economy/Poverty table maps \"Poor/Poorest\" to \"Low income,\" within a broader set of swaps (\"Disadvantaged\" to \"Disinvested,\" \"Vulnerable\" to \"people with incomes below the poverty line\"). Its framing is explicitly for transformative movement work — naming structural conditions rather than labeling people by deficit."
+    paraphrase: "Movement Strategy Center's Economy/Poverty table maps \"Poor/Poorest\" to \"Low income,\" within a broader set of swaps (\"Disadvantaged\" to \"Disinvested,\" \"Vulnerable\" to \"people with incomes below the poverty line\"). Its framing is explicitly for transformative movement work: naming structural conditions rather than labeling people by deficit."
     confidence: "VERIFIED-ARCHIVED"
 context_data: []
 external_references: []
 methodological_context: []
 audience_notes:
   - audience: "Journalists and editors"
-    note: "The consensus swap is person-first and income-specific: replace \"the poor\" / \"poor people\" with \"people living in poverty,\" \"people with low incomes,\" or — where you can — a concrete bracket like \"people with incomes below the federal poverty threshold\" (APA, DCFPI, Opportunity Agenda). The bare noun \"the poor\" reduces people to a condition; the adjective-plus-people construction keeps the person primary."
+    note: "The consensus swap is person-first and income-specific: replace \"the poor\" / \"poor people\" with \"people living in poverty,\" \"people with low incomes,\" or, where you can: a concrete bracket like \"people with incomes below the federal poverty threshold\" (APA, DCFPI, Opportunity Agenda). The bare noun \"the poor\" reduces people to a condition; the adjective-plus-people construction keeps the person primary."
   - audience: "Campaigners and advocacy communicators"
-    note: "DCFPI and Movement Strategy Center go past word-swaps to framing: write about poverty with an agency lens, keep affected people as the agents in their own story, name the structural barriers (low wages, disinvestment), and don't position advocates as saviors. SumOfUs and Sierra Club also retire the charity register — \"the needy,\" \"less fortunate,\" \"underprivileged\" — for the same reason."
+    note: "DCFPI and Movement Strategy Center go past word-swaps to framing: write about poverty with an agency lens, keep affected people as the agents in their own story, name the structural barriers (low wages, disinvestment), and don't position advocates as saviors. SumOfUs and Sierra Club also retire the charity register: \"the needy,\" \"less fortunate,\" \"underprivileged\": for the same reason."
   - audience: "When people self-identify as poor"
-    note: "Self-identification is primary. APA notes that while many find \"poor\" pejorative, class solidarity lives in \"poor people's movements\" and many people proudly claim \"working class.\" The avoid rules target outsider labeling, not how communities name themselves — follow the subject's own language."
+    note: "Self-identification is primary. APA notes that while many find \"poor\" pejorative, class solidarity lives in \"poor people's movements\" and many people proudly claim \"working class.\" The avoid rules target outsider labeling, not how communities name themselves: follow the subject's own language."
 last_reviewed: 2026-06-07
 created: 2026-06-07
 contributors:

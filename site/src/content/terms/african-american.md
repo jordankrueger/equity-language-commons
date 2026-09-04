@@ -51,7 +51,7 @@ guidance:
     local_archive: "source-guides/SEIU Stylebook Jan 2020.pdf"
     recommendation: "use"
     quote: "African American [no hyphen]"
-    quote_loc: "p. 6 — A-to-Z word style"
+    quote_loc: "p. 6: A-to-Z word style"
     paraphrase: "SEIU's compact entry settles the hyphenation question: African American is two words, no hyphen. Matches AP's 2019 retirement of the hyphenated form."
     confidence: "VERIFIED-ARCHIVED"
 
@@ -64,7 +64,7 @@ guidance:
     recommendation: "use"
     quote: "For nouns: African American, Asian American, black, Hispanic, Latino, Native American, non-Hispanic white, white (do not use Caucasian) …"
     quote_loc: "p. 14, Race and Ethnicity"
-    paraphrase: "Casey 2013 lists African American (no hyphen) parallel to Asian American, Hispanic, Latino, Native American — the standard pre-2020 'hyphenated-American' construction without the hyphen. Casey predates the 2020 AP capital-B Black shift; its lowercase 'black' alongside 'African American' reflects the era convention."
+    paraphrase: "Casey 2013 lists African American (no hyphen) parallel to Asian American, Hispanic, Latino, Native American: the standard pre-2020 'hyphenated-American' construction without the hyphen. Casey predates the 2020 AP capital-B Black shift; its lowercase 'black' alongside 'African American' reflects the era convention."
     confidence: "VERIFIED-ARCHIVED"
 
   - org: "Racial Equity Tools"
@@ -76,14 +76,14 @@ guidance:
     recommendation: "evolving"
     quote: "Whether to use the terms African American or Black, Hispanic American, Latinx or Latino, Native American or American Indian, and Pacific Islander or Asian American depends on a variety of conditions, including your intended audiences' geographic location, age, generation, and, sometimes, political orientation."
     quote_loc: "Introductory framing note (lines 91–95 in archived markdown)"
-    paraphrase: "RET is the only source on this page that routes the choice to audience rather than to the individual: where Sierra Club and DSG say ask the person, RET frames it as an audience-segmentation call — geography, age, generation, sometimes political orientation. That, plus its \"evolving\" marking, is why it offers no house default, and it generalizes the same logic across the other racial-identity pairs (Latino/Hispanic, American Indian/Native American, Asian American/Pacific Islander)."
+    paraphrase: "RET is the only source on this page that routes the choice to audience rather than to the individual: where Sierra Club and DSG say ask the person, RET frames it as an audience-segmentation call: geography, age, generation, sometimes political orientation. That, plus its \"evolving\" marking, is why it offers no house default, and it generalizes the same logic across the other racial-identity pairs (Latino/Hispanic, American Indian/Native American, Asian American/Pacific Islander)."
     confidence: "VERIFIED"
 
 context_data:
   - label: "Gallup race-preference polling (1991–2019)"
     claim: "Across multiple polls, roughly half to two-thirds of Black / African American respondents reported no preference between the two terms. In the 2019 poll, those with a preference split evenly between the two."
     url: "https://news.gallup.com/poll/315566/black-americans-no-preference-black-african-american.aspx"
-    relevance: "Same data underpinning the Black entry. Confirms that neither term can be defaulted-to without sometimes mis-identifying — the most-with-no-preference makes either acceptable; the evenly-split-with-preference makes neither the safe default."
+    relevance: "Same data underpinning the Black entry. Confirms that neither term can be defaulted-to without sometimes mis-identifying: the most-with-no-preference makes either acceptable; the evenly-split-with-preference makes neither the safe default."
 
 audience_notes:
   - audience: "Recent African immigrants and their U.S.-born children"
@@ -93,7 +93,7 @@ audience_notes:
   - audience: "Older / Boomer generation"
     note: "Often skews toward 'African American' as the contemporary respectful term that supplanted earlier vocabulary. Jesse Jackson's 1980s popularization is the generational anchor."
   - audience: "Younger / movement contexts"
-    note: "Often skews toward 'Black' — both for the politicized post-2013 Black Lives Matter framing and because 'Black' makes no national-origin claim. The June 2020 AP shift to capital-B Black added institutional weight."
+    note: "Often skews toward 'Black': both for the politicized post-2013 Black Lives Matter framing and because 'Black' makes no national-origin claim. The June 2020 AP shift to capital-B Black added institutional weight."
   - audience: "Hyphenation"
     note: "No hyphen. 'African American,' not 'African-American.' SEIU explicit, AECF by usage, DSG by usage. The hyphenated form is a pre-2019 stylistic legacy that AP retired."
 
@@ -107,7 +107,7 @@ contributors:
 
 **African American makes a national-origin claim that Black doesn't**, and that distinction does the work in every guide that addresses it. Sierra Club's 'not interchangeable' caution, DSG's account of why someone might prefer one term over the other, and RET's audience-dependence framing all point at the same thing: the two terms answer different questions about identity, and using them as synonyms picks the answer by accident.
 
-In practical terms, **Black is a racial descriptor; African American is a racial-plus-national-origin descriptor rooted in U.S. American identity and African heritage**. For people whose self-identification matches both frames — many Black Americans whose ancestry traces to enslaved people brought to the U.S. — either term works, with self-preference deciding. For people whose self-identification matches only one — recent African immigrants who identify as Black but not African American, U.S.-born Black Americans who decline the 'American' national identifier, Afro-Latino people for whom 'African American' is a U.S.-rooted misfit — defaulting to the wrong term produces a real mis-identification.
+In practical terms, **Black is a racial descriptor; African American is a racial-plus-national-origin descriptor rooted in U.S. American identity and African heritage**. For people whose self-identification matches both frames: many Black Americans whose ancestry traces to enslaved people brought to the U.S.: either term works, with self-preference deciding. For people whose self-identification matches only one: recent African immigrants who identify as Black but not African American, U.S.-born Black Americans who decline the 'American' national identifier, Afro-Latino people for whom 'African American' is a U.S.-rooted misfit: defaulting to the wrong term produces a real mis-identification.
 
 The Gallup data anchors the practical conclusion: ask if possible (Sierra Club, DSG); when ask isn't possible, either is generally acceptable for unspecified individuals; do not treat the two as interchangeable in cases where the audience or subject's identity makes the distinction relevant.
 
@@ -115,9 +115,9 @@ The Gallup data anchors the practical conclusion: ask if possible (Sierra Club, 
 
 **Capitalization is straightforward**: both words capitalized as a proper-noun-style ethnic identifier. This was true even in the pre-2020 era when 'black' was lowercase; 'African American' carries the same capitalization that 'Asian American,' 'Mexican American,' 'Italian American,' etc. share.
 
-For comprehensive coverage of capitalization debates, the 2020 AP shift, and the NABJ/AP split on whether to capitalize White, see the companion [Black](/terms/black/) entry — the guidance is captured jointly across both pages because the guides that elaborate (Sierra Club, DSG, RET) address the two terms together; SEIU and Casey list them as separate word-style entries.
+For comprehensive coverage of capitalization debates, the 2020 AP shift, and the NABJ/AP split on whether to capitalize White, see the companion [Black](/terms/black/) entry: the guidance is captured jointly across both pages because the guides that elaborate (Sierra Club, DSG, RET) address the two terms together; SEIU and Casey list them as separate word-style entries.
 
 
 ## History note
 
-'African American' as a distinct U.S. racial-identity term predated Jesse Jackson's 1980s popularization but moved into widespread mainstream usage through that period, partially displacing 'Black' (which had displaced 'Negro' and 'colored' in similar previous transitions). Jackson's December 1988 press conference is often cited as the inflection point, though Black-led publications had been using the term for decades. The post-2013 Black Lives Matter era moved 'Black' back toward parity with African American in mainstream usage; the [June 2020 AP capital-B Black shift](/sources/ap-stylebook/) further normalized 'Black' in institutional contexts. The two terms now coexist in active U.S. usage with neither displacing the other — the choice has shifted from sequential (one replaces the other) to simultaneous (both are acceptable; preference varies by person, audience, and context).
+'African American' as a distinct U.S. racial-identity term predated Jesse Jackson's 1980s popularization but moved into widespread mainstream usage through that period, partially displacing 'Black' (which had displaced 'Negro' and 'colored' in similar previous transitions). Jackson's December 1988 press conference is often cited as the inflection point, though Black-led publications had been using the term for decades. The post-2013 Black Lives Matter era moved 'Black' back toward parity with African American in mainstream usage; the [June 2020 AP capital-B Black shift](/sources/ap-stylebook/) further normalized 'Black' in institutional contexts. The two terms now coexist in active U.S. usage with neither displacing the other: the choice has shifted from sequential (one replaces the other) to simultaneous (both are acceptable; preference varies by person, audience, and context).

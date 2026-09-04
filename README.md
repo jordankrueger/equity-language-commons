@@ -1,12 +1,12 @@
 # Equity Language Commons
 
-A cross-referenced omnibus of progressive equity-language guidance — every source organization's rule side-by-side, per term, with attribution.
+A cross-referenced omnibus of progressive equity-language guidance: every source organization's rule side-by-side, per term, with attribution.
 
 🌐 **Live site:** [equitylanguagecommons.org](https://equitylanguagecommons.org) *(in pre-launch build-out; preview at [equity-language-commons.pages.dev](https://equity-language-commons.pages.dev))*
 
 📖 **Browse the commons:** [Chapters](https://equitylanguagecommons.org/chapters/) · [A–Z index](https://equitylanguagecommons.org/terms/) · [Glossary](https://equitylanguagecommons.org/glossary/) · [Sources](https://equitylanguagecommons.org/sources/)
 
-🤝 **Want to contribute?** Start at the [Contribute page](https://equitylanguagecommons.org/contribute/) — there are four paths in (suggest, discuss, PR, email) and a step-by-step onboarding section for people new to GitHub.
+🤝 **Want to contribute?** Start at the [Contribute page](https://equitylanguagecommons.org/contribute/): there are four paths in (suggest, discuss, PR, email) and a step-by-step onboarding section for people new to GitHub.
 
 ---
 
@@ -16,13 +16,13 @@ Every progressive equity-language style guide says something a little different.
 
 The commons puts them next to each other.
 
-For every term — `Latinx`, `tribe`, `transgender`, `unhoused`, `disability`, on and on — every source organization's ruling appears together: their direct quote, their year, their page reference, and a position badge that summarizes where they landed (`use`, `use-with-care`, `avoid`, `evolving`, etc.). A short synthesis paragraph identifies the cross-source pattern: where guides agree, where they diverge, what's shifted over time.
+For every term: `Latinx`, `tribe`, `transgender`, `unhoused`, `disability`, on and on: every source organization's ruling appears together: their direct quote, their year, their page reference, and a position badge that summarizes where they landed (`use`, `use-with-care`, `avoid`, `evolving`, etc.). A short synthesis paragraph identifies the cross-source pattern: where guides agree, where they diverge, what's shifted over time.
 
 **The commons does not issue its own rulings.** It surfaces what the source guides say so readers can see the multi-source picture and decide what fits their audience.
 
 ## What this is not
 
-- **Not a single-author style guide.** That's a separate genre. SumOfUs's *A Progressive's Style Guide* (Hanna Thomas + Anna Hirsch, 2016) is the spiritual predecessor — a single-author synthesis. The commons preserves SumOfUs as one source among many.
+- **Not a single-author style guide.** That's a separate genre. SumOfUs's *A Progressive's Style Guide* (Hanna Thomas + Anna Hirsch, 2016) is the spiritual predecessor: a single-author synthesis. The commons preserves SumOfUs as one source among many.
 - **Not exhaustive.** The commons covers progressive equity-language guides specifically. Brand identity guides, journalism style references for grammar/AP usage, and clinical/academic terminology guides are out of scope unless they intersect with equity language.
 - **Not a clearinghouse.** Each source guide remains on its publisher's site (or, where the publisher has gone dark, in our private mirror). The commons cites; it does not republish.
 
@@ -45,7 +45,7 @@ The data model centers on **terms**, **sources**, and **chapters**:
 The site also ships with:
 
 - An **A–Z index** of every term that has a full commons entry.
-- A **Glossary Index** covering every term found in any source guide (~1,300 entries) — commons entries plus long-tail single- and dual-source mentions, all browsable and discoverable.
+- A **Glossary Index** covering every term found in any source guide (~1,300 entries): commons entries plus long-tail single- and dual-source mentions, all browsable and discoverable.
 - A **SQLite build-time index** at `/data/elc-index.sqlite` for anyone who wants to run faceted queries against the commons without scraping.
 
 ## Build status
@@ -65,13 +65,13 @@ Full status detail in [ROADMAP.md](ROADMAP.md).
 
 ## Stack
 
-- **Astro 5** + TypeScript strict mode — content collections with Zod schemas, static-site generator
-- **Pagefind** — client-side search at build time
-- **Cloudflare Pages** — hosting, free tier
-- **R2** — for mirrored PDFs of orphaned source guides (selective)
-- **Cloudflare Email Routing** — `hello@equitylanguagecommons.org` forwarded to maintainer inbox
-- **Python 3.11+** stdlib only — the build pipeline (PDF extraction, coverage matrix, scaffolders, enrichers, glossary index, SQLite index)
-- **GitHub** — version control, Discussions, Issues, PRs
+- **Astro 5** + TypeScript strict mode: content collections with Zod schemas, static-site generator
+- **Pagefind**: client-side search at build time
+- **Cloudflare Pages**: hosting, free tier
+- **R2**: for mirrored PDFs of orphaned source guides (selective)
+- **Cloudflare Email Routing**: `hello@equitylanguagecommons.org` forwarded to maintainer inbox
+- **Python 3.11+** stdlib only: the build pipeline (PDF extraction, coverage matrix, scaffolders, enrichers, glossary index, SQLite index)
+- **GitHub**: version control, Discussions, Issues, PRs
 
 No databases, no runtime dependencies, no JavaScript framework. The whole site is static HTML + CSS with a single client-side script for search.
 
@@ -114,8 +114,8 @@ Detailed contribution workflow in [CONTRIBUTING.md](CONTRIBUTING.md).
 Three rules govern every piece of content in the commons:
 
 1. **Self-identification is primary.** When a guide's rule or the commons's synthesis touches on identification, defer to how the subject identifies. Never override stated preference with a default.
-2. **No blame-leaning language about source-guide authors.** Every style-guide author was doing the best they could with what was available at the time. Use neutral chronological framing ("pre-dates X," "earlier than") — never "outdated," "behind," "hasn't aged well."
-3. **Editorial synthesis is welcome — editorial judgment of individual authors is not.** Identify patterns and trends across the corpus. Don't characterize earlier guides as failures.
+2. **No blame-leaning language about source-guide authors.** Every style-guide author was doing the best they could with what was available at the time. Use neutral chronological framing ("pre-dates X," "earlier than"): never "outdated," "behind," "hasn't aged well."
+3. **Editorial synthesis is welcome: editorial judgment of individual authors is not.** Identify patterns and trends across the corpus. Don't characterize earlier guides as failures.
 
 Quote attribution rules:
 
@@ -129,9 +129,9 @@ Full editorial voice rules in [CONTRIBUTING.md](CONTRIBUTING.md#editorial-voice-
 
 The commons consists of three layers, each with its own license:
 
-- **Content** (synthesis, chapter intros, schema, per-term composition) — [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Share, adapt, and reuse freely with attribution.
-- **Code** (Astro components, build pipeline, deploy tooling) — [MIT](LICENSE). Standard open-source software license.
-- **Source-guide quotations** — © respective publishers. Used under fair use (each quote <50 words with full attribution). Reuse beyond fair-use citation requires permission from the original publisher.
+- **Content** (synthesis, chapter intros, schema, per-term composition): [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Share, adapt, and reuse freely with attribution.
+- **Code** (Astro components, build pipeline, deploy tooling): [MIT](LICENSE). Standard open-source software license.
+- **Source-guide quotations**: © respective publishers. Used under fair use (each quote <50 words with full attribution). Reuse beyond fair-use citation requires permission from the original publisher.
 
 Full text in [LICENSE](LICENSE).
 
@@ -139,10 +139,10 @@ Full text in [LICENSE](LICENSE).
 
 The commons cites work from dozens of organizations doing the on-the-ground work of equity language. A full list, with current access status, lives at [/sources/](https://equitylanguagecommons.org/sources/). The corpus would not exist without:
 
-- Hanna Thomas + Anna Hirsch — *A Progressive's Style Guide* (SumOfUs, 2016) — the spiritual predecessor.
-- Native Governance Center, NAJA / Indigenous Journalists Association, NABJ, NLGJA, Trans Journalists Association, GLAAD, HRC, interACT — primary identity-led style references.
-- Sierra Club, NCDJ, APA, Race Forward, Diversity Style Guide, Racial Equity Tools, Color of Change, Define American, Immigrant Defense Project, Dart Center / GCJT, World Food Program USA, Words About War Matter — primary movement and journalism style references.
-- The maintainers of the *Conscious Style Guide* and *Diversity Style Guide* — peer aggregators whose work is the prior art for this kind of cross-reference project.
+- Hanna Thomas + Anna Hirsch: *A Progressive's Style Guide* (SumOfUs, 2016): the spiritual predecessor.
+- Native Governance Center, NAJA / Indigenous Journalists Association, NABJ, NLGJA, Trans Journalists Association, GLAAD, HRC, interACT: primary identity-led style references.
+- Sierra Club, NCDJ, APA, Race Forward, Diversity Style Guide, Racial Equity Tools, Color of Change, Define American, Immigrant Defense Project, Dart Center / GCJT, World Food Program USA, Words About War Matter: primary movement and journalism style references.
+- The maintainers of the *Conscious Style Guide* and *Diversity Style Guide*: peer aggregators whose work is the prior art for this kind of cross-reference project.
 
 Maintained by [Jordan Krueger](https://jordankrueger.com).
 

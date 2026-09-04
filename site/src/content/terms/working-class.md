@@ -50,14 +50,14 @@ contributors:
 
 ## Synthesis
 
-**"Working class" is contested — a label many claim with pride, and one whose default image quietly excludes the people it should include.** The two sources pull in opposite directions. APA treats it as a self-identification to respect: where "low-class" and "poor" read as pejorative, "class solidarity exists in 'poor people's movements' and many individuals proudly identify as 'working class.'" It is a claimed identity and an organizing banner, not a term to avoid.
+**"Working class" is contested: a label many claim with pride, and one whose default image quietly excludes the people it should include.** The two sources pull in opposite directions. APA treats it as a self-identification to respect: where "low-class" and "poor" read as pejorative, "class solidarity exists in 'poor people's movements' and many individuals proudly identify as 'working class.'" It is a claimed identity and an organizing banner, not a term to avoid.
 
-Color of Change names the catch. The image of "working class" families, it argues, "is one that is largely coded as 'white' within the public imagination" — associated with rural, suburban, and exurban communities, and applied to white people "whether or not they are actually working," while Black families in the same economic strata are rarely granted the label. The term excludes rather than targets. Color of Change does not say drop it; it says widen who it evokes, by explicitly naming Black, white, and other working-class communities.
+Color of Change names the catch. The image of "working class" families, it argues, "is one that is largely coded as 'white' within the public imagination": associated with rural, suburban, and exurban communities, and applied to white people "whether or not they are actually working," while Black families in the same economic strata are rarely granted the label. The term excludes rather than targets. Color of Change does not say drop it; it says widen who it evokes, by explicitly naming Black, white, and other working-class communities.
 
 So "working class" is neither a clean `use` nor an `avoid`. It is a strong solidarity frame whose unstated default reads white, so the discipline is to make explicit who you mean rather than let the phrase carry its coded image. The same caution applies to the slogan "working families," which can read as white and suburban unless paired with explicit inclusion. This page pairs with [classism](/terms/classism/) and [disadvantaged](/terms/disadvantaged/).
 
 ## Audience notes
 
 - **Journalists and editors.** Don't let "working class" or "working families" default to its coded-white image. When that's who you mean, name Black, white, and other working-class communities explicitly rather than relying on the phrase to include them.
-- **Advocates and internal comms.** It's a solidarity banner — APA notes many individuals proudly identify as working class, alongside the class solidarity of poor people's movements. The work is widening it, not dropping it.
+- **Advocates and internal comms.** It's a solidarity banner: APA notes many individuals proudly identify as working class, alongside the class solidarity of poor people's movements. The work is widening it, not dropping it.
 - **Watch the slogan.** "Working families" as a stand-alone tagline can quietly read as white and suburban; pair it with explicit inclusion so it doesn't exclude the families it's meant to speak for.

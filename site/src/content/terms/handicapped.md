@@ -38,7 +38,7 @@ guidance:
     derived_from: []
     quote: "Disabled, Disability: Eschew outmoded terms that perpetuate negative stereotypes or evoke pity. … avoid terms like \"handicapped\" or \"the disabled.\" Instead, give precise references to specific conditions."
     quote_loc: "\"Disabled, Disability\" entry"
-    paraphrase: "Where the other five sources mostly list \"handicapped\" as a term to drop, GCJT supplies the rationale the whole page shares: the word carries negative stereotypes and invites pity. Its preferred fix is also the most demanding — name the specific condition rather than reaching for a generic person-first substitute."
+    paraphrase: "Where the other five sources mostly list \"handicapped\" as a term to drop, GCJT supplies the rationale the whole page shares: the word carries negative stereotypes and invites pity. Its preferred fix is also the most demanding: name the specific condition rather than reaching for a generic person-first substitute."
     confidence: "VERIFIED-ARCHIVED"
   - org: "National Center on Disability and Journalism"
     org_slug: "ncdj"
@@ -50,7 +50,7 @@ guidance:
     derived_from: []
     quote: "Avoid using \"handicap\" and \"handicapped\" when describing a person. … The terms are still widely used and generally acceptable when citing laws, regulations, places or things, such as \"handicapped parking,\" although many prefer the term \"accessible parking.\""
     quote_loc: "\"Handicap/handicapped/handicapable\" entry, NCDJ Recommendation"
-    paraphrase: "NCDJ — the chapter's anchor source — says to avoid \"handicap\" and \"handicapped\" for people, using the person's specific condition or \"person with a disability\" instead. It notes the terms survive in narrow legal/signage contexts (\"handicapped parking\"), though many prefer \"accessible,\" and to avoid \"handicapable.\""
+    paraphrase: "NCDJ: the chapter's anchor source: says to avoid \"handicap\" and \"handicapped\" for people, using the person's specific condition or \"person with a disability\" instead. It notes the terms survive in narrow legal/signage contexts (\"handicapped parking\"), though many prefer \"accessible,\" and to avoid \"handicapable.\""
     confidence: "VERIFIED-ARCHIVED"
   - org: "Sierra Club"
     org_slug: "sierra-club"
@@ -109,5 +109,5 @@ For people, the position is settled; for places, it is still moving. From SumOfU
 ## Audience notes
 
 - **Journalists and editors.** Never use "handicapped" for a person; name the specific condition or use "person with a disability." For facilities, prefer "accessible" (accessible parking, accessible restroom), even though "handicapped parking" still appears on signage.
-- **Advocates and internal comms.** "Handicapable" reads as affirming but the sources that weigh in (SumOfUs, NCDJ, APA) still file it under avoid — drop it. And don't reference a disability at all unless it's relevant to what you're saying.
+- **Advocates and internal comms.** "Handicapable" reads as affirming but the sources that weigh in (SumOfUs, NCDJ, APA) still file it under avoid: drop it. And don't reference a disability at all unless it's relevant to what you're saying.
 - **The reframe.** "Accessible" describes the feature of the space (a ramp, a wide stall); "handicapped" describes a supposed deficit in the person.
