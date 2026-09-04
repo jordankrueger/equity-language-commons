@@ -3,7 +3,7 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import Breadcrumb from "../../components/Breadcrumb.astro";
 import glossaryData from "../../data/glossary-index.json";
 
-const { stats, by_letter, entries } = glossaryData as {
+const { stats, by_letter, rows, aliases_by_commons_slug } = glossaryData as {
   generated_at: string;
   stats: {
     total_terms: number;
@@ -12,10 +12,15 @@ const { stats, by_letter, entries } = glossaryData as {
     curated_terms: number;
     listed_terms: number;
     long_tail_terms: number;
+    visible_rows: number;
+    visible_commons_rows: number;
+    visible_long_tail_rows: number;
+    visible_canonical_rows: number;
+    visible_listed_rows: number;
     by_coverage: Record<string, number>;
   };
   by_letter: Record<string, string[]>;
-  entries: Record<
+  rows: Record<
     string,
     {
       term: string;
@@ -45,9 +50,13 @@ const { stats, by_letter, entries } = glossaryData as {
       }>;
     }
   >;
+  aliases_by_commons_slug: Record<string, Array<{
+    term: string;
+    display: string;
+    source_count: number;
+    sources: Array<{ source_slug: string; org: string; year: string; source_url: string; excerpt: string; extraction_method: string }>;
+  }>>;
 };
-
-const canonicalCount = stats.verified_hold_terms + stats.curated_terms;
 
 const letters = Object.keys(by_letter);
 const populatedLetters = new Set(letters);
@@ -64,24 +73,24 @@ const navLetters = [...A_TO_Z, "#"];
   <Breadcrumb trail={[{ href: "/", label: "Home" }, { label: "Glossary" }]} />
   <h1>Glossary</h1>
   <p class="subtitle">
-    Every term that appears in any source guide in the commons, A–Z. Terms with cross-source treatment in <strong>three or more</strong> guides have full commons entries: click to open. Terms with at least one real source-guide definition point to a <strong>canonical source</strong> to consult. The rest are listed so the corpus's long tail stays discoverable.
+    Every corpus term appears either as a primary entry or as an alias beneath one. Terms with cross-source treatment in <strong>three or more</strong> guides have full commons entries: click to open. Terms with at least one real source-guide definition point to a <strong>canonical source</strong> to consult.
   </p>
 
   <div class="stats-row" role="presentation">
     <div class="stat">
-      <span class="stat-num" id="visible-count">{stats.total_terms.toLocaleString()}</span>
+      <span class="stat-num" id="visible-count">{stats.visible_commons_rows.toLocaleString()}</span>
       <span class="stat-label" id="visible-label">terms shown</span>
     </div>
     <div class="stat">
-      <span class="stat-num">{stats.commons_terms}</span>
+      <span class="stat-num">{stats.visible_commons_rows}</span>
       <span class="stat-label">with full commons entries (≥3 sources)</span>
     </div>
     <div class="stat">
-      <span class="stat-num">{canonicalCount.toLocaleString()}</span>
+      <span class="stat-num">{stats.visible_canonical_rows.toLocaleString()}</span>
       <span class="stat-label">pointing to a canonical source</span>
     </div>
     <div class="stat">
-      <span class="stat-num">{stats.listed_terms.toLocaleString()}</span>
+      <span class="stat-num">{stats.visible_listed_rows.toLocaleString()}</span>
       <span class="stat-label">listed only</span>
     </div>
   </div>
@@ -91,28 +100,28 @@ const navLetters = [...A_TO_Z, "#"];
       type="button"
       class="filter-chip active"
       data-filter="commons"
-      data-count={stats.commons_terms}
+      data-count={stats.visible_commons_rows}
       aria-pressed="true"
     >
-      Commons entries <span class="filter-num">{stats.commons_terms}</span>
+      Commons entries <span class="filter-num">{stats.visible_commons_rows}</span>
     </button>
     <button
       type="button"
       class="filter-chip"
       data-filter="all"
-      data-count={stats.total_terms}
+      data-count={stats.visible_rows}
       aria-pressed="false"
     >
-      All terms <span class="filter-num">{stats.total_terms.toLocaleString()}</span>
+      All terms <span class="filter-num">{stats.visible_rows.toLocaleString()}</span>
     </button>
     <button
       type="button"
       class="filter-chip"
       data-filter="long-tail"
-      data-count={stats.long_tail_terms}
+      data-count={stats.visible_long_tail_rows}
       aria-pressed="false"
     >
-      Long tail only <span class="filter-num">{stats.long_tail_terms.toLocaleString()}</span>
+      Long tail only <span class="filter-num">{stats.visible_long_tail_rows.toLocaleString()}</span>
     </button>
   </div>
 
@@ -133,12 +142,13 @@ const navLetters = [...A_TO_Z, "#"];
       <h2 class="alpha-letter">{letter === "#" ? "#" : letter.toUpperCase()}</h2>
       <ul class="term-list">
         {by_letter[letter].map((termKey) => {
-          const entry = entries[termKey];
+          const entry = rows[termKey];
           const hasCommons = entry.tier === "full" && !!entry.commons_slug;
           const canon = entry.canonical_source;
           const isCurated =
             entry.tier === "verified-hold" || entry.tier === "curated";
           const showInline = !hasCommons && entry.sources.length > 0;
+          const aliases = entry.commons_slug ? (aliases_by_commons_slug[entry.commons_slug] ?? []) : [];
           return (
             <li
               class="term-row"
@@ -166,6 +176,16 @@ const navLetters = [...A_TO_Z, "#"];
                   <span class="tier-tag curated" title="Excerpt extracted from the source's own glossary">from source glossary</span>
                 )}
               </div>
+              {aliases.length > 0 && (
+                <p class="aliases">
+                  Also indexed as:{" "}
+                  {aliases.map((alias, index) => (
+                    <span id={alias.term.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/-+/g, "-").replace(/^-|-$/g, "")}>
+                      {alias.display}{index < aliases.length - 1 ? ", " : ""}
+                    </span>
+                  ))}
+                </p>
+              )}
               {isCurated && entry.excerpt && (
                 <p class="curated-excerpt">“{entry.excerpt}”</p>
               )}
@@ -377,6 +397,11 @@ const navLetters = [...A_TO_Z, "#"];
 
   .term-main {
     display: flex; gap: 0.8rem; align-items: baseline; flex-wrap: wrap;
+  }
+  .aliases {
+    margin: 0.3rem 0 0;
+    color: var(--ink-muted);
+    font-size: 0.85rem;
   }
   .term-name {
     font-family: "Charter", Georgia, serif;

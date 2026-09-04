@@ -5,11 +5,11 @@ import Breadcrumb from "../../components/Breadcrumb.astro";
 
 const all = await getCollection("chapters");
 const chapters = all
+  .filter((c) => !c.data.stub)
   .map((c) => ({
     slug: c.data.slug,
     title: c.data.title,
     lede: c.data.lede,
-    stub: c.data.stub ?? false,
     order: c.data.order ?? 999,
   }))
   .sort((a, b) => a.order - b.order || a.title.localeCompare(b.title));
@@ -18,13 +18,12 @@ const chapters = all
 <BaseLayout title="Chapters" description="Browse the commons by chapter.">
   <Breadcrumb trail={[{ href: "/", label: "Home" }, { label: "Chapters" }]} />
   <h1>Chapters</h1>
-  <p class="subtitle">{chapters.filter(c => !c.stub).length} chapter{chapters.filter(c => !c.stub).length === 1 ? "" : "s"} drafted; {chapters.filter(c => c.stub).length} more planned.</p>
+  <p class="subtitle">{chapters.length} chapter{chapters.length === 1 ? "" : "s"}.</p>
 
   <ul class="chapter-list">
     {chapters.map((c) => (
       <li>
         <a class="chapter-link" href={`/chapters/${c.slug}/`}>{c.title}</a>
-        {c.stub && <span class="stub-chip">planned</span>}
         <p class="chapter-lede">{c.lede}</p>
       </li>
     ))}

@@ -89,7 +89,7 @@ The corpus on Latine is currently thin (only DSG 2023 and TJA 2023/2026 have ded
 
 **Self-identification is the operating rule, same as Latinx**: TJA's strict deferral: never apply either term to someone who doesn't use it: applies. Latine isn't a polite default override for someone who identifies as Latino, Latina, or Hispanic. Use what people use for themselves.
 
-**For Jordan's-voice / advocacy writing**: Latine over Latinx is increasingly defensible as a default for Spanish-language or bilingual audiences post-2023. For English-language U.S. writing where Spanish-pronunciation isn't a primary concern, Latinx remains the more common form and reads as the standard institutional choice. Both work; the choice is audience-and-context-driven.
+**For advocacy writing**: Latine over Latinx is increasingly defensible as a default for Spanish-language or bilingual audiences post-2023. For English-language U.S. writing where Spanish-pronunciation isn't a primary concern, Latinx remains the more common form and reads as the standard institutional choice. Both work; the choice is audience-and-context-driven.
 
 
 ## History note

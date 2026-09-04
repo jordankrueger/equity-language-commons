@@ -7,17 +7,16 @@ import RecBadge from "../../components/RecBadge.astro";
 export async function getStaticPaths() {
   const chapters = await getCollection("chapters");
   const terms = await getCollection("terms");
-  return chapters.map((c) => {
-    const chapterTerms = (c.data.term_slugs ?? []).map((slug) => {
+  return chapters.filter((c) => !c.data.stub).map((c) => {
+    const chapterTerms = (c.data.term_slugs ?? []).flatMap((slug) => {
       const t = terms.find((tt) => tt.data.slug === slug);
-      return t
-        ? {
+      return t && !t.data.stub
+        ? [{
             slug,
             term: t.data.term,
-            published: !t.data.stub,
             guidance: t.data.guidance ?? [],
-          }
-        : { slug, term: slug, published: false, guidance: [] };
+          }]
+        : [];
     });
     return {
       params: { slug: c.data.slug },
@@ -30,8 +29,6 @@ const { chapter, chapterTerms } = Astro.props;
 const data = chapter.data;
 const { Content } = await render(chapter);
 
-const publishedCount = chapterTerms.filter((t) => t.published).length;
-const plannedCount = chapterTerms.length - publishedCount;
 ---
 
 <BaseLayout title={data.title} description={data.lede} mainClass="wide" pagefind>
@@ -46,8 +43,7 @@ const plannedCount = chapterTerms.length - publishedCount;
   <h1 class="chapter">{data.title}</h1>
   {chapterTerms.length > 0 && (
     <p class="chapter-meta">
-      {chapterTerms.length} term{chapterTerms.length === 1 ? "" : "s"} &middot;
-      {" "}{publishedCount} published &middot; {plannedCount} planned
+      {chapterTerms.length} term{chapterTerms.length === 1 ? "" : "s"}
     </p>
   )}
 
@@ -72,15 +68,6 @@ const plannedCount = chapterTerms.length - publishedCount;
     <>
       <h2>Terms in this chapter</h2>
       {chapterTerms.map((t) => {
-        if (!t.published) {
-          return (
-            <div class="placeholder-term">
-              <h3 class="term-heading placeholder">
-                {t.term} <span class="status">planned</span>
-              </h3>
-            </div>
-          );
-        }
         const recs = Array.from(new Set(t.guidance.map((g: any) => g.recommendation)));
         return (
           <div class="real-term">
@@ -130,13 +117,6 @@ const plannedCount = chapterTerms.length - publishedCount;
     transition: border-color 120ms ease, color 120ms ease;
   }
   h3.term-heading a:hover { color: var(--accent); border-bottom-color: var(--accent); }
-  h3.term-heading.placeholder { color: var(--ink-muted); }
-  h3.term-heading .status {
-    font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em;
-    color: var(--ink-muted); padding: 0.1rem 0.5rem;
-    background: var(--bg-accent); border-radius: 3px;
-    font-weight: 500; margin-left: 0.6rem;
-  }
   .positions-strip {
     display: flex; gap: 0.4rem; align-items: center;
     flex-wrap: wrap;
@@ -153,7 +133,6 @@ const plannedCount = chapterTerms.length - publishedCount;
     margin-top: 0.5rem;
   }
   .read-full:hover { border-bottom-style: solid; }
-  .placeholder-term { opacity: 0.6; }
   .real-term {
     padding: 1rem 0;
     border-bottom: 1px solid var(--rule-soft);

@@ -8,8 +8,8 @@ license: "United Nations document: public; cited and linked, not reproduced here
 source_url: "https://social.desa.un.org/issues/indigenous-peoples/publications/martinez-cobo-study"
 local_archive: null
 host_posture: "link-out-only"
-live_status: "live"
-last_checked: 2026-06-07
+live_status: "offline"
+last_checked: 2026-09-04
 added: 2026-05-17
 ---
 
@@ -23,4 +23,4 @@ In the commons it is the foundational reference behind the definition of *Indige
 
 ## Access
 
-This is a **United Nations document**, held publicly by the UN; the commons cites and links to it (via UN DESA, linked) rather than reproducing it. Host posture is **link-out-only**.
+This is a **United Nations document**. The UN DESA page previously linked by the commons is no longer available, and the commons does not hold a local copy.

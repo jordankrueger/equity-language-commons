@@ -7,8 +7,8 @@ const sources = await getCollection("sources");
 const chapters = await getCollection("chapters");
 
 const liveTerms = terms.filter((t) => !t.data.stub);
-const liveSources = sources.filter((s) => !s.data.stub);
 const liveChapters = chapters.filter((c) => !c.data.stub);
+const sourceOrganizations = new Set(sources.map((s) => s.data.org_slug));
 ---
 
 <BaseLayout
@@ -32,16 +32,12 @@ const liveChapters = chapters.filter((c) => !c.data.stub);
       <span>term{liveTerms.length === 1 ? "" : "s"} published</span>
     </div>
     <div>
-      <strong>{liveSources.length}</strong>
-      <span>source{liveSources.length === 1 ? "" : "s"} fully documented</span>
-    </div>
-    <div>
-      <strong>{sources.length - liveSources.length}</strong>
-      <span>source stubs</span>
+      <strong>{sourceOrganizations.size}</strong>
+      <span>source organization{sourceOrganizations.size === 1 ? "" : "s"}</span>
     </div>
     <div>
       <strong>{liveChapters.length}</strong>
-      <span>chapter{liveChapters.length === 1 ? "" : "s"} drafted</span>
+      <span>chapter{liveChapters.length === 1 ? "" : "s"}</span>
     </div>
   </section>
 
@@ -49,13 +45,9 @@ const liveChapters = chapters.filter((c) => !c.data.stub);
   <ol>
     <li>Each term page shows every source organization's ruling: quote, year, page reference, and a position badge (use / use-with-care / non-preferred / avoid / contested / evolving).</li>
     <li>Sources are sorted chronologically so you can see how the term has moved over time.</li>
-    <li>Jordan Krueger's synthesis paragraphs identify the cross-source pattern, where guides agree, where they diverge, and what's shifting.</li>
+    <li>Synthesis paragraphs identify the cross-source pattern, where guides agree, where they diverge, and what's shifting.</li>
     <li>Every quote is under 50 words (fair-use safety margin). Every quote cites org, year, and source URL or archive reference.</li>
   </ol>
-
-  <h2>Status</h2>
-  <p>This is a build-in-progress. Phases 0 and 1 are complete: research, schema design, and three pressure-tested test terms (Latinx, unhoused/homeless, Indigenous). Phase 2 is the public site you're reading now. Phase 3 is bulk term indexing.</p>
-  <p>Terms, sources, and chapters that don't yet have content are shown as visually-dimmed "planned" stubs, so you can see the intended scope and where help is wanted.</p>
 
   <p class="meta">
     <a href="/about/">About this project</a>

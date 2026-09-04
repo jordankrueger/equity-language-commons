@@ -46,6 +46,9 @@ jobs:
       - name: Build glossary index
         run: python3 scripts/build-glossary-index.py
 
+      - name: Check glossary index
+        run: python3 scripts/check-glossary-index.py
+
       - name: Build sqlite index
         run: python3 scripts/build-sqlite-index.py
 

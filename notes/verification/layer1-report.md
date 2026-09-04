@@ -2,9 +2,80 @@
 
 - V1 quote-in-archive: 461 OK, 0 MISS, 0 truncated, 38 loose-match, 21 gapped(extraction noise), 100 human-verified, 0 no-archive
 - V2 confidence: 0 FAIL, 0 upgrade suggestions
-- V3 urls: 533 OK, 1 dead
+- V3 urls: 462 OK, 72 dead
 - V4 cross-ref: 0 FAIL, 0 year mismatches
 
 ## Findings
 
-- **V3 DEAD** `indigenous` (un-cobo-1972): 502 https://daccess-ods.un.org/access.nsf/get?open&DS=E/CN.4/SUB.2/L.566&Lang=E
+- **V3 DEAD** `ableism` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `accessible` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `african-american` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `ageism` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `aging` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `alien` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `american-indian` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `arab` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `asexual` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `asian-american` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `autism` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `bipoc` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `bisexual` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `black` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `cisgender` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `classism` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `crazy` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `cripple` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `depression` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `disability` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `ethnicity` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `felon` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `gay` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `handicapped` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `hispanic` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `homophobia` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `illegal-alien` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `illegal-immigrant` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `immigrant` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `indian-country` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `indian` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `indigenous` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `indigenous` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `indigenous` (un-cobo-1972): 404 https://daccess-ods.un.org/access.nsf/get?open&DS=E/CN.4/SUB.2/L.566&Lang=E
+- **V3 DEAD** `inmate` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `insane` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `intersex` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `lame` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `latino` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `latinx` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `latinx` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `lesbian` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `little-person` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `mental-health` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `minority` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `muslim` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `native-american` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `offender` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `people-of-color` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `people-with-disabilities` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `poor` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `pronouns` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `queer` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `racism` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `refugees` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `reservation` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `reservation` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `reverse-racism` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `slavery` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `special-needs` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `stereotypes` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `systemic-racism` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `transgender` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `transgendered` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `transsexual` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `tribe` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `tribe` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `undocumented-immigrant` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `urban` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `wheelchair` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `white-supremacy` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf
+- **V3 DEAD** `white` (sierra-club): 302 https://www.sierraclub.org/sites/default/files/sce-authors/u12332/Equity%20Language%20Guide%20Sierra%20Club%202021.pdf

@@ -176,9 +176,6 @@ const guidance = [...(data.guidance ?? [])].sort((a, b) => a.year - b.year);
 
   <div class="term-meta">
     <div><strong>Last reviewed:</strong> {new Date(data.last_reviewed).toISOString().slice(0, 10)}</div>
-    {data.contributors?.length > 0 && (
-      <div><strong>Contributors:</strong> {data.contributors.join(", ")}</div>
-    )}
   </div>
 </BaseLayout>
 

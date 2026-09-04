@@ -68,6 +68,13 @@ CANONICAL_PRECEDENCE = [
     "radical-copyeditor",
 ]
 
+# Extracted archive filenames that predate the source-page slugs.
+SOURCE_PAGE_ALIASES = {
+    "casey-editorial-guide-2013-04": "aecf",
+    "native-governance-center-style-guide-2021-02": "ngc",
+    "radicalcopyeditor-trans-style-guide-2017": "radical-copyeditor",
+}
+
 # Maximum excerpt length per source, in characters. The matrix already
 # truncates to 150ish chars; we re-truncate at 220 for display.
 EXCERPT_MAX_CHARS = 220
@@ -140,6 +147,7 @@ def _build_org_lookup() -> tuple[dict[str, dict[str, str]], list[tuple[str, dict
             url = ""
         meta = {
             "org": org,
+            "org_slug": fm.get("org_slug", page_slug),
             "year": year,
             "source_url": url,
             "page_slug": page_slug,
@@ -150,6 +158,11 @@ def _build_org_lookup() -> tuple[dict[str, dict[str, str]], list[tuple[str, dict
         org_slug_fm = fm.get("org_slug")
         if org_slug_fm:
             prefix.append((org_slug_fm, meta))
+
+    for matrix_slug, org_slug in SOURCE_PAGE_ALIASES.items():
+        match = next((meta for slug, meta in prefix if slug == org_slug), None)
+        if match:
+            exact[matrix_slug] = match
 
     # Sort longest-first so "racial-equity-tools" matches before "racial".
     prefix.sort(key=lambda x: -len(x[0]))
@@ -172,6 +185,7 @@ def _resolve_source(
     # No match — return a synthetic entry so the row still renders.
     return {
         "org": matrix_slug,
+        "org_slug": matrix_slug,
         "year": "",
         "source_url": "",
         "page_slug": matrix_slug,
@@ -286,12 +300,13 @@ def _resolve_canonical(
         return None, False
     meta = _resolve_source(source_slug, exact, prefix)
     page_slug = meta.get("page_slug", source_slug)
+    org_slug = meta.get("org_slug", page_slug)
     canonical = {
-        "source_slug": page_slug,
+        "source_slug": org_slug,
         "page_slug": page_slug,
         "org": meta.get("org", source_slug),
         "year": meta.get("year", ""),
-        "source_page_url": f"/sources/{page_slug}/",
+        "source_page_url": f"/sources/{org_slug}/",
         "live_status": meta.get("live_status", "live"),
         "local_archive": meta.get("local_archive", ""),
     }
@@ -644,7 +659,7 @@ def build_index() -> dict:
                     # Use the resolved site-source-page slug for the
                     # link target — matrix slug may be a long-form
                     # filename that doesn't match the site's URL.
-                    "source_slug": org_meta.get("page_slug", source_slug),
+                    "source_slug": org_meta.get("org_slug", source_slug),
                     "org": org_meta.get("org", source_slug),
                     "year": org_meta.get("year", ""),
                     "source_url": org_meta.get("source_url", ""),
@@ -767,6 +782,67 @@ def build_index() -> dict:
     for letter in by_letter:
         by_letter[letter].sort()
 
+    # Build the render view separately from the complete evidence index.
+    # Alias matrix entries stay in `entries` for lint/diagnostics but render
+    # beneath their one canonical page row.
+    rows: dict[str, dict] = {}
+    aliases_by_commons_slug: dict[str, list[dict]] = {}
+    page_slugs = {target for key, target in commons_lookup.items() if key == target}
+    for slug in sorted(page_slugs):
+        path = TERMS_DIR / f"{slug}.md"
+        fm = _parse_frontmatter(path)
+        display = fm.get("term", slug.replace("-", " ").title())
+        normalized_display = re.sub(r"-+", " ", re.sub(r"[^a-z0-9-]+", " ", display.lower())).strip()
+        candidates = [(term, e) for term, e in entries.items() if e.get("commons_slug") == slug]
+        exact = next((e for term, e in candidates if term in {normalized_display, slug.replace("-", " ")}), None)
+        if exact is None:
+            exact = next((e for term, e in candidates if term == slug), None)
+        if exact is None:
+            # Preserve the existing guidance-count fallback for compound pages
+            # absent from the matrix and from alias evidence.
+            text = path.read_text(encoding="utf-8")
+            exact = {
+                "term": slug.replace("-", " "), "display": display,
+                "source_count": len(re.findall(r"^\s*-\s+org:\s*", text, re.MULTILINE)),
+                "commons_slug": slug, "tier": "full", "provenance": None,
+                "canonical_source": None, "canonical_archived": False,
+                "excerpt": None, "note": None, "sources": [],
+            }
+        row = dict(exact)
+        row["display"] = display
+        row["commons_slug"] = slug
+        rows[slug] = row
+        aliases = []
+        for term, entry in candidates:
+            if entry is exact or term in {normalized_display, slug.replace("-", " "), slug}:
+                continue
+            aliases.append({
+                "term": term,
+                "display": term.title(),
+                "source_count": entry["source_count"],
+                "sources": entry["sources"],
+            })
+        aliases_by_commons_slug[slug] = sorted(aliases, key=lambda a: a["display"].lower())
+
+    for term, entry in entries.items():
+        if not entry.get("commons_slug"):
+            if term in rows:
+                raise SystemExit(f"glossary row key collision: {term}")
+            rows[term] = dict(entry)
+
+    render_by_letter: dict[str, list[str]] = {}
+    seen_labels: dict[str, str] = {}
+    for key, row in rows.items():
+        label = row["display"].casefold()
+        if row.get("commons_slug"):
+            if label in seen_labels:
+                raise SystemExit(f"duplicate page-backed glossary label: {row['display']}")
+            seen_labels[label] = key
+        bucket = _letter_bucket(row["display"])
+        render_by_letter.setdefault(bucket, []).append(key)
+    for letter in render_by_letter:
+        render_by_letter[letter].sort(key=lambda key: rows[key]["display"].casefold())
+
     by_tier: dict[str, int] = {}
     for e in entries.values():
         by_tier[e["tier"]] = by_tier.get(e["tier"], 0) + 1
@@ -778,6 +854,11 @@ def build_index() -> dict:
         "curated_terms": by_tier.get("curated", 0),
         "listed_terms": by_tier.get("listed", 0),
         "long_tail_terms": sum(1 for e in entries.values() if not e["commons_slug"]),
+        "visible_rows": len(rows),
+        "visible_commons_rows": sum(1 for e in rows.values() if e.get("commons_slug")),
+        "visible_long_tail_rows": sum(1 for e in rows.values() if not e.get("commons_slug")),
+        "visible_canonical_rows": sum(1 for e in rows.values() if e["tier"] in {"verified-hold", "curated"}),
+        "visible_listed_rows": sum(1 for e in rows.values() if e["tier"] == "listed"),
         "by_coverage": {str(k): v for k, v in sorted(coverage_histogram.items())},
     }
 
@@ -797,14 +878,16 @@ def build_index() -> dict:
     # Sort letter keys: A-Z then '#'.
     ordered_letters: dict[str, list[str]] = {}
     for letter in "abcdefghijklmnopqrstuvwxyz#":
-        if letter in by_letter:
-            ordered_letters[letter] = by_letter[letter]
+        if letter in render_by_letter:
+            ordered_letters[letter] = render_by_letter[letter]
 
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "stats": stats,
         "by_letter": ordered_letters,
         "entries": dict(sorted(entries.items())),
+        "rows": dict(sorted(rows.items())),
+        "aliases_by_commons_slug": aliases_by_commons_slug,
     }
 
 

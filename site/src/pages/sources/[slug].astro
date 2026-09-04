@@ -3,18 +3,27 @@ import { getCollection, render } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import Breadcrumb from "../../components/Breadcrumb.astro";
 import RecBadge from "../../components/RecBadge.astro";
+import { sourceAvailability } from "../../lib/sourceAvailability";
 
 export async function getStaticPaths() {
   const sources = await getCollection("sources");
   const terms = await getCollection("terms");
-  return sources.map((s) => {
+  const groups = new Map<string, typeof sources>();
+  for (const source of sources) {
+    const group = groups.get(source.data.org_slug) ?? [];
+    group.push(source);
+    groups.set(source.data.org_slug, group);
+  }
+  return [...groups.entries()].map(([orgSlug, works]) => {
+    works.sort((a, b) => b.data.year - a.data.year || a.id.localeCompare(b.id));
+    const source = works.find((work) => work.id === orgSlug) ?? works[0];
     const citing = terms
       .filter((t) =>
-        (t.data.guidance ?? []).some((g) => g.org_slug === s.data.org_slug)
+        (t.data.guidance ?? []).some((g) => g.org_slug === orgSlug)
       )
       .map((t) => {
         const matches = (t.data.guidance ?? []).filter(
-          (g) => g.org_slug === s.data.org_slug
+          (g) => g.org_slug === orgSlug
         );
         return matches.map((m) => ({
           slug: t.data.slug,
@@ -26,41 +35,21 @@ export async function getStaticPaths() {
       })
       .flat();
     return {
-      params: { slug: s.data.org_slug },
-      props: { source: s, citing },
+      params: { slug: orgSlug },
+      props: { source, works, citing },
     };
   });
 }
 
-const { source, citing } = Astro.props;
+const { source, works, citing } = Astro.props;
 const data = source.data;
 const { Content } = await render(source);
 
-const addedDate = data.added
-  ? new Date(data.added).toLocaleDateString("en-US", { month: "long", year: "numeric" })
-  : null;
-
-// Split posture into one or more discrete labels.
-// `private-mirror-link-out` is two facts (private archived copy AND link to
-// the original) and should render as two chips, not a run-on phrase.
-function posturePills(posture: string): string[] {
-  switch (posture) {
-    case "private-mirror-link-out":
-      return ["Private mirror", "Links out"];
-    case "host-publicly":
-      return ["Hosts publicly"];
-    case "link-out-only":
-      return ["Links out only"];
-    default:
-      return [posture.replaceAll("-", " ")];
-  }
-}
-const postureChips = posturePills(data.host_posture);
 ---
 
 <BaseLayout
   title={data.org}
-  description={`${data.org}: ${data.work_title} (${data.year})`}
+  description={`${data.org}: source works cited in the Equity Language Commons.`}
   pagefind
 >
   <Breadcrumb
@@ -73,51 +62,26 @@ const postureChips = posturePills(data.host_posture);
 
   <p class="kicker">Source</p>
   <h1 class="source">{data.org}</h1>
-  <p class="work-title">{data.work_title}</p>
+  <div class="access-panel"><Content /></div>
 
-  {data.stub && (
-    <div class="stub-banner">This source page is a stub. Full publication details and citing-terms list are pending.</div>
-  )}
-
-  {!data.stub && (
-    <div class="access-panel">
-      <p class="access-panel-title">Access posture</p>
-      <div class="access-chips">
-        {postureChips.map((label) => (
-          <span class="chip chip-posture">{label}</span>
-        ))}
-        <span class={`chip chip-live live-${data.live_status}`}>Original: {data.live_status}</span>
-      </div>
-      <Content />
-    </div>
-  )}
-
-  <h2>Publication details</h2>
-  <dl class="meta-grid">
-    <dt>Work</dt>
-    <dd>{data.work_title}</dd>
-    <dt>Published</dt>
-    <dd>{data.year}</dd>
-    {data.format && (<><dt>Format</dt><dd>{data.format}</dd></>)}
-    {data.length_pages && (<><dt>Length</dt><dd>{data.length_pages} pages{data.length_sections ? `, ${data.length_sections} sections` : ""}</dd></>)}
-    {data.copyright_holder && (<><dt>Copyright</dt><dd>&copy; {data.copyright_holder}{data.license ? `: ${data.license}` : ". No reuse license stated."}</dd></>)}
-    {data.source_url && (
-      <>
-        <dt>Original URL</dt>
-        <dd>
-          <a href={data.source_url} rel="noopener">{data.source_url}</a>
-          {data.live_status !== "live" && <span class={`live-tag live-${data.live_status}`}> &nbsp;&middot;&nbsp; {data.live_status}</span>}
-        </dd>
-      </>
-    )}
-    <dt>Commons access</dt>
-    <dd class="commons-access-cell">
-      {postureChips.map((label) => (
-        <span class="chip chip-posture">{label}</span>
-      ))}
-    </dd>
-    {addedDate && (<><dt>Added</dt><dd>{addedDate}</dd></>)}
-  </dl>
+  <h2>Works reviewed</h2>
+  {works.map((work) => {
+    const item = work.data;
+    const addedDate = item.added ? new Date(item.added).toLocaleDateString("en-US", { month: "long", year: "numeric" }) : null;
+    return (
+      <section class="work-card">
+        <div class="work-heading"><h3>{item.work_title}</h3><span class="chip">{sourceAvailability(item)}</span></div>
+        <dl class="meta-grid">
+          <dt>Published</dt><dd>{item.year}</dd>
+          {item.format && (<><dt>Format</dt><dd>{item.format}</dd></>)}
+          {item.length_pages && (<><dt>Length</dt><dd>{item.length_pages} pages{item.length_sections ? `, ${item.length_sections} sections` : ""}</dd></>)}
+          {item.copyright_holder && (<><dt>Copyright</dt><dd>&copy; {item.copyright_holder}{item.license ? `: ${item.license}` : ". No reuse license stated."}</dd></>)}
+          {item.source_url && (<><dt>Original</dt><dd><a href={item.source_url} rel="noopener">Open source</a></dd></>)}
+          {addedDate && (<><dt>Added</dt><dd>{addedDate}</dd></>)}
+        </dl>
+      </section>
+    );
+  })}
 
   {data.version_history?.length > 0 && (
     <>
@@ -138,7 +102,7 @@ const postureChips = posturePills(data.host_posture);
 
   <h2>Terms citing this source</h2>
   {citing.length === 0 ? (
-    <p class="empty">No terms in the commons cite this source yet. Once Phase 3 indexing begins, citing terms will appear here automatically.</p>
+    <p class="empty">No published terms currently cite this source.</p>
   ) : (
     <ul class="citing-list">
       {citing.map((c) => (
@@ -162,38 +126,12 @@ const postureChips = posturePills(data.host_posture);
     line-height: 1.05; margin: 0 0 0.3rem;
     letter-spacing: -0.01em;
   }
-  .work-title {
-    font-family: "Charter", Georgia, serif;
-    font-size: 1.3rem; font-style: italic;
-    color: var(--ink-soft); margin: 0 0 1.5rem;
-  }
-  .stub-banner {
-    background: var(--bg-warn);
-    border-left: 4px solid var(--warn);
-    padding: 1rem 1.3rem;
-    font-size: 0.93rem;
-    color: var(--ink);
-    margin-bottom: 2rem;
-    border-radius: 4px;
-  }
   .access-panel {
     background: var(--bg-warn);
     border-left: 4px solid var(--warn);
     border-radius: 4px;
     padding: 1.3rem 1.5rem;
     margin-bottom: 2.5rem;
-  }
-  .access-panel-title {
-    font-family: "Charter", Georgia, serif;
-    font-size: 0.78rem; text-transform: uppercase;
-    letter-spacing: 0.1em; color: var(--warn);
-    margin: 0 0 0.7rem; font-weight: 600;
-  }
-  .access-chips {
-    display: flex; flex-wrap: wrap; gap: 0.5rem;
-  }
-  .commons-access-cell {
-    display: flex; flex-wrap: wrap; gap: 0.4rem;
   }
   .chip {
     display: inline-block;
@@ -206,18 +144,7 @@ const postureChips = posturePills(data.host_posture);
     font-weight: 500;
     white-space: nowrap;
   }
-  .chip-posture {
-    background: var(--bg-card, #f5f1ea);
-    border: 1px solid var(--rule, #d8d2c4);
-    color: var(--ink-soft, #4a463c);
-  }
-  .chip-live {
-    background: transparent;
-    border: 1px solid currentColor;
-  }
-  .chip-live.live-live { color: var(--use-ink); }
-  .chip-live.live-404, .chip-live.live-offline { color: var(--avoid-ink); }
-  .chip-live.live-paywalled, .chip-live.live-login-gated { color: var(--care-ink); }
+  .chip { background: var(--bg-card); border: 1px solid var(--rule); color: var(--ink-soft); }
 
   .meta-grid {
     background: var(--bg-card);
@@ -241,8 +168,6 @@ const postureChips = posturePills(data.host_posture);
   }
   .meta-grid dd { margin: 0; color: var(--ink); }
   .meta-grid a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--accent-soft); }
-  .live-tag { font-size: 0.85rem; }
-  .live-404, .live-offline { color: var(--avoid-ink); }
 
   .version-history { list-style: none; padding: 0; margin: 0; }
   .version-item { padding: 1rem 0; border-bottom: 1px solid var(--rule-soft); }

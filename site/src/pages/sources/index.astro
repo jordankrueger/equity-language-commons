@@ -2,36 +2,19 @@
 import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import Breadcrumb from "../../components/Breadcrumb.astro";
+import { sourceAvailability } from "../../lib/sourceAvailability";
 
 const all = await getCollection("sources");
-const sources = all
-  .map((s) => ({
-    slug: s.data.org_slug,
-    org: s.data.org,
-    title: s.data.work_title,
-    year: s.data.year,
-    posture: s.data.host_posture,
-    live: s.data.live_status,
-    stub: s.data.stub ?? false,
-  }))
-  .sort((a, b) => a.org.localeCompare(b.org, "en", { sensitivity: "base" }));
-
-// Split a posture value into one or more discrete chip labels.
-// `private-mirror-link-out` is two distinct facts (we have a private mirror,
-// AND we link out to the original) and should render as two chips, not one
-// run-on phrase.
-function posturePills(posture: string): string[] {
-  switch (posture) {
-    case "private-mirror-link-out":
-      return ["Private mirror", "Links out"];
-    case "host-publicly":
-      return ["Hosts publicly"];
-    case "link-out-only":
-      return ["Links out only"];
-    default:
-      return [posture.replaceAll("-", " ")];
-  }
+const grouped = new Map<string, { slug: string; org: string; works: typeof all }>();
+for (const source of all) {
+  const slug = source.data.org_slug;
+  const group = grouped.get(slug) ?? { slug, org: source.data.org, works: [] };
+  group.works.push(source);
+  grouped.set(slug, group);
 }
+const sources = [...grouped.values()]
+  .map((group) => ({ ...group, works: group.works.sort((a, b) => b.data.year - a.data.year || a.id.localeCompare(b.id)) }))
+  .sort((a, b) => a.org.localeCompare(b.org, "en", { sensitivity: "base" }));
 ---
 
 <BaseLayout
@@ -40,21 +23,20 @@ function posturePills(posture: string): string[] {
 >
   <Breadcrumb trail={[{ href: "/", label: "Home" }, { label: "Sources" }]} />
   <h1>Sources</h1>
-  <p class="subtitle">{sources.length} source organization{sources.length === 1 ? "" : "s"} in the commons. Each one is the newest edition's canonical page; prior editions live in that page's version history.</p>
+  <p class="subtitle">{sources.length} source organization{sources.length === 1 ? "" : "s"} in the commons. Sources remain listed when an original moves or goes offline because commons entries still cite the reviewed edition.</p>
+  <p class="status-help"><strong>Available online</strong> means the original is public. <strong>Reference copy held</strong> means it was reviewed from a private archival copy. <strong>Access restricted</strong> means the original requires a login or subscription.</p>
 
   <ul class="source-list">
     {sources.map((s) => (
       <li class="source-row">
         <div>
           <a class="org-name" href={`/sources/${s.slug}/`}>{s.org}</a>
-          {s.stub && <span class="stub-chip">stub</span>}
-          <p class="work">{s.title} <span class="year">({s.year})</span></p>
+          {s.works.map((work) => (
+            <p class="work">{work.data.work_title} <span class="year">({work.data.year})</span></p>
+          ))}
         </div>
         <div class="posture">
-          {posturePills(s.posture).map((label) => (
-            <span class="chip chip-posture">{label}</span>
-          ))}
-          <span class={`chip chip-live live-${s.live}`}>{s.live}</span>
+          {s.works.map((work) => <span class="chip">{sourceAvailability(work.data)}</span>)}
         </div>
       </li>
     ))}
@@ -63,6 +45,7 @@ function posturePills(posture: string): string[] {
 
 <style>
   .subtitle { color: var(--ink-soft); font-size: 1rem; margin: 0 0 2rem; }
+  .status-help { background: var(--bg-card); border: 1px solid var(--rule); padding: 0.9rem 1rem; margin: -0.75rem 0 2rem; font-size: 0.9rem; }
   .source-list { list-style: none; padding: 0; margin: 0; }
   .source-row {
     padding: 1rem 0; border-bottom: 1px solid var(--rule-soft);
@@ -92,17 +75,8 @@ function posturePills(posture: string): string[] {
     line-height: 1.4;
     white-space: nowrap;
     font-weight: 500;
-  }
-  .chip-posture {
     background: var(--bg-card, #f5f1ea);
     border: 1px solid var(--rule, #d8d2c4);
     color: var(--ink-soft, #4a463c);
   }
-  .chip-live {
-    background: transparent;
-    border: 1px solid currentColor;
-  }
-  .live-404, .live-offline { color: var(--avoid-ink); }
-  .live-paywalled, .live-login-gated { color: var(--care-ink); }
-  .live-live { color: var(--use-ink); }
 </style>
