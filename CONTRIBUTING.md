@@ -76,11 +76,6 @@ equity-language-commons/
 │       ├── layouts/        # BaseLayout
 │       └── data/           # Derived data (glossary-index.json)
 ├── scripts/                # Build pipeline (Python + bash, stdlib-only)
-├── source-guides/          # Source PDFs + extracted markdown
-│   ├── *.pdf               # Originally-archived sources
-│   ├── *.md                # PDF→markdown extractions
-│   ├── discovered/         # Sources discovered during research phase
-│   └── MANIFEST.md         # Canonical catalog of every source
 ├── notes/                  # Schema docs, coverage matrix outputs
 ├── research/               # Research-notes audit trail
 ├── preview/                # Early HTML/CSS design previews (pre-Astro)
@@ -102,7 +97,7 @@ The commons enforces editorial voice rules that go beyond ordinary style. Read t
 - Org name and `org_slug`
 - Publication year
 - `source_url` (current canonical URL: verify with a live HEAD check)
-- `local_archive` path (relative to repo root)
+- `local_archive` path, when supplied by a maintainer
 - `quote_loc`: a real page/section name, not just a line number
 - `paraphrase`: 1-3 sentence contextualization in your own words
 - `confidence: "VERIFIED-ARCHIVED"` only if you confirmed the quote against the local archived file
@@ -113,20 +108,17 @@ The commons enforces editorial voice rules that go beyond ordinary style. Read t
 
 ## How to add a new term
 
-The fast path uses the existing pipeline:
+Start from an existing term page and edit the content directly:
 
 ```bash
-# 1. Refresh the coverage matrix
-./scripts/build-coverage-matrix.py
-
-# 2. Pick a term from notes/term-coverage-matrix.md "Top 50 candidates"
+# 1. Pick a term from notes/term-coverage-matrix.md "Top 50 candidates"
 #    (or pick your own: verify it has at least 3 source citations first)
 
-# 3. Scaffold the term file from matrix data
+# 2. Scaffold the term file from committed matrix data
 ./scripts/scaffold-term.py <slug>
 
-# 4. Open site/src/content/terms/<slug>.md and clean up:
-#    - Verify each quote against the local source archive
+# 3. Open site/src/content/terms/<slug>.md and clean up:
+#    - Link each quote to its public source
 #    - Fix any mis-classified recommendations
 #    - Tighten quotes to <50 words; pick the most term-relevant passage
 #    - Write the synthesis (2-4 paragraphs, follow editorial voice rules)
@@ -134,11 +126,10 @@ The fast path uses the existing pipeline:
 #    - Populate related_terms, categories, tags
 #    - Remove `stub: true`
 
-# 5. Verify the schema
+# 4. Verify the schema
 cd site && npm run build && cd ..
 
-# 6. Refresh derived data
-./scripts/build-coverage-matrix.py
+# 5. Refresh public derived data
 ./scripts/build-glossary-index.py
 ./scripts/build-sqlite-index.py
 ```
@@ -147,49 +138,21 @@ Model your work on existing high-quality term pages: `site/src/content/terms/bla
 
 ## How to add a new source guide
 
-```bash
-# 1. Drop the PDF into source-guides/ or source-guides/discovered/
-#    (use discovered/ unless it was in Jordan's original archive)
-
-# 2. Add a row to source-guides/MANIFEST.md
-#    (filename, org, title, year, scope, host_posture)
-
-# 3. Extract PDF→markdown
-./scripts/extract-pdfs.sh
-
-# 4. Refresh matrix to include the new source's terms
-./scripts/build-coverage-matrix.py
-
-# 5. Scaffold a source page if one doesn't already exist
-./scripts/scaffold-source-pages.py
-
-# 6. Run the enricher to fill mechanical metadata (page count, format,
-#    live URL status, last_checked date)
-./scripts/enrich-source-pages.py
-
-# 7. Manually write the source page's About section and Access posture
-#    rationale at site/src/content/sources/<slug>.md
-```
-
-Host posture must be picked thoughtfully: see [ROADMAP.md](ROADMAP.md#host-posture-per-source-locked-2026-04-24) for the three-tier system.
+Open a source suggestion issue with the publisher, title, date, public URL, and why it belongs in the corpus. A maintainer will archive and verify the source privately before adding it. Do not commit a full source document or extraction.
 
 ## Running the pipeline
 
-The full pipeline order, when adding both new sources and new terms:
+The public validation pipeline is:
 
 ```bash
-./scripts/extract-pdfs.sh              # PDF → markdown (only when new PDFs added)
-./scripts/build-coverage-matrix.py     # Refresh term coverage data
-./scripts/scaffold-source-pages.py     # Create source pages for new sources
-./scripts/enrich-source-pages.py       # Fill mechanical metadata
-./scripts/scaffold-term.py <slug>      # Scaffold each new term
-# … per-term LLM cleanup happens here …
+python3 scripts/lint-content.py --strict
 ./scripts/build-glossary-index.py      # Refresh glossary data
+./scripts/check-glossary-index.py      # Check glossary integrity
 ./scripts/build-sqlite-index.py        # Refresh SQLite index
 cd site && npm run build               # Final schema check
 ```
 
-The deploy script runs steps 2, 5 (glossary), 6 (sqlite), and the npm build automatically:
+Maintainers with the private source archive can run the complete ingestion and deployment pipeline with:
 
 ```bash
 ./scripts/deploy.sh

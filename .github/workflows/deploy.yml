@@ -1,8 +1,9 @@
 name: Deploy to Cloudflare Pages
 
 # Auto-deploy on push to main. Mirrors scripts/deploy.sh exactly:
-# Python preprocessing (lint gate -> coverage matrix -> glossary index ->
-# sqlite index) then Astro build, then wrangler pages deploy.
+# Public-repo preprocessing (lint gate -> glossary index -> sqlite index),
+# then Astro build and deploy. The coverage matrix is committed because its
+# copyrighted source archive is kept outside the public repository.
 # Replaces the manual ./scripts/deploy.sh run.
 
 on:
@@ -36,12 +37,9 @@ jobs:
           cache: npm
           cache-dependency-path: site/package-lock.json
 
-      # --- Refresh derived data (order matters: lint -> matrix -> glossary -> sqlite) ---
+      # --- Refresh public derived data (order matters: lint -> glossary -> sqlite) ---
       - name: Content lint (blocks deploy on authoring artifacts / broken links)
         run: python3 scripts/lint-content.py
-
-      - name: Build coverage matrix
-        run: python3 scripts/build-coverage-matrix.py
 
       - name: Build glossary index
         run: python3 scripts/build-glossary-index.py

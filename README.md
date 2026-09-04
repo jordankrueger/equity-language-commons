@@ -86,19 +86,18 @@ npm run build
 npm run preview
 ```
 
-For the full pipeline (when adding new sources or terms):
+For the public build:
 
 ```bash
 # Run from the repo root
-./scripts/extract-pdfs.sh            # PDF → markdown
-./scripts/build-coverage-matrix.py   # Term coverage matrix
-./scripts/scaffold-source-pages.py   # Source page stubs
-./scripts/enrich-source-pages.py     # Mechanical metadata
-./scripts/scaffold-term.py <slug>    # Per-term scaffold
 ./scripts/build-glossary-index.py    # Glossary data
+./scripts/check-glossary-index.py    # Glossary integrity
 ./scripts/build-sqlite-index.py      # SQLite index
-./scripts/deploy.sh                  # Build + push to CF Pages
+python3 scripts/lint-content.py      # Content checks
+cd site && npm run build             # Production site
 ```
+
+Copyrighted source PDFs and full-text extractions are kept in a private maintainer archive and are not part of the public repository. Propose new sources through an issue so a maintainer can archive and verify them.
 
 Detailed contribution workflow in [CONTRIBUTING.md](CONTRIBUTING.md).
 

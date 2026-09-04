@@ -32,6 +32,10 @@ pnpm-debug.log*
 # Pagefind index (built artifact)
 public/pagefind/
 
+# Copyrighted preservation copies and full-text extracts live in the private
+# archive outside this repository. Maintainer worktrees may symlink this path.
+source-guides
+
 # macOS resource forks
 ._*
 site/node_modules
