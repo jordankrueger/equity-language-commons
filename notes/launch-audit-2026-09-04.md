@@ -15,9 +15,11 @@
 - Search indexing is enabled, and `robots.txt` points crawlers to the sitemap.
 - External citation verification: 1,154 checks completed. The 72 dead-link findings belong to Sierra Club (71 citations sharing one URL) and the UN Martínez Cobo source (1); their source statuses and check dates now reflect that result.
 
-## Launch switches not changed
+## Launch state
 
-- The custom domain was not attached or pointed at the Pages project.
+- The custom domain is attached and the proxied apex CNAME points to the Pages project.
+- HTTPS, security headers, search, glossary, sources, sitemap, robots, and a representative term page were verified on the apex domain.
+- Cloudflare Email Routing MX and SPF records were preserved.
 - The repository remains private because its Git history contains copyrighted preservation copies that the website does not publish.
 - Keep the canonical custom-domain URL so the Pages preview does not become the preferred search result.
 
@@ -25,4 +27,4 @@
 
 - The existing project remains a direct-upload Cloudflare Pages project on the personal account, deployed by the repository workflow or `scripts/deploy.sh`.
 - The deployment artifact now includes the security headers, favicon, robots policy, and sitemap.
-- Cloudflare project listing authentication succeeded during the audit. No Cloudflare setting was changed.
+- Cloudflare domain verification is active. Certificate validation may continue to show pending briefly in the Pages API even though HTTPS is already serving successfully.
