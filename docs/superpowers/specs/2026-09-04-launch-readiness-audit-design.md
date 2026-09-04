@@ -23,7 +23,7 @@ The work is complete when:
 
 Reuse: `scripts/build-glossary-index.py`, term frontmatter aliases, `site/src/data/glossary-index.json`, and the current glossary filters.
 
-Add: a canonical-row view without removing the evidence index. `entries` remains the complete matrix-term dictionary consumed by `lint-content.py` and `diagnose-term-coverage.py`. A new `rows` dictionary contains published canonical rows plus unresolved long-tail rows. A new `aliases_by_commons_slug` mapping attaches de-duplicated alias objects to each published row; each alias object retains its matrix key, display form, source count, and source pointers. `by_letter` references `rows`, not `entries`. Published term pages contribute one primary row keyed by their own slug and displayed with their `term` value.
+Add: a canonical-row view without removing the evidence index. `entries` remains the complete matrix-term dictionary consumed by `lint-content.py` and `diagnose-term-coverage.py`. A new `rows` dictionary contains published canonical rows plus unresolved long-tail rows. A new `aliases_by_commons_slug` mapping attaches de-duplicated alias objects to each published row; each alias object retains its matrix key, display form, source count, and source pointers. `by_letter` references `rows`, not `entries`. Published term pages contribute one primary row keyed by their own slug and displayed with their `term` value. Its data comes from the exact normalized matrix term matching the page term or slug. If that record is absent, the primary row keeps the page identity and aggregates unique source pointers from its aliases while marking the count as aggregate. The exact page term never becomes its own alias. Row construction rejects key collisions between a page slug and an unrelated long-tail key.
 
 The letter bucket is computed from the primary display value, never the matrix term or alias, and rows sort by that display value. Alphabetic terms must match their A–Z bucket; nonalphabetic terms go in `#`. The generator will exit non-zero on duplicate page-backed primary slugs, duplicate page-backed visible labels, or wrong bucket placement so CI/deploy cannot publish bad output. Long-tail display collisions emit a warning and retain both entries. The glossary template will render aliases beneath the primary label in subdued text that remains part of the indexed page content.
 
@@ -46,13 +46,15 @@ Add: organization grouping by `org_slug` on both the Sources index and source de
 
 `host-publicly` alone never triggers “Public archive available”; the mapper must verify that a URL/file is actually reader-accessible under `site/public`. Until that is true for SumOfUs or IDP, they render “Reviewed from a reference copy.” Private mirrors never imply reader access. “Original unavailable” is an error state the audit should surface, not hide. A compact explanation above the list will say that unavailable sources remain listed because they are cited in commons entries and preserve the record of what was reviewed. Existing “newest edition canonical page” copy will be rewritten to match the organization-and-works model.
 
+Treat `live_status: 404` exactly like `offline`. A public archive is reachable only when an explicit deployed public path exists; current `local_archive` repository paths do not qualify. The mapper accepts a public-path argument so fixture tests can exercise both “Public archive available” and “Original unavailable” even though current production data reaches neither branch. For organization-level prose, prefer the source file whose filename exactly equals `org_slug`. If none exists, use the newest work by `year`, breaking ties by filename. Work-specific titles, dates, and access facts always come from their own records.
+
 The current posture chips (“Private mirror,” “Links out,” “Hosts publicly”) will be removed from the index. Those details remain on each source’s page where they are relevant.
 
 ### 3. Homepage and personal-name cleanup
 
 Reuse: the existing homepage structure and footer attribution.
 
-Remove: the complete homepage Status section, the separate “source stubs” counter, and internal phase/stub language. Retire the same public build-state vocabulary elsewhere: hide stub sources from public indexes, remove planned counts/chips from chapter pages, and remove Phase 3 placeholder copy from source pages. The two existing stub chapters already own published term relationships, so convert them into minimal real landing pages using their existing ledes and linked term pages rather than leaving directly-loadable stub copy. The internal roadmap and frontmatter flags remain available to maintainers.
+Remove: the complete homepage Status section, the separate “source stubs” counter, “chapters drafted,” and internal phase/stub language. Retire the same public build-state vocabulary elsewhere: remove planned counts/chips from chapter pages and remove Phase 3 placeholder copy from source pages. No source file currently carries `stub`, so delete the dead source-stub UI branch. The two stub chapters have no `term_slugs` and therefore no rendered term relationships; exclude them from `getStaticPaths`, public indexes, and navigation rather than inventing content. Their frontmatter and term `categories` remain internal roadmap data.
 
 Change: “Jordan Krueger’s synthesis paragraphs” to “Synthesis paragraphs.” Remove Jordan’s name from other rendered prose and contributor arrays. Rewrite the About-page license sentence as “The original cross-reference layer … is licensed under CC BY 4.0,” with the footer copyright identifying the rights holder. Keep the copyright attribution in `SiteFooter.astro`. The repository may retain Jordan’s name in non-rendered documentation, authorship history, and Git metadata.
 
@@ -64,7 +66,7 @@ Check and fix, where safe:
 
 - Content correctness: glossary invariants, duplicate routes, stale public copy, broken internal links, dead public links, missing pages, and quote integrity.
 - Build and code: strict content lint, production build, generated-data reproducibility, unused code, large assets, accidental source maps, and repository cleanliness.
-- Discoverability: unique titles and descriptions, canonical URL behavior, Open Graph basics, sitemap, robots.txt, favicon, and search indexing. The unannounced `pages.dev` preview should use `noindex` until the custom domain launches, preventing competing preview URLs from entering search results; the launch procedure must reverse that directive with the DNS/domain activation.
+- Discoverability: unique titles and descriptions, canonical URL behavior, Open Graph basics, sitemap, robots.txt, favicon, and search indexing. Keep `astro.config.mjs` canonical URLs pointed at the real launch domain. The unannounced `pages.dev` preview should use `noindex` until the custom domain launches, preventing competing preview URLs from entering search results. The launch checklist requires removing `noindex`, rebuilding, and deploying before the DNS flip.
 - Accessibility: headings, landmark structure, keyboard use, focus visibility, color contrast, accessible names, and reduced-motion behavior where relevant.
 - Performance: HTML/CSS/JS payloads, largest assets, cache headers, compression, render-blocking resources, and representative Lighthouse results.
 - Security: HTTPS behavior, response headers, clickjacking protection, referrer policy, MIME sniffing protection, permissions policy, exposed files, dependency audit, and absence of secrets. Content Security Policy is report-only in this pass unless the inline glossary script is moved to a CSP-compatible asset and its interactive behavior is tested; a blocking policy must not be guessed from 200 responses.
@@ -82,21 +84,26 @@ Must-pass before launch: no duplicate or misplaced glossary rows; no duplicate s
 - `site/src/pages/chapters/index.astro`
 - `site/src/pages/chapters/[slug].astro`
 - `site/src/pages/sources/[slug].astro`
+- `site/src/layouts/BaseLayout.astro`
 - `site/src/pages/about.astro`
 - `site/src/pages/contribute.astro`
 - `site/src/content/terms/*.md` only where rendered contributor/name data must be removed
 - The smallest existing test or lint file capable of enforcing glossary invariants; add one small test only if no suitable check exists
-- `site/public/_headers`, robots/sitemap configuration, or other configuration files only when the audit finds a verified launch problem
+- `site/public/_headers`
+- `site/public/robots.txt`
+- `site/public/favicon.svg`
+- `site/astro.config.mjs` and the smallest sitemap implementation needed for a valid sitemap
+- `notes/launch-readiness-audit-2026-09-04.md` for durable findings and the final launch checklist
 
 Generated glossary and SQLite outputs may change during verification. They will be committed only if the repository already treats them as source-controlled release inputs.
 
 ## Verification
 
-1. Run a focused glossary regression check with literal assertions: “Crazy” and “Little Person” each appear exactly once as primary rows and in C/L; no D/L/P row displays “Crazy”; aliases retain their individual source data; the `#` fixture lands in `#`; visible stats equal rendered row counts. Use separate temporary mutations for duplicate primary slug, duplicate primary label, alias duplication, wrong literal bucket, and `#` handling; prove each mutation fails before reverting it.
+1. Run a focused glossary regression check with literal assertions: “Crazy” and “Little Person” each appear exactly once as primary rows and in C/L; no D/L/P row displays “Crazy”; aliases retain their individual source data and never include the primary term itself; primary rows use the exact matrix record or documented aggregate fallback; the `#` fixture lands in `#`; row-key collisions fail; visible stats equal rendered row counts. Use separate temporary mutations for duplicate primary slug, duplicate primary label, alias duplication, wrong literal bucket, key collision, and `#` handling; prove each mutation fails before reverting it.
 2. Rebuild the matrix, glossary index, and SQLite index using the normal order.
 3. Run strict content lint and quote verification without changing verified quotations.
 4. Run the production Astro/Pagefind build.
-5. Run browser assertions against representative local rendered pages: glossary C and L sections, Sources, homepage, chapter index/detail, source detail, and a term with former contributor metadata. Assert expected row counts/text and exercise glossary filters from the keyboard.
+5. Use the existing computer-control browser tooling for assertions against representative local rendered pages; do not add a browser-test dependency. Check glossary C and L sections, Sources, homepage, chapter index/detail, source detail, and a term with former contributor metadata. Assert expected row counts/text, verify glossary fallback anchors still resolve, and exercise glossary filters from the keyboard.
 6. Complete all local must-pass launch checks and review the complete diff before commit.
 7. Push and deploy only after Jordan authorizes those steps. Then repeat the content, header, interaction, and deployment checks against the live Pages URL; production verification cannot pass against the pre-deploy site.
 
@@ -108,7 +115,7 @@ Generated glossary and SQLite outputs may change during verification. They will 
 - Show one canonical glossary row and place aliases beneath it.
 - Remove Jordan’s name from rendered content except the footer.
 - Audit the Direct Upload Pages project and safely fix Pages-level settings, but do not flip custom-domain DNS or change zone-level launch settings.
-- Keep the preview host out of search indexes until launch. Pre-launch, set Astro's site URL to the current Pages URL and emit `noindex`; the launch checklist requires changing the site URL to the custom domain, removing `noindex`, rebuilding, and deploying before the DNS flip.
+- Keep the preview host out of search indexes until launch while retaining the real-domain canonical URL. The launch checklist requires removing `noindex`, rebuilding, and deploying before the DNS flip.
 
 ## Open questions
 
