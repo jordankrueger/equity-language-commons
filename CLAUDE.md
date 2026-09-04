@@ -220,7 +220,7 @@ to frame issues*. Not brand identity (logos/fonts) or general editorial
 
 - **Production URL (preview-tier, not announced):** https://equity-language-commons.pages.dev/
 - **Deploy method: GitHub Actions (push to main auto-deploys).** `.github/workflows/deploy.yml` runs the full pipeline: lint-content.py → build-coverage-matrix.py → build-glossary-index.py → build-sqlite-index.py → npm ci → astro build → wrangler pages deploy. Triggered on push to `main` + workflow_dispatch. Manual deploy: `./scripts/deploy.sh` still works as a fallback (uses `PERSONAL_CLOUDFLARE_API_TOKEN`).
-- **GitHub repo:** https://github.com/jordankrueger/equity-language-commons (private; flips public at Phase 4 launch)
+- **GitHub repo:** https://github.com/jordankrueger/equity-language-commons (private). Keep it private: Git history contains copyrighted preservation copies and full-text extractions that are not published on the site.
 - **Wrangler CF Pages project:** `equity-language-commons` on Jordan's personal CF account, Direct Upload type. NOTE: Direct Upload projects CANNOT be converted to native Git integration via the CF dashboard — the "Connect to Git" path is unavailable for direct-upload projects.
 - **Repo secrets (set 2026-06-11):** `CLOUDFLARE_API_TOKEN` (scoped to Pages:Edit) + `CLOUDFLARE_ACCOUNT_ID` (f00242a6a1d94ee54ad9a5792e722252).
 - **Email routing (live 2026-06-11):** hello@equitylanguagecommons.org → jordan@jordankrueger.com via Cloudflare Email Routing. MX/SPF/DKIM configured. Rule is specific hello@ only (not catch-all).

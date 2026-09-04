@@ -12,14 +12,14 @@
 - Assets: no production image exceeds 500 KB. The large built files are the glossary HTML and downloadable SQLite index.
 - Search metadata: canonical URL, description, Open Graph basics, favicon, and sitemap are present.
 - Security headers: MIME sniffing protection, strict referrer policy, frame denial, and restrictive camera/microphone/geolocation permissions are configured in `_headers`.
-- Pre-launch indexing: every page carries `noindex, nofollow`, and `robots.txt` disallows crawling.
+- Search indexing is enabled, and `robots.txt` points crawlers to the sitemap.
 - External citation verification: 1,154 checks completed. The 72 dead-link findings belong to Sierra Club (71 citations sharing one URL) and the UN Martínez Cobo source (1); their source statuses and check dates now reflect that result.
 
 ## Launch switches not changed
 
 - The custom domain was not attached or pointed at the Pages project.
-- The repository was not pushed, merged, deployed, or made public.
-- Before the public DNS switch, remove the `noindex, nofollow` meta tag and change `robots.txt` to allow crawling. Keep the canonical custom-domain URL so the Pages preview does not become the preferred search result.
+- The repository remains private because its Git history contains copyrighted preservation copies that the website does not publish.
+- Keep the canonical custom-domain URL so the Pages preview does not become the preferred search result.
 
 ## Cloudflare
 

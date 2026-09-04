@@ -2,9 +2,9 @@
 
 A cross-referenced omnibus of progressive equity-language guidance: every source organization's rule side-by-side, per term, with attribution.
 
-🌐 **Live site:** [equitylanguagecommons.org](https://equitylanguagecommons.org) *(in pre-launch build-out; preview at [equity-language-commons.pages.dev](https://equity-language-commons.pages.dev))*
+🌐 **Live site:** [equitylanguagecommons.org](https://equitylanguagecommons.org)
 
-📖 **Browse the commons:** [Chapters](https://equitylanguagecommons.org/chapters/) · [A–Z index](https://equitylanguagecommons.org/terms/) · [Glossary](https://equitylanguagecommons.org/glossary/) · [Sources](https://equitylanguagecommons.org/sources/)
+📖 **Browse the commons:** [Chapters](https://equitylanguagecommons.org/chapters/) · [Glossary](https://equitylanguagecommons.org/glossary/) · [Sources](https://equitylanguagecommons.org/sources/)
 
 🤝 **Want to contribute?** Start at the [Contribute page](https://equitylanguagecommons.org/contribute/): there are four paths in (suggest, discuss, PR, email) and a step-by-step onboarding section for people new to GitHub.
 
@@ -44,31 +44,24 @@ The data model centers on **terms**, **sources**, and **chapters**:
 
 The site also ships with:
 
-- An **A–Z index** of every term that has a full commons entry.
-- A **Glossary Index** covering every term found in any source guide (~1,300 entries): commons entries plus long-tail single- and dual-source mentions, all browsable and discoverable.
+- A **Glossary Index** covering 1,154 primary entries from the source corpus, with aliases grouped under their canonical entries.
 - A **SQLite build-time index** at `/data/elc-index.sqlite` for anyone who wants to run faceted queries against the commons without scraping.
 
-## Build status
-
-This is an in-progress build-out. As of the latest commit:
+## Current coverage
 
 | Item | Status |
 |---|---|
-| Indexed commons terms | 28 |
-| Chapters (with lede + cross-cutting principles + chronology) | 3 of 8-10 planned |
-| Source pages | 28 sources cataloged |
-| Glossary Index | Live (1,271 terms) |
+| Indexed commons terms | 139 |
+| Published chapters | 9 |
+| Source organizations | 37 |
+| Glossary Index | 1,154 primary entries |
 | SQLite index | Live |
-| Launch target | ~250 commons terms across 8-10 chapters + Glossary Index |
-
-Full status detail in [ROADMAP.md](ROADMAP.md).
 
 ## Stack
 
-- **Astro 5** + TypeScript strict mode: content collections with Zod schemas, static-site generator
+- **Astro 7** + TypeScript strict mode: content collections with Zod schemas, static-site generator
 - **Pagefind**: client-side search at build time
 - **Cloudflare Pages**: hosting, free tier
-- **R2**: for mirrored PDFs of orphaned source guides (selective)
 - **Cloudflare Email Routing**: `hello@equitylanguagecommons.org` forwarded to maintainer inbox
 - **Python 3.11+** stdlib only: the build pipeline (PDF extraction, coverage matrix, scaffolders, enrichers, glossary index, SQLite index)
 - **GitHub**: version control, Discussions, Issues, PRs
