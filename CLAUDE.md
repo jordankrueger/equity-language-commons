@@ -63,6 +63,12 @@ plus glossary index + SQLite build-time index + Contribute page.
 
 ## Pick-up notes for next ELC session
 
+**Current 2026-09-04 — public repository and production deployment ready; launch preparation due September 8:**
+- The sanitized contribution repository is public at `jordankrueger/equity-language-commons`; existing issue and discussion routes retain their URLs. Original history and GitHub records are preserved in the private `jordankrueger/equity-language-commons-private-archive-2026-09-04` repository. Keep that repository private.
+- Canonical source archive: `/Users/jordankrueger/ClaudeCode/private-archives/equity-language-commons/`. Its README maps the read-only source directory, 64-file checksum manifest, pre-public Git bundle, and GitHub metadata export. Versioned backup coverage remains to be verified; checksums are not proof of a backup.
+- Deployment run `33918018660` succeeded for sanitized commit `867d4f75ce9aa3ec176caadf816d67d40358ab63`; production homepage returned HTTP 200 during wrap-up. Public builds use the committed coverage matrix and do not need private source documents.
+- Tuesday, September 8 task in Notion: Prep Equity Language Commons for launch. Remaining: one outside-reader check, final attribution/quotation/reuse review, archive backup verification, and a short announcement. Tier 1 proofing remains open until completion is confirmed. Older notes below about making the repo public or flipping apex DNS are superseded.
+
 **Done 2026-07-22 — Tier 1 proofing reframed from a 766pp PDF to a bounded 51-page packet:**
 - **Why:** the 766pp print export had no finish line, so Tier 1 never started. `notes/launch-confidence-analysis.md` always defined Tier 1 as *bounded* reading (slur pages, chapter intros, faith cluster, 15-page sample) — the artifact just didn't match the plan.
 - **`scripts/build-proofing-packet.py` (new)** builds a single self-contained HTML packet from the content collections. 51 pages / ~23k words in 6 annotated groups: **A** slur + quote-only (14), **B** faith cluster (7), **C** all chapter intros (11), **D** politically contested (6), **E** site-level pages — home/about/methodology (3), **F** deterministic 10-page random sample (seed `20260722`, never re-draws a page already in A–E).
