@@ -115,11 +115,12 @@ const sourceOrganizations = new Set(sources.map((s) => s.data.org_slug));
     margin: 0 0 3rem;
     max-width: 44rem;
   }
+  /* No aspect-ratio here: the <video> carries width/height attributes, which
+     browsers already use as its default ratio. One source of truth. */
   .film video {
     display: block;
     width: 100%;
     height: auto;
-    aspect-ratio: 16 / 9;
     background: var(--bg-card);
     border: 1px solid var(--rule);
     border-radius: 4px;

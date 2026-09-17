@@ -8,6 +8,10 @@ interface Props {
   description?: string;
   mainClass?: string;
   pagefind?: boolean;
+  /** Path or absolute URL of this page's social card. Defaults to the site-wide one. */
+  ogImage?: string;
+  /** Alt text for that card. Required in practice whenever ogImage is overridden. */
+  ogImageAlt?: string;
 }
 
 const { title, description, mainClass, pagefind } = Astro.props;
@@ -15,12 +19,17 @@ const fullTitle =
   title === "Equity Language Commons" ? title : `${title}: Equity Language Commons`;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 
-// Social preview card. Absolute URL is required — Slack, LinkedIn, Bluesky and
-// iMessage all drop a relative og:image. Source: scripts/og-card.html.
-const ogImage = new URL("/og.png", Astro.site);
+// Social preview card. The absolute URL matters — Slack, LinkedIn, Bluesky and
+// iMessage all drop a relative og:image. Pages may pass their own; the default
+// is the site-wide card built from scripts/og-card.html.
+//
+// If that card is regenerated with different content, update the default alt
+// text below to match it.
+const ogImage = new URL(Astro.props.ogImage ?? "/og.png", Astro.site);
 const ogImageAlt =
+  Astro.props.ogImageAlt ??
   "Equity Language Commons. Every guide says something different — see them side by side. " +
-  "The term Latinx with three position badges: Use, Use with care, Evolving.";
+    "The term Latinx with three position badges: Use, Use with care, Evolving.";
 ---
 
 <!doctype html>
