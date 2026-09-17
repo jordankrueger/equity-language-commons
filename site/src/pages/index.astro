@@ -26,6 +26,23 @@ const sourceOrganizations = new Set(sources.map((s) => s.data.org_slug));
     <a class="btn" href="/chapters/race-ethnicity/">Open the Race &amp; Ethnicity chapter</a>
   </div>
 
+  <figure class="film">
+    <video
+      controls
+      preload="none"
+      poster="/media/launch-poster.jpg"
+      width="1920"
+      height="1080"
+    >
+      <source src="/media/launch.mp4" type="video/mp4" />
+      Your browser can&rsquo;t play this video.
+      <a href="/media/launch.mp4">Download it instead</a>.
+    </video>
+    <figcaption>
+      Twenty-five seconds: one contested term, and every source organization&rsquo;s ruling on it.
+    </figcaption>
+  </figure>
+
   <section class="stats">
     <div>
       <strong>{liveTerms.length}</strong>
@@ -93,6 +110,24 @@ const sourceOrganizations = new Set(sources.map((s) => s.data.org_slug));
     background: var(--accent-soft);
     border-color: var(--accent-soft);
     color: #fffdf8;
+  }
+  .film {
+    margin: 0 0 3rem;
+    max-width: 44rem;
+  }
+  .film video {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    background: var(--bg-card);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+  }
+  .film figcaption {
+    margin-top: 0.7rem;
+    font-size: 0.9rem;
+    color: var(--ink-soft);
   }
   .stats {
     display: grid;
