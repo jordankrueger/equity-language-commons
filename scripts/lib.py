@@ -73,7 +73,16 @@ def build_pdf_to_md_index() -> dict[str, Path]:
 # ---------- term normalization ----------
 
 _LEADING_ARTICLES = re.compile(r"^(?:the|a|an)\s+", re.IGNORECASE)
-_SURROUNDING_QUOTES = re.compile(r'''^[""''\"\\']+|[""''\"\\']+$''')
+
+# Straight AND curly quotes, plus a stray backslash. The curly ones carry the
+# weight here: the terms this normalizes come out of pdftotext, which emits
+# typographic quotes, so a class without U+2018/2019/201C/201D silently stops
+# stripping them and '"Latinx"' stops matching 'latinx' in the coverage matrix.
+# Written as escapes, not literals, so a smart-quote pass over this file cannot
+# quietly flatten them again.
+_SURROUNDING_QUOTES = re.compile(
+    r'^["“”\'‘’\\\\]+|["“”\'‘’\\\\]+$'
+)
 _MULTISPACE = re.compile(r"\s+")
 _NON_WORD_TRAIL = re.compile(r"[\s,;:.!?]+$")
 
