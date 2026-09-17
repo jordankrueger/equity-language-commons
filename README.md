@@ -7,20 +7,24 @@ A cross-referenced omnibus of progressive equity-language guidance: every source
 [![Content licence: CC BY 4.0](https://img.shields.io/badge/content-CC%20BY%204.0-3a5a2e)](LICENSE)
 
 <!--
-  Inline player upgrade: GitHub strips <video> from READMEs unless the src is a
-  github.com/user-attachments/assets/... URL, and those only exist after a browser
-  upload. To get one: open a new Issue on github.com (do NOT submit it), drag
-  site/public/media/launch.mp4 into the body, wait for the upload to finish and
-  produce a https://github.com/user-attachments/assets/<uuid> link, copy it, then
-  discard the Issue. A bare user-attachments URL on its own line renders as a
-  player. Until then the thumbnail below links out to the hosted copy.
+  The bare user-attachments URL below is what GitHub turns into an inline player.
+  Keep it on its own line, with blank lines around it, and do NOT wrap it in a
+  markdown link or an <video> tag with a different src -- GitHub strips <video>
+  from READMEs unless the src is a user-attachments URL, and a linked URL renders
+  as a link rather than a player.
+
+  To replace the clip: open a new Issue on github.com (do NOT submit it), drag the
+  new mp4 into the body, wait for the upload to produce a
+  https://github.com/user-attachments/assets/<uuid> link, copy it here, then
+  discard the Issue. The canonical copy also lives at site/public/media/launch.mp4
+  and is served from the site, which is what the caption links to.
 -->
 
 ### What it looks like
 
-[![Watch the 25-second tour: the term Latinx with seven organizations' rulings stacked chronologically, each with a position badge](site/public/media/launch-poster.jpg)](https://equitylanguagecommons.org/media/launch.mp4)
+https://github.com/user-attachments/assets/68ecd713-6c49-4374-8227-65d8aa77e3af
 
-*Twenty-five seconds: one contested term, and every source organization's ruling on it. ([Watch](https://equitylanguagecommons.org/media/launch.mp4) &middot; also on the [home page](https://equitylanguagecommons.org))*
+*Twenty-five seconds: one contested term, and every source organization's ruling on it. (Also on the [home page](https://equitylanguagecommons.org), or [download the mp4](https://equitylanguagecommons.org/media/launch.mp4).)*
 
 ---
 
