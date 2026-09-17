@@ -31,11 +31,18 @@ from dataclasses import dataclass
 from datetime import date
 from pathlib import Path
 
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
+from lib import (
+    PROJECT_ROOT,
+    SOURCE_ROOTS,
+    build_pdf_to_md_index,
+    parse_frontmatter_scalars,
+    strip_yaml_string,
+    yaml_escape,
+)
+
 MATRIX_CSV = PROJECT_ROOT / "notes" / "term-coverage-matrix.csv"
 SOURCES_DIR = PROJECT_ROOT / "site" / "src" / "content" / "sources"
 MANIFEST = PROJECT_ROOT / "source-guides" / "MANIFEST.md"
-SOURCE_ROOTS = [PROJECT_ROOT / "source-guides", PROJECT_ROOT / "source-guides" / "discovered"]
 
 # Org → short slug. The schema's `org_slug` field is what term-pages cite, and
 # the project convention is abbreviations for well-known orgs (NAJA not Native
@@ -176,57 +183,14 @@ def parse_manifest() -> dict[str, ManifestEntry]:
 
 # ---------- existing-pages enumeration ----------
 
-def _strip_yaml_string(s: str) -> str:
-    s = s.strip()
-    if s in ("null", ""):
-        return ""
-    if (s.startswith('"') and s.endswith('"')) or (s.startswith("'") and s.endswith("'")):
-        return s[1:-1]
-    return s
-
-
-def parse_frontmatter_scalars(text: str) -> dict[str, str]:
-    if not text.startswith("---\n"):
-        return {}
-    end = text.find("\n---\n", 4)
-    if end < 0:
-        return {}
-    out: dict[str, str] = {}
-    for line in text[4:end].splitlines():
-        if not line or line.startswith((" ", "\t")):
-            continue
-        m = re.match(r"^([a-zA-Z_]+):(?:\s+(.*))?$", line)
-        if m and m.group(2) is not None:
-            out[m.group(1)] = m.group(2).strip()
-    return out
-
-
-def build_pdf_to_md_index() -> dict[str, Path]:
-    """For every extracted .md sibling in source-guides/, parse the
-    extract-pdfs.sh header to find which PDF it came from."""
-    idx: dict[str, Path] = {}
-    for root in SOURCE_ROOTS:
-        if not root.exists():
-            continue
-        for md in root.glob("*.md"):
-            if md.name == "MANIFEST.md":
-                continue
-            head = md.read_text(encoding="utf-8", errors="replace")[:400]
-            m = re.search(r"^extracted_from:\s+(.+)$", head, re.MULTILINE)
-            if m:
-                idx[m.group(1).strip()] = md
-    return idx
-
-
-def represented_matrix_slugs() -> set[str]:
+def represented_matrix_slugs(pdf_to_md: dict[str, Path]) -> set[str]:
     """Returns the set of matrix-source slugs already covered by an existing
     source page (i.e., whose local_archive resolves to a .md file we'd find
     in the matrix)."""
-    pdf_to_md = build_pdf_to_md_index()
     covered: set[str] = set()
     for f in SOURCES_DIR.glob("*.md"):
         fm = parse_frontmatter_scalars(f.read_text(encoding="utf-8"))
-        archive = _strip_yaml_string(fm.get("local_archive", ""))
+        archive = strip_yaml_string(fm.get("local_archive", ""))
         if not archive:
             continue
         arch_path = Path(archive)
@@ -251,14 +215,11 @@ def all_matrix_source_slugs() -> set[str]:
 
 # ---------- orphan resolution ----------
 
-def matrix_slug_to_manifest_filename(matrix_slug: str) -> str | None:
+def matrix_slug_to_manifest_filename(matrix_slug: str, md_to_pdf: dict[str, str]) -> str | None:
     """Matrix slug is the .md stem of the source-guides file. MANIFEST keys
     are filenames with extension — but the .md and .pdf in source-guides/
     can have *different* base names because extract-pdfs.sh slugifies
     archived PDFs. So we resolve by walking the source-guides tree."""
-    pdf_to_md = build_pdf_to_md_index()
-    # Inverse index: md filename → original PDF filename
-    md_to_pdf = {md.name: pdf_name for pdf_name, md in pdf_to_md.items()}
     target_md_name = matrix_slug + ".md"
     if target_md_name in md_to_pdf:
         return md_to_pdf[target_md_name]  # MANIFEST key is the original PDF name
@@ -290,12 +251,6 @@ def derive_local_archive_path(matrix_slug: str, manifest_filename: str) -> str:
 
 
 # ---------- source-page rendering ----------
-
-def yaml_escape(s: str) -> str:
-    if s == "":
-        return '""'
-    return '"' + s.replace("\\", "\\\\").replace('"', '\\"') + '"'
-
 
 def build_stub(*, page_slug: str, org: str, org_slug: str, work_title: str,
                year: int, source_url: str | None, local_archive: str,
@@ -335,8 +290,13 @@ def main() -> int:
                         help="report what would be created without writing")
     args = parser.parse_args()
 
+    # Build the pdf→md index once; reused by represented_matrix_slugs and
+    # matrix_slug_to_manifest_filename to avoid repeated glob walks.
+    pdf_to_md = build_pdf_to_md_index()
+    md_to_pdf = {md.name: pdf_name for pdf_name, md in pdf_to_md.items()}
+
     manifest = parse_manifest()
-    represented = represented_matrix_slugs()
+    represented = represented_matrix_slugs(pdf_to_md)
     all_matrix = all_matrix_source_slugs()
     orphans = sorted(all_matrix - represented)
 
@@ -352,7 +312,7 @@ def main() -> int:
     not_in_manifest: list[str] = []
 
     for matrix_slug in orphans:
-        manifest_fname = matrix_slug_to_manifest_filename(matrix_slug)
+        manifest_fname = matrix_slug_to_manifest_filename(matrix_slug, md_to_pdf)
         entry = manifest.get(manifest_fname) if manifest_fname else None
         if not entry:
             not_in_manifest.append(matrix_slug)
