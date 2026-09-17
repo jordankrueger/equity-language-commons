@@ -10,7 +10,6 @@
 <style>
   :root {
     --bg: #faf6ef;
-    --bg-card: #fffdf8;
     --ink: #22201c;
     --ink-soft: #5a564e;
     --ink-muted: #8a857a;
@@ -88,6 +87,20 @@
 
   Source Serif 4 loads from Google Fonts here (render-time only, never shipped).
   It is the site's own declared fallback for Charter, so the card matches the site.
+
+  Two things in this file are hand-copies and will drift silently -- nothing
+  checks them, because this file is not part of the Astro build:
+
+    * The :root palette is copied from site/src/styles/global.css. Re-sync it by
+      hand if the site's palette changes.
+    * The "139 terms" / "37 source organizations" counts are hardcoded. Before
+      regenerating, check the real numbers:
+        ls site/src/content/terms/*.md | wc -l
+        grep -h '^org_slug:' site/src/content/sources/*.md | sort -u | wc -l
+
+  If you change the headline or the example term, also update the default
+  ogImageAlt in site/src/layouts/BaseLayout.astro so the alt text still
+  describes what the card actually shows.
 -->
 <body>
   <div>
