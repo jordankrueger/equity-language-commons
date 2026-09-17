@@ -14,6 +14,13 @@ const { title, description, mainClass, pagefind } = Astro.props;
 const fullTitle =
   title === "Equity Language Commons" ? title : `${title}: Equity Language Commons`;
 const canonical = new URL(Astro.url.pathname, Astro.site);
+
+// Social preview card. Absolute URL is required — Slack, LinkedIn, Bluesky and
+// iMessage all drop a relative og:image. Source: scripts/og-card.html.
+const ogImage = new URL("/og.png", Astro.site);
+const ogImageAlt =
+  "Equity Language Commons. Every guide says something different — see them side by side. " +
+  "The term Latinx with three position badges: Use, Use with care, Evolving.";
 ---
 
 <!doctype html>
@@ -25,9 +32,18 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     {description && <meta name="description" content={description} />}
     <link rel="canonical" href={canonical} />
     <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Equity Language Commons" />
     <meta property="og:title" content={fullTitle} />
     {description && <meta property="og:description" content={description} />}
     <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={ogImageAlt} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    {description && <meta name="twitter:description" content={description} />}
+    <meta name="twitter:image" content={ogImage} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   </head>
   <body>

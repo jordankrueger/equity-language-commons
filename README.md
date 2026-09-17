@@ -2,6 +2,28 @@
 
 A cross-referenced omnibus of progressive equity-language guidance: every source organization's rule side-by-side, per term, with attribution.
 
+[![Deploy](https://github.com/jordankrueger/equity-language-commons/actions/workflows/deploy.yml/badge.svg)](https://github.com/jordankrueger/equity-language-commons/actions/workflows/deploy.yml)
+[![Live site](https://img.shields.io/badge/live-equitylanguagecommons.org-a84c2a)](https://equitylanguagecommons.org)
+[![Content licence: CC BY 4.0](https://img.shields.io/badge/content-CC%20BY%204.0-3a5a2e)](LICENSE)
+
+<!--
+  Inline player upgrade: GitHub strips <video> from READMEs unless the src is a
+  github.com/user-attachments/assets/... URL, and those only exist after a browser
+  upload. To get one: open a new Issue on github.com (do NOT submit it), drag
+  site/public/media/launch.mp4 into the body, wait for the upload to finish and
+  produce a https://github.com/user-attachments/assets/<uuid> link, copy it, then
+  discard the Issue. A bare user-attachments URL on its own line renders as a
+  player. Until then the thumbnail below links out to the hosted copy.
+-->
+
+### What it looks like
+
+[![Watch the 25-second tour: the term Latinx with seven organizations' rulings stacked chronologically, each with a position badge](site/public/media/launch-poster.jpg)](https://equitylanguagecommons.org/media/launch.mp4)
+
+*Twenty-five seconds: one contested term, and every source organization's ruling on it. ([Watch](https://equitylanguagecommons.org/media/launch.mp4) &middot; also on the [home page](https://equitylanguagecommons.org))*
+
+---
+
 🌐 **Live site:** [equitylanguagecommons.org](https://equitylanguagecommons.org)
 
 📖 **Browse the commons:** [Chapters](https://equitylanguagecommons.org/chapters/) · [Glossary](https://equitylanguagecommons.org/glossary/) · [Sources](https://equitylanguagecommons.org/sources/)

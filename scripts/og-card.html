@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1200, height=630">
+<title>Equity Language Commons — social card</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400&display=block" rel="stylesheet">
+<style>
+  :root {
+    --bg: #faf6ef;
+    --bg-card: #fffdf8;
+    --ink: #22201c;
+    --ink-soft: #5a564e;
+    --ink-muted: #8a857a;
+    --rule: #e5ddce;
+    --accent: #a84c2a;
+    --use-bg: #e4ede0;   --use-ink: #3a5a2e;
+    --care-bg: #f5ead1;  --care-ink: #7a5b15;
+    --evolving-bg: #dfe7ef; --evolving-ink: #2d4c6b;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1200px; height: 630px; overflow: hidden; }
+  body {
+    background: var(--bg);
+    font-family: system-ui, -apple-system, sans-serif;
+    color: var(--ink);
+    padding: 68px 76px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .kicker {
+    font-size: 21px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--ink-muted);
+  }
+  h1 {
+    font-family: "Source Serif 4", Charter, Georgia, serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 1.16;
+    letter-spacing: -0.01em;
+    max-width: 21ch;
+    margin-top: 26px;
+  }
+  h1 em { font-style: normal; color: var(--accent); }
+  .row { display: flex; align-items: center; gap: 16px; margin-top: 52px; }
+  .term {
+    font-family: "Source Serif 4", Charter, Georgia, serif;
+    font-size: 40px;
+    color: var(--accent);
+    margin-right: 10px;
+  }
+  .badge {
+    padding: 11px 24px;
+    border-radius: 4px;
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: 0.015em;
+  }
+  .b-use { background: var(--use-bg); color: var(--use-ink); }
+  .b-care { background: var(--care-bg); color: var(--care-ink); }
+  .b-evolving { background: var(--evolving-bg); color: var(--evolving-ink); }
+  footer {
+    border-top: 1px solid var(--rule);
+    padding-top: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .url { font-size: 25px; letter-spacing: 0.04em; color: var(--accent); }
+  .counts { font-size: 23px; color: var(--ink-soft); }
+  .counts b { font-family: "Source Serif 4", Charter, Georgia, serif; font-weight: 400; color: var(--ink); }
+</style>
+</head>
+<!--
+  Source for site/public/og.png (the Open Graph / social preview card).
+
+  Regenerate after changing the term counts or the headline:
+
+    ../../../claude-management/tools/chrome-run --timeout 45 --expect-file /tmp/og.png -- \
+      --headless --disable-gpu --screenshot=/tmp/og.png \
+      --window-size=1200,630 --hide-scrollbars "file://$PWD/scripts/og-card.html"
+    cp /tmp/og.png site/public/og.png
+
+  Source Serif 4 loads from Google Fonts here (render-time only, never shipped).
+  It is the site's own declared fallback for Charter, so the card matches the site.
+-->
+<body>
+  <div>
+    <div class="kicker">Equity Language Commons</div>
+    <h1>Every guide says something different. <em>See them side by side.</em></h1>
+    <div class="row">
+      <span class="term">Latinx</span>
+      <span class="badge b-use">Use</span>
+      <span class="badge b-care">Use with care</span>
+      <span class="badge b-evolving">Evolving</span>
+    </div>
+  </div>
+  <footer>
+    <span class="url">equitylanguagecommons.org</span>
+    <span class="counts"><b>139</b> terms &middot; <b>37</b> source organizations</span>
+  </footer>
+</body>
+</html>
