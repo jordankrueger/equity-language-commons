@@ -40,3 +40,6 @@ source-guides
 ._*
 site/node_modules
 print-export/
+
+# Promo video output (/brag + Hyperframes) — 1MB mp4, not site content
+brag-output/
