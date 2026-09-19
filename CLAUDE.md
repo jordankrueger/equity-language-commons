@@ -63,6 +63,15 @@ plus glossary index + SQLite build-time index + Contribute page.
 
 ## Pick-up notes for next ELC session
 
+**Done 2026-09-19 — launched, with a Beta tag:**
+- **Beta badge in the site header** (PR #7, commit on main), next to the wordmark, linking to a new `#beta` section on `/about/`. Wording is deliberate: beta means *the collection is still growing*, not that pages are unfinished. Files: `site/src/components/SiteHeader.astro`, `site/src/styles/global.css`, `site/src/pages/about.astro`. Deploy run `35451902995` green; verified in the live HTML at both URLs.
+- **`www.equitylanguagecommons.org` did not exist at all** — no DNS record, so anyone typing www got a resolution failure. Added `www` as a Cloudflare Pages custom domain **and** a proxied CNAME `www -> equity-language-commons.pages.dev` in zone `c46a037c03e540f8bbd09a40db5e61f6`. Adding the Pages custom domain alone does NOT create the DNS record; both steps are needed. Verified 200 against 1.1.1.1 and 8.8.8.8. **Gotcha:** the Mac Mini's own resolver holds a negative cache for a name that used to NXDOMAIN, so `curl` from here kept returning "Could not resolve host" long after the record was live — verify with `dig @1.1.1.1` or `curl --resolve`, not the local resolver.
+- **Both old launch blockers were already done** and just hadn't been re-checked: `hello@equitylanguagecommons.org` forwards (Cloudflare Email Routing rule enabled), and all six GitHub Discussion categories exist.
+- **Launch announcement drafts** live in the writing-voice box, area `personal`: LinkedIn post (`2026-09-19-linkedin-elc-launch-linkedin`) and the three emails — Hanna Thomas, RadComms/GameChanger Salon listservs, and the source-org notification template with a verified per-org merge table (`2026-09-19-client-email-elc-launch-emails`). Not sent yet; Jordan sends them.
+- **Correction worth keeping:** the ROADMAP's Phase 5 outreach list names GLAAD, the Dart Center and Race Forward, and **none of those are actually sources in this corpus.** The merge table in the emails draft is generated from `site/src/content/sources/*.md` frontmatter, so it matches what the site really cites. Don't write outreach copy from the ROADMAP list.
+- Site state at launch: 139 terms, 37 source organizations, 9 chapters, 193 built pages.
+
+
 **Done 2026-09-17 — social preview, launch video, README player, PRs #2–#6 resolved:**
 - **Fixed the missing social preview (biggest find of the session).** The site had NO `og:image` at all — every shared link rendered as a bare text card on Slack/LinkedIn/Bluesky/Discord/iMessage. Added full OG + Twitter card meta to `site/src/layouts/BaseLayout.astro` (inherited by all pages) plus a 1200x630 card at `site/public/og.png`. Source lives at `scripts/og-card.html` — regenerate with a headless-Chrome screenshot of that file (see the file's own header comment for the exact command). Verified HTTP 200 for five unfurler bots.
 - **`BaseLayout` now takes optional `ogImage`/`ogImageAlt` props**, defaulting to the site-wide card — lets a future page (e.g. a term or chapter) ship its own social image without touching the layout.
