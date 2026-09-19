@@ -19,7 +19,15 @@ const path = Astro.url.pathname;
 
 <header class="site-header" data-pagefind-ignore>
   <div class="wrap">
-    <p class="site-title"><a href="/">Equity Language <em>Commons</em></a></p>
+    <p class="site-title">
+      <a href="/">Equity Language <em>Commons</em></a>
+      <a
+        class="beta-tag"
+        href="/about/#beta"
+        title="Published and usable. More terms and chapters are still being added."
+        >Beta</a
+      >
+    </p>
     <nav class="site-nav" aria-label="Primary">
       {NAV.map((item) => {
         const current = item.match?.test(path);

@@ -69,6 +69,27 @@ body {
 }
 .site-title a { color: inherit; text-decoration: none; }
 .site-title em { color: var(--accent); font-style: normal; font-weight: 500; }
+.beta-tag {
+  display: inline-block;
+  margin-left: 0.45rem;
+  padding: 0.15em 0.45em;
+  border: 1px solid var(--accent);
+  border-radius: 3px;
+  color: var(--accent);
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  text-decoration: none;
+  vertical-align: 0.18em;
+  line-height: 1.4;
+}
+.beta-tag:hover,
+.beta-tag:focus-visible {
+  background: var(--accent);
+  color: var(--bg);
+}
 .site-nav {
   display: flex;
   gap: 1.4rem;
