@@ -4,7 +4,7 @@ org_slug: "gcjt"
 work_title: "GCJT Style Guide for Trauma-Informed Journalism"
 year: 2021
 copyright_holder: "Global Center for Journalism & Trauma"
-license: "© Global Center for Journalism & Trauma. Excerpted under fair use; original linked, not republished."
+license: "© Global Center for Journalism & Trauma, licensed CC BY-NC-SA. Excerpted with attribution; original linked, not republished."
 source_url: "https://dartcenter.org/resources/style-guide-trauma-informed-journalism"
 local_archive: "source-guides/discovered/gcjt-style-guide-trauma-2021.md"
 host_posture: "private-mirror-link-out"
@@ -24,4 +24,6 @@ In the commons it is a source for trauma- and violence-related framing terms, in
 
 ## Access
 
-Host posture is **private-mirror-link-out**: the guide is published openly (originally on dartcenter.org, now also at gcjt.org) and was live at the last check. The commons keeps a private preservation copy for citation verification and links out to the authoritative version. Quotes are held within fair-use limits.
+Host posture is **private-mirror-link-out**: the guide is published openly (originally on dartcenter.org, now also at gcjt.org) and was live at the last check. The commons keeps a private preservation copy for citation verification and links out to the authoritative version.
+
+GCJT publishes the guide under [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/). Quotations here are attributed to GCJT and link back to the original; the guide is not republished, and the excerpts are not relicensed under this site's CC BY 4.0 content licence.

@@ -158,8 +158,8 @@ Full text in [LICENSE](LICENSE).
 The commons cites work from dozens of organizations doing the on-the-ground work of equity language. A full list, with current access status, lives at [/sources/](https://equitylanguagecommons.org/sources/). The corpus would not exist without:
 
 - Hanna Thomas + Anna Hirsch: *A Progressive's Style Guide* (SumOfUs, 2016): the spiritual predecessor.
-- Native Governance Center, NAJA / Indigenous Journalists Association, NABJ, NLGJA, Trans Journalists Association, GLAAD, HRC, interACT: primary identity-led style references.
-- Sierra Club, NCDJ, APA, Race Forward, Diversity Style Guide, Racial Equity Tools, Color of Change, Define American, Immigrant Defense Project, Dart Center / GCJT, World Food Program USA, Words About War Matter: primary movement and journalism style references.
+- Native Governance Center, NAJA / Indigenous Journalists Association, NABJ, NLGJA, Trans Journalists Association, HRC, interACT: primary identity-led style references.
+- Sierra Club, NCDJ, APA, Race Forward, Diversity Style Guide, Racial Equity Tools, Color of Change, Define American, Immigrant Defense Project, GCJT, World Food Program USA, Words About War Matter: primary movement and journalism style references.
 - The maintainers of the *Conscious Style Guide* and *Diversity Style Guide*: peer aggregators whose work is the prior art for this kind of cross-reference project.
 
 Maintained by [Jordan Krueger](https://jordankrueger.com).
