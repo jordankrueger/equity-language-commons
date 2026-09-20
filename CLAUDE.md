@@ -71,6 +71,14 @@ plus glossary index + SQLite build-time index + Contribute page.
 - **Correction worth keeping:** the ROADMAP's Phase 5 outreach list names GLAAD, the Dart Center and Race Forward, and **none of those are actually sources in this corpus.** The merge table in the emails draft is generated from `site/src/content/sources/*.md` frontmatter, so it matches what the site really cites. Don't write outreach copy from the ROADMAP list.
 - Site state at launch: 139 terms, 37 source organizations, 9 chapters, 193 built pages.
 
+**Done 2026-09-20 — `/simplify` pass over the badge diff (PR #8, merged + live):**
+- **Real defect the review caught: the badge's colour never applied.** `.site-title a { color: inherit }` is specificity (0,1,1) and beat `.beta-tag { color: var(--accent) }` (0,1,0), so the badge rendered dark ink instead of accent — and its `:hover` would have put dark ink on the accent fill. **Only visible in a screenshot**; the build was clean and the HTML was correct. Both badge selectors are now scoped under `.site-title`. Worth generalizing: anything added inside `.site-title` competes with that `color: inherit` rule.
+- `aria-label` added to the badge link. A `title` attribute reaches neither screen readers nor touch users, so "Beta" was an unexplained link for exactly the readers most likely to need it explained.
+- `font-size` 0.6rem → 0.72rem (~9.6px uppercase + letter-spaced was below a readable floor); `.site-title` is `inline-flex`, which removed the hand-tuned `vertical-align: 0.18em` and the `line-height` override offsetting it; redundant `font-family` dropped.
+- Accent-on-bg contrast measured 5.22:1 in both states — passes AA, no change needed.
+- **Deliberately skipped:** consolidating `.beta-tag` with `.stub-chip` / `.confidence-flag` into a shared pill utility. Real duplication, but it is the standing backlog item (see 2026-09-17 note on the repeated bordered-card recipe) and touches rules outside the diff. `.beta-tag` is now a 4th call site for whoever does that consolidation.
+- The badge is deliberately hardcoded, not behind a config flag — the review confirmed no site-config module exists and one boolean does not justify creating one. `global.css` now carries a comment naming all three files to delete together when beta ends.
+
 
 **Done 2026-09-17 — social preview, launch video, README player, PRs #2–#6 resolved:**
 - **Fixed the missing social preview (biggest find of the session).** The site had NO `og:image` at all — every shared link rendered as a bare text card on Slack/LinkedIn/Bluesky/Discord/iMessage. Added full OG + Twitter card meta to `site/src/layouts/BaseLayout.astro` (inherited by all pages) plus a 1200x630 card at `site/public/og.png`. Source lives at `scripts/og-card.html` — regenerate with a headless-Chrome screenshot of that file (see the file's own header comment for the exact command). Verified HTTP 200 for five unfurler bots.
