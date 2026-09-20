@@ -25,4 +25,4 @@ The commons cites IDP's journalist guidance in two editions, both "Prepared by t
 
 ## Access
 
-The two editions have different access status. The later *Comm/Unity Style Guide* remains live on IDP's site (host posture **private-mirror-link-out**, linked above), while the 2020 first edition's original URL now 404s and survives as an archived orphan copy held with attribution. Quotes are held within fair-use limits.
+The two editions have different access status. This later *Comm/Unity Style Guide* remains live on IDP's site, linked above. The 2020 first edition's original URL now 404s, and the commons holds a **private preservation copy** of it for citation verification; the full PDF is not publicly redistributed from this site. IDP is active and holds copyright, and no reuse permission has been granted. Quotes are held within fair-use limits.

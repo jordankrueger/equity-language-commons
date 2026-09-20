@@ -4,10 +4,10 @@ org_slug: "sumofus"
 work_title: "A Progressive's Style Guide"
 year: 2016
 copyright_holder: "SumOfUs (now Ekō)"
-license: "Orphan work: SumOfUs merged into Ekō (2022); archived and hosted with attribution, rights outreach to the original author planned."
+license: "© SumOfUs (now Ekō) and the guide's authors. Excerpted under fair use; private preservation copy held, not republished."
 source_url: null
 local_archive: "source-guides/discovered/sumofus-progressive-styleguide-2016.pdf"
-host_posture: "host-publicly"
+host_posture: "private-mirror-link-out"
 live_status: "offline"
 length_pages: 41
 format: "PDF"
@@ -22,4 +22,8 @@ In the commons it is a broad, cross-chapter source.
 
 ## Access
 
-Host posture is **host-publicly**: with SumOfUs now dissolved into Ekō, the 2016 guide is an **orphaned work** with no maintained home, so the commons holds and serves an archived copy with attribution (status: offline at the original). Rights outreach to the guide's original author is planned, and the posture will be revisited if requested.
+The 2016 PDF is no longer available at its original location. SumOfUs renamed itself Ekō in 2023; the organization is active, and the guide's authors, Hanna Thomas and Anna Hirsch, are named on the work itself.
+
+The commons holds a **private preservation copy** for citation verification, so that quotes cited here stay verifiable even if the original PDF moves or is withdrawn. The full PDF is not publicly redistributed from this site. Copyright rests with SumOfUs/Ekō and the authors, and no reuse permission has been granted.
+
+For reuse beyond fair-use citation, contact Ekō via [eko.org](https://www.eko.org/).

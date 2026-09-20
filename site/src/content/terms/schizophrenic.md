@@ -34,7 +34,7 @@ guidance:
     derived_from: []
     quote: "Use clear, people-first language when describing a condition and its symptoms. For example, \"she is living with schizophrenia\" rather than \"she is schizophrenic.\""
     quote_loc: "Mental health / people-first language section"
-    paraphrase: "The Dart Center / GCJT trauma-informed guide directs writers toward people-first phrasing: \"living with schizophrenia\" rather than \"schizophrenic\" as a label for the person."
+    paraphrase: "The GCJT trauma-informed guide directs writers toward people-first phrasing: \"living with schizophrenia\" rather than \"schizophrenic\" as a label for the person."
     confidence: "VERIFIED-ARCHIVED"
   - org: "National Center on Disability and Journalism"
     org_slug: "ncdj"
@@ -78,7 +78,7 @@ contributors:
 
 ## Synthesis
 
-The sources make two separate points. The first is a people-first rule: NCDJ and the Dart Center / GCJT both treat "schizophrenic" as the wrong way to label a person, preferring "a person with schizophrenia" or "living with schizophrenia." The form to avoid is the word used as a noun or fixed adjective for someone, not the diagnosis itself. NCDJ explicitly allows referring to a person as having schizophrenia when it is relevant and medically confirmed.
+The sources make two separate points. The first is a people-first rule: NCDJ and GCJT both treat "schizophrenic" as the wrong way to label a person, preferring "a person with schizophrenia" or "living with schizophrenia." The form to avoid is the word used as a noun or fixed adjective for someone, not the diagnosis itself. NCDJ explicitly allows referring to a person as having schizophrenia when it is relevant and medically confirmed.
 
 The second is a caution against metaphor. Every source warns against using "schizophrenic" to mean "of two minds," inconsistent, or contradictory: SumOfUs names it in 2016, NCDJ rules it out colloquially in 2021, and the Diversity Style Guide devotes its 2023 entry to it, supplying replacements ("indecisive," "unsettled") for what the writer usually means. The metaphor caution is present from the earliest source on, not a late addition. The four guides span 2016 to 2023 and agree throughout.
 
