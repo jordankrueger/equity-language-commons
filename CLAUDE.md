@@ -383,3 +383,13 @@ Domain equitylanguagecommons.org secured 2026-05-14.
 
 Includes: Hanna Thomas courtesy, source-org notifications (not permission-seeking), peer-project courtesy to CSG/DSG maintainers, RadComms + GameChanger Salon announcement, personal LinkedIn post, opening to community submissions.
 - **Phase 6 — Maintenance rhythm** (Planned) - Quarterly source-edition checks, ongoing term/source additions, community PRs, last_reviewed per term.
+
+## Bluesky account
+
+**@equitylanguagecommons.org** (did:plc:qjvqnpaxu3xusadshazn7k5x), created 2026-10-01 as `elc81.bsky.social`
+(the .bsky.social part caps at 18 characters, so the full name could only be the domain handle).
+Signup email `hello@equitylanguagecommons.org`. The handle is verified by the `_atproto.equitylanguagecommons.org`
+TXT record in zone `c46a037c03e540f8bbd09a40db5e61f6` (personal Cloudflare account); deleting it breaks the
+handle. Profile artwork sources are in `scripts/social/bluesky/` (preview at `review.html`). The banner reuses
+`scripts/og-card.html`'s layout and palette, so re-sync both together. Posting goes through Postiz
+(https://postiz.campaign.help), Integration `cmupm8g23000ilb6ldg7yn692`, which logs in by email.
