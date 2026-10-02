@@ -1,28 +1,11 @@
 ---
-type Recommendation =
-  | "use"
-  | "non-preferred"
-  | "avoid"
-  | "use-with-care"
-  | "contested"
-  | "evolving"
-  | "reclaimed-in-community";
+import { REC_LABEL, type Recommendation } from "../lib/recommendations";
 
 interface Props {
   value: Recommendation;
 }
 
-const LABEL: Record<Recommendation, string> = {
-  use: "Use",
-  "non-preferred": "Non-preferred",
-  avoid: "Avoid",
-  "use-with-care": "Use with care",
-  contested: "Contested",
-  evolving: "Evolving",
-  "reclaimed-in-community": "Reclaimed in community",
-};
-
 const { value } = Astro.props;
 ---
 
-<span class={`badge badge-${value}`}>{LABEL[value]}</span>
+<span class={`badge badge-${value}`}>{REC_LABEL[value]}</span>

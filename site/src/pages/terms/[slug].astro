@@ -4,6 +4,7 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import Breadcrumb from "../../components/Breadcrumb.astro";
 import GuidanceCard from "../../components/GuidanceCard.astro";
 import RecBadge from "../../components/RecBadge.astro";
+import { REC_LABEL } from "../../lib/recommendations";
 
 export async function getStaticPaths() {
   const terms = await getCollection("terms");
@@ -44,20 +45,11 @@ const guidance = [...(data.guidance ?? [])].sort((a, b) => a.year - b.year);
 
 // Search-result description: the tally of what the guides actually say,
 // computed from the guidance entries so it can never drift from the page.
-const REC_TEXT = {
-  use: "use",
-  "non-preferred": "non-preferred",
-  avoid: "avoid",
-  "use-with-care": "use with care",
-  contested: "contested",
-  evolving: "evolving",
-  "reclaimed-in-community": "reclaimed in community",
-};
 const recCounts = new Map();
 for (const g of guidance) recCounts.set(g.recommendation, (recCounts.get(g.recommendation) ?? 0) + 1);
 const tally = [...recCounts]
   .sort((a, b) => b[1] - a[1])
-  .map(([rec, n]) => `${n} ${REC_TEXT[rec] ?? rec}`)
+  .map(([rec, n]) => `${n} ${REC_LABEL[rec].toLowerCase()}`)
   .join(", ");
 const n = guidance.length;
 const description = n
