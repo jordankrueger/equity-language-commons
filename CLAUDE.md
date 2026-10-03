@@ -26,7 +26,7 @@ locked. Astro site live at the preview URL. Full programmatic pipeline
 shipped — extract → matrix → source-page scaffold → enrich → term scaffold,
 plus glossary index + SQLite build-time index + Contribute page.
 
-**Phase 3 (bulk term indexing) is underway** across **9 chapters**:
+**Launched 2026-09-19 (Beta); Phase 3 term indexing continues** across **9 chapters**:
 - **Race & Ethnicity** — 29 indexed terms (added 2026-06-05: colored, diversity, ethnicity, intersectionality). Chapter lede + cross-cutting principles updated to cover structural vocabulary alongside identity labels. Note: `arab` went here, not Faith — Sierra separates Muslim (religion) from Arab (ethnicity).
 - **Indigenous & Tribal Sovereignty** — 8 indexed terms (added 2026-06-04: indian, indian-country, two-spirit), chapter intro with 6 cross-cutting principles. Note: two-spirit's 3rd source is NLGJA's dedicated two-spirit entry, which the matrix scan missed; two-spirit is dual-category (also LGBTQ+). `tribal`/`sovereignty`/`treaty` are NOT standalone matrix terms in the current corpus (only compounds) — the earlier pick-up note claiming they were matrix-strong was stale.
 - **Sexuality & Gender Identity** — 28 indexed terms (added 2026-06-05: agender, ally, biological-sex, deadname, female-to-male, gender-affirming-care, gender-nonconforming, grooming, transvestite), chapter intro with 7 cross-cutting principles
@@ -209,7 +209,6 @@ In priority order:
 
 4. **Round out Indigenous chapter further.** Matrix-strong candidates not yet indexed: `tribal` (separate from `tribe`), `two-spirit`, `sovereignty`, `treaty`.
 
-5. **Manual setup items Jordan owes (tracked in Drift):** Cloudflare Email Routing for hello@equitylanguagecommons.org; GitHub Discussion categories; GitHub auto-deploy in CF dashboard. None block Phase 3 term work.
 
 6. **At launch (Phase 4):** flip repo to public, DNS flip equitylanguagecommons.org, verify all source pages have About sections written, run final legal pass.
 
@@ -334,7 +333,6 @@ Walks the coverage matrix for source slugs not represented in `site/src/content/
 - Every direct quote under 50 words (fair-use margin) unless permissioned
 - Every quote cites org, year, and canonical source URL
 - `research-notes.md` is the audit trail — every claim must be traceable
-- Don't reach out to source orgs or Hanna Thomas until Phase 1 schema work is done and we have something concrete to show
 
 ## Editorial voice
 
@@ -374,7 +372,7 @@ Terms, chapters, and sources that don't yet have content are OK to show during d
 
 ## Roadmap (migrated from Drift 2026-08-17)
 
-- **Phase 4 — Quiet build → public launch** (In progress) - Rewritten 2026-05-14 from "Soft launch (private)" to a quiet-build-then-public-launch model. No friends-and-family preview round. Build until launch-ready (~50 terms, 3-4 chapters, all source pages real), then flip DNS to equitylanguagecommons.org in one motion.
+- **Phase 4 — Quiet build → public launch** (Done — launched 2026-09-19) - Rewritten 2026-05-14 from "Soft launch (private)" to a quiet-build-then-public-launch model. No friends-and-family preview round. Build until launch-ready (~50 terms, 3-4 chapters, all source pages real), then flip DNS to equitylanguagecommons.org in one motion.
 
 Launch readiness criteria: ~50 terms, all source pages fleshed out, 2+ chapters with real intros, legal pass, Pagefind wired, CF Pages live.
 
