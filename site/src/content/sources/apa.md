@@ -34,4 +34,3 @@ The second edition is freely available as a PDF on APA's site (linked above) and
 
 The commons holds a **private preservation copy** for citation verification. Because APA's notice already permits noncommercial redistribution with attribution, the host posture here is conservative rather than required: quotes are kept inside the fair-use margin and the original is linked for the authoritative version.
 
-*Earlier note: an interim summarized extraction (via WebFetch, April 2026) stood in for this source while direct download was blocked by APA's anti-bot layer; it was replaced with the full archived PDF and a clean text extraction on 2026-05-26.*

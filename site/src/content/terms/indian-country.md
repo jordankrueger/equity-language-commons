@@ -55,7 +55,7 @@ guidance:
     confidence: "VERIFIED-ARCHIVED"
   - org: "Indigenous Journalists Association (formerly NAJA)"
     org_slug: "naja"
-    year: 2023
+    year: 2017
     entry_updated: null
     source_url: "https://indigenousjournalists.org/ap-style-insert/"
     local_archive: "source-guides/discovered/naja-indigenous-terminology-2023-06.pdf"

@@ -35,7 +35,7 @@ The chapter divides cleanly into prescribe and reject. Unlike chapters where the
 ## How sources position themselves
 
 - **Define American: Media Reference Guide (2024)**: the chapter's dedicated source. Defines each status term precisely, lists problematic terms against preferred ones, and frames the whole guide around humanizing immigrants as individuals rather than a monolith.
-- **Immigrant Defense Project: Journalist Style Guide (2020) and Comm/Unity Style Guide R4 (2021)**: two IDP guides built around a "problematic terms to reconsider" chart that pairs each rejected term with a person-centered alternative.
+- **Immigrant Defense Project: Journalist Style Guide (2020) and its Third Edition (2022), prepared by the Comm/Unity Network**: two IDP guides built around a "problematic terms to reconsider" chart that pairs each rejected term with a person-centered alternative.
 - **Sierra Club Equity Language Guide (2021)**: paired "appropriate terms" and "terms to avoid" lists; frames its high standard against the organization's own history of internal anti-immigrant organizing.
 - **SumOfUs Progressive Style Guide (2016)**: the earliest source here; supplies the "no person is illegal" argument and the activist-used vs. activist-avoided term columns.
 - **Diversity Style Guide (2023)**: peer aggregator; the definitional backbone for the relevancy test, the "never use illegal(s) as a noun" rule, and the February 2021 USCIS shift.

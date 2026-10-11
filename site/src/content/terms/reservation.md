@@ -63,12 +63,12 @@ guidance:
 
   - org: "Indigenous Journalists Association (formerly NAJA)"
     org_slug: "naja"
-    year: 2023
+    year: 2017
     entry_updated: null
     source_url: "https://indigenousjournalists.org/ap-style-insert/"
     local_archive: "source-guides/discovered/naja-indigenous-terminology-2023-06.pdf"
     recommendation: "use-with-care"
-    quote: "Indian Country is a legal term used in Title 18 of the U.S. Code. It broadly defines federal and tribal jurisdiction in crimes affecting American Indians on reservations. But it also has popular usage, describing reservations, lands held within tribal jurisdictions and areas with American Indian populations."
+    quote: "it also has popular usage, describing reservations, lands held within tribal jurisdictions and areas with American Indian populations."
     quote_loc: "Indian Country section"
     paraphrase: "NAJA situates reservations within a wider legal/cultural geography: 'Indian Country' is the umbrella legal term in U.S. federal code, and includes reservations along with other tribal-jurisdiction lands. NAJA does not separately treat 'reservation' as a style-guide entry; the term is used descriptively throughout the guide alongside 'tribal lands.'"
     confidence: "VERIFIED-ARCHIVED"

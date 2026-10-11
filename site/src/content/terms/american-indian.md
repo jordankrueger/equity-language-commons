@@ -29,12 +29,12 @@ tags:
 guidance:
   - org: "Indigenous Journalists Association (formerly NAJA)"
     org_slug: "naja"
-    year: 2023
+    year: 2017
     entry_updated: null
     source_url: "https://indigenousjournalists.org/ap-style-insert/"
     local_archive: "source-guides/discovered/naja-indigenous-terminology-2023-06.pdf"
     recommendation: "use"
-    quote: "Either term is generally acceptable and can be used interchangeably, although individuals may have a preference. … Native American and American Indian can be used interchangeably; however, the term is used only to describe groups of Native Americans — two or more individuals of different tribal affiliation."
+    quote: "Either term is generally acceptable and can be used interchangeably, although individuals may have a preference."
     quote_loc: "Reporting and Indigenous Terminology, opening section"
     paraphrase: "NAJA treats Native American and American Indian as interchangeable in the general case, with individual preference taking precedence whenever stated. The guide adds an important precision rule: both umbrella terms apply only when referring to two or more people from different tribal affiliations: for an individual or for coverage of a single tribe, the specific tribal name is required."
     confidence: "VERIFIED-ARCHIVED"

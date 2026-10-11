@@ -57,7 +57,7 @@ guidance:
     confidence: "VERIFIED-ARCHIVED"
   - org: "Immigrant Defense Project"
     org_slug: "idp"
-    year: 2021
+    year: 2022
     entry_updated: null
     source_url: "https://www.immigrantdefenseproject.org/"
     local_archive: "source-guides/discovered/comm-unity-style-guide-2021.pdf"
@@ -65,7 +65,7 @@ guidance:
     derived_from: []
     quote: "PROBLEMATIC TERM: “Illegal immigrant.” This term ignores the complexities of immigration status and has been widely rejected by news organizations over the last several years."
     quote_loc: "Problematic Terms to Reconsider chart, Comm/Unity Style Guide R4"
-    paraphrase: "The 2021 Comm/Unity revision keeps 'illegal immigrant' on its problematic-terms chart with the same reasoning as the 2020 guide and the same prescribed alternatives: undocumented immigrant or immigrant without current status."
+    paraphrase: "The 2022 third edition keeps 'illegal immigrant' on its problematic-terms chart with the same reasoning as the 2020 guide and the same prescribed alternatives: undocumented immigrant or immigrant without current status."
     confidence: "VERIFIED-ARCHIVED"
   - org: "Sierra Club"
     org_slug: "sierra-club"
