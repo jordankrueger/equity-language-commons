@@ -2,7 +2,7 @@
 org: "Indigenous Journalists Association (formerly NAJA)"
 org_slug: "naja"
 work_title: "Reporting and Indigenous Terminology Guide"
-year: 2023
+year: 2017
 copyright_holder: "Indigenous Journalists Association (formerly Native American Journalists Association)"
 license: "© Indigenous Journalists Association. Excerpted under fair use; original linked, not republished."
 source_url: "https://indigenousjournalists.org/ap-style-insert/"
@@ -15,7 +15,7 @@ last_checked: 2026-06-07
 added: 2026-05-17
 version_history:
   - year: 2017
-    note: "Earlier edition of the terminology guide (PDF metadata 2017-04-08); the indigenous term entry deliberately cites this edition."
+    note: "Edition quoted in the commons (archived PDF, created 2017-04-08, published under the NAJA name). The live guide on indigenousjournalists.org may be a later revision."
 ---
 
 ## About
@@ -24,7 +24,7 @@ The **Indigenous Journalists Association (IJA)**: known as the **Native American
 
 In the commons it is a source for the Indigenous & Tribal Sovereignty chapter.
 
-*Data note: year corrected from 2017 to 2023 to match the archived edition (June 2023) and the source manifest; the organization rebranded from NAJA to IJA the same year.*
+*Data note: the commons quotes the 2017 edition of this guide, published while the organization was still NAJA. The current version lives on the IJA site and may differ.*
 
 ## Access
 

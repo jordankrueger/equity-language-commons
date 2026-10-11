@@ -27,7 +27,7 @@ The whole chapter turns on people-first language applied to a tightly related se
 
 ## How sources position themselves
 
-- **Immigrant Defense Project: Journalist Style Guide (2020) and Comm/Unity Style Guide (2021 edition)**: the "Problematic Terms to Reconsider" chart, which groups felon, convict, ex-con, and offender as stigmatizing and offers "person with a felony conviction."
+- **Immigrant Defense Project: Journalist Style Guide (2020) and Third Edition (2022), prepared by the Comm/Unity Network**: the "Problematic Terms to Reconsider" chart, which groups felon, convict, ex-con, and offender as stigmatizing and offers "person with a felony conviction."
 - **Diversity Style Guide (2023)**: dedicated glossary entries for convict, inmate, and a combined "felon, offender," each routed through The Marshall Project's people-first constructions.
 - **Sierra Club Equity Language Guide (2021)**: an "Incarceration" section and an overall "Use People-First Language" recommendation naming "inmate" and "felon" as reductive terms against "formerly incarcerated person."
 - **SumOfUs Progressive Style Guide (2016)**: a two-column police/incarceration table; the source of the chapter's one dissent, listing "inmate" among terms used by reform activists while placing "offender / ex-offender" in the avoid column.

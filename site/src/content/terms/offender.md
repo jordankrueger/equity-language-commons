@@ -31,14 +31,14 @@ guidance:
     confidence: "VERIFIED-ARCHIVED"
   - org: "Immigrant Defense Project"
     org_slug: "idp"
-    year: 2021
+    year: 2022
     entry_updated: null
     source_url: "https://www.immigrantdefenseproject.org/"
     local_archive: "source-guides/discovered/comm-unity-style-guide-2021.pdf"
     recommendation: "avoid"
     derived_from: []
     quote: "“Felon;” “convict;” “ex-con;” “offender” … As health experts have noted, this carries a significant amount of stigma. These terms may paint an overly simplistic picture to readers. … Alternatives: Person with a felony conviction."
-    quote_loc: "Problematic Terms to Reconsider chart, Comm/Unity Style Guide R4 (2021)"
+    quote_loc: "Problematic Terms to Reconsider chart, Journalist Style Guide, Third Edition (2022)"
     paraphrase: "The Comm/Unity Style Guide (published by IDP) carries the same combined entry, flagging \"offender\" as stigmatizing and preferring \"person with a conviction.\""
     confidence: "VERIFIED-ARCHIVED"
   - org: "Sierra Club"

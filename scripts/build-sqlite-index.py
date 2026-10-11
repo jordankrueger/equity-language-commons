@@ -413,6 +413,22 @@ def ingest_terms(con: sqlite3.Connection) -> tuple[int, int, int, int, int]:
     return term_count, guidance_count, chapter_mappings, category_mappings, tag_mappings
 
 
+NOTICE = (
+    "Equity Language Commons cross-reference layer: CC BY 4.0, Jordan Krueger. "
+    "Source guides remain (c) their respective publishers. Quotes are used under fair use, "
+    "each capped at 50 words, with attribution in the org_slug, year and quote_loc columns. "
+    "Reuse of quoted material beyond citation requires the publisher's permission. "
+    "Full context: https://equitylanguagecommons.org/methodology/"
+)
+
+
+def write_meta(con: sqlite3.Connection) -> None:
+    # OUT_PATH is unlinked before every build, so this table is always fresh.
+    con.execute("CREATE TABLE meta (key TEXT PRIMARY KEY, value TEXT NOT NULL)")
+    con.execute("INSERT INTO meta (key, value) VALUES ('notice', ?)", (NOTICE,))
+    con.commit()
+
+
 def main() -> int:
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     if OUT_PATH.exists():
@@ -420,6 +436,7 @@ def main() -> int:
     con = sqlite3.connect(OUT_PATH)
     try:
         init_schema(con)
+        write_meta(con)
         source_count = ingest_sources(con)
         chapter_count, _ = ingest_chapters(con)
         (

@@ -43,7 +43,7 @@ guidance:
     confidence: "VERIFIED-ARCHIVED"
   - org: "Immigrant Defense Project"
     org_slug: "idp"
-    year: 2021
+    year: 2022
     entry_updated: null
     source_url: "https://www.immigrantdefenseproject.org/"
     local_archive: "source-guides/discovered/comm-unity-style-guide-2021.pdf"

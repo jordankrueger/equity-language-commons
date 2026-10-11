@@ -1,8 +1,8 @@
 ---
 org: "Immigrant Defense Project"
 org_slug: "idp"
-work_title: "Comm/Unity Style Guide R4"
-year: 2021
+work_title: "Journalist Style Guide: Reporting at the intersection of immigration, policing, and incarceration (Third Edition)"
+year: 2022
 copyright_holder: "Immigrant Defense Project / Comm/Unity Network"
 license: "© Immigrant Defense Project. Excerpted under fair use; original linked, not republished."
 source_url: "https://www.immigrantdefenseproject.org/"
@@ -21,7 +21,6 @@ The **Immigrant Defense Project (IDP)** is a U.S. legal-advocacy organization wo
 
 The commons cites IDP's journalist guidance in two editions, both "Prepared by the Comm/Unity Network": the July 2020 first edition, *Journalist Style Guide: Covering Immigrants with Convictions*, and the expanded *Comm/Unity Style Guide* that succeeded it. They are primary sources for the Immigration & Citizenship chapter, behind terms such as *undocumented immigrant*, *illegal immigrant*, and *illegal alien*.
 
-*Data note: this page's frontmatter records the work as "Comm/Unity Style Guide R4 (2021)," but the archived PDF's title page reads "Reporting at the intersection of immigration, policing, and incarceration: Third Edition • March 2022." The edition label and year in this page's metadata should be reconciled with the archived PDF.*
 
 ## Access
 

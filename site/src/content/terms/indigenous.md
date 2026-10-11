@@ -68,9 +68,9 @@ guidance:
     source_url: "https://indigenousjournalists.org/ap-style-insert/"
     local_archive: "source-guides/discovered/naja-indigenous-terminology-2023-06.pdf"
     recommendation: "use"
-    quote: "These factors make the words 'Indigenous' and 'Aboriginal' identities, not adjectives, and NAJA urges outlets to capitalize these terms in order to avoid confusion between indigenous plants and animals and Indigenous human beings. … avoid referring to Indigenous people as possessions of states or countries."
+    quote: "NAJA urges outlets to capitalize these terms in order to avoid confusion between indigenous plants and animals and Indigenous human beings. … avoid referring to Indigenous people as possessions of states or countries."
     quote_loc: "Reporting and Indigenous Terminology poster, Indigenous or Aboriginal section (PDF metadata: created 2017-04-08)"
-    paraphrase: "NAJA's capitalization rule is the canonical one in U.S. progressive journalism style: lowercase for plants and animals, uppercase for people. DSG, NGC, GCJT, and Sierra Club all inherit this rule directly or indirectly. NAJA also introduces the 'Indigenous people of Wyoming' construction as preferred over 'Wyoming's Indigenous people': rejecting the possessive framing. File naming note: archived file is dated 2023-06 but PDF creation date is 2017-04; treat as 2017 source."
+    paraphrase: "NAJA's capitalization rule is the canonical one in U.S. progressive journalism style: lowercase for plants and animals, uppercase for people. DSG, NGC, GCJT, and Sierra Club all inherit this rule directly or indirectly. NAJA also introduces the 'Indigenous people of Wyoming' construction as preferred over 'Wyoming's Indigenous people': rejecting the possessive framing."
     confidence: "VERIFIED"
 
   - org: "Sierra Club"
@@ -209,7 +209,7 @@ methodological_context:
     source_url: "https://brusheducation.ca/brush-catalogue/p/elements-of-indigenous-style-2e"
     local_archive: null
     framework: "Indigenous style as distinct editorial system"
-    note: "Foundational book-length treatment of Indigenous style. NGC's 2021 guide is structurally built on this source and quotes it directly in the opening framing. Not in our archive (paid book, Brush Education); cited as reference per MANIFEST. Positions: Indigenous style overrides conventional style in disagreement; capitalization of Indigenous / Tribe / Creator / Elder / Sundance / Sweat Lodge / Traditional Knowledge / First Nations / Métis is political redress."
+    note: "Foundational book-length treatment of Indigenous style. NGC's 2021 guide is structurally built on this source and quotes it directly in the opening framing. Not in our archive (paid book, Brush Education); cited as a reference. Positions: Indigenous style overrides conventional style in disagreement; capitalization of Indigenous / Tribe / Creator / Elder / Sundance / Sweat Lodge / Traditional Knowledge / First Nations / Métis is political redress."
   - org: "UN Permanent Forum on Indigenous Issues / José Martínez Cobo"
     org_slug: "un-cobo-1972"
     year: 1972
