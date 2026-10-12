@@ -2,7 +2,7 @@
 term: "Muslim"
 slug: "muslim"
 seo_title: "Muslim vs. Islamic: What Equity Style Guides Say"
-seo_description: "Muslim vs. Islamic: compare three guides on Muslim as a noun for a person and Islamic as an adjective for the faith or world, without conflating faith and ethnicity."
+seo_description: "Muslim vs. Islamic: how style guides use Muslim as a noun for a person and Islamic as an adjective for the faith or world, without conflating faith and ethnicity."
 aliases: ["Muslims"]
 related_terms:
   - slug: "islam"

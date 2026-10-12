@@ -2,7 +2,7 @@
 term: "BIPOC"
 slug: "bipoc"
 seo_title: "BIPOC Meaning: How Equity Style Guides Rate the Term"
-seo_description: "BIPOC means Black, Indigenous, and people of color. Three guides rate it use with care; one rates it use. Compare their reasons and advice on more specific terms."
+seo_description: "BIPOC means Black, Indigenous, and people of color. See how equity style guides rate the term, their reasons, and their advice on more specific terms."
 aliases:
   - "B.I.P.O.C."
   - "Black, Indigenous, and People of Color"
