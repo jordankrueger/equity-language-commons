@@ -1,6 +1,8 @@
 ---
 term: "Caucasian"
 slug: "caucasian"
+seo_title: "Caucasian Meaning: Why Style Guides Advise Against It"
+seo_description: "Caucasian meaning and its discredited racial origins: why two style guides advise against it as a synonym for white, with a narrow exception for demographic data."
 aliases:
   - "caucasian"
 related_terms:

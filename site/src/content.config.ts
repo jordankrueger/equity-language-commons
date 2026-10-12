@@ -101,6 +101,8 @@ const terms = defineCollection({
   schema: z.object({
     term: z.string(),
     slug: z.string(),
+    seo_title: z.string().max(70).optional(),
+    seo_description: z.string().max(170).optional(),
     aliases: z.array(z.string()).optional().default([]),
     related_terms: z.array(RELATED_TERM).optional().default([]),
     categories: z.array(z.string()).optional().default([]),

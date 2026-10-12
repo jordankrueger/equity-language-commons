@@ -52,12 +52,12 @@ const tally = [...recCounts]
   .map(([rec, n]) => `${n} ${REC_LABEL[rec].toLowerCase()}`)
   .join(", ");
 const n = guidance.length;
-const description = n
+const description = data.seo_description ?? (n
   ? `How ${n} equity style guide${n === 1 ? " rates" : "s rate"} "${data.term}": ${tally}. Compare each guide's exact wording side by side.`
-  : `"${data.term}" in the Equity Language Commons.`;
+  : `"${data.term}" in the Equity Language Commons.`);
 ---
 
-<BaseLayout title={data.term} description={description} pagefind>
+<BaseLayout title={data.term} fullTitle={data.seo_title} description={description} pagefind>
   <Breadcrumb
     trail={[
       { href: "/", label: "Home" },

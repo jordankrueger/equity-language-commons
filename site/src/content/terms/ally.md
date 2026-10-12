@@ -1,6 +1,8 @@
 ---
 term: "Ally"
 slug: "ally"
+seo_title: "Ally Meaning: What Equity Style Guides Say"
+seo_description: "Compare five guides on ally meaning, LGBTQ+ and broader solidarity, allyship as action rather than a self-assigned label, and the contested A in LGBTQIA."
 aliases:
   - "Allyship"
   - "Allies"

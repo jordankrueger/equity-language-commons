@@ -1,6 +1,8 @@
 ---
 term: "Ableism"
 slug: "ableism"
+seo_title: "Ableism Meaning: What Equity Style Guides Say"
+seo_description: "Compare six guides on ableism meaning: disability discrimination, prejudice, and structural oppression, plus advice on explaining the term and labeling individuals."
 aliases:
   - "Ableist"
 related_terms:

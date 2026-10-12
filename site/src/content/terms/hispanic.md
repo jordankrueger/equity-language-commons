@@ -1,6 +1,8 @@
 ---
 term: "Hispanic"
 slug: "hispanic"
+seo_title: "Hispanic vs. Latino: What Equity Style Guides Say"
+seo_description: "Hispanic vs. Latino: compare Spanish-language heritage and Latin American origin, regional preferences, and equity style guides' advice on self-identification."
 aliases:
   - "Hispanic American"
 related_terms:

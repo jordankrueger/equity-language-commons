@@ -5,6 +5,7 @@ import "../styles/global.css";
 
 interface Props {
   title: string;
+  fullTitle?: string;
   description?: string;
   mainClass?: string;
   pagefind?: boolean;
@@ -16,7 +17,8 @@ interface Props {
 
 const { title, description, mainClass, pagefind } = Astro.props;
 const fullTitle =
-  title === "Equity Language Commons" ? title : `${title}: Equity Language Commons`;
+  Astro.props.fullTitle ??
+  (title === "Equity Language Commons" ? title : `${title}: Equity Language Commons`);
 const canonical = new URL(Astro.url.pathname, Astro.site);
 
 // Social preview card. The absolute URL matters — Slack, LinkedIn, Bluesky and
