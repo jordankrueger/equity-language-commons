@@ -1,8 +1,8 @@
 ---
 term: "Latino / Latina"
 slug: "latino"
-seo_title: "Hispanic vs. Latino: Regional Usage and Style Guide Advice"
-seo_description: "Hispanic vs. Latino: see why regional preferences matter, how guides use Latino and Latina, and when they recommend gender-neutral alternatives."
+seo_title: "Latino and Latina Meaning: What Equity Style Guides Say"
+seo_description: "Latino and Latina meaning: how equity style guides use the terms, why regional preferences matter, and when they recommend gender-neutral alternatives."
 aliases:
   - "Latino"
   - "Latina"
